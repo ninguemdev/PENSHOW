@@ -4,6 +4,8 @@
 
 Criar um quiz multiplayer para navegador com a entrada simples do Comicle e modalidades variadas inspiradas no Brain Show. O placar das cinco primeiras fases se converte em vantagem explícita na final.
 
+O desenho de cada fase está no [plano detalhado do jogo](plano-do-jogo.md): pontos, quantidade de perguntas, tempos, escolha de temas, dificuldade, exemplos, final, telas e casos de borda. Os números são propostas de protótipo, exceto as regras da final já confirmadas.
+
 ## Estado inicial
 
 | Entrega | Estado |
@@ -12,7 +14,8 @@ Criar um quiz multiplayer para navegador com a entrada simples do Comicle e moda
 | Pesquisa das informações públicas do Brain Show | Concluída com limites documentados |
 | Estrutura e sequência de implementação | Planejadas |
 | Coleta inicial de candidatos a perguntas, procedência e validação estrutural | 531 em português e 1.000 em inglês importados; nenhum aprovado editorialmente |
-| Regras completas, revisão editorial e aplicação jogável | Pendentes |
+| Plano de cada fase, pontos, tempos, exemplos e duração | Documentado; seis escolhas consultadas e valores provisórios identificados |
+| Aprovação das propostas, revisão editorial e aplicação jogável | Pendentes |
 
 ## Entregas em ordem
 
@@ -42,13 +45,13 @@ Aceite: partida real com amigos funciona de ponta a ponta; gabarito não chega a
 
 ### P05 — Motor de fases e modalidades
 
-Criar estratégias e fases de instrução/resultados; adicionar velocidade, aposta, roubo e pressão em incrementos separados. Ajustar equilíbrio observando partidas curtas. Consultar as regras de pressão antes de codificá-la.
+Criar estratégias e fases de instrução/resultados; adicionar velocidade, aposta, roubo e dinamite em incrementos separados, conforme as fichas do plano do jogo. Aposta proposta: 0 / 25 / 50; roubo proposto: primeiro acerto transfere até 50; dinamite proposta: dois turnos por participante, +300 / −150. Incorporar as respostas sobre roubo e quinta fase antes de implementar os respectivos formatos e ajustar equilíbrio observando partidas curtas.
 
 Aceite: cinco fases completas; cada modalidade explica sua regra; transições não dependem do anfitrião responder; ninguém recebe tempo já vencido; pontuação e transferências são determinísticas.
 
 ### P06 — Final e pódio
 
-Aplicar as decisões de [regras](regras.md): vidas iniciais de 5 / 4 / 3 / 2 para sobreviver a 4 / 3 / 2 / 1 perdas. Na final, aceitar apenas a primeira resposta de cada pergunta: erro tira uma vida do autor; acerto permite tirar uma vida de qualquer adversário ativo. Encerrar a jogada e seguir para uma nova pergunta, sem outras tentativas na mesma. Resolver antes da implementação prazo sem resposta, ausência de escolha do alvo e desempates de classificação. Implementar conversão do placar, danos, eliminação, espectadores, vitória e revanche.
+Aplicar as decisões de [regras](regras.md): vidas iniciais de 5 / 4 / 3 / 2 para sobreviver a 4 / 3 / 2 / 1 perdas. Na final, aceitar apenas a primeira resposta de cada pergunta: erro tira uma vida do autor; acerto permite tirar uma vida de qualquer adversário ativo. Encerrar a jogada e seguir para uma nova pergunta, sem outras tentativas na mesma. Incorporar as respostas das consultas sobre prazo sem resposta e ausência de escolha do alvo; validar o desempate proposto de pontos, acertos e sorteio residual. Implementar conversão do placar, danos, eliminação, espectadores, vitória e revanche.
 
 Aceite: o líder permanece com uma vida após quatro perdas e é eliminado na quinta; o mesmo princípio produz eliminação na quarta, terceira e segunda perdas para as outras faixas. Duas respostas concorrentes produzem somente uma resposta aceita; se a primeira estiver errada, a segunda é rejeitada sem novo dano. Somente o autor da resposta correta escolhe um alvo, e o ataque tira uma única vida. Reconectar não restaura vidas nem duplica dano; a disputa termina com o último jogador ainda com vida.
 

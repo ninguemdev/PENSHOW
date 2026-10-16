@@ -12,6 +12,7 @@ O projeto parte da arquitetura do [Comicle](https://github.com/ninguemdev/Comicl
 
 ## Planejamento
 
+- [Plano detalhado do jogo](docs/plano-do-jogo.md): cada fase, quantidade de perguntas, pontos, tempos, exemplos, final e casos de borda.
 - [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
 - [Análise do Comicle](docs/analise-comicle.md): módulos examinados e adaptações necessárias.
 - [Referência do Brain Show](docs/referencia-brain-show.md): evidências e propostas para o PENSHOW.

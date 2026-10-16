@@ -2,6 +2,8 @@
 
 Este documento diferencia requisitos definidos e propostas. Valores identificados como propostas continuam sujeitos a ajuste; os requisitos definidos e a distribuição de vidas da final foram confirmados.
 
+O [plano detalhado do jogo](plano-do-jogo.md) contém as fichas completas das fases, fórmulas, tempos, exemplos de placar, estimativa de duração, interface e casos para validar no protótipo. Este documento resume os requisitos e os valores de trabalho desse plano.
+
 ## Requisitos definidos
 
 | ID | Requisito |
@@ -28,9 +30,10 @@ Repetir por cinco fases; depois `classificação → desempate se necessário �
 - Perfil editável no lobby; identidade e perfil da partida ficam estáveis durante o jogo.
 - Quem chega após o início observa e entra na próxima partida.
 - Perguntas e instruções em pt-BR. Primeira versão com alternativas textuais.
-- Proposta de seis perguntas por fase, com prazo de 15 segundos por pergunta e instruções sem cronômetro de resposta. Esses valores serão ajustados em teste.
+- Proposta: seis perguntas em cada uma das quatro primeiras fases; na quinta, dois turnos por participante. Final até restar um jogador com vida. Cada pergunta tem três segundos de leitura; resposta de até 15 segundos nas fases 1 a 4 e na final, ou dez segundos na dinamite.
+- Instruções de até 15 segundos, com avanço antecipado se todos os participantes conectados estiverem prontos; essa etapa não consome o prazo de resposta.
 - Todos acumulam pontos até a final. Eliminação de uma fase não significa sair da partida.
-- Escolha de tema: rodízio de participantes, quatro opções disponíveis; sorteio inicial e escolha automática se o prazo acabar. Evitar perguntas repetidas na partida.
+- Escolha de tema: fila de participantes com ordem inicial sorteada, até quatro opções elegíveis e prazo de dez segundos; sorteio automático se ninguém escolher. Continuar a fila na revanche, para contemplar grupos com mais de cinco pessoas. Evitar perguntas repetidas na partida.
 - Cinco modalidades fixas na primeira versão; depois permitir ao anfitrião sortear cinco modalidades distintas de um catálogo maior.
 
 ## Modalidades propostas
@@ -41,13 +44,15 @@ As pontuações abaixo são hipóteses iniciais, ainda sem código de partida.
 |---|---|---|
 | Quiz clássico | Todos escolhem uma de quatro alternativas, simultaneamente | Acerto +100; erro ou ausência 0; 15 s |
 | Velocidade | Todos respondem, acerto recebe bônus por faixa de tempo | +100 de base; +50 nos primeiros 5 s; +25 até 10 s; +0 depois; erro 0 |
-| Aposta | Tema conhecido, aposta selada antes do enunciado | Apostar de 0 até o menor entre 100 e o saldo; acertar +100 e a aposta; errar perde somente a aposta |
-| Roubo | Quem acertou escolhe um alvo depois da revelação | Acerto +100; transferência de até 50 do saldo do alvo; resolver transferências simultaneamente e com limite pelo saldo disponível |
-| Pressão | Turnos; acertar passa o objeto ao próximo jogador | Acerto +100; erro encerra o próprio turno sem pontos; cada novo turno recebe prazo completo; duração e penalidade do objeto a decidir |
+| Aposta | Tema e dificuldade conhecidos, aposta selada antes do enunciado | Apostar 0, 25 ou 50, coberto pelo saldo; acertar +100 e a aposta; errar ou não responder perde somente a aposta |
+| Roubo | Todos respondem; primeiro acerto conquista o roubo nesta proposta | Todo acerto +100; primeiro acerto transfere até 50 de um adversário, com limite pelo saldo do alvo |
+| Dinamite | Dois turnos por pessoa, com prazo individual completo | Acerto +300; erro ou ausência −150, limitado pelo saldo; dez segundos para cada resposta |
 
-Para roubo, escolhas ficam seladas até todos escolherem ou o prazo acabar. Se vários escolherem o mesmo alvo e faltar saldo, repartir proporcionalmente, com sobra distribuída por critério determinístico documentado. Evitar que a ordem de chegada dos comandos favoreça alguém. Validar a complexidade desta regra com o usuário antes de implementar.
+Para roubo, só revelar a primeira resposta correta depois de fechar as respostas de todos. Ela recebe seis segundos para escolher o alvo; sem escolha ou alvo com saldo, não há transferência. Calcular o saldo do alvo depois de aplicar o crédito de acerto. A pergunta sobre permitir roubo somente ao primeiro acerto ou também a outros foi enviada; o formato de primeiro acerto é provisório.
 
-Para pressão, não transportar tempo restante negativo ao próximo jogador. A proposta está incompleta de propósito: definir condição da explosão, penalidade e encerramento antes da implementação.
+Para dinamite, uma pergunta média e uma difícil por participante. Sortear a ordem no primeiro ciclo e invertê-la no segundo. Acerto passa a dinamite; erro ou ausência causa explosão e penalidade, seguida de uma dinamite nova para o próximo turno. Não transportar tempo restante negativo. O formato de dinamite está em consulta junto das alternativas de destaque simultâneo e sequência de acertos.
+
+Máximos individuais propostos por fase: 600 / 900 / 900 / 900 / 600 pontos, somando 3.900. O placar começa em zero e nunca fica negativo. Ver fórmulas e exemplos no [plano do jogo](plano-do-jogo.md).
 
 Alternativas de expansão: duas opções (+100 por acerto), sequência (bônus crescente com teto) e sobrevivência (três erros encerram apenas aquela fase). Não tratar uma pergunta de quatro alternativas como verdadeiro/falso sem revisar a transformação e o equilíbrio.
 
@@ -69,7 +74,7 @@ Distribuição confirmada:
 - A primeira resposta aceita fecha imediatamente as tentativas daquela pergunta. Depois do erro ou do ataque, resolver a eliminação e abrir uma nova pergunta, caso a disputa continue.
 - Cada pergunta respondida causa uma única perda de vida: de quem errou ou do alvo escolhido por quem acertou. Não há múltiplos ataques nem soma de erro e ataque na mesma pergunta.
 - O servidor decide qual resposta válida chegou primeiro, dentro da fila da sala, e registra o vencedor da disputa antes de avaliar o gabarito. Payloads inválidos, espectadores, eliminados e respostas fora do prazo não ocupam essa oportunidade.
-- Ainda definir: o que acontece se ninguém responder até o prazo e o que fazer se quem acertou não escolher um alvo ou desconectar antes do ataque.
+- Consultas enviadas: pergunta sem resposta e acerto sem escolha de alvo. Propostas de trabalho: pular sem dano se ninguém responder; se quem acertou não escolher em seis segundos, atacar o adversário com mais vidas, sorteando entre empatados. Não são decisões confirmadas.
 - Proposta: sem ganho de vidas durante a final, para a vantagem inicial permanecer compreensível.
 - Proposta: acerto não causa dano a si mesmo; não se pode escolher alvo eliminado; vidas nunca ficam negativas.
 - Proposta: último jogador com vida vence. Eliminados acompanham como espectadores.
@@ -78,11 +83,11 @@ Distribuição confirmada:
 
 Propostas a validar com a primeira partida:
 
-1. Empate no placar antes da final: comparar acertos; persistindo empate em uma faixa que altere vidas, realizar perguntas extras somente entre empatados, até ordenar a faixa. Um limite e uma saída para empates persistentes precisam ser definidos.
+1. Empate no placar antes da final: comparar número de acertos; persistindo empate, a proposta de trabalho é sortear a ordem entre empatados e exibir o resultado antes de distribuir vidas. Foi enviada consulta entre perguntas extras, sorteio ou vidas iguais; não tratar a proposta como aprovada nem usar ordem de conexão ou condição de anfitrião como critério.
 2. Na final, respostas concorrentes passam pela fila da sala: a primeira válida fecha as tentativas antes de revelar o resultado. Rejeitar as demais sem dano. Uma única perda por pergunta respondida impede eliminações simultâneas de todos os participantes.
 3. Resposta aceita dentro do prazo é definitiva. Nas fases iniciais, cada jogador responde conforme a modalidade; na final, há uma única resposta aceita entre todos. Repetir a mesma requisição devolve o resultado já aceito e não aplica pontos, dano ou direito de ataque novamente.
 4. O servidor decide se o prazo acabou; a hora informada pelo cliente não determina a pontuação. Sincronizar apenas a exibição do cronômetro.
-5. Queda mantém lugar, pontuação, resposta aceita e vidas. A pergunta continua com o prazo original; voltar não fornece tempo extra. Ausência na final segue a regra de erro que for aprovada.
+5. Queda mantém lugar, pontuação, aposta, turno, resposta aceita e vidas. A pergunta continua com o prazo original; voltar não fornece tempo extra. Na final, estar ausente não é uma resposta errada: ainda é possível sofrer ataque se tiver vidas. Prazo coletivo sem resposta segue a política em consulta.
 6. Se o anfitrião cair, outro assume após carência. Ser anfitrião não dá acesso ao gabarito nem poder de alterar resultados.
 7. Reinício do servidor encerra salas na primeira versão proposta. Retomada após reinício exige persistência de sessões, fase, prazos e ações; não é prometida pelo reaproveitamento do Comicle.
 8. Só uma aba ativa controla a identidade. Reabrir sala com o mesmo token substitui a conexão anterior.
@@ -90,4 +95,4 @@ Propostas a validar com a primeira partida:
 
 ## Próximas decisões
 
-A distribuição de vidas, a primeira resposta exclusiva, a perda por erro e o ataque a qualquer adversário ativo estão definidos. Antes de implementar a final, resolver prazo sem resposta, prazo e desistência na escolha do alvo, e desempates de classificação antes da conversão em vidas. Durante os protótipos: direção visual, capacidade, duração, tema por votação ou rodízio, pontuação e dinamite. Perguntar por etapa, evitando fechar todas as regras antes de experimentar.
+A distribuição de vidas, a primeira resposta exclusiva, a perda por erro e o ataque a qualquer adversário ativo estão definidos. As seis consultas desta etapa tratam de duração, final sem resposta, alvo não escolhido, quinta fase, direito ao roubo e desempate de classificação. Até as respostas chegarem, os padrões correspondentes são propostas descritas no plano. Validar também o equilíbrio da dinamite antes de consolidar o protótipo.

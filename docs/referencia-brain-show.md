@@ -16,7 +16,7 @@ Não foi encontrado regulamento oficial completo que permita afirmar nomes, orde
 
 ## Aplicação proposta ao PENSHOW
 
-O fluxo inicial terá cinco fases de pontuação e uma final. O planejamento começa com cinco modalidades e deixa três alternativas para expansão. As fichas completas estão em [regras](regras.md).
+O fluxo inicial terá cinco fases de pontuação e uma final. O planejamento começa com cinco modalidades e deixa três alternativas para expansão. As fichas completas, com pontos e tempos propostos, estão no [plano do jogo](plano-do-jogo.md); o resumo dos requisitos está em [regras](regras.md).
 
 | Modalidade proposta | Experiência pretendida | Principal cuidado |
 |---|---|---|
@@ -24,7 +24,7 @@ O fluxo inicial terá cinco fases de pontuação e uma final. O planejamento com
 | Velocidade | Bônus por acertar cedo | Conhecimento deve valer mais que alguns milissegundos de rede |
 | Aposta | Escolher o risco antes de ver a pergunta | Limitar a aposta e impedir saldo negativo |
 | Roubo de pontos | Escolher adversário após acertar | Não criar pontos ao transferir; não roubar além do saldo |
-| Pressão / dinamite | Tensão de uma sequência de turnos | Cada jogador deve receber tempo real para responder |
+| Dinamite, em consulta | Tensão de uma sequência de turnos | Dois turnos por pessoa, cada um com prazo completo; proposta de +300 / −150 |
 | Final | Converter a colocação em vidas e disputar a primeira resposta | 5 / 4 / 3 / 2 vidas iniciais; apenas a primeira resposta é avaliada: erro perde uma vida, acerto permite tirar uma vida de qualquer adversário ativo |
 
 Alternativas futuras: duas opções, sequência de acertos e sobrevivência restrita à fase. O visual, os textos, os sons e o conteúdo do PENSHOW serão próprios ou reutilizados do Comicle conforme a licença; o banco de perguntas do Brain Show não foi obtido nem copiado.

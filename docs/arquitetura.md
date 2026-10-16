@@ -2,6 +2,8 @@
 
 Base: [análise do Comicle](analise-comicle.md). Esta estrutura é o destino da implementação; os diretórios de aplicação ainda não foram criados.
 
+Parâmetros de partida, pontuação e duração vêm do [plano do jogo](plano-do-jogo.md). Ao implementar, manter constantes tipadas por modalidade e distinguir valores confirmados de propostas ainda em consulta.
+
 ## Organização
 
 ```text
@@ -49,8 +51,17 @@ stateDiagram-v2
   Lobby --> Instructions: anfitrião inicia
   Instructions --> CategorySelection
   CategorySelection --> QuestionOpen
-  QuestionOpen --> Reveal: todos responderam ou prazo acabou
-  Reveal --> QuestionOpen: próxima pergunta
+  CategorySelection --> WagerSelection: fase de aposta
+  WagerSelection --> QuestionOpen: apostas encerradas
+  Reveal --> WagerSelection: próxima pergunta da fase de aposta
+  CategorySelection --> DynamiteTurn: fase de dinamite
+  DynamiteTurn --> DynamiteReveal: resposta ou prazo
+  DynamiteReveal --> DynamiteTurn: próximo turno
+  DynamiteReveal --> RoundResults: dois turnos por participante completos
+  QuestionOpen --> Reveal: respostas fechadas sem escolha de alvo
+  QuestionOpen --> TheftTargetSelection: fase de roubo e houve acerto
+  TheftTargetSelection --> Reveal: alvo escolhido ou prazo
+  Reveal --> QuestionOpen: próxima pergunta de fase sem aposta
   Reveal --> RoundResults: fase terminou
   RoundResults --> Instructions: próxima fase
   RoundResults --> Ranking: cinco fases completas
@@ -64,7 +75,7 @@ stateDiagram-v2
   Podium --> Lobby: revanche
 ```
 
-Seleção de alvo, apostas e desempates acrescentam subestados somente nas modalidades que os usam. Instruções e seleção de tema têm prazos próprios; o relógio de resposta começa quando a pergunta abre. Timers antigos levam ID de partida, fase e pergunta e são ignorados após transição.
+Seleção de alvo, apostas e desempates acrescentam subestados somente nas modalidades que os usam. O caminho direto de categoria para pergunta pertence às fases sem aposta nem turno exclusivo. Na fase de aposta, cada nova pergunta passa por `WagerSelection`; na dinamite, apenas o dono do turno envia resposta. Instruções e seleção de tema têm prazos próprios; o relógio de resposta começa quando as alternativas ficam disponíveis, após a leitura do enunciado. Timers antigos levam ID de partida, fase e pergunta e são ignorados após transição.
 
 Na final, a primeira resposta válida fecha as tentativas para todos dentro da fila da sala, antes da avaliação do gabarito. Se estiver errada, aplicar uma perda ao autor; se estiver certa, entrar na escolha de alvo, acessível apenas ao autor, e aplicar uma perda ao adversário escolhido. Não aguardar respostas dos demais nem reabrir a mesma pergunta após um erro. Prazo sem resposta e ausência de escolha do alvo ainda precisam de regra antes da implementação.
 
