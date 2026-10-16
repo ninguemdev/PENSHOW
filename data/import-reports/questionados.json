@@ -1,0 +1,218 @@
+{
+  "sourceId": "questionados",
+  "commit": "dc99d66a70f7e9f8039c0833b9aa9211907ee719",
+  "rawCount": 568,
+  "duplicates": [
+    {
+      "category": "arts-literature",
+      "recordIndex": 50,
+      "prompt": "Quem é o autor da escultura 'O Pensador'?"
+    },
+    {
+      "category": "arts-literature",
+      "recordIndex": 74,
+      "prompt": "Quem é o autor da famosa escultura 'O Beijo'?"
+    },
+    {
+      "category": "arts-literature",
+      "recordIndex": 79,
+      "prompt": "Quem é considerado o fundador do movimento Bauhaus?"
+    },
+    {
+      "category": "arts-literature",
+      "recordIndex": 90,
+      "prompt": "Qual é o nome da técnica de escultura que utiliza o entalhe em madeira?"
+    },
+    {
+      "category": "arts-literature",
+      "recordIndex": 92,
+      "prompt": "Em qual movimento artístico surgiu a obra 'O Grito', de Edvard Munch?"
+    },
+    {
+      "category": "geography",
+      "recordIndex": 45,
+      "prompt": "Em que país está localizado o rio Danúbio?"
+    },
+    {
+      "category": "geography",
+      "recordIndex": 75,
+      "prompt": "Em que país está localizada a cidade de Petra?"
+    },
+    {
+      "category": "geography",
+      "recordIndex": 91,
+      "prompt": "Em que país está localizado o Deserto de Mojave?"
+    },
+    {
+      "category": "geography",
+      "recordIndex": 95,
+      "prompt": "Em que oceano está localizado o Mar de Coral?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 60,
+      "prompt": "Quem foi o líder militar e político que desempenhou um papel fundamental na independência da Argentina, Chile e Peru?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 61,
+      "prompt": "O que foi a Revolução Meiji no Japão?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 62,
+      "prompt": "Quem foi o líder do movimento pela independência da Índia, conhecido por suas táticas de resistência não violenta?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 63,
+      "prompt": "O que foi a Revolta dos Boxers na China?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 64,
+      "prompt": "Quem foi o líder do movimento sufragista que lutou pelos direitos das mulheres no Reino Unido?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 65,
+      "prompt": "Qual foi a principal consequência da Batalha de Actium em 31 a.C.?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 66,
+      "prompt": "Quem foi o explorador português que liderou a primeira circum-navegação ao redor da Terra?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 67,
+      "prompt": "Qual cidade foi o centro da Renascença italiana?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 68,
+      "prompt": "Quem foi o líder revolucionário que desempenhou um papel importante na independência de vários países da América Latina, incluindo Venezuela, Colômbia, Equador, Peru e Bolívia?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 69,
+      "prompt": "Qual foi o evento que levou à Revolução Gloriosa na Inglaterra em 1688?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 70,
+      "prompt": "Quem foi o líder da Revolução Haitiana que resultou na independência do Haiti?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 71,
+      "prompt": "Qual foi o evento que levou à Guerra do Vietnã?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 72,
+      "prompt": "Quem foi o faraó responsável pela construção das Grandes Pirâmides de Gizé?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 73,
+      "prompt": "Quem foi o líder do movimento pelos direitos civis dos negros nos Estados Unidos, conhecido por suas ideias de resistência não violenta?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 74,
+      "prompt": "O que foi o Manifesto Comunista?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 77,
+      "prompt": "Quem foi o primeiro imperador romano?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 78,
+      "prompt": "O que foi o Apartheid na África do Sul?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 79,
+      "prompt": "Quem foi o líder do movimento pelos direitos civis nos Estados Unidos na década de 1960?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 96,
+      "prompt": "Qual foi o evento que desencadeou a Primeira Guerra Mundial?"
+    },
+    {
+      "category": "history",
+      "recordIndex": 98,
+      "prompt": "O que foi a Revolução Industrial?"
+    },
+    {
+      "category": "pop-culture",
+      "recordIndex": 65,
+      "prompt": "Quem dirigiu o filme 'A Origem'?"
+    },
+    {
+      "category": "pop-culture",
+      "recordIndex": 67,
+      "prompt": "Em que ano foi lançado o primeiro álbum de estúdio de Taylor Swift?"
+    },
+    {
+      "category": "pop-culture",
+      "recordIndex": 75,
+      "prompt": "Quem é o criador da série 'Black Mirror'?"
+    },
+    {
+      "category": "pop-culture",
+      "recordIndex": 85,
+      "prompt": "Qual é o nome do protagonista da série 'Sherlock'?"
+    },
+    {
+      "category": "science-nature",
+      "recordIndex": 55,
+      "prompt": "O que é a Teoria do Caos?"
+    },
+    {
+      "category": "sports",
+      "recordIndex": 50,
+      "prompt": "Quem é o maior artilheiro da história da seleção brasileira de futebol?"
+    }
+  ],
+  "invalid": [
+    {
+      "category": "science-nature",
+      "recordIndex": 84,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "question": "Qual é o valor absoluto de -8?",
+        "choices": [
+          "-8",
+          "8",
+          "0",
+          "1"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "category": "sports",
+      "recordIndex": 47,
+      "errors": [
+        "Gabarito inválido"
+      ],
+      "record": {
+        "question": "Em que ano o surf foi incluído nos Jogos Olímpicos?",
+        "choices": [
+          "2016",
+          "2020",
+          "2024",
+          "2028"
+        ],
+        "correta": 2
+      }
+    }
+  ]
+}

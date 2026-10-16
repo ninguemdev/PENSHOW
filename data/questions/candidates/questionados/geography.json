@@ -1,0 +1,3266 @@
+[
+  {
+    "id": "questionados:geography:0f036a88c17c3e8b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasília"
+      },
+      {
+        "id": "option-1",
+        "text": "Rio de Janeiro"
+      },
+      {
+        "id": "option-2",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-3",
+        "text": "Belém"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:4977984201abf09d",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o rio mais longo do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nilo"
+      },
+      {
+        "id": "option-1",
+        "text": "Amazonas"
+      },
+      {
+        "id": "option-2",
+        "text": "Yangtzé"
+      },
+      {
+        "id": "option-3",
+        "text": "Mississippi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1e9b4f397b33906f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual continente está localizado o Deserto do Saara?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "África"
+      },
+      {
+        "id": "option-1",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-2",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Austrália"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:10c7585ba82caee2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país mais populoso do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "China"
+      },
+      {
+        "id": "option-1",
+        "text": "Índia"
+      },
+      {
+        "id": "option-2",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-3",
+        "text": "Indonésia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1c737964bc0dc2dd",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o ponto mais alto da Terra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Monte Everest"
+      },
+      {
+        "id": "option-1",
+        "text": "Monte McKinley"
+      },
+      {
+        "id": "option-2",
+        "text": "Monte Kilimanjaro"
+      },
+      {
+        "id": "option-3",
+        "text": "Monte Elbrus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:d6bf8e88f126bf71",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Taj Mahal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Índia"
+      },
+      {
+        "id": "option-1",
+        "text": "Egito"
+      },
+      {
+        "id": "option-2",
+        "text": "Turquia"
+      },
+      {
+        "id": "option-3",
+        "text": "China"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:380a6881efad86b5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior oceano do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8462439b12469f82",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a cidade mais populosa do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tóquio"
+      },
+      {
+        "id": "option-1",
+        "text": "Pequim"
+      },
+      {
+        "id": "option-2",
+        "text": "Mumbai"
+      },
+      {
+        "id": "option-3",
+        "text": "Xangai"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:b2d1261ba3bf19c5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Terra do Sol Nascente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Japão"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Coreia do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Vietnã"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8e879f857d0a4b0b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Polo Sul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antártica"
+      },
+      {
+        "id": "option-1",
+        "text": "África"
+      },
+      {
+        "id": "option-2",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:f1a2921955262971",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior país da América do Sul em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Colômbia"
+      },
+      {
+        "id": "option-3",
+        "text": "Peru"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:c907c93ff088d6c3",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Rússia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moscou"
+      },
+      {
+        "id": "option-1",
+        "text": "São Petersburgo"
+      },
+      {
+        "id": "option-2",
+        "text": "Kazan"
+      },
+      {
+        "id": "option-3",
+        "text": "Novosibirsk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8ed1b3a6149301e3",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Monte Kilimanjaro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "África"
+      },
+      {
+        "id": "option-1",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-2",
+        "text": "Europa"
+      },
+      {
+        "id": "option-3",
+        "text": "América do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:4c4e826cc01528d4",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Pérola do Oriente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hong Kong"
+      },
+      {
+        "id": "option-1",
+        "text": "Singapura"
+      },
+      {
+        "id": "option-2",
+        "text": "Taiwan"
+      },
+      {
+        "id": "option-3",
+        "text": "Macau"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1fb2a8e6a10de09b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano fica a Ilha de Páscoa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:bc94be4afffdf925",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o canal que separa a Europa da Ásia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bósforo"
+      },
+      {
+        "id": "option-1",
+        "text": "Canal da Mancha"
+      },
+      {
+        "id": "option-2",
+        "text": "Estreito de Gibraltar"
+      },
+      {
+        "id": "option-3",
+        "text": "Canal do Panamá"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:620453e422e6dbcf",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Terra dos Cangurus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-1",
+        "text": "Nova Zelândia"
+      },
+      {
+        "id": "option-2",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-3",
+        "text": "África do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:aabc3d8fa70d8164",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior deserto do mundo em área?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antártica"
+      },
+      {
+        "id": "option-1",
+        "text": "Deserto do Saara"
+      },
+      {
+        "id": "option-2",
+        "text": "Deserto do Gobi"
+      },
+      {
+        "id": "option-3",
+        "text": "Deserto da Arábia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:dba3a3b30e2388f9",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Argentina?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Buenos Aires"
+      },
+      {
+        "id": "option-1",
+        "text": "Rio de Janeiro"
+      },
+      {
+        "id": "option-2",
+        "text": "Lima"
+      },
+      {
+        "id": "option-3",
+        "text": "Santiago"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:f253e3e13f976eb0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Rio Danúbio?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alemanha"
+      },
+      {
+        "id": "option-1",
+        "text": "Áustria"
+      },
+      {
+        "id": "option-2",
+        "text": "Romênia"
+      },
+      {
+        "id": "option-3",
+        "text": "Hungria"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:58d3da4a8ea70640",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Austrália?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canberra"
+      },
+      {
+        "id": "option-1",
+        "text": "Sydney"
+      },
+      {
+        "id": "option-2",
+        "text": "Melbourne"
+      },
+      {
+        "id": "option-3",
+        "text": "Brisbane"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:32e38630074e7536",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o segundo maior país do mundo em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-1",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-2",
+        "text": "China"
+      },
+      {
+        "id": "option-3",
+        "text": "Rússia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:24da1484c1b2f30a",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que rio está localizada a cidade do Cairo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rio Nilo"
+      },
+      {
+        "id": "option-1",
+        "text": "Rio Eufrates"
+      },
+      {
+        "id": "option-2",
+        "text": "Rio Amazonas"
+      },
+      {
+        "id": "option-3",
+        "text": "Rio Yangtzé"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:cca392309d3567fd",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país mais extenso da América Latina?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "México"
+      },
+      {
+        "id": "option-3",
+        "text": "Colômbia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:2fd5ccda477a966c",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Deserto de Atacama?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-1",
+        "text": "África"
+      },
+      {
+        "id": "option-2",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-3",
+        "text": "Ásia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:e3ed0c082081adac",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior lago de água doce do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lago Baikal"
+      },
+      {
+        "id": "option-1",
+        "text": "Lago Vitória"
+      },
+      {
+        "id": "option-2",
+        "text": "Lago Superior"
+      },
+      {
+        "id": "option-3",
+        "text": "Lago Titicaca"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:bf8cce87739665c0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a moeda oficial do Japão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Iene"
+      },
+      {
+        "id": "option-1",
+        "text": "Won"
+      },
+      {
+        "id": "option-2",
+        "text": "Dólar"
+      },
+      {
+        "id": "option-3",
+        "text": "Euro"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:2bb24e00bf827118",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que cordilheira está localizado o Monte Everest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Himalaia"
+      },
+      {
+        "id": "option-1",
+        "text": "Andes"
+      },
+      {
+        "id": "option-2",
+        "text": "Alpes"
+      },
+      {
+        "id": "option-3",
+        "text": "Cárpatos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:57f36a788a71dbe3",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como o País das Mil Ilhas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Indonésia"
+      },
+      {
+        "id": "option-1",
+        "text": "Filipinas"
+      },
+      {
+        "id": "option-2",
+        "text": "Maldivas"
+      },
+      {
+        "id": "option-3",
+        "text": "Grécia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:4f4c76a6f363d462",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizada a cidade de Petra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jordânia"
+      },
+      {
+        "id": "option-1",
+        "text": "Egito"
+      },
+      {
+        "id": "option-2",
+        "text": "Turquia"
+      },
+      {
+        "id": "option-3",
+        "text": "Líbano"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:fba9ce53f839c488",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o menor continente do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oceania"
+      },
+      {
+        "id": "option-1",
+        "text": "Europa"
+      },
+      {
+        "id": "option-2",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-3",
+        "text": "América do Norte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1ee35c5909692de8",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como o Celeiro do Mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-1",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-2",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-3",
+        "text": "Rússia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:69042a85cdf144f5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano está localizado o Arquipélago do Havaí?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:fde0e0621676debb",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país mais populoso da África?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nigéria"
+      },
+      {
+        "id": "option-1",
+        "text": "Etiópia"
+      },
+      {
+        "id": "option-2",
+        "text": "Egito"
+      },
+      {
+        "id": "option-3",
+        "text": "África do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:147e60eba7a3185d",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Terra dos Fiordes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Noruega"
+      },
+      {
+        "id": "option-1",
+        "text": "Dinamarca"
+      },
+      {
+        "id": "option-2",
+        "text": "Suécia"
+      },
+      {
+        "id": "option-3",
+        "text": "Finlândia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:41bb7ee3d0d7692b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizada a cidade de Marrakech?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marrocos"
+      },
+      {
+        "id": "option-1",
+        "text": "Argélia"
+      },
+      {
+        "id": "option-2",
+        "text": "Tunísia"
+      },
+      {
+        "id": "option-3",
+        "text": "Líbia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:89b654bb4a5fbedb",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Canadá?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ottawa"
+      },
+      {
+        "id": "option-1",
+        "text": "Toronto"
+      },
+      {
+        "id": "option-2",
+        "text": "Vancouver"
+      },
+      {
+        "id": "option-3",
+        "text": "Montreal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:108507dc879c4774",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Cabo da Boa Esperança?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "África"
+      },
+      {
+        "id": "option-1",
+        "text": "Europa"
+      },
+      {
+        "id": "option-2",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:edef657a7218a985",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Pérola do Adriático?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Croácia"
+      },
+      {
+        "id": "option-1",
+        "text": "Itália"
+      },
+      {
+        "id": "option-2",
+        "text": "Grécia"
+      },
+      {
+        "id": "option-3",
+        "text": "Espanha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1b640d1b867cda77",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano ocorreu a independência do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1822"
+      },
+      {
+        "id": "option-1",
+        "text": "1492"
+      },
+      {
+        "id": "option-2",
+        "text": "1776"
+      },
+      {
+        "id": "option-3",
+        "text": "1945"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8c758c658e63e1e6",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior país da África em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Argélia"
+      },
+      {
+        "id": "option-1",
+        "text": "Nigéria"
+      },
+      {
+        "id": "option-2",
+        "text": "Congo"
+      },
+      {
+        "id": "option-3",
+        "text": "Egito"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:71a9bf78cf566f56",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que mar está localizado o arquipélago grego?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mar Egeu"
+      },
+      {
+        "id": "option-1",
+        "text": "Mar Adriático"
+      },
+      {
+        "id": "option-2",
+        "text": "Mar Mediterrâneo"
+      },
+      {
+        "id": "option-3",
+        "text": "Mar Negro"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:51c8b12b3961551b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país com a maior extensão de fronteiras do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rússia"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-3",
+        "text": "Estados Unidos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:2cdcccb856e1a4a2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Parque Nacional de Yellowstone?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "América do Norte"
+      },
+      {
+        "id": "option-1",
+        "text": "Europa"
+      },
+      {
+        "id": "option-2",
+        "text": "África"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8e5ab8045a174362",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o deserto mais seco do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atacama"
+      },
+      {
+        "id": "option-1",
+        "text": "Sahara"
+      },
+      {
+        "id": "option-2",
+        "text": "Gobi"
+      },
+      {
+        "id": "option-3",
+        "text": "Karakum"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:b5223bf13ef62749",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como o País das Mil Mesquitas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Irã"
+      },
+      {
+        "id": "option-1",
+        "text": "Turquia"
+      },
+      {
+        "id": "option-2",
+        "text": "Arábia Saudita"
+      },
+      {
+        "id": "option-3",
+        "text": "Iraque"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:e9933804dea0072e",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano está localizado o Mar de Coral?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:30d54b5d0a46158a",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Coreia do Sul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seul"
+      },
+      {
+        "id": "option-1",
+        "text": "Busan"
+      },
+      {
+        "id": "option-2",
+        "text": "Incheon"
+      },
+      {
+        "id": "option-3",
+        "text": "Daejeon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:f114912594870f02",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano foi inaugurado o Canal do Panamá?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1914"
+      },
+      {
+        "id": "option-1",
+        "text": "1888"
+      },
+      {
+        "id": "option-2",
+        "text": "1925"
+      },
+      {
+        "id": "option-3",
+        "text": "1902"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8048c9265e4be557",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o ponto mais baixo da superfície terrestre?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fossa das Marianas"
+      },
+      {
+        "id": "option-1",
+        "text": "Lago Baikal"
+      },
+      {
+        "id": "option-2",
+        "text": "Monte Everest"
+      },
+      {
+        "id": "option-3",
+        "text": "Vale da Morte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 50,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:e160d3106b8bf6c4",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Deserto do Gobi?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mongólia"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Cazaquistão"
+      },
+      {
+        "id": "option-3",
+        "text": "Rússia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:f122dc5e3bd51135",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Nova Zelândia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wellington"
+      },
+      {
+        "id": "option-1",
+        "text": "Auckland"
+      },
+      {
+        "id": "option-2",
+        "text": "Christchurch"
+      },
+      {
+        "id": "option-3",
+        "text": "Hamilton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:6206ddc2d8d742ec",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizada a Grande Barreira de Coral?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-1",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-2",
+        "text": "Tailândia"
+      },
+      {
+        "id": "option-3",
+        "text": "Filipinas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:39236cdd78485dc6",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o rio mais extenso da América do Sul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Amazonas"
+      },
+      {
+        "id": "option-1",
+        "text": "Paraná"
+      },
+      {
+        "id": "option-2",
+        "text": "Orinoco"
+      },
+      {
+        "id": "option-3",
+        "text": "São Francisco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:ee3f966dbe929ea2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Chile?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santiago"
+      },
+      {
+        "id": "option-1",
+        "text": "Buenos Aires"
+      },
+      {
+        "id": "option-2",
+        "text": "Lima"
+      },
+      {
+        "id": "option-3",
+        "text": "Quito"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 55,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:b1d158741426a525",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que cordilheira está localizado o Monte McKinley?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Montanhas Rochosas"
+      },
+      {
+        "id": "option-1",
+        "text": "Cordilheira dos Andes"
+      },
+      {
+        "id": "option-2",
+        "text": "Cordilheira dos Apalaches"
+      },
+      {
+        "id": "option-3",
+        "text": "Cordilheira do Alasca"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:6f0a9912e8ee0fab",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Terra dos Faraós?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Egito"
+      },
+      {
+        "id": "option-1",
+        "text": "Sudão"
+      },
+      {
+        "id": "option-2",
+        "text": "Líbia"
+      },
+      {
+        "id": "option-3",
+        "text": "Jordânia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:7c2d717fdab7f319",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o rio Tâmisa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Reino Unido"
+      },
+      {
+        "id": "option-1",
+        "text": "França"
+      },
+      {
+        "id": "option-2",
+        "text": "Alemanha"
+      },
+      {
+        "id": "option-3",
+        "text": "Itália"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:adea7bfe9eb04fb0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Suécia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estocolmo"
+      },
+      {
+        "id": "option-1",
+        "text": "Helsinque"
+      },
+      {
+        "id": "option-2",
+        "text": "Oslo"
+      },
+      {
+        "id": "option-3",
+        "text": "Copenhague"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:fd478d3caf987b51",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Mongólia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ulan Bator"
+      },
+      {
+        "id": "option-1",
+        "text": "Astana"
+      },
+      {
+        "id": "option-2",
+        "text": "Tashkent"
+      },
+      {
+        "id": "option-3",
+        "text": "Bishkek"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:ab3377c1a9b337aa",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Vale da Morte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-1",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-2",
+        "text": "Chile"
+      },
+      {
+        "id": "option-3",
+        "text": "África do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 61,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:6d19a34f3a32e359",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a maior ilha do mundo em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Groenlândia"
+      },
+      {
+        "id": "option-1",
+        "text": "Ilha de Baffin"
+      },
+      {
+        "id": "option-2",
+        "text": "Nova Guiné"
+      },
+      {
+        "id": "option-3",
+        "text": "Ilha de Ellesmere"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:72b906c1487173e2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano está localizado o Mar de Weddell?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antártico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Pacífico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:b99cfd25bc1648ed",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país com a maior população do sudeste asiático?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Indonésia"
+      },
+      {
+        "id": "option-1",
+        "text": "Índia"
+      },
+      {
+        "id": "option-2",
+        "text": "Vietnã"
+      },
+      {
+        "id": "option-3",
+        "text": "Tailândia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 64,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1c9be665d29ab299",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que estado brasileiro está localizado o Pantanal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mato Grosso"
+      },
+      {
+        "id": "option-1",
+        "text": "Mato Grosso do Sul"
+      },
+      {
+        "id": "option-2",
+        "text": "Goiás"
+      },
+      {
+        "id": "option-3",
+        "text": "Amazonas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 65,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:ed21bfb95bb25342",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o lago mais profundo do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lago Baikal"
+      },
+      {
+        "id": "option-1",
+        "text": "Lago Vitória"
+      },
+      {
+        "id": "option-2",
+        "text": "Lago Titicaca"
+      },
+      {
+        "id": "option-3",
+        "text": "Lago Superior"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 66,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:72ef53937d0e076f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Monte Kilimanjaro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tanzânia"
+      },
+      {
+        "id": "option-1",
+        "text": "Quênia"
+      },
+      {
+        "id": "option-2",
+        "text": "Uganda"
+      },
+      {
+        "id": "option-3",
+        "text": "Ruanda"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 67,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:93ccd4dce780ccf4",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Terra do Sol da Meia-Noite?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Noruega"
+      },
+      {
+        "id": "option-1",
+        "text": "Suécia"
+      },
+      {
+        "id": "option-2",
+        "text": "Finlândia"
+      },
+      {
+        "id": "option-3",
+        "text": "Islândia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 68,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:35ffd42e5b2a1a00",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que mar está localizado o arquipélago de Seychelles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oceano Índico"
+      },
+      {
+        "id": "option-1",
+        "text": "Mar Mediterrâneo"
+      },
+      {
+        "id": "option-2",
+        "text": "Mar Negro"
+      },
+      {
+        "id": "option-3",
+        "text": "Mar do Caribe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:62473f84ba774da5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior delta do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Delta do Ganges"
+      },
+      {
+        "id": "option-1",
+        "text": "Delta do Paraná"
+      },
+      {
+        "id": "option-2",
+        "text": "Delta do Nilo"
+      },
+      {
+        "id": "option-3",
+        "text": "Delta do Amazonas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 70,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:7c6bedb6f7220151",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Deserto de Mojave?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-1",
+        "text": "México"
+      },
+      {
+        "id": "option-2",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-3",
+        "text": "Austrália"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 71,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:397d9887b868293c",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Turquia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ancara"
+      },
+      {
+        "id": "option-1",
+        "text": "Istambul"
+      },
+      {
+        "id": "option-2",
+        "text": "Esmirna"
+      },
+      {
+        "id": "option-3",
+        "text": "Adana"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 72,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:66d36d16f4051475",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Cabo Horn?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-1",
+        "text": "África"
+      },
+      {
+        "id": "option-2",
+        "text": "Antártica"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 73,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:066593df0b13ca2f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o rio mais extenso da Europa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Volga"
+      },
+      {
+        "id": "option-1",
+        "text": "Danúbio"
+      },
+      {
+        "id": "option-2",
+        "text": "Loire"
+      },
+      {
+        "id": "option-3",
+        "text": "Sena"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 74,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:dd070b78a375079f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Pérola do Índico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sri Lanka"
+      },
+      {
+        "id": "option-1",
+        "text": "Maldivas"
+      },
+      {
+        "id": "option-2",
+        "text": "Índia"
+      },
+      {
+        "id": "option-3",
+        "text": "Bangladesh"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 76,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:d12763111cd7ceef",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Deserto do Kalahari?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "África"
+      },
+      {
+        "id": "option-1",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-2",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-3",
+        "text": "América do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 77,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:32f50dae3685673a",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Colômbia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bogotá"
+      },
+      {
+        "id": "option-1",
+        "text": "Medellín"
+      },
+      {
+        "id": "option-2",
+        "text": "Cali"
+      },
+      {
+        "id": "option-3",
+        "text": "Cartagena"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 78,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:45932daf66e85ecc",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano foi inaugurado o Canal de Suez?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1869"
+      },
+      {
+        "id": "option-1",
+        "text": "1825"
+      },
+      {
+        "id": "option-2",
+        "text": "1898"
+      },
+      {
+        "id": "option-3",
+        "text": "1912"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 79,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:041d57bca8302f4f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior país da Europa em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rússia"
+      },
+      {
+        "id": "option-1",
+        "text": "França"
+      },
+      {
+        "id": "option-2",
+        "text": "Alemanha"
+      },
+      {
+        "id": "option-3",
+        "text": "Espanha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 80,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:261a0c12af98707d",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano está localizado o Mar de Java?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Índico"
+      },
+      {
+        "id": "option-1",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-2",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 81,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:3a8baeac9ab7631b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país com o maior número de ilhas no mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Suécia"
+      },
+      {
+        "id": "option-1",
+        "text": "Finlândia"
+      },
+      {
+        "id": "option-2",
+        "text": "Indonésia"
+      },
+      {
+        "id": "option-3",
+        "text": "Japão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 82,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:ca100ec11a52f25c",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o deserto de Sonora?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-1",
+        "text": "México"
+      },
+      {
+        "id": "option-2",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-3",
+        "text": "Brasil"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 83,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:27b5d2b67ef71773",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o ponto mais alto da África?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Monte Kilimanjaro"
+      },
+      {
+        "id": "option-1",
+        "text": "Monte Ruízi"
+      },
+      {
+        "id": "option-2",
+        "text": "Monte Elgon"
+      },
+      {
+        "id": "option-3",
+        "text": "Monte Quênia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 84,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:9f092c83be557cb0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o lago Titicaca?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peru"
+      },
+      {
+        "id": "option-1",
+        "text": "Bolívia"
+      },
+      {
+        "id": "option-2",
+        "text": "Chile"
+      },
+      {
+        "id": "option-3",
+        "text": "Equador"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 85,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:f77ea7e6c9719f5d",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior delta fluvial do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Delta do Ganges"
+      },
+      {
+        "id": "option-1",
+        "text": "Delta do Paraná"
+      },
+      {
+        "id": "option-2",
+        "text": "Delta do Nilo"
+      },
+      {
+        "id": "option-3",
+        "text": "Delta do Amazonas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 86,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:1fd6dd0f2fedb681",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que continente está localizado o Deserto de Karakum?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-1",
+        "text": "África"
+      },
+      {
+        "id": "option-2",
+        "text": "Europa"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 87,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:dc199c270a560517",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Quênia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nairobi"
+      },
+      {
+        "id": "option-1",
+        "text": "Mombasa"
+      },
+      {
+        "id": "option-2",
+        "text": "Kisumu"
+      },
+      {
+        "id": "option-3",
+        "text": "Eldoret"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 88,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:acc60b407e930ac4",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano está localizado o Golfo Pérsico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Índico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 89,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:a1231ca3af836b02",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país com o maior número de vulcões ativos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Indonésia"
+      },
+      {
+        "id": "option-1",
+        "text": "Japão"
+      },
+      {
+        "id": "option-2",
+        "text": "Itália"
+      },
+      {
+        "id": "option-3",
+        "text": "Chile"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 90,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:ec0c39833743ecdd",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o rio mais longo da América do Norte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rio Mississippi"
+      },
+      {
+        "id": "option-1",
+        "text": "Rio Missouri"
+      },
+      {
+        "id": "option-2",
+        "text": "Rio Colorado"
+      },
+      {
+        "id": "option-3",
+        "text": "Rio Columbia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 92,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:de7313499e0ac401",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que estado brasileiro está localizada a Chapada dos Veadeiros?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Goiás"
+      },
+      {
+        "id": "option-1",
+        "text": "Bahia"
+      },
+      {
+        "id": "option-2",
+        "text": "Minas Gerais"
+      },
+      {
+        "id": "option-3",
+        "text": "Tocantins"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 93,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:8ea92562fb1b33b1",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como a Terra dos Vikings?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Noruega"
+      },
+      {
+        "id": "option-1",
+        "text": "Suécia"
+      },
+      {
+        "id": "option-2",
+        "text": "Islândia"
+      },
+      {
+        "id": "option-3",
+        "text": "Dinamarca"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 94,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:3b8cdc4471d888ac",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país mais extenso da Ásia em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rússia"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Índia"
+      },
+      {
+        "id": "option-3",
+        "text": "Cazaquistão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 96,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:fff434b9196dcad9",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano ocorreu a independência do México?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1821"
+      },
+      {
+        "id": "option-1",
+        "text": "1810"
+      },
+      {
+        "id": "option-2",
+        "text": "1836"
+      },
+      {
+        "id": "option-3",
+        "text": "1848"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 97,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:29ea9c02a832a06d",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior arquipélago do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Indonésia"
+      },
+      {
+        "id": "option-1",
+        "text": "Filipinas"
+      },
+      {
+        "id": "option-2",
+        "text": "Maldivas"
+      },
+      {
+        "id": "option-3",
+        "text": "Japão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 98,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:geography:cb4f61f9aa4b58d2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que estado brasileiro está localizado o Monte Roraima?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roraima"
+      },
+      {
+        "id": "option-1",
+        "text": "Amazonas"
+      },
+      {
+        "id": "option-2",
+        "text": "Amapá"
+      },
+      {
+        "id": "option-3",
+        "text": "Pará"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 99,
+      "license": "MIT"
+    }
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "id": "opentdb:board-games:09c9034d69d1fa1d",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these games includes the phrase \"Do not pass Go, do not collect $200\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Monopoly"
+      },
+      {
+        "id": "option-1",
+        "text": "Pay Day"
+      },
+      {
+        "id": "option-2",
+        "text": "Cluedo"
+      },
+      {
+        "id": "option-3",
+        "text": "Coppit"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 53,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:78d295ffbf2110b6",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Magic: The Gathering, which of the following was the first publicly released foil card?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lightning Dragon"
+      },
+      {
+        "id": "option-1",
+        "text": "Revenant"
+      },
+      {
+        "id": "option-2",
+        "text": "Beast of Burden"
+      },
+      {
+        "id": "option-3",
+        "text": "Dirtcowl Wurm"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 58,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:76a4f6abd497ab4a",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Yu-Gi-Oh, how does a player perform an Xyz Summon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Overlay at least 2 Monsters of the Same Level"
+      },
+      {
+        "id": "option-1",
+        "text": "Activate a Spell and Send Monsters to the Graveyard"
+      },
+      {
+        "id": "option-2",
+        "text": "Add the Monsters' Levels Together to Match the Xyz Monster"
+      },
+      {
+        "id": "option-3",
+        "text": "Banish A Number of Monsters From Your Hand And Deck"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 116,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:41b291c2581f29b3",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On a standard Monopoly board, how much do you have to pay for Tennessee Ave?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "$180"
+      },
+      {
+        "id": "option-1",
+        "text": "$200"
+      },
+      {
+        "id": "option-2",
+        "text": "$160"
+      },
+      {
+        "id": "option-3",
+        "text": "$220"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 128,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:bf83265c2a0ca7c8",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In standard Monopoly, what's the rent if you land on Park Place with no houses?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "$35"
+      },
+      {
+        "id": "option-1",
+        "text": "$30"
+      },
+      {
+        "id": "option-2",
+        "text": "$50"
+      },
+      {
+        "id": "option-3",
+        "text": "$45"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 141,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:cd4e637074e1bb1d",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What special item did the creators of Cards Against Humanity ship for their Black Friday pack?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bull Feces"
+      },
+      {
+        "id": "option-1",
+        "text": "A Card Expansion"
+      },
+      {
+        "id": "option-2",
+        "text": "A Racist Toy"
+      },
+      {
+        "id": "option-3",
+        "text": "Cat Urine"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 168,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:f5eb724bef8924d4",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The board game, Nightmare was released in what year?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1991"
+      },
+      {
+        "id": "option-1",
+        "text": "1992"
+      },
+      {
+        "id": "option-2",
+        "text": "1989"
+      },
+      {
+        "id": "option-3",
+        "text": "1995"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 275,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:2ff82e7850e61995",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these board games do NOT utilize standard 6-sided dice?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Game of Life"
+      },
+      {
+        "id": "option-1",
+        "text": "Monopoly"
+      },
+      {
+        "id": "option-2",
+        "text": "Risk"
+      },
+      {
+        "id": "option-3",
+        "text": "Snakes and Ladders"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 294,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:ea04bfe83b9fd610",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these cities is NOT featured in the Pandemic board game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Berlin"
+      },
+      {
+        "id": "option-1",
+        "text": "Ho Chi Minh City"
+      },
+      {
+        "id": "option-2",
+        "text": "Lagos"
+      },
+      {
+        "id": "option-3",
+        "text": "Karachi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 415,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:05c27db7f97d045b",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What Magic: The Gathering card's flavor text is just 'Ribbit.'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Turn to Frog"
+      },
+      {
+        "id": "option-1",
+        "text": "Spore Frog"
+      },
+      {
+        "id": "option-2",
+        "text": "Bloated Toad"
+      },
+      {
+        "id": "option-3",
+        "text": "Frogmite"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 580,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:9cbb753ac84589d2",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Carcassonne is based on which French town?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carcassonne"
+      },
+      {
+        "id": "option-1",
+        "text": "Paris"
+      },
+      {
+        "id": "option-2",
+        "text": "Marseille"
+      },
+      {
+        "id": "option-3",
+        "text": "Clermont-Ferrand"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 613,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:ca4a393f493e81b5",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Magic: The Gathering, what card's flavor text is \"Catch!\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lava Axe"
+      },
+      {
+        "id": "option-1",
+        "text": "Stone-Throwing Devils"
+      },
+      {
+        "id": "option-2",
+        "text": "Ember Shot"
+      },
+      {
+        "id": "option-3",
+        "text": "Throwing Knife"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 654,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:1438de5ff012524d",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many pieces are there on the board at the start of a game of chess?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "32"
+      },
+      {
+        "id": "option-1",
+        "text": "16"
+      },
+      {
+        "id": "option-2",
+        "text": "20"
+      },
+      {
+        "id": "option-3",
+        "text": "36"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 656,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e201cc8d396ef310",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which card is on the cover of the Beta rulebook of \"Magic: The Gathering\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bog Wraith"
+      },
+      {
+        "id": "option-1",
+        "text": "Island"
+      },
+      {
+        "id": "option-2",
+        "text": "Rock Hydra"
+      },
+      {
+        "id": "option-3",
+        "text": "Elvish Archers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 828,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

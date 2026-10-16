@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "opentdb:science-nature:8ccd04df22108f38",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "All planets in the Solar System orbit the Sun.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 31,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:87f67950bc99ab03",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is the term for \"surgical complications resulting from surgical sponges left inside the patient's body?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gossypiboma"
+      },
+      {
+        "id": "option-1",
+        "text": "Gongoozler"
+      },
+      {
+        "id": "option-2",
+        "text": "Jentacular"
+      },
+      {
+        "id": "option-3",
+        "text": "Meupareunia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 51,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:44c3285c2ea13208",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name for the auditory illusion of a note that seems to be rising infinitely?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shepard Tone"
+      },
+      {
+        "id": "option-1",
+        "text": "Glissandro Illusion"
+      },
+      {
+        "id": "option-2",
+        "text": "Fransen Effect"
+      },
+      {
+        "id": "option-3",
+        "text": "McGurck Effect"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 55,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:dfe90ba5534028f6",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The human right lung has how many lobes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "4"
+      },
+      {
+        "id": "option-2",
+        "text": "2"
+      },
+      {
+        "id": "option-3",
+        "text": "1"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 65,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:388c5ec6bb748075",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the official name of the star located closest to the North Celestial Pole?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Polaris"
+      },
+      {
+        "id": "option-1",
+        "text": "Eridanus"
+      },
+      {
+        "id": "option-2",
+        "text": "Gamma Cephei"
+      },
+      {
+        "id": "option-3",
+        "text": "Iota Cephei"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 67,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:7d61ddf322e8250a",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where did the Great Storm of 1987 make landfall at, first?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cornwall"
+      },
+      {
+        "id": "option-1",
+        "text": "Surrey"
+      },
+      {
+        "id": "option-2",
+        "text": "Wales"
+      },
+      {
+        "id": "option-3",
+        "text": "The Midlands"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 69,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:d26c567876cb90e3",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is used to show that Earth spins on an axis? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Foucault Pendulum "
+      },
+      {
+        "id": "option-1",
+        "text": "Polaris"
+      },
+      {
+        "id": "option-2",
+        "text": "Sundial"
+      },
+      {
+        "id": "option-3",
+        "text": "Tectonic Plates "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 74,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:63adbcdbb143b59b",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "An average human can go two weeks without water.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 79,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:178b26fa49abc327",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is a major muscle of the back?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Trapezius"
+      },
+      {
+        "id": "option-1",
+        "text": "Trapezium"
+      },
+      {
+        "id": "option-2",
+        "text": "Trapezoid"
+      },
+      {
+        "id": "option-3",
+        "text": "Triquetrum"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 91,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:dd8aea219918db6b",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the standard SI unit for luminous intensity?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Candela"
+      },
+      {
+        "id": "option-1",
+        "text": "Lumen"
+      },
+      {
+        "id": "option-2",
+        "text": "Faraday"
+      },
+      {
+        "id": "option-3",
+        "text": "Coulomb"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 106,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:23e242a42db5e2c8",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What did Gregory Mendel use to test genetic crossovers?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peas"
+      },
+      {
+        "id": "option-1",
+        "text": "Cats"
+      },
+      {
+        "id": "option-2",
+        "text": "Flowers"
+      },
+      {
+        "id": "option-3",
+        "text": "Parrots"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 122,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:185ab64b44a49f86",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is isobutylphenylpropanoic acid more commonly known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ibuprofen"
+      },
+      {
+        "id": "option-1",
+        "text": "Morphine"
+      },
+      {
+        "id": "option-2",
+        "text": "Ketamine"
+      },
+      {
+        "id": "option-3",
+        "text": "Aspirin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 125,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:e48323096cbae61d",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The \"Gympie Stinger\" is the deadliest plant in the world.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 131,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:ba8a09b694136cd7",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What mineral has the lowest number on the Mohs scale?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Talc"
+      },
+      {
+        "id": "option-1",
+        "text": "Quartz"
+      },
+      {
+        "id": "option-2",
+        "text": "Diamond"
+      },
+      {
+        "id": "option-3",
+        "text": "Gypsum"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 133,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:3eb59ea42ab550bb",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Hypernatremia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Increase in blood sodium"
+      },
+      {
+        "id": "option-1",
+        "text": "Decrease in blood potassium"
+      },
+      {
+        "id": "option-2",
+        "text": "Increase in blood glucose"
+      },
+      {
+        "id": "option-3",
+        "text": "Decrease in blood iron"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 136,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:79db67645f933996",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Landsat Satellite currently has had the longest operational life?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Landsat 5"
+      },
+      {
+        "id": "option-1",
+        "text": "Landsat 8"
+      },
+      {
+        "id": "option-2",
+        "text": "Landsat 7"
+      },
+      {
+        "id": "option-3",
+        "text": "Landsat 6"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 156,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:b7f469322f404407",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The 'Islets of Langerhans' is found in which human organ?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pancreas"
+      },
+      {
+        "id": "option-1",
+        "text": "Kidney"
+      },
+      {
+        "id": "option-2",
+        "text": "Liver"
+      },
+      {
+        "id": "option-3",
+        "text": "Brain"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 228,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:7fb3204faf0824d2",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The word \"science\" stems from the word \"scire\" meaning what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "To know"
+      },
+      {
+        "id": "option-1",
+        "text": "To measure"
+      },
+      {
+        "id": "option-2",
+        "text": "To live"
+      },
+      {
+        "id": "option-3",
+        "text": "To count"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 256,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:3fcd8ae9666c9dc3",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Botanically speaking, which of these fruits is NOT a berry?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Strawberry"
+      },
+      {
+        "id": "option-1",
+        "text": "Blueberry"
+      },
+      {
+        "id": "option-2",
+        "text": "Banana"
+      },
+      {
+        "id": "option-3",
+        "text": "Concord Grape"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 262,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:c0ccc7549f2e4e6c",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The \"Tibia\" is found in which part of the body?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leg"
+      },
+      {
+        "id": "option-1",
+        "text": "Arm"
+      },
+      {
+        "id": "option-2",
+        "text": "Hand"
+      },
+      {
+        "id": "option-3",
+        "text": "Head"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 280,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:c1a9163560ad187d",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Type 1 diabetes is a result of the liver working improperly.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 286,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:65cd2e1b12103f7b",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the chemical element Curium named after?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marie & Pierre Curie"
+      },
+      {
+        "id": "option-1",
+        "text": "The Curiosity Rover"
+      },
+      {
+        "id": "option-2",
+        "text": "Curious George"
+      },
+      {
+        "id": "option-3",
+        "text": "Stephen Curry"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 296,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:d4b94ac42a9b0efd",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Anatomy considers the forms of macroscopic structures such as organs and organ systems.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 306,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:ba605865a167780a",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On which mission did the Space Shuttle Columbia break up upon re-entry?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "STS-107"
+      },
+      {
+        "id": "option-1",
+        "text": "STS-51-L"
+      },
+      {
+        "id": "option-2",
+        "text": "STS-61-C"
+      },
+      {
+        "id": "option-3",
+        "text": "STS-109"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 361,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:1a1c1c546c5c869f",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the standard atomic weight of a Plutonium nucleus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "244"
+      },
+      {
+        "id": "option-1",
+        "text": "94"
+      },
+      {
+        "id": "option-2",
+        "text": "481"
+      },
+      {
+        "id": "option-3",
+        "text": "128"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 389,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:dd1fcb1b4ff51b05",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many chromosomes are in your body cells?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "23"
+      },
+      {
+        "id": "option-1",
+        "text": "21"
+      },
+      {
+        "id": "option-2",
+        "text": "22"
+      },
+      {
+        "id": "option-3",
+        "text": "24"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 398,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:19228d4c7241deca",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the largest living organism currently known to man?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Honey Fungus"
+      },
+      {
+        "id": "option-1",
+        "text": "Blue Whale"
+      },
+      {
+        "id": "option-2",
+        "text": "Redwood Tree"
+      },
+      {
+        "id": "option-3",
+        "text": "The Coral Reef"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 407,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:7fa34daa207f5854",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Sound can travel through a vacuum.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 418,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:e08908b8b6b3303b",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ernest Rutherford"
+      },
+      {
+        "id": "option-1",
+        "text": "Joseph John Thomson"
+      },
+      {
+        "id": "option-2",
+        "text": "Archimedes"
+      },
+      {
+        "id": "option-3",
+        "text": "Niels Henrik David Bohr"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 422,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:f0f57c930fe3388a",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a real element?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vitrainium"
+      },
+      {
+        "id": "option-1",
+        "text": "Praseodymium"
+      },
+      {
+        "id": "option-2",
+        "text": "Hassium"
+      },
+      {
+        "id": "option-3",
+        "text": "Lutetium"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 461,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:188528a2e615afa5",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The asteroid belt is located between which two planets?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mars and Jupiter"
+      },
+      {
+        "id": "option-1",
+        "text": "Jupiter and Saturn"
+      },
+      {
+        "id": "option-2",
+        "text": "Mercury and Venus"
+      },
+      {
+        "id": "option-3",
+        "text": "Earth and Mars"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 474,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:02bdddefee94d04c",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the atomic number of the element Strontium?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "38"
+      },
+      {
+        "id": "option-1",
+        "text": "73"
+      },
+      {
+        "id": "option-2",
+        "text": "47"
+      },
+      {
+        "id": "option-3",
+        "text": "11"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 475,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:7efb270f2558cb08",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "About what percentage of the Earth's surface is water? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "70%"
+      },
+      {
+        "id": "option-1",
+        "text": "30%"
+      },
+      {
+        "id": "option-2",
+        "text": "50%"
+      },
+      {
+        "id": "option-3",
+        "text": "90%"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 479,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:58f9677b749e78a9",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What medication was once commonly used as rat poison?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Coumadin"
+      },
+      {
+        "id": "option-1",
+        "text": "Aspirin"
+      },
+      {
+        "id": "option-2",
+        "text": "Eliquis"
+      },
+      {
+        "id": "option-3",
+        "text": "Tylenol"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 578,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:b3588b03dfd7f473",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the scientific name for the extinct hominin known as \"Lucy\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Australopithecus Afarensis"
+      },
+      {
+        "id": "option-1",
+        "text": "Australopithecus Africanus"
+      },
+      {
+        "id": "option-2",
+        "text": "Australopithecus Architeuthis"
+      },
+      {
+        "id": "option-3",
+        "text": "Australopithecus Antaris"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 585,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:38d736dc4d45339a",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Burning which of these metals will produce a bright white flame?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Magnesium"
+      },
+      {
+        "id": "option-1",
+        "text": "Copper"
+      },
+      {
+        "id": "option-2",
+        "text": "Lithium"
+      },
+      {
+        "id": "option-3",
+        "text": "Lead"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 622,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:a8c28e35dabb457c",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these two plates are best know for forming earthquakes and tsunami's? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Convergent Plate Boundaries/Oceanic Crust"
+      },
+      {
+        "id": "option-1",
+        "text": "Divergent Plate Boundaries/Convergent/Oceanic Crust"
+      },
+      {
+        "id": "option-2",
+        "text": "Transform Plate Boundaries/Divergent Plate Boundaries"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceanic & Continental Crust/Transform Plate Boundaries"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 645,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:30ffd339cb506079",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": " What is the chemical symbol for Helium?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "He"
+      },
+      {
+        "id": "option-1",
+        "text": "H"
+      },
+      {
+        "id": "option-2",
+        "text": "Hg"
+      },
+      {
+        "id": "option-3",
+        "text": "Hs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 664,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:8f3c9db6f5f02821",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Male pandas do handstands while urinating on trees. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 678,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:e7510a756d116821",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the standard SI unit for mass?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kilogram"
+      },
+      {
+        "id": "option-1",
+        "text": "Tonne"
+      },
+      {
+        "id": "option-2",
+        "text": "Pound"
+      },
+      {
+        "id": "option-3",
+        "text": "Gram"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 695,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:1ca8b9cbe5be6b11",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which is the chemical name of H2O?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dihydrogen Monoxide"
+      },
+      {
+        "id": "option-1",
+        "text": "Ammonium chloride"
+      },
+      {
+        "id": "option-2",
+        "text": "Anhydrous Sodium Carbonate"
+      },
+      {
+        "id": "option-3",
+        "text": "Manganese dioxide"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 708,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:d00e7e5fad9ae33d",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What nucleotide pairs with guanine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cytosine"
+      },
+      {
+        "id": "option-1",
+        "text": "Thymine"
+      },
+      {
+        "id": "option-2",
+        "text": "Adenine"
+      },
+      {
+        "id": "option-3",
+        "text": "Uracil"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 742,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:05529f3d4c1ffe16",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the chemical symbol for lead?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pb"
+      },
+      {
+        "id": "option-1",
+        "text": "Ld"
+      },
+      {
+        "id": "option-2",
+        "text": "Le"
+      },
+      {
+        "id": "option-3",
+        "text": "Pm"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 768,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:f82e240a07e8746f",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the lowest layer of the Earth's atmosphere named?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Troposphere"
+      },
+      {
+        "id": "option-1",
+        "text": "Stratosphere"
+      },
+      {
+        "id": "option-2",
+        "text": "Mesosphere"
+      },
+      {
+        "id": "option-3",
+        "text": "Thermosphere"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 772,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:38291baf6bdac0a9",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How much radiation does a banana emit?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "0.1 Microsievert"
+      },
+      {
+        "id": "option-1",
+        "text": "0.3 Microsievert"
+      },
+      {
+        "id": "option-2",
+        "text": "0.5 Microsievert"
+      },
+      {
+        "id": "option-3",
+        "text": "0.7 Microsievert"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 785,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:1e851262091aa532",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What produces the green colour of most plant leaves?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chlorophyll"
+      },
+      {
+        "id": "option-1",
+        "text": "Light refraction"
+      },
+      {
+        "id": "option-2",
+        "text": "Natural pigments"
+      },
+      {
+        "id": "option-3",
+        "text": "UV radiation"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 806,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:b10f1231eacc4d3f",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is the male pollen-producing reproductive part of a flower?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stamen"
+      },
+      {
+        "id": "option-1",
+        "text": "Sepal"
+      },
+      {
+        "id": "option-2",
+        "text": "Pistil"
+      },
+      {
+        "id": "option-3",
+        "text": "Petal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 812,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:be577ba0b9f6f31f",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When the Falcon Heavy was launched on it's test flight, what was the only part of the operation that failed?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Center Core Landing"
+      },
+      {
+        "id": "option-1",
+        "text": "Side Booster Landing"
+      },
+      {
+        "id": "option-2",
+        "text": "Deployment of Starman"
+      },
+      {
+        "id": "option-3",
+        "text": "Ignition and Liftoff"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 830,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:5205f3024a00b565",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What causes the sound of a heartbeat?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Closure of the heart valves"
+      },
+      {
+        "id": "option-1",
+        "text": "Contraction of the heart chambers"
+      },
+      {
+        "id": "option-2",
+        "text": "Blood exiting the heart"
+      },
+      {
+        "id": "option-3",
+        "text": "Relaxation of the heart chambers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 844,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:4356d784a81080ad",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "An atom contains a nucleus.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 903,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:74fe73e2d70e478d",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the chemical makeup of water?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "H20"
+      },
+      {
+        "id": "option-1",
+        "text": "C12H6O2"
+      },
+      {
+        "id": "option-2",
+        "text": "CO2"
+      },
+      {
+        "id": "option-3",
+        "text": "H"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 904,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:1b42b3b40e3b841b",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Like with the Neanderthals, Homo sapiens sapiens also interbred with the Denisovans.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 920,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:980c3e33bc0641f2",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is \"Stenoma\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A genus of moths"
+      },
+      {
+        "id": "option-1",
+        "text": "A combat stimulant from WW2"
+      },
+      {
+        "id": "option-2",
+        "text": "A type of seasoning"
+      },
+      {
+        "id": "option-3",
+        "text": "A port city in the carribean"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 970,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:8b784a1ebf30e47c",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shin Splints"
+      },
+      {
+        "id": "option-1",
+        "text": "Tennis Elbow"
+      },
+      {
+        "id": "option-2",
+        "text": "Carpal Tunnel"
+      },
+      {
+        "id": "option-3",
+        "text": "Housemaid's Knee"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 976,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:5a90e153607cee26",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What term is best associated with Sigmund Freud?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Psychoanalysis"
+      },
+      {
+        "id": "option-1",
+        "text": "Cognitive-Behavioral Therapy"
+      },
+      {
+        "id": "option-2",
+        "text": "Theory of Gravity"
+      },
+      {
+        "id": "option-3",
+        "text": "Dialectical Behavior Therapy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 978,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:science-nature:cc2ab3f796e46ebc",
+    "category": "science-nature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carl Jung"
+      },
+      {
+        "id": "option-1",
+        "text": "Jean Piaget"
+      },
+      {
+        "id": "option-2",
+        "text": "Alice Miller"
+      },
+      {
+        "id": "option-3",
+        "text": "Hermann Rorschach"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 998,
+      "category": "Science & Nature",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

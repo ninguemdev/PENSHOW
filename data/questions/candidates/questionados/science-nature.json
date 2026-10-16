@@ -1,0 +1,3232 @@
+[
+  {
+    "id": "questionados:science-nature:b9ac9b7e458bc0e3",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o centro do sistema solar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lua"
+      },
+      {
+        "id": "option-1",
+        "text": "Sol"
+      },
+      {
+        "id": "option-2",
+        "text": "Vênus"
+      },
+      {
+        "id": "option-3",
+        "text": "Marte"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:f2950dcbd9522ffd",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a fotossíntese?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Processo de transformação de energia solar em elétrica"
+      },
+      {
+        "id": "option-1",
+        "text": "Processo de produção de oxigênio nas plantas"
+      },
+      {
+        "id": "option-2",
+        "text": "Processo de produção de glicose nas plantas"
+      },
+      {
+        "id": "option-3",
+        "text": "Processo de decomposição de matéria orgânica"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c3a357101fc1a240",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior planeta do nosso sistema solar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Terra"
+      },
+      {
+        "id": "option-1",
+        "text": "Marte"
+      },
+      {
+        "id": "option-2",
+        "text": "Júpiter"
+      },
+      {
+        "id": "option-3",
+        "text": "Saturno"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:ad903ede7020e5e1",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um átomo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Menor partícula de um elemento químico"
+      },
+      {
+        "id": "option-1",
+        "text": "Um tipo de molécula"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma partícula subatômica"
+      },
+      {
+        "id": "option-3",
+        "text": "Um tipo de célula"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:9a905090345496ae",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a fórmula química da água?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "CO2"
+      },
+      {
+        "id": "option-1",
+        "text": "H2O"
+      },
+      {
+        "id": "option-2",
+        "text": "O2"
+      },
+      {
+        "id": "option-3",
+        "text": "CH4"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:da4b6c0232abba75",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem propôs a teoria da relatividade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Isaac Newton"
+      },
+      {
+        "id": "option-1",
+        "text": "Galileu Galilei"
+      },
+      {
+        "id": "option-2",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "option-3",
+        "text": "Stephen Hawking"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:64cdce19d8014963",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um exoplaneta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um planeta dentro do sistema solar"
+      },
+      {
+        "id": "option-1",
+        "text": "Um planeta com anéis"
+      },
+      {
+        "id": "option-2",
+        "text": "Um planeta fora do sistema solar"
+      },
+      {
+        "id": "option-3",
+        "text": "Um planeta gasoso"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:001ad4d2d581932f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade básica da hereditariedade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "DNA"
+      },
+      {
+        "id": "option-1",
+        "text": "RNA"
+      },
+      {
+        "id": "option-2",
+        "text": "Proteína"
+      },
+      {
+        "id": "option-3",
+        "text": "Cromossomo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c33233757c99844a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Lei da Gravidade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um objeto em repouso permanece em repouso, e um objeto em movimento permanece em movimento"
+      },
+      {
+        "id": "option-1",
+        "text": "A força aplicada a um objeto é igual à sua massa multiplicada pela aceleração"
+      },
+      {
+        "id": "option-2",
+        "text": "Dois corpos atraem-se com uma força diretamente proporcional ao produto de suas massas"
+      },
+      {
+        "id": "option-3",
+        "text": "A energia total em um sistema isolado permanece constante ao longo do tempo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:5af9a3beb6c5f4cc",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um buraco negro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um objeto celestial brilhante"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma estrela em formação"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma região do espaço-tempo com forte campo gravitacional"
+      },
+      {
+        "id": "option-3",
+        "text": "Um planeta gigante gasoso"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:4ad04448e52694cd",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de medida de temperatura no sistema internacional?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kelvin"
+      },
+      {
+        "id": "option-1",
+        "text": "Celsius"
+      },
+      {
+        "id": "option-2",
+        "text": "Fahrenheit"
+      },
+      {
+        "id": "option-3",
+        "text": "Rankine"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:88f37cb8d1d541b8",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria do Big Bang?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a origem da vida na Terra"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a expansão do universo a partir de um estado inicial extremamente quente e denso"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a formação de estrelas"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a evolução das galáxias"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:87963949f20d6e08",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do processo pelo qual as plantas convertem a luz solar em energia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fotossíntese"
+      },
+      {
+        "id": "option-1",
+        "text": "Respiração"
+      },
+      {
+        "id": "option-2",
+        "text": "Digestão"
+      },
+      {
+        "id": "option-3",
+        "text": "Fermentação"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:1bc8ab84817d61f1",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a mitose?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Divisão celular que resulta em células filhas com metade do número de cromossomos da célula-mãe"
+      },
+      {
+        "id": "option-1",
+        "text": "Divisão celular que resulta em células filhas geneticamente idênticas à célula-mãe"
+      },
+      {
+        "id": "option-2",
+        "text": "Processo de reprodução assexuada em células animais"
+      },
+      {
+        "id": "option-3",
+        "text": "Processo de formação de gametas"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:60ce961438b1f2cd",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é conhecido como o pai da computação?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steve Jobs"
+      },
+      {
+        "id": "option-1",
+        "text": "Bill Gates"
+      },
+      {
+        "id": "option-2",
+        "text": "Alan Turing"
+      },
+      {
+        "id": "option-3",
+        "text": "Tim Berners-Lee"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:b5fdc2c969a87611",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria da evolução?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a formação do sistema solar"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a origem da vida na Terra"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a seleção natural e a diversificação das espécies ao longo do tempo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de estrelas"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:556d63734b0b3911",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o componente principal da atmosfera terrestre?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oxigênio"
+      },
+      {
+        "id": "option-1",
+        "text": "Dióxido de carbono"
+      },
+      {
+        "id": "option-2",
+        "text": "Nitrogênio"
+      },
+      {
+        "id": "option-3",
+        "text": "Hidrogênio"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:7d1cc2ae898b0e14",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria das cordas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a vibração de cordas musicais"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a natureza quântica das partículas subatômicas"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a formação de cordas em sistemas planetários"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a origem das ondas sonoras"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:e24fc0fa80cfc39a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de medida da corrente elétrica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Volts"
+      },
+      {
+        "id": "option-1",
+        "text": "Watts"
+      },
+      {
+        "id": "option-2",
+        "text": "Ohms"
+      },
+      {
+        "id": "option-3",
+        "text": "Amperes"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:8e75772a62c0cfee",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um quasar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tipo de cometa"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma estrela em explosão"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma galáxia extremamente brilhante e distante"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma partícula subatômica"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:a8608d7e46463119",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem desenvolveu a teoria da relatividade restrita?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Isaac Newton"
+      },
+      {
+        "id": "option-1",
+        "text": "Niels Bohr"
+      },
+      {
+        "id": "option-2",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "option-3",
+        "text": "Max Planck"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:a8487bf27258e474",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria da seleção natural?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a origem do universo"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a evolução das espécies por meio da sobrevivência dos mais aptos"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a formação de estrelas"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a origem da vida na Terra"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:0e94458ab2313d20",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o órgão responsável pela produção de insulina no corpo humano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pâncreas"
+      },
+      {
+        "id": "option-1",
+        "text": "Fígado"
+      },
+      {
+        "id": "option-2",
+        "text": "Rim"
+      },
+      {
+        "id": "option-3",
+        "text": "Estômago"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:77e78ca199645be4",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria do caos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a imprevisibilidade em sistemas dinâmicos"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a formação de planetas"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a origem do universo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de buracos negros"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:439663ae9ad27417",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o menor osso no corpo humano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fêmur"
+      },
+      {
+        "id": "option-1",
+        "text": "Estribo"
+      },
+      {
+        "id": "option-2",
+        "text": "Tíbia"
+      },
+      {
+        "id": "option-3",
+        "text": "Fíbula"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:5c5a1bdac24d5296",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Lei de Coulomb?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma lei da termodinâmica"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma lei da óptica"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma lei da eletricidade e magnetismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma lei da gravidade"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:62bce819af2e413b",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a principal função dos leucócitos no corpo humano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Transportar oxigênio"
+      },
+      {
+        "id": "option-1",
+        "text": "Combater infecções"
+      },
+      {
+        "id": "option-2",
+        "text": "Produzir insulina"
+      },
+      {
+        "id": "option-3",
+        "text": "Realizar a coagulação sanguínea"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c999280b1c73f1d9",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Teoria da Relatividade Geral?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a gravidade em campos magnéticos"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a relação entre massa e energia"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a expansão do universo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de estrelas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:1c96d3a33835c1a7",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o ácido presente no suco gástrico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ácido sulfúrico"
+      },
+      {
+        "id": "option-1",
+        "text": "Ácido cítrico"
+      },
+      {
+        "id": "option-2",
+        "text": "Ácido clorídrico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ácido acético"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:06a0e897e1086368",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Lei de Boyle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma lei da termodinâmica"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma lei da óptica"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma lei da eletricidade e magnetismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma lei sobre o comportamento dos gases"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:2ed8c25f3f779cb7",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o pai da química moderna?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marie Curie"
+      },
+      {
+        "id": "option-1",
+        "text": "Antoine Lavoisier"
+      },
+      {
+        "id": "option-2",
+        "text": "Dmitri Mendeleev"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Boyle"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:456a943d5d51794e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um pulsar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tipo de cometa"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma estrela em explosão"
+      },
+      {
+        "id": "option-2",
+        "text": "Um tipo de galáxia"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma estrela de nêutrons que emite radiação pulsante"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:8fd6c3f751c0013a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a principal função dos rins no corpo humano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Produzir insulina"
+      },
+      {
+        "id": "option-1",
+        "text": "Filtrar o sangue e excretar produtos residuais"
+      },
+      {
+        "id": "option-2",
+        "text": "Realizar a coagulação sanguínea"
+      },
+      {
+        "id": "option-3",
+        "text": "Transportar oxigênio"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:2d8741e3dc233e92",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria das placas tectônicas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a formação de planetas"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a evolução das espécies"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a movimentação das camadas da Terra"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de buracos negros"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c7d7b315959362ab",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da primeira mulher a receber dois prêmios Nobel em campos diferentes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marie Curie"
+      },
+      {
+        "id": "option-1",
+        "text": "Rosalind Franklin"
+      },
+      {
+        "id": "option-2",
+        "text": "Dorothy Crowfoot Hodgkin"
+      },
+      {
+        "id": "option-3",
+        "text": "Barbara McClintock"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:26b67025987e5d5c",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a radioatividade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um processo de decomposição de matéria orgânica"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma forma de energia luminosa"
+      },
+      {
+        "id": "option-2",
+        "text": "A emissão de partículas subatômicas instáveis"
+      },
+      {
+        "id": "option-3",
+        "text": "Um fenômeno meteorológico"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:9be9fa220574d7be",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o elemento mais abundante na crosta terrestre?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ferro"
+      },
+      {
+        "id": "option-1",
+        "text": "Oxigênio"
+      },
+      {
+        "id": "option-2",
+        "text": "Silício"
+      },
+      {
+        "id": "option-3",
+        "text": "Alumínio"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:b82cac2e56ecef85",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Lei da Conservação da Massa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A matéria não pode ser criada nem destruída, apenas transformada"
+      },
+      {
+        "id": "option-1",
+        "text": "A velocidade de um objeto é diretamente proporcional à força aplicada"
+      },
+      {
+        "id": "option-2",
+        "text": "Dois corpos atraem-se com uma força diretamente proporcional à massa de ambos"
+      },
+      {
+        "id": "option-3",
+        "text": "A energia total em um sistema isolado permanece constante ao longo do tempo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:a6b0deda214dc9e1",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Teoria da Gravidade Quântica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a gravidade em campos magnéticos"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a relação entre massa e energia"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria que busca unificar a gravidade com a mecânica quântica"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a expansão do universo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c38cf47c5eca0198",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a função principal dos glóbulos vermelhos no sangue?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Combater infecções"
+      },
+      {
+        "id": "option-1",
+        "text": "Transportar oxigênio"
+      },
+      {
+        "id": "option-2",
+        "text": "Filtrar o sangue"
+      },
+      {
+        "id": "option-3",
+        "text": "Realizar a coagulação sanguínea"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c54f3acb696235e6",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a lei da conservação da energia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A matéria não pode ser criada nem destruída, apenas transformada"
+      },
+      {
+        "id": "option-1",
+        "text": "A velocidade de um objeto é diretamente proporcional à força aplicada"
+      },
+      {
+        "id": "option-2",
+        "text": "A energia total em um sistema isolado permanece constante ao longo do tempo"
+      },
+      {
+        "id": "option-3",
+        "text": "Dois corpos atraem-se com uma força diretamente proporcional à massa de ambos"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:36f726b80e6ed906",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o processo pelo qual as plantas convertem gás carbônico em oxigênio?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fotossíntese"
+      },
+      {
+        "id": "option-1",
+        "text": "Respiração"
+      },
+      {
+        "id": "option-2",
+        "text": "Digestão"
+      },
+      {
+        "id": "option-3",
+        "text": "Fermentação"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:394f28fa1422c540",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a terapia genética?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tipo de tratamento para problemas oculares"
+      },
+      {
+        "id": "option-1",
+        "text": "Um método para modificar o código genético de um organismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Um processo de clonagem de animais"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma técnica de cirurgia cardíaca"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:8a4bf545ee0605b4",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de medida de distância no sistema internacional?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Metro"
+      },
+      {
+        "id": "option-1",
+        "text": "Quilômetro"
+      },
+      {
+        "id": "option-2",
+        "text": "Milha"
+      },
+      {
+        "id": "option-3",
+        "text": "Polegada"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:d29f57cc3bc0470d",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um eclipse solar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quando a Lua passa entre a Terra e o Sol"
+      },
+      {
+        "id": "option-1",
+        "text": "Quando a Terra passa entre a Lua e o Sol"
+      },
+      {
+        "id": "option-2",
+        "text": "Quando o Sol passa entre a Terra e a Lua"
+      },
+      {
+        "id": "option-3",
+        "text": "Quando Marte fica visível no céu noturno"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:5590e3c83f07c299",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o pai da microbiologia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Anton van Leeuwenhoek"
+      },
+      {
+        "id": "option-1",
+        "text": "Louis Pasteur"
+      },
+      {
+        "id": "option-2",
+        "text": "Robert Koch"
+      },
+      {
+        "id": "option-3",
+        "text": "Alexander Fleming"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:a0cbaefa17a9365b",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a síntese de proteínas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um processo de respiração celular"
+      },
+      {
+        "id": "option-1",
+        "text": "Um processo de divisão celular"
+      },
+      {
+        "id": "option-2",
+        "text": "Um processo de produção de energia nas células"
+      },
+      {
+        "id": "option-3",
+        "text": "Um processo de construção de proteínas a partir de aminoácidos"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:d880c95a381c5206",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do primeiro satélite artificial lançado pela humanidade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hubble"
+      },
+      {
+        "id": "option-1",
+        "text": "Sputnik 1"
+      },
+      {
+        "id": "option-2",
+        "text": "Voyager 1"
+      },
+      {
+        "id": "option-3",
+        "text": "International Space Station"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:1599c28815dd5419",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a lei da inércia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A força aplicada a um objeto é igual à sua massa multiplicada pela aceleração"
+      },
+      {
+        "id": "option-1",
+        "text": "Um objeto em repouso permanece em repouso, e um objeto em movimento permanece em movimento"
+      },
+      {
+        "id": "option-2",
+        "text": "A energia total em um sistema isolado permanece constante ao longo do tempo"
+      },
+      {
+        "id": "option-3",
+        "text": "A cada ação, há uma reação igual e oposta"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:8afeab3bfccdb67e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um neurotransmissor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma partícula subatômica"
+      },
+      {
+        "id": "option-1",
+        "text": "Um tipo de célula nervosa"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma substância química que transmite sinais entre os neurônios"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma enzima digestiva"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:de57763fa9d6d0d9",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a principal função do sistema linfático?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Produzir insulina"
+      },
+      {
+        "id": "option-1",
+        "text": "Combater infecções"
+      },
+      {
+        "id": "option-2",
+        "text": "Filtrar o sangue"
+      },
+      {
+        "id": "option-3",
+        "text": "Realizar a coagulação sanguínea"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 50,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:5806718215ece88e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a constante de Planck?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma constante relacionada à aceleração de corpos em queda livre"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma constante relacionada à resistência elétrica em um circuito"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma constante relacionada à quantização de energia"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma constante relacionada à densidade populacional"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:04cba796d5c7b019",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a estrutura fundamental da matéria?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Átomo"
+      },
+      {
+        "id": "option-1",
+        "text": "Molécula"
+      },
+      {
+        "id": "option-2",
+        "text": "Próton"
+      },
+      {
+        "id": "option-3",
+        "text": "Célula"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:90e52d5a4809c47f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Lei de Ohm?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma lei da termodinâmica"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma lei da óptica"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma lei da eletricidade e magnetismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma lei que descreve a relação entre tensão, corrente e resistência em um circuito elétrico"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:7f8bf5f52b009fa2",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é conhecido como o pai da medicina moderna?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hippocrates"
+      },
+      {
+        "id": "option-1",
+        "text": "Avicenna"
+      },
+      {
+        "id": "option-2",
+        "text": "Galen"
+      },
+      {
+        "id": "option-3",
+        "text": "Paracelsus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:62aafb592c659557",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a síndrome de Alzheimer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma doença cardiovascular"
+      },
+      {
+        "id": "option-1",
+        "text": "Um distúrbio do sono"
+      },
+      {
+        "id": "option-2",
+        "text": "Um transtorno alimentar"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma doença neurodegenerativa que afeta a memória e as funções cognitivas"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:fabd521900ced120",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de medida de tempo no sistema internacional?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Segundo"
+      },
+      {
+        "id": "option-1",
+        "text": "Minuto"
+      },
+      {
+        "id": "option-2",
+        "text": "Hora"
+      },
+      {
+        "id": "option-3",
+        "text": "Dia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:65545e2d8c26e7b6",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria da evolução química?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a formação do sistema solar"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a evolução das espécies por meio de processos químicos"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a origem da vida na Terra"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de estrelas"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:a8989575ee18e195",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de medida da luminosidade de uma estrela?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Watt"
+      },
+      {
+        "id": "option-1",
+        "text": "Candela"
+      },
+      {
+        "id": "option-2",
+        "text": "Lúmen"
+      },
+      {
+        "id": "option-3",
+        "text": "Magnitude aparente"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:63959e3593811f29",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria da informação quântica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a transmissão de dados em redes de computadores"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a codificação de informação em níveis subatômicos"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a origem do universo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de ondas sonoras"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:b562ece31df1579e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é conhecido como o pai da psicologia moderna?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sigmund Freud"
+      },
+      {
+        "id": "option-1",
+        "text": "John B. Watson"
+      },
+      {
+        "id": "option-2",
+        "text": "B.F. Skinner"
+      },
+      {
+        "id": "option-3",
+        "text": "William James"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 61,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:4d2846fde382a92d",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a lei da reflexão da luz?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A luz se propaga em linha reta"
+      },
+      {
+        "id": "option-1",
+        "text": "A luz se refrata ao passar de um meio para outro"
+      },
+      {
+        "id": "option-2",
+        "text": "A luz é refletida em diferentes direções"
+      },
+      {
+        "id": "option-3",
+        "text": "A luz é refletida com um ângulo igual ao ângulo de incidência"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:eb0d8d0f02642344",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria das supercordas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a vibração de cordas musicais"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a origem do universo"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a formação de cordas em sistemas planetários"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a natureza quântica das partículas subatômicas"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:7b8fb9ce7bab8724",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a função do sistema nervoso autônomo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Controle voluntário dos músculos esqueléticos"
+      },
+      {
+        "id": "option-1",
+        "text": "Controle de funções involuntárias, como batimentos cardíacos e respiração"
+      },
+      {
+        "id": "option-2",
+        "text": "Processamento de informações sensoriais"
+      },
+      {
+        "id": "option-3",
+        "text": "Coordenação de movimentos finos"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 64,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:46041045f08cefa5",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria da inflação cósmica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a expansão acelerada do universo no início de sua história"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a formação de planetas"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a gravidade em campos magnéticos"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a formação de buracos negros"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 65,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:40e13018c47689da",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a lei da terceira lei de Newton?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A força aplicada a um objeto é igual à sua massa multiplicada pela aceleração"
+      },
+      {
+        "id": "option-1",
+        "text": "Dois corpos atraem-se com uma força diretamente proporcional à massa de ambos"
+      },
+      {
+        "id": "option-2",
+        "text": "A cada ação, há uma reação igual e oposta"
+      },
+      {
+        "id": "option-3",
+        "text": "A energia total em um sistema isolado permanece constante ao longo do tempo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 66,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:49ec8c760ecedb68",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a principal função do sistema endócrino?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Coordenação de movimentos finos"
+      },
+      {
+        "id": "option-1",
+        "text": "Produção de insulina"
+      },
+      {
+        "id": "option-2",
+        "text": "Controle de funções involuntárias, como batimentos cardíacos e respiração"
+      },
+      {
+        "id": "option-3",
+        "text": "Transporte de oxigênio no sangue"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 67,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:bf60388b5612ed64",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria do multiverso?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a existência de múltiplos universos"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a formação de estrelas"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a origem do universo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a evolução das espécies"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 68,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:e0cc792f953f7810",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do processo pelo qual as plantas perdem água para a atmosfera?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Transpiração"
+      },
+      {
+        "id": "option-1",
+        "text": "Fotossíntese"
+      },
+      {
+        "id": "option-2",
+        "text": "Evaporação"
+      },
+      {
+        "id": "option-3",
+        "text": "Respiração"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:4980ff9f8980980d",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a síndrome de Down?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma doença cardiovascular"
+      },
+      {
+        "id": "option-1",
+        "text": "Um distúrbio do sono"
+      },
+      {
+        "id": "option-2",
+        "text": "Um transtorno genético causado pela presença de um cromossomo extra"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma doença neurodegenerativa"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 70,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:3915ad336938af57",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o componente principal da atmosfera de Vênus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oxigênio"
+      },
+      {
+        "id": "option-1",
+        "text": "Nitrogênio"
+      },
+      {
+        "id": "option-2",
+        "text": "Dióxido de carbono"
+      },
+      {
+        "id": "option-3",
+        "text": "Metano"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 71,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:b0656fbeca296cda",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria da abiogênese?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a origem da vida a partir de seres preexistentes"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a formação de estrelas"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a origem do universo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a evolução das espécies"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 72,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:ebf8569857882f0c",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a refração da luz?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A luz se propaga em linha reta"
+      },
+      {
+        "id": "option-1",
+        "text": "A luz é refletida em diferentes direções"
+      },
+      {
+        "id": "option-2",
+        "text": "A luz é absorvida por um meio"
+      },
+      {
+        "id": "option-3",
+        "text": "A mudança de direção da luz ao passar de um meio para outro"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 73,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c16a982c64f4f277",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de medida da pressão no sistema internacional?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pascal"
+      },
+      {
+        "id": "option-1",
+        "text": "Newton"
+      },
+      {
+        "id": "option-2",
+        "text": "Watt"
+      },
+      {
+        "id": "option-3",
+        "text": "Joule"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 74,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:118cff437d00780f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a Lei de Snell-Descartes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma lei da termodinâmica"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma lei da óptica"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma lei da eletricidade e magnetismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma lei que descreve a refração da luz"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 75,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:d57435aea663226e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é a teoria do caos quântico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma teoria sobre a imprevisibilidade em sistemas dinâmicos"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma teoria sobre a natureza quântica das partículas subatômicas"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma teoria sobre a formação de planetas"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma teoria sobre a origem da vida na Terra"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 76,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:24cd36909360327d",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a soma dos ângulos internos de um triângulo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "90 graus"
+      },
+      {
+        "id": "option-1",
+        "text": "180 graus"
+      },
+      {
+        "id": "option-2",
+        "text": "270 graus"
+      },
+      {
+        "id": "option-3",
+        "text": "360 graus"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 77,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:fb8f27eaa057514a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é 7 elevado à potência de 3?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "21"
+      },
+      {
+        "id": "option-1",
+        "text": "49"
+      },
+      {
+        "id": "option-2",
+        "text": "343"
+      },
+      {
+        "id": "option-3",
+        "text": "512"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 78,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:b6036e918ee68c5b",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o resultado da multiplicação: 12 x 5?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "50"
+      },
+      {
+        "id": "option-1",
+        "text": "60"
+      },
+      {
+        "id": "option-2",
+        "text": "70"
+      },
+      {
+        "id": "option-3",
+        "text": "80"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 79,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:316717f9f226a177",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é a raiz quadrada de 144?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10"
+      },
+      {
+        "id": "option-1",
+        "text": "12"
+      },
+      {
+        "id": "option-2",
+        "text": "14"
+      },
+      {
+        "id": "option-3",
+        "text": "16"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 80,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c558d2abb7051462",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a fórmula para calcular a área de um círculo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A = πr"
+      },
+      {
+        "id": "option-1",
+        "text": "A = 2πr"
+      },
+      {
+        "id": "option-2",
+        "text": "A = πr^2"
+      },
+      {
+        "id": "option-3",
+        "text": "A = 0.5πr^2"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 81,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:fed0f0bdbb5a48fb",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o valor de π (pi) aproximado?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3.14"
+      },
+      {
+        "id": "option-1",
+        "text": "2.71"
+      },
+      {
+        "id": "option-2",
+        "text": "1.62"
+      },
+      {
+        "id": "option-3",
+        "text": "4.20"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 82,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:9f082995a6561efd",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é 15 dividido por 3?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "7"
+      },
+      {
+        "id": "option-3",
+        "text": "9"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 83,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c667633507716a73",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o resultado da expressão: 4² - 2³?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "12"
+      },
+      {
+        "id": "option-3",
+        "text": "16"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 85,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c3f341c799b179ac",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a fórmula para calcular o volume de uma esfera?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "V = (4/3)πr"
+      },
+      {
+        "id": "option-1",
+        "text": "V = 2πr"
+      },
+      {
+        "id": "option-2",
+        "text": "V = (4/3)πr^2"
+      },
+      {
+        "id": "option-3",
+        "text": "V = 4πr^3"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 86,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:3b1fdb291422a04f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é 25% de 80?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "15"
+      },
+      {
+        "id": "option-1",
+        "text": "20"
+      },
+      {
+        "id": "option-2",
+        "text": "25"
+      },
+      {
+        "id": "option-3",
+        "text": "30"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 87,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:6de599c9e876ff20",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a soma dos primeiros 10 números naturais?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "45"
+      },
+      {
+        "id": "option-1",
+        "text": "55"
+      },
+      {
+        "id": "option-2",
+        "text": "65"
+      },
+      {
+        "id": "option-3",
+        "text": "75"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 88,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:d7d9acd639cf19b6",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é a raiz cúbica de 27?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "6"
+      },
+      {
+        "id": "option-2",
+        "text": "9"
+      },
+      {
+        "id": "option-3",
+        "text": "12"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 89,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:333935a7191f0c9a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o resultado da expressão: 2x + 5 = 15?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "x = 5"
+      },
+      {
+        "id": "option-1",
+        "text": "x = 7"
+      },
+      {
+        "id": "option-2",
+        "text": "x = 8"
+      },
+      {
+        "id": "option-3",
+        "text": "x = 10"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 90,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:6eae2dde7df840f6",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é o logaritmo de 1000 na base 10?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1"
+      },
+      {
+        "id": "option-1",
+        "text": "2"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 91,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:3885ac38aff22c73",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o resultado da expressão: 3! (fatorial de 3)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "6"
+      },
+      {
+        "id": "option-2",
+        "text": "9"
+      },
+      {
+        "id": "option-3",
+        "text": "12"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 92,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:8275b1e6d672db57",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quanto é a soma dos ângulos externos de um triângulo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "90 graus"
+      },
+      {
+        "id": "option-1",
+        "text": "180 graus"
+      },
+      {
+        "id": "option-2",
+        "text": "270 graus"
+      },
+      {
+        "id": "option-3",
+        "text": "360 graus"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 93,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:8f291c81b0fe1e22",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o resultado de 2 elevado à potência de 5?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "16"
+      },
+      {
+        "id": "option-3",
+        "text": "32"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 94,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:e06fdcd827ba881f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a fórmula para calcular a área de um retângulo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A = πr"
+      },
+      {
+        "id": "option-1",
+        "text": "A = 2πr"
+      },
+      {
+        "id": "option-2",
+        "text": "A = l x w"
+      },
+      {
+        "id": "option-3",
+        "text": "A = 0.5 x (base x altura)"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 95,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:science-nature:c173a48c0396aae9",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o valor de √25?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "7"
+      },
+      {
+        "id": "option-3",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 96,
+      "license": "MIT"
+    }
+  }
+]

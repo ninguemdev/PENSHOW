@@ -1,0 +1,767 @@
+[
+  {
+    "id": "opentdb:vehicles:b70566d922d48a86",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The term \"GTO\" was originated by Ferrari?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 10,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:93711ab3f3790ea1",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The LS3 engine is how many cubic inches?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "376"
+      },
+      {
+        "id": "option-1",
+        "text": "346"
+      },
+      {
+        "id": "option-2",
+        "text": "364"
+      },
+      {
+        "id": "option-3",
+        "text": "427"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 28,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:40e2a542e674fb07",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car tire manufacturer is famous for its \"Eagle\" brand of tires, and is the official tire supplier of NASCAR?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Goodyear"
+      },
+      {
+        "id": "option-1",
+        "text": "Pirelli"
+      },
+      {
+        "id": "option-2",
+        "text": "Bridgestone"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 62,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:ed6c656b4964488e",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The LS1 engine is how many cubic inches?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "346"
+      },
+      {
+        "id": "option-1",
+        "text": "350"
+      },
+      {
+        "id": "option-2",
+        "text": "355"
+      },
+      {
+        "id": "option-3",
+        "text": "360"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 64,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:80b7a2c532d022bb",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Honda Motor Corporation originates in Japan",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 77,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:186c5b4b57c38e23",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In 1993 Swedish car manufacturer Saab experimented with replacing the steering wheel with a joystick in a Saab 9000.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 88,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:3291c181c40c2cc0",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the aircraft registration for the last Concorde built?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "G-BOAF"
+      },
+      {
+        "id": "option-1",
+        "text": "F-BTSC"
+      },
+      {
+        "id": "option-2",
+        "text": "G-BOAC"
+      },
+      {
+        "id": "option-3",
+        "text": "F-BVFF"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 162,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:06b09cabb65eb6bf",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following collision avoidance systems helps airplanes avoid colliding with each other?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "TCAS"
+      },
+      {
+        "id": "option-1",
+        "text": "GPWS"
+      },
+      {
+        "id": "option-2",
+        "text": "OCAS"
+      },
+      {
+        "id": "option-3",
+        "text": "TAWS"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 193,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:186d0ca1a7cbc513",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which supercar company is from Sweden?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Koenigsegg"
+      },
+      {
+        "id": "option-1",
+        "text": "Bugatti"
+      },
+      {
+        "id": "option-2",
+        "text": "Lamborghini"
+      },
+      {
+        "id": "option-3",
+        "text": "McLaren"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 222,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:96845a67732ebdf1",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was Cadillac founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1902"
+      },
+      {
+        "id": "option-1",
+        "text": "1964"
+      },
+      {
+        "id": "option-2",
+        "text": "1898"
+      },
+      {
+        "id": "option-3",
+        "text": "1985"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 345,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:d12e598a085ee336",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one is NOT the function of engine oil in car engines?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Combustion"
+      },
+      {
+        "id": "option-1",
+        "text": "Lubrication"
+      },
+      {
+        "id": "option-2",
+        "text": "Cooling"
+      },
+      {
+        "id": "option-3",
+        "text": "Reduce corrosion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 511,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:4f9b1d62b0ddff9d",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these car models are produced by Lamborghini?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aventador"
+      },
+      {
+        "id": "option-1",
+        "text": "Huayra"
+      },
+      {
+        "id": "option-2",
+        "text": "918"
+      },
+      {
+        "id": "option-3",
+        "text": "Chiron"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 568,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:c1e7f8f781cdceee",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How much horsepower is produced by the SD40-2 Locomotive?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3,000"
+      },
+      {
+        "id": "option-1",
+        "text": "3,200"
+      },
+      {
+        "id": "option-2",
+        "text": "2,578"
+      },
+      {
+        "id": "option-3",
+        "text": "2,190"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 576,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:94eb36f302579f2f",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Audi does not use Haldex based all wheel drive system?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Audi A8"
+      },
+      {
+        "id": "option-1",
+        "text": "Audi TT"
+      },
+      {
+        "id": "option-2",
+        "text": "Audi S3"
+      },
+      {
+        "id": "option-3",
+        "text": "Audi A3"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 598,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:3e31b0313743df31",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a Russian car manufacturer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "BYD"
+      },
+      {
+        "id": "option-1",
+        "text": "Silant"
+      },
+      {
+        "id": "option-2",
+        "text": "Dragon"
+      },
+      {
+        "id": "option-3",
+        "text": "GAZ"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 620,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:0e1cc48f5ee185d7",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Variable Valve Timing technology is used by BMW?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "VANOS"
+      },
+      {
+        "id": "option-1",
+        "text": "VVT-iw"
+      },
+      {
+        "id": "option-2",
+        "text": "VVEL"
+      },
+      {
+        "id": "option-3",
+        "text": "MultiAir"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 663,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e850e3fdde19ffb7",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the first front-wheel-drive car produced by Datsun (now Nissan)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cherry"
+      },
+      {
+        "id": "option-1",
+        "text": "Sunny"
+      },
+      {
+        "id": "option-2",
+        "text": "Bluebird"
+      },
+      {
+        "id": "option-3",
+        "text": "Skyline"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 856,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e9d9d17637ca485d",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Mitsubishi Motors has had a 30-year partnership with Jackie Chan, whose movies have prominently featured their vehicles.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 867,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:89a52c0ec7b4df67",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 2014, over 6 million General Motors vehicles were recalled due to what critical flaw?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Faulty ignition switch"
+      },
+      {
+        "id": "option-1",
+        "text": "Malfunctioning gas pedal"
+      },
+      {
+        "id": "option-2",
+        "text": "Breaking fuel lines"
+      },
+      {
+        "id": "option-3",
+        "text": "Faulty brake pads"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 869,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:58f610114007317c",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Bugatti was an Italian car manufacturer.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 878,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:3d688843c0d899d7",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nissan"
+      },
+      {
+        "id": "option-1",
+        "text": "Honda"
+      },
+      {
+        "id": "option-2",
+        "text": "Hyundai"
+      },
+      {
+        "id": "option-3",
+        "text": "Subaru"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 933,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:23ef64d21a55b425",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Japanese company is the world's largest manufacturer of motorcycles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Honda"
+      },
+      {
+        "id": "option-1",
+        "text": "Yamaha"
+      },
+      {
+        "id": "option-2",
+        "text": "Suzuki"
+      },
+      {
+        "id": "option-3",
+        "text": "Kawasaki"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 936,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:52e135193c81cc04",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT a car model produced by Malaysian car manufacturer Proton?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kelisa"
+      },
+      {
+        "id": "option-1",
+        "text": "Saga"
+      },
+      {
+        "id": "option-2",
+        "text": "Perdana"
+      },
+      {
+        "id": "option-3",
+        "text": "Inspira"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 946,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

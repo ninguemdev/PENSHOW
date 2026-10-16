@@ -1,0 +1,853 @@
+[
+  {
+    "id": "opentdb:animation:260a9d9fd13fa82c",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is Winnie the Pooh's gloomy donkey friend?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eeyore"
+      },
+      {
+        "id": "option-1",
+        "text": "Piglet"
+      },
+      {
+        "id": "option-2",
+        "text": "Tigger"
+      },
+      {
+        "id": "option-3",
+        "text": "Kanga"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 37,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:a8efcb95635cf8c3",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the villain of ''The Lion King''?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scar"
+      },
+      {
+        "id": "option-1",
+        "text": "Fred"
+      },
+      {
+        "id": "option-2",
+        "text": "Jafar"
+      },
+      {
+        "id": "option-3",
+        "text": "Vada"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 49,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:02c222372981a22b",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Blue Danube was one of the musical pieces featured in Disney's 1940's film Fantasia.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 72,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:235181ee7019d600",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"Star Wars\" universe, what species is Grand Admiral Thrawn?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chiss"
+      },
+      {
+        "id": "option-1",
+        "text": "Gungans"
+      },
+      {
+        "id": "option-2",
+        "text": "Pantorans"
+      },
+      {
+        "id": "option-3",
+        "text": "Twi'lek"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 100,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:0cda1d6bd245c6cb",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Night on Bald Mountain was one of the musical pieces featured in Disney's 1940's film Fantasia.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 181,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:7fba03918573f881",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which episode from The Amazing World Of Gumball won the Childrens Choice Award at the British Animation Awards in 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Shell"
+      },
+      {
+        "id": "option-1",
+        "text": "The Limit"
+      },
+      {
+        "id": "option-2",
+        "text": "The Kids"
+      },
+      {
+        "id": "option-3",
+        "text": "The Gripes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 194,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:3a8f42f6c0b6bec6",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Bugs Bunny, Tony the Tiger, and other bipedal animal characters are known as what type of character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Anthropomorphic"
+      },
+      {
+        "id": "option-1",
+        "text": "Anthropolegic "
+      },
+      {
+        "id": "option-2",
+        "text": "Anthrologic"
+      },
+      {
+        "id": "option-3",
+        "text": "Anthrogenetic"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 216,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:06771f8ba651fe20",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the web-comic Homestuck, what is the name of the game the 4 kids play?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sburb"
+      },
+      {
+        "id": "option-1",
+        "text": "Homesick"
+      },
+      {
+        "id": "option-2",
+        "text": "Husslie"
+      },
+      {
+        "id": "option-3",
+        "text": "Hiveswap"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 325,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:1e59a5d06e391333",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played Stan's dog in the South Park episode \"Big Gay Al's Big Gay Boat Ride\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Clooney"
+      },
+      {
+        "id": "option-1",
+        "text": "Jay Leno"
+      },
+      {
+        "id": "option-2",
+        "text": "Matt Stone"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Smith"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 341,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:3ca1f19ee661caea",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the Alligator that The Simpsons \"killed\" in the episode \"Kill The Alligator and Run\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Captain Jack"
+      },
+      {
+        "id": "option-1",
+        "text": "Captain Jake"
+      },
+      {
+        "id": "option-2",
+        "text": "Captain Hector"
+      },
+      {
+        "id": "option-3",
+        "text": "Captain Flynn"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 404,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:d63e85ff6c6d7f83",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In The Simpsons, which war did Seymour Skinner serve in the USA Army as a Green Beret?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vietnam War"
+      },
+      {
+        "id": "option-1",
+        "text": "World War 2"
+      },
+      {
+        "id": "option-2",
+        "text": "World War 1"
+      },
+      {
+        "id": "option-3",
+        "text": "Cold War"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 417,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:8b58efb757f66652",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mermaid Transformation"
+      },
+      {
+        "id": "option-1",
+        "text": "Artificial Gills"
+      },
+      {
+        "id": "option-2",
+        "text": "Bubble Head"
+      },
+      {
+        "id": "option-3",
+        "text": "Bubble Shield"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 421,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:1afeba69c0bb3f8a",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"The Amazing World of Gumball\", who is the principal of Elmore Junior High?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Principal Brown"
+      },
+      {
+        "id": "option-1",
+        "text": "Principal Small"
+      },
+      {
+        "id": "option-2",
+        "text": "Principal Brawn"
+      },
+      {
+        "id": "option-3",
+        "text": "Principal Simeon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 431,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:76bc89fba190e904",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Nutcracker Suite was one of the musical pieces featured in Disney's 1940's film Fantasia.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 478,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:b447be5eb11ed1b7",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which cartoon family lives in 742 Evergreen Terrace, Springfield USA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Simpsons"
+      },
+      {
+        "id": "option-1",
+        "text": "The Hills"
+      },
+      {
+        "id": "option-2",
+        "text": "The Flintstones"
+      },
+      {
+        "id": "option-3",
+        "text": "The Griffins"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 508,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:6ecc9963fb1f888a",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the surname of one of the male teachers in the BBC series Postman Pat?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pringle"
+      },
+      {
+        "id": "option-1",
+        "text": "Walker"
+      },
+      {
+        "id": "option-2",
+        "text": "Dorito"
+      },
+      {
+        "id": "option-3",
+        "text": "Lays"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 536,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:c60a708e81562924",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which singer provided the voice of Metroid's Mother Brain in the animated series \"Captain N: The Game Master\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Levi Stubbs"
+      },
+      {
+        "id": "option-1",
+        "text": "Freddie Mercury"
+      },
+      {
+        "id": "option-2",
+        "text": "Janet Jackson"
+      },
+      {
+        "id": "option-3",
+        "text": "Joan Jett"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 609,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:210212ad8505405c",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who created the Cartoon Network series \"Adventure Time\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pendleton Ward"
+      },
+      {
+        "id": "option-1",
+        "text": "J. G. Quintel"
+      },
+      {
+        "id": "option-2",
+        "text": "Ben Bocquelet"
+      },
+      {
+        "id": "option-3",
+        "text": "Rebecca Sugar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 667,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:203947f1cc924312",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first Disney movie to use CGI?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Black Cauldron"
+      },
+      {
+        "id": "option-1",
+        "text": "Tron"
+      },
+      {
+        "id": "option-2",
+        "text": "Toy Story"
+      },
+      {
+        "id": "option-3",
+        "text": "Fantasia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 677,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:fc9da6b9843736c7",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Rick and Morty\", from which dimension do Rick and Morty originate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "C-137"
+      },
+      {
+        "id": "option-1",
+        "text": "J1977"
+      },
+      {
+        "id": "option-2",
+        "text": "C-136"
+      },
+      {
+        "id": "option-3",
+        "text": "C500-a"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 759,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:579c8d3faa2c4823",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who voiced Finn in Adventure Time?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jeremy Shada"
+      },
+      {
+        "id": "option-1",
+        "text": "Nolan North"
+      },
+      {
+        "id": "option-2",
+        "text": "John DiMaggio"
+      },
+      {
+        "id": "option-3",
+        "text": "Tom Kenny"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 790,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:053b2606ebf49d68",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Benny, Brain, Fancy-Fancy, Spook and Choo-Choo were known associates of what Hanna Barbera cartoon character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Top Cat"
+      },
+      {
+        "id": "option-1",
+        "text": "Yogi Bear"
+      },
+      {
+        "id": "option-2",
+        "text": "Snagglepuss"
+      },
+      {
+        "id": "option-3",
+        "text": "Scooby-Doo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 807,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:8cb22f45335bb4df",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Pixar film, \"Toy Story\" what was the name of the child who owned the toys?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andy"
+      },
+      {
+        "id": "option-1",
+        "text": "Edward"
+      },
+      {
+        "id": "option-2",
+        "text": "Danny"
+      },
+      {
+        "id": "option-3",
+        "text": "Matt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 911,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:14c29bce43391fb8",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Myrtenaster"
+      },
+      {
+        "id": "option-1",
+        "text": "Gambol Shroud"
+      },
+      {
+        "id": "option-2",
+        "text": "Crescent Rose"
+      },
+      {
+        "id": "option-3",
+        "text": "Ember Celica"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 930,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:312599a3d7832db9",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which cartoon family lives in 31 Spooner Street, Quahog, Rhode Island USA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Griffins"
+      },
+      {
+        "id": "option-1",
+        "text": "The Simpsons"
+      },
+      {
+        "id": "option-2",
+        "text": "The Jetsons"
+      },
+      {
+        "id": "option-3",
+        "text": "The Hills"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 981,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

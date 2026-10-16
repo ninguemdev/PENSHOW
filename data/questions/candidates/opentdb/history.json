@@ -1,0 +1,2539 @@
+[
+  {
+    "id": "opentdb:history:936dc01e593f5bdc",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first man to travel into outer space?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yuri Gagarin"
+      },
+      {
+        "id": "option-1",
+        "text": "Virgil Ivan \"Gus\" Grissom"
+      },
+      {
+        "id": "option-2",
+        "text": "Neil Armstrong"
+      },
+      {
+        "id": "option-3",
+        "text": "Buzz Aldrin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 0,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:c20b16295e2ea0d6",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vespasian"
+      },
+      {
+        "id": "option-1",
+        "text": "Vitellius"
+      },
+      {
+        "id": "option-2",
+        "text": "Otho"
+      },
+      {
+        "id": "option-3",
+        "text": "Galba"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 12,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:c00ff4cd8005db83",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Guy Fawkes"
+      },
+      {
+        "id": "option-1",
+        "text": "Robert Catesby"
+      },
+      {
+        "id": "option-2",
+        "text": "Francis Tresham"
+      },
+      {
+        "id": "option-3",
+        "text": "Everard Digby"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 15,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:dd3b1627b0591d7d",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The United States Army Air Corps became the United States Air Force on what date?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "September 18, 1947"
+      },
+      {
+        "id": "option-1",
+        "text": "December 14, 1946"
+      },
+      {
+        "id": "option-2",
+        "text": "October 27, 1945"
+      },
+      {
+        "id": "option-3",
+        "text": "November 08, 1944"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 25,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:2e663962c8e85049",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Vikings were the first Europeans to discover North America.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 110,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:19d3fd9f0854716c",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The ancient city of Chichén Itzá was built by which civilization?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mayans"
+      },
+      {
+        "id": "option-1",
+        "text": "Aztecs"
+      },
+      {
+        "id": "option-2",
+        "text": "Incas"
+      },
+      {
+        "id": "option-3",
+        "text": "Toltecs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 113,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:de3cb61a9cc51581",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which countries participated in the Lobster War?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "France and Brazil"
+      },
+      {
+        "id": "option-1",
+        "text": "Canada and Norway"
+      },
+      {
+        "id": "option-2",
+        "text": "Australia and New Zealand"
+      },
+      {
+        "id": "option-3",
+        "text": "United States and England"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 127,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:ab43712ebf73d23b",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did O, Canada officially become the national anthem?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1980"
+      },
+      {
+        "id": "option-1",
+        "text": "1950"
+      },
+      {
+        "id": "option-2",
+        "text": "1920"
+      },
+      {
+        "id": "option-3",
+        "text": "1880"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 165,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:6a5c74c424e786b4",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the SS or Schutzstaffel established?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "April 4th, 1925"
+      },
+      {
+        "id": "option-1",
+        "text": "September 1st, 1941"
+      },
+      {
+        "id": "option-2",
+        "text": "March 8th, 1935"
+      },
+      {
+        "id": "option-3",
+        "text": "February 21st, 1926"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 186,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:178e63d1646a74fa",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did the Battle of the Bulge end?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "January 25, 1945"
+      },
+      {
+        "id": "option-1",
+        "text": "August 6, 1945"
+      },
+      {
+        "id": "option-2",
+        "text": "December 7, 1941"
+      },
+      {
+        "id": "option-3",
+        "text": "December 16, 1944"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 191,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:53bac2772e222b25",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which building was set aflame on August 24th, 1812?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The White House"
+      },
+      {
+        "id": "option-1",
+        "text": "Parliament Building"
+      },
+      {
+        "id": "option-2",
+        "text": "Grand National Assembly Building"
+      },
+      {
+        "id": "option-3",
+        "text": "Palace of the Nation"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 211,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:296d7b4fae0b700b",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The fraudelent doctor John R. Brinkley acummulated great fame and wealth in the early 1900s offering what service?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Goat testicles transplant"
+      },
+      {
+        "id": "option-1",
+        "text": "Pig blood transfusion"
+      },
+      {
+        "id": "option-2",
+        "text": "Cow liver transplant"
+      },
+      {
+        "id": "option-3",
+        "text": "Turkey breast implants"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 237,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:c1de8e8f3da0d692",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the leader of Sweden in the Great Northern War?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charles XII"
+      },
+      {
+        "id": "option-1",
+        "text": "Per Albin Hansson"
+      },
+      {
+        "id": "option-2",
+        "text": "Peter the Great"
+      },
+      {
+        "id": "option-3",
+        "text": "Gustavus Adolphus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 248,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:80bc9743d5538041",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Against which country did the Dutch Republic fight the Eighty Years' War?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spain"
+      },
+      {
+        "id": "option-1",
+        "text": "France"
+      },
+      {
+        "id": "option-2",
+        "text": "England"
+      },
+      {
+        "id": "option-3",
+        "text": "Portugal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 255,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:201f471bc7ba4f0f",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the People's Republic of China founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "October 1, 1949"
+      },
+      {
+        "id": "option-1",
+        "text": "April 3, 1947"
+      },
+      {
+        "id": "option-2",
+        "text": "May 7, 1945"
+      },
+      {
+        "id": "option-3",
+        "text": "December 6, 1950"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 269,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:fc939488c462e5c8",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The French Kingdom helped the United States gain their independence over Great Britain during the Revolutionary War.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 272,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:de5283eb2dae2b0a",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Hong Kong was a part of which country's territory before Britain regained it in 1945?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Japan"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Phillipines"
+      },
+      {
+        "id": "option-3",
+        "text": "French Indonesia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 299,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:417b856ea06f4adf",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did the Vietnam War end?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1975"
+      },
+      {
+        "id": "option-1",
+        "text": "1978"
+      },
+      {
+        "id": "option-2",
+        "text": "1967"
+      },
+      {
+        "id": "option-3",
+        "text": "1969"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 315,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:4a6ee473a3cbc603",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which year did the Tokyo Subway Sarin Attack occur?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1995"
+      },
+      {
+        "id": "option-1",
+        "text": "2001"
+      },
+      {
+        "id": "option-2",
+        "text": "2011"
+      },
+      {
+        "id": "option-3",
+        "text": "1991"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 317,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:8b7b58117e32a1b5",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Adolf Hitler was tried at the Nuremberg trials.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 318,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:3c5066b546a88f89",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Ottoman Empire was created in 1299.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 343,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:56ee423d01e66ba8",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brazzaville"
+      },
+      {
+        "id": "option-1",
+        "text": "Algiers"
+      },
+      {
+        "id": "option-2",
+        "text": "Paris"
+      },
+      {
+        "id": "option-3",
+        "text": "Tunis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 358,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:51cf64150964a40c",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What nationality was sultan Saladin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kurdish"
+      },
+      {
+        "id": "option-1",
+        "text": "Arab"
+      },
+      {
+        "id": "option-2",
+        "text": "Egyptian"
+      },
+      {
+        "id": "option-3",
+        "text": "Syrian"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 363,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:da0b1fdd2df11aa4",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Assyrians"
+      },
+      {
+        "id": "option-1",
+        "text": "Babylonians"
+      },
+      {
+        "id": "option-2",
+        "text": "Hittites"
+      },
+      {
+        "id": "option-3",
+        "text": "Elamites"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 367,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:455bfcd1a970d3f2",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "King Henry VIII was the second monarch of which European royal house?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tudor"
+      },
+      {
+        "id": "option-1",
+        "text": "York"
+      },
+      {
+        "id": "option-2",
+        "text": "Stuart"
+      },
+      {
+        "id": "option-3",
+        "text": "Lancaster"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 375,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:7a8d251af4d78ae3",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Poland"
+      },
+      {
+        "id": "option-1",
+        "text": "Czechoslovakia"
+      },
+      {
+        "id": "option-2",
+        "text": "Austria"
+      },
+      {
+        "id": "option-3",
+        "text": "Hungary"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 378,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:90b01d5364421f55",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "If you grab the bladed end of a longsword in a specific way, you will not cut yourself.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 382,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:de3dca46baf32020",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "To what political party did Abraham Lincoln belong when elected POTUS?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Republican"
+      },
+      {
+        "id": "option-1",
+        "text": "Democrat"
+      },
+      {
+        "id": "option-2",
+        "text": "Independent"
+      },
+      {
+        "id": "option-3",
+        "text": "Whig"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 385,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:6a2627f79a62c5ab",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which British monarch was also known as \"William of Orange\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "William III"
+      },
+      {
+        "id": "option-1",
+        "text": "William I"
+      },
+      {
+        "id": "option-2",
+        "text": "William II"
+      },
+      {
+        "id": "option-3",
+        "text": "William IV"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 433,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:fd86c1b69471cddd",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Roman Emperor led the Roman Empire to reach its maximum territorial extent?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Trajan"
+      },
+      {
+        "id": "option-1",
+        "text": "Julius Caesar"
+      },
+      {
+        "id": "option-2",
+        "text": "Claudius"
+      },
+      {
+        "id": "option-3",
+        "text": "Constantine the Great"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 455,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:dcead2f283765b07",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The crown of the Empire State Building was originally built for what purpose?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Airship Dock"
+      },
+      {
+        "id": "option-1",
+        "text": "Lightning Rod"
+      },
+      {
+        "id": "option-2",
+        "text": "Antennae"
+      },
+      {
+        "id": "option-3",
+        "text": "Flag Pole"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 468,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:e957e67cd965e1fa",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first recorded object to ever reach space?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bumper-WAC"
+      },
+      {
+        "id": "option-1",
+        "text": "American Manhole Cover"
+      },
+      {
+        "id": "option-2",
+        "text": "Sputnik I "
+      },
+      {
+        "id": "option-3",
+        "text": "Sputnik II"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 473,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:b6cb44746aee6323",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did Kentucky become the 15th state to join the union?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1792"
+      },
+      {
+        "id": "option-1",
+        "text": "1782"
+      },
+      {
+        "id": "option-2",
+        "text": "1798"
+      },
+      {
+        "id": "option-3",
+        "text": "1788"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 521,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:7544668bb78a38a6",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What number does the Roman numeral \"D\" stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "500"
+      },
+      {
+        "id": "option-1",
+        "text": "100"
+      },
+      {
+        "id": "option-2",
+        "text": "1000"
+      },
+      {
+        "id": "option-3",
+        "text": "50"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 528,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:7ed75d88f8b0cabd",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of his six wives was Henry VIII married to the longest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Catherine of Aragon"
+      },
+      {
+        "id": "option-1",
+        "text": "Anne Boleyn"
+      },
+      {
+        "id": "option-2",
+        "text": "Jane Seymour"
+      },
+      {
+        "id": "option-3",
+        "text": "Catherine Parr"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 529,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:95fc6fc331e69622",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Panama Canal was opened to traffic within 30 days of the beginning of World War I.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 560,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:da9a8198b2618db4",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was a military strategist in the Eastern Zhou period?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sun Tzu"
+      },
+      {
+        "id": "option-1",
+        "text": "Lu Bu"
+      },
+      {
+        "id": "option-2",
+        "text": "Genghis Khan"
+      },
+      {
+        "id": "option-3",
+        "text": "Vlad The Impaler"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 586,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:5eb2e5100d4a4e12",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Adolf Hitler was born on which date?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "April 20, 1889"
+      },
+      {
+        "id": "option-1",
+        "text": "June 12, 1889"
+      },
+      {
+        "id": "option-2",
+        "text": "February 6, 1889"
+      },
+      {
+        "id": "option-3",
+        "text": "April 16, 1889"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 608,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:0ce9c7c5586771d7",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Irish village in County Mayo built a tourism industry on the back of an alleged appearance by the Virgin Mary in 1879?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Knock"
+      },
+      {
+        "id": "option-1",
+        "text": "Ballycastle"
+      },
+      {
+        "id": "option-2",
+        "text": "Swinford"
+      },
+      {
+        "id": "option-3",
+        "text": "Turlough"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 617,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:f3b987c1f9a5644b",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year was the last natural case of smallpox documented?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1977"
+      },
+      {
+        "id": "option-1",
+        "text": "1982"
+      },
+      {
+        "id": "option-2",
+        "text": "1980"
+      },
+      {
+        "id": "option-3",
+        "text": "1990"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 627,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:eeb1a62f6cd4af33",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the chemical that was dropped on Vietnam during the Vietnam war?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Agent Orange"
+      },
+      {
+        "id": "option-1",
+        "text": "Phosgene"
+      },
+      {
+        "id": "option-2",
+        "text": "Mustard Gas"
+      },
+      {
+        "id": "option-3",
+        "text": "Hydrogen Cyanide"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 628,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:da781144ac03bd4b",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these tanks was designed and operated by the United Kingdom?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tog II"
+      },
+      {
+        "id": "option-1",
+        "text": "M4 Sherman"
+      },
+      {
+        "id": "option-2",
+        "text": "Tiger H1"
+      },
+      {
+        "id": "option-3",
+        "text": "T-34"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 659,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:ca2f91ab1d9fdc4f",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "March 25th"
+      },
+      {
+        "id": "option-1",
+        "text": "June 1st"
+      },
+      {
+        "id": "option-2",
+        "text": "September 25th"
+      },
+      {
+        "id": "option-3",
+        "text": "December 1st"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 666,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:97087f3e12842778",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year was the video game company Electronic Arts founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1982"
+      },
+      {
+        "id": "option-1",
+        "text": "1999"
+      },
+      {
+        "id": "option-2",
+        "text": "1981"
+      },
+      {
+        "id": "option-3",
+        "text": "2005"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 668,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:b18b4a9ae15a9474",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How old was Adolf Hitler when he died?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "56"
+      },
+      {
+        "id": "option-1",
+        "text": "43"
+      },
+      {
+        "id": "option-2",
+        "text": "65"
+      },
+      {
+        "id": "option-3",
+        "text": "47"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 682,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:b8bd73f1eb48fd13",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first president of the United States?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Washington"
+      },
+      {
+        "id": "option-1",
+        "text": "James Madison"
+      },
+      {
+        "id": "option-2",
+        "text": "Thomas Jefferson"
+      },
+      {
+        "id": "option-3",
+        "text": "James K. Polk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 694,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:b4a0b939225606c4",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Nation did NOT have a Colony in modern-day North America?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-1",
+        "text": "Spain"
+      },
+      {
+        "id": "option-2",
+        "text": "Sweden"
+      },
+      {
+        "id": "option-3",
+        "text": "Netherlands"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 715,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:99655f0948053022",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the famous Apache leader who died in 1909 at the age of 70?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Geronimo"
+      },
+      {
+        "id": "option-1",
+        "text": "Sitting Bull"
+      },
+      {
+        "id": "option-2",
+        "text": "Red Cloud"
+      },
+      {
+        "id": "option-3",
+        "text": "Crazy Horse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 730,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:4c8ea173a5813ea2",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Franklin Pierce"
+      },
+      {
+        "id": "option-1",
+        "text": "Andrew Johnson"
+      },
+      {
+        "id": "option-2",
+        "text": "Abraham Lincoln"
+      },
+      {
+        "id": "option-3",
+        "text": "James Polk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 731,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:724837e90a13356a",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The original Roman alphabet lacked the following letters EXCEPT:",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "X"
+      },
+      {
+        "id": "option-1",
+        "text": "W"
+      },
+      {
+        "id": "option-2",
+        "text": "U"
+      },
+      {
+        "id": "option-3",
+        "text": "J"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 743,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:3d73d00167661128",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did the First World War end?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1918"
+      },
+      {
+        "id": "option-1",
+        "text": "1914"
+      },
+      {
+        "id": "option-2",
+        "text": "1916"
+      },
+      {
+        "id": "option-3",
+        "text": "1912"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 746,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:99ac895b88be4f9f",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Apollo mission was the last one in NASA's Apollo program?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Apollo 17"
+      },
+      {
+        "id": "option-1",
+        "text": "Apollo 13"
+      },
+      {
+        "id": "option-2",
+        "text": "Apollo 11"
+      },
+      {
+        "id": "option-3",
+        "text": "Apollo 15"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 769,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:7cd0c3501a3d169c",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Māori"
+      },
+      {
+        "id": "option-1",
+        "text": "Papuans"
+      },
+      {
+        "id": "option-2",
+        "text": "Aborigines"
+      },
+      {
+        "id": "option-3",
+        "text": "Polynesians"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 780,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:48371794ba3a4662",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Thirty Years War ended with which treaty?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peace of Westphalia"
+      },
+      {
+        "id": "option-1",
+        "text": "Treaty of Versailles"
+      },
+      {
+        "id": "option-2",
+        "text": "Treaty of Paris"
+      },
+      {
+        "id": "option-3",
+        "text": "Peace of Prague"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 782,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:2e3750bbffb69e84",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shamshi-Adad III"
+      },
+      {
+        "id": "option-1",
+        "text": "Shalmaneser V"
+      },
+      {
+        "id": "option-2",
+        "text": "Esharhaddon"
+      },
+      {
+        "id": "option-3",
+        "text": "Ashur-nasir-pal II"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 799,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:6f8b34ae875adc13",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is attributed credit for recording the epic poem The Odyssey?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Homer"
+      },
+      {
+        "id": "option-1",
+        "text": "Aristotle"
+      },
+      {
+        "id": "option-2",
+        "text": "Odysseus"
+      },
+      {
+        "id": "option-3",
+        "text": "Socrates"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 815,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:d1ac862dbdf201ae",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1969"
+      },
+      {
+        "id": "option-1",
+        "text": "1965"
+      },
+      {
+        "id": "option-2",
+        "text": "1966"
+      },
+      {
+        "id": "option-3",
+        "text": "1973"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 817,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:be95415efb9b01c2",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Abraham Lincoln was the first U.S. President to be born outside the borders of the thirteen original states. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 827,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:cb442e8beb946dcf",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The M41 Walker Bulldog remains in service in some countries to this day.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 842,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:0e569bd4a818835a",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was the Italian firearms manufacturer Beretta founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1526"
+      },
+      {
+        "id": "option-1",
+        "text": "1776"
+      },
+      {
+        "id": "option-2",
+        "text": "1923"
+      },
+      {
+        "id": "option-3",
+        "text": "1998"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 849,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:213766e4374d7fd3",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was found in 1946 by two young shepards near a cave?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dead Sea Scrolls"
+      },
+      {
+        "id": "option-1",
+        "text": "The Blackbeard Chest"
+      },
+      {
+        "id": "option-2",
+        "text": "Sheep"
+      },
+      {
+        "id": "option-3",
+        "text": "The First Oaxaca Cave Sleeper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 862,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:430519364013f441",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the oldest US state?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Delaware"
+      },
+      {
+        "id": "option-1",
+        "text": "Rhode Island"
+      },
+      {
+        "id": "option-2",
+        "text": "Maine"
+      },
+      {
+        "id": "option-3",
+        "text": "Virginia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 872,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:649a8666fb153fe7",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where and when was the first cardboard box made for industrial use?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "England, 1817"
+      },
+      {
+        "id": "option-1",
+        "text": "United States, 1817"
+      },
+      {
+        "id": "option-2",
+        "text": "England, 1917"
+      },
+      {
+        "id": "option-3",
+        "text": "United States, 1917"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 888,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:58e3aec968cf562a",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Korean War ended in 1953 without any ceasefire.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 897,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:d7567159b9fce413",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the mnemonic device for remembering the fates of the wives of Henry VIII?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Divorced, Beheaded, Died, Divorced, Beheaded, Survived"
+      },
+      {
+        "id": "option-1",
+        "text": "Beheaded, Died, Divorced, Divorced, Beheaded, Survived"
+      },
+      {
+        "id": "option-2",
+        "text": "Died, Beheaded, Divorced, Beheaded, Survived, Divorced"
+      },
+      {
+        "id": "option-3",
+        "text": "Survived, Beheaded, Died, Divorced, Divorced, Beheaded"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 900,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:4ac5cc9676b8256d",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Silver"
+      },
+      {
+        "id": "option-1",
+        "text": "Gold"
+      },
+      {
+        "id": "option-2",
+        "text": "Juno"
+      },
+      {
+        "id": "option-3",
+        "text": "Sword"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 906,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:6043035f0418c657",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hispania "
+      },
+      {
+        "id": "option-1",
+        "text": "Italia"
+      },
+      {
+        "id": "option-2",
+        "text": "Gallia"
+      },
+      {
+        "id": "option-3",
+        "text": "Asia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 916,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:8b0d1ab31a037260",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country had an \"Orange Revolution\" between 2004 and 2005?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ukraine"
+      },
+      {
+        "id": "option-1",
+        "text": "Belarus"
+      },
+      {
+        "id": "option-2",
+        "text": "Latvia"
+      },
+      {
+        "id": "option-3",
+        "text": "Lithuania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 921,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:62c55276464b81bc",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aragon"
+      },
+      {
+        "id": "option-1",
+        "text": "Galicia"
+      },
+      {
+        "id": "option-2",
+        "text": "León"
+      },
+      {
+        "id": "option-3",
+        "text": "Navarre"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 945,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:f3a4a2663178302e",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Kublai Khan is the grandchild of Genghis Khan?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 952,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:d2f071b45a8666f2",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Paul Revere"
+      },
+      {
+        "id": "option-1",
+        "text": "Thomas Paine"
+      },
+      {
+        "id": "option-2",
+        "text": "Henry Longfellow"
+      },
+      {
+        "id": "option-3",
+        "text": "Nathan Hale"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 963,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:493132145413ed59",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "One of the deadliest pandemics, the \"Spanish Flu\", killed off what percentage of the human world population at the time?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3 to 6 percent"
+      },
+      {
+        "id": "option-1",
+        "text": "6 to 10 percent"
+      },
+      {
+        "id": "option-2",
+        "text": "1 to 3 percent"
+      },
+      {
+        "id": "option-3",
+        "text": "less than 1 percent"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 965,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:c84c1f08c933be35",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Paul Dirac"
+      },
+      {
+        "id": "option-1",
+        "text": "Niels Bohr"
+      },
+      {
+        "id": "option-2",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "option-3",
+        "text": "Werner Heisenberg"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 973,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:165a6fb36d3ff0da",
+    "category": "history",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Cold War ended with Joseph Stalin's death.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 979,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:history:96f53921136fb319",
+    "category": "history",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many manned moon landings have there been?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "6"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "7"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 987,
+      "category": "History",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

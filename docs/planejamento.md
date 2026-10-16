@@ -1,0 +1,91 @@
+# Plano de desenvolvimento
+
+## Objetivo
+
+Criar um quiz multiplayer para navegador com a entrada simples do Comicle e modalidades variadas inspiradas no Brain Show. O placar das cinco primeiras fases se converte em vantagem explícita na final.
+
+## Estado inicial
+
+| Entrega | Estado |
+|---|---|
+| Inspeção do código público do Comicle e mapa de reaproveitamento | Concluída nesta etapa |
+| Pesquisa das informações públicas do Brain Show | Concluída com limites documentados |
+| Estrutura e sequência de implementação | Planejadas |
+| Coleta inicial de candidatos a perguntas, procedência e validação estrutural | 531 em português e 1.000 em inglês importados; nenhum aprovado editorialmente |
+| Regras completas, revisão editorial e aplicação jogável | Pendentes |
+
+## Entregas em ordem
+
+### P01 — Base do projeto
+
+Criar os três pacotes do monorepo e configurar TypeScript estrito, lint, formatação, Vitest e builds. Manter contratos em um lugar e textos visíveis em pt-BR. Verificar dependências e gerar lockfile próprio.
+
+Aceite: web e servidor iniciam localmente; contratos são importados pelos dois; verificações passam; nenhuma dependência do editor de quadrinhos é carregada.
+
+### P02 — Perfil e personagem
+
+Migrar catálogo, artes, editor e renderizador de avatares, normalização do apelido e armazenamento seguro do perfil. Adaptar nomes de pacote, estilos e chaves locais. Preservar a licença dos arquivos reutilizados.
+
+Aceite: montar personagem, sortear aparência, salvar nome e reabrir o navegador preservam o perfil; catálogo inválido é sanitizado; navegação por teclado e celular funcionam. Perguntar sobre direção visual antes de finalizar a identidade do site.
+
+### P03 — Salas e reconexão
+
+Migrar sessões anônimas, códigos, convites, anfitrião e presença. Separar as dependências de histórias. Construir lobby com configurações de quiz, espectadores e fila por sala.
+
+Aceite: duas sessões entram por código/link; só anfitrião inicia/configura; queda e retorno preservam identidade; aba substituída não joga; expulsão e sala cheia têm tratamento visível. Antes de consolidar, confirmar limite de jogadores e política de queda.
+
+### P04 — Perguntas e primeira partida curta
+
+Revisar uma amostra distribuída pelos temas, criar catálogo de conteúdo publicado separado dos candidatos e implementar quiz clássico. Criar seleção de tema, cronômetro do servidor, resposta única, revelação e placar.
+
+Aceite: partida real com amigos funciona de ponta a ponta; gabarito não chega antes da revelação; nenhuma pergunta se repete; ausência e requisições repetidas não quebram o placar. Não chamar os candidatos importados de perguntas revisadas.
+
+### P05 — Motor de fases e modalidades
+
+Criar estratégias e fases de instrução/resultados; adicionar velocidade, aposta, roubo e pressão em incrementos separados. Ajustar equilíbrio observando partidas curtas. Consultar as regras de pressão antes de codificá-la.
+
+Aceite: cinco fases completas; cada modalidade explica sua regra; transições não dependem do anfitrião responder; ninguém recebe tempo já vencido; pontuação e transferências são determinísticas.
+
+### P06 — Final e pódio
+
+Resolver antes da implementação as perguntas de [regras](regras.md): interpretação das vidas, quem ataca, quem pode ser alvo, dano por pergunta e empates. Implementar conversão do placar, danos, eliminação, espectadores, vitória e revanche.
+
+Aceite: exemplos de colocação demonstram 4 / 3 / 2 / 1 conforme a interpretação confirmada; reconectar não restaura vidas; ataques simultâneos não dependem da ordem da rede; todo grupo chega a um resultado válido ou ao desempate previsto.
+
+### P07 — Banco amplo e qualidade editorial
+
+Expandir para pelo menos 5.000 perguntas revisadas em pt-BR, equilibradas por tema e dificuldade. Esse é um objetivo de conteúdo, não a contagem já entregue. Priorizar pelo menos 50 perguntas publicáveis por tema antes da primeira versão de grupo e crescer sem bloquear os protótipos.
+
+Aceite: fonte e licença por registro, resposta única, alternativas plausíveis, correções registradas, ausência de duplicatas e relatório por tema. Conteúdo desatualizado ou ambíguo fica fora do sorteio.
+
+### P08 — Interface, som e testes em grupo
+
+Refinar palco, personagens, leitura das perguntas, transições, feedback de resposta, indicador de conexão e pódio. Sons próprios, volume/silêncio e redução de movimento. Priorizar celular e computador, sem exigir gráficos 3D.
+
+Aceite: navegação por teclado, contraste, botões confortáveis para toque, cronômetro legível e instruções compreensíveis; validar com 2, 4 e 12 participantes e conexões lentas. Ajustar duração e agressividade dos ataques com dados das partidas.
+
+### P09 — Publicação
+
+Definir destino de hospedagem e caminho público. Preparar build, configuração, documentação local, healthcheck e proxy com WebSocket. Confirmar a política de encerramento após reinício.
+
+Aceite: ambiente de teste passa por partida completa, reconexão e revanche; cliente não carrega o banco de gabaritos; configurações de PENSHOW e Comicle são isoladas. Publicar o jogo quando o destino e o escopo dessa publicação estiverem definidos.
+
+## Critérios gerais
+
+- Implementar uma entrega utilizável por vez, com módulos pequenos e responsabilidades claras.
+- Regras decididas ficam em `regras.md`; regras propostas continuam identificadas como propostas.
+- Testes focam comportamento: placar, fases, salas, vidas e privacidade das respostas.
+- Manter README fiel ao estado real do projeto e às instruções de execução existentes.
+- Não importar o histórico inteiro do outro jogo: migrar apenas arquivos úteis, com sua licença.
+- A primeira versão de teste deve existir antes da revisão de milhares de perguntas, para experimentar as regras cedo.
+
+## Riscos a resolver durante o trabalho
+
+| Risco concreto | Tratamento |
+|---|---|
+| Quatro vidas acabarem na mesma pergunta por ataques concentrados | Definir limite de dano e quantidade de atacantes antes de P06 |
+| A final desvalorizar as cinco fases anteriores | Exibir vantagem, simular resultados e ajustar com partidas |
+| Fonte grande conter respostas erradas | Candidatos separados de conteúdo publicado e revisão por pergunta |
+| Velocidade favorecer latência | Bônus limitado em faixas e tempo de recepção decidido pelo servidor |
+| Reaproveitamento arrastar regras de quadrinhos | Adaptação por módulo, contratos próprios e testes de integração |
+| Esgotar um tema sem repetir | Validar capacidade e oferecer outros temas antes de iniciar |

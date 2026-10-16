@@ -1,0 +1,511 @@
+[
+  {
+    "id": "opentdb:politics:9cf51807963906c6",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to the United States Constitution, how old must a person be to be elected President of the United States?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "35"
+      },
+      {
+        "id": "option-1",
+        "text": "30"
+      },
+      {
+        "id": "option-2",
+        "text": "40"
+      },
+      {
+        "id": "option-3",
+        "text": "45"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 16,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:048de6a159017824",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who became Prime Minister of the United Kingdom in July 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Theresa May"
+      },
+      {
+        "id": "option-1",
+        "text": "Boris Johnson"
+      },
+      {
+        "id": "option-2",
+        "text": "David Cameron"
+      },
+      {
+        "id": "option-3",
+        "text": "Tony Blair"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 238,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:102dbfab1b48cb00",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the British Prime Minister at the outbreak of the Second World War?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Neville Chamberlain"
+      },
+      {
+        "id": "option-1",
+        "text": "Clement Attlee"
+      },
+      {
+        "id": "option-2",
+        "text": "Winston Churchill"
+      },
+      {
+        "id": "option-3",
+        "text": "Stanley Baldwin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 434,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b49d646f19e7ffb0",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What candidate won the 2012 US Presidential Election?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Barack Obama"
+      },
+      {
+        "id": "option-1",
+        "text": "Mitt Romney"
+      },
+      {
+        "id": "option-2",
+        "text": "Bob Hope"
+      },
+      {
+        "id": "option-3",
+        "text": "Ross Perot"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 437,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:6d5603d2bbf0b6d1",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Due to the Nagoya Resolution, China agreed to allow Taiwan to compete separately in international sporting events under what name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chinese Taipei"
+      },
+      {
+        "id": "option-1",
+        "text": "Chinese Taiwan"
+      },
+      {
+        "id": "option-2",
+        "text": "Republic of Taiwan"
+      },
+      {
+        "id": "option-3",
+        "text": "Republic of Taipei "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 458,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:2553f631dd077427",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yomba Shoshone Tribe"
+      },
+      {
+        "id": "option-1",
+        "text": "Standing Rock Sioux Tribe"
+      },
+      {
+        "id": "option-2",
+        "text": "Kiowa Tribe of Oklahoma"
+      },
+      {
+        "id": "option-3",
+        "text": "Pawnee Nation of Oklahoma"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 459,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b34a842650223146",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chile"
+      },
+      {
+        "id": "option-1",
+        "text": "Ethiopia"
+      },
+      {
+        "id": "option-2",
+        "text": "Indonesia"
+      },
+      {
+        "id": "option-3",
+        "text": "Nicaragua"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 505,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:48b9e459d73d6b18",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was elected leader of the UK Labour Party in September 2015?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jeremy Corbyn"
+      },
+      {
+        "id": "option-1",
+        "text": "Ed Miliband"
+      },
+      {
+        "id": "option-2",
+        "text": "David Cameron"
+      },
+      {
+        "id": "option-3",
+        "text": "Theresa May"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 520,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:c840006dcff33741",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the only president to not be in office in Washington D.C?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Washington"
+      },
+      {
+        "id": "option-1",
+        "text": "Abraham Lincoln"
+      },
+      {
+        "id": "option-2",
+        "text": "Richard Nixon"
+      },
+      {
+        "id": "option-3",
+        "text": "Thomas Jefferson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 650,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:a8c06287a00d8ad2",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Nazi Germany surrendered on Harry Truman's birthday while he was president.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 661,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:208758c8ac46b765",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the primary purpose of the Fourth Amendment to the US Constitution?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Preventing unreasonable searches and seizures"
+      },
+      {
+        "id": "option-1",
+        "text": "Preventing cruel and unusual punishments"
+      },
+      {
+        "id": "option-2",
+        "text": "Protecting against imprisonment without due process of law"
+      },
+      {
+        "id": "option-3",
+        "text": "Protecting the right to keep and bear arms"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 670,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:d02935cb24692b71",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many people are in the U.S. House of Representatives?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "435"
+      },
+      {
+        "id": "option-1",
+        "text": "260"
+      },
+      {
+        "id": "option-2",
+        "text": "415"
+      },
+      {
+        "id": "option-3",
+        "text": "50"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 687,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:648a6c91c7470842",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tonga"
+      },
+      {
+        "id": "option-1",
+        "text": "Palau"
+      },
+      {
+        "id": "option-2",
+        "text": "Fiji"
+      },
+      {
+        "id": "option-3",
+        "text": "Kiribati"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 736,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:45fbbe8757e81b50",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Qatar"
+      },
+      {
+        "id": "option-1",
+        "text": "Bahrain"
+      },
+      {
+        "id": "option-2",
+        "text": "United States of America"
+      },
+      {
+        "id": "option-3",
+        "text": "Russia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 881,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:d7b643b6bde4bdce",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Russia passed a law in 2013 which outlaws telling children that homosexuals exist.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 913,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

@@ -1,0 +1,40 @@
+# PENSHOW
+
+Jogo multiplayer de perguntas e respostas para jogar com amigos pelo navegador. Crie uma sala, escolha seu nome e monte seu personagem para disputar fases com regras diferentes.
+
+O desempenho nas primeiras cinco fases determinará a vantagem na final. A proposta inicial é **1º lugar com 4 vidas, 2º com 3, 3º com 2 e os demais com 1**. A contagem exata de perdas permitidas, os ataques e os desempates estão em discussão.
+
+## Estado do projeto
+
+Planejamento inicial e preparação do banco de perguntas. A aplicação ainda não foi implementada e não há uma versão jogável publicada.
+
+O projeto parte da arquitetura do [Comicle](https://github.com/ninguemdev/Comicle), especialmente suas salas, identidade de convidado, nomes e avatares. As fases têm como referência a dinâmica de programas de perguntas do [Brain Show](https://store.steampowered.com/app/2235150/).
+
+## Planejamento
+
+- [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
+- [Análise do Comicle](docs/analise-comicle.md): módulos examinados e adaptações necessárias.
+- [Referência do Brain Show](docs/referencia-brain-show.md): evidências e propostas para o PENSHOW.
+- [Regras em discussão](docs/regras.md): o que foi definido e o que precisa ser decidido.
+- [Arquitetura](docs/arquitetura.md): organização, responsabilidades e contratos previstos.
+- [Banco de perguntas](docs/perguntas.md): fontes, categorias, revisão e expansão.
+
+## Ferramentas de conteúdo
+
+Requer Node.js 24. Não há dependências externas nesta etapa.
+
+```sh
+npm run questions:validate
+npm test
+```
+
+Os arquivos em `data/questions/candidates` são candidatos à revisão editorial. Não devem ser usados automaticamente numa partida. As fontes e suas licenças estão em `data/sources.json` e `data/licenses`.
+
+Coleta inicial: **1.531 candidatos**, sendo **531 em português para revisão** e **1.000 em inglês para tradução**. Nenhum foi marcado como aprovado. O objetivo de expansão é chegar a 5.000 perguntas revisadas em pt-BR.
+
+```sh
+npm run questions:import
+npm run questions:import:opentdb -- --amount=1000
+```
+
+O segundo comando faz uma coleta opcional em inglês, respeitando o intervalo da fonte; o material precisa de tradução e revisão antes de entrar no jogo. A importação é uma ferramenta de preparação: partidas não dependerão de serviços externos de perguntas.

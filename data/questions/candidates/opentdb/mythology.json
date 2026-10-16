@@ -1,0 +1,266 @@
+[
+  {
+    "id": "opentdb:mythology:f74293a8dfb15620",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Hel was the daughter of which Norse Mythological figure?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Loki"
+      },
+      {
+        "id": "option-1",
+        "text": "Thor"
+      },
+      {
+        "id": "option-2",
+        "text": "Odin"
+      },
+      {
+        "id": "option-3",
+        "text": "Balder"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 95,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:aa4275b819a571c4",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What weakpoint of Achilles was expoited by the Trojan prince, Paris?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Heel"
+      },
+      {
+        "id": "option-1",
+        "text": "Neck"
+      },
+      {
+        "id": "option-2",
+        "text": "Back"
+      },
+      {
+        "id": "option-3",
+        "text": "Calf"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 145,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:8259e56f1b0722fc",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Roman god \"Jupiter\" was first known as \"Zeus\" to the Greeks.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 312,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:69f12e9fc89ffd9f",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Greek mythology, Persephone must return to the underworld because she had eaten what kind of seeds?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pomegranate"
+      },
+      {
+        "id": "option-1",
+        "text": "Sunflower"
+      },
+      {
+        "id": "option-2",
+        "text": "Orange"
+      },
+      {
+        "id": "option-3",
+        "text": "Fig"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 402,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:78dee38acada7157",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Neptune's greek name was...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Poseidon"
+      },
+      {
+        "id": "option-1",
+        "text": "Ares"
+      },
+      {
+        "id": "option-2",
+        "text": "Zeus"
+      },
+      {
+        "id": "option-3",
+        "text": "Apollo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 443,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:25950e5060690bae",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Greek Mythology, who was the daughter of King Minos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ariadne"
+      },
+      {
+        "id": "option-1",
+        "text": "Athena"
+      },
+      {
+        "id": "option-2",
+        "text": "Ariel"
+      },
+      {
+        "id": "option-3",
+        "text": "Alana"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 612,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:0a120a60d5aca512",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the Greek Mythology, the Gorgon can turn those who behold her to stone.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 630,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:f22987ae2434622b",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a god in Norse Mythology.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jens"
+      },
+      {
+        "id": "option-1",
+        "text": "Loki"
+      },
+      {
+        "id": "option-2",
+        "text": "Tyr"
+      },
+      {
+        "id": "option-3",
+        "text": "Snotra"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 681,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

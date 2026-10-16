@@ -1,0 +1,14 @@
+{
+  "name": "penshow",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Jogo multiplayer de perguntas e respostas no navegador",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "questions:import": "node scripts/import-questionados.mjs",
+    "questions:import:opentdb": "node scripts/import-opentdb.mjs",
+    "questions:validate": "node scripts/validate-questions.mjs",
+    "test": "node --test scripts/lib/*.test.mjs"
+  }
+}

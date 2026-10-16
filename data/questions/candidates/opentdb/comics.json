@@ -1,0 +1,519 @@
+[
+  {
+    "id": "opentdb:comics:e1194cd9b97a0caf",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This Marvel superhero is often called \"The man without fear\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daredevil"
+      },
+      {
+        "id": "option-1",
+        "text": "Thor"
+      },
+      {
+        "id": "option-2",
+        "text": "Wolverine"
+      },
+      {
+        "id": "option-3",
+        "text": "Hulk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 89,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:8b855470925b52ff",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what Homestuck Update was [S] Game Over released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "October 25th, 2014"
+      },
+      {
+        "id": "option-1",
+        "text": "April 13th, 2009"
+      },
+      {
+        "id": "option-2",
+        "text": "April 8th, 2012"
+      },
+      {
+        "id": "option-3",
+        "text": "August 28th, 2003"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 155,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:b947ce44e9762164",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Homestuck Series, what is the alternate name for the Kingdom of Lights?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Prospit"
+      },
+      {
+        "id": "option-1",
+        "text": "No Name"
+      },
+      {
+        "id": "option-2",
+        "text": "Golden City"
+      },
+      {
+        "id": "option-3",
+        "text": "Yellow Moon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 400,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:38fc86c137a619c6",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's the name of Batman's parents?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Thomas & Martha"
+      },
+      {
+        "id": "option-1",
+        "text": "Joey & Jackie"
+      },
+      {
+        "id": "option-2",
+        "text": "Jason & Sarah"
+      },
+      {
+        "id": "option-3",
+        "text": "Todd & Mira"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 406,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:8997e6fe305ae917",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's the race of Invincible's father?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Viltrumite"
+      },
+      {
+        "id": "option-1",
+        "text": "Kryptonian"
+      },
+      {
+        "id": "option-2",
+        "text": "Kree"
+      },
+      {
+        "id": "option-3",
+        "text": "Irken"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 446,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:736cc56fa42f1730",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which superhero is known for his super speed?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flash"
+      },
+      {
+        "id": "option-1",
+        "text": "Superman"
+      },
+      {
+        "id": "option-2",
+        "text": "Batman"
+      },
+      {
+        "id": "option-3",
+        "text": "Spiderman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 593,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f1ad3f17137f7768",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Bionicle, who was formerly a Av-Matoran and is now the Toa of Light?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Takua"
+      },
+      {
+        "id": "option-1",
+        "text": "Jaller"
+      },
+      {
+        "id": "option-2",
+        "text": "Vakama"
+      },
+      {
+        "id": "option-3",
+        "text": "Tahu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 605,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:823892605010da78",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When Batman trolls the online chat rooms, what alias does he use?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "JonDoe297"
+      },
+      {
+        "id": "option-1",
+        "text": "iAmBatman"
+      },
+      {
+        "id": "option-2",
+        "text": "BWayne13"
+      },
+      {
+        "id": "option-3",
+        "text": "BW1129"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 634,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:0adcd4ecbb9af481",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real hair colour of the mainstream comic book version (Earth-616) of Daredevil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blonde"
+      },
+      {
+        "id": "option-1",
+        "text": "Auburn"
+      },
+      {
+        "id": "option-2",
+        "text": "Brown"
+      },
+      {
+        "id": "option-3",
+        "text": "Black"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 702,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f5bbff94741ff5eb",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lobster Johnson"
+      },
+      {
+        "id": "option-1",
+        "text": "Roger the Homunculus"
+      },
+      {
+        "id": "option-2",
+        "text": "The Spider"
+      },
+      {
+        "id": "option-3",
+        "text": "The Wendigo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 758,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:36ec6393a2c3d66c",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the designation given to the Marvel Cinematic Universe?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Earth-199999"
+      },
+      {
+        "id": "option-1",
+        "text": "Earth-616"
+      },
+      {
+        "id": "option-2",
+        "text": "Earth-10005"
+      },
+      {
+        "id": "option-3",
+        "text": "Earth-2008"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 781,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:5ad3fe222801ebbf",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Homestuck\" the \"Kingdom of Darkness\" is also known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Derse"
+      },
+      {
+        "id": "option-1",
+        "text": "Skaia"
+      },
+      {
+        "id": "option-2",
+        "text": "Prospit"
+      },
+      {
+        "id": "option-3",
+        "text": "The Medium"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 831,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:25743703435ad45c",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the creator of the comic series \"The Walking Dead\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Robert Kirkman"
+      },
+      {
+        "id": "option-1",
+        "text": "Stan Lee"
+      },
+      {
+        "id": "option-2",
+        "text": "Malcolm Wheeler-Nicholson"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Crumb"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 855,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:06800df3764502d8",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The success of DC Comics' Swamp Thing, Sandman, and other books in a similar style, led to the creation of what new imprint in 1993?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vertigo"
+      },
+      {
+        "id": "option-1",
+        "text": "Impact"
+      },
+      {
+        "id": "option-2",
+        "text": "New Universe"
+      },
+      {
+        "id": "option-3",
+        "text": "Red Circle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 861,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:0b7a7981ebd698c7",
+    "category": "comics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The X-Men's Storm and Nightcrawler were originally planned to be characters in DC Comics' Legion of Super-Heroes.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 879,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

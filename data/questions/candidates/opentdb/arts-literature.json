@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "opentdb:arts-literature:decbdead27c6f525",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Artful Dodger"
+      },
+      {
+        "id": "option-1",
+        "text": "Fagin"
+      },
+      {
+        "id": "option-2",
+        "text": "Bull’s-eye"
+      },
+      {
+        "id": "option-3",
+        "text": "Mr. Fang"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 9,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:90355219acfeeca3",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these paintings is not by Caspar David Friedrich?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Black Sea"
+      },
+      {
+        "id": "option-1",
+        "text": "The Sea of Ice"
+      },
+      {
+        "id": "option-2",
+        "text": "Wanderer above the Sea of Fog"
+      },
+      {
+        "id": "option-3",
+        "text": "The Monk by the Sea"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 60,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:12efedfc3c73f5ae",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which fictional English county was the setting for Thomas Hardy's novels?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wessex"
+      },
+      {
+        "id": "option-1",
+        "text": "Barsetshire"
+      },
+      {
+        "id": "option-2",
+        "text": "Fulchester"
+      },
+      {
+        "id": "option-3",
+        "text": "Ambridge"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 102,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:57f47f05bf3bdf13",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who sculpted the statue of David?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-1",
+        "text": "Gian Lorenzo Bernini"
+      },
+      {
+        "id": "option-2",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "option-3",
+        "text": "Donatello"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 121,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:f35f431c58ce7f10",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the novel \"Moby-Dick\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Herman Melville"
+      },
+      {
+        "id": "option-1",
+        "text": "William Golding"
+      },
+      {
+        "id": "option-2",
+        "text": "William Shakespeare"
+      },
+      {
+        "id": "option-3",
+        "text": "J. R. R. Tolkien"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 129,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:364734f25b6a3151",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Little Women\", which of the March sisters married Laurie?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Amy"
+      },
+      {
+        "id": "option-1",
+        "text": "Beth"
+      },
+      {
+        "id": "option-2",
+        "text": "Jo"
+      },
+      {
+        "id": "option-3",
+        "text": "Meg"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 140,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3ad57197cd13b54a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the last message of the Dolphins in \"The Hitchhiker's Guide to the Galaxy\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "\"So long, and thanks for all the fish.\""
+      },
+      {
+        "id": "option-1",
+        "text": "\"The answer is 42.\""
+      },
+      {
+        "id": "option-2",
+        "text": "\"Land of the brave.\""
+      },
+      {
+        "id": "option-3",
+        "text": "\"Goodbye cruel world!\""
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 174,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:aac296319a4a4f89",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the book series \"Odd Thomas\", Danny Jessup has what genetic disease? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": " Osteogenesis Imperfecta"
+      },
+      {
+        "id": "option-1",
+        "text": "Spinocerebellar ataxia"
+      },
+      {
+        "id": "option-2",
+        "text": "Adrenoleukodystrophy"
+      },
+      {
+        "id": "option-3",
+        "text": "Cystic Fibrosis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 183,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:345dde775103b61d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted the biblical fresco The Creation of Adam?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-2",
+        "text": "Caravaggio"
+      },
+      {
+        "id": "option-3",
+        "text": "Rembrandt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 190,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:2acc74c5d074bd3e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote \"A Tale of Two Cities\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charles Dickens"
+      },
+      {
+        "id": "option-1",
+        "text": "Charles Darwin"
+      },
+      {
+        "id": "option-2",
+        "text": "Mark Twain"
+      },
+      {
+        "id": "option-3",
+        "text": "Roald Dahl"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 273,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b5abc1e031e8810d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the author of book series 'Percy Jackson'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rick Riordan"
+      },
+      {
+        "id": "option-1",
+        "text": "J.K. Rowling"
+      },
+      {
+        "id": "option-2",
+        "text": "Sandra Bullock "
+      },
+      {
+        "id": "option-3",
+        "text": "Roald Dahl"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 379,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:15d2cec56f56b773",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which art movement was Pablo Picasso known for co-founding?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cubism"
+      },
+      {
+        "id": "option-1",
+        "text": "Futurism"
+      },
+      {
+        "id": "option-2",
+        "text": "Expressionism"
+      },
+      {
+        "id": "option-3",
+        "text": "Impressionism"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 386,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:ee582e39c8fcd0e9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is a fundamental element of the Gothic style of architecture?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "pointed arch"
+      },
+      {
+        "id": "option-1",
+        "text": "coffered ceilings"
+      },
+      {
+        "id": "option-2",
+        "text": "façades surmounted by a pediment "
+      },
+      {
+        "id": "option-3",
+        "text": "internal frescoes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 493,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:f1c19821ec0884f6",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the novel \"Lord of the Rings\", how many rings of power were given to the race of man?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "9"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "11"
+      },
+      {
+        "id": "option-3",
+        "text": "13"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 530,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:e6530c80a4dc6238",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the pen name of novelist, Mary Ann Evans?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Eliot"
+      },
+      {
+        "id": "option-1",
+        "text": "George Orwell"
+      },
+      {
+        "id": "option-2",
+        "text": "George Bernard Shaw"
+      },
+      {
+        "id": "option-3",
+        "text": "George Saunders"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 549,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4d31c63e2e9217c1",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1502"
+      },
+      {
+        "id": "option-1",
+        "text": "1702"
+      },
+      {
+        "id": "option-2",
+        "text": "1402"
+      },
+      {
+        "id": "option-3",
+        "text": "1602"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 567,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:11aeae76d20f92e2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Hermione Granger's middle name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jean"
+      },
+      {
+        "id": "option-1",
+        "text": "Jane"
+      },
+      {
+        "id": "option-2",
+        "text": "Emma"
+      },
+      {
+        "id": "option-3",
+        "text": "Jo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 569,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:497d57736ea8a989",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the make and model of the tour vehicles in \"Jurassic Park\" (1990)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1989 Toyota Land Cruiser"
+      },
+      {
+        "id": "option-1",
+        "text": "1989 Jeep Wrangler YJ Sahar"
+      },
+      {
+        "id": "option-2",
+        "text": "1989 Ford Explorer XLT"
+      },
+      {
+        "id": "option-3",
+        "text": "Mercedes M-Class"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 572,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9d6e87eac0f730f5",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "SCP-173"
+      },
+      {
+        "id": "option-1",
+        "text": "SCP-001"
+      },
+      {
+        "id": "option-2",
+        "text": "SCP-999"
+      },
+      {
+        "id": "option-3",
+        "text": "SCP-1459"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 575,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c2dd2bacd5238d6e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the \"A Song of Ice And Fire\" fantasy novel series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George R. R. Martin"
+      },
+      {
+        "id": "option-1",
+        "text": "George Lucas"
+      },
+      {
+        "id": "option-2",
+        "text": "George Orwell"
+      },
+      {
+        "id": "option-3",
+        "text": "George Eliot"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 589,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:e32fc11a82cf29a2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted the Mona Lisa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-2",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-3",
+        "text": "Vincent van Gogh"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 591,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:67b59faa38a93d8d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the 1967 horror novel \"Rosemary's Baby\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ira Levin"
+      },
+      {
+        "id": "option-1",
+        "text": "Stephen King"
+      },
+      {
+        "id": "option-2",
+        "text": "Robert Bloch"
+      },
+      {
+        "id": "option-3",
+        "text": "Mary Shelley"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 600,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:573e6f66aa1a079e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who designed the Chupa Chups logo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Salvador Dali"
+      },
+      {
+        "id": "option-1",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-2",
+        "text": "Andy Warhol"
+      },
+      {
+        "id": "option-3",
+        "text": "Vincent van Gogh"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 679,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:fa3f1e608c65b1b1",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the author of the 1954 novel, \"Lord of the Flies\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "William Golding"
+      },
+      {
+        "id": "option-1",
+        "text": "Stephen King"
+      },
+      {
+        "id": "option-2",
+        "text": "F. Scott Fitzgerald"
+      },
+      {
+        "id": "option-3",
+        "text": "Hunter Fox"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 685,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:32573d3d33986f19",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Dracula is destroyed by contact with sunlight",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 705,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:7eb2d5309197e237",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted the Sistine Chapel?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Raphael"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 718,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:12031a081480d33c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "American illustrator and writer Maurice Sendak is most well-known for writing which children's book?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Where The Wild Things Are"
+      },
+      {
+        "id": "option-1",
+        "text": "The Neverending Story"
+      },
+      {
+        "id": "option-2",
+        "text": "Charlie and the Chocolate Factory"
+      },
+      {
+        "id": "option-3",
+        "text": "The Cat in the Hat"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 725,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:23d093ac201d3c78",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which author co-wrote \"The Communist Manifesto\" alongside Karl Marx?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Friedrich Engels"
+      },
+      {
+        "id": "option-1",
+        "text": "Robert Owen"
+      },
+      {
+        "id": "option-2",
+        "text": "Alexander Kerensky"
+      },
+      {
+        "id": "option-3",
+        "text": "Paul Lafargue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 729,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:1c4eadd4d1cc3d54",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Sherlock Holmes's brother?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mycroft Holmes"
+      },
+      {
+        "id": "option-1",
+        "text": "Mederi Holmes"
+      },
+      {
+        "id": "option-2",
+        "text": "Martin Holmes"
+      },
+      {
+        "id": "option-3",
+        "text": "Herbie Hancock Holmes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 750,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:14d01796ec76ed16",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Margaret Atwood's \"The Handmaid's Tale\", what is Offred's real name is implied to be?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "June"
+      },
+      {
+        "id": "option-1",
+        "text": "August"
+      },
+      {
+        "id": "option-2",
+        "text": "April"
+      },
+      {
+        "id": "option-3",
+        "text": "May"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 825,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4d17af76b064c9b5",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"The Lord of the Rings,\" who is the owner of Asfaloth, the horse which brings Frodo to Rivendell?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Glorfindel"
+      },
+      {
+        "id": "option-1",
+        "text": "Arwen"
+      },
+      {
+        "id": "option-2",
+        "text": "Aragorn"
+      },
+      {
+        "id": "option-3",
+        "text": "Haldir"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 914,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:59f4ba486f873167",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which artist is famous for cutting off his ear?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-1",
+        "text": "Salvador Dali"
+      },
+      {
+        "id": "option-2",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelangelo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 943,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:36f6b48929dbdee7",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of Captain Nemo's submarine in \"20,000 Leagues Under the Sea\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Nautilus"
+      },
+      {
+        "id": "option-1",
+        "text": "The Neptune"
+      },
+      {
+        "id": "option-2",
+        "text": "The Poseidon  "
+      },
+      {
+        "id": "option-3",
+        "text": "The Atlantis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 985,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "sourceId": "opentdb",
+  "receivedCount": 1001,
+  "duplicateCount": 0,
+  "invalid": [
+    {
+      "recordIndex": 999,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%3A%20Computers",
+        "question": "Which%20of%20the%20following%20languages%20is%20used%20as%20a%20scripting%20language%20in%20the%20Unity%203D%20game%20engine%3F",
+        "correct_answer": "C%23",
+        "incorrect_answers": [
+          "Java",
+          "C%2B%2B",
+          "Objective-C"
+        ]
+      }
+    }
+  ]
+}

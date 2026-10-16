@@ -1,0 +1,3277 @@
+[
+  {
+    "id": "opentdb:general-knowledge:7d78d6a8c10e85d8",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the perimeter of a circle more commonly known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Circumference"
+      },
+      {
+        "id": "option-1",
+        "text": "Diameter"
+      },
+      {
+        "id": "option-2",
+        "text": "Radius"
+      },
+      {
+        "id": "option-3",
+        "text": "Arc"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 7,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:7fd9616533c2e0d0",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What name represents the letter \"M\" in the NATO phonetic alphabet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mike"
+      },
+      {
+        "id": "option-1",
+        "text": "Matthew"
+      },
+      {
+        "id": "option-2",
+        "text": "Mark"
+      },
+      {
+        "id": "option-3",
+        "text": "Max"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 36,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:09bcb5b2b3b1ff37",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Jingle Bells was originally meant for Thanksgiving",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 42,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:61cbba26f2313bdd",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cabbage Patch Kids"
+      },
+      {
+        "id": "option-1",
+        "text": "Transformers"
+      },
+      {
+        "id": "option-2",
+        "text": "Care Bears"
+      },
+      {
+        "id": "option-3",
+        "text": "Rubik’s Cube"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 44,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:bf77c543f8ad8749",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Cuba's official, most widely spoken language?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spanish"
+      },
+      {
+        "id": "option-1",
+        "text": "Portuguese"
+      },
+      {
+        "id": "option-2",
+        "text": "French"
+      },
+      {
+        "id": "option-3",
+        "text": "Italian"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 52,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:49a382e35dbebc6b",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Dihydrogen Monoxide was banned due to health risks after being discovered in 1983 inside swimming pools and drinking water.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 61,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:e62df67dfdc114a6",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Is Luxembourgish a real language?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 63,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:fb6760df977b3bdf",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the 'S' stand for in the abbreviation SIM, as in SIM card? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Subscriber"
+      },
+      {
+        "id": "option-1",
+        "text": "Single"
+      },
+      {
+        "id": "option-2",
+        "text": "Secure"
+      },
+      {
+        "id": "option-3",
+        "text": "Solid"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 66,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:acf174b153b6d826",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are Panama hats made out of?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Straw"
+      },
+      {
+        "id": "option-1",
+        "text": "Silk"
+      },
+      {
+        "id": "option-2",
+        "text": "Hemp"
+      },
+      {
+        "id": "option-3",
+        "text": "Flax"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 80,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:81adb5829157fa7a",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Crystal Pepsi was first sold in US markets in 1993.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 83,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:56e554f4d984dbad",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which cardinal direction does the Sun rise from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "East"
+      },
+      {
+        "id": "option-1",
+        "text": "West"
+      },
+      {
+        "id": "option-2",
+        "text": "North"
+      },
+      {
+        "id": "option-3",
+        "text": "South"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 93,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:e5814153d3fb353f",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This Ghanaian entrepreneur is a pioneer of microlending.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Esther Afua Ocloo"
+      },
+      {
+        "id": "option-1",
+        "text": "Farida Bedwei"
+      },
+      {
+        "id": "option-2",
+        "text": "Ama Ata Aido"
+      },
+      {
+        "id": "option-3",
+        "text": "Sionne Neely"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 112,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:bf791edc61d70d43",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first ever London Underground line to be built?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Metropolitan Line"
+      },
+      {
+        "id": "option-1",
+        "text": "Circle Line"
+      },
+      {
+        "id": "option-2",
+        "text": "Bakerloo Line"
+      },
+      {
+        "id": "option-3",
+        "text": "Victoria Line"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 119,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:774c5dc5473b1ea1",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the original name of the search engine \"Google\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "BackRub"
+      },
+      {
+        "id": "option-1",
+        "text": "CatMassage"
+      },
+      {
+        "id": "option-2",
+        "text": "SearchPro"
+      },
+      {
+        "id": "option-3",
+        "text": "Netscape Navigator"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 123,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:9637a8d20dd1369c",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Harry"
+      },
+      {
+        "id": "option-1",
+        "text": "Gus"
+      },
+      {
+        "id": "option-2",
+        "text": "Phineas"
+      },
+      {
+        "id": "option-3",
+        "text": "Ezra"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 137,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:f2348c808cea7f65",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the famous Papa John's last name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Schnatter"
+      },
+      {
+        "id": "option-1",
+        "text": "Chowder"
+      },
+      {
+        "id": "option-2",
+        "text": "Williams"
+      },
+      {
+        "id": "option-3",
+        "text": "ANDERSON"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 143,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:4a3f8908bd283826",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "When you cry in space, your tears stick to your face.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 144,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:440680d430a1fba6",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Ecuador uses the Mexican Peso as its currency.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 146,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:1ccf218c1c11d42e",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of Sqiudward's bad painting in the Spongebob episode \"Artist Unknown?\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bold and Brash"
+      },
+      {
+        "id": "option-1",
+        "text": "Squidward en Repose"
+      },
+      {
+        "id": "option-2",
+        "text": "Rippy Bits"
+      },
+      {
+        "id": "option-3",
+        "text": "Tilted Perspectives"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 159,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:2858a1616549453c",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these companies does NOT manufacture automobiles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ducati"
+      },
+      {
+        "id": "option-1",
+        "text": "Nissan"
+      },
+      {
+        "id": "option-2",
+        "text": "GMC"
+      },
+      {
+        "id": "option-3",
+        "text": "Fiat"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 173,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:eec24e3be4ead8a9",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which is the second largest native language spoken in Spain by numbers of speakers?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Catalan"
+      },
+      {
+        "id": "option-1",
+        "text": "Portuguese"
+      },
+      {
+        "id": "option-2",
+        "text": "Spanish"
+      },
+      {
+        "id": "option-3",
+        "text": "French"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 184,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:6b1759da9c9f5767",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the official language in Barcelona beside Spanish?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Catalan"
+      },
+      {
+        "id": "option-1",
+        "text": " Galician"
+      },
+      {
+        "id": "option-2",
+        "text": "French"
+      },
+      {
+        "id": "option-3",
+        "text": "Basque"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 192,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:562951cb3c5f777a",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Water is naturally coloured blue.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 197,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:13b416ef02296cbf",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the currency of India and Pakistan as well as a few other Asian countries?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rupee"
+      },
+      {
+        "id": "option-1",
+        "text": "Riyal"
+      },
+      {
+        "id": "option-2",
+        "text": "Peso"
+      },
+      {
+        "id": "option-3",
+        "text": "Dinar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 199,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:3af0506881d569ee",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The early part of which decade, did the Goth Subculture begin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1980s"
+      },
+      {
+        "id": "option-1",
+        "text": "1990s"
+      },
+      {
+        "id": "option-2",
+        "text": "2000s"
+      },
+      {
+        "id": "option-3",
+        "text": "1970s"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 202,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:7c0da2a4161381ad",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "After how many years would you celebrate your crystal anniversary?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "15"
+      },
+      {
+        "id": "option-1",
+        "text": "20"
+      },
+      {
+        "id": "option-2",
+        "text": "10"
+      },
+      {
+        "id": "option-3",
+        "text": "25"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 212,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:cf1def01a670b3fe",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Scotch whisky and Drambuie make up which cocktail?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rusty Nail"
+      },
+      {
+        "id": "option-1",
+        "text": "Screwdriver"
+      },
+      {
+        "id": "option-2",
+        "text": "Sex on the Beach"
+      },
+      {
+        "id": "option-3",
+        "text": "Manhattan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 242,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:00b751c8a4e5fb8a",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Katamari Damacy\", you control a character known as:",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Prince"
+      },
+      {
+        "id": "option-1",
+        "text": "Fujio"
+      },
+      {
+        "id": "option-2",
+        "text": "Ichigo "
+      },
+      {
+        "id": "option-3",
+        "text": "Foomin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 244,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:119dbf40b8df7cf5",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In ancient Greece, if your job were a \"hippeus\" which of these would you own?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Horse"
+      },
+      {
+        "id": "option-1",
+        "text": "Weave"
+      },
+      {
+        "id": "option-2",
+        "text": "Guitar"
+      },
+      {
+        "id": "option-3",
+        "text": "Boat"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 247,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:949c143a34cc266d",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What geometric shape is generally used for stop signs?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Octagon"
+      },
+      {
+        "id": "option-1",
+        "text": "Hexagon"
+      },
+      {
+        "id": "option-2",
+        "text": "Circle"
+      },
+      {
+        "id": "option-3",
+        "text": "Triangle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 249,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:dfda6ed998e7a65f",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Red Vines is a brand of what type of candy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Licorice"
+      },
+      {
+        "id": "option-1",
+        "text": "Lollipop"
+      },
+      {
+        "id": "option-2",
+        "text": "Chocolate"
+      },
+      {
+        "id": "option-3",
+        "text": "Bubblegum"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 258,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:dfa20725fea26484",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is a co-founder of music streaming service Spotify?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daniel Ek"
+      },
+      {
+        "id": "option-1",
+        "text": "Sean Parker"
+      },
+      {
+        "id": "option-2",
+        "text": "Felix Miller"
+      },
+      {
+        "id": "option-3",
+        "text": "Michael Breidenbruecker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 259,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:4a533f17b8ab3610",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A doctor with a PhD is a doctor of what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Philosophy"
+      },
+      {
+        "id": "option-1",
+        "text": "Psychology"
+      },
+      {
+        "id": "option-2",
+        "text": "Phrenology"
+      },
+      {
+        "id": "option-3",
+        "text": "Physical Therapy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 277,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:567d56100eb24c5b",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The New York Subway is the oldest underground in the world.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 285,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:073d3821405ed490",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Kraft \"Cheez Whiz\" contains cheese culture, but doesn't actually contain cheese",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 300,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:c8a07cc7cadbf72b",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the closest planet to our solar system's sun?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mercury"
+      },
+      {
+        "id": "option-1",
+        "text": "Mars"
+      },
+      {
+        "id": "option-2",
+        "text": "Jupiter"
+      },
+      {
+        "id": "option-3",
+        "text": "Earth"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 323,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:efaa7f163450ce0d",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Stagecoach owned \"South West Trains\" before losing the rights to FirstGroup and MTR in March of 2017.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 328,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:5a23958a70bfd68c",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which mountain has the highest peak in Europe?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mount Elbrus, Russia"
+      },
+      {
+        "id": "option-1",
+        "text": "Shkhara, Georgia"
+      },
+      {
+        "id": "option-2",
+        "text": "Mount Ararat, Turkey"
+      },
+      {
+        "id": "option-3",
+        "text": "Mont Blanc, France"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 335,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:5c9b735aa439bf16",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What direction does the Statue of Liberty face?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Southeast"
+      },
+      {
+        "id": "option-1",
+        "text": "Southwest"
+      },
+      {
+        "id": "option-2",
+        "text": "Northwest"
+      },
+      {
+        "id": "option-3",
+        "text": "Northeast"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 337,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:a70d3ec96d300ac9",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 2013 how much money was lost by Nigerian scams?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "$12.7 Billion"
+      },
+      {
+        "id": "option-1",
+        "text": "$95 Million"
+      },
+      {
+        "id": "option-2",
+        "text": "$956 Million"
+      },
+      {
+        "id": "option-3",
+        "text": "$2.7 Billion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 338,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:7f091b56b0860bbe",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In past times, what would a gentleman keep in his fob pocket?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Watch"
+      },
+      {
+        "id": "option-1",
+        "text": "Money"
+      },
+      {
+        "id": "option-2",
+        "text": "Keys"
+      },
+      {
+        "id": "option-3",
+        "text": "Notebook"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 346,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:e90b1f5fb17bf380",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many fingers does a single human hand have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Four"
+      },
+      {
+        "id": "option-1",
+        "text": "Five"
+      },
+      {
+        "id": "option-2",
+        "text": "Ten"
+      },
+      {
+        "id": "option-3",
+        "text": "Eight"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 374,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:022a040968389d63",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which mountain has the highest peak in Australia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mount Kosciuszko, New South Wales"
+      },
+      {
+        "id": "option-1",
+        "text": "Mount Ossa, Tasmania"
+      },
+      {
+        "id": "option-2",
+        "text": "Mount Bartle Frere, Queensland"
+      },
+      {
+        "id": "option-3",
+        "text": "Mount Zeil, Northern Territory"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 429,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:fabcef6573c1b118",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which mountain has the highest peak in South America?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aconcagua, Argentina"
+      },
+      {
+        "id": "option-1",
+        "text": "Ojos del Salado, Argentina/Chile border"
+      },
+      {
+        "id": "option-2",
+        "text": "Monte Pissis, Argentina"
+      },
+      {
+        "id": "option-3",
+        "text": "Huascarán, Peru"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 441,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:fdbd4d9b0ef07cd0",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the Declaration of Independence approved by the Second Continental Congress?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "July 4, 1776"
+      },
+      {
+        "id": "option-1",
+        "text": "May 4, 1776"
+      },
+      {
+        "id": "option-2",
+        "text": "June 4, 1776"
+      },
+      {
+        "id": "option-3",
+        "text": "July 2, 1776"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 442,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:b1b33bc64fab309d",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andrew Scott Reisse"
+      },
+      {
+        "id": "option-1",
+        "text": "Nate Mitchell"
+      },
+      {
+        "id": "option-2",
+        "text": "Jack McCauley"
+      },
+      {
+        "id": "option-3",
+        "text": "Palmer Luckey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 448,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:6f84c532defe15e9",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On average, Americans consume 100 pounds of what per second?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chocolate"
+      },
+      {
+        "id": "option-1",
+        "text": "Potatoes"
+      },
+      {
+        "id": "option-2",
+        "text": "Donuts"
+      },
+      {
+        "id": "option-3",
+        "text": "Cocaine"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 469,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:86c6f779880491bb",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What country has had prime ministers named Eden, Major, Peel, Law, Brown and Heath?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "United Kingdom"
+      },
+      {
+        "id": "option-1",
+        "text": "Australia"
+      },
+      {
+        "id": "option-2",
+        "text": "New Zealand"
+      },
+      {
+        "id": "option-3",
+        "text": "Canada"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 504,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:4e9fa6f274e1a60d",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What English word means to \"think deeply\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Contemplate"
+      },
+      {
+        "id": "option-1",
+        "text": "Confiscate"
+      },
+      {
+        "id": "option-2",
+        "text": "Constipate"
+      },
+      {
+        "id": "option-3",
+        "text": "Condensate"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 514,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:73e0a1b0a90b487b",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In linguistics, which of the following is not one of the Gricean Maxims under the Cooperative Principal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Length"
+      },
+      {
+        "id": "option-1",
+        "text": "Quality"
+      },
+      {
+        "id": "option-2",
+        "text": "Relation"
+      },
+      {
+        "id": "option-3",
+        "text": "Manner"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 515,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:3bb5149cddfb59ae",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is depicted on the US hundred dollar bill?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Benjamin Franklin"
+      },
+      {
+        "id": "option-1",
+        "text": "George Washington"
+      },
+      {
+        "id": "option-2",
+        "text": "Abraham Lincoln"
+      },
+      {
+        "id": "option-3",
+        "text": "Thomas Jefferson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 516,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:47bdfd9f6c5b14d3",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Death Valley's Badwater Basin is North America's point of lowest elevation at how many feet below sea level?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "282 feet"
+      },
+      {
+        "id": "option-1",
+        "text": "79 feet"
+      },
+      {
+        "id": "option-2",
+        "text": "1,640 feet"
+      },
+      {
+        "id": "option-3",
+        "text": "12,092 feet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 525,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:cd30cb98b3a740d7",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Located in Chile, El Teniente is the world's largest underground mine for what metal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Copper"
+      },
+      {
+        "id": "option-1",
+        "text": "Iron"
+      },
+      {
+        "id": "option-2",
+        "text": "Nickel"
+      },
+      {
+        "id": "option-3",
+        "text": "Silver"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 533,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:64c081ac88264bc3",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Center Parcs"
+      },
+      {
+        "id": "option-1",
+        "text": "Yelloh Village"
+      },
+      {
+        "id": "option-2",
+        "text": "Keycamp"
+      },
+      {
+        "id": "option-3",
+        "text": "Villa Plus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 557,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:bea35adec96597db",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who invented the first ever chocolate bar, in 1847?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joseph Fry"
+      },
+      {
+        "id": "option-1",
+        "text": "Andrew Johnson"
+      },
+      {
+        "id": "option-2",
+        "text": "John Cadbury"
+      },
+      {
+        "id": "option-3",
+        "text": "John Tyler"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 566,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:a243e09959b080dc",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Half-Life, what is the name of the alien that attaches to heads?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Headcrab"
+      },
+      {
+        "id": "option-1",
+        "text": "Bullsquid"
+      },
+      {
+        "id": "option-2",
+        "text": "Vortigaunt"
+      },
+      {
+        "id": "option-3",
+        "text": "Facehugger"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 606,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:c173bc16eed5a5c1",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In flight systems, what does the initialism \"TCAS\" stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Traffic Collision Avoidance System"
+      },
+      {
+        "id": "option-1",
+        "text": "Traffic Communication Alert System"
+      },
+      {
+        "id": "option-2",
+        "text": "Traffic Configuration Alignment System"
+      },
+      {
+        "id": "option-3",
+        "text": "Traffic Call-sign Abbreviation System"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 637,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:075f45561210a6c9",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What machine element is located in the center of fidget spinners?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bearings"
+      },
+      {
+        "id": "option-1",
+        "text": "Axles"
+      },
+      {
+        "id": "option-2",
+        "text": "Gears"
+      },
+      {
+        "id": "option-3",
+        "text": "Belts"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 646,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:c9edab388fcc6293",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Battle Cats\", what is Moneko / MISS Moneko's critical percentage rate?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "15%"
+      },
+      {
+        "id": "option-1",
+        "text": "20%"
+      },
+      {
+        "id": "option-2",
+        "text": "10%"
+      },
+      {
+        "id": "option-3",
+        "text": "25%"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 665,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:82494f94c3e46653",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not another name for the eggplant?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Potimarron"
+      },
+      {
+        "id": "option-1",
+        "text": "Brinjal"
+      },
+      {
+        "id": "option-2",
+        "text": "Guinea Squash"
+      },
+      {
+        "id": "option-3",
+        "text": "Melongene"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 690,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:4a9c17fdeeac5b1e",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "35 Pounds"
+      },
+      {
+        "id": "option-1",
+        "text": "30 Pounds"
+      },
+      {
+        "id": "option-2",
+        "text": "40 Pounds"
+      },
+      {
+        "id": "option-3",
+        "text": "32.50 Pounds"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 706,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:059ae3b3723805d5",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did Canada stop producing the penny?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2012"
+      },
+      {
+        "id": "option-1",
+        "text": "2013"
+      },
+      {
+        "id": "option-2",
+        "text": "2011"
+      },
+      {
+        "id": "option-3",
+        "text": "2010"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 707,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:af4844a3d73badb0",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "King Gizzard & The Lizard Wizard's album \"Nonagon Infinity\" can be looped seamlessly.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 717,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:ec7c840db59c0a84",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the Playstation 3 released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "November 11, 2006"
+      },
+      {
+        "id": "option-1",
+        "text": "January 8, 2007"
+      },
+      {
+        "id": "option-2",
+        "text": "December 25, 2007"
+      },
+      {
+        "id": "option-3",
+        "text": "July 16, 2006"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 722,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:66994b46764f4441",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Macintosh has named six of its operating systems after big cats. What big cat did Macintosh name their 2007 release after? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leopard"
+      },
+      {
+        "id": "option-1",
+        "text": "Tiger"
+      },
+      {
+        "id": "option-2",
+        "text": "Panther"
+      },
+      {
+        "id": "option-3",
+        "text": "Puma"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 727,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:b0854c4419c8e56c",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Furby was released in 1998.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 739,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:ddb730c90c41386a",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country has the most Trappist breweries?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Belgium"
+      },
+      {
+        "id": "option-1",
+        "text": "Netherlands"
+      },
+      {
+        "id": "option-2",
+        "text": "France"
+      },
+      {
+        "id": "option-3",
+        "text": "USA"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 740,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:87be57789cad1f7e",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the romanized Arabic word for \"moon\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Qamar"
+      },
+      {
+        "id": "option-1",
+        "text": "Najma"
+      },
+      {
+        "id": "option-2",
+        "text": "Kawkab"
+      },
+      {
+        "id": "option-3",
+        "text": "Shams"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 745,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:82342de18c4bf2db",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT considered to be a colour that makes up the rainbow?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pink"
+      },
+      {
+        "id": "option-1",
+        "text": "Blue"
+      },
+      {
+        "id": "option-2",
+        "text": "Violet"
+      },
+      {
+        "id": "option-3",
+        "text": "Orange"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 757,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:6a70c1d08fbaafe3",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In a standard Gregorian calendar, how many months begin with the letter 'J'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Three"
+      },
+      {
+        "id": "option-1",
+        "text": "Four"
+      },
+      {
+        "id": "option-2",
+        "text": "Five"
+      },
+      {
+        "id": "option-3",
+        "text": "Two"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 760,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:99a39e0cc943caea",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The pickled gherkin was first added to hamburgers because a US health law required all fast-food to include a source of Vitamin C.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 767,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:5a33358f2d660c77",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the most commonly used noun in the English language?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Time"
+      },
+      {
+        "id": "option-1",
+        "text": "Home"
+      },
+      {
+        "id": "option-2",
+        "text": "Water"
+      },
+      {
+        "id": "option-3",
+        "text": "Man"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 801,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:3c37a2eca09de83a",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Key"
+      },
+      {
+        "id": "option-1",
+        "text": "Sword"
+      },
+      {
+        "id": "option-2",
+        "text": "Pen"
+      },
+      {
+        "id": "option-3",
+        "text": "Cellphone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 803,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:6a792792135039e9",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The phrase \"accident waiting to happen\" is an example of what type of figure of speech?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Idiom"
+      },
+      {
+        "id": "option-1",
+        "text": "Simile"
+      },
+      {
+        "id": "option-2",
+        "text": "Metaphor"
+      },
+      {
+        "id": "option-3",
+        "text": "Analogy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 819,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:bb2031f3be64a19d",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "If someone said \"you are olid\", what would they mean?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "You smell extremely unpleasant."
+      },
+      {
+        "id": "option-1",
+        "text": "You are out of shape/weak."
+      },
+      {
+        "id": "option-2",
+        "text": "Your appearance is repulsive."
+      },
+      {
+        "id": "option-3",
+        "text": "You are incomprehensible/an idiot."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 826,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:6343a81de3103baa",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cube"
+      },
+      {
+        "id": "option-1",
+        "text": "Sphere"
+      },
+      {
+        "id": "option-2",
+        "text": "Cylinder"
+      },
+      {
+        "id": "option-3",
+        "text": "Pyramid"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 839,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:4f535ff6854f8dd0",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was Walt Disney born?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1901"
+      },
+      {
+        "id": "option-1",
+        "text": "1902"
+      },
+      {
+        "id": "option-2",
+        "text": "1903"
+      },
+      {
+        "id": "option-3",
+        "text": "1900"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 850,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:8f40771f034fc75e",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to the BBPA, what is the most common pub name in the UK?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Red Lion"
+      },
+      {
+        "id": "option-1",
+        "text": "Royal Oak"
+      },
+      {
+        "id": "option-2",
+        "text": "White Hart"
+      },
+      {
+        "id": "option-3",
+        "text": "King's Head"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 854,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:9ed0b576bd2388ff",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Out of these four buildings, which one is the tallest, with a height of 1,250 ft (381 m)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Empire State Building, United States"
+      },
+      {
+        "id": "option-1",
+        "text": "Bank of China Tower, Hong Kong"
+      },
+      {
+        "id": "option-2",
+        "text": "Federation Tower, Russia"
+      },
+      {
+        "id": "option-3",
+        "text": "Gevora Hotal, United Arab Emirates"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 857,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:289a20029239b496",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the most frequently used letter in the english alphabet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "E"
+      },
+      {
+        "id": "option-1",
+        "text": "A"
+      },
+      {
+        "id": "option-2",
+        "text": "I"
+      },
+      {
+        "id": "option-3",
+        "text": "O"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 859,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:569d31c0069ac503",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How would one say goodbye in Spanish?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Adiós"
+      },
+      {
+        "id": "option-1",
+        "text": " Hola"
+      },
+      {
+        "id": "option-2",
+        "text": "Au Revoir"
+      },
+      {
+        "id": "option-3",
+        "text": "Salir"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 864,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:c6003a6377f1ff8d",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The British organisation CAMRA stands for The Campaign for Real Ale.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 866,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:54b9229fc2909e89",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Panama Canal was officially opened by which US president?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Woodrow Wilson"
+      },
+      {
+        "id": "option-1",
+        "text": "Calvin Coolidge"
+      },
+      {
+        "id": "option-2",
+        "text": "Herbert Hoover"
+      },
+      {
+        "id": "option-3",
+        "text": "Theodore Roosevelt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 875,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:157ecb19dc125478",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was Nintendo founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "September 23rd, 1889"
+      },
+      {
+        "id": "option-1",
+        "text": "October 19th, 1891"
+      },
+      {
+        "id": "option-2",
+        "text": "March 4th, 1887"
+      },
+      {
+        "id": "option-3",
+        "text": "December 27th, 1894"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 886,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:df9be923b9633bc0",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the star sign of someone born on Valentines day?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aquarius"
+      },
+      {
+        "id": "option-1",
+        "text": "Pisces"
+      },
+      {
+        "id": "option-2",
+        "text": "Capricorn"
+      },
+      {
+        "id": "option-3",
+        "text": "Scorpio"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 891,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:d7c5c5a9e488d10f",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Chartreuse is a color between yellow and what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Red"
+      },
+      {
+        "id": "option-2",
+        "text": "Black"
+      },
+      {
+        "id": "option-3",
+        "text": "Purple"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 918,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:05b982016f4ee18e",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7 years"
+      },
+      {
+        "id": "option-1",
+        "text": "2 years"
+      },
+      {
+        "id": "option-2",
+        "text": "8 years"
+      },
+      {
+        "id": "option-3",
+        "text": "6 months"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 940,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:f29b950afda9e6cc",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was Apple Inc. founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1976"
+      },
+      {
+        "id": "option-1",
+        "text": "1978"
+      },
+      {
+        "id": "option-2",
+        "text": "1980"
+      },
+      {
+        "id": "option-3",
+        "text": "1974"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 954,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:a5453918fe132229",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"Number 16 Bus Shelter\" was a child's name that was approved by the New Zealand government.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 959,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:e05d7809e244a103",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is \"dabbing\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A dance"
+      },
+      {
+        "id": "option-1",
+        "text": "A medical procedure"
+      },
+      {
+        "id": "option-2",
+        "text": "A sport"
+      },
+      {
+        "id": "option-3",
+        "text": "A language"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 960,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:78bc72a3e5d1fdd2",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was Hubba Bubba first introduced?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1979"
+      },
+      {
+        "id": "option-1",
+        "text": "1984"
+      },
+      {
+        "id": "option-2",
+        "text": "1972"
+      },
+      {
+        "id": "option-3",
+        "text": "1980"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 964,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:19d194ff078ee40f",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the average life span of a garden ant?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "15 years"
+      },
+      {
+        "id": "option-1",
+        "text": "24 hours"
+      },
+      {
+        "id": "option-2",
+        "text": "1 week"
+      },
+      {
+        "id": "option-3",
+        "text": "3 years"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 966,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:02d8f1a093afb6a8",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the largest living species of penguin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Emperor"
+      },
+      {
+        "id": "option-1",
+        "text": "King"
+      },
+      {
+        "id": "option-2",
+        "text": "Gentoo"
+      },
+      {
+        "id": "option-3",
+        "text": "Adele"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 968,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:3a34c1643d4654f5",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": " Which chemical element, number 11 in the Periodic table, has the symbol Na?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sodium"
+      },
+      {
+        "id": "option-1",
+        "text": "Carbon"
+      },
+      {
+        "id": "option-2",
+        "text": "Lead"
+      },
+      {
+        "id": "option-3",
+        "text": "Nitrogen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 983,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:5413ed3c97383f95",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many furlongs are there in a mile?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eight"
+      },
+      {
+        "id": "option-1",
+        "text": "Two"
+      },
+      {
+        "id": "option-2",
+        "text": "Four"
+      },
+      {
+        "id": "option-3",
+        "text": "Six"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 989,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:1a82e6e4ecd88c5a",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the English language, what is the name of the \"&\" character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ampersand"
+      },
+      {
+        "id": "option-1",
+        "text": "Eightslash"
+      },
+      {
+        "id": "option-2",
+        "text": "And Sign"
+      },
+      {
+        "id": "option-3",
+        "text": "Obelus "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 990,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:general-knowledge:22b5eb3b8791883c",
+    "category": "general-knowledge",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Out of these four buildings, which one is the tallest, with a height of 1,483 ft (451.9 m)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Petronas Twin Towers, Malaysia"
+      },
+      {
+        "id": "option-1",
+        "text": "Zifeng Tower, China"
+      },
+      {
+        "id": "option-2",
+        "text": "Trump Intl. Hotel & Tower, United States"
+      },
+      {
+        "id": "option-3",
+        "text": "Al Hamra Tower, Kuwait"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 993,
+      "category": "General Knowledge",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

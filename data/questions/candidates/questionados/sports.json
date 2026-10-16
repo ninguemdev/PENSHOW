@@ -1,0 +1,2416 @@
+[
+  {
+    "id": "questionados:sports:62091c951947f1eb",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o único clube brasileiro a vencer a Libertadores, a Copa Sul-Americana e a Recopa Sul-Americana?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "Palmeiras"
+      },
+      {
+        "id": "option-2",
+        "text": "Santos"
+      },
+      {
+        "id": "option-3",
+        "text": "São Paulo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:5ec57d7a31387d10",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quantas Copas do Mundo a seleção brasileira de futebol já venceu?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "6"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:d8d792a1c7a26ad9",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual atleta é conhecido como 'Rei do Futebol'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Diego Maradona"
+      },
+      {
+        "id": "option-1",
+        "text": "Pelé"
+      },
+      {
+        "id": "option-2",
+        "text": "Cristiano Ronaldo"
+      },
+      {
+        "id": "option-3",
+        "text": "Lionel Messi"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:145d9e013efe3b15",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual time brasileiro é conhecido como 'Galo'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fluminense"
+      },
+      {
+        "id": "option-1",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-2",
+        "text": "Cruzeiro"
+      },
+      {
+        "id": "option-3",
+        "text": "Atlético Mineiro"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:4191c1e7be910dbb",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que esporte Ayrton Senna era famoso?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fórmula 1"
+      },
+      {
+        "id": "option-1",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-2",
+        "text": "Vôlei"
+      },
+      {
+        "id": "option-3",
+        "text": "Natação"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:be4db82dcc5f5ffd",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o maior artilheiro da história da seleção brasileira de futebol?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pelé"
+      },
+      {
+        "id": "option-1",
+        "text": "Neymar"
+      },
+      {
+        "id": "option-2",
+        "text": "Ronaldo Nazário"
+      },
+      {
+        "id": "option-3",
+        "text": "Romário"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:cb4ea5814a4aeee1",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o clube mais antigo de futebol em atividade no Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "Corinthians"
+      },
+      {
+        "id": "option-2",
+        "text": "Botafogo"
+      },
+      {
+        "id": "option-3",
+        "text": "Paysandu"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:bb00beb19b1e6379",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual esporte Michael Jordan praticava?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Basquete"
+      },
+      {
+        "id": "option-1",
+        "text": "Golfe"
+      },
+      {
+        "id": "option-2",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-3",
+        "text": "Futebol Americano"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:3525634232f8a98e",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país nasceu o jogador de futebol Cristiano Ronaldo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-3",
+        "text": "Espanha"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:3031d522ddb277b1",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o mascote oficial da Copa do Mundo de 2014 realizada no Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fuleco"
+      },
+      {
+        "id": "option-1",
+        "text": "Zabivaka"
+      },
+      {
+        "id": "option-2",
+        "text": "Pique"
+      },
+      {
+        "id": "option-3",
+        "text": "Goleo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:fc34e3c27477448c",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual time de futebol possui mais títulos da Copa Libertadores da América?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Boca Juniors"
+      },
+      {
+        "id": "option-1",
+        "text": "Santos"
+      },
+      {
+        "id": "option-2",
+        "text": "Independiente"
+      },
+      {
+        "id": "option-3",
+        "text": "River Plate"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:c889d6c67e9ca971",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual esporte o brasileiro Gustavo Kuerten se destacou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vôlei"
+      },
+      {
+        "id": "option-1",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-2",
+        "text": "Surfe"
+      },
+      {
+        "id": "option-3",
+        "text": "Natação"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:87846bc4b537cc7d",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o apelido do estádio do Maracanã, no Rio de Janeiro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Arena das Dunas"
+      },
+      {
+        "id": "option-1",
+        "text": "Templo do Futebol"
+      },
+      {
+        "id": "option-2",
+        "text": "Maior do Mundo"
+      },
+      {
+        "id": "option-3",
+        "text": "Sambódromo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:f24c078f91f8e530",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano o Brasil sediou a Copa do Mundo pela última vez antes de 2014?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2002"
+      },
+      {
+        "id": "option-1",
+        "text": "1998"
+      },
+      {
+        "id": "option-2",
+        "text": "1986"
+      },
+      {
+        "id": "option-3",
+        "text": "1970"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:9618cc45ed7351eb",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o único clube a participar de todas as edições do Campeonato Brasileiro da Série A desde sua criação em 1971?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santos"
+      },
+      {
+        "id": "option-1",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-2",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-3",
+        "text": "Cruzeiro"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:344b3a9bbdc73ce0",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o maior artilheiro da história da seleção argentina de futebol?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lionel Messi"
+      },
+      {
+        "id": "option-1",
+        "text": "Diego Maradona"
+      },
+      {
+        "id": "option-2",
+        "text": "Gabriel Batistuta"
+      },
+      {
+        "id": "option-3",
+        "text": "Hernán Crespo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:631f7c574d8a3d79",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do troféu concedido ao campeão da Copa do Mundo de Futebol?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Taça do Mundo"
+      },
+      {
+        "id": "option-1",
+        "text": "Taça Jules Rimet"
+      },
+      {
+        "id": "option-2",
+        "text": "Copa FIFA"
+      },
+      {
+        "id": "option-3",
+        "text": "Troféu Ouro"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:37fe56bf0d53712e",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o clube que detém o recorde de mais títulos da Liga dos Campeões da UEFA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Real Madrid"
+      },
+      {
+        "id": "option-1",
+        "text": "Barcelona"
+      },
+      {
+        "id": "option-2",
+        "text": "Manchester United"
+      },
+      {
+        "id": "option-3",
+        "text": "Bayern de Munique"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:505e17b2954f39ef",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que cidade brasileira se encontra o estádio Beira-Rio?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Porto Alegre"
+      },
+      {
+        "id": "option-1",
+        "text": "Curitiba"
+      },
+      {
+        "id": "option-2",
+        "text": "Florianópolis"
+      },
+      {
+        "id": "option-3",
+        "text": "Caxias do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:9f783aeeca78dd34",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o esporte praticado pela equipe Chicago Bulls, na qual Michael Jordan se destacou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Futebol Americano"
+      },
+      {
+        "id": "option-1",
+        "text": "Hóquei no Gelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Basquete"
+      },
+      {
+        "id": "option-3",
+        "text": "Beisebol"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:6abf78cfcbe33f93",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país é considerado o berço do futebol?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Inglaterra"
+      },
+      {
+        "id": "option-1",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-2",
+        "text": "Espanha"
+      },
+      {
+        "id": "option-3",
+        "text": "Itália"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:8f149c3e1e020409",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o apelido da seleção brasileira de futebol feminino?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Guerreiras"
+      },
+      {
+        "id": "option-1",
+        "text": "Canarinhas"
+      },
+      {
+        "id": "option-2",
+        "text": "Verde-Amarelas"
+      },
+      {
+        "id": "option-3",
+        "text": "Furacões"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:7a9dc6bfc391c4cb",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o clube brasileiro com mais títulos nacionais?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "Corinthians"
+      },
+      {
+        "id": "option-2",
+        "text": "Santos"
+      },
+      {
+        "id": "option-3",
+        "text": "São Paulo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:a0ab128f0e772e8d",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que esporte o brasileiro Ayrton Senna se destacou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-1",
+        "text": "Automobilismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Golfe"
+      },
+      {
+        "id": "option-3",
+        "text": "Natação"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:0df15e2c8b5887a0",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do estádio onde o Barcelona FC manda seus jogos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santiago Bernabéu"
+      },
+      {
+        "id": "option-1",
+        "text": "Anfield"
+      },
+      {
+        "id": "option-2",
+        "text": "Camp Nou"
+      },
+      {
+        "id": "option-3",
+        "text": "Old Trafford"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:dbd0e8cd7fbe1bfd",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do primeiro brasileiro a vencer uma etapa do Tour de France?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lance Armstrong"
+      },
+      {
+        "id": "option-1",
+        "text": "Fernando Gaviria"
+      },
+      {
+        "id": "option-2",
+        "text": "Egan Bernal"
+      },
+      {
+        "id": "option-3",
+        "text": "Fábio Casartelli"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:34c800b57f41cfd5",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o atual campeão da NBA na temporada 2021-2022?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Los Angeles Lakers"
+      },
+      {
+        "id": "option-1",
+        "text": "Brooklyn Nets"
+      },
+      {
+        "id": "option-2",
+        "text": "Golden State Warriors"
+      },
+      {
+        "id": "option-3",
+        "text": "Milwaukee Bucks"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:5de946f210bccfa2",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do circuito que sedia o Grande Prêmio de Mônaco de Fórmula 1?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Circuito de Silverstone"
+      },
+      {
+        "id": "option-1",
+        "text": "Circuito de Spa-Francorchamps"
+      },
+      {
+        "id": "option-2",
+        "text": "Circuito de Suzuka"
+      },
+      {
+        "id": "option-3",
+        "text": "Circuito de Monte Carlo"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:d6d8ac480d74cd98",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que esporte a expressão 'hat-trick' é comumente usada?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Golfe"
+      },
+      {
+        "id": "option-1",
+        "text": "Críquete"
+      },
+      {
+        "id": "option-2",
+        "text": "Futebol"
+      },
+      {
+        "id": "option-3",
+        "text": "Beisebol"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:c6431e7c6b06cae0",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do brasileiro considerado um dos maiores pilotos de Fórmula 1 e tricampeão mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rubens Barrichello"
+      },
+      {
+        "id": "option-1",
+        "text": "Felipe Massa"
+      },
+      {
+        "id": "option-2",
+        "text": "Nelson Piquet"
+      },
+      {
+        "id": "option-3",
+        "text": "Ayrton Senna"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:470f294dcb4d50bd",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que esporte o termo 'grand slam' é utilizado?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-1",
+        "text": "Golfe"
+      },
+      {
+        "id": "option-2",
+        "text": "Beisebol"
+      },
+      {
+        "id": "option-3",
+        "text": "Basquete"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:73242463048579b4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do técnico que comandou a seleção brasileira na conquista do pentacampeonato mundial de futebol em 2002?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carlos Alberto Parreira"
+      },
+      {
+        "id": "option-1",
+        "text": "Tite"
+      },
+      {
+        "id": "option-2",
+        "text": "Dunga"
+      },
+      {
+        "id": "option-3",
+        "text": "Luiz Felipe Scolari"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:57ccdb8564cf1c89",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o esporte principal dos Jogos Olímpicos de Inverno?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Esqui"
+      },
+      {
+        "id": "option-1",
+        "text": "Bobsled"
+      },
+      {
+        "id": "option-2",
+        "text": "Hóquei no Gelo"
+      },
+      {
+        "id": "option-3",
+        "text": "Patinagem Artística"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:66ee52ffe36161f4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do ex-jogador de basquete brasileiro que foi campeão da NBA com o Chicago Bulls na década de 90?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar Schmidt"
+      },
+      {
+        "id": "option-1",
+        "text": "Magic Johnson"
+      },
+      {
+        "id": "option-2",
+        "text": "Leandro Barbosa"
+      },
+      {
+        "id": "option-3",
+        "text": "Anderson Varejão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:9fe254de437557b2",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do estádio onde a final da Copa do Mundo de 2018 foi realizada?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estádio Nacional"
+      },
+      {
+        "id": "option-1",
+        "text": "Estádio Luzhniki"
+      },
+      {
+        "id": "option-2",
+        "text": "Estádio Maracanã"
+      },
+      {
+        "id": "option-3",
+        "text": "Estádio Wembley"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:983ae23bc71ef00c",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o único clube a vencer a tríplice coroa no futebol brasileiro (Campeonato Brasileiro, Copa do Brasil e Libertadores no mesmo ano)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-2",
+        "text": "Grêmio"
+      },
+      {
+        "id": "option-3",
+        "text": "Cruzeiro"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:4cc85688f601eab5",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o recordista de medalhas de ouro olímpicas em uma única edição dos Jogos Olímpicos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Phelps"
+      },
+      {
+        "id": "option-1",
+        "text": "Usain Bolt"
+      },
+      {
+        "id": "option-2",
+        "text": "Simone Biles"
+      },
+      {
+        "id": "option-3",
+        "text": "Nadia Comăneci"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:a45ad559aaea3673",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país sede da Copa do Mundo de 2022?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Egito"
+      },
+      {
+        "id": "option-1",
+        "text": "Qatar"
+      },
+      {
+        "id": "option-2",
+        "text": "Emirados Árabes Unidos"
+      },
+      {
+        "id": "option-3",
+        "text": "Arábia Saudita"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:66dfa7c4eaeaeebf",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o único clube a vencer a tríplice coroa no futebol sul-americano (Copa Libertadores, Recopa Sul-Americana e Copa Sul-Americana)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Independiente"
+      },
+      {
+        "id": "option-1",
+        "text": "Boca Juniors"
+      },
+      {
+        "id": "option-2",
+        "text": "Santos"
+      },
+      {
+        "id": "option-3",
+        "text": "River Plate"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:0a79802df45a1ec4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o maior artilheiro da história do Barcelona FC?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lionel Messi"
+      },
+      {
+        "id": "option-1",
+        "text": "Xavi Hernández"
+      },
+      {
+        "id": "option-2",
+        "text": "Andrés Iniesta"
+      },
+      {
+        "id": "option-3",
+        "text": "César Rodríguez"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:5ea7502a2606f712",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano o Brasil sediou as Olimpíadas pela segunda vez na história?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2004"
+      },
+      {
+        "id": "option-1",
+        "text": "2012"
+      },
+      {
+        "id": "option-2",
+        "text": "2016"
+      },
+      {
+        "id": "option-3",
+        "text": "2020"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:e0903de52dd4e868",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do lendário jogador de basquete norte-americano que é conhecido como 'The Black Mamba'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "LeBron James"
+      },
+      {
+        "id": "option-1",
+        "text": "Michael Jordan"
+      },
+      {
+        "id": "option-2",
+        "text": "Magic Johnson"
+      },
+      {
+        "id": "option-3",
+        "text": "Kobe Bryant"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:fbb2207500b99521",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do estádio do Barcelona FC?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Anfield"
+      },
+      {
+        "id": "option-1",
+        "text": "Santiago Bernabéu"
+      },
+      {
+        "id": "option-2",
+        "text": "San Siro"
+      },
+      {
+        "id": "option-3",
+        "text": "Camp Nou"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:d00544d81437664c",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o único clube brasileiro a vencer a Copa Intercontinental de Clubes por três vezes consecutivas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grêmio"
+      },
+      {
+        "id": "option-1",
+        "text": "Santos"
+      },
+      {
+        "id": "option-2",
+        "text": "Palmeiras"
+      },
+      {
+        "id": "option-3",
+        "text": "Flamengo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:e100fa9a8781b3b6",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é a maior medalhista olímpica de todos os tempos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Usain Bolt"
+      },
+      {
+        "id": "option-1",
+        "text": "Michael Phelps"
+      },
+      {
+        "id": "option-2",
+        "text": "Simone Biles"
+      },
+      {
+        "id": "option-3",
+        "text": "Nadia Comăneci"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:7192e2fbd69a763a",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o país conhecido como 'A Casa do Futebol'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alemanha"
+      },
+      {
+        "id": "option-1",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-2",
+        "text": "Inglaterra"
+      },
+      {
+        "id": "option-3",
+        "text": "Argentina"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:5a3e7a37fc0fced7",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o time de futebol mais antigo do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "Botafogo"
+      },
+      {
+        "id": "option-2",
+        "text": "Corinthians"
+      },
+      {
+        "id": "option-3",
+        "text": "Paysandu"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:21b6f200f1576725",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual time brasileiro tem mais títulos de Copa Libertadores?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "Santos"
+      },
+      {
+        "id": "option-2",
+        "text": "Palmeiras"
+      },
+      {
+        "id": "option-3",
+        "text": "São Paulo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:b6e4f8e1e6fd3463",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual esporte é conhecido como \"esporte bretão\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Críquete"
+      },
+      {
+        "id": "option-1",
+        "text": "Rúgbi"
+      },
+      {
+        "id": "option-2",
+        "text": "Golf"
+      },
+      {
+        "id": "option-3",
+        "text": "Futebol"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:b0f0c14bc4d3cdd9",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quantas vezes a França venceu a Copa do Mundo de futebol?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1"
+      },
+      {
+        "id": "option-1",
+        "text": "2"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:bf82d7a8ea8588f7",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano o Brasil sediou a Copa do Mundo de futebol pela primeira vez?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1950"
+      },
+      {
+        "id": "option-1",
+        "text": "1954"
+      },
+      {
+        "id": "option-2",
+        "text": "1958"
+      },
+      {
+        "id": "option-3",
+        "text": "1962"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:f949ccc4a18a3a43",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o esporte conhecido como \"esporte da raquete e peteca\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Badminton"
+      },
+      {
+        "id": "option-1",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-2",
+        "text": "Ping Pong"
+      },
+      {
+        "id": "option-3",
+        "text": "Squash"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:417fa3df906c4664",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quantas medalhas de ouro o Brasil conquistou nos Jogos Olímpicos de Verão de 2020 (realizados em 2021)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "7"
+      },
+      {
+        "id": "option-3",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:06af0c5a12fe5744",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o clube mais antigo de futebol do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-1",
+        "text": "Santos"
+      },
+      {
+        "id": "option-2",
+        "text": "Vasco da Gama"
+      },
+      {
+        "id": "option-3",
+        "text": "Corinthians"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 55,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:f640fce9400a0bf7",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a NBA (National Basketball Association) foi fundada?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1946"
+      },
+      {
+        "id": "option-1",
+        "text": "1950"
+      },
+      {
+        "id": "option-2",
+        "text": "1960"
+      },
+      {
+        "id": "option-3",
+        "text": "1970"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:9784e2d01845272d",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o maior jogador de tênis de todos os tempos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roger Federer"
+      },
+      {
+        "id": "option-1",
+        "text": "Rafael Nadal"
+      },
+      {
+        "id": "option-2",
+        "text": "Novak Djokovic"
+      },
+      {
+        "id": "option-3",
+        "text": "Serena Williams"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:c52b6d8dcffa09a6",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país sediou os Jogos Olímpicos de Inverno em 2018?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-1",
+        "text": "Coreia do Sul"
+      },
+      {
+        "id": "option-2",
+        "text": "Noruega"
+      },
+      {
+        "id": "option-3",
+        "text": "Rússia"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:7c53050d6074bfe2",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o único clube brasileiro a vencer a Copa Intercontinental três vezes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-1",
+        "text": "Santos"
+      },
+      {
+        "id": "option-2",
+        "text": "Grêmio"
+      },
+      {
+        "id": "option-3",
+        "text": "Flamengo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:44a4c7fb85edd267",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano o futebol se tornou um esporte olímpico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1900"
+      },
+      {
+        "id": "option-1",
+        "text": "1912"
+      },
+      {
+        "id": "option-2",
+        "text": "1924"
+      },
+      {
+        "id": "option-3",
+        "text": "1936"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:6495502c40b73e54",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o maior artilheiro da história da NBA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "LeBron James"
+      },
+      {
+        "id": "option-1",
+        "text": "Michael Jordan"
+      },
+      {
+        "id": "option-2",
+        "text": "Kareem Abdul-Jabbar"
+      },
+      {
+        "id": "option-3",
+        "text": "Kobe Bryant"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 61,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:d19f126f11114840",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o esporte principal da trilogia esportiva de inverno, ao lado do biatlo e do salto com esqui?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Curling"
+      },
+      {
+        "id": "option-1",
+        "text": "Hóquei no Gelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Luge"
+      },
+      {
+        "id": "option-3",
+        "text": "Esqui Alpino"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:93831f3c87a01014",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual seleção de futebol venceu a primeira Copa do Mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Uruguai"
+      },
+      {
+        "id": "option-2",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-3",
+        "text": "Alemanha"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:32ec4bc78a882300",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o recorde mundial dos 100 metros rasos no atletismo masculino?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "9.58 segundos"
+      },
+      {
+        "id": "option-1",
+        "text": "9.63 segundos"
+      },
+      {
+        "id": "option-2",
+        "text": "9.69 segundos"
+      },
+      {
+        "id": "option-3",
+        "text": "9.74 segundos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 64,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:81831e15c4e5a160",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o clube de futebol mais antigo do mundo ainda em atividade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Real Madrid"
+      },
+      {
+        "id": "option-1",
+        "text": "Nottingham Forest"
+      },
+      {
+        "id": "option-2",
+        "text": "Sheffield FC"
+      },
+      {
+        "id": "option-3",
+        "text": "FC Basel"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 65,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:12ba4a8d0f9f801a",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é conhecido como \"The Notorious\" no mundo das artes marciais mistas (MMA)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jon Jones"
+      },
+      {
+        "id": "option-1",
+        "text": "Georges St-Pierre"
+      },
+      {
+        "id": "option-2",
+        "text": "Anderson Silva"
+      },
+      {
+        "id": "option-3",
+        "text": "Conor McGregor"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 66,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:77e1afe35c699297",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o esporte coletivo mais praticado do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Futebol"
+      },
+      {
+        "id": "option-1",
+        "text": "Basquete"
+      },
+      {
+        "id": "option-2",
+        "text": "Críquete"
+      },
+      {
+        "id": "option-3",
+        "text": "Vôlei"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 67,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:c907e841ceb424cf",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual jogador de basquete ficou conhecido como \"The Black Mamba\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "LeBron James"
+      },
+      {
+        "id": "option-1",
+        "text": "Kobe Bryant"
+      },
+      {
+        "id": "option-2",
+        "text": "Michael Jordan"
+      },
+      {
+        "id": "option-3",
+        "text": "Kevin Durant"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 68,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:8e3755d40584fe98",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quantas voltas um piloto precisa dar em uma corrida de Fórmula 1 com distância total de 305 km?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "71"
+      },
+      {
+        "id": "option-1",
+        "text": "78"
+      },
+      {
+        "id": "option-2",
+        "text": "81"
+      },
+      {
+        "id": "option-3",
+        "text": "87"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:45b016d0caf7476e",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país é conhecido como a \"casa do críquete\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Índia"
+      },
+      {
+        "id": "option-1",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-2",
+        "text": "Inglaterra"
+      },
+      {
+        "id": "option-3",
+        "text": "África do Sul"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 70,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:9e220c50a238c5c4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o recordista mundial do salto em altura masculino?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Javier Sotomayor"
+      },
+      {
+        "id": "option-1",
+        "text": "Stefan Holm"
+      },
+      {
+        "id": "option-2",
+        "text": "Mutaz Essa Barshim"
+      },
+      {
+        "id": "option-3",
+        "text": "Ivan Ukhov"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 71,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:sports:efa7831d4f34804b",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o esporte principal nos Jogos Paralímpicos de Inverno?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Esqui Alpino"
+      },
+      {
+        "id": "option-1",
+        "text": "Curling em Cadeira de Rodas"
+      },
+      {
+        "id": "option-2",
+        "text": "Hóquei em Sled"
+      },
+      {
+        "id": "option-3",
+        "text": "Snowboard Adaptado"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 72,
+      "license": "MIT"
+    }
+  }
+]

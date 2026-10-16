@@ -1,0 +1,584 @@
+[
+  {
+    "id": "opentdb:animals:906d3fc37e8ab47d",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "To which biological phylum do all mammals, birds and reptiles belong?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chordata"
+      },
+      {
+        "id": "option-1",
+        "text": "Echinodermata"
+      },
+      {
+        "id": "option-2",
+        "text": "Annelida"
+      },
+      {
+        "id": "option-3",
+        "text": "Placazoa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 82,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:047dad82aaffc114",
+    "category": "animals",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"Kamea,\" the Gilbertese Islander word for dog, is derived from the English phrase \"Come here!\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 151,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:b294006109fcdb3a",
+    "category": "animals",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In 2016, the IUCN reclassified the status of Giant Pandas from endangered to vulnerable.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 264,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:0f86b0cfa0e4868d",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the scientific name for the \"Polar Bear\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ursus Maritimus"
+      },
+      {
+        "id": "option-1",
+        "text": "Polar Bear"
+      },
+      {
+        "id": "option-2",
+        "text": "Ursus Spelaeus"
+      },
+      {
+        "id": "option-3",
+        "text": "Ursus Arctos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 266,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:9812c66cce145188",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nuts"
+      },
+      {
+        "id": "option-1",
+        "text": "Nothing"
+      },
+      {
+        "id": "option-2",
+        "text": "Fruit"
+      },
+      {
+        "id": "option-3",
+        "text": "Seaweed"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 274,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:b8603887c8b25360",
+    "category": "animals",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Otters have pockets under their arms for carrying their favourite snacks and rocks.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 359,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:61238c55600d0ff1",
+    "category": "animals",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Rabbits are carnivores.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 420,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:bbf95673d4e1ff91",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Grumpy Cat's real name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tardar Sauce"
+      },
+      {
+        "id": "option-1",
+        "text": "Sauce"
+      },
+      {
+        "id": "option-2",
+        "text": "Minnie"
+      },
+      {
+        "id": "option-3",
+        "text": "Broccoli"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 477,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:c3b6b3ab0d11165f",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What scientific suborder does the family Hyaenidae belong to?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Feliformia"
+      },
+      {
+        "id": "option-1",
+        "text": "Haplorhini"
+      },
+      {
+        "id": "option-2",
+        "text": "Caniformia"
+      },
+      {
+        "id": "option-3",
+        "text": "Ciconiiformes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 570,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:4cd270d18382ca51",
+    "category": "animals",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Rabbits are rodents.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 684,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:676c39e4cea0d15e",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What scientific family does the Aardwolf belong to?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hyaenidae"
+      },
+      {
+        "id": "option-1",
+        "text": "Canidae"
+      },
+      {
+        "id": "option-2",
+        "text": "Felidae"
+      },
+      {
+        "id": "option-3",
+        "text": "Eupleridae"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 698,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:635837ea1fb54abe",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is true when alligators are behaving territorially?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "They bellow while showing their tail and neck"
+      },
+      {
+        "id": "option-1",
+        "text": "Open their jaws while making a clicking noise"
+      },
+      {
+        "id": "option-2",
+        "text": "They run full force at the threat"
+      },
+      {
+        "id": "option-3",
+        "text": "Slap their tails on the ground"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 752,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:aee4a99921749c3a",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the fastest  land animal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cheetah"
+      },
+      {
+        "id": "option-1",
+        "text": "Lion"
+      },
+      {
+        "id": "option-2",
+        "text": "Thomson’s Gazelle"
+      },
+      {
+        "id": "option-3",
+        "text": "Pronghorn Antelope"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 755,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:99fb50362ff18a58",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mad Cow disease"
+      },
+      {
+        "id": "option-1",
+        "text": "Weil's disease"
+      },
+      {
+        "id": "option-2",
+        "text": "Milk fever"
+      },
+      {
+        "id": "option-3",
+        "text": "Foot-and-mouth disease"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 775,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:9c808327552e0953",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the collective noun for a group of crows?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Murder"
+      },
+      {
+        "id": "option-1",
+        "text": "Pack"
+      },
+      {
+        "id": "option-2",
+        "text": "Gaggle"
+      },
+      {
+        "id": "option-3",
+        "text": "Herd"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 800,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:8f1399a7d917960e",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What color is a Steller's Jay?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "blue and black"
+      },
+      {
+        "id": "option-1",
+        "text": "blue and grey"
+      },
+      {
+        "id": "option-2",
+        "text": "blue and white"
+      },
+      {
+        "id": "option-3",
+        "text": "grey and black"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 912,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:67d71774f45f778d",
+    "category": "animals",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the national bird of Bahrain?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bulbul"
+      },
+      {
+        "id": "option-1",
+        "text": "Hummingbird"
+      },
+      {
+        "id": "option-2",
+        "text": "Falcon"
+      },
+      {
+        "id": "option-3",
+        "text": "Sparrow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 932,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animals:71fb8448c17591ae",
+    "category": "animals",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Zebras are white with black stripes.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 982,
+      "category": "Animals",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

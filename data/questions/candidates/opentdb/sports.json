@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "opentdb:sports:b73e9ee0d3f3b9e0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many soccer players should be on the field at the same time?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "22"
+      },
+      {
+        "id": "option-1",
+        "text": "20"
+      },
+      {
+        "id": "option-2",
+        "text": "24"
+      },
+      {
+        "id": "option-3",
+        "text": "26"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:41c7455d44c39ea2",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ohio State Buckeyes"
+      },
+      {
+        "id": "option-1",
+        "text": "Alabama Crimson Tide"
+      },
+      {
+        "id": "option-2",
+        "text": "Clemson Tigers"
+      },
+      {
+        "id": "option-3",
+        "text": "Wisconsin Badgers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 34,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b7cbb2cdfd538f39",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "13"
+      },
+      {
+        "id": "option-1",
+        "text": "11"
+      },
+      {
+        "id": "option-2",
+        "text": "20"
+      },
+      {
+        "id": "option-3",
+        "text": "22"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 39,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:36707b3b4487d20d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In golf, what name is given to a hole score of two under par?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eagle"
+      },
+      {
+        "id": "option-1",
+        "text": "Birdie"
+      },
+      {
+        "id": "option-2",
+        "text": "Bogey"
+      },
+      {
+        "id": "option-3",
+        "text": "Albatross"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 45,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:04210825f84dd9d9",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "DING Ning (China)"
+      },
+      {
+        "id": "option-1",
+        "text": "LI Xiaoxia (China)"
+      },
+      {
+        "id": "option-2",
+        "text": "Ai FUKUHARA (Japan)"
+      },
+      {
+        "id": "option-3",
+        "text": "Song KIM (North Korea)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 101,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:62120e89e162c020",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is Manchester United's leading appearance maker?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ryan Giggs"
+      },
+      {
+        "id": "option-1",
+        "text": "David Beckham"
+      },
+      {
+        "id": "option-2",
+        "text": "Wayne Rooney"
+      },
+      {
+        "id": "option-3",
+        "text": "Eric Cantona"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 111,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:2b1081da74f1d0f0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which team won 2014 FIFA World Cup in Brazil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Germany"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Brazil"
+      },
+      {
+        "id": "option-3",
+        "text": "Netherlands"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 117,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3da874b71268bd0e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which NFL team plays for New England?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Patriots"
+      },
+      {
+        "id": "option-1",
+        "text": "Chiefs"
+      },
+      {
+        "id": "option-2",
+        "text": "Dolphins"
+      },
+      {
+        "id": "option-3",
+        "text": "49ers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 158,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:2b7e5d173acabeea",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which is Kenesisa Bekele's personal best at marathon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2:01:41"
+      },
+      {
+        "id": "option-1",
+        "text": "2:01:12"
+      },
+      {
+        "id": "option-2",
+        "text": "2:01:45"
+      },
+      {
+        "id": "option-3",
+        "text": "2:01:51"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 171,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:98bce4394af3b9c0",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In 2008, Usain Bolt set the world record for the 100 meters with one shoelace untied.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 177,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8d885b16e831ce8b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which player has scored the most goals in the England Premier League (EPL)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alan Shearer"
+      },
+      {
+        "id": "option-1",
+        "text": "Wayne Rooney"
+      },
+      {
+        "id": "option-2",
+        "text": "Lionel Messi"
+      },
+      {
+        "id": "option-3",
+        "text": "Didier Drogba"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 239,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8f598a5f231d3daf",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what country were the 2014 Winter Olympics held in the town of Sochi?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Russia"
+      },
+      {
+        "id": "option-1",
+        "text": "South Korea"
+      },
+      {
+        "id": "option-2",
+        "text": "Norway"
+      },
+      {
+        "id": "option-3",
+        "text": "Canada"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 252,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:687ebbb4e2566099",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is Manchester United's top premier league goal scorer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wayne Rooney"
+      },
+      {
+        "id": "option-1",
+        "text": "Sir Bobby Charlton"
+      },
+      {
+        "id": "option-2",
+        "text": "Ryan Giggs"
+      },
+      {
+        "id": "option-3",
+        "text": "David Beckham"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 263,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:f62e5ed2e981d12b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 1998 Daytona 500?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dale Earnhardt"
+      },
+      {
+        "id": "option-1",
+        "text": "John Anderson"
+      },
+      {
+        "id": "option-2",
+        "text": "Jeff Gordon"
+      },
+      {
+        "id": "option-3",
+        "text": "Michael Walltrip"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 436,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d8eccca3cd6e3c8a",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What sport features the terms love, deuce, match and volley?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tennis"
+      },
+      {
+        "id": "option-1",
+        "text": "Cricket"
+      },
+      {
+        "id": "option-2",
+        "text": "Basketball"
+      },
+      {
+        "id": "option-3",
+        "text": "Curling"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 460,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:eecb372981b957c0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which basketball team has attended the most NBA grand finals?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Los Angeles Lakers"
+      },
+      {
+        "id": "option-1",
+        "text": "Boston Celtics"
+      },
+      {
+        "id": "option-2",
+        "text": "Philadelphia 76ers"
+      },
+      {
+        "id": "option-3",
+        "text": "Golden State Warriors"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 482,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b47afaf188e887b0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the nickname of Northampton town's rugby union club?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Saints"
+      },
+      {
+        "id": "option-1",
+        "text": "Harlequins"
+      },
+      {
+        "id": "option-2",
+        "text": "Saracens"
+      },
+      {
+        "id": "option-3",
+        "text": "Wasps"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 484,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:58e6e0af633d7aa9",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which soccer team won the Copa América 2015 Championship ?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chile"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Brazil"
+      },
+      {
+        "id": "option-3",
+        "text": "Paraguay"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 595,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:c8e4d0eb833abb39",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many players are there in an association football/soccer team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "11"
+      },
+      {
+        "id": "option-1",
+        "text": "10"
+      },
+      {
+        "id": "option-2",
+        "text": "9"
+      },
+      {
+        "id": "option-3",
+        "text": "8"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 619,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:61217215e29e5463",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Edson Arantes do Nascimento is the full name of which legendary football player?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pelé"
+      },
+      {
+        "id": "option-1",
+        "text": "Romário"
+      },
+      {
+        "id": "option-2",
+        "text": "Zico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ronaldinho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 624,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:1e66ac8170148f6e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country won the 2018 FIFA World Cup hosted in Russia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "France"
+      },
+      {
+        "id": "option-1",
+        "text": "Croatia"
+      },
+      {
+        "id": "option-2",
+        "text": "Belgium"
+      },
+      {
+        "id": "option-3",
+        "text": "England"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 638,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ba86fddaec2151a9",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Olympics tennis court is a giant green screen.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 748,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8d771849c6bb6f0f",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ma Long (China)"
+      },
+      {
+        "id": "option-1",
+        "text": "Zhang Jike (China)"
+      },
+      {
+        "id": "option-2",
+        "text": "Jun Mizutani (Japan)"
+      },
+      {
+        "id": "option-3",
+        "text": "Vladimir Samsonov (Belarus)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 749,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4377a80c51933189",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the UEFA Champions League in 2017?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Real Madrid C.F."
+      },
+      {
+        "id": "option-1",
+        "text": "Atletico Madrid"
+      },
+      {
+        "id": "option-2",
+        "text": "AS Monaco FC"
+      },
+      {
+        "id": "option-3",
+        "text": "Juventus F.C."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 754,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:0ff332d67137a42a",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 788,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4e4f00200b137b26",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hammer"
+      },
+      {
+        "id": "option-1",
+        "text": "Wrench"
+      },
+      {
+        "id": "option-2",
+        "text": "Drill"
+      },
+      {
+        "id": "option-3",
+        "text": "Screwdriver"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 791,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:45c90e2c8938dad5",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Philadelphia Flyers"
+      },
+      {
+        "id": "option-1",
+        "text": "New York Rangers"
+      },
+      {
+        "id": "option-2",
+        "text": "Toronto Maple Leafs"
+      },
+      {
+        "id": "option-3",
+        "text": "Boston Bruins"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 821,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:a1e81d82270d7d4c",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What country hosted the 2014 Winter Olympics?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Russia"
+      },
+      {
+        "id": "option-1",
+        "text": "Canada"
+      },
+      {
+        "id": "option-2",
+        "text": "United States"
+      },
+      {
+        "id": "option-3",
+        "text": "Germany"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 829,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:97aacee0514b411e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who has played the most tournaments in the German national soccer team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lothar Matthäus"
+      },
+      {
+        "id": "option-1",
+        "text": "Miroslav Klose"
+      },
+      {
+        "id": "option-2",
+        "text": "Philipp Lahm"
+      },
+      {
+        "id": "option-3",
+        "text": "Oliver Kahn"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 851,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:9f78f111303bdf09",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won NFL Super Bowl LI? (51)",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Patriots"
+      },
+      {
+        "id": "option-1",
+        "text": "Falcons"
+      },
+      {
+        "id": "option-2",
+        "text": "Broncos"
+      },
+      {
+        "id": "option-3",
+        "text": "Eagles"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 874,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ba5b50f56faad715",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7 - 1"
+      },
+      {
+        "id": "option-1",
+        "text": "0 - 1"
+      },
+      {
+        "id": "option-2",
+        "text": "3 - 4"
+      },
+      {
+        "id": "option-3",
+        "text": "16 - 0"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 890,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:27994b1c16efcc60",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Owen Hart"
+      },
+      {
+        "id": "option-1",
+        "text": "Chris Benoit"
+      },
+      {
+        "id": "option-2",
+        "text": "Lex Luger"
+      },
+      {
+        "id": "option-3",
+        "text": "Al Snow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 894,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3ce4f6ad4df5f9f2",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which year was the third Super Bowl held?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1969"
+      },
+      {
+        "id": "option-1",
+        "text": "1968"
+      },
+      {
+        "id": "option-2",
+        "text": "1971"
+      },
+      {
+        "id": "option-3",
+        "text": "1970"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 948,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

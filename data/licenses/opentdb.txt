@@ -1,0 +1,16 @@
+Open Trivia DB — conteúdo de perguntas e respostas
+Fonte: https://opentdb.com/
+Documentação e declaração de licença: https://opentdb.com/api_config.php
+
+Os dados fornecidos pela API são disponibilizados sob a licença
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+Licença: https://creativecommons.org/licenses/by-sa/4.0/
+Texto integral: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Adaptações desta coleta: decodificação de caracteres, organização por temas,
+normalização do formato e remoção de duplicatas. Os registros originais em inglês
+ainda precisam de tradução e revisão para uso no PENSHOW.
+
+Preservar a atribuição à fonte, informar alterações e distribuir adaptações
+destes dados sob a mesma licença, conforme os termos indicados acima.

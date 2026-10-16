@@ -1,0 +1,557 @@
+[
+  {
+    "id": "opentdb:mathematics:917b4e4f7291d1a1",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "An isosceles triangle has two sides of equal length as opposed to three.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 13,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:51359e02d391dd22",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "E = MC3",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 115,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:ab02e27725660f16",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What Greek letter is used to signify summation?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sigma"
+      },
+      {
+        "id": "option-1",
+        "text": "Delta"
+      },
+      {
+        "id": "option-2",
+        "text": "Alpha"
+      },
+      {
+        "id": "option-3",
+        "text": "Omega"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 134,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:e99998b7e8c3899b",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1729"
+      },
+      {
+        "id": "option-1",
+        "text": "91"
+      },
+      {
+        "id": "option-2",
+        "text": "561"
+      },
+      {
+        "id": "option-3",
+        "text": "4104"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 316,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:ae4f2e6845d9873c",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is a polygon with eight sides called?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Octagon"
+      },
+      {
+        "id": "option-1",
+        "text": "Hexagon"
+      },
+      {
+        "id": "option-2",
+        "text": "Nanagon"
+      },
+      {
+        "id": "option-3",
+        "text": "Heptagon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 326,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:33df06b3d3c841c9",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A 'Millinillion' is a real number.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 329,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:4395c240c2b324dd",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who proved Fermat's Last Theorem?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andrew Wiles"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonhard Euler"
+      },
+      {
+        "id": "option-2",
+        "text": "Carl Friedrich Gauss"
+      },
+      {
+        "id": "option-3",
+        "text": "Srinivasa Ramanujan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 373,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:062ed0475a88591c",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Topology, the complement of an open set is a closed set.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 423,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:3d654678734a930c",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Folium of Descartes"
+      },
+      {
+        "id": "option-1",
+        "text": "Elliptic Paraboloid of Descartes"
+      },
+      {
+        "id": "option-2",
+        "text": "Cartesian Coordinates"
+      },
+      {
+        "id": "option-3",
+        "text": "Descarte's Helicoid"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 495,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:4b608f753d39bdf9",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Roman Numerals, what does XL equate to?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "40"
+      },
+      {
+        "id": "option-1",
+        "text": "60"
+      },
+      {
+        "id": "option-2",
+        "text": "15"
+      },
+      {
+        "id": "option-3",
+        "text": "90"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 541,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:8b6269ade169df65",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the derivative of Acceleration with respect to time?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jerk"
+      },
+      {
+        "id": "option-1",
+        "text": "Shift"
+      },
+      {
+        "id": "option-2",
+        "text": "Bump"
+      },
+      {
+        "id": "option-3",
+        "text": "Slide"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 615,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:bc385ba55a0e9044",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the symbol for Displacement?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Δr"
+      },
+      {
+        "id": "option-1",
+        "text": "dr"
+      },
+      {
+        "id": "option-2",
+        "text": "Dp"
+      },
+      {
+        "id": "option-3",
+        "text": "r"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 716,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:5efa41c325ac76ab",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the fourth digit of π?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1"
+      },
+      {
+        "id": "option-1",
+        "text": "2"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 744,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:56d56b3d6787a7e3",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of a nine sided polygon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nonagon"
+      },
+      {
+        "id": "option-1",
+        "text": "Hexagon"
+      },
+      {
+        "id": "option-2",
+        "text": "Octagon"
+      },
+      {
+        "id": "option-3",
+        "text": "Heptagon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 810,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:da3adece7173922e",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "If you could fold a piece of paper in half 50 times, its' thickness will be 3/4th the distance from the Earth to the Sun.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 935,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:ebb49615120c0d2b",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many sides does a heptagon have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "6"
+      },
+      {
+        "id": "option-3",
+        "text": "5"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 950,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:72850152b4394fde",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following dice is not a platonic solid?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10-sided die"
+      },
+      {
+        "id": "option-1",
+        "text": "12-sided die"
+      },
+      {
+        "id": "option-2",
+        "text": "20-sided die"
+      },
+      {
+        "id": "option-3",
+        "text": "8-sided die"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 956,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

@@ -1,0 +1,1381 @@
+[
+  {
+    "id": "opentdb:anime-manga:23248d013daad8f2",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the true moon princess in Sailor Moon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sailor Moon"
+      },
+      {
+        "id": "option-1",
+        "text": "Sailor Venus"
+      },
+      {
+        "id": "option-2",
+        "text": "Sailor Mars"
+      },
+      {
+        "id": "option-3",
+        "text": "Sailor Jupiter"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:2a6219c1139d25fc",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Pokémon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Porygon Line"
+      },
+      {
+        "id": "option-1",
+        "text": "The Pikachu Line"
+      },
+      {
+        "id": "option-2",
+        "text": "The Elekid Line"
+      },
+      {
+        "id": "option-3",
+        "text": "The Magby Line"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 19,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:0f00e59e8ee4ca23",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the anime Seven Deadly Sins what is the name of one of the sins?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Diane"
+      },
+      {
+        "id": "option-1",
+        "text": "Sakura"
+      },
+      {
+        "id": "option-2",
+        "text": "Ayano"
+      },
+      {
+        "id": "option-3",
+        "text": "Sheska"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 81,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:00ee0a94feeac636",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the first episode of Soul Eater released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2008"
+      },
+      {
+        "id": "option-1",
+        "text": "2003"
+      },
+      {
+        "id": "option-2",
+        "text": "2005"
+      },
+      {
+        "id": "option-3",
+        "text": "2011"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 138,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:3a49329bec367941",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"JoJo's Bizarre Adventure: Stardust Crusaders\", what is the last name of the protagonist Jotaro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kujo"
+      },
+      {
+        "id": "option-1",
+        "text": "Cujoh"
+      },
+      {
+        "id": "option-2",
+        "text": "Joestar"
+      },
+      {
+        "id": "option-3",
+        "text": "Higashikata"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 200,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:1f978d867dd45a61",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Aoi Miyamori is the production manager of what anime in \"Shirobako\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Third Aerial Girls Squad"
+      },
+      {
+        "id": "option-1",
+        "text": "Exodus!"
+      },
+      {
+        "id": "option-2",
+        "text": "Andes Chucky"
+      },
+      {
+        "id": "option-3",
+        "text": "Angel Beats!"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 201,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:d57fc23715098a95",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which studio animated Afro Samurai?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gonzo"
+      },
+      {
+        "id": "option-1",
+        "text": "Kyoto Animation"
+      },
+      {
+        "id": "option-2",
+        "text": "xebec"
+      },
+      {
+        "id": "option-3",
+        "text": "Production I.G"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 204,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:858383cc4ec4d454",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tohru"
+      },
+      {
+        "id": "option-1",
+        "text": "Lucoa"
+      },
+      {
+        "id": "option-2",
+        "text": "Kanna"
+      },
+      {
+        "id": "option-3",
+        "text": "Elma"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 206,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:78e145adc09f2955",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Red, black and yellow"
+      },
+      {
+        "id": "option-1",
+        "text": "Red, yellow and green"
+      },
+      {
+        "id": "option-2",
+        "text": "Red, black and green"
+      },
+      {
+        "id": "option-3",
+        "text": "Red, purple and blue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 298,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:85befbe63528e763",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What color is Ryūko Matoi's half of the Scissor Blade in the anime Kill la KIll?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Red"
+      },
+      {
+        "id": "option-1",
+        "text": "Green"
+      },
+      {
+        "id": "option-2",
+        "text": "Blue"
+      },
+      {
+        "id": "option-3",
+        "text": "Purple"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 301,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:11c19dd17dd7d769",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Druid is a mage class in \"Log Horizon\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 308,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:6271566585ef80cf",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the \"Toaru Kagaku no Railgun\" anime,  espers can only reach a maximum of level 6 in their abilities.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 342,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:edca58c0964e2761",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the Author of the manga Uzumaki?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Junji Ito"
+      },
+      {
+        "id": "option-1",
+        "text": "\tNoboru Takahashi"
+      },
+      {
+        "id": "option-2",
+        "text": "Akira Toriyama"
+      },
+      {
+        "id": "option-3",
+        "text": "Masashi Kishimoto"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 351,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:cc6ae7c1cf40ca73",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Chobits, Hideki found Chii in his apartment.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 360,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:de0f54e55b36fb6c",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Elric"
+      },
+      {
+        "id": "option-1",
+        "text": "Ellis"
+      },
+      {
+        "id": "option-2",
+        "text": "Eliek"
+      },
+      {
+        "id": "option-3",
+        "text": "Elwood"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 397,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:f4dab63172491236",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did the manga \"Ping Pong\" begin serialization?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1996"
+      },
+      {
+        "id": "option-1",
+        "text": "2014"
+      },
+      {
+        "id": "option-2",
+        "text": "2010"
+      },
+      {
+        "id": "option-3",
+        "text": "2003"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 412,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:274ec3bd27b4a717",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the main heroine of the anime, Full Metal Panic!",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kaname Chidori"
+      },
+      {
+        "id": "option-1",
+        "text": "Teletha Testarossa"
+      },
+      {
+        "id": "option-2",
+        "text": "Melissa Mao"
+      },
+      {
+        "id": "option-3",
+        "text": "Kyoko Tokiwa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 414,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:43dc689ca4c8f253",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On what date did the original \"Fruits Basket\" anime air in Japan?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "July 5th, 2001"
+      },
+      {
+        "id": "option-1",
+        "text": "November 1st, 2006"
+      },
+      {
+        "id": "option-2",
+        "text": "December 27th, 2001"
+      },
+      {
+        "id": "option-3",
+        "text": "October 11th, 2001"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 425,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:2ca20c3335adac64",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Kill La Kill, the weapon of the main protagonist is a katana. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 439,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:fe431d5f3830d02a",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of JoJo's Bizarre Adventure Part 5?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vento Aureo"
+      },
+      {
+        "id": "option-1",
+        "text": "Vento Oreo"
+      },
+      {
+        "id": "option-2",
+        "text": "Vanto Aureo"
+      },
+      {
+        "id": "option-3",
+        "text": "Vento Eureo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 451,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:b1bed832b18261ba",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the anime Noragami who is one of the main protagonists?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yukine"
+      },
+      {
+        "id": "option-1",
+        "text": "Karuha"
+      },
+      {
+        "id": "option-2",
+        "text": "Mineha"
+      },
+      {
+        "id": "option-3",
+        "text": "Mayu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 465,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:5819610b15e48ed9",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Little Witch Academia\", what is Shiny Chariot's alias at Luna Nova Academy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ursula Callistis"
+      },
+      {
+        "id": "option-1",
+        "text": "Croix Meridies"
+      },
+      {
+        "id": "option-2",
+        "text": "Miranda Holbrook"
+      },
+      {
+        "id": "option-3",
+        "text": "Anne Finnelan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 487,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:24e352a1afb92d8c",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these names are not a character of JoJo's Bizarre Adventure?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "JoJo Kikasu"
+      },
+      {
+        "id": "option-1",
+        "text": "Jean-Pierre Polnareff"
+      },
+      {
+        "id": "option-2",
+        "text": "George Joestar"
+      },
+      {
+        "id": "option-3",
+        "text": "Risotto Nero"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 507,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:87ae1796bda9f4c9",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Naruto manga, what is the last name of Tsunade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Senju"
+      },
+      {
+        "id": "option-1",
+        "text": "Haruno"
+      },
+      {
+        "id": "option-2",
+        "text": "Uzumaki"
+      },
+      {
+        "id": "option-3",
+        "text": "Yamanaka"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 561,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:a5e2705cefe1751d",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the final villain in the manga series \"Bleach\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yhwach"
+      },
+      {
+        "id": "option-1",
+        "text": "Juha Bach"
+      },
+      {
+        "id": "option-2",
+        "text": "Yuhabah"
+      },
+      {
+        "id": "option-3",
+        "text": "Juhabach"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 573,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:658d50dcc5540f22",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"The Melancholy of Haruhi Suzumiya\" series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "God"
+      },
+      {
+        "id": "option-1",
+        "text": "Alien"
+      },
+      {
+        "id": "option-2",
+        "text": "Time Traveler"
+      },
+      {
+        "id": "option-3",
+        "text": "Esper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 643,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:6b650e6efda26398",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the main character in One Piece?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Luffy"
+      },
+      {
+        "id": "option-1",
+        "text": "Shanks"
+      },
+      {
+        "id": "option-2",
+        "text": "Zoro"
+      },
+      {
+        "id": "option-3",
+        "text": "Smoker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 648,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:5d35c899c9a42866",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"One Piece,\" what color is Tony Tony Chopper's nose?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blue"
+      },
+      {
+        "id": "option-1",
+        "text": "Black"
+      },
+      {
+        "id": "option-2",
+        "text": "Grey"
+      },
+      {
+        "id": "option-3",
+        "text": "Red"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 691,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:7d01d5a8e41e7386",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the anime, \"Fullmetal Alchemist\", who is known as the 'Flame Alchemist'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roy Mustang"
+      },
+      {
+        "id": "option-1",
+        "text": "Edward Elric"
+      },
+      {
+        "id": "option-2",
+        "text": "Maes Hughes"
+      },
+      {
+        "id": "option-3",
+        "text": "Lin Yao"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 693,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:c6da89677b54a57f",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Ash Ketchum's second Pokemon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Caterpie"
+      },
+      {
+        "id": "option-1",
+        "text": "Charmander"
+      },
+      {
+        "id": "option-2",
+        "text": "Pikachu"
+      },
+      {
+        "id": "option-3",
+        "text": "Pidgey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 697,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:0703c02ee64230cb",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What anime studio was in charge of the hit anime \"Made in Abyss\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kinema Citrus"
+      },
+      {
+        "id": "option-1",
+        "text": "Trigger"
+      },
+      {
+        "id": "option-2",
+        "text": "Studio 3hz"
+      },
+      {
+        "id": "option-3",
+        "text": "8bit"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 738,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:b34d115f0f2e56dd",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which character in Touhou is able to control dolls?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alice Margatroid"
+      },
+      {
+        "id": "option-1",
+        "text": "Marisa Kirisame"
+      },
+      {
+        "id": "option-2",
+        "text": "Clownpiece"
+      },
+      {
+        "id": "option-3",
+        "text": "Flandre Scarlet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 753,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:564102227865ded6",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The anime \"Lucky Star\" follows the story of one girl who is unaware she is God.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 763,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:9fc583e4c3e85c35",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the superhero anime, \"One Punch Man\", what is the main protagonist's Hero name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Caped Baldy"
+      },
+      {
+        "id": "option-1",
+        "text": "Strong Fist"
+      },
+      {
+        "id": "option-2",
+        "text": "Mad Boxer"
+      },
+      {
+        "id": "option-3",
+        "text": "Justice Puncher"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 770,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:c662f937b9cfe747",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"Dragon Ball\" franchise, what is the name of Goku's brother?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Raditz"
+      },
+      {
+        "id": "option-1",
+        "text": "Gohan"
+      },
+      {
+        "id": "option-2",
+        "text": "Vegeta"
+      },
+      {
+        "id": "option-3",
+        "text": "Bardock"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 773,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:b105f5d7f934de33",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Puella Magi Madoka Magica\", what is the first name of Madoka's younger brother?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tatsuya"
+      },
+      {
+        "id": "option-1",
+        "text": "Montoya"
+      },
+      {
+        "id": "option-2",
+        "text": "Tomohisa"
+      },
+      {
+        "id": "option-3",
+        "text": "Minato"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 778,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:ad3b47326c4231d8",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The animated film \"Spirited Away\" won the Academy Award for Best Animated Feature at the 75th Academy Awards in 2003.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 833,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:9020680f4ea98462",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which anime heavily features music from the genre \"Eurobeat\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Initial D"
+      },
+      {
+        "id": "option-1",
+        "text": "Wangan Midnight"
+      },
+      {
+        "id": "option-2",
+        "text": "Kino no Tabi"
+      },
+      {
+        "id": "option-3",
+        "text": "Cowboy Bebop"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 852,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:a7bd4042f8216ab6",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Black Lagoon\", what colour is Rock's tie?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Teal"
+      },
+      {
+        "id": "option-1",
+        "text": "Crimson"
+      },
+      {
+        "id": "option-2",
+        "text": "Dark Brown"
+      },
+      {
+        "id": "option-3",
+        "text": "Black"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 871,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:16485fcb62421df2",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Pokémon, Ash's Pikachu refuses to go into a pokeball.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 901,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:anime-manga:de9012782c12a183",
+    "category": "anime-manga",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Highschool DxD\", Koneko Toujou is from what race?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nekomata"
+      },
+      {
+        "id": "option-1",
+        "text": "Kitsune"
+      },
+      {
+        "id": "option-2",
+        "text": "Human"
+      },
+      {
+        "id": "option-3",
+        "text": "Kappa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 991,
+      "category": "Entertainment: Japanese Anime & Manga",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

@@ -1,0 +1,2722 @@
+[
+  {
+    "id": "questionados:history:71ed1d4f644d16c1",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o imperador romano conhecido por ter incendiado Roma?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Augusto"
+      },
+      {
+        "id": "option-1",
+        "text": "Nero"
+      },
+      {
+        "id": "option-2",
+        "text": "Calígula"
+      },
+      {
+        "id": "option-3",
+        "text": "Trajano"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:058492a8c4597192",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o evento que marcou o fim da Idade Média e o início da Idade Moderna?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Descobrimento da América"
+      },
+      {
+        "id": "option-2",
+        "text": "Guerra dos Cem Anos"
+      },
+      {
+        "id": "option-3",
+        "text": "Queda de Constantinopla"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:5553e35852ad4af7",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento de independência da Índia contra o domínio britânico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jawaharlal Nehru"
+      },
+      {
+        "id": "option-1",
+        "text": "Mahatma Gandhi"
+      },
+      {
+        "id": "option-2",
+        "text": "Subhas Chandra Bose"
+      },
+      {
+        "id": "option-3",
+        "text": "Bhagat Singh"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:f2079d0760e77b6c",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a Primeira Guerra Mundial começou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1914"
+      },
+      {
+        "id": "option-1",
+        "text": "1917"
+      },
+      {
+        "id": "option-2",
+        "text": "1918"
+      },
+      {
+        "id": "option-3",
+        "text": "1920"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:a9a7ae734f255197",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual filósofo grego é considerado o pai da filosofia ocidental?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sócrates"
+      },
+      {
+        "id": "option-1",
+        "text": "Aristóteles"
+      },
+      {
+        "id": "option-2",
+        "text": "Platão"
+      },
+      {
+        "id": "option-3",
+        "text": "Tales de Mileto"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:88806f3eb541f3c2",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro presidente do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Getúlio Vargas"
+      },
+      {
+        "id": "option-1",
+        "text": "Juscelino Kubitschek"
+      },
+      {
+        "id": "option-2",
+        "text": "Deodoro da Fonseca"
+      },
+      {
+        "id": "option-3",
+        "text": "Marechal Floriano Peixoto"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:9de11bee70113c33",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi a principal causa da Revolução Industrial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Invenção da máquina a vapor"
+      },
+      {
+        "id": "option-1",
+        "text": "Descobrimento da eletricidade"
+      },
+      {
+        "id": "option-2",
+        "text": "Aprimoramento da agricultura"
+      },
+      {
+        "id": "option-3",
+        "text": "Expansão colonial"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:8c2cb0b42d2e35d3",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Russa em 1917?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vladimir Lenin"
+      },
+      {
+        "id": "option-1",
+        "text": "Joseph Stalin"
+      },
+      {
+        "id": "option-2",
+        "text": "Nikolai Bukharin"
+      },
+      {
+        "id": "option-3",
+        "text": "Leon Trotsky"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:2252198a840c5ee2",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a Segunda Guerra Mundial começou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1939"
+      },
+      {
+        "id": "option-1",
+        "text": "1941"
+      },
+      {
+        "id": "option-2",
+        "text": "1943"
+      },
+      {
+        "id": "option-3",
+        "text": "1945"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:a9cd0effdcde5f0b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual civilização construiu as pirâmides de Gizé?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mesopotâmia"
+      },
+      {
+        "id": "option-1",
+        "text": "Roma"
+      },
+      {
+        "id": "option-2",
+        "text": "Egito"
+      },
+      {
+        "id": "option-3",
+        "text": "China"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:7c38ed40a14fc11f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual era o nome do navio em que Cristóvão Colombo chegou às Américas em 1492?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santa Maria"
+      },
+      {
+        "id": "option-1",
+        "text": "Pinta"
+      },
+      {
+        "id": "option-2",
+        "text": "Nina"
+      },
+      {
+        "id": "option-3",
+        "text": "Victoria"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:a9e60c5707f7d7af",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar e político que desempenhou um papel fundamental na independência da Argentina, Chile e Peru?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miguel Hidalgo"
+      },
+      {
+        "id": "option-1",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-2",
+        "text": "José de San Martín"
+      },
+      {
+        "id": "option-3",
+        "text": "Augusto Pinochet"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:2c119545e0528d1a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi o Tratado de Versalhes após a Primeira Guerra Mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um acordo de paz"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma aliança militar"
+      },
+      {
+        "id": "option-2",
+        "text": "Um tratado comercial"
+      },
+      {
+        "id": "option-3",
+        "text": "Um pacto cultural"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:1f2803e958ecd7ba",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Cubana em 1959?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fulgencio Batista"
+      },
+      {
+        "id": "option-1",
+        "text": "Che Guevara"
+      },
+      {
+        "id": "option-2",
+        "text": "Camilo Cienfuegos"
+      },
+      {
+        "id": "option-3",
+        "text": "Fidel Castro"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:c94fb42f2b15ddc0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual batalha marcou o fim definitivo da Guerra dos Cem Anos entre Inglaterra e França?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Batalha de Hastings"
+      },
+      {
+        "id": "option-1",
+        "text": "Batalha de Agincourt"
+      },
+      {
+        "id": "option-2",
+        "text": "Batalha de Castillon"
+      },
+      {
+        "id": "option-3",
+        "text": "Batalha de Bosworth"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:f458ae2bc6b72cfb",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi a rainha da Inglaterra durante a Era Elisabetana?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rainha Maria I"
+      },
+      {
+        "id": "option-1",
+        "text": "Rainha Ana"
+      },
+      {
+        "id": "option-2",
+        "text": "Rainha Isabel I"
+      },
+      {
+        "id": "option-3",
+        "text": "Rainha Vitória"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:b859af122242700b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade foi a capital do Império Romano do Ocidente antes de sua queda?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atenas"
+      },
+      {
+        "id": "option-1",
+        "text": "Roma"
+      },
+      {
+        "id": "option-2",
+        "text": "Cartago"
+      },
+      {
+        "id": "option-3",
+        "text": "Constantinopla"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:284d676659571555",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi a Revolução Industrial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma revolta social"
+      },
+      {
+        "id": "option-1",
+        "text": "Um avanço na agricultura"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma transformação econômica e tecnológica"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma reforma religiosa"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:496ec9b4cca085d8",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder sul-africano que lutou contra o apartheid e se tornou o primeiro presidente negro do país?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nelson Mandela"
+      },
+      {
+        "id": "option-1",
+        "text": "Desmond Tutu"
+      },
+      {
+        "id": "option-2",
+        "text": "Steve Biko"
+      },
+      {
+        "id": "option-3",
+        "text": "Thabo Mbeki"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:0efbb056661a30c4",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a Guerra Fria chegou ao fim com a queda do Muro de Berlim?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1985"
+      },
+      {
+        "id": "option-1",
+        "text": "1989"
+      },
+      {
+        "id": "option-2",
+        "text": "1991"
+      },
+      {
+        "id": "option-3",
+        "text": "1995"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:8518e27159eb5ae8",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o fundador do Império Mongol e criador de um dos maiores impérios da história?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Genghis Khan"
+      },
+      {
+        "id": "option-1",
+        "text": "Kublai Khan"
+      },
+      {
+        "id": "option-2",
+        "text": "Attila, o Huno"
+      },
+      {
+        "id": "option-3",
+        "text": "Tamerlão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:889bac5f1bed2b0a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi a principal causa da Revolução Francesa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Desigualdade social"
+      },
+      {
+        "id": "option-1",
+        "text": "Fome"
+      },
+      {
+        "id": "option-2",
+        "text": "Guerra"
+      },
+      {
+        "id": "option-3",
+        "text": "Todas as anteriores"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:1d7c6f7674ee0933",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Industrial na Inglaterra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James Watt"
+      },
+      {
+        "id": "option-1",
+        "text": "George Stephenson"
+      },
+      {
+        "id": "option-2",
+        "text": "Richard Arkwright"
+      },
+      {
+        "id": "option-3",
+        "text": "James Hargreaves"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:72b74fa04d2f8e84",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o impacto da Peste Negra (ou Peste Bubônica) na Europa medieval?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aumento da população"
+      },
+      {
+        "id": "option-1",
+        "text": "Decadência do feudalismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Expansão territorial"
+      },
+      {
+        "id": "option-3",
+        "text": "Desenvolvimento da medicina"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:f07018da46da6b52",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi a Guerra dos Trinta Anos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Conflito religioso na França"
+      },
+      {
+        "id": "option-1",
+        "text": "Guerra entre Inglaterra e França"
+      },
+      {
+        "id": "option-2",
+        "text": "Conflito na Europa Central"
+      },
+      {
+        "id": "option-3",
+        "text": "Guerra civil na Inglaterra"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:ee1abacc7f0538c7",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Bolchevique na Rússia em 1917?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vladimir Lenin"
+      },
+      {
+        "id": "option-1",
+        "text": "Joseph Stalin"
+      },
+      {
+        "id": "option-2",
+        "text": "Lev Tolstói"
+      },
+      {
+        "id": "option-3",
+        "text": "Nikolai Bukharin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:924de05ff9bd8353",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi o Congresso de Viena em 1815?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tratado de paz"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma conferência para reorganizar a Europa pós-Napoleão"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma revolta contra monarcas absolutistas"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma aliança militar"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:1a8c7d376ff9808a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da independência do México em 1810?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miguel Hidalgo"
+      },
+      {
+        "id": "option-1",
+        "text": "Benito Juárez"
+      },
+      {
+        "id": "option-2",
+        "text": "Emiliano Zapata"
+      },
+      {
+        "id": "option-3",
+        "text": "Pancho Villa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:2315b08a4ddec013",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o evento que desencadeou a entrada dos Estados Unidos na Segunda Guerra Mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ataque a Pearl Harbor"
+      },
+      {
+        "id": "option-1",
+        "text": "Bombardeio de Hiroshima"
+      },
+      {
+        "id": "option-2",
+        "text": "Invasão da Normandia"
+      },
+      {
+        "id": "option-3",
+        "text": "Ataque a Londres"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:186775b5b6d4ed20",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro imperador romano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Júlio César"
+      },
+      {
+        "id": "option-1",
+        "text": "Augusto"
+      },
+      {
+        "id": "option-2",
+        "text": "Nero"
+      },
+      {
+        "id": "option-3",
+        "text": "Calígula"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:2723409654fb254b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar francês que liderou as forças aliadas na Batalha de Waterloo contra Napoleão Bonaparte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Arthur Wellesley"
+      },
+      {
+        "id": "option-1",
+        "text": "Horatio Nelson"
+      },
+      {
+        "id": "option-2",
+        "text": "Charles Cornwallis"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Clive"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:91b938f579e25798",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o evento que marcou o início da Revolução Industrial na Inglaterra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Invenção da máquina a vapor"
+      },
+      {
+        "id": "option-1",
+        "text": "Revolução Francesa"
+      },
+      {
+        "id": "option-2",
+        "text": "Descobrimento da eletricidade"
+      },
+      {
+        "id": "option-3",
+        "text": "Expansão colonial"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:196ef035f686d67f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro presidente dos Estados Unidos a ser impeachado?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John F. Kennedy"
+      },
+      {
+        "id": "option-1",
+        "text": "Richard Nixon"
+      },
+      {
+        "id": "option-2",
+        "text": "Bill Clinton"
+      },
+      {
+        "id": "option-3",
+        "text": "George W. Bush"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:c77a4f56d143e15f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi o Apartheid na África do Sul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um movimento de independência"
+      },
+      {
+        "id": "option-1",
+        "text": "Um regime de segregação racial"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma guerra civil"
+      },
+      {
+        "id": "option-3",
+        "text": "Um tratado de paz"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:d2d8aa9c98e0d036",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Industrial nos Estados Unidos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andrew Carnegie"
+      },
+      {
+        "id": "option-1",
+        "text": "John D. Rockefeller"
+      },
+      {
+        "id": "option-2",
+        "text": "Henry Ford"
+      },
+      {
+        "id": "option-3",
+        "text": "Thomas Edison"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:c7536d3ca4b28335",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o evento que desencadeou a Primeira Guerra Mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Assassinato de Franz Ferdinand"
+      },
+      {
+        "id": "option-1",
+        "text": "Ataque a Pearl Harbor"
+      },
+      {
+        "id": "option-2",
+        "text": "Bombardeio de Hiroshima"
+      },
+      {
+        "id": "option-3",
+        "text": "Tratado de Versalhes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:7f4583207eac5d33",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o explorador português que liderou a primeira circum-navegação ao redor da Terra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fernão Mendes Pinto"
+      },
+      {
+        "id": "option-1",
+        "text": "Vasco da Gama"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernão Magalhães"
+      },
+      {
+        "id": "option-3",
+        "text": "Bartolomeu Dias"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:b42dfbc2ecfb601a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a União Soviética foi oficialmente dissolvida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1989"
+      },
+      {
+        "id": "option-1",
+        "text": "1991"
+      },
+      {
+        "id": "option-2",
+        "text": "1993"
+      },
+      {
+        "id": "option-3",
+        "text": "1995"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:76c84d1ff5d34cae",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento pelos direitos civis nos Estados Unidos na década de 1960?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Malcolm X"
+      },
+      {
+        "id": "option-1",
+        "text": "Rosa Parks"
+      },
+      {
+        "id": "option-2",
+        "text": "Martin Luther King Jr."
+      },
+      {
+        "id": "option-3",
+        "text": "John Lewis"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:71e96df1903ec5c9",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o tratado que encerrou a Primeira Guerra Mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tratado de Paris"
+      },
+      {
+        "id": "option-1",
+        "text": "Tratado de Versalhes"
+      },
+      {
+        "id": "option-2",
+        "text": "Tratado de Tordesilhas"
+      },
+      {
+        "id": "option-3",
+        "text": "Tratado de Lisboa"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:1a55192159dcc888",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder revolucionário que desempenhou um papel importante na independência de vários países da América Latina, incluindo Venezuela, Colômbia, Equador, Peru e Bolívia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "José de San Martín"
+      },
+      {
+        "id": "option-1",
+        "text": "Miguel Hidalgo"
+      },
+      {
+        "id": "option-2",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-3",
+        "text": "Bernardo O'Higgins"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:b6d6d2fc3ea4ea1f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o evento que levou à Guerra do Vietnã?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ataque a Pearl Harbor"
+      },
+      {
+        "id": "option-1",
+        "text": "Guerra Fria"
+      },
+      {
+        "id": "option-2",
+        "text": "Guerra Franco-Prussiana"
+      },
+      {
+        "id": "option-3",
+        "text": "Incidente do Golfo de Tonkin"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:1cca6b6e197d35f0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o faraó responsável pela construção das Grandes Pirâmides de Gizé?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cleópatra"
+      },
+      {
+        "id": "option-1",
+        "text": "Ramsés II"
+      },
+      {
+        "id": "option-2",
+        "text": "Tutancâmon"
+      },
+      {
+        "id": "option-3",
+        "text": "Quéops"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:fa0b2822427b7574",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi a Revolta dos Boxers na China?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma revolta contra o domínio britânico"
+      },
+      {
+        "id": "option-1",
+        "text": "Um movimento de independência indiana"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma revolta contra estrangeiros na China"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma guerra civil na China"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:7b7ca9c1573f2c46",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Industrial na Alemanha?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Otto von Bismarck"
+      },
+      {
+        "id": "option-1",
+        "text": "Friedrich Engels"
+      },
+      {
+        "id": "option-2",
+        "text": "Karl Marx"
+      },
+      {
+        "id": "option-3",
+        "text": "Werner von Siemens"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:4467e00e301e60d2",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a Guerra Civil Americana teve início?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1861"
+      },
+      {
+        "id": "option-1",
+        "text": "1870"
+      },
+      {
+        "id": "option-2",
+        "text": "1848"
+      },
+      {
+        "id": "option-3",
+        "text": "1885"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:9b8a541b06c392ef",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade foi o centro da Renascença italiana?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Madri"
+      },
+      {
+        "id": "option-1",
+        "text": "Paris"
+      },
+      {
+        "id": "option-2",
+        "text": "Roma"
+      },
+      {
+        "id": "option-3",
+        "text": "Florença"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:fa13b1f2dd8b3740",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Cubana ao lado de Fidel Castro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Che Guevara"
+      },
+      {
+        "id": "option-1",
+        "text": "Raul Castro"
+      },
+      {
+        "id": "option-2",
+        "text": "Camilo Cienfuegos"
+      },
+      {
+        "id": "option-3",
+        "text": "Fulgencio Batista"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:c2d183fb08abc6ce",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o tratado que encerrou a Guerra Franco-Prussiana em 1871?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tratado de Paris"
+      },
+      {
+        "id": "option-1",
+        "text": "Tratado de Versalhes"
+      },
+      {
+        "id": "option-2",
+        "text": "Tratado de Frankfurt"
+      },
+      {
+        "id": "option-3",
+        "text": "Tratado de Brest-Litovski"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:b77fe8c070bd73fe",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento pelos direitos civis dos negros nos Estados Unidos, conhecido por suas ideias de resistência não violenta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Malcolm X"
+      },
+      {
+        "id": "option-1",
+        "text": "Rosa Parks"
+      },
+      {
+        "id": "option-2",
+        "text": "Martin Luther King Jr."
+      },
+      {
+        "id": "option-3",
+        "text": "Harriet Tubman"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:e4a3ac7addce774f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual batalha foi decisiva para a independência dos Estados Unidos durante a Guerra Revolucionária Americana?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Batalha de Yorktown"
+      },
+      {
+        "id": "option-1",
+        "text": "Batalha de Lexington"
+      },
+      {
+        "id": "option-2",
+        "text": "Batalha de Saratoga"
+      },
+      {
+        "id": "option-3",
+        "text": "Batalha de Bunker Hill"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 50,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:b1f875e555a2f218",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento pela independência da Índia, conhecido por suas táticas de resistência não violenta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jawaharlal Nehru"
+      },
+      {
+        "id": "option-1",
+        "text": "Subhas Chandra Bose"
+      },
+      {
+        "id": "option-2",
+        "text": "Rajiv Gandhi"
+      },
+      {
+        "id": "option-3",
+        "text": "Mahatma Gandhi"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:0e98b4d576b9f16a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi a Revolução Meiji no Japão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uma revolta contra a dinastia Qing"
+      },
+      {
+        "id": "option-1",
+        "text": "Uma revolta camponesa"
+      },
+      {
+        "id": "option-2",
+        "text": "Um movimento anti-imperialista"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma modernização radical do país"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:8f610ee00750b9eb",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Haitiana que resultou na independência do Haiti?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-1",
+        "text": "Toussaint Louverture"
+      },
+      {
+        "id": "option-2",
+        "text": "Jean-Jacques Dessalines"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Christophe"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:0a1b68cdb0f9d027",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi a principal consequência da Batalha de Actium em 31 a.C.?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ascensão de Augusto ao poder"
+      },
+      {
+        "id": "option-1",
+        "text": "Fim da República Romana"
+      },
+      {
+        "id": "option-2",
+        "text": "Conquista da Grécia por Roma"
+      },
+      {
+        "id": "option-3",
+        "text": "Morte de Cleópatra"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:8996b120738dfab0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento sufragista que lutou pelos direitos das mulheres no Reino Unido?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Emmeline Pankhurst"
+      },
+      {
+        "id": "option-1",
+        "text": "Florence Nightingale"
+      },
+      {
+        "id": "option-2",
+        "text": "Queen Victoria"
+      },
+      {
+        "id": "option-3",
+        "text": "Jane Austen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 55,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:24cf762c210950e1",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o evento que levou à Revolução Gloriosa na Inglaterra em 1688?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Guerra Civil Inglesa"
+      },
+      {
+        "id": "option-1",
+        "text": "Execução de Charles I"
+      },
+      {
+        "id": "option-2",
+        "text": "Invasão holandesa"
+      },
+      {
+        "id": "option-3",
+        "text": "Revolução Industrial"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:776ae3cff29b8e61",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro czar da Rússia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ivan, o Terrível"
+      },
+      {
+        "id": "option-1",
+        "text": "Pedro, o Grande"
+      },
+      {
+        "id": "option-2",
+        "text": "Catarina, a Grande"
+      },
+      {
+        "id": "option-3",
+        "text": "Alexandre II"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:9045fce9613a8727",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi o Manifesto Comunista?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tratado de paz entre nações"
+      },
+      {
+        "id": "option-1",
+        "text": "Um documento que proclama os direitos humanos"
+      },
+      {
+        "id": "option-2",
+        "text": "Um chamado à revolta contra monarquias absolutistas"
+      },
+      {
+        "id": "option-3",
+        "text": "Um texto de Marx e Engels que defende o comunismo"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:5de044d23d22fa05",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o navegador português que liderou a primeira viagem de circum-navegação ao redor do mundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bartolomeu Dias"
+      },
+      {
+        "id": "option-1",
+        "text": "Vasco da Gama"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernão Magalhães"
+      },
+      {
+        "id": "option-3",
+        "text": "Pedro Álvares Cabral"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:9c8a1a004c1223ab",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento pela independência dos Estados Unidos, conhecido por suas contribuições na redação da Declaração de Independência?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Washington"
+      },
+      {
+        "id": "option-1",
+        "text": "Thomas Jefferson"
+      },
+      {
+        "id": "option-2",
+        "text": "John Adams"
+      },
+      {
+        "id": "option-3",
+        "text": "Benjamin Franklin"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 75,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:76549680a54a5cee",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o líder militar francês que liderou as forças aliadas na Batalha de Waterloo contra Napoleão Bonaparte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Arthur Wellesley"
+      },
+      {
+        "id": "option-1",
+        "text": "Horatio Nelson"
+      },
+      {
+        "id": "option-2",
+        "text": "Charles Cornwallis"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Clive"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 76,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:275e25a608acc7af",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder revolucionário que desempenhou um papel importante na independência da Colômbia, Venezuela, Equador, Peru e Bolívia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "José de San Martín"
+      },
+      {
+        "id": "option-1",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-2",
+        "text": "Miguel Hidalgo"
+      },
+      {
+        "id": "option-3",
+        "text": "Bernardo O'Higgins"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 80,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:2f86b944b534c2c7",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o nome do movimento que buscava a reunificação da Itália no século XIX?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Movimento Carbonário"
+      },
+      {
+        "id": "option-1",
+        "text": "Movimento Risorgimento"
+      },
+      {
+        "id": "option-2",
+        "text": "Movimento Garibaldino"
+      },
+      {
+        "id": "option-3",
+        "text": "Movimento Medici"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 81,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:fc1326e632ef89b5",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar espartano na Batalha das Termópilas durante as Guerras Persas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leônidas"
+      },
+      {
+        "id": "option-1",
+        "text": "Péricles"
+      },
+      {
+        "id": "option-2",
+        "text": "Alexandre, o Grande"
+      },
+      {
+        "id": "option-3",
+        "text": "Sócrates"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 82,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:0e45c9a3099d9cbe",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano ocorreu a Revolução Bolchevique na Rússia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1915"
+      },
+      {
+        "id": "option-1",
+        "text": "1917"
+      },
+      {
+        "id": "option-2",
+        "text": "1919"
+      },
+      {
+        "id": "option-3",
+        "text": "1921"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 83,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:fcde22ed94239ac5",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o tratado que encerrou a Guerra dos Trinta Anos em 1648?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tratado de Vestfália"
+      },
+      {
+        "id": "option-1",
+        "text": "Tratado de Utrecht"
+      },
+      {
+        "id": "option-2",
+        "text": "Tratado de Paris"
+      },
+      {
+        "id": "option-3",
+        "text": "Tratado de Versalhes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 84,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:9eef65f1c1bc4c5b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar e político que liderou o movimento pela independência da Argentina?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "San Martín"
+      },
+      {
+        "id": "option-1",
+        "text": "Bolívar"
+      },
+      {
+        "id": "option-2",
+        "text": "Rosas"
+      },
+      {
+        "id": "option-3",
+        "text": "Perón"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 85,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:fc6d6b5d63bf8d31",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o imperador romano que implementou reformas significativas e é conhecido como o 'Filósofo-Rei'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nero"
+      },
+      {
+        "id": "option-1",
+        "text": "Marco Aurélio"
+      },
+      {
+        "id": "option-2",
+        "text": "Calígula"
+      },
+      {
+        "id": "option-3",
+        "text": "Augusto"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 86,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:735ba5a23086856c",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi o Tratado de Tordesilhas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tratado de paz entre Portugal e Espanha"
+      },
+      {
+        "id": "option-1",
+        "text": "Um acordo comercial entre europeus e asiáticos"
+      },
+      {
+        "id": "option-2",
+        "text": "Uma divisão territorial entre Portugal e Espanha nas Américas"
+      },
+      {
+        "id": "option-3",
+        "text": "Um pacto de não agressão entre nações europeias"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 87,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:43b6b2b3922afb56",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolta dos Malês, uma revolta de escravizados muçulmanos no Brasil em 1835?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Zumbi dos Palmares"
+      },
+      {
+        "id": "option-1",
+        "text": "Luís Gonzaga das Virgens"
+      },
+      {
+        "id": "option-2",
+        "text": "Manuel Congo"
+      },
+      {
+        "id": "option-3",
+        "text": "Ahmad ibn Muhammad"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 88,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:201c8fc345bfbcf1",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade foi a capital do Império Romano do Oriente antes de sua queda?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atenas"
+      },
+      {
+        "id": "option-1",
+        "text": "Roma"
+      },
+      {
+        "id": "option-2",
+        "text": "Cartago"
+      },
+      {
+        "id": "option-3",
+        "text": "Constantinopla"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 89,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:b517f57b924e78b7",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar e político que desempenhou um papel fundamental na independência do México?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miguel Hidalgo"
+      },
+      {
+        "id": "option-1",
+        "text": "José de San Martín"
+      },
+      {
+        "id": "option-2",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-3",
+        "text": "Emiliano Zapata"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 90,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:7f045a2dd1c6e443",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual evento marcou o início da Revolução Industrial na Inglaterra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Descobrimento da eletricidade"
+      },
+      {
+        "id": "option-1",
+        "text": "Invenção da máquina a vapor"
+      },
+      {
+        "id": "option-2",
+        "text": "Revolução Francesa"
+      },
+      {
+        "id": "option-3",
+        "text": "Guerra dos Cem Anos"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 91,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:53792146f0981f4b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder da Revolução Russa que mais tarde se tornou o líder da União Soviética?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vladimir Lenin"
+      },
+      {
+        "id": "option-1",
+        "text": "Leon Trotsky"
+      },
+      {
+        "id": "option-2",
+        "text": "Joseph Stalin"
+      },
+      {
+        "id": "option-3",
+        "text": "Nikolai Bukharin"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 92,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:5bf2888c190a70bc",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o imperador romano que implementou reformas políticas e sociais durante o período conhecido como a 'Pax Romana'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Calígula"
+      },
+      {
+        "id": "option-1",
+        "text": "Nero"
+      },
+      {
+        "id": "option-2",
+        "text": "Marco Aurélio"
+      },
+      {
+        "id": "option-3",
+        "text": "Júlio César"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 93,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:d0e1b7e3eb9dc96f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a Revolução Francesa teve início?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1789"
+      },
+      {
+        "id": "option-1",
+        "text": "1799"
+      },
+      {
+        "id": "option-2",
+        "text": "1765"
+      },
+      {
+        "id": "option-3",
+        "text": "1804"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 94,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:fe1fa93b8d24c8c0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar e político da Guerra dos Cem Anos que conduziu as forças inglesas na Batalha de Agincourt?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joana d'Arc"
+      },
+      {
+        "id": "option-1",
+        "text": "Eduardo III"
+      },
+      {
+        "id": "option-2",
+        "text": "Ricardo Coração de Leão"
+      },
+      {
+        "id": "option-3",
+        "text": "Henrique V"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 95,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:f272863095e3ef3f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o explorador português que chegou às Índias por via marítima, contornando o Cabo da Boa Esperança?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bartolomeu Dias"
+      },
+      {
+        "id": "option-1",
+        "text": "Fernão Mendes Pinto"
+      },
+      {
+        "id": "option-2",
+        "text": "Vasco da Gama"
+      },
+      {
+        "id": "option-3",
+        "text": "Pedro Álvares Cabral"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 97,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:history:08fce516e399235f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder militar e político que desempenhou um papel crucial na independência do Peru?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miguel Hidalgo"
+      },
+      {
+        "id": "option-1",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-2",
+        "text": "Bernardo O'Higgins"
+      },
+      {
+        "id": "option-3",
+        "text": "José de San Martín"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 99,
+      "license": "MIT"
+    }
+  }
+]

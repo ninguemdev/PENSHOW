@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "opentdb:film:aea09ee3c8fed65e",
+    "category": "film",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The movie \"The Rocky Horror Picture Show\" (1975) opens with giant floating lips singing the opening song",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 68,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:c0684d4f41f5bbae",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which iconic character is featured in movies such as \"The Enforcer\", \"Sudden Impact\", and \"The Dead Pool\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dirty Harry"
+      },
+      {
+        "id": "option-1",
+        "text": "Indiana Jones"
+      },
+      {
+        "id": "option-2",
+        "text": "James Bond"
+      },
+      {
+        "id": "option-3",
+        "text": "Harry Potter"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 73,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:dd065c7343e016c9",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Bela Lugosi was a Hungarian-American actor best known for his starring role of what 1931 horror film?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Count Dracula"
+      },
+      {
+        "id": "option-1",
+        "text": "Dr Frankenstein"
+      },
+      {
+        "id": "option-2",
+        "text": "Werewolf"
+      },
+      {
+        "id": "option-3",
+        "text": "The Creature from the Black Lagoon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 78,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:84e2fa3f3e5822e8",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these Disney classics was released in 1970?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Aristocats"
+      },
+      {
+        "id": "option-1",
+        "text": "One Hundred and One Dalmatians"
+      },
+      {
+        "id": "option-2",
+        "text": "The Fox and the Hound"
+      },
+      {
+        "id": "option-3",
+        "text": "The Little Mermaid"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 92,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:62fd303a28ea4425",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who plays the character of Po in the Kung Fu Panda movies?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jack Black"
+      },
+      {
+        "id": "option-1",
+        "text": "Mirana Jonnes"
+      },
+      {
+        "id": "option-2",
+        "text": "McConahey Ramses"
+      },
+      {
+        "id": "option-3",
+        "text": "Jim Petersson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 149,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:7fdc1fbd47ef66f0",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who performed the opening theme song for the James Bond 007 movie \"Goldfinger\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shirley Basey"
+      },
+      {
+        "id": "option-1",
+        "text": "Tom Jones"
+      },
+      {
+        "id": "option-2",
+        "text": "John Barry"
+      },
+      {
+        "id": "option-3",
+        "text": "Sheena Easton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 152,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:e64b91dd9d645d00",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which 1955 film does Frank Sinatra play Nathan Detroit?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Guys and Dolls"
+      },
+      {
+        "id": "option-1",
+        "text": "Anchors Aweigh"
+      },
+      {
+        "id": "option-2",
+        "text": "From Here to Eternity"
+      },
+      {
+        "id": "option-3",
+        "text": "High Society"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 175,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:3c69dd47ee4c5350",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which town is the setting for the Disney movie The Love Bug (1968)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "San Francisco"
+      },
+      {
+        "id": "option-1",
+        "text": "Los Angeles"
+      },
+      {
+        "id": "option-2",
+        "text": "Sacramento"
+      },
+      {
+        "id": "option-3",
+        "text": "San Jose"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 176,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:1bcf40616ea0b5d3",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these actors is said to be cut from the film 'E.T. the Extra-Terrestrial'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Harrison Ford"
+      },
+      {
+        "id": "option-1",
+        "text": "Michael J. Fox"
+      },
+      {
+        "id": "option-2",
+        "text": "Andy Kaufman"
+      },
+      {
+        "id": "option-3",
+        "text": "Arnold Schwarzenegger"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 178,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:c3b9e9cf3bc2f3d2",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who plays protagonist Ethan Hunt in the \"Mission: Impossible\" film-series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tom Cruise"
+      },
+      {
+        "id": "option-1",
+        "text": "Johnny Depp"
+      },
+      {
+        "id": "option-2",
+        "text": "Sean Connery"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierce Brosnan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 180,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:7633fc46df7c8528",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which was the first of Alfred Hitchcock's movies to be filmed in colour?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rope"
+      },
+      {
+        "id": "option-1",
+        "text": "Psycho"
+      },
+      {
+        "id": "option-2",
+        "text": "Vertigo"
+      },
+      {
+        "id": "option-3",
+        "text": "Rebecca"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 208,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:f2283de735e7d916",
+    "category": "film",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Leonardo DiCaprio won an Oscar for Best Actor in 2004's \"The Aviator\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 261,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:7e36a04efdcdbcaf",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who directed the 1973 film \"American Graffiti\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Lucas"
+      },
+      {
+        "id": "option-1",
+        "text": "Ron Howard"
+      },
+      {
+        "id": "option-2",
+        "text": "Francis Ford Coppola"
+      },
+      {
+        "id": "option-3",
+        "text": "Steven Spielberg"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 276,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:ddf1bec95dcb1f16",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wilson"
+      },
+      {
+        "id": "option-1",
+        "text": "Friday"
+      },
+      {
+        "id": "option-2",
+        "text": "Jones"
+      },
+      {
+        "id": "option-3",
+        "text": "Billy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 282,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:853bcb47b1197218",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played the Cenobite called \"Pinhead\" in the original Hellraiser films?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Doug Bradley"
+      },
+      {
+        "id": "option-1",
+        "text": "Doug Jones"
+      },
+      {
+        "id": "option-2",
+        "text": "Doug Savant"
+      },
+      {
+        "id": "option-3",
+        "text": "Doug Benson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 283,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:dcac9059bdbe3aaa",
+    "category": "film",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "YouTube personality Jenna Marbles served as an executive producer of the film Maximum Ride (2016).",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 290,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:c953a1b3cc71bd6d",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 2002 film \"Kung Pow! Enter the Fist\", Master Pain changes his name to what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Betty"
+      },
+      {
+        "id": "option-1",
+        "text": "Sally"
+      },
+      {
+        "id": "option-2",
+        "text": "Amy"
+      },
+      {
+        "id": "option-3",
+        "text": "Kitty"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 302,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:c912b037f642624b",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year was the first Indian movie submitted for an Oscar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1957"
+      },
+      {
+        "id": "option-1",
+        "text": "1962"
+      },
+      {
+        "id": "option-2",
+        "text": "1938"
+      },
+      {
+        "id": "option-3",
+        "text": "1954"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 320,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:f1b03686d4f40eb2",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who directed the movie \"Alien\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ridley Scott"
+      },
+      {
+        "id": "option-1",
+        "text": "Christopher Nolan"
+      },
+      {
+        "id": "option-2",
+        "text": "Michael Bay"
+      },
+      {
+        "id": "option-3",
+        "text": "James Cameron"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 333,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:def107758026a92d",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Mean Girls\", who has breasts that tell when it's raining?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Karen Smith"
+      },
+      {
+        "id": "option-1",
+        "text": "Gretchen Weiners"
+      },
+      {
+        "id": "option-2",
+        "text": "Janice Ian"
+      },
+      {
+        "id": "option-3",
+        "text": "Cady Heron"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 350,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:812966df2da57c4c",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the assassin in the first \"Hellboy\" movie?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Karl Ruprecht Kroenen"
+      },
+      {
+        "id": "option-1",
+        "text": "Klaus Werner von Krupt"
+      },
+      {
+        "id": "option-2",
+        "text": "Grigori Efimovich Rasputin"
+      },
+      {
+        "id": "option-3",
+        "text": "Ilsa Haupstein"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 352,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:4ae790fc6a16aeec",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the movie Gremlins, after what time of day should you not feed Mogwai?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Midnight"
+      },
+      {
+        "id": "option-1",
+        "text": "Evening"
+      },
+      {
+        "id": "option-2",
+        "text": "Morning"
+      },
+      {
+        "id": "option-3",
+        "text": "Afternoon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 356,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:0164f5583f04fa68",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What type of cheese, loved by Wallace and Gromit, had it's sale prices rise after their successful short films?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wensleydale"
+      },
+      {
+        "id": "option-1",
+        "text": "Cheddar"
+      },
+      {
+        "id": "option-2",
+        "text": "Moon Cheese"
+      },
+      {
+        "id": "option-3",
+        "text": "Edam"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 387,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:35e40eefb05de2fc",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Groovy."
+      },
+      {
+        "id": "option-1",
+        "text": "Gnarly."
+      },
+      {
+        "id": "option-2",
+        "text": "Perfect."
+      },
+      {
+        "id": "option-3",
+        "text": "Nice."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 391,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:679d19babd8f712d",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the island that \"Jurassic Park\" is built on?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Isla Nublar"
+      },
+      {
+        "id": "option-1",
+        "text": "Isla Sorna"
+      },
+      {
+        "id": "option-2",
+        "text": "Isla Muerta"
+      },
+      {
+        "id": "option-3",
+        "text": "Isla Pena"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 403,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:488e396f31ead326",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1992 film \"Army of Darkness\", what name does Ash give to his double-barreled shotgun?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Boomstick"
+      },
+      {
+        "id": "option-1",
+        "text": "Bloomstick"
+      },
+      {
+        "id": "option-2",
+        "text": "Blastbranch"
+      },
+      {
+        "id": "option-3",
+        "text": "2-Pump Chump"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 405,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:481510cf8b0743e7",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1971 film \"Willy Wonka & the Chocolate Factory\", who played Willy Wonka?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gene Wilder"
+      },
+      {
+        "id": "option-1",
+        "text": "Shia LeBouf"
+      },
+      {
+        "id": "option-2",
+        "text": "Peter Ostrum"
+      },
+      {
+        "id": "option-3",
+        "text": "Johnny Depp"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 419,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:d2866652e6e73909",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which year was the first official Youtube Rewind released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2010"
+      },
+      {
+        "id": "option-1",
+        "text": "2012"
+      },
+      {
+        "id": "option-2",
+        "text": "2011"
+      },
+      {
+        "id": "option-3",
+        "text": "2013"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 435,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:03fafca5963c3023",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which 90's comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wayne's World"
+      },
+      {
+        "id": "option-1",
+        "text": "Bill & Ted's Excellent Adventure"
+      },
+      {
+        "id": "option-2",
+        "text": "Dumb and Dumber"
+      },
+      {
+        "id": "option-3",
+        "text": "Austin Powers: International Man of Mystery"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 440,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:5db27f498b74b9d3",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the correct spelling of the protagonist of the book in The NeverEnding Story (1984)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atreyu"
+      },
+      {
+        "id": "option-1",
+        "text": "Atrayu"
+      },
+      {
+        "id": "option-2",
+        "text": "Atraiyu"
+      },
+      {
+        "id": "option-3",
+        "text": "Atraeyu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 452,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:4c5b378b2bb08fac",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Avengers: Infinity War, the Reality Stone (aka the Aether) was kept under safe possession by who?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Collector"
+      },
+      {
+        "id": "option-1",
+        "text": "Doctor Strange"
+      },
+      {
+        "id": "option-2",
+        "text": "The Grandmaster"
+      },
+      {
+        "id": "option-3",
+        "text": "Scarlet Witch"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 456,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:0b4f4065e57be764",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This movie contains the quote, \"I feel the need ... the need for speed!\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Top Gun"
+      },
+      {
+        "id": "option-1",
+        "text": "Days of Thunder"
+      },
+      {
+        "id": "option-2",
+        "text": "The Color of Money"
+      },
+      {
+        "id": "option-3",
+        "text": "Cocktail"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 510,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:31ad22fb0e4df751",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kaltag, Nikki, and Star"
+      },
+      {
+        "id": "option-1",
+        "text": "Dusty, Kirby, and Ralph"
+      },
+      {
+        "id": "option-2",
+        "text": "Nuk, Yak, and Sumac"
+      },
+      {
+        "id": "option-3",
+        "text": "Jenna, Sylvie, and Dixie"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 537,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:e12090ae34024305",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 2010 Nightmare on Elm Street reboot, who played Freddy Kruger?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jackie Earle Haley"
+      },
+      {
+        "id": "option-1",
+        "text": "Tyler Mane"
+      },
+      {
+        "id": "option-2",
+        "text": "Derek Mears"
+      },
+      {
+        "id": "option-3",
+        "text": "Gunnar Hansen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 544,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:366263fd638e5b83",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Vikings "
+      },
+      {
+        "id": "option-1",
+        "text": "The Long Ships"
+      },
+      {
+        "id": "option-2",
+        "text": "Prince Valiant"
+      },
+      {
+        "id": "option-3",
+        "text": "Spartacus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 551,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:c0f416bed0d1095a",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1979 British film \"Quadrophenia\" what is the name of the main protagonist?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jimmy Cooper"
+      },
+      {
+        "id": "option-1",
+        "text": "Pete Townshend"
+      },
+      {
+        "id": "option-2",
+        "text": "Franc Roddam"
+      },
+      {
+        "id": "option-3",
+        "text": "Archie Bunker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 558,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:1d7f93d374c2f240",
+    "category": "film",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "George Lucas directed the entire original Star Wars trilogy.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 564,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:6f08116b24d08866",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the Artificial Intelligence system in the 1983 film, \"WarGames\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "War Operation Plan Response"
+      },
+      {
+        "id": "option-1",
+        "text": "Self Evolving Thought Helix"
+      },
+      {
+        "id": "option-2",
+        "text": "Master Control Program"
+      },
+      {
+        "id": "option-3",
+        "text": "West Campus Analog Computer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 594,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:84566df58ff50b5e",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a quote from the 1942 film Casablanca? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "\"Frankly, my dear, I don't give a damn.\""
+      },
+      {
+        "id": "option-1",
+        "text": "\"Here's lookin' at you, kid.\""
+      },
+      {
+        "id": "option-2",
+        "text": "“Of all the gin joints, in all the towns, in all the world, she walks into mine…”"
+      },
+      {
+        "id": "option-3",
+        "text": "\"Round up the usual suspects.\""
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 601,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:57b47d088a45a19d",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1994 movie \"Speed\", what is the minimum speed the bus must go to prevent to bomb from exploding?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "50 mph"
+      },
+      {
+        "id": "option-1",
+        "text": "60 mph"
+      },
+      {
+        "id": "option-2",
+        "text": "40 mph"
+      },
+      {
+        "id": "option-3",
+        "text": "70 mph"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 614,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:082e5f94f849aafd",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"Jurassic Park\" universe, what was the first dinosaur cloned by InGen in 1986?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Velociraptor"
+      },
+      {
+        "id": "option-1",
+        "text": "Triceratops"
+      },
+      {
+        "id": "option-2",
+        "text": "Troodon"
+      },
+      {
+        "id": "option-3",
+        "text": "Brachiosaurus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 626,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:b25023f0028814b2",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Mulan (1998), who is the leader of the Huns?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shan Yu"
+      },
+      {
+        "id": "option-1",
+        "text": "Chien-Po"
+      },
+      {
+        "id": "option-2",
+        "text": "Li Shang"
+      },
+      {
+        "id": "option-3",
+        "text": "Fa Zhou"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 632,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:b37fdf58d9b57c90",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which James Bond film had the theme song written and performed by English singer-songwriter Adele?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Skyfall"
+      },
+      {
+        "id": "option-1",
+        "text": "Casino Royale"
+      },
+      {
+        "id": "option-2",
+        "text": "Quantum Solace"
+      },
+      {
+        "id": "option-3",
+        "text": "Spectre"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 660,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:d87541d21220aa68",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the film \"Harry Potter and the Order of The Phoenix\", why was Harry Potter's scream, after Sirius Black died, muted?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Too Agonizing"
+      },
+      {
+        "id": "option-1",
+        "text": "Too Loud"
+      },
+      {
+        "id": "option-2",
+        "text": "Too Harsh"
+      },
+      {
+        "id": "option-3",
+        "text": "Too Violent"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 662,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:e6f12dfe76feb042",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1986 film \"The Wraith\", what concept car is used for the Turbo Interceptor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dodge M4S"
+      },
+      {
+        "id": "option-1",
+        "text": "Pontiac Banshee"
+      },
+      {
+        "id": "option-2",
+        "text": "General Motors Firebird"
+      },
+      {
+        "id": "option-3",
+        "text": "Dodge Copperhead"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 673,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:1ee484e42fa032ac",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is revealed to be the villain at the end of the first live action Scooby Doo movie?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scrappy Doo"
+      },
+      {
+        "id": "option-1",
+        "text": "Old Man Mason"
+      },
+      {
+        "id": "option-2",
+        "text": "The Local News Team"
+      },
+      {
+        "id": "option-3",
+        "text": "Fred"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 692,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:8fb79eb2f2cc0cfd",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actor auditioned for the role of Luke Skywalker?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kurt Russell"
+      },
+      {
+        "id": "option-1",
+        "text": "Christopher Lambert"
+      },
+      {
+        "id": "option-2",
+        "text": "Laurence Fishburne"
+      },
+      {
+        "id": "option-3",
+        "text": "James Remar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 709,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:4381a72413a8ed07",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who plays the Nemesis in the Resident Evil movies?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Matthew Taylor"
+      },
+      {
+        "id": "option-1",
+        "text": "Jason Dip"
+      },
+      {
+        "id": "option-2",
+        "text": "Eric Mabius"
+      },
+      {
+        "id": "option-3",
+        "text": "Jimmy Matts"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 713,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:255d6ebce75ac427",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This trope refers to minor characters that are killed off to show how a monster works.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Red Shirt"
+      },
+      {
+        "id": "option-1",
+        "text": "Minions"
+      },
+      {
+        "id": "option-2",
+        "text": "Expendables"
+      },
+      {
+        "id": "option-3",
+        "text": "Cannon Fodder"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 732,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:24ada2fa7c9ff121",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actress portrayed Dr. Grace Augustine in the James Cameron movie \"Avatar\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sigourney Weaver"
+      },
+      {
+        "id": "option-1",
+        "text": "Jessica Chastain"
+      },
+      {
+        "id": "option-2",
+        "text": "Melissa Beckett"
+      },
+      {
+        "id": "option-3",
+        "text": "Alyssa Monroe "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 741,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:ae1d5d7d81d84e0f",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The 1939 movie \"The Wizard of Oz\" contained a horse that changed color, what material did they use to achieve this effect?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gelatin"
+      },
+      {
+        "id": "option-1",
+        "text": "Dye"
+      },
+      {
+        "id": "option-2",
+        "text": "Paint"
+      },
+      {
+        "id": "option-3",
+        "text": "CGI Effect"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 793,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:e1cbab47990c9064",
+    "category": "film",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Samuel L. Jackson had the words, 'Bad Motherf*cker' in-scripted on his lightsaber during the filming of Star Wars.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 798,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:709fff50a87d7606",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What superhero has been played in film by actors Michael Keaton, Val Kilmer, George Clooney and Christian Bale?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Batman"
+      },
+      {
+        "id": "option-1",
+        "text": "Superman"
+      },
+      {
+        "id": "option-2",
+        "text": "Iron Man"
+      },
+      {
+        "id": "option-3",
+        "text": "Spiderman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 814,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:0bc93a7bbce1be31",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year was the movie \"Police Academy\" released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1984"
+      },
+      {
+        "id": "option-1",
+        "text": "1986"
+      },
+      {
+        "id": "option-2",
+        "text": "1985"
+      },
+      {
+        "id": "option-3",
+        "text": "1983"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 853,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:d8759f485fb1f567",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the actor who played Leatherface in the 1974 horror film, The Texas Chainsaw Massacre?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gunnar Hansen"
+      },
+      {
+        "id": "option-1",
+        "text": "Edwin Neal"
+      },
+      {
+        "id": "option-2",
+        "text": "John Dugan"
+      },
+      {
+        "id": "option-3",
+        "text": "Joe Bill Hogan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 865,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:39f0701251c9a6d0",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Star Trek Nemesis\", why was Praetor Shinzon created?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "To replace Picard as a Romulan Agent"
+      },
+      {
+        "id": "option-1",
+        "text": "To destroy the Enterprise"
+      },
+      {
+        "id": "option-2",
+        "text": "To become Picard's friend "
+      },
+      {
+        "id": "option-3",
+        "text": "To steal the Enterprise"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 868,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:baa44bb8b4e50bb2",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which movie did NOT feature the late actor John Candy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ghostbusters"
+      },
+      {
+        "id": "option-1",
+        "text": "Little Shop Of Horrors"
+      },
+      {
+        "id": "option-2",
+        "text": "Home Alone"
+      },
+      {
+        "id": "option-3",
+        "text": "Planes Trains and Automobiles"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 938,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:03a2adaafc1fd0d2",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these films is NOT set in Los Angeles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "RoboCop"
+      },
+      {
+        "id": "option-1",
+        "text": "Blade Runner"
+      },
+      {
+        "id": "option-2",
+        "text": "The Terminator"
+      },
+      {
+        "id": "option-3",
+        "text": "Predator 2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 951,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:69f52dc1ce631bb9",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which boxer was famous for striking the gong in the introduction to J. Arthur Rank films?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bombardier Billy Wells"
+      },
+      {
+        "id": "option-1",
+        "text": "Freddie Mills"
+      },
+      {
+        "id": "option-2",
+        "text": "Terry Spinks"
+      },
+      {
+        "id": "option-3",
+        "text": "Don Cockell"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 971,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:film:72a5cf7e050e333b",
+    "category": "film",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 2012, which movie won every category in the 32nd \"Golden Raspberry Awards\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jack and Jill"
+      },
+      {
+        "id": "option-1",
+        "text": "The Girl with the Dragon Tattoo"
+      },
+      {
+        "id": "option-2",
+        "text": "Thor"
+      },
+      {
+        "id": "option-3",
+        "text": "The King's Speech"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 974,
+      "category": "Entertainment: Film",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

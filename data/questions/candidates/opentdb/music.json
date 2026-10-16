@@ -1,0 +1,2897 @@
+[
+  {
+    "id": "opentdb:music:bd6f56391db69f58",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the lead singer of Green Day?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Billie Joe Armstrong"
+      },
+      {
+        "id": "option-1",
+        "text": "Mike Dirnt"
+      },
+      {
+        "id": "option-2",
+        "text": "Sean Hughes"
+      },
+      {
+        "id": "option-3",
+        "text": "Tré Cool"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:de039a04b5b748d2",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Manchester nightclub was considered central to the 'Madchester' music scene in the late 80's?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Haçienda"
+      },
+      {
+        "id": "option-1",
+        "text": "The Warehouse Project"
+      },
+      {
+        "id": "option-2",
+        "text": "LIV"
+      },
+      {
+        "id": "option-3",
+        "text": "The Liar's Club"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:ad45aab4b023f2bc",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which British female singer and songwriter was sampled Eminem's hit single 'Stan'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dido"
+      },
+      {
+        "id": "option-1",
+        "text": "Adele"
+      },
+      {
+        "id": "option-2",
+        "text": "Lily Allen"
+      },
+      {
+        "id": "option-3",
+        "text": "Leona Lewis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 8,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:124c3ad0d24fa116",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Chino Moreno is the lead singer of which alternative metal band?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Deftones"
+      },
+      {
+        "id": "option-1",
+        "text": "Tool"
+      },
+      {
+        "id": "option-2",
+        "text": "Korn"
+      },
+      {
+        "id": "option-3",
+        "text": "Type O Negative"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 26,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:f59513ed28834957",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real name of Canadian electronic music producer deadmau5?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joel Zimmerman"
+      },
+      {
+        "id": "option-1",
+        "text": "Sonny Moore"
+      },
+      {
+        "id": "option-2",
+        "text": "Adam Richard Wiles"
+      },
+      {
+        "id": "option-3",
+        "text": "Thomas Wesley Pentz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 46,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:1ad65084bc39a1d1",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which album was released by Kanye West in 2013?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yeezus"
+      },
+      {
+        "id": "option-1",
+        "text": "My Beautiful Dark Twisted Fantasy"
+      },
+      {
+        "id": "option-2",
+        "text": "The Life of Pablo"
+      },
+      {
+        "id": "option-3",
+        "text": "Watch the Throne"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 85,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:0d76c15e03f1e953",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Musical artist, Future, collaborated with Kendrick Lamar for the song: \"Mask Off\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 99,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:ebedd6b6826307c1",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT a song featured on Green Day's 21st Century Breakdown album?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "She's A Rebel"
+      },
+      {
+        "id": "option-1",
+        "text": "Know Your Enemy"
+      },
+      {
+        "id": "option-2",
+        "text": "¿Viva la Gloria? (Little Girl)"
+      },
+      {
+        "id": "option-3",
+        "text": "Before The Lobotomy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 107,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:ee01fd3d2201e80c",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who had a 1976 hit with the song 'You Make Me Feel Like Dancing'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leo Sayer"
+      },
+      {
+        "id": "option-1",
+        "text": "Elton John"
+      },
+      {
+        "id": "option-2",
+        "text": "Billy Joel"
+      },
+      {
+        "id": "option-3",
+        "text": "Andy Gibb"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 135,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:8fd457e2a8b45002",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Red Hot Chili Pepper song \"Give It Away\" is from what album?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blood Sugar Sex Magik"
+      },
+      {
+        "id": "option-1",
+        "text": "One Hot Minute"
+      },
+      {
+        "id": "option-2",
+        "text": "By the Way"
+      },
+      {
+        "id": "option-3",
+        "text": "Stadium Arcadium"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 147,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:bc5aaed03d08754d",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "3 members of 2 Live Crew were arrested for playing songs from their album, As Nasty As They Wanna Be, live.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 148,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:b58b0a4c39773b99",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which song in Drake's \"Views\" features Future?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grammys"
+      },
+      {
+        "id": "option-1",
+        "text": "Too Good"
+      },
+      {
+        "id": "option-2",
+        "text": "Faithful"
+      },
+      {
+        "id": "option-3",
+        "text": "Pop Style"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 164,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:bfa97dd0142a9a7b",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The heavy metal band Black Sabbath hail from which English city?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Birmingham"
+      },
+      {
+        "id": "option-1",
+        "text": "Manchester"
+      },
+      {
+        "id": "option-2",
+        "text": "London"
+      },
+      {
+        "id": "option-3",
+        "text": "Newcastle-Upon-Tyne"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 182,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:bbc2af7d403b8bf3",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the words of his 1973 song, Bob Dylan is \"knock, knock, knockin\" on which door?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Heaven's"
+      },
+      {
+        "id": "option-1",
+        "text": "Opportunity's"
+      },
+      {
+        "id": "option-2",
+        "text": "Angie's"
+      },
+      {
+        "id": "option-3",
+        "text": "Eileen's"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 188,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:e17fad40ff93c007",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "\"Hallelujah\" is a song written by which Canadian recording artist?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonard Cohen"
+      },
+      {
+        "id": "option-1",
+        "text": "Kory Lefkowits"
+      },
+      {
+        "id": "option-2",
+        "text": "Ryan Letourneau "
+      },
+      {
+        "id": "option-3",
+        "text": "Justin Bieber "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 205,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:3fc32b670e7bc4ef",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What kind of instrument is a \"Mandolin\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "String"
+      },
+      {
+        "id": "option-1",
+        "text": "Brass"
+      },
+      {
+        "id": "option-2",
+        "text": "Percussion"
+      },
+      {
+        "id": "option-3",
+        "text": "Woodwind"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 213,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:3b40ce7cdc615635",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did the rapper Eazy-E die?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "March 26, 1995"
+      },
+      {
+        "id": "option-1",
+        "text": "July 11, 1992"
+      },
+      {
+        "id": "option-2",
+        "text": "February 14, 1993"
+      },
+      {
+        "id": "option-3",
+        "text": "October 21, 1994"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 219,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:60efb1f34db3624e",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Coldplay album won the Grammy for Best Rock Album in the 2009 Grammy Awards?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Viva La Vida Or Death And All His Friends"
+      },
+      {
+        "id": "option-1",
+        "text": "A Rush Of Blood To The Head"
+      },
+      {
+        "id": "option-2",
+        "text": "X&Y"
+      },
+      {
+        "id": "option-3",
+        "text": "Mylo Xyloto"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 223,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:dd049d1137805af6",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Daft Punk's first studio album?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Homework"
+      },
+      {
+        "id": "option-1",
+        "text": "Discovery"
+      },
+      {
+        "id": "option-2",
+        "text": "Random Access Memories"
+      },
+      {
+        "id": "option-3",
+        "text": "Human After All"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 227,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:01f4d327797bdb49",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A classic 1976 song by Blue Oyster Cult features the advice “Don’t Fear The” what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Reaper"
+      },
+      {
+        "id": "option-1",
+        "text": "Dark"
+      },
+      {
+        "id": "option-2",
+        "text": "Silence"
+      },
+      {
+        "id": "option-3",
+        "text": "Clowns"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 250,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:b221d453c951c7b0",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these artists appears in the album Deltron 3030?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dan the Automater"
+      },
+      {
+        "id": "option-1",
+        "text": "Lamarr Kendrick"
+      },
+      {
+        "id": "option-2",
+        "text": "Danger Mouse"
+      },
+      {
+        "id": "option-3",
+        "text": "CeeLo Green"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 251,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:26a9bab0ad0762fd",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country does the electronic music duo \"The Knife\" originate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sweden"
+      },
+      {
+        "id": "option-1",
+        "text": "Finland"
+      },
+      {
+        "id": "option-2",
+        "text": "Denmark"
+      },
+      {
+        "id": "option-3",
+        "text": "Norway"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 254,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:1749a01c7896a972",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "12"
+      },
+      {
+        "id": "option-1",
+        "text": "19"
+      },
+      {
+        "id": "option-2",
+        "text": "21"
+      },
+      {
+        "id": "option-3",
+        "text": "25"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 271,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:1a1df74473642943",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In an orchestra, what is the lowest member of the brass family?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tuba"
+      },
+      {
+        "id": "option-1",
+        "text": "Trombone"
+      },
+      {
+        "id": "option-2",
+        "text": "Contrabass"
+      },
+      {
+        "id": "option-3",
+        "text": "Bassoon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 287,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:25cd2ee194a684d3",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real name of American rapper Pitbull?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Armando Christian Pérez"
+      },
+      {
+        "id": "option-1",
+        "text": "Ramón Luis Ayala Rodríguez"
+      },
+      {
+        "id": "option-2",
+        "text": "Benito Antonio Martinez Ocasio"
+      },
+      {
+        "id": "option-3",
+        "text": "Belcalis Marlenis Almánzar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 289,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:3ad58df67276c086",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Typically, how many keys are on a piano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "88"
+      },
+      {
+        "id": "option-1",
+        "text": "24"
+      },
+      {
+        "id": "option-2",
+        "text": "12"
+      },
+      {
+        "id": "option-3",
+        "text": "96"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 297,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:14c249236d94f615",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these songs is NOT in The Beatles' album \"Sgt. Pepper's Lonely Hearts Club Band\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Strawberry Fields Forever"
+      },
+      {
+        "id": "option-1",
+        "text": "Getting Better"
+      },
+      {
+        "id": "option-2",
+        "text": "Fixing a Hole"
+      },
+      {
+        "id": "option-3",
+        "text": "Lucy in the Sky with Diamonds"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 311,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:2641801b6f9b2e07",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these songs is not by Tatsuro Yamashita?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lucky Lady Feel So Good "
+      },
+      {
+        "id": "option-1",
+        "text": "Merry-Go Round"
+      },
+      {
+        "id": "option-2",
+        "text": "Let's Dance Baby"
+      },
+      {
+        "id": "option-3",
+        "text": "Love Talkin'"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 321,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:372e4a292f928265",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these artists do NOT originate from France?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Chemical Brothers"
+      },
+      {
+        "id": "option-1",
+        "text": "Air"
+      },
+      {
+        "id": "option-2",
+        "text": "Justice"
+      },
+      {
+        "id": "option-3",
+        "text": "Daft Punk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 327,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:06c752f433b4df15",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the first few words in the lyrics of A-Ha's 'Take On Me'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "We're talking away"
+      },
+      {
+        "id": "option-1",
+        "text": "We're dreaming today"
+      },
+      {
+        "id": "option-2",
+        "text": "We're finding a way"
+      },
+      {
+        "id": "option-3",
+        "text": "We're blocking the way"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 357,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:045c09e43d43ae01",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Metallica's debut album, released in 1983?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kill 'Em All"
+      },
+      {
+        "id": "option-1",
+        "text": "...And Justice for All"
+      },
+      {
+        "id": "option-2",
+        "text": "Master of Puppets"
+      },
+      {
+        "id": "option-3",
+        "text": "Countdown to Extinction"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 364,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:e94283dd292020c9",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who sang backup vocals on Rockwell's hit 1984 single 'Somebody's Watching Me'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Jackson"
+      },
+      {
+        "id": "option-1",
+        "text": "Paul McCartney"
+      },
+      {
+        "id": "option-2",
+        "text": "Elton John"
+      },
+      {
+        "id": "option-3",
+        "text": "Prince"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 365,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:2eca5225df0d018a",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which popular rock band has a one-armed drummer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Def Leppard"
+      },
+      {
+        "id": "option-1",
+        "text": "The Beatles"
+      },
+      {
+        "id": "option-2",
+        "text": "Lynyrd Skynyrd"
+      },
+      {
+        "id": "option-3",
+        "text": "Foreigner"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 371,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:35ca1d2c8e4d0e89",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did Radiohead release their album \"OK Computer\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1997"
+      },
+      {
+        "id": "option-1",
+        "text": "1995"
+      },
+      {
+        "id": "option-2",
+        "text": "2000"
+      },
+      {
+        "id": "option-3",
+        "text": "1993"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 396,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:8156280efd19ee83",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the official name of Prince's backing band?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Revolution"
+      },
+      {
+        "id": "option-1",
+        "text": "The Paupers"
+      },
+      {
+        "id": "option-2",
+        "text": "The Wailers"
+      },
+      {
+        "id": "option-3",
+        "text": "The Heartbreakers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 427,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:d01a4fefd38b9dfc",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following music bands is not from Finland?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sabaton"
+      },
+      {
+        "id": "option-1",
+        "text": "Apocalyptica"
+      },
+      {
+        "id": "option-2",
+        "text": "Waltari"
+      },
+      {
+        "id": "option-3",
+        "text": "Lordi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 438,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:2138deafb2545aa5",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What date is referenced in the 1971 song \"September\" by Earth, Wind & Fire?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "21st of September"
+      },
+      {
+        "id": "option-1",
+        "text": "26th of September"
+      },
+      {
+        "id": "option-2",
+        "text": "23rd of September"
+      },
+      {
+        "id": "option-3",
+        "text": "24th of September"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 445,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:52b57e8af0066b0f",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "EDM record label Monstercat is based in which country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canada"
+      },
+      {
+        "id": "option-1",
+        "text": "United States"
+      },
+      {
+        "id": "option-2",
+        "text": "Australia"
+      },
+      {
+        "id": "option-3",
+        "text": "United Kingdom"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 449,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:f03993b15a8be74d",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these artists did NOT remix the song \"Faded\" by Alan Walker?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Skrillex"
+      },
+      {
+        "id": "option-1",
+        "text": "Tiësto"
+      },
+      {
+        "id": "option-2",
+        "text": "Slushii"
+      },
+      {
+        "id": "option-3",
+        "text": "Dash Berlin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 454,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:3cd0509f0c5ab444",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the musical artist who released the hit song, \"Love Song,\" in 2007?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sara Bareilles"
+      },
+      {
+        "id": "option-1",
+        "text": "Taylor Swift"
+      },
+      {
+        "id": "option-2",
+        "text": "Katy Perry"
+      },
+      {
+        "id": "option-3",
+        "text": "Sarah Silverman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 471,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:15d32467b4807f91",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where does \"Gasolina\" rapper Daddy Yankee originate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Puerto Rico"
+      },
+      {
+        "id": "option-1",
+        "text": "Cuba"
+      },
+      {
+        "id": "option-2",
+        "text": "Mexico"
+      },
+      {
+        "id": "option-3",
+        "text": "Spain"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 503,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:c4fdb5e840b8c4a0",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who had a 1983 hit with the song 'Africa'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Toto"
+      },
+      {
+        "id": "option-1",
+        "text": "Foreigner"
+      },
+      {
+        "id": "option-2",
+        "text": "Steely Dan"
+      },
+      {
+        "id": "option-3",
+        "text": "Journey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 509,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:953c84bb378db942",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which city did American rap producer DJ Khaled originate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miami"
+      },
+      {
+        "id": "option-1",
+        "text": "New York"
+      },
+      {
+        "id": "option-2",
+        "text": "Detroit"
+      },
+      {
+        "id": "option-3",
+        "text": "Atlanta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 523,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:21478b211d9227f9",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real name of American rapper Eminem, also known as Slim Shady?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marshall Mathers"
+      },
+      {
+        "id": "option-1",
+        "text": "Calvin Broadus"
+      },
+      {
+        "id": "option-2",
+        "text": "Shawn Carter"
+      },
+      {
+        "id": "option-3",
+        "text": "Nasir Jones"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 524,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:39dea67cf7a51def",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Fergie's debut album called?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Dutchess"
+      },
+      {
+        "id": "option-1",
+        "text": "Fergalicious "
+      },
+      {
+        "id": "option-2",
+        "text": "The Sweet Escape"
+      },
+      {
+        "id": "option-3",
+        "text": "Loose"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 527,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:6d6608232584c90e",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the bassist of the British rock band Queen?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Deacon"
+      },
+      {
+        "id": "option-1",
+        "text": "John Major"
+      },
+      {
+        "id": "option-2",
+        "text": "John Barrowman"
+      },
+      {
+        "id": "option-3",
+        "text": "John Mayer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 571,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:762f5c7367743943",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Long John Baldry, the voice of Dr. Robotnik in Adventures Of Sonic The Hedgehog, was in a band with which music artist in the 1960s?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Elton John"
+      },
+      {
+        "id": "option-1",
+        "text": "Freddie Mercury"
+      },
+      {
+        "id": "option-2",
+        "text": "Paul McCartney"
+      },
+      {
+        "id": "option-3",
+        "text": "Johnny Cash"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 583,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:c9c8da1b4ba00492",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which artist released his third and final studio album 'Electric Ladyland' before his death in 1970?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jimi Hendrix"
+      },
+      {
+        "id": "option-1",
+        "text": "Prince"
+      },
+      {
+        "id": "option-2",
+        "text": "Eric Clapton"
+      },
+      {
+        "id": "option-3",
+        "text": "Captain Sensible"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 587,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:ff464fbcf6db8537",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Pete Townshend's solo album, \"White City: A Novel\", is set in the metropolitan area of Chicago.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 588,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:a315a193097df151",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the title of ABBA`s first UK hit single?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Waterloo"
+      },
+      {
+        "id": "option-1",
+        "text": "Mamma Mia"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernando"
+      },
+      {
+        "id": "option-3",
+        "text": "Dancing Queen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 599,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:da7237941ba9c178",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the 3rd album \"Notes from the Underground\" of the band \"Hollywood Undead\" released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2013"
+      },
+      {
+        "id": "option-1",
+        "text": "2011"
+      },
+      {
+        "id": "option-2",
+        "text": "2014"
+      },
+      {
+        "id": "option-3",
+        "text": "2009"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 602,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:282ea34792b510f6",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these artists has NOT been a member of dancehall group Major Lazer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Skrillex"
+      },
+      {
+        "id": "option-1",
+        "text": "Diplo"
+      },
+      {
+        "id": "option-2",
+        "text": "Jillionaire"
+      },
+      {
+        "id": "option-3",
+        "text": "Walshy Fire"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 610,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:58dad7a458d19fe5",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The music video to The Buggle's \"Video Killed the Radio Star\" was the first music video to broadcast on MTV.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 611,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:89a70d74aa891c56",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the Prince album \"Purple Rain\" released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1984"
+      },
+      {
+        "id": "option-1",
+        "text": "1979"
+      },
+      {
+        "id": "option-2",
+        "text": "1983"
+      },
+      {
+        "id": "option-3",
+        "text": "1981"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 616,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:b2b2dc2a33c3d7ac",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What collaborative album was released by Kanye West and Jay-Z in 2011?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Watch the Throne"
+      },
+      {
+        "id": "option-1",
+        "text": "Distant Relatives"
+      },
+      {
+        "id": "option-2",
+        "text": "What a Time to be Alive"
+      },
+      {
+        "id": "option-3",
+        "text": "Unfinished Business"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 625,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:1f78ad5ab4e18b3b",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which song is not by TheFatRat?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ascent"
+      },
+      {
+        "id": "option-1",
+        "text": "Monody"
+      },
+      {
+        "id": "option-2",
+        "text": "Windfall"
+      },
+      {
+        "id": "option-3",
+        "text": "Infinite Power!"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 636,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:eb4a82385032cc08",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Ellie Goulding's earliest album was named?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lights"
+      },
+      {
+        "id": "option-1",
+        "text": "Halcyon"
+      },
+      {
+        "id": "option-2",
+        "text": "Bright Lights"
+      },
+      {
+        "id": "option-3",
+        "text": "Halcyon Days"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 649,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:c863e1c13705500e",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "American rapper Dr. Dre actually has a Ph.D. doctorate.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 652,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:34f469272c27f40a",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Rush song \"YYZ\" derives its name from the IATA aiport identification code for which city?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Toronto"
+      },
+      {
+        "id": "option-1",
+        "text": "Vancouver"
+      },
+      {
+        "id": "option-2",
+        "text": "Ottawa"
+      },
+      {
+        "id": "option-3",
+        "text": "Calgary"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 657,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:63fe4de74e6287a8",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not a studio album by the band Pink Floyd?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moving Pictures"
+      },
+      {
+        "id": "option-1",
+        "text": "The Dark Side of the Moon"
+      },
+      {
+        "id": "option-2",
+        "text": "Wish You Were Here"
+      },
+      {
+        "id": "option-3",
+        "text": "Animals"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 675,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:0feda3ffd1f110fc",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Pamina and Papageno are characters in what Mozart opera?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Magic Flute"
+      },
+      {
+        "id": "option-1",
+        "text": "The Marriage of Figaro"
+      },
+      {
+        "id": "option-2",
+        "text": "The Impresario"
+      },
+      {
+        "id": "option-3",
+        "text": "The Goose of Cairo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 688,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:2ff4efc0dd3e4ebe",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these songs did Jimi Hendrix cover?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "All of these songs"
+      },
+      {
+        "id": "option-1",
+        "text": "Sgt. Pepper's Lonely Hearts Club Band"
+      },
+      {
+        "id": "option-2",
+        "text": "All Along the Watchtower"
+      },
+      {
+        "id": "option-3",
+        "text": "House of the Rising Sun"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 701,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:f10c6d0c1c79c01d",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The 2011 movie \"The Adventures of Tintin\" was directed by Steven Spielberg.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 712,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:d5708ce748b55bc0",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following stars was not mentioned in the lyrics of Madonna's \"Vogue\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mae West"
+      },
+      {
+        "id": "option-1",
+        "text": "Marlene Dietrich"
+      },
+      {
+        "id": "option-2",
+        "text": "Lana Turner"
+      },
+      {
+        "id": "option-3",
+        "text": "Grace Kelly"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 762,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:aee007d65d3f9a73",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which company did the animation for Peter Gabriel's Video Sledgehammer (1986)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aardman Animations"
+      },
+      {
+        "id": "option-1",
+        "text": "HIT Entertainment"
+      },
+      {
+        "id": "option-2",
+        "text": "Illumination Entertainment"
+      },
+      {
+        "id": "option-3",
+        "text": "VIZ Media"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 771,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:398dec068898d31a",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In August 1964, who introduced the Beatles to cannabis?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bob Dylan"
+      },
+      {
+        "id": "option-1",
+        "text": "Jim Morrison"
+      },
+      {
+        "id": "option-2",
+        "text": "Brian Epstein"
+      },
+      {
+        "id": "option-3",
+        "text": "Jerry Garcia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 787,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:8247b1fa09c77d8f",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What song by Tina Turner is the theme for Mad Max Beyond Thunderdome?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "We Don't Need Another Hero"
+      },
+      {
+        "id": "option-1",
+        "text": "Let's Stay Together"
+      },
+      {
+        "id": "option-2",
+        "text": "What's Love Got To Do With It"
+      },
+      {
+        "id": "option-3",
+        "text": "I Don't Wanna Lose You"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 796,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:6326bdd5af95548b",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which famous artist featured on Rowdy Rebel's 2015 song \"Computers\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bobby Shmurda "
+      },
+      {
+        "id": "option-1",
+        "text": "Lil Wayne"
+      },
+      {
+        "id": "option-2",
+        "text": "Will.I.AM"
+      },
+      {
+        "id": "option-3",
+        "text": "Kendrick Lamar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 804,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:3a2a083299431b41",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A Saxophone is a brass instrument.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 822,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:1ac48cf97ee8a7bc",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the lead singer of Silverchair?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daniel Johns"
+      },
+      {
+        "id": "option-1",
+        "text": "Ben Gillies"
+      },
+      {
+        "id": "option-2",
+        "text": "Chris Joannou"
+      },
+      {
+        "id": "option-3",
+        "text": "George Costanza"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 837,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:fd1773dcf9bdd77d",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What 1970's American ballad referred to the 1959 plane crash as the \"the day the music died\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "American Pie"
+      },
+      {
+        "id": "option-1",
+        "text": "Kentucky Rain"
+      },
+      {
+        "id": "option-2",
+        "text": "I Will Always Love You"
+      },
+      {
+        "id": "option-3",
+        "text": "Rock 'n' Roll Suicide"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 846,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:0955b3a5d55c8df6",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the music artists did NOT perform in the Live Aid concert in Wembley Stadium, London in 1985?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Rolling Stones"
+      },
+      {
+        "id": "option-1",
+        "text": "Queen"
+      },
+      {
+        "id": "option-2",
+        "text": "Elton John"
+      },
+      {
+        "id": "option-3",
+        "text": "David Bowie"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 847,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:ccd1fff692d71e50",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What musician made the song \"F**kin` Perfect\" in 2010?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "P!nk"
+      },
+      {
+        "id": "option-1",
+        "text": "Mitis"
+      },
+      {
+        "id": "option-2",
+        "text": "Adam lambert"
+      },
+      {
+        "id": "option-3",
+        "text": "Koven"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 870,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:49d0c10b6973a501",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "'Don't You Want Me?' was a number one hit in 1981 for which electropop band?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Human League"
+      },
+      {
+        "id": "option-1",
+        "text": "Depeche Mode"
+      },
+      {
+        "id": "option-2",
+        "text": "Pet Shop Boys"
+      },
+      {
+        "id": "option-3",
+        "text": "Eurythmics"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 876,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:7f95c7d0866b874a",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A Facebook campaign placed Rage Against The Machine's \"Killing in the Name Of\" as the UK Christmas Number 1 in 2009.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 899,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:a81338bda2ea94d3",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The 1969 Frank Sinatra Song \"My Way\" was ironically not written by him.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 909,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:33e57b97244094c5",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which song by Swedish electronic musician Avicii samples the song \"Something's Got A Hold On Me\" by Etta James?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Levels"
+      },
+      {
+        "id": "option-1",
+        "text": "Fade Into Darkness"
+      },
+      {
+        "id": "option-2",
+        "text": "Silhouettes"
+      },
+      {
+        "id": "option-3",
+        "text": "Seek Bromance"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 917,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:c50211eff3a8c599",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "From which album is the Gorillaz song, \"On Melancholy Hill\" featured in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Plastic Beach"
+      },
+      {
+        "id": "option-1",
+        "text": "Demon Days"
+      },
+      {
+        "id": "option-2",
+        "text": "Humanz"
+      },
+      {
+        "id": "option-3",
+        "text": "The Fall"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 922,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:6a20ab7b35d4219f",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Prokofiev's 'Peter and the Wolf', the wolf itself is represented by a trio of which musical instrument?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "French horn"
+      },
+      {
+        "id": "option-1",
+        "text": "Oboe"
+      },
+      {
+        "id": "option-2",
+        "text": "Clarinet"
+      },
+      {
+        "id": "option-3",
+        "text": "Cello"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 924,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:6e4409ee1e3be185",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A Caixa Malacacheta is what kind of musical instrument which is commonly used in Latin American music?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Snare Drum"
+      },
+      {
+        "id": "option-1",
+        "text": "Cow Bell"
+      },
+      {
+        "id": "option-2",
+        "text": "Bass Drum"
+      },
+      {
+        "id": "option-3",
+        "text": "Maraca"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 929,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:11cacc183d657dd7",
+    "category": "music",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Nick Mason is the only member to appear on every Pink Floyd album.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 941,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:c326e8c0a69e80e9",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was \"Kung Fu Fighting\" in 1974?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carl Douglas"
+      },
+      {
+        "id": "option-1",
+        "text": "The Bee Gees"
+      },
+      {
+        "id": "option-2",
+        "text": "Heatwave"
+      },
+      {
+        "id": "option-3",
+        "text": "Kool & the Gang"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 957,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:000d6dfeaa80384b",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In music theory, how many notes are in a seventh chord?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "3"
+      },
+      {
+        "id": "option-2",
+        "text": "7"
+      },
+      {
+        "id": "option-3",
+        "text": "2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 958,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:43b7493f3a01e888",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the primary lyricist for Canadian progressive rock band Rush?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Neil Peart"
+      },
+      {
+        "id": "option-1",
+        "text": "Geddy Lee"
+      },
+      {
+        "id": "option-2",
+        "text": "Alex Lifeson"
+      },
+      {
+        "id": "option-3",
+        "text": "John Rutsey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 967,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:music:a8a068c9935126df",
+    "category": "music",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did Dire Straits's Song \"Money for Nothing\" release?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1985"
+      },
+      {
+        "id": "option-1",
+        "text": "1973"
+      },
+      {
+        "id": "option-2",
+        "text": "1980"
+      },
+      {
+        "id": "option-3",
+        "text": "1991"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 995,
+      "category": "Entertainment: Music",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

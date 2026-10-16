@@ -1,0 +1,3164 @@
+[
+  {
+    "id": "questionados:arts-literature:23cb2195602682b1",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou a Mona Lisa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-2",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelangelo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:9ff2cabe02531c17",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a técnica de escultura que utiliza a modelagem de argila?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mosaico"
+      },
+      {
+        "id": "option-1",
+        "text": "Entalhe"
+      },
+      {
+        "id": "option-2",
+        "text": "Cerâmica"
+      },
+      {
+        "id": "option-3",
+        "text": "Baixo-relevo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d1420aa25ea56f1a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o pai da arte moderna?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "option-1",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Claude Monet"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:a5304c8190239f42",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu o Cubismo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Barroco"
+      },
+      {
+        "id": "option-2",
+        "text": "Romantismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Cubismo"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:c4fc963ee9f271cb",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o arquiteto responsável pela construção da Torre Eiffel?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antoni Gaudí"
+      },
+      {
+        "id": "option-1",
+        "text": "Le Corbusier"
+      },
+      {
+        "id": "option-2",
+        "text": "Gustave Eiffel"
+      },
+      {
+        "id": "option-3",
+        "text": "Frank Lloyd Wright"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:ad80d20a7bb3348a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a obra mais famosa de Vincent van Gogh?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Noite Estrelada"
+      },
+      {
+        "id": "option-1",
+        "text": "Os Girassóis"
+      },
+      {
+        "id": "option-2",
+        "text": "O Grito"
+      },
+      {
+        "id": "option-3",
+        "text": "Guernica"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:48910c3eb6dc8652",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que caracteriza o estilo Barroco na arte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Simplicidade e sobriedade"
+      },
+      {
+        "id": "option-1",
+        "text": "Exuberância e movimento"
+      },
+      {
+        "id": "option-2",
+        "text": "Geometria e precisão"
+      },
+      {
+        "id": "option-3",
+        "text": "Minimalismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:c163e69c6253f98c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o pintor renascentista italiano conhecido por suas obras como 'O Nascimento de Vênus'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-2",
+        "text": "Sandro Botticelli"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelangelo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:84727236030c0979",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a principal característica do surrealismo na arte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Realismo extremo"
+      },
+      {
+        "id": "option-1",
+        "text": "Abstração geométrica"
+      },
+      {
+        "id": "option-2",
+        "text": "Representação da natureza"
+      },
+      {
+        "id": "option-3",
+        "text": "Exploração do inconsciente"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:fbed9f676e349657",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o autor da escultura 'O Pensador'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "option-1",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Antoni Gaudí"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:892a1acb49590199",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a principal matéria-prima da técnica de aquarela?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Óleo"
+      },
+      {
+        "id": "option-1",
+        "text": "Tinta acrílica"
+      },
+      {
+        "id": "option-2",
+        "text": "Giz de cera"
+      },
+      {
+        "id": "option-3",
+        "text": "Pigmentos solúveis em água"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:ac3a4e3f4c847712",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o mestre do Renascimento italiano que pintou 'A Última Ceia'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Caravaggio"
+      },
+      {
+        "id": "option-1",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-3",
+        "text": "Titian"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:045732ed59d274a5",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é o 'ready-made' na arte contemporânea?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Técnica de pintura a óleo"
+      },
+      {
+        "id": "option-1",
+        "text": "Objeto encontrado e apresentado como arte"
+      },
+      {
+        "id": "option-2",
+        "text": "Estilo de escultura em pedra"
+      },
+      {
+        "id": "option-3",
+        "text": "Movimento artístico do século XIX"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:650b9d78da8d0b80",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é conhecido como o mestre do impressionismo e pintou 'Almoço na Relva'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Edgar Degas"
+      },
+      {
+        "id": "option-1",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-2",
+        "text": "Édouard Manet"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierre-Auguste Renoir"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:549b1a53e6c0dc35",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza cera derretida como pigmento?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-1",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-2",
+        "text": "Encaustica"
+      },
+      {
+        "id": "option-3",
+        "text": "Óleo sobre tela"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:8a7c6a7728d52f02",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o fundador do movimento Bauhaus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Le Corbusier"
+      },
+      {
+        "id": "option-1",
+        "text": "Walter Gropius"
+      },
+      {
+        "id": "option-2",
+        "text": "Frank Lloyd Wright"
+      },
+      {
+        "id": "option-3",
+        "text": "Mies van der Rohe"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:6abf38d5de50a2e3",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da escultura de bronze que simboliza a liberdade e está localizada em Nova York?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "David"
+      },
+      {
+        "id": "option-1",
+        "text": "Vitória de Samotrácia"
+      },
+      {
+        "id": "option-2",
+        "text": "A Vênus de Milo"
+      },
+      {
+        "id": "option-3",
+        "text": "A Estátua da Liberdade"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:42fbf499fb012bca",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o autor da obra 'A Noite Estrelada'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-1",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-2",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-3",
+        "text": "Édouard Manet"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:400f41bf1960f4f4",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o movimento artístico que se caracteriza pelo uso de cores vibrantes e formas geométricas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Pop Art"
+      },
+      {
+        "id": "option-2",
+        "text": "Fauvismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Expressionismo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:8094c15f3e7c32ef",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o precursor do expressionismo alemão na pintura?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Franz Marc"
+      },
+      {
+        "id": "option-1",
+        "text": "Wassily Kandinsky"
+      },
+      {
+        "id": "option-2",
+        "text": "Edvard Munch"
+      },
+      {
+        "id": "option-3",
+        "text": "Egon Schiele"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d8f0ad864825f395",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o líder do movimento surrealista conhecido por suas obras oníricas como 'A Persistência da Memória'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "René Magritte"
+      },
+      {
+        "id": "option-1",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-2",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "option-3",
+        "text": "Max Ernst"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:25f8164fddb581ce",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da escultura de Michelangelo que representa o homem em posição ereta com proporções ideais?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "David"
+      },
+      {
+        "id": "option-1",
+        "text": "Moisés"
+      },
+      {
+        "id": "option-2",
+        "text": "Pietà"
+      },
+      {
+        "id": "option-3",
+        "text": "Adão"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:cf5e44422f955e30",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o precursor do movimento artístico Op Art?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bridget Riley"
+      },
+      {
+        "id": "option-1",
+        "text": "Victor Vasarely"
+      },
+      {
+        "id": "option-2",
+        "text": "Yayoi Kusama"
+      },
+      {
+        "id": "option-3",
+        "text": "Sol LeWitt"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:13c153e2c4c5c285",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual período da história da arte surgiram as pinturas rupestres nas cavernas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Idade Média"
+      },
+      {
+        "id": "option-2",
+        "text": "Pré-História"
+      },
+      {
+        "id": "option-3",
+        "text": "Barroco"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:5330620fffec82c5",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é conhecido como o mestre do retrato realista e pintou 'Retrato de Ambroise Vollard'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Henri Matisse"
+      },
+      {
+        "id": "option-1",
+        "text": "Amedeo Modigliani"
+      },
+      {
+        "id": "option-2",
+        "text": "Gustave Courbet"
+      },
+      {
+        "id": "option-3",
+        "text": "Édouard Manet"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:55de39bdbc14ada4",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza a aplicação de pigmentos sobre uma parede úmida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frescografia"
+      },
+      {
+        "id": "option-1",
+        "text": "Afresco"
+      },
+      {
+        "id": "option-2",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-3",
+        "text": "Sfumato"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:7e313ee4330191b4",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é a artista conhecida por suas instalações e esculturas contemporâneas, como 'A Árvore dos Trolls'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marina Abramović"
+      },
+      {
+        "id": "option-1",
+        "text": "Yayoi Kusama"
+      },
+      {
+        "id": "option-2",
+        "text": "Anish Kapoor"
+      },
+      {
+        "id": "option-3",
+        "text": "Niki de Saint Phalle"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:6ee5f85ef33e0038",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de gravura em que a imagem é esculpida diretamente em uma superfície dura?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Linogravura"
+      },
+      {
+        "id": "option-1",
+        "text": "Xilogravura"
+      },
+      {
+        "id": "option-2",
+        "text": "Aquatinta"
+      },
+      {
+        "id": "option-3",
+        "text": "Pontilhismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d9bc4a791cef4b64",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o pintor espanhol conhecido pelo movimento cubista e pelas obras 'Les Demoiselles d'Avignon'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Juan Gris"
+      },
+      {
+        "id": "option-1",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernand Léger"
+      },
+      {
+        "id": "option-3",
+        "text": "Georges Braque"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:63fe5669cd21fbf9",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a obra 'O Grito', de Edvard Munch?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Expressionismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Fauvismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Abstracionismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:c9f84c5720675b9f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o escultor italiano que esculpiu 'O Rapto das Sabinas'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Donatello"
+      },
+      {
+        "id": "option-1",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Benvenuto Cellini"
+      },
+      {
+        "id": "option-3",
+        "text": "Gian Lorenzo Bernini"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:b8f12d9eb0332be6",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da corrente artística que valoriza a experiência sensorial e a subjetividade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Realismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Impressionismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Expressionismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Abstracionismo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d3b452828c894a39",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o fotógrafo conhecido por suas imagens em preto e branco de Nova York e pela série 'Homens do Trabalho'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ansel Adams"
+      },
+      {
+        "id": "option-1",
+        "text": "Diane Arbus"
+      },
+      {
+        "id": "option-2",
+        "text": "Robert Mapplethorpe"
+      },
+      {
+        "id": "option-3",
+        "text": "Lewis Hine"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:da2d616d90e1d31b",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura em que se utiliza cera derretida e pigmentos sobre uma tela?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-1",
+        "text": "Encaustica"
+      },
+      {
+        "id": "option-2",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-3",
+        "text": "Pastel"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:72f8b5b5148474b9",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o artista brasileiro conhecido por suas esculturas modernistas, como 'O Abraço'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tarsila do Amaral"
+      },
+      {
+        "id": "option-1",
+        "text": "Cândido Portinari"
+      },
+      {
+        "id": "option-2",
+        "text": "Oscar Niemeyer"
+      },
+      {
+        "id": "option-3",
+        "text": "Victor Brecheret"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d9952a2b8afb1724",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza pequenos pontos coloridos para criar uma imagem?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pontilhismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Fauvismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Surrealismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:312b4ee61294e8e8",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o pintor holandês conhecido por suas obras com temas religiosos, como 'A Lição de Anatomia do Dr. Nicolaes Tulp'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "option-1",
+        "text": "Vermeer"
+      },
+      {
+        "id": "option-2",
+        "text": "Van Eyck"
+      },
+      {
+        "id": "option-3",
+        "text": "Bosch"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:34e8bfe156a17ca0",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual período da história da arte surgiu o Classicismo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Barroco"
+      },
+      {
+        "id": "option-2",
+        "text": "Idade Média"
+      },
+      {
+        "id": "option-3",
+        "text": "Antiguidade Clássica"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:8f0f2f1e7ebaabb2",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é a artista plástica francesa que fez parte do movimento surrealista e é conhecida por suas esculturas orgânicas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frida Kahlo"
+      },
+      {
+        "id": "option-1",
+        "text": "Louise Bourgeois"
+      },
+      {
+        "id": "option-2",
+        "text": "Tamara de Lempicka"
+      },
+      {
+        "id": "option-3",
+        "text": "Meret Oppenheim"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:3d781977a6a7affa",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza gema de ovo como aglutinante para os pigmentos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Óleo sobre tela"
+      },
+      {
+        "id": "option-1",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-2",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-3",
+        "text": "Esfumato"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:003d439f5412c043",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o fundador do movimento Dadaísta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marcel Duchamp"
+      },
+      {
+        "id": "option-1",
+        "text": "Man Ray"
+      },
+      {
+        "id": "option-2",
+        "text": "Hugo Ball"
+      },
+      {
+        "id": "option-3",
+        "text": "Tristan Tzara"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d16d0f3ccd101765",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a técnica de escultura que esculpe a obra em relevo na superfície, sem que ela se destaque completamente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Baixo-relevo"
+      },
+      {
+        "id": "option-1",
+        "text": "Alto-relevo"
+      },
+      {
+        "id": "option-2",
+        "text": "Entalhe"
+      },
+      {
+        "id": "option-3",
+        "text": "Gravura"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:0fee244d97116dad",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o principal representante do movimento artístico conhecido como Suprematismo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wassily Kandinsky"
+      },
+      {
+        "id": "option-1",
+        "text": "Kazimir Malevich"
+      },
+      {
+        "id": "option-2",
+        "text": "El Lissitzky"
+      },
+      {
+        "id": "option-3",
+        "text": "Natalia Goncharova"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:e0456463979fe8a2",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a cor primária ausente na paleta de cores da técnica de aquarela?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vermelho"
+      },
+      {
+        "id": "option-1",
+        "text": "Azul"
+      },
+      {
+        "id": "option-2",
+        "text": "Amarelo"
+      },
+      {
+        "id": "option-3",
+        "text": "Verde"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:b0028f4828bc7f6e",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o arquiteto responsável pelo projeto da Ópera de Sydney, na Austrália?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frank Lloyd Wright"
+      },
+      {
+        "id": "option-1",
+        "text": "Le Corbusier"
+      },
+      {
+        "id": "option-2",
+        "text": "Zaha Hadid"
+      },
+      {
+        "id": "option-3",
+        "text": "Jørn Utzon"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:2f9a641e8ae46f5a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a obra 'O Nascimento de Vênus', de Sandro Botticelli?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Barroco"
+      },
+      {
+        "id": "option-2",
+        "text": "Gótico"
+      },
+      {
+        "id": "option-3",
+        "text": "Romantismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:036a8413c646c5ec",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o autor da famosa escultura 'O Beijo'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Amedeo Modigliani"
+      },
+      {
+        "id": "option-1",
+        "text": "Gian Lorenzo Bernini"
+      },
+      {
+        "id": "option-2",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "option-3",
+        "text": "Camille Claudel"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bcc208f3a5876b6c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da corrente artística que valoriza a representação da realidade de maneira precisa e detalhada?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Impressionismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Realismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Futurismo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:75e6a79bd5dd7e1f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o pintor flamengo conhecido por suas pinturas de paisagens sombrias e temas macabros, como 'O Jardim das Delícias Terrenas'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pieter Bruegel, o Velho"
+      },
+      {
+        "id": "option-1",
+        "text": "Hieronymus Bosch"
+      },
+      {
+        "id": "option-2",
+        "text": "Jan van Eyck"
+      },
+      {
+        "id": "option-3",
+        "text": "Pieter Paul Rubens"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:e94ed6db90afcb6a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de gravura que utiliza água e tinta gordurosa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Xilogravura"
+      },
+      {
+        "id": "option-1",
+        "text": "Serigrafia"
+      },
+      {
+        "id": "option-2",
+        "text": "Litografia"
+      },
+      {
+        "id": "option-3",
+        "text": "Aquatinta"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d93be5784ac63351",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do período da arte que sucedeu o Renascimento e é caracterizado pelo uso de ornamentação e detalhes exuberantes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Maneirismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Barroco"
+      },
+      {
+        "id": "option-2",
+        "text": "Romantismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Classicismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:82bf9563e53b3a3c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o pintor italiano conhecido por suas pinturas renascentistas, como 'O Nascimento de Vênus'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sandro Botticelli"
+      },
+      {
+        "id": "option-1",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-3",
+        "text": "Titian"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:665699eabc7a3c2e",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a técnica de pintura que utiliza cal como aglutinante para os pigmentos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Afresco"
+      },
+      {
+        "id": "option-1",
+        "text": "Encaustica"
+      },
+      {
+        "id": "option-2",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-3",
+        "text": "Óleo sobre tela"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:6048fdb27e792a61",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o artista brasileiro conhecido por suas pinturas modernistas, como 'Abaporu'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tarsila do Amaral"
+      },
+      {
+        "id": "option-1",
+        "text": "Cândido Portinari"
+      },
+      {
+        "id": "option-2",
+        "text": "Anita Malfatti"
+      },
+      {
+        "id": "option-3",
+        "text": "Di Cavalcanti"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:9a381802daf7a901",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da corrente artística que busca representar a realidade de forma subjetiva e emocional?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Futurismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Expressionismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Realismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Surrealismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 55,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:44cc1da58becc512",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o pintor francês conhecido por suas obras do movimento impressionista, como 'Almoço na Relva'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Edgar Degas"
+      },
+      {
+        "id": "option-1",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-2",
+        "text": "Édouard Manet"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierre-Auguste Renoir"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:43a03044f7fd1e9d",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de escultura que utiliza o entalhe em madeira?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Baixo-relevo"
+      },
+      {
+        "id": "option-1",
+        "text": "Alto-relevo"
+      },
+      {
+        "id": "option-2",
+        "text": "Cinzelamento"
+      },
+      {
+        "id": "option-3",
+        "text": "Entalhe"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:2a8612f62c8e2a81",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o pintor espanhol conhecido por suas obras do movimento surrealista, como 'A Persistência da Memória'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "René Magritte"
+      },
+      {
+        "id": "option-1",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-2",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "option-3",
+        "text": "Max Ernst"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:ad3491359afb668c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a técnica do 'ready-made'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dadaísmo"
+      },
+      {
+        "id": "option-1",
+        "text": "Futurismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Cubismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:85e71d8ba921d8a9",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o escultor italiano conhecido por criar a estátua 'Davi'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Donatello"
+      },
+      {
+        "id": "option-1",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-3",
+        "text": "Rafael"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:a1277ec9210c00fe",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do movimento artístico que se caracteriza pela utilização de cores vivas e formas geométricas abstratas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Fauvismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Pop Art"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 61,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:ded94c05c908a142",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o pintor holandês que criou a obra 'Os Comedores de Batata'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-1",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "option-2",
+        "text": "Johannes Vermeer"
+      },
+      {
+        "id": "option-3",
+        "text": "Pieter Bruegel, o Velho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:4446056b82a54080",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a técnica da colagem?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Dadaísmo"
+      },
+      {
+        "id": "option-2",
+        "text": "Futurismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Cubismo"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:aebc58b4048e8f97",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é a artista americana conhecida por suas obras de arte abstrata, como 'No. 5, 1948'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Georgia O'Keeffe"
+      },
+      {
+        "id": "option-1",
+        "text": "Helen Frankenthaler"
+      },
+      {
+        "id": "option-2",
+        "text": "Lee Krasner"
+      },
+      {
+        "id": "option-3",
+        "text": "Jackson Pollock"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 64,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:b3a0453acc7b952b",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza pigmentos em pó misturados com um aglutinante aquoso?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Óleo sobre tela"
+      },
+      {
+        "id": "option-1",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-2",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-3",
+        "text": "Gouache"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 65,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:733eca46b3a5102c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o artista espanhol conhecido por suas esculturas surreais e fantasiosas, como 'O Elefante Espacial'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "option-1",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Antoni Gaudí"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 66,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:40a3ebd9f0e42715",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza areia misturada com tinta para criar texturas na tela?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-1",
+        "text": "Sfumato"
+      },
+      {
+        "id": "option-2",
+        "text": "Impasto"
+      },
+      {
+        "id": "option-3",
+        "text": "Collage"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 67,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:4660297c221be36c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o autor da obra 'O Nascimento de Vênus', que retrata a deusa Vênus emergindo do mar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Titian"
+      },
+      {
+        "id": "option-1",
+        "text": "Sandro Botticelli"
+      },
+      {
+        "id": "option-2",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-3",
+        "text": "Caravaggio"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 68,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:9c7604e3afe45376",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza a cera como aglutinante para os pigmentos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Óleo sobre tela"
+      },
+      {
+        "id": "option-1",
+        "text": "Encaustica"
+      },
+      {
+        "id": "option-2",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-3",
+        "text": "Pastel"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:f0c757698dc1de7f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o pintor francês impressionista conhecido por suas séries de nenúfares, como 'Nenúfares em Giverny'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Edgar Degas"
+      },
+      {
+        "id": "option-1",
+        "text": "Camille Pissarro"
+      },
+      {
+        "id": "option-2",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierre-Auguste Renoir"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 70,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bcc228294db15715",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a técnica do dripping, em que o artista goteja tinta na tela?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Expressionismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Abstracionismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Action Painting"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 71,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:db4b3f030424ec12",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o mestre italiano do Renascimento conhecido por suas esculturas, como 'Davi' e 'Pietà'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-2",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-3",
+        "text": "Donatello"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 72,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:de598888e2bbffd7",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do pintor francês conhecido por suas obras do movimento romântico, como 'A Liberdade Guiando o Povo'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eugène Delacroix"
+      },
+      {
+        "id": "option-1",
+        "text": "Théodore Géricault"
+      },
+      {
+        "id": "option-2",
+        "text": "Jean-Auguste-Dominique Ingres"
+      },
+      {
+        "id": "option-3",
+        "text": "Camille Corot"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 73,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:4aceb7d9d3a1d22c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a técnica do 'readymade', utilizando objetos do cotidiano como arte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Pop Art"
+      },
+      {
+        "id": "option-3",
+        "text": "Dadaísmo"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 75,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bb8b4a97aab92b4e",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi a pintora mexicana conhecida por suas obras com temas políticos e sociais, como 'A Coluna Quebrada'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frida Kahlo"
+      },
+      {
+        "id": "option-1",
+        "text": "Diego Rivera"
+      },
+      {
+        "id": "option-2",
+        "text": "David Alfaro Siqueiros"
+      },
+      {
+        "id": "option-3",
+        "text": "José Clemente Orozco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 76,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:ef9d402526061533",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da corrente artística que se opôs ao movimento impressionista e buscava retratar a vida moderna?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Romantismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Realismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Futurismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Barroco"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 77,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:23212a7cf4ffffd9",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o artista plástico brasileiro conhecido por suas pinturas antropofágicas, como 'Abaporu'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cândido Portinari"
+      },
+      {
+        "id": "option-1",
+        "text": "Tarsila do Amaral"
+      },
+      {
+        "id": "option-2",
+        "text": "Di Cavalcanti"
+      },
+      {
+        "id": "option-3",
+        "text": "Anita Malfatti"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 78,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:1b8c01e77c568e86",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza pigmentos misturados com gema de ovo como aglutinante?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-1",
+        "text": "Óleo sobre tela"
+      },
+      {
+        "id": "option-2",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-3",
+        "text": "Esfumato"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 80,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:e0f7b4010161d35a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o pintor espanhol conhecido pelo movimento surrealista e pelas obras 'A Persistência da Memória' e 'A Face de Guerra'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "option-1",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Juan Gris"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 81,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:85c3d92a8e2b2812",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do movimento artístico que se caracteriza pela utilização de formas simples, cores primárias e abstração geométrica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Pop Art"
+      },
+      {
+        "id": "option-3",
+        "text": "Futurismo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 82,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bcd386832dad1b2a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o artista contemporâneo conhecido por suas instalações e esculturas gigantes, como 'Guardiões do Tempo'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Banksy"
+      },
+      {
+        "id": "option-1",
+        "text": "Damien Hirst"
+      },
+      {
+        "id": "option-2",
+        "text": "Kaws"
+      },
+      {
+        "id": "option-3",
+        "text": "Manuel Neri"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 83,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:0443046697d40198",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da escultura de bronze localizada em Wall Street, em Nova York, que simboliza o otimismo e a força do povo americano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leão de São Marcos"
+      },
+      {
+        "id": "option-1",
+        "text": "Touro de Wall Street"
+      },
+      {
+        "id": "option-2",
+        "text": "Estatua da Liberdade"
+      },
+      {
+        "id": "option-3",
+        "text": "Anjo da Independência"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 84,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d0740f661f0b1db7",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o pintor francês conhecido por suas obras do movimento impressionista, como 'A Mulher nas Estrelas'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Edouard Manet"
+      },
+      {
+        "id": "option-1",
+        "text": "Paul Cézanne"
+      },
+      {
+        "id": "option-2",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Matisse"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 85,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bcd2b379646c6660",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do movimento artístico que surge no século XX, buscando representar a realidade de forma mais subjetiva e emocional?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Futurismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Expressionismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Dadaísmo"
+      },
+      {
+        "id": "option-3",
+        "text": "Surrealismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 86,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:5db206f718d622c7",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o arquiteto brasileiro responsável pelo projeto do Museu de Arte Contemporânea de Niterói?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar Niemeyer"
+      },
+      {
+        "id": "option-1",
+        "text": "Lúcio Costa"
+      },
+      {
+        "id": "option-2",
+        "text": "Roberto Burle Marx"
+      },
+      {
+        "id": "option-3",
+        "text": "Ruy Ohtake"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 87,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:64655d80b906d33f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual movimento artístico surgiu a obra 'Guernica', de Pablo Picasso?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cubismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Fauvismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Expressionismo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 88,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bcb3f0f1fb1a4454",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o pintor espanhol conhecido pelo movimento surrealista e pelas obras 'A Face de Guerra' e 'O Jardim das Delícias Terrenas'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "option-1",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Juan Gris"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 89,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:460fd7a8c8358ab5",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi a pintora mexicana conhecida por suas obras com temas políticos e sociais, como 'As Duas Fridas'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frida Kahlo"
+      },
+      {
+        "id": "option-1",
+        "text": "Diego Rivera"
+      },
+      {
+        "id": "option-2",
+        "text": "David Alfaro Siqueiros"
+      },
+      {
+        "id": "option-3",
+        "text": "José Clemente Orozco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 91,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:fc215cb86c81091f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o artista plástico brasileiro conhecido por suas esculturas modernistas, como 'Monumento às Bandeiras'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Victor Brecheret"
+      },
+      {
+        "id": "option-1",
+        "text": "Tarsila do Amaral"
+      },
+      {
+        "id": "option-2",
+        "text": "Di Cavalcanti"
+      },
+      {
+        "id": "option-3",
+        "text": "Cândido Portinari"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 93,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:7faf9987b5757bfa",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da técnica de pintura que utiliza a aplicação de tinta a óleo sobre uma superfície úmida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Afresco"
+      },
+      {
+        "id": "option-1",
+        "text": "Tempera"
+      },
+      {
+        "id": "option-2",
+        "text": "Gouache"
+      },
+      {
+        "id": "option-3",
+        "text": "Óleo sobre tela"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 94,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:66a8855b9ffaf8d3",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é considerado o fundador do movimento Suprematista?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kazimir Malevich"
+      },
+      {
+        "id": "option-1",
+        "text": "Wassily Kandinsky"
+      },
+      {
+        "id": "option-2",
+        "text": "Piet Mondrian"
+      },
+      {
+        "id": "option-3",
+        "text": "El Lissitzky"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 95,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:3926523cf72f639d",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do arquiteto brasileiro que projetou o Museu de Arte de São Paulo (MASP)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar Niemeyer"
+      },
+      {
+        "id": "option-1",
+        "text": "Ruy Ohtake"
+      },
+      {
+        "id": "option-2",
+        "text": "Lina Bo Bardi"
+      },
+      {
+        "id": "option-3",
+        "text": "Lucio Costa"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 96,
+      "license": "MIT"
+    }
+  },
+  {
+    "id": "questionados:arts-literature:035739c6af382a46",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o mestre renascentista italiano conhecido por suas esculturas, como 'Davi' e 'Pietà'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-3",
+        "text": "Donatello"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "unrated",
+    "status": "needs-review",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 97,
+      "license": "MIT"
+    }
+  }
+]

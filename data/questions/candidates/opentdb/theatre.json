@@ -1,0 +1,161 @@
+[
+  {
+    "id": "opentdb:theatre:c60354afe7b0d469",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Merano"
+      },
+      {
+        "id": "option-1",
+        "text": "Venice"
+      },
+      {
+        "id": "option-2",
+        "text": "Milan"
+      },
+      {
+        "id": "option-3",
+        "text": "Rome"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 243,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:1f767257803ec2b4",
+    "category": "theatre",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "IMAX stands for Image Maximum.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 246,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:522fea0e71a55d49",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Newts"
+      },
+      {
+        "id": "option-1",
+        "text": "Humans"
+      },
+      {
+        "id": "option-2",
+        "text": "Sharks"
+      },
+      {
+        "id": "option-3",
+        "text": "Squids"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 466,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:fc4fe05a95f71aff",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which Shakespearean play will you find the suicide of Ophelia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-1",
+        "text": "Macbeth"
+      },
+      {
+        "id": "option-2",
+        "text": "Othello"
+      },
+      {
+        "id": "option-3",
+        "text": "King Lear"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 546,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:720c8f43f1f9d447",
+    "category": "theatre",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 895,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]

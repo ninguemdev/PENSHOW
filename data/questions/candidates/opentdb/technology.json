@@ -1,0 +1,980 @@
+[
+  {
+    "id": "opentdb:technology:4050e15057332a98",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Heartbleed"
+      },
+      {
+        "id": "option-1",
+        "text": "Shellshock"
+      },
+      {
+        "id": "option-2",
+        "text": "Corrupted Blood"
+      },
+      {
+        "id": "option-3",
+        "text": "Shellscript"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:6f9a5b810381d0e4",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Harvard architecture for micro-controllers added which additional bus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Instruction"
+      },
+      {
+        "id": "option-1",
+        "text": "Address"
+      },
+      {
+        "id": "option-2",
+        "text": "Data"
+      },
+      {
+        "id": "option-3",
+        "text": "Control"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 35,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2a398d09ba22426f",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "FLAC stands for \"Free Lossless Audio Condenser\"'",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 104,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:40fdb08229fd160e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which virtual assistant is developed by Amazon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alexa"
+      },
+      {
+        "id": "option-1",
+        "text": "Google Assistant"
+      },
+      {
+        "id": "option-2",
+        "text": "Siri"
+      },
+      {
+        "id": "option-3",
+        "text": "Cortana"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 172,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e5dd891e65ade6fb",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many bits are commonly in a single byte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eight bits"
+      },
+      {
+        "id": "option-1",
+        "text": "Six bits"
+      },
+      {
+        "id": "option-2",
+        "text": "Twelve bits"
+      },
+      {
+        "id": "option-3",
+        "text": " Fifteen bits"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 196,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:01f3fa59d9c14151",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which programming language was developed by Sun Microsystems in 1995?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Java"
+      },
+      {
+        "id": "option-1",
+        "text": "Python"
+      },
+      {
+        "id": "option-2",
+        "text": "Solaris OS"
+      },
+      {
+        "id": "option-3",
+        "text": "C++"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 215,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:8f4d3fc0b8e5d471",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these people was NOT a founder of Apple Inc?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jonathan Ive"
+      },
+      {
+        "id": "option-1",
+        "text": "Steve Jobs"
+      },
+      {
+        "id": "option-2",
+        "text": "Ronald Wayne"
+      },
+      {
+        "id": "option-3",
+        "text": "Steve Wozniak"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 225,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cb83042febc47942",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these is not an official development name for a Ubuntu release?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mystic Mansion"
+      },
+      {
+        "id": "option-1",
+        "text": "Trusty Tahr"
+      },
+      {
+        "id": "option-2",
+        "text": "Utopic Unicorn"
+      },
+      {
+        "id": "option-3",
+        "text": "Wily Werewolf"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 234,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:422b56dfd7f9ed66",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the number of keys on a standard Windows Keyboard?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "104"
+      },
+      {
+        "id": "option-1",
+        "text": "64"
+      },
+      {
+        "id": "option-2",
+        "text": "94"
+      },
+      {
+        "id": "option-3",
+        "text": "76"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 257,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ff96e4f980735bef",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The last Windows operating system to be based on the Windows 9x kernel was Windows 98.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 322,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5db184046d319875",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "JavaScript"
+      },
+      {
+        "id": "option-1",
+        "text": "C#"
+      },
+      {
+        "id": "option-2",
+        "text": "Python"
+      },
+      {
+        "id": "option-3",
+        "text": "PHP"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 331,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9f2b3e4f3356adb0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Lenovo acquired IBM's personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2005"
+      },
+      {
+        "id": "option-1",
+        "text": "1999"
+      },
+      {
+        "id": "option-2",
+        "text": "2002"
+      },
+      {
+        "id": "option-3",
+        "text": "2008"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 362,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9426a14adf9aafa1",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the term MIME stand for, in regards to computing?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Multipurpose Internet Mail Extensions"
+      },
+      {
+        "id": "option-1",
+        "text": "Mail Internet Mail Exchange"
+      },
+      {
+        "id": "option-2",
+        "text": "Multipurpose Interleave Mail Exchange"
+      },
+      {
+        "id": "option-3",
+        "text": "Mail Interleave Method Exchange"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 372,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2e562ffd755b870f",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Linus Sebastian is the creator of the Linux kernel, which went on to be used in Linux, Android, and Chrome OS.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 388,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:20519dfe5d4df56f",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "It's not possible to format a write-protected DVD-R Hard Disk.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 409,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e581922609d2137f",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the DOS in Microsoft's first operating system \"MS-DOS\" stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Disk Operating System"
+      },
+      {
+        "id": "option-1",
+        "text": "Dumb Operating System"
+      },
+      {
+        "id": "option-2",
+        "text": "Driver Oriented System"
+      },
+      {
+        "id": "option-3",
+        "text": "Diskless Operating System"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 467,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e9a6c7283fb6e84c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What port does HTTP run on?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "80"
+      },
+      {
+        "id": "option-1",
+        "text": "53"
+      },
+      {
+        "id": "option-2",
+        "text": "443"
+      },
+      {
+        "id": "option-3",
+        "text": "23"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 476,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:02fa2539402a3359",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does RAID stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Redundant Array of Independent Disks"
+      },
+      {
+        "id": "option-1",
+        "text": "Rapid Access for Indexed Devices"
+      },
+      {
+        "id": "option-2",
+        "text": "Range of Applications with Identical Designs"
+      },
+      {
+        "id": "option-3",
+        "text": "Randomized Abstract Identification Description"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 480,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ebafb2277272f77e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Whistler was the codename of this Microsoft Operating System.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Windows XP"
+      },
+      {
+        "id": "option-1",
+        "text": "Windows 2000"
+      },
+      {
+        "id": "option-2",
+        "text": "Windows 7"
+      },
+      {
+        "id": "option-3",
+        "text": "Windows 95"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 641,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2c10623d0ad3889d",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "DHCP stands for Dynamic Host Configuration Port.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 672,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:776585f613407db1",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is not a key value of Agile software development?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Comprehensive documentation"
+      },
+      {
+        "id": "option-1",
+        "text": "Individuals and interactions"
+      },
+      {
+        "id": "option-2",
+        "text": "Customer collaboration"
+      },
+      {
+        "id": "option-3",
+        "text": "Responding to change"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 719,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:421ad0d575d16775",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the most preferred image format used for logos in the Wikimedia database?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": ".svg"
+      },
+      {
+        "id": "option-1",
+        "text": ".png"
+      },
+      {
+        "id": "option-2",
+        "text": ".jpeg"
+      },
+      {
+        "id": "option-3",
+        "text": ".gif"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 728,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1045ef1c8c2b84e8",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The logo for Snapchat is a Bell.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 737,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:53fabe0d35d7c32b",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Apple was on the verge of bankruptcy in 1997 and was saved by Microsoft",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 776,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:66d4f0a620a96685",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What amount of bits commonly equals one byte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "8"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "2"
+      },
+      {
+        "id": "option-3",
+        "text": "64"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 811,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:13f73aba7321f068",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which round does a WW2 M1 Garand fire?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": ".30-06"
+      },
+      {
+        "id": "option-1",
+        "text": ".308"
+      },
+      {
+        "id": "option-2",
+        "text": "7.62"
+      },
+      {
+        "id": "option-3",
+        "text": "7.62x51mm"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 820,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c4c1f501b473deab",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How fast is USB 3.1 Gen 2 theoretically?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10 Gb/s"
+      },
+      {
+        "id": "option-1",
+        "text": "5 Gb/s"
+      },
+      {
+        "id": "option-2",
+        "text": "8 Gb/s"
+      },
+      {
+        "id": "option-3",
+        "text": "1 Gb/s"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 858,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b8b8c142cc6de328",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "All of the following programs are classified as raster graphics editors EXCEPT:",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Inkscape"
+      },
+      {
+        "id": "option-1",
+        "text": "Paint.NET"
+      },
+      {
+        "id": "option-2",
+        "text": "GIMP"
+      },
+      {
+        "id": "option-3",
+        "text": "Adobe Photoshop"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 877,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:11c82fd50a4ce934",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The open source program Redis is a relational database server.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 910,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:231bf8841e3dd122",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The iPhone 3G was the second iPhone generation.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 937,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+]
