@@ -2,7 +2,7 @@
 
 Jogo multiplayer de perguntas e respostas para jogar com amigos pelo navegador. Crie uma sala, escolha seu nome e monte seu personagem para disputar fases com regras diferentes.
 
-O desempenho nas primeiras cinco fases determinará a vantagem na final. A proposta inicial é **1º lugar com 4 vidas, 2º com 3, 3º com 2 e os demais com 1**. A contagem exata de perdas permitidas, os ataques e os desempates estão em discussão.
+O desempenho nas primeiras cinco fases determinará a vantagem na final: **1º lugar com 5 vidas, 2º com 4, 3º com 3 e os demais com 2**. Assim, sobrevivem respectivamente a 4, 3, 2 e 1 perdas de vida; a perda seguinte elimina. Quem acertar poderá atacar qualquer adversário ainda na disputa, inclusive quem também acertou. A resolução do dano por pergunta e os desempates estão em discussão.
 
 ## Estado do projeto
 

@@ -25,7 +25,7 @@ O fluxo inicial terá cinco fases de pontuação e uma final. O planejamento com
 | Aposta | Escolher o risco antes de ver a pergunta | Limitar a aposta e impedir saldo negativo |
 | Roubo de pontos | Escolher adversário após acertar | Não criar pontos ao transferir; não roubar além do saldo |
 | Pressão / dinamite | Tensão de uma sequência de turnos | Cada jogador deve receber tempo real para responder |
-| Final | Converter a colocação em vidas e disputar a vitória | Aplicação explícita de 4 / 3 / 2 / 1 vidas |
+| Final | Converter a colocação em vidas e disputar a vitória | 5 / 4 / 3 / 2 vidas iniciais para sobreviver a 4 / 3 / 2 / 1 perdas; acerto permite atacar qualquer adversário ativo |
 
 Alternativas futuras: duas opções, sequência de acertos e sobrevivência restrita à fase. O visual, os textos, os sons e o conteúdo do PENSHOW serão próprios ou reutilizados do Comicle conforme a licença; o banco de perguntas do Brain Show não foi obtido nem copiado.
 

@@ -1,6 +1,6 @@
 # Regras em discussão
 
-Este documento diferencia requisitos definidos e propostas. Nenhuma proposta numérica constitui uma decisão definitiva.
+Este documento diferencia requisitos definidos e propostas. Valores identificados como propostas continuam sujeitos a ajuste; os requisitos definidos e a distribuição de vidas da final foram confirmados.
 
 ## Requisitos definidos
 
@@ -10,10 +10,11 @@ Este documento diferencia requisitos definidos e propostas. Nenhuma proposta num
 | R02 | Reaproveitar arquitetura modular, salas, nomes e criação de personagem do Comicle |
 | R03 | Perguntas separadas por temas e fases com regras diferentes |
 | R04 | Usar Brain Show como referência da experiência |
-| R05 | A colocação antes da final deve produzir vantagens de 4, 3, 2 e 1 perdas de vida, do primeiro ao restante |
+| R05 | O 1º deve sobreviver a 4 perdas de vida; o 2º, a 3; o 3º, a 2; os demais, a 1. As vidas iniciais são 5 / 4 / 3 / 2; a perda seguinte elimina |
 | R06 | Definir e ajustar regras ao longo do desenvolvimento, com consulta sobre dúvidas relevantes |
+| R07 | Na final, quem acerta pode escolher qualquer adversário ainda na disputa como alvo, inclusive quem também acertou |
 
-R05 ainda precisa de esclarecimento: **ser eliminado na quarta perda** corresponde a quatro vidas; **poder perder quatro vezes e continuar** corresponde a cinco vidas. A tabela provisória de planejamento usa 4 / 3 / 2 / 1 vidas iniciais, sem implementar essa interpretação antes da resposta.
+R05 e R07 foram esclarecidos em 16/10/2026: os valores 4 / 3 / 2 / 1 representam perdas às quais se sobrevive, e o ataque não fica limitado a quem errou. Por exemplo, o líder começa com cinco vidas: depois de quatro perdas ainda tem uma vida; a quinta perda o elimina.
 
 ## Fluxo proposto
 
@@ -51,19 +52,20 @@ Alternativas de expansão: duas opções (+100 por acerto), sequência (bônus c
 
 ## Final
 
-| Colocação acumulada | Vidas iniciais propostas |
-|---|---:|
-| 1º | 4 |
-| 2º | 3 |
-| 3º | 2 |
-| 4º em diante | 1 |
+Distribuição confirmada:
+
+| Colocação acumulada | Vidas iniciais | Perdas às quais sobrevive | Perda que elimina |
+|---|---:|---:|---:|
+| 1º | 5 | 4 | 5ª |
+| 2º | 4 | 3 | 4ª |
+| 3º | 3 | 2 | 3ª |
+| 4º em diante | 2 | 1 | 2ª |
 
 - Converter a classificação uma única vez ao entrar na final; reconectar não recalcula vidas.
-- Acertar, errar e receber ataques precisam de regra definida antes da implementação.
-- Pergunta enviada: acerto permite atacar qualquer adversário, apenas quem errou, ou não há ataques?
-- Pergunta enviada: os valores representam vidas iniciais ou perdas que o jogador consegue sobreviver?
+- Confirmado: acertar permite escolher qualquer adversário ainda ativo como alvo, mesmo que esse adversário também tenha acertado.
+- A penalidade por erro ou ausência e a resolução dos ataques precisam de regra definida antes da implementação.
 - Decidir se erro e ataque podem causar duas perdas na mesma pergunta. Proposta para avaliar: no máximo uma perda por jogador por pergunta.
-- Decidir se existe somente um atacante por pergunta ou se todo acerto concede ataque; isso altera drasticamente a duração de quatro vidas.
+- Definir a resolução dos direitos de ataque: quando escolher os alvos e como tratar múltiplos ataques na mesma pergunta. Isso altera a duração das vidas e precisa respeitar o direito de quem acerta escolher qualquer adversário ativo.
 - Proposta: sem ganho de vidas durante a final, para a vantagem inicial permanecer compreensível.
 - Proposta: acerto não causa dano a si mesmo; não se pode escolher alvo eliminado; vidas nunca ficam negativas.
 - Proposta: último jogador com vida vence. Eliminados acompanham como espectadores.
@@ -84,4 +86,4 @@ Propostas a validar com a primeira partida:
 
 ## Próximas decisões
 
-Primeiro resolver vidas e ataques na final. Depois, durante os protótipos: direção visual, capacidade, duração, tema por votação ou rodízio, pontuação, dinamite, empates e penalidade de ausência. Perguntar por etapa, evitando fechar todas as regras antes de experimentar.
+A distribuição de vidas e a liberdade de escolha do alvo estão definidas. Antes de implementar a final, resolver penalidade por erro ou ausência, acúmulo e resolução de dano, e desempates. Durante os protótipos: direção visual, capacidade, duração, tema por votação ou rodízio, pontuação e dinamite. Perguntar por etapa, evitando fechar todas as regras antes de experimentar.

@@ -48,9 +48,9 @@ Aceite: cinco fases completas; cada modalidade explica sua regra; transições n
 
 ### P06 — Final e pódio
 
-Resolver antes da implementação as perguntas de [regras](regras.md): interpretação das vidas, quem ataca, quem pode ser alvo, dano por pergunta e empates. Implementar conversão do placar, danos, eliminação, espectadores, vitória e revanche.
+Aplicar as decisões de [regras](regras.md): vidas iniciais de 5 / 4 / 3 / 2 para sobreviver a 4 / 3 / 2 / 1 perdas, e direito de quem acerta escolher qualquer adversário ativo como alvo. Resolver antes da implementação penalidade por erro ou ausência, acúmulo e resolução dos ataques e empates. Implementar conversão do placar, danos, eliminação, espectadores, vitória e revanche.
 
-Aceite: exemplos de colocação demonstram 4 / 3 / 2 / 1 conforme a interpretação confirmada; reconectar não restaura vidas; ataques simultâneos não dependem da ordem da rede; todo grupo chega a um resultado válido ou ao desempate previsto.
+Aceite: o líder permanece com uma vida após quatro perdas e é eliminado na quinta; o mesmo princípio produz eliminação na quarta, terceira e segunda perdas para as outras faixas. Quem acerta pode atacar até adversários que também acertaram; reconectar não restaura vidas; ataques simultâneos não dependem da ordem da rede; todo grupo chega a um resultado válido ou ao desempate previsto.
 
 ### P07 — Banco amplo e qualidade editorial
 
@@ -83,7 +83,7 @@ Aceite: ambiente de teste passa por partida completa, reconexão e revanche; cli
 
 | Risco concreto | Tratamento |
 |---|---|
-| Quatro vidas acabarem na mesma pergunta por ataques concentrados | Definir limite de dano e quantidade de atacantes antes de P06 |
+| Todas as vidas acabarem na mesma pergunta por ataques concentrados | Definir acúmulo e resolução do dano antes de P06, respeitando a escolha livre de adversário |
 | A final desvalorizar as cinco fases anteriores | Exibir vantagem, simular resultados e ajustar com partidas |
 | Fonte grande conter respostas erradas | Candidatos separados de conteúdo publicado e revisão por pergunta |
 | Velocidade favorecer latência | Bônus limitado em faixas e tempo de recepção decidido pelo servidor |
