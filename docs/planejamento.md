@@ -6,6 +6,8 @@ Criar um quiz multiplayer para navegador com a entrada simples do Comicle e moda
 
 O desenho de cada fase está no [plano detalhado do jogo](plano-do-jogo.md): pontos, quantidade de perguntas, tempos, escolha de temas, dificuldade, exemplos, final, telas e casos de borda. Os números são propostas de protótipo, exceto as regras da final já confirmadas.
 
+A execução foi decomposta em [35 tasks de implementação](tasks/README.md), com arquivo por tarefa, dependências, critérios de aceite e verificações. O índice das tasks é o único controle de status de implementação; as etapas P01 a P09 abaixo descrevem o escopo geral. As [decisões pendentes](decisoes.md) indicam o que afeta cada módulo sem bloquear as frentes independentes.
+
 ## Estado inicial
 
 | Entrega | Estado |
@@ -15,6 +17,7 @@ O desenho de cada fase está no [plano detalhado do jogo](plano-do-jogo.md): pon
 | Estrutura e sequência de implementação | Planejadas |
 | Coleta inicial de candidatos a perguntas, procedência e validação estrutural | 531 em português e 1.000 em inglês importados; nenhum aprovado editorialmente |
 | Plano de cada fase, pontos, tempos, exemplos e duração | Documentado; seis escolhas consultadas e valores provisórios identificados |
+| Backlog de implementação no formato do Comicle | 35 tarefas documentadas; todas pendentes de implementação |
 | Aprovação das propostas, revisão editorial e aplicação jogável | Pendentes |
 
 ## Entregas em ordem

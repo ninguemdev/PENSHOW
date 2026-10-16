@@ -4,6 +4,8 @@ Base: [análise do Comicle](analise-comicle.md). Esta estrutura é o destino da 
 
 Parâmetros de partida, pontuação e duração vêm do [plano do jogo](plano-do-jogo.md). Ao implementar, manter constantes tipadas por modalidade e distinguir valores confirmados de propostas ainda em consulta.
 
+O [backlog de implementação](tasks/README.md) distribui a arquitetura em 35 tarefas e contém as convenções comuns de código, verificação e revisão. As [decisões](decisoes.md) registram os formatos ainda em consulta; sua ausência de resposta não deve acoplar nem interromper módulos independentes.
+
 ## Organização
 
 ```text
