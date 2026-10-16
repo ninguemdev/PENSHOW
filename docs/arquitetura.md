@@ -56,13 +56,17 @@ stateDiagram-v2
   RoundResults --> Ranking: cinco fases completas
   Ranking --> FinalInstructions: empates resolvidos
   FinalInstructions --> FinalQuestion
-  FinalQuestion --> FinalResolution
+  FinalQuestion --> FinalResolution: primeira resposta válida errada
+  FinalQuestion --> FinalTargetSelection: primeira resposta válida correta
+  FinalTargetSelection --> FinalResolution: atacante escolhe alvo
   FinalResolution --> FinalQuestion: disputa continua
   FinalResolution --> Podium: vencedor definido
   Podium --> Lobby: revanche
 ```
 
 Seleção de alvo, apostas e desempates acrescentam subestados somente nas modalidades que os usam. Instruções e seleção de tema têm prazos próprios; o relógio de resposta começa quando a pergunta abre. Timers antigos levam ID de partida, fase e pergunta e são ignorados após transição.
+
+Na final, a primeira resposta válida fecha as tentativas para todos dentro da fila da sala, antes da avaliação do gabarito. Se estiver errada, aplicar uma perda ao autor; se estiver certa, entrar na escolha de alvo, acessível apenas ao autor, e aplicar uma perda ao adversário escolhido. Não aguardar respostas dos demais nem reabrir a mesma pergunta após um erro. Prazo sem resposta e ausência de escolha do alvo ainda precisam de regra antes da implementação.
 
 ## Contratos previstos
 
@@ -71,6 +75,8 @@ HTTP: sessão de convidado, verificação de sessão e saúde do serviço.
 Socket: `room:create`, `room:join`, `room:leave`, `room:updateProfile`, `room:updateSettings`, `room:kick`, `match:start`, `category:choose`, `answer:submit`, `wager:submit`, `target:choose`, `match:returnToLobby`, `time:sync`.
 
 Todo comando de partida informa `matchId`, `roundId`, `questionId` quando aplicável e `actionId`. O servidor valida fase, associação à sala, prazo, permissão e unicidade. Repetir `actionId` não reaplica efeitos; usar um novo `actionId` também não permite responder duas vezes à mesma pergunta.
+
+Na final, `answer:submit` disputa uma única resposta aceita por pergunta entre todos os participantes ativos; respostas posteriores recebem indicação de pergunta já fechada e não alteram vidas. `target:choose` só é permitido ao autor da primeira resposta correta, contra outro jogador ainda ativo, e resolve uma única perda de vida. Reconexão e reenvio não restauram a oportunidade nem duplicam o dano.
 
 Saídas: confirmação com resultado/erro e `room:view` com estado completo projetado, `stateVersion` e `serverNow`. O cliente descarta versões anteriores da mesma sala e aplica uma fotografia atual após reconectar.
 
@@ -86,6 +92,6 @@ Configurações e chaves do PENSHOW devem ser próprias: `penshow.profile`, `pen
 
 ## Verificação da implementação
 
-Testes unitários para transições, pontuação, atribuição de vidas e dano simultâneo, com relógio e sorteio determinísticos. Integração para autorização, ações repetidas, prazos, serialização e reconexão. Testes de projeção verificam ausência de gabaritos e dados privados em todas as fases e para espectadores.
+Testes unitários para transições, pontuação, atribuição de vidas, perda por erro e escolha de alvo, com relógio e sorteio determinísticos. Integração para autorização, ações repetidas, prazos, serialização e reconexão. Na final, testar duas respostas concorrentes, a primeira errada seguida de uma correta rejeitada, ataque único e tentativas de escolher alvo sem ter acertado. Testes de projeção verificam ausência de gabaritos e dados privados em todas as fases e para espectadores.
 
 Playwright valida criar/entrar, personalizar, duas sessões, cinco fases, final, pódio e revanche, além de celular e queda do anfitrião. Validar que `/comicle/` e `/penshow/` não compartilham identidade nem socket por acidente.

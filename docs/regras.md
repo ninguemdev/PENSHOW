@@ -12,9 +12,10 @@ Este documento diferencia requisitos definidos e propostas. Valores identificado
 | R04 | Usar Brain Show como referência da experiência |
 | R05 | O 1º deve sobreviver a 4 perdas de vida; o 2º, a 3; o 3º, a 2; os demais, a 1. As vidas iniciais são 5 / 4 / 3 / 2; a perda seguinte elimina |
 | R06 | Definir e ajustar regras ao longo do desenvolvimento, com consulta sobre dúvidas relevantes |
-| R07 | Na final, quem acerta pode escolher qualquer adversário ainda na disputa como alvo, inclusive quem também acertou |
+| R07 | Na final, somente a primeira resposta de cada pergunta é avaliada. Se acertar, o jogador escolhe qualquer adversário ainda na disputa para tirar uma vida |
+| R08 | Se a primeira resposta da final estiver errada, quem respondeu perde uma vida. Não há outra tentativa naquela pergunta; a disputa segue com uma nova pergunta após a resolução |
 
-R05 e R07 foram esclarecidos em 16/10/2026: os valores 4 / 3 / 2 / 1 representam perdas às quais se sobrevive, e o ataque não fica limitado a quem errou. Por exemplo, o líder começa com cinco vidas: depois de quatro perdas ainda tem uma vida; a quinta perda o elimina.
+Decisões confirmadas: os valores 4 / 3 / 2 / 1 representam perdas às quais se sobrevive. Por exemplo, o líder começa com cinco vidas: depois de quatro perdas ainda tem uma vida; a quinta perda o elimina. A final tem uma única tentativa por pergunta, disputada entre os jogadores; o primeiro a responder assume o risco de perder uma vida ou ganha o direito de atacar qualquer adversário ativo.
 
 ## Fluxo proposto
 
@@ -62,10 +63,13 @@ Distribuição confirmada:
 | 4º em diante | 2 | 1 | 2ª |
 
 - Converter a classificação uma única vez ao entrar na final; reconectar não recalcula vidas.
-- Confirmado: acertar permite escolher qualquer adversário ainda ativo como alvo, mesmo que esse adversário também tenha acertado.
-- A penalidade por erro ou ausência e a resolução dos ataques precisam de regra definida antes da implementação.
-- Decidir se erro e ataque podem causar duas perdas na mesma pergunta. Proposta para avaliar: no máximo uma perda por jogador por pergunta.
-- Definir a resolução dos direitos de ataque: quando escolher os alvos e como tratar múltiplos ataques na mesma pergunta. Isso altera a duração das vidas e precisa respeitar o direito de quem acerta escolher qualquer adversário ativo.
+- Confirmado: todos os jogadores ativos disputam a primeira resposta; somente ela é avaliada, mesmo se estiver errada. Não há repasse da mesma pergunta a outro participante.
+- Confirmado: se a primeira resposta estiver errada, quem respondeu perde uma vida; os demais não sofrem dano por aquela resposta.
+- Confirmado: se estiver certa, somente esse jogador escolhe qualquer adversário ainda ativo como alvo e retira uma vida dele. Os demais não precisam responder à pergunta.
+- A primeira resposta aceita fecha imediatamente as tentativas daquela pergunta. Depois do erro ou do ataque, resolver a eliminação e abrir uma nova pergunta, caso a disputa continue.
+- Cada pergunta respondida causa uma única perda de vida: de quem errou ou do alvo escolhido por quem acertou. Não há múltiplos ataques nem soma de erro e ataque na mesma pergunta.
+- O servidor decide qual resposta válida chegou primeiro, dentro da fila da sala, e registra o vencedor da disputa antes de avaliar o gabarito. Payloads inválidos, espectadores, eliminados e respostas fora do prazo não ocupam essa oportunidade.
+- Ainda definir: o que acontece se ninguém responder até o prazo e o que fazer se quem acertou não escolher um alvo ou desconectar antes do ataque.
 - Proposta: sem ganho de vidas durante a final, para a vantagem inicial permanecer compreensível.
 - Proposta: acerto não causa dano a si mesmo; não se pode escolher alvo eliminado; vidas nunca ficam negativas.
 - Proposta: último jogador com vida vence. Eliminados acompanham como espectadores.
@@ -75,8 +79,8 @@ Distribuição confirmada:
 Propostas a validar com a primeira partida:
 
 1. Empate no placar antes da final: comparar acertos; persistindo empate em uma faixa que altere vidas, realizar perguntas extras somente entre empatados, até ordenar a faixa. Um limite e uma saída para empates persistentes precisam ser definidos.
-2. Dano simultâneo que eliminaria todos: não declarar vencedor por ordem dos eventos; entrar em desempate entre os últimos envolvidos. A regra exata de retorno de vidas ou disputa isolada permanece pendente.
-3. Resposta enviada dentro do prazo é definitiva. Repetir a mesma requisição devolve o resultado já aceito e não pontua novamente.
+2. Na final, respostas concorrentes passam pela fila da sala: a primeira válida fecha as tentativas antes de revelar o resultado. Rejeitar as demais sem dano. Uma única perda por pergunta respondida impede eliminações simultâneas de todos os participantes.
+3. Resposta aceita dentro do prazo é definitiva. Nas fases iniciais, cada jogador responde conforme a modalidade; na final, há uma única resposta aceita entre todos. Repetir a mesma requisição devolve o resultado já aceito e não aplica pontos, dano ou direito de ataque novamente.
 4. O servidor decide se o prazo acabou; a hora informada pelo cliente não determina a pontuação. Sincronizar apenas a exibição do cronômetro.
 5. Queda mantém lugar, pontuação, resposta aceita e vidas. A pergunta continua com o prazo original; voltar não fornece tempo extra. Ausência na final segue a regra de erro que for aprovada.
 6. Se o anfitrião cair, outro assume após carência. Ser anfitrião não dá acesso ao gabarito nem poder de alterar resultados.
@@ -86,4 +90,4 @@ Propostas a validar com a primeira partida:
 
 ## Próximas decisões
 
-A distribuição de vidas e a liberdade de escolha do alvo estão definidas. Antes de implementar a final, resolver penalidade por erro ou ausência, acúmulo e resolução de dano, e desempates. Durante os protótipos: direção visual, capacidade, duração, tema por votação ou rodízio, pontuação e dinamite. Perguntar por etapa, evitando fechar todas as regras antes de experimentar.
+A distribuição de vidas, a primeira resposta exclusiva, a perda por erro e o ataque a qualquer adversário ativo estão definidos. Antes de implementar a final, resolver prazo sem resposta, prazo e desistência na escolha do alvo, e desempates de classificação antes da conversão em vidas. Durante os protótipos: direção visual, capacidade, duração, tema por votação ou rodízio, pontuação e dinamite. Perguntar por etapa, evitando fechar todas as regras antes de experimentar.
