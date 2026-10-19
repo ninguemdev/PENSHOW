@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+pnpm-lock.yaml
+# Conteúdo e planejamento preservam a formatação da coleta original.
+data/
+docs/
+**/playwright-report/**
+**/test-results/**
