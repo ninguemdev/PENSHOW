@@ -21,6 +21,8 @@ D01 a D06 foram enviadas durante a elaboração do plano detalhado. Não há res
 
 Pontos e tempos das cinco fases são parâmetros experimentais do [plano do jogo](plano-do-jogo.md). A avaliação em grupo de T32 consolida ou ajusta esses valores com evidência. Isso não autoriza alterar as regras confirmadas da final.
 
+A [T13](pontuacao-e-parametros.md) implementa esses parâmetros em uma configuração congelada por partida e cálculos puros no servidor. D04/D05 são identificadas explicitamente como variantes de protótipo; D01–D06 permanecem em consulta. Os exemplos aritméticos e a parametrização foram testados, sem representar avaliação de equilíbrio ou aprovação do produto.
+
 ## Decisões de etapas posteriores
 
 | ID | Questão | Situação | Tarefas |

@@ -2,7 +2,7 @@
 
 Este backlog segue o formato do Comicle: índice de dependências e status, arquivo por tarefa, entregáveis verificáveis e unidades pequenas de revisão. As tarefas foram desenhadas para o PENSHOW; módulos de quadrinhos não fazem parte do escopo.
 
-**35 tarefas planejadas. Todas estão pendentes.** Criar este planejamento não significa que a aplicação, o conteúdo revisado ou os testes futuros já foram implementados. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
+**35 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
 
 O status de implementação fica somente neste índice. As checklists dos arquivos registram entregas e evidências.
 
@@ -12,23 +12,23 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 
 | ID | Tarefa | Depende de | Marco | Status |
 |---|---|---|---|---|
-| T01 | [Bootstrap do monorepo e qualidade](./T01-bootstrap-monorepo.md) | — | M1 | ⬜ |
-| T02 | [Contratos compartilhados e documentação técnica](./T02-contratos-e-documentacao.md) | T01 | M1 | ⬜ |
-| T03 | [Servidor e infraestrutura de tempo real](./T03-servidor-base.md) | T02 | M1 | ⬜ |
-| T04 | [Identidade anônima e sessão](./T04-identidade-convidado.md) | T03 | M1 | ⬜ |
-| T05 | [Web base, interface e navegação](./T05-web-base-e-interface.md) | T02 | M1 | ⬜ |
-| T06 | [Perfil, nomes e editor de personagens](./T06-perfil-e-avatares.md) | T05 | M1 | ⬜ |
-| T07 | [Domínio e serviço de salas](./T07-dominio-e-servico-de-salas.md) | T04 | M1 | ⬜ |
-| T08 | [Salas em tempo real e projeção do lobby](./T08-salas-realtime-e-projecao.md) | T07 | M1 | ⬜ |
-| T09 | [Início, convite e lobby](./T09-inicio-convite-e-lobby.md) | T06, T08 | M1 | ⬜ |
-| T10 | [Catálogo privado e publicação editorial](./T10-catalogo-e-publicacao-de-perguntas.md) | T02 | M2 | ⬜ |
-| T11 | [Primeiro lote de perguntas revisadas](./T11-primeiro-lote-editorial.md) | T10 | M2 | ⬜ |
-| T12 | [Seleção de temas, perguntas e reserva da final](./T12-selecao-de-temas-e-perguntas.md) | T10 | M2 | ⬜ |
-| T13 | [Pontuação pura e parâmetros de regras](./T13-pontuacao-e-parametros.md) | T02 | M2 | ⬜ |
-| T14 | [Motor comum da partida e das fases](./T14-motor-comum-de-partida.md) | T08, T12, T13 | M2 | ⬜ |
-| T15 | [Quiz clássico no servidor](./T15-quiz-classico-servidor.md) | T14 | M2 | ⬜ |
-| T16 | [Fluxo de perguntas e placar na web](./T16-quiz-classico-web.md) | T09, T15 | M2 | ⬜ |
-| T17 | [Primeiro marco jogável e smoke test](./T17-primeiro-marco-jogavel.md) | T11, T16 | M2 | ⬜ |
+| T01 | [Bootstrap do monorepo e qualidade](./T01-bootstrap-monorepo.md) | — | M1 | ✅ |
+| T02 | [Contratos compartilhados e documentação técnica](./T02-contratos-e-documentacao.md) | T01 | M1 | ✅ |
+| T03 | [Servidor e infraestrutura de tempo real](./T03-servidor-base.md) | T02 | M1 | ✅ |
+| T04 | [Identidade anônima e sessão](./T04-identidade-convidado.md) | T03 | M1 | ✅ |
+| T05 | [Web base, interface e navegação](./T05-web-base-e-interface.md) | T02 | M1 | ✅ |
+| T06 | [Perfil, nomes e editor de personagens](./T06-perfil-e-avatares.md) | T05 | M1 | ✅ |
+| T07 | [Domínio e serviço de salas](./T07-dominio-e-servico-de-salas.md) | T04 | M1 | ✅ |
+| T08 | [Salas em tempo real e projeção do lobby](./T08-salas-realtime-e-projecao.md) | T07 | M1 | ✅ |
+| T09 | [Início, convite e lobby](./T09-inicio-convite-e-lobby.md) | T06, T08 | M1 | ✅ |
+| T10 | [Catálogo privado e publicação editorial](./T10-catalogo-e-publicacao-de-perguntas.md) | T02 | M2 | ✅ |
+| T11 | [Primeiro lote de perguntas revisadas](./T11-primeiro-lote-editorial.md) | T10 | M2 | ✅ |
+| T12 | [Seleção de temas, perguntas e reserva da final](./T12-selecao-de-temas-e-perguntas.md) | T10 | M2 | ✅ |
+| T13 | [Pontuação pura e parâmetros de regras](./T13-pontuacao-e-parametros.md) | T02 | M2 | ✅ |
+| T14 | [Motor comum da partida e das fases](./T14-motor-comum-de-partida.md) | T08, T12, T13 | M2 | ✅ |
+| T15 | [Quiz clássico no servidor](./T15-quiz-classico-servidor.md) | T14 | M2 | ✅ |
+| T16 | [Fluxo de perguntas e placar na web](./T16-quiz-classico-web.md) | T09, T15 | M2 | ✅ |
+| T17 | [Primeiro marco jogável e smoke test](./T17-primeiro-marco-jogavel.md) | T11, T16 | M2 | ✅ |
 | T18 | [Modalidade de velocidade](./T18-fase-velocidade.md) | T17 | M3 | ⬜ |
 | T19 | [Modalidade de aposta](./T19-fase-aposta.md) | T17, T13 | M3 | ⬜ |
 | T20 | [Modalidade de roubo de pontos](./T20-fase-roubo.md) | T17, T13 | M3 | ⬜ |
@@ -158,7 +158,7 @@ Proposta pode ser exercitada em protótipo identificado, com configuração e ev
 6. Concluir as checklists realmente atendidas e marcar concluída somente com entrega e validação disponíveis. Um arquivo planejado não conta como arquivo implementado.
 7. Descrever a mudança e a validação no PR, incluindo o ID da tarefa. O ritmo de execução e integração segue o pedido vigente; a estrutura do backlog não cria pausas de aprovação a cada etapa.
 
-Este fluxo é orientação para implementação futura. Nesta entrega foram criados os documentos, sem começar T01.
+Este fluxo orienta as tarefas de implementação. O quadro acima registra o andamento; cada arquivo de tarefa contém as evidências das entregas verificadas.
 
 ## Verificações comuns
 

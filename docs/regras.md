@@ -38,7 +38,7 @@ Repetir por cinco fases; depois `classificação → desempate se necessário �
 
 ## Modalidades propostas
 
-As pontuações abaixo são hipóteses iniciais, ainda sem código de partida.
+As pontuações abaixo são hipóteses iniciais. A [T13 implementa seus parâmetros e cálculos puros](pontuacao-e-parametros.md); o [motor da T14](motor-de-partida.md) e o [quiz clássico da T15](quiz-classico.md) executam a primeira modalidade em desenvolvimento/teste. A implementação e os testes não transformam essas hipóteses em decisões confirmadas.
 
 | Fase | Regra proposta | Pontos e prazo propostos |
 |---|---|---|
