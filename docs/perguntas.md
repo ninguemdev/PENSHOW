@@ -39,16 +39,19 @@ Cada arquivo em `data/questions/candidates/<source>/<category>.json` contém reg
 | `difficulty` | Dificuldade fornecida pela fonte ou `unrated` |
 | `status` | `needs-review`, `needs-translation`, `approved` ou `rejected` |
 | `source` | Identificador, URL imutável quando possível, posição original e licença |
+| `review` | Para aprovação: `referenceUrl`, `reviewedAt` e confirmações explícitas de fatos, idioma e resposta única |
 
 IDs editoriais das alternativas não serão expostos diretamente durante partidas: algumas fontes colocam sempre a resposta na primeira posição. Embaralhar no servidor e gerar IDs públicos opacos, preservando uma associação privada ao registro original.
 
 ## Importação e validação
 
 ```sh
-npm run questions:import
-npm run questions:import:opentdb -- --amount=1000
-npm run questions:validate
-npm test
+pnpm questions:import
+pnpm questions:import:opentdb --amount=1000
+pnpm questions:validate
+pnpm questions:publish
+pnpm questions:check
+pnpm test:content
 ```
 
 O importador em português lê literais de dados sem executar JavaScript remoto. Elimina repetições literais após normalizar caixa, acentos, pontuação e espaços. Entradas malformadas, alternativas repetidas e gabaritos inválidos vão para um relatório separado; não são consertados por adivinhação.
@@ -61,9 +64,9 @@ Duplicatas aproximadas entre fontes e traduções ainda exigem revisão. A valid
 
 No arquivo de geografia do Questionados, a pergunta sobre o país mais populoso apresenta um gabarito desatualizado; há uma pergunta sobre o Danúbio com vários países plausíveis nas alternativas, além de enunciados que não especificam o critério de tamanho de um lago. Essas observações impedem promover toda a lista diretamente a conteúdo jogável.
 
-Correções serão registradas por ID com referência factual e data; perguntas ambíguas devem ser reformuladas ou rejeitadas. Nenhum registro recebe `approved` apenas por passar no validador.
+As correções desses três casos estão registradas por ID, referência factual e data no [relatório da T11](revisao-editorial-t11.md). Os candidatos originais permanecem intactos; as versões corrigidas estão em `reviewed/`. Perguntas ambíguas devem ser reformuladas ou rejeitadas. Nenhum registro recebe `approved` apenas por passar no validador.
 
-## Publicação editorial planejada
+## Publicação editorial
 
 1. Verificar o enunciado, o critério e a existência de uma única alternativa correta.
 2. Conferir a resposta com fonte factual adequada; guardar referência e data de revisão.
@@ -71,6 +74,50 @@ Correções serão registradas por ID com referência factual e data; perguntas 
 4. Ajustar dificuldade e tema; revisar alternativas e possíveis dicas involuntárias.
 5. Evitar perguntas voláteis sem data de referência. Quando necessárias, informar ano ou período.
 6. Detectar repetição por sentido e preservar a procedência de registros fundidos.
-7. Marcar `approved` e copiar para um catálogo publicado separado, carregado apenas pelo servidor.
+7. Copiar o registro escolhido para uma lista JSON em `data/questions/reviewed/`, preservando `id` e `source`. Registrar a revisão e marcar `approved` apenas depois de conferi-la. Gerar o catálogo com `pnpm questions:publish`.
 
 Atribuições de conteúdo e licenças de terceiros devem continuar acompanhando os dados e suas adaptações. O código do jogo e o conteúdo importado têm licenças próprias; uma licença do projeto não substitui as licenças das bases.
+
+### Entradas e validação
+
+Os importadores continuam escrevendo somente em `candidates/`; não sobrescrevem o trabalho em `reviewed/`. Mesmo um registro marcado `approved` dentro de `candidates/` fica fora da publicação. A revisão pode corrigir texto, alternativas, gabarito, dificuldade e categoria; o ID editorial e a procedência original são preservados. A publicação exige correspondência com um candidato único e com a licença declarada em `data/sources.json`. Novas origens precisam entrar pelo fluxo de candidatos/manifesto; não são aceitas por trocar o identificador da fonte em um registro revisado.
+
+`apps/server/src/modules/questions/editorial-question.schema.ts` é o validador privado único, usado pelo servidor e reexportado por `scripts/lib/questions.mjs`. Ele rejeita campos desconhecidos, HTML/entidades ainda não decodificadas, caracteres de controle, tema fora do formato, alternativas vazias/equivalentes, IDs repetidos, gabarito inexistente, URL de origem/referência que não seja HTTP(S), licença vazia e índice de origem inválido. Perguntas múltiplas têm quatro alternativas; booleanas, duas. Referência não pode carregar credenciais; data deve ser um dia real no formato `AAAA-MM-DD`.
+
+Uma aprovação exige pt-BR, dificuldade `easy`, `medium` ou `hard`, referência factual e data. Também exige a declaração editorial abaixo, preenchida após a conferência:
+
+```json
+{
+  "referenceUrl": "https://exemplo.org/referencia-factual",
+  "reviewedAt": "2026-10-17",
+  "checks": { "factual": true, "language": true, "uniqueAnswer": true }
+}
+```
+
+Essa declaração não comprova fatos, tradução ou resposta única por si só. O programa verifica o registro da revisão, sem acessar a referência, identificar automaticamente o idioma do texto ou substituir a decisão editorial. Datas são validadas como calendário, sem depender do relógio da compilação. Tradução pendente, revisão ausente, confirmação incompleta e registros rejeitados não geram conteúdo jogável.
+
+### Artefatos e relatórios
+
+`data/questions/published/catalog.json` é um único artefato privado, com `schemaVersion: 1`, perguntas aprovadas completas, atribuições das fontes utilizadas e manifesto embutido. O manifesto contém quantidade, disponibilidade por tema/dificuldade e SHA-256 do conteúdo canônico. Cada pergunta conserva gabarito, procedência e revisão; cada fonte utilizada inclui título, URL, licença, texto de atribuição/licença e seu hash. Quebras de linha de licenças são normalizadas para LF, preservando o texto e evitando divergência entre Windows e Linux.
+
+A compilação ordena IDs, fontes e chaves por regra explícita, sem timestamp ou caminho absoluto na saída. Não modifica IDs editoriais nem embaralha alternativas; a [seleção privada da T12](selecao-de-perguntas.md) faz essa preparação por partida. IDs e enunciados aprovados duplicados causam falha na publicação, sem escolha automática entre registros. A normalização detecta repetições literais; equivalência por sentido ainda exige revisão.
+
+`data/publication-reports/questions.json` registra candidatos ignorados, registros revisados, exclusões por status, rejeições estruturais, duplicatas, erros e disponibilidade da tentativa. `publishable: false` indica que a tentativa falhou; os números desse relatório não substituem o manifesto do catálogo anteriormente publicado. Registros não aprovados são excluídos mesmo quando malformados; `questions:validate` também aponta esses erros para correção editorial. Um registro que tenta ser aprovado com gabarito/revisão/procedência inválidos faz a publicação terminar com código diferente de zero.
+
+Só depois de validar tudo, a publicação substitui `catalog.json` por renomeação de arquivo temporário no mesmo diretório. Uma tentativa inválida atualiza o diagnóstico e preserva os bytes do último catálogo válido. `questions:check` recompila em memória, confere os bytes de catálogo/relatório e falha se houver divergência, sem escrever arquivos. A CI executa esse check; não publica nem aprova conteúdo automaticamente.
+
+### Carregamento no servidor
+
+`LocalQuestionRepository` carrega apenas o arquivo publicado antes de aceitar requisições, sem ler candidatos, acessar referências ou fazer consultas externas durante o jogo. Arquivo ausente, JSON inválido, formato/manifesto/hash divergentes, atribuição inválida ou tamanho acima de 32 MiB impedem a inicialização. O erro aponta a verificação editorial sem imprimir perguntas/gabaritos ou o caminho privado.
+
+A porta `QuestionRepository` oferece somente `list({ category?, difficulty? })` e `availability()`. As consultas usam memória e devolvem cópias; alterações do consumidor não afetam o catálogo. O caminho padrão é relativo ao módulo, funcionando em código fonte e compilado mesmo fora do diretório do projeto. Testes podem injetar repositório ou caminho local. Não há endpoint público de catálogo. Dados e schemas editoriais não entram em shared, `apps/web/public` ou bundle web; o Vite também bloqueia arquivos editoriais/servidor pela rota de desenvolvimento `/@fs`.
+
+Após publicar um novo catálogo, reinicie o servidor para carregá-lo. Não há recarga automática nem substituição de conteúdo no meio de uma partida.
+
+### Lote inicial publicado — T11
+
+Em 17/10/2026, o catálogo contém **72 perguntas aprovadas em pt-BR**, com **12 por tema: seis fáceis, quatro médias e duas difíceis**. Os seis temas são artes e literatura, geografia, história, cultura pop, ciência e natureza e esportes. As referências e decisões individuais estão em [`data/publication-reports/t11-editorial.json`](../data/publication-reports/t11-editorial.json); o [relatório editorial](revisao-editorial-t11.md) explica o método e os limites.
+
+O estoque de cada tema permite um aquecimento isolado com **três fáceis e três médias**, conforme a proposta do plano. A [T12](selecao-de-perguntas.md) implementa seleção sem reposição, mistura de dificuldades e IDs públicos; a integração ao motor continua futura. A classificação de dificuldade é editorial e provisória, sem calibração com jogadores.
+
+Os **1.531 candidatos originais permanecem inalterados**: 531 em pt-BR com `needs-review` e 1.000 em inglês com `needs-translation`. A aprovação fica apenas nas 72 cópias revisadas. O lote não cobre uma partida completa com doze jogadores, as 300 perguntas da T27 ou as 5.000 da T33. O início de partida continua desabilitado.

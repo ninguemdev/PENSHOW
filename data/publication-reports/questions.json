@@ -1,0 +1,55 @@
+{
+  "approvedCount": 72,
+  "availability": {
+    "arts-literature": {
+      "easy": 6,
+      "hard": 2,
+      "medium": 4,
+      "total": 12
+    },
+    "geography": {
+      "easy": 6,
+      "hard": 2,
+      "medium": 4,
+      "total": 12
+    },
+    "history": {
+      "easy": 6,
+      "hard": 2,
+      "medium": 4,
+      "total": 12
+    },
+    "pop-culture": {
+      "easy": 6,
+      "hard": 2,
+      "medium": 4,
+      "total": 12
+    },
+    "science-nature": {
+      "easy": 6,
+      "hard": 2,
+      "medium": 4,
+      "total": 12
+    },
+    "sports": {
+      "easy": 6,
+      "hard": 2,
+      "medium": 4,
+      "total": 12
+    }
+  },
+  "candidates": {
+    "count": 1531,
+    "statuses": {
+      "needs-review": 531,
+      "needs-translation": 1000
+    }
+  },
+  "duplicates": [],
+  "errors": [],
+  "excluded": [],
+  "invalid": [],
+  "publishable": true,
+  "reviewedCount": 72,
+  "schemaVersion": 1
+}

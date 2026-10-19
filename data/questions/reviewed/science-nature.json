@@ -1,0 +1,518 @@
+[
+  {
+    "id": "questionados:science-nature:b9ac9b7e458bc0e3",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a estrela do Sistema Solar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lua"
+      },
+      {
+        "id": "option-1",
+        "text": "Sol"
+      },
+      {
+        "id": "option-2",
+        "text": "Vênus"
+      },
+      {
+        "id": "option-3",
+        "text": "Marte"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/sun/facts/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c3a357101fc1a240",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior planeta do Sistema Solar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Terra"
+      },
+      {
+        "id": "option-1",
+        "text": "Marte"
+      },
+      {
+        "id": "option-2",
+        "text": "Júpiter"
+      },
+      {
+        "id": "option-3",
+        "text": "Saturno"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/jupiter/jupiter-facts/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:9a905090345496ae",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a fórmula química da água?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "CO2"
+      },
+      {
+        "id": "option-1",
+        "text": "H2O"
+      },
+      {
+        "id": "option-2",
+        "text": "O2"
+      },
+      {
+        "id": "option-3",
+        "text": "CH4"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.usgs.gov/observatories/yvo/news/how-does-water-snow-and-rain-get-numerous-hot-springs-yellowstone",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:556d63734b0b3911",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual gás é o mais abundante na atmosfera terrestre seca, em volume?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oxigênio"
+      },
+      {
+        "id": "option-1",
+        "text": "Dióxido de carbono"
+      },
+      {
+        "id": "option-2",
+        "text": "Nitrogênio"
+      },
+      {
+        "id": "option-3",
+        "text": "Hidrogênio"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/climate-change/greenhouse-gases/the-atmosphere-getting-a-handle-on-carbon-dioxide/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:d29f57cc3bc0470d",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual situação caracteriza um eclipse solar visto da Terra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Lua fica entre a Terra e o Sol e encobre parte ou todo o disco solar"
+      },
+      {
+        "id": "option-1",
+        "text": "A Terra fica entre o Sol e a Lua e projeta sua sombra na Lua"
+      },
+      {
+        "id": "option-2",
+        "text": "O Sol fica entre a Terra e a Lua"
+      },
+      {
+        "id": "option-3",
+        "text": "Marte aparece no céu noturno"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/eclipses/types/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:87963949f20d6e08",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual processo permite às plantas converter energia luminosa em energia química?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fotossíntese"
+      },
+      {
+        "id": "option-1",
+        "text": "Respiração"
+      },
+      {
+        "id": "option-2",
+        "text": "Digestão"
+      },
+      {
+        "id": "option-3",
+        "text": "Fermentação"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://research.fs.usda.gov/treesearch/13671",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:64cdce19d8014963",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a definição de exoplaneta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um planeta localizado dentro do Sistema Solar"
+      },
+      {
+        "id": "option-1",
+        "text": "Qualquer planeta que tenha anéis"
+      },
+      {
+        "id": "option-2",
+        "text": "Um planeta localizado fora do Sistema Solar"
+      },
+      {
+        "id": "option-3",
+        "text": "Qualquer planeta formado principalmente por gases"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/exoplanets/facts/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:001ad4d2d581932f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade básica da hereditariedade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gene"
+      },
+      {
+        "id": "option-1",
+        "text": "RNA"
+      },
+      {
+        "id": "option-2",
+        "text": "Proteína"
+      },
+      {
+        "id": "option-3",
+        "text": "Cromossomo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:4ad04448e52694cd",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de base da temperatura termodinâmica no Sistema Internacional de Unidades (SI)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "kelvin (K)"
+      },
+      {
+        "id": "option-1",
+        "text": "grau Celsius (°C)"
+      },
+      {
+        "id": "option-2",
+        "text": "grau Fahrenheit (°F)"
+      },
+      {
+        "id": "option-3",
+        "text": "grau Rankine (°R)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bipm.org/en/si-base-units/kelvin",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c7d7b315959362ab",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cientista recebeu o Nobel de Física em 1903 e o de Química em 1911?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marie Curie"
+      },
+      {
+        "id": "option-1",
+        "text": "Rosalind Franklin"
+      },
+      {
+        "id": "option-2",
+        "text": "Dorothy Crowfoot Hodgkin"
+      },
+      {
+        "id": "option-3",
+        "text": "Barbara McClintock"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:456a943d5d51794e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que é um pulsar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Um tipo de cometa"
+      },
+      {
+        "id": "option-1",
+        "text": "Um planeta em formação"
+      },
+      {
+        "id": "option-2",
+        "text": "Um tipo de galáxia"
+      },
+      {
+        "id": "option-3",
+        "text": "Uma estrela de nêutrons em rotação cujos feixes de radiação são detectados como pulsos"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/universe/stars/types/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c16a982c64f4f277",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de pressão no Sistema Internacional de Unidades (SI)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "pascal (Pa)"
+      },
+      {
+        "id": "option-1",
+        "text": "newton (N)"
+      },
+      {
+        "id": "option-2",
+        "text": "watt (W)"
+      },
+      {
+        "id": "option-3",
+        "text": "joule (J)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 74,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  }
+]

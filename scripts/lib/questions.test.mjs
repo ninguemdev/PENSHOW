@@ -4,10 +4,18 @@ import { normalizedPrompt, parseQuestionados, questionId, validateQuestion } fro
 
 function sample() {
   return {
-    id: 'sample:geography:1', category: 'geography', locale: 'pt-BR', type: 'multiple',
+    id: 'sample:geography:1',
+    category: 'geography',
+    locale: 'pt-BR',
+    type: 'multiple',
     prompt: 'Qual é a capital do Brasil?',
-    options: ['Brasília', 'Recife', 'Manaus', 'Santos'].map((text, index) => ({ id: `option-${index}`, text })),
-    correctOptionId: 'option-0', difficulty: 'unrated', status: 'needs-review',
+    options: ['Brasília', 'Recife', 'Manaus', 'Santos'].map((text, index) => ({
+      id: `option-${index}`,
+      text,
+    })),
+    correctOptionId: 'option-0',
+    difficulty: 'unrated',
+    status: 'needs-review',
     source: { id: 'sample', url: 'https://example.com/questions', recordIndex: 0, license: 'MIT' },
   };
 }
@@ -35,7 +43,9 @@ test('não adivinha gabarito quando a fonte usa campo incorreto', () => {
 
 test('aceita registro íntegro e recusa gabarito fora das alternativas', () => {
   assert.deepEqual(validateQuestion(sample()), []);
-  assert.ok(validateQuestion({ ...sample(), correctOptionId: 'option-7' }).includes('Gabarito inválido'));
+  assert.ok(
+    validateQuestion({ ...sample(), correctOptionId: 'option-7' }).includes('Gabarito inválido'),
+  );
 });
 
 test('detecta alternativas equivalentes apesar de acento, caixa e pontuação', () => {
@@ -46,15 +56,28 @@ test('detecta alternativas equivalentes apesar de acento, caixa e pontuação', 
 });
 
 test('exige dois itens para verdadeiro/falso e quatro para múltipla escolha', () => {
-  assert.ok(validateQuestion({ ...sample(), type: 'boolean' }).includes('Esperadas 2 alternativas'));
+  assert.ok(
+    validateQuestion({ ...sample(), type: 'boolean' }).includes('Esperadas 2 alternativas'),
+  );
   const question = { ...sample(), type: 'boolean', options: sample().options.slice(0, 2) };
   assert.deepEqual(validateQuestion(question), []);
 });
 
 test('aprovação exige português, referência factual e data de revisão', () => {
   assert.ok(validateQuestion({ ...sample(), status: 'approved' }).length > 0);
-  assert.deepEqual(validateQuestion({ ...sample(), status: 'approved',
-    review: { referenceUrl: 'https://example.com/fact', reviewedAt: '2026-10-16' } }), []);
+  assert.deepEqual(
+    validateQuestion({
+      ...sample(),
+      status: 'approved',
+      difficulty: 'easy',
+      review: {
+        referenceUrl: 'https://example.com/fact',
+        reviewedAt: '2026-10-16',
+        checks: { factual: true, language: true, uniqueAnswer: true },
+      },
+    }),
+    [],
+  );
   assert.ok(validateQuestion({ ...sample(), status: 'approved', locale: 'en' }).length > 0);
 });
 

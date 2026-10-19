@@ -1,0 +1,518 @@
+[
+  {
+    "id": "questionados:geography:0f036a88c17c3e8b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasília"
+      },
+      {
+        "id": "option-1",
+        "text": "Rio de Janeiro"
+      },
+      {
+        "id": "option-2",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-3",
+        "text": "Belém"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://educa.ibge.gov.br/images/educa/criancas/brincadeiras/Cartas_Perguntas_Bingo_Brasil.pdf",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:1e9b4f397b33906f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual continente está localizado o Deserto do Saara?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "África"
+      },
+      {
+        "id": "option-1",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-2",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Austrália"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/blogs/earth-matters/2012/11/02/dune-gallery/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:10c7585ba82caee2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Segundo a ONU, qual país ultrapassou a China em população em 2023?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "China"
+      },
+      {
+        "id": "option-1",
+        "text": "Índia"
+      },
+      {
+        "id": "option-2",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-3",
+        "text": "Indonésia"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://india.unfpa.org/en/publications/indias-population-growth-and-policy-implications",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:d6bf8e88f126bf71",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que país está localizado o Taj Mahal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Índia"
+      },
+      {
+        "id": "option-1",
+        "text": "Egito"
+      },
+      {
+        "id": "option-2",
+        "text": "Turquia"
+      },
+      {
+        "id": "option-3",
+        "text": "China"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/252/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:380a6881efad86b5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual oceano tem a maior área de superfície da Terra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://oceanservice.noaa.gov/facts/pacific.html",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:8e879f857d0a4b0b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual continente fica o Polo Sul geográfico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antártica"
+      },
+      {
+        "id": "option-1",
+        "text": "África"
+      },
+      {
+        "id": "option-2",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nsf.gov/od/opp/ail/amundson-scott-south-pole-station",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:58d3da4a8ea70640",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Austrália?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canberra"
+      },
+      {
+        "id": "option-1",
+        "text": "Sydney"
+      },
+      {
+        "id": "option-2",
+        "text": "Melbourne"
+      },
+      {
+        "id": "option-3",
+        "text": "Brisbane"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nca.gov.au/education/canberras-history/siting-and-naming-canberra",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:1fb2a8e6a10de09b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que oceano fica a Ilha de Páscoa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/easter-island-rapa-nui-5366/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:e3ed0c082081adac",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior lago de água doce do mundo em volume de água?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lago Baikal"
+      },
+      {
+        "id": "option-1",
+        "text": "Lago Vitória"
+      },
+      {
+        "id": "option-2",
+        "text": "Lago Superior"
+      },
+      {
+        "id": "option-3",
+        "text": "Lago Titicaca"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.usgs.gov/media/images/lake-baikal-space-largest-oldest-and-deepest-lake",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:f253e3e13f976eb0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual mar o rio Danúbio deságua?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mar Negro"
+      },
+      {
+        "id": "option-1",
+        "text": "Mar Adriático"
+      },
+      {
+        "id": "option-2",
+        "text": "Mar Báltico"
+      },
+      {
+        "id": "option-3",
+        "text": "Mar Vermelho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.icpdr.org/danube-basin/receiving-sea-black-sea",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:f114912594870f02",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano ocorreu a inauguração oficial do Canal do Panamá?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1914"
+      },
+      {
+        "id": "option-1",
+        "text": "1888"
+      },
+      {
+        "id": "option-2",
+        "text": "1925"
+      },
+      {
+        "id": "option-3",
+        "text": "1902"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://pancanal.com/canal-de-panama-celebra-101-anos-de-operacion/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:4f4c76a6f363d462",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país fica o sítio arqueológico de Petra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jordânia"
+      },
+      {
+        "id": "option-1",
+        "text": "Egito"
+      },
+      {
+        "id": "option-2",
+        "text": "Turquia"
+      },
+      {
+        "id": "option-3",
+        "text": "Líbano"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/326/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  }
+]

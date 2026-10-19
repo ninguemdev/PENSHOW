@@ -1,0 +1,518 @@
+[
+  {
+    "id": "questionados:sports:d8d792a1c7a26ad9",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual jogador brasileiro ficou conhecido pelo apelido “Rei do Futebol”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Diego Maradona"
+      },
+      {
+        "id": "option-1",
+        "text": "Pelé"
+      },
+      {
+        "id": "option-2",
+        "text": "Cristiano Ronaldo"
+      },
+      {
+        "id": "option-3",
+        "text": "Lionel Messi"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.cbf.com.br/selecao-brasileira/noticias/detalhes/selecao-masculina/2-anos-sem-pele-o-rei-do-futebol",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:4191c1e7be910dbb",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual categoria do automobilismo Ayrton Senna foi tricampeão mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fórmula 1"
+      },
+      {
+        "id": "option-1",
+        "text": "Fórmula Indy"
+      },
+      {
+        "id": "option-2",
+        "text": "Rali mundial"
+      },
+      {
+        "id": "option-3",
+        "text": "Fórmula E"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.formula1.com/en/information/drivers-hall-of-fame-ayrton-senna.FLD7ZtO0nUn7JzLEn5rOJ",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:bb00beb19b1e6379",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual esporte Michael Jordan conquistou seis títulos da NBA pelo Chicago Bulls?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Basquete"
+      },
+      {
+        "id": "option-1",
+        "text": "Golfe"
+      },
+      {
+        "id": "option-2",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-3",
+        "text": "Futebol Americano"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nba.com/news/history-nba-legend-michael-jordan?lv=true",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:c889d6c67e9ca971",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual esporte o brasileiro Gustavo Kuerten se destacou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vôlei"
+      },
+      {
+        "id": "option-1",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-2",
+        "text": "Surfe"
+      },
+      {
+        "id": "option-3",
+        "text": "Natação"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.atptour.com/players/gustavo-kuerten/k293/bio",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:a45ad559aaea3673",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país sediou a Copa do Mundo de futebol masculino da FIFA em 2022?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Egito"
+      },
+      {
+        "id": "option-1",
+        "text": "Catar"
+      },
+      {
+        "id": "option-2",
+        "text": "Emirados Árabes Unidos"
+      },
+      {
+        "id": "option-3",
+        "text": "Arábia Saudita"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022/news/spectacular-opening-ceremony-signals-the-start-of-fifa-world-cup-qatar-2022",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:f949ccc4a18a3a43",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual destes esportes é disputado com raquetes e uma peteca?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Badminton"
+      },
+      {
+        "id": "option-1",
+        "text": "Tênis"
+      },
+      {
+        "id": "option-2",
+        "text": "Tênis de mesa"
+      },
+      {
+        "id": "option-3",
+        "text": "Squash"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://media.specialolympics.org/resources/sports-essentials/coaching-guides/Sports-Essentials-Badminton-Coaching-Guide-2026-EN.pdf",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:3031d522ddb277b1",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o mascote oficial da Copa do Mundo de futebol masculino da FIFA de 2014, no Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fuleco"
+      },
+      {
+        "id": "option-1",
+        "text": "Zabivaka"
+      },
+      {
+        "id": "option-2",
+        "text": "Pique"
+      },
+      {
+        "id": "option-3",
+        "text": "Goleo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://inside.fifa.com/en/tournaments/mens/worldcup/2014brazil/watch/fuleco-finds-a-surprise-2336156",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:bf82d7a8ea8588f7",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano o Brasil sediou pela primeira vez a Copa do Mundo de futebol masculino da FIFA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1950"
+      },
+      {
+        "id": "option-1",
+        "text": "1954"
+      },
+      {
+        "id": "option-2",
+        "text": "1958"
+      },
+      {
+        "id": "option-3",
+        "text": "1962"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://inside.fifa.com/tournaments/mens/u17worldcup/brazil2019/news/brazil-the-perfect-backdrop-for-prestigious-competition",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:93831f3c87a01014",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual seleção venceu a primeira Copa do Mundo de futebol masculino da FIFA, em 1930?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Uruguai"
+      },
+      {
+        "id": "option-2",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-3",
+        "text": "Alemanha"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://inside.fifa.com/news/world-first-for-uruguay-2053846",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:c52b6d8dcffa09a6",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país sediou os Jogos Olímpicos de Inverno de PyeongChang, em 2018?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-1",
+        "text": "Coreia do Sul"
+      },
+      {
+        "id": "option-2",
+        "text": "Noruega"
+      },
+      {
+        "id": "option-3",
+        "text": "Rússia"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://newsroom.olympics.com/record/900/media_id/1385",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:73242463048579b4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o técnico da seleção brasileira masculina de futebol na conquista da Copa do Mundo de 2002?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carlos Alberto Parreira"
+      },
+      {
+        "id": "option-1",
+        "text": "Tite"
+      },
+      {
+        "id": "option-2",
+        "text": "Dunga"
+      },
+      {
+        "id": "option-3",
+        "text": "Luiz Felipe Scolari"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 31,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/pt/news/articles/copa-2002-brasil-campeao-penta",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:417fa3df906c4664",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quantas medalhas de ouro o Brasil conquistou nos Jogos Olímpicos de Tóquio 2020, realizados em 2021?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "7"
+      },
+      {
+        "id": "option-3",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.cob.org.br/comunicacao/noticias/atletas-olimpicos-sao-recebidos-pelo-presidente-da-republica-jair-bolsonaro-em-brasilia",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  }
+]

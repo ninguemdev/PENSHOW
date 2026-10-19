@@ -1,0 +1,518 @@
+[
+  {
+    "id": "questionados:history:88806f3eb541f3c2",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro presidente da República do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Getúlio Vargas"
+      },
+      {
+        "id": "option-1",
+        "text": "Juscelino Kubitschek"
+      },
+      {
+        "id": "option-2",
+        "text": "Deodoro da Fonseca"
+      },
+      {
+        "id": "option-3",
+        "text": "Marechal Floriano Peixoto"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/212-manuel-deodoro-da-fonseca",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:f2079d0760e77b6c",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a Primeira Guerra Mundial começou?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1914"
+      },
+      {
+        "id": "option-1",
+        "text": "1917"
+      },
+      {
+        "id": "option-2",
+        "text": "1918"
+      },
+      {
+        "id": "option-3",
+        "text": "1920"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nam.ac.uk/explore/first-world-war",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:2252198a840c5ee2",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a invasão alemã da Polônia marcou o início da Segunda Guerra Mundial na Europa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1939"
+      },
+      {
+        "id": "option-1",
+        "text": "1941"
+      },
+      {
+        "id": "option-2",
+        "text": "1943"
+      },
+      {
+        "id": "option-3",
+        "text": "1945"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939?parent=en%2F55299",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:a9cd0effdcde5f0b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual civilização construiu as pirâmides de Gizé?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mesopotâmica"
+      },
+      {
+        "id": "option-1",
+        "text": "Romana"
+      },
+      {
+        "id": "option-2",
+        "text": "Egípcia"
+      },
+      {
+        "id": "option-3",
+        "text": "Chinesa"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/86/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:496ec9b4cca085d8",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder contra o apartheid tomou posse como presidente da África do Sul em 1994?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nelson Mandela"
+      },
+      {
+        "id": "option-1",
+        "text": "Desmond Tutu"
+      },
+      {
+        "id": "option-2",
+        "text": "Steve Biko"
+      },
+      {
+        "id": "option-3",
+        "text": "Thabo Mbeki"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nelsonmandela.org/biography",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:2315b08a4ddec013",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual ataque japonês levou à entrada dos Estados Unidos na Segunda Guerra Mundial, em dezembro de 1941?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ataque a Pearl Harbor"
+      },
+      {
+        "id": "option-1",
+        "text": "Bombardeio de Hiroshima"
+      },
+      {
+        "id": "option-2",
+        "text": "Invasão da Normandia"
+      },
+      {
+        "id": "option-3",
+        "text": "Ataque a Londres"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nps.gov/wwii/learn/historyculture/pearl-harbor.htm",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:f458ae2bc6b72cfb",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual rainha governou a Inglaterra de 1558 a 1603?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Maria I"
+      },
+      {
+        "id": "option-1",
+        "text": "Ana"
+      },
+      {
+        "id": "option-2",
+        "text": "Elizabeth I (Isabel I)"
+      },
+      {
+        "id": "option-3",
+        "text": "Vitória"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.royal.uk/elizabeth-i",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:186775b5b6d4ed20",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro imperador romano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Júlio César"
+      },
+      {
+        "id": "option-1",
+        "text": "Augusto"
+      },
+      {
+        "id": "option-2",
+        "text": "Nero"
+      },
+      {
+        "id": "option-3",
+        "text": "Calígula"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.britishmuseum.org/collection/term/BIOG57074",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:c7536d3ca4b28335",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual arquiduque foi assassinado em Sarajevo em 1914, no atentado que precipitou a crise anterior à Primeira Guerra Mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Francisco Ferdinando (Franz Ferdinand)"
+      },
+      {
+        "id": "option-1",
+        "text": "Francisco José I"
+      },
+      {
+        "id": "option-2",
+        "text": "Otto von Bismarck"
+      },
+      {
+        "id": "option-3",
+        "text": "Guilherme II"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nam.ac.uk/explore/to-arms-1914",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:b42dfbc2ecfb601a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano a União Soviética foi oficialmente dissolvida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1989"
+      },
+      {
+        "id": "option-1",
+        "text": "1991"
+      },
+      {
+        "id": "option-2",
+        "text": "1993"
+      },
+      {
+        "id": "option-3",
+        "text": "1995"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:c2d183fb08abc6ce",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual tratado de paz definitivo, assinado em 10 de maio de 1871, encerrou a Guerra Franco-Prussiana?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tratado de Paris"
+      },
+      {
+        "id": "option-1",
+        "text": "Tratado de Versalhes"
+      },
+      {
+        "id": "option-2",
+        "text": "Tratado de Frankfurt"
+      },
+      {
+        "id": "option-3",
+        "text": "Tratado de Brest-Litovski"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/1870-1871-guerre-franco-prussienne/guerre-franco-0",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:8996b120738dfab0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual sufragista fundou a Women’s Social and Political Union (WSPU), no Reino Unido, em 1903?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Emmeline Pankhurst"
+      },
+      {
+        "id": "option-1",
+        "text": "Florence Nightingale"
+      },
+      {
+        "id": "option-2",
+        "text": "Rainha Vitória"
+      },
+      {
+        "id": "option-3",
+        "text": "Jane Austen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 55,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/speakers-conference/emmeline-pankhurst/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  }
+]

@@ -1,0 +1,518 @@
+[
+  {
+    "id": "questionados:pop-culture:bc12cf7163129d52",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual ator interpretou Tony Stark, o Homem de Ferro, no filme “Homem de Ferro” de 2008?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chris Evans"
+      },
+      {
+        "id": "option-1",
+        "text": "Robert Downey Jr."
+      },
+      {
+        "id": "option-2",
+        "text": "Chris Hemsworth"
+      },
+      {
+        "id": "option-3",
+        "text": "Mark Ruffalo"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.marvel.com/articles/movies/iron-man-kevin-feige-jon-favreau-15-anniversary-interview?mibextid=Zxz2cZMarvel",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:e70c2707294a141d",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Jack no filme “Titanic”, de 1997?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brad Pitt"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonardo DiCaprio"
+      },
+      {
+        "id": "option-2",
+        "text": "Matt Damon"
+      },
+      {
+        "id": "option-3",
+        "text": "Johnny Depp"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.paramount.com/movies/titanic",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:12762fa46ea28f5b",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem deu voz a Woody na versão original em inglês de “Toy Story”, de 1995?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tom Hanks"
+      },
+      {
+        "id": "option-1",
+        "text": "Tim Allen"
+      },
+      {
+        "id": "option-2",
+        "text": "Billy Crystal"
+      },
+      {
+        "id": "option-3",
+        "text": "John Goodman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://catalog.afi.com/Film/55210-TOY-STORY",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:5a604a4e7cb34fb2",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da princesa sereia protagonista da animação Disney “A Pequena Sereia”, de 1989?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cinderela"
+      },
+      {
+        "id": "option-1",
+        "text": "Ariel"
+      },
+      {
+        "id": "option-2",
+        "text": "Bela"
+      },
+      {
+        "id": "option-3",
+        "text": "Jasmine"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://movies.disney.com/the-little-mermaid",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:bd34cf84877fc5f5",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Neo no filme “Matrix”, de 1999?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Keanu Reeves"
+      },
+      {
+        "id": "option-1",
+        "text": "Laurence Fishburne"
+      },
+      {
+        "id": "option-2",
+        "text": "Hugo Weaving"
+      },
+      {
+        "id": "option-3",
+        "text": "Carrie-Anne Moss"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 90,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bfi.org.uk/film/cc7edbb1-17e5-509b-935b-725045d722aa/the-matrix",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:f4486d97f25ea784",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem escreveu os sete romances da série “Harry Potter”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "J.R.R. Tolkien"
+      },
+      {
+        "id": "option-1",
+        "text": "C.S. Lewis"
+      },
+      {
+        "id": "option-2",
+        "text": "J.K. Rowling"
+      },
+      {
+        "id": "option-3",
+        "text": "George R.R. Martin"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.jkrowling.com/wp-content/uploads/2025/03/J.K.-Rowling-Biography-2025.pdf",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:23bbbcde658f5c61",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem dirigiu “A Origem” (“Inception”), de 2010?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Christopher Nolan"
+      },
+      {
+        "id": "option-1",
+        "text": "Quentin Tarantino"
+      },
+      {
+        "id": "option-2",
+        "text": "Steven Spielberg"
+      },
+      {
+        "id": "option-3",
+        "text": "James Cameron"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=inception",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:1be1452dfe62dbed",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual álbum de estúdio do Queen “Bohemian Rhapsody” foi lançada originalmente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Night at the Opera"
+      },
+      {
+        "id": "option-1",
+        "text": "News of the World"
+      },
+      {
+        "id": "option-2",
+        "text": "Sheer Heart Attack"
+      },
+      {
+        "id": "option-3",
+        "text": "The Game"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://store.queenonline.com/products/a-night-at-the-opera-cd",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:dac426abcf48514d",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou James Bond em “007 - Cassino Royale”, de 2006?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pierce Brosnan"
+      },
+      {
+        "id": "option-1",
+        "text": "Daniel Craig"
+      },
+      {
+        "id": "option-2",
+        "text": "Sean Connery"
+      },
+      {
+        "id": "option-3",
+        "text": "Roger Moore"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.festival-cannes.com/en/f/casino-royale/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:e98d92d88a2cc91c",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual álbum de estúdio de Adele foi lançada a música “Hello”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "25"
+      },
+      {
+        "id": "option-1",
+        "text": "21"
+      },
+      {
+        "id": "option-2",
+        "text": "19"
+      },
+      {
+        "id": "option-3",
+        "text": "30"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 99,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://shop.xlrecordings.com/release/346503-adele-25?lang=en_GB",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:78925f98e81c6462",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o álbum de estreia do Nirvana, lançado em 1989?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "In Utero"
+      },
+      {
+        "id": "option-1",
+        "text": "Nevermind"
+      },
+      {
+        "id": "option-2",
+        "text": "Bleach"
+      },
+      {
+        "id": "option-3",
+        "text": "Incesticide"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.subpop.com/releases/nirvana/bleach",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:9ef5eb5915256bd9",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem dirigiu “Piratas do Caribe: A Maldição do Pérola Negra”, de 2003?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steven Spielberg"
+      },
+      {
+        "id": "option-1",
+        "text": "Christopher Nolan"
+      },
+      {
+        "id": "option-2",
+        "text": "James Cameron"
+      },
+      {
+        "id": "option-3",
+        "text": "Gore Verbinski"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 98,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://movies.disney.com/pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  }
+]
