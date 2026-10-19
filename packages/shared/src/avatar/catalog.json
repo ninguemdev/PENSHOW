@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "categories": {
+    "head": {
+      "label": "Cabeça",
+      "required": true,
+      "options": [
+        {
+          "id": "head-round",
+          "label": "Redonda",
+          "file": "head/head-round.png"
+        },
+        {
+          "id": "head-square",
+          "label": "Quadrada",
+          "file": "head/head-square.png"
+        },
+        {
+          "id": "head-oval",
+          "label": "Oval",
+          "file": "head/head-oval.png"
+        },
+        {
+          "id": "head-cloud",
+          "label": "Nuvem",
+          "file": "head/head-cloud.png"
+        }
+      ]
+    },
+    "eyes": {
+      "label": "Olhos",
+      "required": true,
+      "options": [
+        {
+          "id": "eyes-dots",
+          "label": "Pontinhos",
+          "file": "eyes/eyes-dots.png"
+        },
+        {
+          "id": "eyes-wide",
+          "label": "Arregalados",
+          "file": "eyes/eyes-wide.png"
+        },
+        {
+          "id": "eyes-sleepy",
+          "label": "Sonolentos",
+          "file": "eyes/eyes-sleepy.png"
+        },
+        {
+          "id": "eyes-happy",
+          "label": "Felizes",
+          "file": "eyes/eyes-happy.png"
+        },
+        {
+          "id": "eyes-angry",
+          "label": "Bravos",
+          "file": "eyes/eyes-angry.png"
+        },
+        {
+          "id": "eyes-classic-open",
+          "label": "Clássicos",
+          "file": "eyes/eyes-classic-open.png"
+        },
+        {
+          "id": "eyes-wink-left",
+          "label": "Piscadela",
+          "file": "eyes/eyes-wink-left.png"
+        },
+        {
+          "id": "eyes-dizzy-spiral",
+          "label": "Espirais",
+          "file": "eyes/eyes-dizzy-spiral.png"
+        },
+        {
+          "id": "eyes-heart-pupils",
+          "label": "Apaixonados",
+          "file": "eyes/eyes-heart-pupils.png"
+        },
+        {
+          "id": "eyes-suspicious",
+          "label": "Desconfiados",
+          "file": "eyes/eyes-suspicious.png"
+        }
+      ]
+    },
+    "mouth": {
+      "label": "Boca",
+      "required": true,
+      "options": [
+        {
+          "id": "mouth-smile",
+          "label": "Sorriso",
+          "file": "mouth/mouth-smile.png"
+        },
+        {
+          "id": "mouth-tongue",
+          "label": "Língua de fora",
+          "file": "mouth/mouth-tongue.png"
+        },
+        {
+          "id": "mouth-big-grin",
+          "label": "Sorriso largo",
+          "file": "mouth/mouth-big-grin.png"
+        },
+        {
+          "id": "mouth-open-happy",
+          "label": "Aberta feliz",
+          "file": "mouth/mouth-open-happy.png"
+        },
+        {
+          "id": "mouth-surprised-o",
+          "label": "Surpresa",
+          "file": "mouth/mouth-surprised-o.png"
+        },
+        {
+          "id": "mouth-sad",
+          "label": "Triste",
+          "file": "mouth/mouth-sad.png"
+        },
+        {
+          "id": "mouth-smirk",
+          "label": "Sorriso de canto",
+          "file": "mouth/mouth-smirk.png"
+        },
+        {
+          "id": "mouth-clenched-teeth",
+          "label": "Dentes cerrados",
+          "file": "mouth/mouth-clenched-teeth.png"
+        },
+        {
+          "id": "mouth-laugh",
+          "label": "Gargalhada",
+          "file": "mouth/mouth-laugh.png"
+        },
+        {
+          "id": "mouth-zigzag-nervous",
+          "label": "Nervosa",
+          "file": "mouth/mouth-zigzag-nervous.png"
+        }
+      ]
+    },
+    "cheeks": {
+      "label": "Bochechas",
+      "required": false,
+      "options": [
+        {
+          "id": "cheeks-blush",
+          "label": "Coradas",
+          "file": "cheeks/cheeks-blush.png"
+        },
+        {
+          "id": "cheeks-freckles",
+          "label": "Sardas",
+          "file": "cheeks/cheeks-freckles.png"
+        },
+        {
+          "id": "cheeks-hearts",
+          "label": "Corações",
+          "file": "cheeks/cheeks-hearts.png"
+        },
+        {
+          "id": "cheeks-stripes",
+          "label": "Riscos",
+          "file": "cheeks/cheeks-stripes.png"
+        },
+        {
+          "id": "cheeks-stars",
+          "label": "Estrelas",
+          "file": "cheeks/cheeks-stars.png"
+        },
+        {
+          "id": "cheeks-whisker-lines",
+          "label": "Marcas de gato",
+          "file": "cheeks/cheeks-whisker-lines.png"
+        }
+      ]
+    },
+    "faceAccessory": {
+      "label": "Acessório",
+      "required": false,
+      "options": [
+        {
+          "id": "face-accessory-glasses",
+          "label": "Óculos",
+          "file": "face-accessory/face-accessory-glasses.png"
+        },
+        {
+          "id": "face-accessory-sunglasses",
+          "label": "Óculos escuros",
+          "file": "face-accessory/face-accessory-sunglasses.png"
+        },
+        {
+          "id": "face-accessory-mustache",
+          "label": "Bigode",
+          "file": "face-accessory/face-accessory-mustache.png"
+        },
+        {
+          "id": "face-accessory-eyepatch",
+          "label": "Tapa-olho",
+          "file": "face-accessory/face-accessory-eyepatch.png"
+        },
+        {
+          "id": "face-accessory-monocle",
+          "label": "Monóculo",
+          "file": "face-accessory/face-accessory-monocle.png"
+        },
+        {
+          "id": "face-accessory-clown-nose",
+          "label": "Nariz de palhaço",
+          "file": "face-accessory/face-accessory-clown-nose.png"
+        },
+        {
+          "id": "face-accessory-surgical-mask",
+          "label": "Máscara",
+          "file": "face-accessory/face-accessory-surgical-mask.png"
+        },
+        {
+          "id": "face-accessory-bandana",
+          "label": "Bandana",
+          "file": "face-accessory/face-accessory-bandana.png"
+        },
+        {
+          "id": "face-accessory-nose-bandage",
+          "label": "Curativo",
+          "file": "face-accessory/face-accessory-nose-bandage.png"
+        },
+        {
+          "id": "face-accessory-disguise-glasses",
+          "label": "Disfarce",
+          "file": "face-accessory/face-accessory-disguise-glasses.png"
+        }
+      ]
+    },
+    "hat": {
+      "label": "Chapéu",
+      "required": false,
+      "options": [
+        {
+          "id": "hat-cap",
+          "label": "Boné",
+          "file": "hat/hat-cap.png"
+        },
+        {
+          "id": "hat-top",
+          "label": "Cartola",
+          "file": "hat/hat-top.png"
+        },
+        {
+          "id": "hat-beanie",
+          "label": "Gorro",
+          "file": "hat/hat-beanie.png"
+        },
+        {
+          "id": "hat-crown",
+          "label": "Coroa",
+          "file": "hat/hat-crown.png"
+        },
+        {
+          "id": "hat-party",
+          "label": "Festa",
+          "file": "hat/hat-party.png"
+        },
+        {
+          "id": "hat-cowboy",
+          "label": "Cowboy",
+          "file": "hat/hat-cowboy.png"
+        },
+        {
+          "id": "hat-chef",
+          "label": "Cozinheiro",
+          "file": "hat/hat-chef.png"
+        },
+        {
+          "id": "hat-graduation",
+          "label": "Formatura",
+          "file": "hat/hat-graduation.png"
+        },
+        {
+          "id": "hat-wizard",
+          "label": "Mago",
+          "file": "hat/hat-wizard.png"
+        },
+        {
+          "id": "hat-propeller",
+          "label": "Hélice",
+          "file": "hat/hat-propeller.png"
+        }
+      ]
+    }
+  }
+}

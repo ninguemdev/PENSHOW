@@ -1,0 +1,274 @@
+import cors from '@fastify/cors';
+import {
+  createDomainError,
+  healthResponseSchema,
+  PROTOCOL_VERSION,
+  serverEventSchema,
+  socketCredentialsSchema,
+} from '@penshow/shared';
+import Fastify, { LogController } from 'fastify';
+import type { FastifyLoggerOptions } from 'fastify';
+import { Server } from 'socket.io';
+import type { Socket } from 'socket.io';
+import type { Runtime, SessionTokenCodec } from './ports.js';
+import { loadConfig, SOCKET_PATH, validateConfig } from './platform/config.js';
+import type { ServerConfig } from './platform/config.js';
+import { createDispatcher } from './platform/realtime/dispatcher.js';
+import type { CommandHandlers } from './platform/realtime/dispatcher.js';
+import { createSystemRuntime } from './platform/runtime.js';
+import { createSystemSessionTokens } from './platform/session-tokens.js';
+import { GuestSessionStore } from './modules/guest-identity/session-store.js';
+import type { SessionProof } from './modules/guest-identity/session-store.js';
+import { ActiveConnections } from './modules/guest-identity/active-connections.js';
+import { registerSessionRoutes } from './modules/guest-identity/session.routes.js';
+import { RoomService, type RoomActor } from './modules/rooms/room.service.js';
+import type { RoomPolicy } from './modules/rooms/room-policy.js';
+import { createRoomHandlers } from './modules/rooms/room.handlers.js';
+import { MatchService } from './modules/matches/match.service.js';
+import { createMatchHandlers } from './modules/matches/match.handlers.js';
+import { createRoomPublisher } from './modules/views/room-publisher.js';
+import { PublicCommandError } from './command-error.js';
+import { closeConnections } from './platform/realtime/close-connections.js';
+import { LocalQuestionRepository } from './platform/local-question.repository.js';
+import type { QuestionRepository } from './modules/questions/question.repository.js';
+
+export interface AppDependencies {
+  config?: ServerConfig;
+  runtime?: Runtime;
+  sessionTokens?: SessionTokenCodec;
+  handlers?: CommandHandlers;
+  logStream?: FastifyLoggerOptions['stream'];
+  roomPolicy?: RoomPolicy;
+  questions?: QuestionRepository;
+  questionCatalogFile?: string | URL;
+}
+
+export function buildApp(deps: AppDependencies = {}) {
+  const config = validateConfig(deps.config ?? loadConfig());
+  const app = Fastify({
+    bodyLimit: config.httpBodyLimit,
+    logController: new LogController({ disableRequestLogging: true }),
+    genReqId: () => runtime.ids.next(),
+    logger: {
+      level: config.logLevel,
+      ...(deps.logStream ? { stream: deps.logStream } : {}),
+      serializers: {
+        req: () => ({}),
+        res: () => ({}),
+        err: () => ({ type: 'Error', message: 'Falha interna.', stack: '' }),
+      },
+      redact: {
+        paths: [
+          'req',
+          'res',
+          'err',
+          'body',
+          'payload',
+          'auth',
+          'token',
+          'authorization',
+          'cookie',
+          'answer',
+          'optionId',
+          'correctOptionId',
+        ],
+        remove: true,
+      },
+    },
+  });
+  const runtime =
+    deps.runtime ?? createSystemRuntime(() => app.log.error('Falha em tarefa agendada.'));
+  const sessions = new GuestSessionStore({
+    clock: runtime.clock,
+    scheduler: runtime.scheduler,
+    ids: runtime.ids,
+    tokens: deps.sessionTokens ?? createSystemSessionTokens(),
+    ttlMs: config.guestSessionTtlMs,
+  });
+  const connections = new ActiveConnections(sessions, runtime.scheduler);
+  const localQuestions = new LocalQuestionRepository(deps.questionCatalogFile);
+  const questions = deps.questions ?? localQuestions;
+  const allowed = new Set(config.allowedOrigins);
+  const acceptsOrigin = (origin: string | undefined) => origin === undefined || allowed.has(origin);
+
+  app.addHook('onRequest', async (request, reply) => {
+    if (!acceptsOrigin(request.headers.origin))
+      return reply.code(403).send({ error: createDomainError('FORBIDDEN') });
+  });
+  app.register(cors, {
+    origin: [...config.allowedOrigins],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  });
+  app.setErrorHandler((error, _request, reply) => {
+    const status =
+      error && typeof error === 'object' && 'statusCode' in error ? error.statusCode : undefined;
+    if (status === 400 || status === 413 || status === 415)
+      return reply.code(status).send({ error: createDomainError('INVALID_PAYLOAD') });
+    app.log.error('Falha interna ao processar requisição.');
+    return reply.code(500).send({ error: createDomainError('INTERNAL_ERROR') });
+  });
+  app.setNotFoundHandler((_request, reply) =>
+    reply.code(404).send({ error: createDomainError('NOT_FOUND') }),
+  );
+
+  app.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
+  registerSessionRoutes(app, sessions);
+  app.addHook('onReady', async () => {
+    if (!deps.questions) await localQuestions.load();
+    sessions.startSweeping();
+  });
+
+  let closing = false;
+  const realtime = new Server(app.server, {
+    path: SOCKET_PATH,
+    serveClient: false,
+    maxHttpBufferSize: config.socketMessageLimit,
+    cors: {
+      origin: [...config.allowedOrigins],
+      methods: ['GET', 'POST'],
+      allowedHeaders: ['Content-Type', 'Authorization'],
+    },
+    allowRequest: (request, callback) =>
+      callback(null, !closing && acceptsOrigin(request.headers.origin)),
+  });
+  const isCurrent = (actor: RoomActor) =>
+    connections.isCurrent(actor.playerId, actor.connectionId) &&
+    realtime.sockets.sockets.get(actor.connectionId)?.connected === true;
+  // This one-round prototype is available only in development/test, never as the full game.
+  const matches =
+    config.environment === 'production'
+      ? undefined
+      : new MatchService({
+          runtime,
+          questions,
+          isCurrentActor: (actor) => !closing && isCurrent(actor),
+          onError: () => app.log.error('Falha ao processar prazo da partida.'),
+        });
+  const rooms = new RoomService({
+    runtime,
+    ...(matches ? { quiz: matches } : {}),
+    ...(deps.roomPolicy ? { policy: deps.roomPolicy } : {}),
+    isCurrentActor: (actor) => !closing && isCurrent(actor),
+    onChange: createRoomPublisher({
+      clock: runtime.clock,
+      isCurrent,
+      send: (actor, event) => {
+        realtime.sockets.sockets.get(actor.connectionId)?.emit(event.event, event);
+      },
+      onError: () => app.log.error('Falha ao publicar visão de sala.'),
+    }),
+    onError: () => app.log.error('Falha ao observar alteração de sala.'),
+  });
+  const running = new Set<Promise<void>>();
+  const trackPresence = (task: Promise<void>) => {
+    const execution = task.catch((error) => {
+      if (!(error instanceof PublicCommandError))
+        app.log.error('Falha ao atualizar presença na sala.');
+    });
+    running.add(execution);
+    void execution.finally(() => running.delete(execution));
+  };
+  const proofs = new WeakMap<Socket, SessionProof>();
+  realtime.use((socket, next) => {
+    const raw = socket.handshake.auth;
+    socket.handshake.auth = {};
+    const reject = (code: 'UNAUTHENTICATED' | 'INTERNAL_ERROR') => {
+      const error = createDomainError(code);
+      next(Object.assign(new Error(error.message), { data: error }));
+    };
+    try {
+      const credentials = socketCredentialsSchema.safeParse(raw);
+      if (!credentials.success || closing) {
+        reject('UNAUTHENTICATED');
+        return;
+      }
+      if ('token' in credentials.data) {
+        const session = sessions.authenticate(credentials.data.token);
+        if (!session) {
+          reject('UNAUTHENTICATED');
+          return;
+        }
+        proofs.set(socket, { playerId: session.playerId, tokenHash: session.tokenHash });
+      }
+      next();
+    } catch {
+      app.log.error('Falha interna ao autenticar conexão.');
+      reject('INTERNAL_ERROR');
+    }
+  });
+  realtime.on('connection', (socket) => {
+    if (closing) {
+      socket.disconnect(true);
+      return;
+    }
+    const proof = proofs.get(socket);
+    proofs.delete(socket);
+    if (proof) {
+      let replaced = false;
+      const actor = { playerId: proof.playerId, connectionId: socket.id };
+      const claimed = connections.claim(proof, {
+        id: socket.id,
+        close: (reason) => {
+          replaced = reason === 'replaced';
+          const event = serverEventSchema.parse({
+            protocolVersion: PROTOCOL_VERSION,
+            event: 'session:ended',
+            payload: { reason },
+          });
+          socket.emit(event.event, event);
+          socket.disconnect(true);
+        },
+      });
+      if (!claimed) {
+        socket.disconnect(true);
+        return;
+      }
+      socket.once('disconnect', () => {
+        connections.release(proof.playerId, socket.id);
+        if (!closing && !replaced) trackPresence(rooms.disconnect(actor));
+      });
+      trackPresence(rooms.reconnect(actor));
+    }
+    const dispatch = createDispatcher({
+      clock: runtime.clock,
+      maxBytes: config.socketMessageLimit,
+      handlers: {
+        ...createRoomHandlers(rooms, socket.id),
+        ...(matches ? createMatchHandlers(rooms, matches, socket.id) : {}),
+        ...deps.handlers,
+      },
+      onInternalError: () => app.log.error('Falha interna ao processar comando.'),
+    });
+    socket.onAny((event: unknown, ...args: unknown[]) => {
+      const acknowledge = args.at(-1);
+      if (closing || typeof acknowledge !== 'function') return;
+      const execution = dispatch(event, args.length === 2 ? args[0] : undefined, () =>
+        proof ? connections.identify(proof, socket.id) : null,
+      )
+        .then((result) => {
+          if (socket.connected) acknowledge(result);
+        })
+        .catch(() => {
+          app.log.error('Falha ao confirmar comando.');
+        });
+      running.add(execution);
+      void execution.finally(() => running.delete(execution));
+    });
+  });
+  app.addHook('preClose', async () => {
+    closing = true;
+    await rooms.dispose();
+    connections.dispose();
+    await closeConnections(realtime.sockets.sockets.values());
+    realtime.engine.close();
+    sessions.dispose();
+    await runtime.scheduler.dispose();
+    await Promise.allSettled(running);
+  });
+  app.addHook('onClose', async () => {
+    await realtime.close();
+  });
+
+  return Object.assign(app, { runtime, realtime, config, sessions, rooms, questions, matches });
+}

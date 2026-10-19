@@ -1,0 +1,208 @@
+{
+  "repository": "https://github.com/ninguemdev/Comicle",
+  "commit": "4521f34df78da7de54a30715d50e748c50aa0696",
+  "sourceDirectory": "apps/web/public/avatars",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "head/head-round.png",
+      "sha256": "de7d184045a1474583ec0c3d1694743044a67f375a132aef2f6fcca365e8a871"
+    },
+    {
+      "file": "head/head-square.png",
+      "sha256": "c511feefbe3a436243bc6ab9161a2fb4636e7f578aa2be322a09abd939b690cc"
+    },
+    {
+      "file": "head/head-oval.png",
+      "sha256": "5b24c1d9d3fe83dcd67393980e7d9bf426027a5b7db6e4d1933aaf3bc9bc471a"
+    },
+    {
+      "file": "head/head-cloud.png",
+      "sha256": "5d3f3b856c2e7ba265ae47bbf3d8b8aae77ee95e6196e0533a151eb0272135bf"
+    },
+    {
+      "file": "eyes/eyes-dots.png",
+      "sha256": "ecac3d0b1e347d3f929c8ef63fd5f576c242da783d5ef090c006d83a42191d99"
+    },
+    {
+      "file": "eyes/eyes-wide.png",
+      "sha256": "d2c2b1a16df35e5666b6e0ca35a91979150d2db64e0536293fcfbadb73a3cff6"
+    },
+    {
+      "file": "eyes/eyes-sleepy.png",
+      "sha256": "f40af13b5c0c2a9121fa68d3bf6719eceda0ee864a36be11552d34df9f1c6a5f"
+    },
+    {
+      "file": "eyes/eyes-happy.png",
+      "sha256": "7f7dafd56b5fe437ce3fa6e94575ef68d8499567f1ce784b61d4d63ad6724321"
+    },
+    {
+      "file": "eyes/eyes-angry.png",
+      "sha256": "da35161326a0f9d3531af4668b3526e8a2c8b2fa089a9c4e057d9729fd78bc5d"
+    },
+    {
+      "file": "eyes/eyes-classic-open.png",
+      "sha256": "f5f911b4064e05e6de59dd509b7d9da841cbd302d112431ed348d6dd13926fc5"
+    },
+    {
+      "file": "eyes/eyes-wink-left.png",
+      "sha256": "5ff49dd07e71857e2270d3cb3a45a68d06101d44612e2c2aefdbd4949c07c9c1"
+    },
+    {
+      "file": "eyes/eyes-dizzy-spiral.png",
+      "sha256": "ed48490520b1ea5ba2ffb59c17942336b1f3de84a90f173358aca44d4dd97f1f"
+    },
+    {
+      "file": "eyes/eyes-heart-pupils.png",
+      "sha256": "250339e6daa964e8bacb95f1acb2ef81affa215a302277d4b6de6685cb67b26c"
+    },
+    {
+      "file": "eyes/eyes-suspicious.png",
+      "sha256": "00366b044affd59aa2bf3c216989718b4a6b0c7c705c90f16899dc8c7074f9d4"
+    },
+    {
+      "file": "mouth/mouth-smile.png",
+      "sha256": "b71af04e245c0f6c3c996249c72715c01bf829180185d6bbae25a4ccc6c1a09e"
+    },
+    {
+      "file": "mouth/mouth-tongue.png",
+      "sha256": "d38fab571ae8b697ca64197fde80c921579c5d5f51660b8e4f4091ac6966c822"
+    },
+    {
+      "file": "mouth/mouth-big-grin.png",
+      "sha256": "2ea5287b39352511cd91e29551c8a26e4ec142cbb3e95d48ae90956471d09909"
+    },
+    {
+      "file": "mouth/mouth-open-happy.png",
+      "sha256": "b345be8156071ea58752204b95dc4046da381cccf09ae8a0c43dfbe6e015828e"
+    },
+    {
+      "file": "mouth/mouth-surprised-o.png",
+      "sha256": "21e8f685e17054fed489f7d9a6aa6d26be3804f3db35c74b399a07870bf8b103"
+    },
+    {
+      "file": "mouth/mouth-sad.png",
+      "sha256": "3e28a169285df5f5cc5356cfc249f41525b9688e55a3b9b737708710341cd7fd"
+    },
+    {
+      "file": "mouth/mouth-smirk.png",
+      "sha256": "f96e3858552839a6e2f88e9e78313898d56d238007782c9e83ceb197f5f4854b"
+    },
+    {
+      "file": "mouth/mouth-clenched-teeth.png",
+      "sha256": "51a528ab2534d198a46f6836b89b8b5a3c1af7053885d3db8926c142fd75f9fd"
+    },
+    {
+      "file": "mouth/mouth-laugh.png",
+      "sha256": "49a7887f35e417589022198bc10808980efcbc00879917694e4eef5e891f7ad6"
+    },
+    {
+      "file": "mouth/mouth-zigzag-nervous.png",
+      "sha256": "90d290d860e6e0a8388008cf2e61e8b8aa94f3d7ffb7538c0f93dc731be78145"
+    },
+    {
+      "file": "cheeks/cheeks-blush.png",
+      "sha256": "f705a3bb704612de43a9f932dc301e8a6b45e7989226295c2c14a566530cb30f"
+    },
+    {
+      "file": "cheeks/cheeks-freckles.png",
+      "sha256": "966de32715a727e04b06d42ccd5c85fa7e009134eea9b648289b05e0f83f7dc5"
+    },
+    {
+      "file": "cheeks/cheeks-hearts.png",
+      "sha256": "7ee2cd43c6144c9451fff06c6117d2bee9db6db72fd18837ee2c46198ebf6efa"
+    },
+    {
+      "file": "cheeks/cheeks-stripes.png",
+      "sha256": "fb1baf9224f5c7609cac9f77d2aa076529921802c90e63b4d13f2c805eca9b77"
+    },
+    {
+      "file": "cheeks/cheeks-stars.png",
+      "sha256": "35afc655a9d6f66a54bb758dcfb891630d57429e3e8e27bf0a8764c597c98c31"
+    },
+    {
+      "file": "cheeks/cheeks-whisker-lines.png",
+      "sha256": "aca93ab11096ce20d1a6e6d99efab1231ba328d085a7e9c122d2aa8527e2ca1a"
+    },
+    {
+      "file": "face-accessory/face-accessory-glasses.png",
+      "sha256": "8bdc506a341890c72723a75cad538df043fa580a80c1e0cce34b759d4d3b8aed"
+    },
+    {
+      "file": "face-accessory/face-accessory-sunglasses.png",
+      "sha256": "7c3d6ba9aa83bf2e5084aa226d5f3e5ba4fd53ceb137a6de2ddc5ee0c1434f0d"
+    },
+    {
+      "file": "face-accessory/face-accessory-mustache.png",
+      "sha256": "503e41ebe6fa933ec9dc6d5fc19d729f3a678553d59194af1baf6c90855914f9"
+    },
+    {
+      "file": "face-accessory/face-accessory-eyepatch.png",
+      "sha256": "a233f9b2984e18be4cefb96236dc62a57a86b5e78835f4f5d73f1fa2bd874937"
+    },
+    {
+      "file": "face-accessory/face-accessory-monocle.png",
+      "sha256": "354a6257457379394303d365bb97cb59686a7fbab58bc08392fa39518b3efc6d"
+    },
+    {
+      "file": "face-accessory/face-accessory-clown-nose.png",
+      "sha256": "bfa3f3f82133831b3e933f86d1b0c70cd18472935395506916179ab2053014a6"
+    },
+    {
+      "file": "face-accessory/face-accessory-surgical-mask.png",
+      "sha256": "a4610bfb7d6087dd429099f0e482459870453859c36e413d4ea1a6a956480b7c"
+    },
+    {
+      "file": "face-accessory/face-accessory-bandana.png",
+      "sha256": "d3b395b72e3acd2065f3ca7b051f720fd1ded17d6aa64504f98017884c40fb58"
+    },
+    {
+      "file": "face-accessory/face-accessory-nose-bandage.png",
+      "sha256": "d453de9426202fd3a9edb1877a5733070dd013dd3def39992e6fed41352432fa"
+    },
+    {
+      "file": "face-accessory/face-accessory-disguise-glasses.png",
+      "sha256": "9008985436ea59e7618856182c300c467e3c022d0a394fee1233c987a07647bf"
+    },
+    {
+      "file": "hat/hat-cap.png",
+      "sha256": "a89723ab91a71541bf52ef4f121417bea016372f0724b1aaff4e642d22f0b76e"
+    },
+    {
+      "file": "hat/hat-top.png",
+      "sha256": "18440a0dde78de609406c27c62b4e9be1cf5a9e37d2ad67a304b9b7753484544"
+    },
+    {
+      "file": "hat/hat-beanie.png",
+      "sha256": "941645cfafad0c33a2dfef62c98aea5bec4a032e69f7bae064b76a0e1bef569c"
+    },
+    {
+      "file": "hat/hat-crown.png",
+      "sha256": "a76496d5ec2e7f83394b0c96f56d5673c67a1c3e38f6e2f4816ae6fe9944f73b"
+    },
+    {
+      "file": "hat/hat-party.png",
+      "sha256": "59d6b22d1811d13930850fa0719a82f7940e7f96be6638ec5da6a35fffe4dffe"
+    },
+    {
+      "file": "hat/hat-cowboy.png",
+      "sha256": "98d9dc7b886bc359b9652512b85a7856f2b60ec5e38d141d0f0bfcd4d7a423d2"
+    },
+    {
+      "file": "hat/hat-chef.png",
+      "sha256": "72dc084b39e13800d9cbaac825963cc5273a32ca13a1c15ef2c82984e1fafe25"
+    },
+    {
+      "file": "hat/hat-graduation.png",
+      "sha256": "d1b33906d517ea794a9a253fb8cb581364fc6b6209342090d616840ddbea8a85"
+    },
+    {
+      "file": "hat/hat-wizard.png",
+      "sha256": "4b90a968bc117f43fd9d485d2c5ec354a758313e5389feaa858c50690d57a49d"
+    },
+    {
+      "file": "hat/hat-propeller.png",
+      "sha256": "865493a5ff285a09457d59dba474e1684f4d20cfa0b06f29e9e4d13b11434f8f"
+    }
+  ]
+}

@@ -1,0 +1,4054 @@
+{
+  "schemaVersion": 1,
+  "task": "T11",
+  "reviewedAt": "2026-10-17",
+  "scope": "Lote inicial de 72 perguntas; não cobre partida completa de doze jogadores nem os marcos de 300/5.000 perguntas.",
+  "method": "Consulta individual às referências, revisão de todas as alternativas em pt-BR e comparação por sentido entre os 72 registros. Scripts validam estrutura/procedência; não certificam fatos.",
+  "difficultyBasis": {
+    "easy": "Reconhecimento de fatos amplamente difundidos no público geral brasileiro.",
+    "medium": "Conhecimento escolar ou cultural específico, com distinção entre distratores plausíveis.",
+    "hard": "Memória de detalhe histórico, nomenclatura técnica ou autoria arquitetônica especializada.",
+    "limitation": "Classificação editorial provisória, sem calibração estatística com jogadores. Os níveis são relativos ao lote e devem ser reavaliados após uso."
+  },
+  "semanticReview": "Nenhum par repete o mesmo fato perguntado, mesmo com palavras diferentes. Repetições de artista/país são fatos distintos: Van Gogh e duas obras; Índia e população/Taj Mahal; Pacífico e área/Ilha de Páscoa; guerras e início/atentado/entrada dos EUA. Não foram promovidas as variantes equivalentes dos candidatos.",
+  "unchangedInputsSha256": {
+    "data/questions/candidates/questionados/arts-literature.json": "c70c2cedd152c68f21cdd3ebf7e6583dac00dd584a8008a21f3423e7cf6effd0",
+    "data/questions/candidates/questionados/geography.json": "0d58d90aa1b09d57885016c180414cceb81812e0a797d65c82c7ceebc0d41bb7",
+    "data/questions/candidates/questionados/history.json": "461a13c2476868100f01508e33eda5346354839719f10bc432410cd45ecf8cdf",
+    "data/questions/candidates/questionados/pop-culture.json": "ca8166172a31a27e443826f334b121183720e83d055e0ca0a5621b26ee78f471",
+    "data/questions/candidates/questionados/science-nature.json": "2dd2a3f3982a5312947730a2e2b3c59bcb402810b67e920fbd8c0bc5402a703f",
+    "data/questions/candidates/questionados/sports.json": "a93486aecc3d3028e064687a1c14fb026cea168447f9720b43f36ed7d467fcd4",
+    "data/questions/candidates/opentdb/animals.json": "2b3dff02987b2fe94bc7f1291d93126bec2ff1b6c57d8aeaff22b45f89feef5b",
+    "data/questions/candidates/opentdb/animation.json": "2093ce3b577139de93b23228b938fb06528c419362e60199ecbb860b7500e885",
+    "data/questions/candidates/opentdb/anime-manga.json": "02455adc60a10c7b12ef8c57f52c561143dc78a5bd6ce6ee9bf0dd5a410b7f13",
+    "data/questions/candidates/opentdb/arts-literature.json": "b8ef8845f8d2bb789d504d12785611ea4fdeebae00034a87b364625fb8269bf5",
+    "data/questions/candidates/opentdb/board-games.json": "536aad4f900a297bf1dac01acd9a75059146852cd53f1beff1da9f1a56066707",
+    "data/questions/candidates/opentdb/comics.json": "e188d4c69c546c054153c84a23be1a6fe3e3d8881926fd42bcb0f46bfca861d2",
+    "data/questions/candidates/opentdb/film.json": "54545dcbfef8749950cc1e63b97ef41155435f2826f45d6491f2bac4fd9faa19",
+    "data/questions/candidates/opentdb/general-knowledge.json": "a533056a008178f22ed0c05861784e5b2b00a38b0306d0d3aaac2b4de3818408",
+    "data/questions/candidates/opentdb/geography.json": "6d4970878917f1adc60282181fdbbd7ff015844a433562b5657fde711d1b029b",
+    "data/questions/candidates/opentdb/history.json": "e20e1956911db0872d18ef26d6617022fb44fa140afdd9106e0474a372466c79",
+    "data/questions/candidates/opentdb/mathematics.json": "0a9b7102f15e844a651c323c895292b4321b2ece10284ffa90550ddfa0069fc1",
+    "data/questions/candidates/opentdb/music.json": "f1060ee1e7a03181faf2ab33dde6f0cf53f5cb67f9b14d7672aa9fba2785afce",
+    "data/questions/candidates/opentdb/mythology.json": "dca6995b8b9138df6d4ff1c59df1172d319a5c0f460a61fee02c5e727e1291b3",
+    "data/questions/candidates/opentdb/politics.json": "630171cff1060086e591f5d85aea3db9d850e5ed8aae3d006aaba75e1180dc0d",
+    "data/questions/candidates/opentdb/pop-culture.json": "ee41b8e811255c92f946f8785dfbac4ec6826f8d3d6e3751ca67ee692f804384",
+    "data/questions/candidates/opentdb/science-nature.json": "339f58b7f271fc311a8297a125eb9ee362c58953cdc95c1e43269ca81feb38ac",
+    "data/questions/candidates/opentdb/sports.json": "1a8d57cc0c7c80a9f9e681afe73c91f84bf498394a7f2a1819fb07d94e9d7622",
+    "data/questions/candidates/opentdb/technology.json": "93a5989a4fa55d327cc965fa4542845faf37c8774651221822b8f7f44058fcd9",
+    "data/questions/candidates/opentdb/television.json": "4f39df2d90d3423e48c42a4ce180b96826eded0ec4fb80e4cc04603f1126e7dd",
+    "data/questions/candidates/opentdb/theatre.json": "6dab667421d384bf4e72c84d679d81fc084a654b49bfa53566633d884c9f822e",
+    "data/questions/candidates/opentdb/vehicles.json": "339e35fd6d749f0a1ea184427fd7a32e40e79b9579e206605cf5d322525c1346",
+    "data/questions/candidates/opentdb/video-games.json": "0efb99dfebb1bbd27a0afd17f880a2c958ac354535360f3a8d1a5f2b0e14b81e",
+    "data/sources.json": "db173c09e7d7e85df3caabbef654af00046b4ddf96032a098366412823dfd2cb"
+  },
+  "records": [
+    {
+      "id": "questionados:geography:0f036a88c17c3e8b",
+      "category": "geography",
+      "difficulty": "easy",
+      "sourceRecordIndex": 0,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://educa.ibge.gov.br/images/educa/criancas/brincadeiras/Cartas_Perguntas_Bingo_Brasil.pdf",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é a capital do Brasil?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Brasília"
+          },
+          {
+            "id": "option-1",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "id": "option-2",
+            "text": "São Paulo"
+          },
+          {
+            "id": "option-3",
+            "text": "Belém"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual é a capital do Brasil?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Brasília"
+          },
+          {
+            "id": "option-1",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "id": "option-2",
+            "text": "São Paulo"
+          },
+          {
+            "id": "option-3",
+            "text": "Belém"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Brasília é a capital federal; as demais alternativas são outras cidades brasileiras."
+    },
+    {
+      "id": "questionados:geography:1e9b4f397b33906f",
+      "category": "geography",
+      "difficulty": "easy",
+      "sourceRecordIndex": 2,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://science.nasa.gov/blogs/earth-matters/2012/11/02/dune-gallery/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em qual continente está localizado o Deserto do Saara?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "África"
+          },
+          {
+            "id": "option-1",
+            "text": "Ásia"
+          },
+          {
+            "id": "option-2",
+            "text": "América do Sul"
+          },
+          {
+            "id": "option-3",
+            "text": "Austrália"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual continente está localizado o Deserto do Saara?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "África"
+          },
+          {
+            "id": "option-1",
+            "text": "Ásia"
+          },
+          {
+            "id": "option-2",
+            "text": "América do Sul"
+          },
+          {
+            "id": "option-3",
+            "text": "Austrália"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Saara no norte da África; nenhuma das outras regiões contém esse deserto."
+    },
+    {
+      "id": "questionados:geography:10c7585ba82caee2",
+      "category": "geography",
+      "difficulty": "easy",
+      "sourceRecordIndex": 3,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://india.unfpa.org/en/publications/indias-population-growth-and-policy-implications",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o país mais populoso do mundo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "China"
+          },
+          {
+            "id": "option-1",
+            "text": "Índia"
+          },
+          {
+            "id": "option-2",
+            "text": "Estados Unidos"
+          },
+          {
+            "id": "option-3",
+            "text": "Indonésia"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Segundo a ONU, qual país ultrapassou a China em população em 2023?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "China"
+          },
+          {
+            "id": "option-1",
+            "text": "Índia"
+          },
+          {
+            "id": "option-2",
+            "text": "Estados Unidos"
+          },
+          {
+            "id": "option-3",
+            "text": "Indonésia"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "China substituída por Índia no gabarito. Fixado 2023, ano da ultrapassagem registrada pela ONU, sem depender da população na data da partida."
+    },
+    {
+      "id": "questionados:geography:d6bf8e88f126bf71",
+      "category": "geography",
+      "difficulty": "easy",
+      "sourceRecordIndex": 5,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://whc.unesco.org/en/list/252/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que país está localizado o Taj Mahal?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Índia"
+          },
+          {
+            "id": "option-1",
+            "text": "Egito"
+          },
+          {
+            "id": "option-2",
+            "text": "Turquia"
+          },
+          {
+            "id": "option-3",
+            "text": "China"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em que país está localizado o Taj Mahal?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Índia"
+          },
+          {
+            "id": "option-1",
+            "text": "Egito"
+          },
+          {
+            "id": "option-2",
+            "text": "Turquia"
+          },
+          {
+            "id": "option-3",
+            "text": "China"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Patrimônio localizado em Agra, na Índia; os outros países não abrigam o Taj Mahal."
+    },
+    {
+      "id": "questionados:geography:380a6881efad86b5",
+      "category": "geography",
+      "difficulty": "easy",
+      "sourceRecordIndex": 6,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://oceanservice.noaa.gov/facts/pacific.html",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o maior oceano do mundo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pacífico"
+          },
+          {
+            "id": "option-1",
+            "text": "Atlântico"
+          },
+          {
+            "id": "option-2",
+            "text": "Índico"
+          },
+          {
+            "id": "option-3",
+            "text": "Ártico"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual oceano tem a maior área de superfície da Terra?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pacífico"
+          },
+          {
+            "id": "option-1",
+            "text": "Atlântico"
+          },
+          {
+            "id": "option-2",
+            "text": "Índico"
+          },
+          {
+            "id": "option-3",
+            "text": "Ártico"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Critério explicitado: área de superfície. Pacífico confirmado pela NOAA."
+    },
+    {
+      "id": "questionados:geography:8e879f857d0a4b0b",
+      "category": "geography",
+      "difficulty": "easy",
+      "sourceRecordIndex": 9,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nsf.gov/od/opp/ail/amundson-scott-south-pole-station",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que continente está localizado o Polo Sul?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Antártica"
+          },
+          {
+            "id": "option-1",
+            "text": "África"
+          },
+          {
+            "id": "option-2",
+            "text": "América do Sul"
+          },
+          {
+            "id": "option-3",
+            "text": "Oceania"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual continente fica o Polo Sul geográfico?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Antártica"
+          },
+          {
+            "id": "option-1",
+            "text": "África"
+          },
+          {
+            "id": "option-2",
+            "text": "América do Sul"
+          },
+          {
+            "id": "option-3",
+            "text": "Oceania"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Especificado polo geográfico, evitando confusão com o polo magnético."
+    },
+    {
+      "id": "questionados:geography:58d3da4a8ea70640",
+      "category": "geography",
+      "difficulty": "medium",
+      "sourceRecordIndex": 20,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.nca.gov.au/education/canberras-history/siting-and-naming-canberra",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é a capital da Austrália?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Canberra"
+          },
+          {
+            "id": "option-1",
+            "text": "Sydney"
+          },
+          {
+            "id": "option-2",
+            "text": "Melbourne"
+          },
+          {
+            "id": "option-3",
+            "text": "Brisbane"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual é a capital da Austrália?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Canberra"
+          },
+          {
+            "id": "option-1",
+            "text": "Sydney"
+          },
+          {
+            "id": "option-2",
+            "text": "Melbourne"
+          },
+          {
+            "id": "option-3",
+            "text": "Brisbane"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Canberra é a capital; Sydney, Melbourne e Brisbane são outras cidades australianas."
+    },
+    {
+      "id": "questionados:geography:1fb2a8e6a10de09b",
+      "category": "geography",
+      "difficulty": "medium",
+      "sourceRecordIndex": 14,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/easter-island-rapa-nui-5366/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que oceano fica a Ilha de Páscoa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pacífico"
+          },
+          {
+            "id": "option-1",
+            "text": "Atlântico"
+          },
+          {
+            "id": "option-2",
+            "text": "Índico"
+          },
+          {
+            "id": "option-3",
+            "text": "Ártico"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em que oceano fica a Ilha de Páscoa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pacífico"
+          },
+          {
+            "id": "option-1",
+            "text": "Atlântico"
+          },
+          {
+            "id": "option-2",
+            "text": "Índico"
+          },
+          {
+            "id": "option-3",
+            "text": "Ártico"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Rapa Nui está no Pacífico Sul; os demais oceanos são excludentes."
+    },
+    {
+      "id": "questionados:geography:e3ed0c082081adac",
+      "category": "geography",
+      "difficulty": "medium",
+      "sourceRecordIndex": 25,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.usgs.gov/media/images/lake-baikal-space-largest-oldest-and-deepest-lake",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o maior lago de água doce do mundo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Lago Baikal"
+          },
+          {
+            "id": "option-1",
+            "text": "Lago Vitória"
+          },
+          {
+            "id": "option-2",
+            "text": "Lago Superior"
+          },
+          {
+            "id": "option-3",
+            "text": "Lago Titicaca"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual é o maior lago de água doce do mundo em volume de água?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Lago Baikal"
+          },
+          {
+            "id": "option-1",
+            "text": "Lago Vitória"
+          },
+          {
+            "id": "option-2",
+            "text": "Lago Superior"
+          },
+          {
+            "id": "option-3",
+            "text": "Lago Titicaca"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "O original confundia critérios: Baikal por volume, não por área. O enunciado agora explicita volume de água doce."
+    },
+    {
+      "id": "questionados:geography:f253e3e13f976eb0",
+      "category": "geography",
+      "difficulty": "medium",
+      "sourceRecordIndex": 19,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.icpdr.org/danube-basin/receiving-sea-black-sea",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que país está localizado o Rio Danúbio?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Alemanha"
+          },
+          {
+            "id": "option-1",
+            "text": "Áustria"
+          },
+          {
+            "id": "option-2",
+            "text": "Romênia"
+          },
+          {
+            "id": "option-3",
+            "text": "Hungria"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual mar o rio Danúbio deságua?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Mar Negro"
+          },
+          {
+            "id": "option-1",
+            "text": "Mar Adriático"
+          },
+          {
+            "id": "option-2",
+            "text": "Mar Báltico"
+          },
+          {
+            "id": "option-3",
+            "text": "Mar Vermelho"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "O Danúbio passa pelos quatro países do original. Reformulado para a foz e substituídas todas as alternativas por mares; apenas o Negro recebe suas águas."
+    },
+    {
+      "id": "questionados:geography:f114912594870f02",
+      "category": "geography",
+      "difficulty": "hard",
+      "sourceRecordIndex": 49,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://pancanal.com/canal-de-panama-celebra-101-anos-de-operacion/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que ano foi inaugurado o Canal do Panamá?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1914"
+          },
+          {
+            "id": "option-1",
+            "text": "1888"
+          },
+          {
+            "id": "option-2",
+            "text": "1925"
+          },
+          {
+            "id": "option-3",
+            "text": "1902"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em que ano ocorreu a inauguração oficial do Canal do Panamá?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1914"
+          },
+          {
+            "id": "option-1",
+            "text": "1888"
+          },
+          {
+            "id": "option-2",
+            "text": "1925"
+          },
+          {
+            "id": "option-3",
+            "text": "1902"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "A inauguração oficial ocorreu em 15 de agosto de 1914; distinguida da primeira travessia de teste."
+    },
+    {
+      "id": "questionados:geography:4f4c76a6f363d462",
+      "category": "geography",
+      "difficulty": "hard",
+      "sourceRecordIndex": 29,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://whc.unesco.org/en/list/326/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que país está localizada a cidade de Petra?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Jordânia"
+          },
+          {
+            "id": "option-1",
+            "text": "Egito"
+          },
+          {
+            "id": "option-2",
+            "text": "Turquia"
+          },
+          {
+            "id": "option-3",
+            "text": "Líbano"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual país fica o sítio arqueológico de Petra?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Jordânia"
+          },
+          {
+            "id": "option-1",
+            "text": "Egito"
+          },
+          {
+            "id": "option-2",
+            "text": "Turquia"
+          },
+          {
+            "id": "option-3",
+            "text": "Líbano"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Petra, sítio arqueológico, fica na Jordânia; os demais países são distratores."
+    },
+    {
+      "id": "questionados:science-nature:b9ac9b7e458bc0e3",
+      "category": "science-nature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 0,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://science.nasa.gov/sun/facts/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o centro do sistema solar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Lua"
+          },
+          {
+            "id": "option-1",
+            "text": "Sol"
+          },
+          {
+            "id": "option-2",
+            "text": "Vênus"
+          },
+          {
+            "id": "option-3",
+            "text": "Marte"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual é a estrela do Sistema Solar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Lua"
+          },
+          {
+            "id": "option-1",
+            "text": "Sol"
+          },
+          {
+            "id": "option-2",
+            "text": "Vênus"
+          },
+          {
+            "id": "option-3",
+            "text": "Marte"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Substituída a ideia imprecisa de centro geométrico por identificação da estrela; Lua, Vênus e Marte não são estrelas."
+    },
+    {
+      "id": "questionados:science-nature:c3a357101fc1a240",
+      "category": "science-nature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 2,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://science.nasa.gov/jupiter/jupiter-facts/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o maior planeta do nosso sistema solar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Terra"
+          },
+          {
+            "id": "option-1",
+            "text": "Marte"
+          },
+          {
+            "id": "option-2",
+            "text": "Júpiter"
+          },
+          {
+            "id": "option-3",
+            "text": "Saturno"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual é o maior planeta do Sistema Solar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Terra"
+          },
+          {
+            "id": "option-1",
+            "text": "Marte"
+          },
+          {
+            "id": "option-2",
+            "text": "Júpiter"
+          },
+          {
+            "id": "option-3",
+            "text": "Saturno"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Júpiter é o maior planeta do Sistema Solar; não confundir com o Sol, que é estrela."
+    },
+    {
+      "id": "questionados:science-nature:9a905090345496ae",
+      "category": "science-nature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 4,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.usgs.gov/observatories/yvo/news/how-does-water-snow-and-rain-get-numerous-hot-springs-yellowstone",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é a fórmula química da água?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "CO2"
+          },
+          {
+            "id": "option-1",
+            "text": "H2O"
+          },
+          {
+            "id": "option-2",
+            "text": "O2"
+          },
+          {
+            "id": "option-3",
+            "text": "CH4"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual é a fórmula química da água?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "CO2"
+          },
+          {
+            "id": "option-1",
+            "text": "H2O"
+          },
+          {
+            "id": "option-2",
+            "text": "O2"
+          },
+          {
+            "id": "option-3",
+            "text": "CH4"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "H2O corresponde a dois átomos de hidrogênio e um de oxigênio; os demais símbolos representam outras substâncias."
+    },
+    {
+      "id": "questionados:science-nature:556d63734b0b3911",
+      "category": "science-nature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 16,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://science.nasa.gov/earth/climate-change/greenhouse-gases/the-atmosphere-getting-a-handle-on-carbon-dioxide/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o componente principal da atmosfera terrestre?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Oxigênio"
+          },
+          {
+            "id": "option-1",
+            "text": "Dióxido de carbono"
+          },
+          {
+            "id": "option-2",
+            "text": "Nitrogênio"
+          },
+          {
+            "id": "option-3",
+            "text": "Hidrogênio"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual gás é o mais abundante na atmosfera terrestre seca, em volume?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Oxigênio"
+          },
+          {
+            "id": "option-1",
+            "text": "Dióxido de carbono"
+          },
+          {
+            "id": "option-2",
+            "text": "Nitrogênio"
+          },
+          {
+            "id": "option-3",
+            "text": "Hidrogênio"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Critério ar seco por volume: cerca de 78% de nitrogênio; oxigênio não é o componente majoritário."
+    },
+    {
+      "id": "questionados:science-nature:d29f57cc3bc0470d",
+      "category": "science-nature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 44,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://science.nasa.gov/eclipses/types/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "O que é um eclipse solar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Quando a Lua passa entre a Terra e o Sol"
+          },
+          {
+            "id": "option-1",
+            "text": "Quando a Terra passa entre a Lua e o Sol"
+          },
+          {
+            "id": "option-2",
+            "text": "Quando o Sol passa entre a Terra e a Lua"
+          },
+          {
+            "id": "option-3",
+            "text": "Quando Marte fica visível no céu noturno"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual situação caracteriza um eclipse solar visto da Terra?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "A Lua fica entre a Terra e o Sol e encobre parte ou todo o disco solar"
+          },
+          {
+            "id": "option-1",
+            "text": "A Terra fica entre o Sol e a Lua e projeta sua sombra na Lua"
+          },
+          {
+            "id": "option-2",
+            "text": "O Sol fica entre a Terra e a Lua"
+          },
+          {
+            "id": "option-3",
+            "text": "Marte aparece no céu noturno"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Alinhamento e ocultação do Sol pela Lua explicitados. A Terra entre Sol e Lua caracteriza eclipse lunar."
+    },
+    {
+      "id": "questionados:science-nature:87963949f20d6e08",
+      "category": "science-nature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 12,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://research.fs.usda.gov/treesearch/13671",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do processo pelo qual as plantas convertem a luz solar em energia?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Fotossíntese"
+          },
+          {
+            "id": "option-1",
+            "text": "Respiração"
+          },
+          {
+            "id": "option-2",
+            "text": "Digestão"
+          },
+          {
+            "id": "option-3",
+            "text": "Fermentação"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual processo permite às plantas converter energia luminosa em energia química?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Fotossíntese"
+          },
+          {
+            "id": "option-1",
+            "text": "Respiração"
+          },
+          {
+            "id": "option-2",
+            "text": "Digestão"
+          },
+          {
+            "id": "option-3",
+            "text": "Fermentação"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "A fotossíntese converte energia luminosa em energia química; texto corrigido para não sugerir criação de energia. Outras perguntas de fotossíntese ficaram fora do lote."
+    },
+    {
+      "id": "questionados:science-nature:64cdce19d8014963",
+      "category": "science-nature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 6,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://science.nasa.gov/exoplanets/facts/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "O que é um exoplaneta?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Um planeta dentro do sistema solar"
+          },
+          {
+            "id": "option-1",
+            "text": "Um planeta com anéis"
+          },
+          {
+            "id": "option-2",
+            "text": "Um planeta fora do sistema solar"
+          },
+          {
+            "id": "option-3",
+            "text": "Um planeta gasoso"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual é a definição de exoplaneta?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Um planeta localizado dentro do Sistema Solar"
+          },
+          {
+            "id": "option-1",
+            "text": "Qualquer planeta que tenha anéis"
+          },
+          {
+            "id": "option-2",
+            "text": "Um planeta localizado fora do Sistema Solar"
+          },
+          {
+            "id": "option-3",
+            "text": "Qualquer planeta formado principalmente por gases"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Exoplaneta é um planeta fora do Sistema Solar. Ter anéis ou ser gasoso não define essa classe; a definição não exige orbitar uma estrela."
+    },
+    {
+      "id": "questionados:science-nature:001ad4d2d581932f",
+      "category": "science-nature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 7,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é a unidade básica da hereditariedade?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "DNA"
+          },
+          {
+            "id": "option-1",
+            "text": "RNA"
+          },
+          {
+            "id": "option-2",
+            "text": "Proteína"
+          },
+          {
+            "id": "option-3",
+            "text": "Cromossomo"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual é a unidade básica da hereditariedade?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Gene"
+          },
+          {
+            "id": "option-1",
+            "text": "RNA"
+          },
+          {
+            "id": "option-2",
+            "text": "Proteína"
+          },
+          {
+            "id": "option-3",
+            "text": "Cromossomo"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Corrigida a alternativa DNA para gene, a unidade básica de herança. RNA, proteína e cromossomo não são sinônimos de gene."
+    },
+    {
+      "id": "questionados:science-nature:4ad04448e52694cd",
+      "category": "science-nature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 10,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.bipm.org/en/si-base-units/kelvin",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é a unidade de medida de temperatura no sistema internacional?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Kelvin"
+          },
+          {
+            "id": "option-1",
+            "text": "Celsius"
+          },
+          {
+            "id": "option-2",
+            "text": "Fahrenheit"
+          },
+          {
+            "id": "option-3",
+            "text": "Rankine"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual é a unidade de base da temperatura termodinâmica no Sistema Internacional de Unidades (SI)?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "kelvin (K)"
+          },
+          {
+            "id": "option-1",
+            "text": "grau Celsius (°C)"
+          },
+          {
+            "id": "option-2",
+            "text": "grau Fahrenheit (°F)"
+          },
+          {
+            "id": "option-3",
+            "text": "grau Rankine (°R)"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Especificada unidade de base da temperatura termodinâmica. Grau Celsius também é usado no SI para temperatura Celsius; removida essa ambiguidade."
+    },
+    {
+      "id": "questionados:science-nature:c7d7b315959362ab",
+      "category": "science-nature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 34,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome da primeira mulher a receber dois prêmios Nobel em campos diferentes?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Marie Curie"
+          },
+          {
+            "id": "option-1",
+            "text": "Rosalind Franklin"
+          },
+          {
+            "id": "option-2",
+            "text": "Dorothy Crowfoot Hodgkin"
+          },
+          {
+            "id": "option-3",
+            "text": "Barbara McClintock"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual cientista recebeu o Nobel de Física em 1903 e o de Química em 1911?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Marie Curie"
+          },
+          {
+            "id": "option-1",
+            "text": "Rosalind Franklin"
+          },
+          {
+            "id": "option-2",
+            "text": "Dorothy Crowfoot Hodgkin"
+          },
+          {
+            "id": "option-3",
+            "text": "Barbara McClintock"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Identificados os prêmios e anos: Física em 1903 e Química em 1911 para Marie Curie. Franklin, Hodgkin e McClintock não correspondem a esse par."
+    },
+    {
+      "id": "questionados:science-nature:456a943d5d51794e",
+      "category": "science-nature",
+      "difficulty": "hard",
+      "sourceRecordIndex": 31,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://science.nasa.gov/universe/stars/types/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "O que é um pulsar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Um tipo de cometa"
+          },
+          {
+            "id": "option-1",
+            "text": "Uma estrela em explosão"
+          },
+          {
+            "id": "option-2",
+            "text": "Um tipo de galáxia"
+          },
+          {
+            "id": "option-3",
+            "text": "Uma estrela de nêutrons que emite radiação pulsante"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "revised": {
+        "prompt": "O que é um pulsar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Um tipo de cometa"
+          },
+          {
+            "id": "option-1",
+            "text": "Um planeta em formação"
+          },
+          {
+            "id": "option-2",
+            "text": "Um tipo de galáxia"
+          },
+          {
+            "id": "option-3",
+            "text": "Uma estrela de nêutrons em rotação cujos feixes de radiação são detectados como pulsos"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "note": "Pulsar é estrela de nêutrons em rotação, com feixes detectados periodicamente; não é galáxia, planeta ou cometa."
+    },
+    {
+      "id": "questionados:science-nature:c16a982c64f4f277",
+      "category": "science-nature",
+      "difficulty": "hard",
+      "sourceRecordIndex": 74,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é a unidade de medida da pressão no sistema internacional?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pascal"
+          },
+          {
+            "id": "option-1",
+            "text": "Newton"
+          },
+          {
+            "id": "option-2",
+            "text": "Watt"
+          },
+          {
+            "id": "option-3",
+            "text": "Joule"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual é a unidade de pressão no Sistema Internacional de Unidades (SI)?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "pascal (Pa)"
+          },
+          {
+            "id": "option-1",
+            "text": "newton (N)"
+          },
+          {
+            "id": "option-2",
+            "text": "watt (W)"
+          },
+          {
+            "id": "option-3",
+            "text": "joule (J)"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "A tabela de unidades derivadas do SI relaciona pressão a pascal, Pa. Newton mede força, watt potência e joule energia."
+    },
+    {
+      "id": "questionados:history:88806f3eb541f3c2",
+      "category": "history",
+      "difficulty": "easy",
+      "sourceRecordIndex": 5,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/212-manuel-deodoro-da-fonseca",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o primeiro presidente do Brasil?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Getúlio Vargas"
+          },
+          {
+            "id": "option-1",
+            "text": "Juscelino Kubitschek"
+          },
+          {
+            "id": "option-2",
+            "text": "Deodoro da Fonseca"
+          },
+          {
+            "id": "option-3",
+            "text": "Marechal Floriano Peixoto"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Quem foi o primeiro presidente da República do Brasil?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Getúlio Vargas"
+          },
+          {
+            "id": "option-1",
+            "text": "Juscelino Kubitschek"
+          },
+          {
+            "id": "option-2",
+            "text": "Deodoro da Fonseca"
+          },
+          {
+            "id": "option-3",
+            "text": "Marechal Floriano Peixoto"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Deodoro da Fonseca foi o primeiro presidente; explicitada a República para separar monarcas e eleições diretas."
+    },
+    {
+      "id": "questionados:history:f2079d0760e77b6c",
+      "category": "history",
+      "difficulty": "easy",
+      "sourceRecordIndex": 3,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.nam.ac.uk/explore/first-world-war",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que ano a Primeira Guerra Mundial começou?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1914"
+          },
+          {
+            "id": "option-1",
+            "text": "1917"
+          },
+          {
+            "id": "option-2",
+            "text": "1918"
+          },
+          {
+            "id": "option-3",
+            "text": "1920"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em que ano a Primeira Guerra Mundial começou?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1914"
+          },
+          {
+            "id": "option-1",
+            "text": "1917"
+          },
+          {
+            "id": "option-2",
+            "text": "1918"
+          },
+          {
+            "id": "option-3",
+            "text": "1920"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "O conflito iniciou em 1914; 1917 é a entrada dos EUA, e 1918 o fim das hostilidades."
+    },
+    {
+      "id": "questionados:history:2252198a840c5ee2",
+      "category": "history",
+      "difficulty": "easy",
+      "sourceRecordIndex": 8,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939?parent=en%2F55299",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que ano a Segunda Guerra Mundial começou?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1939"
+          },
+          {
+            "id": "option-1",
+            "text": "1941"
+          },
+          {
+            "id": "option-2",
+            "text": "1943"
+          },
+          {
+            "id": "option-3",
+            "text": "1945"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em que ano a invasão alemã da Polônia marcou o início da Segunda Guerra Mundial na Europa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1939"
+          },
+          {
+            "id": "option-1",
+            "text": "1941"
+          },
+          {
+            "id": "option-2",
+            "text": "1943"
+          },
+          {
+            "id": "option-3",
+            "text": "1945"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Especificada a Europa e a invasão da Polônia; não se aplica a diferentes marcos da guerra na Ásia."
+    },
+    {
+      "id": "questionados:history:a9cd0effdcde5f0b",
+      "category": "history",
+      "difficulty": "easy",
+      "sourceRecordIndex": 9,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://whc.unesco.org/en/list/86/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual civilização construiu as pirâmides de Gizé?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Mesopotâmia"
+          },
+          {
+            "id": "option-1",
+            "text": "Roma"
+          },
+          {
+            "id": "option-2",
+            "text": "Egito"
+          },
+          {
+            "id": "option-3",
+            "text": "China"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual civilização construiu as pirâmides de Gizé?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Mesopotâmica"
+          },
+          {
+            "id": "option-1",
+            "text": "Romana"
+          },
+          {
+            "id": "option-2",
+            "text": "Egípcia"
+          },
+          {
+            "id": "option-3",
+            "text": "Chinesa"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Complexo funerário dos faraós do Antigo Império egípcio. Alternativas padronizadas como civilizações."
+    },
+    {
+      "id": "questionados:history:496ec9b4cca085d8",
+      "category": "history",
+      "difficulty": "easy",
+      "sourceRecordIndex": 18,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nelsonmandela.org/biography",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o líder sul-africano que lutou contra o apartheid e se tornou o primeiro presidente negro do país?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Nelson Mandela"
+          },
+          {
+            "id": "option-1",
+            "text": "Desmond Tutu"
+          },
+          {
+            "id": "option-2",
+            "text": "Steve Biko"
+          },
+          {
+            "id": "option-3",
+            "text": "Thabo Mbeki"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual líder contra o apartheid tomou posse como presidente da África do Sul em 1994?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Nelson Mandela"
+          },
+          {
+            "id": "option-1",
+            "text": "Desmond Tutu"
+          },
+          {
+            "id": "option-2",
+            "text": "Steve Biko"
+          },
+          {
+            "id": "option-3",
+            "text": "Thabo Mbeki"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Mandela tomou posse em 1994 após as primeiras eleições democráticas nacionais com sufrágio universal. Distinto de seu sucessor Mbeki."
+    },
+    {
+      "id": "questionados:history:2315b08a4ddec013",
+      "category": "history",
+      "difficulty": "easy",
+      "sourceRecordIndex": 28,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nps.gov/wwii/learn/historyculture/pearl-harbor.htm",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual foi o evento que desencadeou a entrada dos Estados Unidos na Segunda Guerra Mundial?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Ataque a Pearl Harbor"
+          },
+          {
+            "id": "option-1",
+            "text": "Bombardeio de Hiroshima"
+          },
+          {
+            "id": "option-2",
+            "text": "Invasão da Normandia"
+          },
+          {
+            "id": "option-3",
+            "text": "Ataque a Londres"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual ataque japonês levou à entrada dos Estados Unidos na Segunda Guerra Mundial, em dezembro de 1941?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Ataque a Pearl Harbor"
+          },
+          {
+            "id": "option-1",
+            "text": "Bombardeio de Hiroshima"
+          },
+          {
+            "id": "option-2",
+            "text": "Invasão da Normandia"
+          },
+          {
+            "id": "option-3",
+            "text": "Ataque a Londres"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Ataque japonês a Pearl Harbor em dezembro de 1941 levou à entrada dos EUA. Hiroshima e Normandia ocorreram depois."
+    },
+    {
+      "id": "questionados:history:f458ae2bc6b72cfb",
+      "category": "history",
+      "difficulty": "medium",
+      "sourceRecordIndex": 15,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.royal.uk/elizabeth-i",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi a rainha da Inglaterra durante a Era Elisabetana?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Rainha Maria I"
+          },
+          {
+            "id": "option-1",
+            "text": "Rainha Ana"
+          },
+          {
+            "id": "option-2",
+            "text": "Rainha Isabel I"
+          },
+          {
+            "id": "option-3",
+            "text": "Rainha Vitória"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual rainha governou a Inglaterra de 1558 a 1603?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Maria I"
+          },
+          {
+            "id": "option-1",
+            "text": "Ana"
+          },
+          {
+            "id": "option-2",
+            "text": "Elizabeth I (Isabel I)"
+          },
+          {
+            "id": "option-3",
+            "text": "Vitória"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Reinado de Elizabeth I, também chamada Isabel I, de 1558 a 1603. Removida a pista circular Era Elisabetana."
+    },
+    {
+      "id": "questionados:history:186775b5b6d4ed20",
+      "category": "history",
+      "difficulty": "medium",
+      "sourceRecordIndex": 29,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.britishmuseum.org/collection/term/BIOG57074",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o primeiro imperador romano?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Júlio César"
+          },
+          {
+            "id": "option-1",
+            "text": "Augusto"
+          },
+          {
+            "id": "option-2",
+            "text": "Nero"
+          },
+          {
+            "id": "option-3",
+            "text": "Calígula"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem foi o primeiro imperador romano?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Júlio César"
+          },
+          {
+            "id": "option-1",
+            "text": "Augusto"
+          },
+          {
+            "id": "option-2",
+            "text": "Nero"
+          },
+          {
+            "id": "option-3",
+            "text": "Calígula"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Augusto foi o primeiro imperador romano; Júlio César foi ditador, e Nero e Calígula governaram depois."
+    },
+    {
+      "id": "questionados:history:c7536d3ca4b28335",
+      "category": "history",
+      "difficulty": "medium",
+      "sourceRecordIndex": 35,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nam.ac.uk/explore/to-arms-1914",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual foi o evento que desencadeou a Primeira Guerra Mundial?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Assassinato de Franz Ferdinand"
+          },
+          {
+            "id": "option-1",
+            "text": "Ataque a Pearl Harbor"
+          },
+          {
+            "id": "option-2",
+            "text": "Bombardeio de Hiroshima"
+          },
+          {
+            "id": "option-3",
+            "text": "Tratado de Versalhes"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual arquiduque foi assassinado em Sarajevo em 1914, no atentado que precipitou a crise anterior à Primeira Guerra Mundial?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Francisco Ferdinando (Franz Ferdinand)"
+          },
+          {
+            "id": "option-1",
+            "text": "Francisco José I"
+          },
+          {
+            "id": "option-2",
+            "text": "Otto von Bismarck"
+          },
+          {
+            "id": "option-3",
+            "text": "Guilherme II"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "O atentado a Franz Ferdinand em Sarajevo precipitou a crise de 1914; não é apresentado como causa única da guerra. Distratores substituídos por outras figuras históricas."
+    },
+    {
+      "id": "questionados:history:b42dfbc2ecfb601a",
+      "category": "history",
+      "difficulty": "medium",
+      "sourceRecordIndex": 37,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que ano a União Soviética foi oficialmente dissolvida?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1989"
+          },
+          {
+            "id": "option-1",
+            "text": "1991"
+          },
+          {
+            "id": "option-2",
+            "text": "1993"
+          },
+          {
+            "id": "option-3",
+            "text": "1995"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Em que ano a União Soviética foi oficialmente dissolvida?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1989"
+          },
+          {
+            "id": "option-1",
+            "text": "1991"
+          },
+          {
+            "id": "option-2",
+            "text": "1993"
+          },
+          {
+            "id": "option-3",
+            "text": "1995"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Dissolução em dezembro de 1991. Não confundir com queda do Muro de Berlim em 1989."
+    },
+    {
+      "id": "questionados:history:c2d183fb08abc6ce",
+      "category": "history",
+      "difficulty": "hard",
+      "sourceRecordIndex": 48,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/1870-1871-guerre-franco-prussienne/guerre-franco-0",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual foi o tratado que encerrou a Guerra Franco-Prussiana em 1871?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tratado de Paris"
+          },
+          {
+            "id": "option-1",
+            "text": "Tratado de Versalhes"
+          },
+          {
+            "id": "option-2",
+            "text": "Tratado de Frankfurt"
+          },
+          {
+            "id": "option-3",
+            "text": "Tratado de Brest-Litovski"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual tratado de paz definitivo, assinado em 10 de maio de 1871, encerrou a Guerra Franco-Prussiana?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tratado de Paris"
+          },
+          {
+            "id": "option-1",
+            "text": "Tratado de Versalhes"
+          },
+          {
+            "id": "option-2",
+            "text": "Tratado de Frankfurt"
+          },
+          {
+            "id": "option-3",
+            "text": "Tratado de Brest-Litovski"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Tratado de Frankfurt de 10 de maio de 1871; distinguido dos preliminares de paz de Versalhes em fevereiro, que tornam o original pouco preciso."
+    },
+    {
+      "id": "questionados:history:8996b120738dfab0",
+      "category": "history",
+      "difficulty": "hard",
+      "sourceRecordIndex": 55,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/speakers-conference/emmeline-pankhurst/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o líder do movimento sufragista que lutou pelos direitos das mulheres no Reino Unido?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Emmeline Pankhurst"
+          },
+          {
+            "id": "option-1",
+            "text": "Florence Nightingale"
+          },
+          {
+            "id": "option-2",
+            "text": "Queen Victoria"
+          },
+          {
+            "id": "option-3",
+            "text": "Jane Austen"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual sufragista fundou a Women’s Social and Political Union (WSPU), no Reino Unido, em 1903?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Emmeline Pankhurst"
+          },
+          {
+            "id": "option-1",
+            "text": "Florence Nightingale"
+          },
+          {
+            "id": "option-2",
+            "text": "Rainha Vitória"
+          },
+          {
+            "id": "option-3",
+            "text": "Jane Austen"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "O original generalizava a liderança e usava gênero inadequado. Pergunta agora pela fundadora da WSPU em 1903, Emmeline Pankhurst; grafia de Vitória traduzida."
+    },
+    {
+      "id": "questionados:sports:d8d792a1c7a26ad9",
+      "category": "sports",
+      "difficulty": "easy",
+      "sourceRecordIndex": 2,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.cbf.com.br/selecao-brasileira/noticias/detalhes/selecao-masculina/2-anos-sem-pele-o-rei-do-futebol",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual atleta é conhecido como 'Rei do Futebol'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Diego Maradona"
+          },
+          {
+            "id": "option-1",
+            "text": "Pelé"
+          },
+          {
+            "id": "option-2",
+            "text": "Cristiano Ronaldo"
+          },
+          {
+            "id": "option-3",
+            "text": "Lionel Messi"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual jogador brasileiro ficou conhecido pelo apelido “Rei do Futebol”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Diego Maradona"
+          },
+          {
+            "id": "option-1",
+            "text": "Pelé"
+          },
+          {
+            "id": "option-2",
+            "text": "Cristiano Ronaldo"
+          },
+          {
+            "id": "option-3",
+            "text": "Lionel Messi"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Apelido Rei do Futebol atribuído a Pelé pela CBF. Não é uma pergunta subjetiva sobre o melhor jogador."
+    },
+    {
+      "id": "questionados:sports:4191c1e7be910dbb",
+      "category": "sports",
+      "difficulty": "easy",
+      "sourceRecordIndex": 4,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.formula1.com/en/information/drivers-hall-of-fame-ayrton-senna.FLD7ZtO0nUn7JzLEn5rOJ",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que esporte Ayrton Senna era famoso?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Fórmula 1"
+          },
+          {
+            "id": "option-1",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-2",
+            "text": "Vôlei"
+          },
+          {
+            "id": "option-3",
+            "text": "Natação"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual categoria do automobilismo Ayrton Senna foi tricampeão mundial?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Fórmula 1"
+          },
+          {
+            "id": "option-1",
+            "text": "Fórmula Indy"
+          },
+          {
+            "id": "option-2",
+            "text": "Rali mundial"
+          },
+          {
+            "id": "option-3",
+            "text": "Fórmula E"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Senna foi tricampeão de Fórmula 1. Alternativas ajustadas para categorias automobilísticas, sem incluir a resposta no enunciado."
+    },
+    {
+      "id": "questionados:sports:bb00beb19b1e6379",
+      "category": "sports",
+      "difficulty": "easy",
+      "sourceRecordIndex": 7,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.nba.com/news/history-nba-legend-michael-jordan?lv=true",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual esporte Michael Jordan praticava?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Basquete"
+          },
+          {
+            "id": "option-1",
+            "text": "Golfe"
+          },
+          {
+            "id": "option-2",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-3",
+            "text": "Futebol Americano"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual esporte Michael Jordan conquistou seis títulos da NBA pelo Chicago Bulls?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Basquete"
+          },
+          {
+            "id": "option-1",
+            "text": "Golfe"
+          },
+          {
+            "id": "option-2",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-3",
+            "text": "Futebol Americano"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Fixado Chicago Bulls e seis títulos da NBA para excluir golfe, que Jordan também pratica, e beisebol, que também jogou."
+    },
+    {
+      "id": "questionados:sports:c889d6c67e9ca971",
+      "category": "sports",
+      "difficulty": "easy",
+      "sourceRecordIndex": 11,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.atptour.com/players/gustavo-kuerten/k293/bio",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em qual esporte o brasileiro Gustavo Kuerten se destacou?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Vôlei"
+          },
+          {
+            "id": "option-1",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-2",
+            "text": "Surfe"
+          },
+          {
+            "id": "option-3",
+            "text": "Natação"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Em qual esporte o brasileiro Gustavo Kuerten se destacou?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Vôlei"
+          },
+          {
+            "id": "option-1",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-2",
+            "text": "Surfe"
+          },
+          {
+            "id": "option-3",
+            "text": "Natação"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Kuerten foi campeão de Roland Garros no tênis; demais alternativas pertencem a outros esportes."
+    },
+    {
+      "id": "questionados:sports:a45ad559aaea3673",
+      "category": "sports",
+      "difficulty": "easy",
+      "sourceRecordIndex": 37,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022/news/spectacular-opening-ceremony-signals-the-start-of-fifa-world-cup-qatar-2022",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o país sede da Copa do Mundo de 2022?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Egito"
+          },
+          {
+            "id": "option-1",
+            "text": "Qatar"
+          },
+          {
+            "id": "option-2",
+            "text": "Emirados Árabes Unidos"
+          },
+          {
+            "id": "option-3",
+            "text": "Arábia Saudita"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual país sediou a Copa do Mundo de futebol masculino da FIFA em 2022?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Egito"
+          },
+          {
+            "id": "option-1",
+            "text": "Catar"
+          },
+          {
+            "id": "option-2",
+            "text": "Emirados Árabes Unidos"
+          },
+          {
+            "id": "option-3",
+            "text": "Arábia Saudita"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Mundial masculino de 2022 sediado no Catar. Enunciado passado e grafia brasileira padronizada."
+    },
+    {
+      "id": "questionados:sports:f949ccc4a18a3a43",
+      "category": "sports",
+      "difficulty": "easy",
+      "sourceRecordIndex": 53,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://media.specialolympics.org/resources/sports-essentials/coaching-guides/Sports-Essentials-Badminton-Coaching-Guide-2026-EN.pdf",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o esporte conhecido como \"esporte da raquete e peteca\"?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Badminton"
+          },
+          {
+            "id": "option-1",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-2",
+            "text": "Ping Pong"
+          },
+          {
+            "id": "option-3",
+            "text": "Squash"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual destes esportes é disputado com raquetes e uma peteca?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Badminton"
+          },
+          {
+            "id": "option-1",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-2",
+            "text": "Tênis de mesa"
+          },
+          {
+            "id": "option-3",
+            "text": "Squash"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Badminton usa peteca e raquetes; tênis, tênis de mesa e squash usam bola. Removido apelido entre aspas sem fundamento."
+    },
+    {
+      "id": "questionados:sports:3031d522ddb277b1",
+      "category": "sports",
+      "difficulty": "medium",
+      "sourceRecordIndex": 9,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://inside.fifa.com/en/tournaments/mens/worldcup/2014brazil/watch/fuleco-finds-a-surprise-2336156",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o mascote oficial da Copa do Mundo de 2014 realizada no Brasil?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Fuleco"
+          },
+          {
+            "id": "option-1",
+            "text": "Zabivaka"
+          },
+          {
+            "id": "option-2",
+            "text": "Pique"
+          },
+          {
+            "id": "option-3",
+            "text": "Goleo"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual foi o mascote oficial da Copa do Mundo de futebol masculino da FIFA de 2014, no Brasil?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Fuleco"
+          },
+          {
+            "id": "option-1",
+            "text": "Zabivaka"
+          },
+          {
+            "id": "option-2",
+            "text": "Pique"
+          },
+          {
+            "id": "option-3",
+            "text": "Goleo"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Fuleco é o mascote de 2014; as outras opções pertencem a outras edições."
+    },
+    {
+      "id": "questionados:sports:bf82d7a8ea8588f7",
+      "category": "sports",
+      "difficulty": "medium",
+      "sourceRecordIndex": 52,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://inside.fifa.com/tournaments/mens/u17worldcup/brazil2019/news/brazil-the-perfect-backdrop-for-prestigious-competition",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Em que ano o Brasil sediou a Copa do Mundo de futebol pela primeira vez?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1950"
+          },
+          {
+            "id": "option-1",
+            "text": "1954"
+          },
+          {
+            "id": "option-2",
+            "text": "1958"
+          },
+          {
+            "id": "option-3",
+            "text": "1962"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em que ano o Brasil sediou pela primeira vez a Copa do Mundo de futebol masculino da FIFA?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1950"
+          },
+          {
+            "id": "option-1",
+            "text": "1954"
+          },
+          {
+            "id": "option-2",
+            "text": "1958"
+          },
+          {
+            "id": "option-3",
+            "text": "1962"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "FIFA identifica 1950 como a primeira Copa realizada no Brasil. Acrescentado o recorte masculino."
+    },
+    {
+      "id": "questionados:sports:93831f3c87a01014",
+      "category": "sports",
+      "difficulty": "medium",
+      "sourceRecordIndex": 63,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://inside.fifa.com/news/world-first-for-uruguay-2053846",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual seleção de futebol venceu a primeira Copa do Mundo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Brasil"
+          },
+          {
+            "id": "option-1",
+            "text": "Uruguai"
+          },
+          {
+            "id": "option-2",
+            "text": "Argentina"
+          },
+          {
+            "id": "option-3",
+            "text": "Alemanha"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual seleção venceu a primeira Copa do Mundo de futebol masculino da FIFA, em 1930?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Brasil"
+          },
+          {
+            "id": "option-1",
+            "text": "Uruguai"
+          },
+          {
+            "id": "option-2",
+            "text": "Argentina"
+          },
+          {
+            "id": "option-3",
+            "text": "Alemanha"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Uruguai venceu a primeira Copa masculina, em 1930. Não confundir com primeiro campeão brasileiro de 1958."
+    },
+    {
+      "id": "questionados:sports:c52b6d8dcffa09a6",
+      "category": "sports",
+      "difficulty": "medium",
+      "sourceRecordIndex": 58,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://newsroom.olympics.com/record/900/media_id/1385",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual país sediou os Jogos Olímpicos de Inverno em 2018?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Canadá"
+          },
+          {
+            "id": "option-1",
+            "text": "Coreia do Sul"
+          },
+          {
+            "id": "option-2",
+            "text": "Noruega"
+          },
+          {
+            "id": "option-3",
+            "text": "Rússia"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual país sediou os Jogos Olímpicos de Inverno de PyeongChang, em 2018?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Canadá"
+          },
+          {
+            "id": "option-1",
+            "text": "Coreia do Sul"
+          },
+          {
+            "id": "option-2",
+            "text": "Noruega"
+          },
+          {
+            "id": "option-3",
+            "text": "Rússia"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "PyeongChang 2018 ocorreu na República da Coreia (Coreia do Sul), sem confundir com Coreia do Norte."
+    },
+    {
+      "id": "questionados:sports:73242463048579b4",
+      "category": "sports",
+      "difficulty": "hard",
+      "sourceRecordIndex": 31,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.fifa.com/pt/news/articles/copa-2002-brasil-campeao-penta",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do técnico que comandou a seleção brasileira na conquista do pentacampeonato mundial de futebol em 2002?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Carlos Alberto Parreira"
+          },
+          {
+            "id": "option-1",
+            "text": "Tite"
+          },
+          {
+            "id": "option-2",
+            "text": "Dunga"
+          },
+          {
+            "id": "option-3",
+            "text": "Luiz Felipe Scolari"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem foi o técnico da seleção brasileira masculina de futebol na conquista da Copa do Mundo de 2002?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Carlos Alberto Parreira"
+          },
+          {
+            "id": "option-1",
+            "text": "Tite"
+          },
+          {
+            "id": "option-2",
+            "text": "Dunga"
+          },
+          {
+            "id": "option-3",
+            "text": "Luiz Felipe Scolari"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "note": "Gabarito corrigido de Parreira para Luiz Felipe Scolari, técnico da conquista de 2002. Demais técnicos não comandaram essa campanha."
+    },
+    {
+      "id": "questionados:sports:417fa3df906c4664",
+      "category": "sports",
+      "difficulty": "hard",
+      "sourceRecordIndex": 54,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.cob.org.br/comunicacao/noticias/atletas-olimpicos-sao-recebidos-pelo-presidente-da-republica-jair-bolsonaro-em-brasilia",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quantas medalhas de ouro o Brasil conquistou nos Jogos Olímpicos de Verão de 2020 (realizados em 2021)?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "3"
+          },
+          {
+            "id": "option-1",
+            "text": "5"
+          },
+          {
+            "id": "option-2",
+            "text": "7"
+          },
+          {
+            "id": "option-3",
+            "text": "10"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quantas medalhas de ouro o Brasil conquistou nos Jogos Olímpicos de Tóquio 2020, realizados em 2021?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "3"
+          },
+          {
+            "id": "option-1",
+            "text": "5"
+          },
+          {
+            "id": "option-2",
+            "text": "7"
+          },
+          {
+            "id": "option-3",
+            "text": "10"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Gabarito corrigido de cinco para sete ouros. Identificados Tóquio 2020 e realização em 2021, sem incluir os Jogos Paralímpicos."
+    },
+    {
+      "id": "questionados:arts-literature:23cb2195602682b1",
+      "category": "arts-literature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 0,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.louvre.fr/decouvrir/le-palais/de-la-joconde-aux-noces-de-cana",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem pintou a Mona Lisa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-1",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-2",
+            "text": "Vincent van Gogh"
+          },
+          {
+            "id": "option-3",
+            "text": "Michelangelo"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem pintou a Mona Lisa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-1",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-2",
+            "text": "Vincent van Gogh"
+          },
+          {
+            "id": "option-3",
+            "text": "Michelangelo"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Mona Lisa de Leonardo da Vinci identificada no Louvre; demais opções são outros artistas."
+    },
+    {
+      "id": "questionados:arts-literature:42fbf499fb012bca",
+      "category": "arts-literature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 17,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.moma.org/collection/works/79802",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o autor da obra 'A Noite Estrelada'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-1",
+            "text": "Vincent van Gogh"
+          },
+          {
+            "id": "option-2",
+            "text": "Salvador Dalí"
+          },
+          {
+            "id": "option-3",
+            "text": "Édouard Manet"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem pintou “A Noite Estrelada”, de 1889, hoje no acervo do MoMA?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-1",
+            "text": "Vincent van Gogh"
+          },
+          {
+            "id": "option-2",
+            "text": "Salvador Dalí"
+          },
+          {
+            "id": "option-3",
+            "text": "Édouard Manet"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Pintura de Van Gogh, junho de 1889, catalogada pelo MoMA. Outras versões da mesma pergunta ficaram fora do lote."
+    },
+    {
+      "id": "questionados:arts-literature:fbed9f676e349657",
+      "category": "arts-literature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 9,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é o autor da escultura 'O Pensador'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Auguste Rodin"
+          },
+          {
+            "id": "option-1",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-2",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-3",
+            "text": "Antoni Gaudí"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem é o autor da escultura 'O Pensador'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Auguste Rodin"
+          },
+          {
+            "id": "option-1",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-2",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-3",
+            "text": "Antoni Gaudí"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "O Pensador é de Auguste Rodin; não confundir autor com as fundições posteriores."
+    },
+    {
+      "id": "questionados:arts-literature:6048fdb27e792a61",
+      "category": "arts-literature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 54,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://coleccion.malba.org.ar/Detail/objects/201",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é o artista brasileiro conhecido por suas pinturas modernistas, como 'Abaporu'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tarsila do Amaral"
+          },
+          {
+            "id": "option-1",
+            "text": "Cândido Portinari"
+          },
+          {
+            "id": "option-2",
+            "text": "Anita Malfatti"
+          },
+          {
+            "id": "option-3",
+            "text": "Di Cavalcanti"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Qual artista brasileira pintou “Abaporu”, em 1928?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tarsila do Amaral"
+          },
+          {
+            "id": "option-1",
+            "text": "Cândido Portinari"
+          },
+          {
+            "id": "option-2",
+            "text": "Anita Malfatti"
+          },
+          {
+            "id": "option-3",
+            "text": "Di Cavalcanti"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Abaporu, de 1928, é de Tarsila do Amaral. Corrigido o gênero e removida descrição vaga."
+    },
+    {
+      "id": "questionados:arts-literature:85e71d8ba921d8a9",
+      "category": "arts-literature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 60,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é o escultor italiano conhecido por criar a estátua 'Davi'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Donatello"
+          },
+          {
+            "id": "option-1",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-2",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-3",
+            "text": "Rafael"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem esculpiu o “Davi” de mármore, entre 1501 e 1504, hoje na Galleria dell’Accademia de Florença?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Donatello"
+          },
+          {
+            "id": "option-1",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-2",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-3",
+            "text": "Rafael"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "O original também permitia Donatello, autor de outro Davi. Material, período e museu agora identificam inequivocamente a obra de Michelangelo."
+    },
+    {
+      "id": "questionados:arts-literature:d9bc4a791cef4b64",
+      "category": "arts-literature",
+      "difficulty": "easy",
+      "sourceRecordIndex": 28,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.moma.org/collection/works/79766",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é o pintor espanhol conhecido pelo movimento cubista e pelas obras 'Les Demoiselles d'Avignon'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Juan Gris"
+          },
+          {
+            "id": "option-1",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-2",
+            "text": "Fernand Léger"
+          },
+          {
+            "id": "option-3",
+            "text": "Georges Braque"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem pintou “Les Demoiselles d’Avignon”, em 1907?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Juan Gris"
+          },
+          {
+            "id": "option-1",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-2",
+            "text": "Fernand Léger"
+          },
+          {
+            "id": "option-3",
+            "text": "Georges Braque"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Les Demoiselles d’Avignon é de Picasso, 1907. Simplificado o enunciado sem depender de rótulo de movimento artístico."
+    },
+    {
+      "id": "questionados:arts-literature:c163e69c6253f98c",
+      "category": "arts-literature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 7,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o pintor renascentista italiano conhecido por suas obras como 'O Nascimento de Vênus'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-1",
+            "text": "Rafael"
+          },
+          {
+            "id": "option-2",
+            "text": "Sandro Botticelli"
+          },
+          {
+            "id": "option-3",
+            "text": "Michelangelo"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Quem pintou “O Nascimento de Vênus”, do acervo das Gallerie degli Uffizi?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-1",
+            "text": "Rafael"
+          },
+          {
+            "id": "option-2",
+            "text": "Sandro Botticelli"
+          },
+          {
+            "id": "option-3",
+            "text": "Michelangelo"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "O Nascimento de Vênus, dos Uffizi, é de Botticelli; o museu diferencia esta obra de outras Vênus."
+    },
+    {
+      "id": "questionados:arts-literature:3926523cf72f639d",
+      "category": "arts-literature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 96,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.masp.org.br/seminarios/o-masp-de-lina-50-anos-do-edificio-na-avenida-paulista",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do arquiteto brasileiro que projetou o Museu de Arte de São Paulo (MASP)?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Oscar Niemeyer"
+          },
+          {
+            "id": "option-1",
+            "text": "Ruy Ohtake"
+          },
+          {
+            "id": "option-2",
+            "text": "Lina Bo Bardi"
+          },
+          {
+            "id": "option-3",
+            "text": "Lucio Costa"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Quem projetou o edifício do MASP inaugurado em 1968 na avenida Paulista?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Oscar Niemeyer"
+          },
+          {
+            "id": "option-1",
+            "text": "Ruy Ohtake"
+          },
+          {
+            "id": "option-2",
+            "text": "Lina Bo Bardi"
+          },
+          {
+            "id": "option-3",
+            "text": "Lucio Costa"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "Lina Bo Bardi projetou o edifício de 1968 na Paulista. Removido gênero que denunciaria a resposta e especificado edifício para excluir a ampliação de 2025."
+    },
+    {
+      "id": "questionados:arts-literature:de598888e2bbffd7",
+      "category": "arts-literature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 73,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://presse.louvre.fr/retour-en-salle-de-la-liberte-guidant-le-peuple-restauree/?lang=fr",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do pintor francês conhecido por suas obras do movimento romântico, como 'A Liberdade Guiando o Povo'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Eugène Delacroix"
+          },
+          {
+            "id": "option-1",
+            "text": "Théodore Géricault"
+          },
+          {
+            "id": "option-2",
+            "text": "Jean-Auguste-Dominique Ingres"
+          },
+          {
+            "id": "option-3",
+            "text": "Camille Corot"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem pintou “A Liberdade Guiando o Povo”, de 1830?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Eugène Delacroix"
+          },
+          {
+            "id": "option-1",
+            "text": "Théodore Géricault"
+          },
+          {
+            "id": "option-2",
+            "text": "Jean-Auguste-Dominique Ingres"
+          },
+          {
+            "id": "option-3",
+            "text": "Camille Corot"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Delacroix é o autor da pintura; retiradas descrições amplas que também se aplicavam a outros artistas."
+    },
+    {
+      "id": "questionados:arts-literature:ded94c05c908a142",
+      "category": "arts-literature",
+      "difficulty": "medium",
+      "sourceRecordIndex": 62,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/overview-past-exhibitions/exhibition-the-potato-eaters",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o pintor holandês que criou a obra 'Os Comedores de Batata'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Vincent van Gogh"
+          },
+          {
+            "id": "option-1",
+            "text": "Rembrandt"
+          },
+          {
+            "id": "option-2",
+            "text": "Johannes Vermeer"
+          },
+          {
+            "id": "option-3",
+            "text": "Pieter Bruegel, o Velho"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem pintou “Os Comedores de Batata”, de 1885?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Vincent van Gogh"
+          },
+          {
+            "id": "option-1",
+            "text": "Rembrandt"
+          },
+          {
+            "id": "option-2",
+            "text": "Johannes Vermeer"
+          },
+          {
+            "id": "option-3",
+            "text": "Pieter Bruegel, o Velho"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Os Comedores de Batata é uma obra distinta de A Noite Estrelada, também de Van Gogh; não são paráfrases sobre a mesma pintura."
+    },
+    {
+      "id": "questionados:arts-literature:b0028f4828bc7f6e",
+      "category": "arts-literature",
+      "difficulty": "hard",
+      "sourceRecordIndex": 44,
+      "decision": "confirmed-and-approved",
+      "referenceUrl": "https://www.sydneyoperahouse.com/our-story",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem foi o arquiteto responsável pelo projeto da Ópera de Sydney, na Austrália?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Frank Lloyd Wright"
+          },
+          {
+            "id": "option-1",
+            "text": "Le Corbusier"
+          },
+          {
+            "id": "option-2",
+            "text": "Zaha Hadid"
+          },
+          {
+            "id": "option-3",
+            "text": "Jørn Utzon"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "revised": {
+        "prompt": "Quem foi o arquiteto responsável pelo projeto da Ópera de Sydney, na Austrália?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Frank Lloyd Wright"
+          },
+          {
+            "id": "option-1",
+            "text": "Le Corbusier"
+          },
+          {
+            "id": "option-2",
+            "text": "Zaha Hadid"
+          },
+          {
+            "id": "option-3",
+            "text": "Jørn Utzon"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "note": "Projeto arquitetônico de Jørn Utzon; a pergunta não atribui a ele sozinho toda a execução posterior."
+    },
+    {
+      "id": "questionados:arts-literature:8a7c6a7728d52f02",
+      "category": "arts-literature",
+      "difficulty": "hard",
+      "sourceRecordIndex": 15,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://bauhaus-dessau.de/institution/chronologie/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é considerado o fundador do movimento Bauhaus?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Le Corbusier"
+          },
+          {
+            "id": "option-1",
+            "text": "Walter Gropius"
+          },
+          {
+            "id": "option-2",
+            "text": "Frank Lloyd Wright"
+          },
+          {
+            "id": "option-3",
+            "text": "Mies van der Rohe"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem fundou a escola Bauhaus em Weimar, na Alemanha, em 1919?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Le Corbusier"
+          },
+          {
+            "id": "option-1",
+            "text": "Walter Gropius"
+          },
+          {
+            "id": "option-2",
+            "text": "Frank Lloyd Wright"
+          },
+          {
+            "id": "option-3",
+            "text": "Mies van der Rohe"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Especificada a escola fundada em Weimar, em 1919, por Walter Gropius; evita a expressão vaga fundador do movimento."
+    },
+    {
+      "id": "questionados:pop-culture:bc12cf7163129d52",
+      "category": "pop-culture",
+      "difficulty": "easy",
+      "sourceRecordIndex": 0,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.marvel.com/articles/movies/iron-man-kevin-feige-jon-favreau-15-anniversary-interview?mibextid=Zxz2cZMarvel",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual ator interpretou o Homem de Ferro nos filmes da Marvel?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Chris Evans"
+          },
+          {
+            "id": "option-1",
+            "text": "Robert Downey Jr."
+          },
+          {
+            "id": "option-2",
+            "text": "Chris Hemsworth"
+          },
+          {
+            "id": "option-3",
+            "text": "Mark Ruffalo"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual ator interpretou Tony Stark, o Homem de Ferro, no filme “Homem de Ferro” de 2008?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Chris Evans"
+          },
+          {
+            "id": "option-1",
+            "text": "Robert Downey Jr."
+          },
+          {
+            "id": "option-2",
+            "text": "Chris Hemsworth"
+          },
+          {
+            "id": "option-3",
+            "text": "Mark Ruffalo"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Robert Downey Jr. no papel principal. Fixado filme de 2008 para não depender de futuros intérpretes ou versões do personagem."
+    },
+    {
+      "id": "questionados:pop-culture:e70c2707294a141d",
+      "category": "pop-culture",
+      "difficulty": "easy",
+      "sourceRecordIndex": 4,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.paramount.com/movies/titanic",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem interpretou Jack Dawson em 'Titanic'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Brad Pitt"
+          },
+          {
+            "id": "option-1",
+            "text": "Leonardo DiCaprio"
+          },
+          {
+            "id": "option-2",
+            "text": "Matt Damon"
+          },
+          {
+            "id": "option-3",
+            "text": "Johnny Depp"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem interpretou Jack no filme “Titanic”, de 1997?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Brad Pitt"
+          },
+          {
+            "id": "option-1",
+            "text": "Leonardo DiCaprio"
+          },
+          {
+            "id": "option-2",
+            "text": "Matt Damon"
+          },
+          {
+            "id": "option-3",
+            "text": "Johnny Depp"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Leonardo DiCaprio interpreta Jack; explicitada a versão de 1997."
+    },
+    {
+      "id": "questionados:pop-culture:12762fa46ea28f5b",
+      "category": "pop-culture",
+      "difficulty": "easy",
+      "sourceRecordIndex": 24,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://catalog.afi.com/Film/55210-TOY-STORY",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é a voz do personagem Woody na franquia 'Toy Story'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tom Hanks"
+          },
+          {
+            "id": "option-1",
+            "text": "Tim Allen"
+          },
+          {
+            "id": "option-2",
+            "text": "Billy Crystal"
+          },
+          {
+            "id": "option-3",
+            "text": "John Goodman"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem deu voz a Woody na versão original em inglês de “Toy Story”, de 1995?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tom Hanks"
+          },
+          {
+            "id": "option-1",
+            "text": "Tim Allen"
+          },
+          {
+            "id": "option-2",
+            "text": "Billy Crystal"
+          },
+          {
+            "id": "option-3",
+            "text": "John Goodman"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Créditos do AFI associam Woody a Tom Hanks. Fixados versão original em inglês e primeiro filme; a dublagem brasileira tem outro ator."
+    },
+    {
+      "id": "questionados:pop-culture:5a604a4e7cb34fb2",
+      "category": "pop-culture",
+      "difficulty": "easy",
+      "sourceRecordIndex": 63,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://movies.disney.com/the-little-mermaid",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome da princesa da Disney que vive sob o mar?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Cinderela"
+          },
+          {
+            "id": "option-1",
+            "text": "Ariel"
+          },
+          {
+            "id": "option-2",
+            "text": "Bela"
+          },
+          {
+            "id": "option-3",
+            "text": "Jasmine"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Qual é o nome da princesa sereia protagonista da animação Disney “A Pequena Sereia”, de 1989?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Cinderela"
+          },
+          {
+            "id": "option-1",
+            "text": "Ariel"
+          },
+          {
+            "id": "option-2",
+            "text": "Bela"
+          },
+          {
+            "id": "option-3",
+            "text": "Jasmine"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Ariel é a protagonista da animação de 1989; não depende da versão em live action."
+    },
+    {
+      "id": "questionados:pop-culture:bd34cf84877fc5f5",
+      "category": "pop-culture",
+      "difficulty": "easy",
+      "sourceRecordIndex": 90,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.bfi.org.uk/film/cc7edbb1-17e5-509b-935b-725045d722aa/the-matrix",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem interpretou o papel de Neo na trilogia 'Matrix'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Keanu Reeves"
+          },
+          {
+            "id": "option-1",
+            "text": "Laurence Fishburne"
+          },
+          {
+            "id": "option-2",
+            "text": "Hugo Weaving"
+          },
+          {
+            "id": "option-3",
+            "text": "Carrie-Anne Moss"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem interpretou Neo no filme “Matrix”, de 1999?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Keanu Reeves"
+          },
+          {
+            "id": "option-1",
+            "text": "Laurence Fishburne"
+          },
+          {
+            "id": "option-2",
+            "text": "Hugo Weaving"
+          },
+          {
+            "id": "option-3",
+            "text": "Carrie-Anne Moss"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "BFI associa Neo a Keanu Reeves. Fixado primeiro filme de 1999, em vez de depender do tamanho atual da franquia."
+    },
+    {
+      "id": "questionados:pop-culture:f4486d97f25ea784",
+      "category": "pop-culture",
+      "difficulty": "easy",
+      "sourceRecordIndex": 38,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.jkrowling.com/wp-content/uploads/2025/03/J.K.-Rowling-Biography-2025.pdf",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é o autor da série de livros 'Harry Potter'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "J.R.R. Tolkien"
+          },
+          {
+            "id": "option-1",
+            "text": "C.S. Lewis"
+          },
+          {
+            "id": "option-2",
+            "text": "J.K. Rowling"
+          },
+          {
+            "id": "option-3",
+            "text": "George R.R. Martin"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Quem escreveu os sete romances da série “Harry Potter”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "J.R.R. Tolkien"
+          },
+          {
+            "id": "option-1",
+            "text": "C.S. Lewis"
+          },
+          {
+            "id": "option-2",
+            "text": "J.K. Rowling"
+          },
+          {
+            "id": "option-3",
+            "text": "George R.R. Martin"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "J.K. Rowling escreveu os sete romances de Harry Potter. Corrigido gênero e separado dos roteiros e peças derivados."
+    },
+    {
+      "id": "questionados:pop-culture:23bbbcde658f5c61",
+      "category": "pop-culture",
+      "difficulty": "medium",
+      "sourceRecordIndex": 19,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=inception",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem dirigiu o filme 'A Origem'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Christopher Nolan"
+          },
+          {
+            "id": "option-1",
+            "text": "Quentin Tarantino"
+          },
+          {
+            "id": "option-2",
+            "text": "Steven Spielberg"
+          },
+          {
+            "id": "option-3",
+            "text": "James Cameron"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Quem dirigiu “A Origem” (“Inception”), de 2010?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Christopher Nolan"
+          },
+          {
+            "id": "option-1",
+            "text": "Quentin Tarantino"
+          },
+          {
+            "id": "option-2",
+            "text": "Steven Spielberg"
+          },
+          {
+            "id": "option-3",
+            "text": "James Cameron"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Exibição do BFI credita Christopher Nolan como diretor de Inception, de 2010. Títulos em português e inglês associados."
+    },
+    {
+      "id": "questionados:pop-culture:1be1452dfe62dbed",
+      "category": "pop-culture",
+      "difficulty": "medium",
+      "sourceRecordIndex": 47,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://store.queenonline.com/products/a-night-at-the-opera-cd",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do álbum que apresenta 'Bohemian Rhapsody', do Queen?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "A Night at the Opera"
+          },
+          {
+            "id": "option-1",
+            "text": "News of the World"
+          },
+          {
+            "id": "option-2",
+            "text": "Sheer Heart Attack"
+          },
+          {
+            "id": "option-3",
+            "text": "The Game"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual álbum de estúdio do Queen “Bohemian Rhapsody” foi lançada originalmente?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "A Night at the Opera"
+          },
+          {
+            "id": "option-1",
+            "text": "News of the World"
+          },
+          {
+            "id": "option-2",
+            "text": "Sheer Heart Attack"
+          },
+          {
+            "id": "option-3",
+            "text": "The Game"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Faixa Bohemian Rhapsody no álbum A Night at the Opera; especificado álbum de estúdio original para excluir coletâneas."
+    },
+    {
+      "id": "questionados:pop-culture:dac426abcf48514d",
+      "category": "pop-culture",
+      "difficulty": "medium",
+      "sourceRecordIndex": 14,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.festival-cannes.com/en/f/casino-royale/",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem interpretou James Bond em '007 - Cassino Royale'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pierce Brosnan"
+          },
+          {
+            "id": "option-1",
+            "text": "Daniel Craig"
+          },
+          {
+            "id": "option-2",
+            "text": "Sean Connery"
+          },
+          {
+            "id": "option-3",
+            "text": "Roger Moore"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "revised": {
+        "prompt": "Quem interpretou James Bond em “007 - Cassino Royale”, de 2006?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pierce Brosnan"
+          },
+          {
+            "id": "option-1",
+            "text": "Daniel Craig"
+          },
+          {
+            "id": "option-2",
+            "text": "Sean Connery"
+          },
+          {
+            "id": "option-3",
+            "text": "Roger Moore"
+          }
+        ],
+        "correctOptionId": "option-1"
+      },
+      "note": "Ficha de Cannes credita Daniel Craig como James Bond em 2006. Ano distingue o filme de outras adaptações de Casino Royale."
+    },
+    {
+      "id": "questionados:pop-culture:e98d92d88a2cc91c",
+      "category": "pop-culture",
+      "difficulty": "medium",
+      "sourceRecordIndex": 99,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://shop.xlrecordings.com/release/346503-adele-25?lang=en_GB",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do álbum que contém a música 'Hello' de Adele?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "25"
+          },
+          {
+            "id": "option-1",
+            "text": "21"
+          },
+          {
+            "id": "option-2",
+            "text": "19"
+          },
+          {
+            "id": "option-3",
+            "text": "Hello"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "revised": {
+        "prompt": "Em qual álbum de estúdio de Adele foi lançada a música “Hello”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "25"
+          },
+          {
+            "id": "option-1",
+            "text": "21"
+          },
+          {
+            "id": "option-2",
+            "text": "19"
+          },
+          {
+            "id": "option-3",
+            "text": "30"
+          }
+        ],
+        "correctOptionId": "option-0"
+      },
+      "note": "Lista de faixas da gravadora XL: Hello abre o álbum 25. Alternativa Hello substituída pelo álbum 30. Referência consultada pelo índice de busca; abertura direta retornou 403."
+    },
+    {
+      "id": "questionados:pop-culture:78925f98e81c6462",
+      "category": "pop-culture",
+      "difficulty": "hard",
+      "sourceRecordIndex": 69,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://www.subpop.com/releases/nirvana/bleach",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Qual é o nome do álbum de estreia da banda Nirvana?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "In Utero"
+          },
+          {
+            "id": "option-1",
+            "text": "Nevermind"
+          },
+          {
+            "id": "option-2",
+            "text": "Bleach"
+          },
+          {
+            "id": "option-3",
+            "text": "Incesticide"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "revised": {
+        "prompt": "Qual foi o álbum de estreia do Nirvana, lançado em 1989?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "In Utero"
+          },
+          {
+            "id": "option-1",
+            "text": "Nevermind"
+          },
+          {
+            "id": "option-2",
+            "text": "Bleach"
+          },
+          {
+            "id": "option-3",
+            "text": "Incesticide"
+          }
+        ],
+        "correctOptionId": "option-2"
+      },
+      "note": "A gravadora original identifica Bleach como álbum de estreia, lançado em junho de 1989; Incesticide é coletânea posterior."
+    },
+    {
+      "id": "questionados:pop-culture:9ef5eb5915256bd9",
+      "category": "pop-culture",
+      "difficulty": "hard",
+      "sourceRecordIndex": 98,
+      "decision": "corrected-and-approved",
+      "referenceUrl": "https://movies.disney.com/pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "reviewedAt": "2026-10-17",
+      "original": {
+        "prompt": "Quem é o diretor do filme 'Piratas do Caribe: A Maldição do Pérola Negra'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Steven Spielberg"
+          },
+          {
+            "id": "option-1",
+            "text": "Christopher Nolan"
+          },
+          {
+            "id": "option-2",
+            "text": "James Cameron"
+          },
+          {
+            "id": "option-3",
+            "text": "Gore Verbinski"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "revised": {
+        "prompt": "Quem dirigiu “Piratas do Caribe: A Maldição do Pérola Negra”, de 2003?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Steven Spielberg"
+          },
+          {
+            "id": "option-1",
+            "text": "Christopher Nolan"
+          },
+          {
+            "id": "option-2",
+            "text": "James Cameron"
+          },
+          {
+            "id": "option-3",
+            "text": "Gore Verbinski"
+          }
+        ],
+        "correctOptionId": "option-3"
+      },
+      "note": "Disney credita Gore Verbinski no filme de 2003; não se aplica genericamente a todos os filmes da franquia."
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-10-17",
+    "approvedCount": 72,
+    "auditMatchesPublished": true,
+    "normalizedPromptsUnique": 72,
+    "preservedInputFiles": 29,
+    "compiledRepositoryFromOutsideWorkspace": true,
+    "inventory": {
+      "arts-literature": {
+        "easy": 6,
+        "medium": 4,
+        "hard": 2,
+        "classicProbe": {
+          "easy": 3,
+          "medium": 3,
+          "unique": 6
+        },
+        "remaining": {
+          "easy": 3,
+          "medium": 1,
+          "hard": 2
+        }
+      },
+      "geography": {
+        "easy": 6,
+        "medium": 4,
+        "hard": 2,
+        "classicProbe": {
+          "easy": 3,
+          "medium": 3,
+          "unique": 6
+        },
+        "remaining": {
+          "easy": 3,
+          "medium": 1,
+          "hard": 2
+        }
+      },
+      "history": {
+        "easy": 6,
+        "medium": 4,
+        "hard": 2,
+        "classicProbe": {
+          "easy": 3,
+          "medium": 3,
+          "unique": 6
+        },
+        "remaining": {
+          "easy": 3,
+          "medium": 1,
+          "hard": 2
+        }
+      },
+      "pop-culture": {
+        "easy": 6,
+        "medium": 4,
+        "hard": 2,
+        "classicProbe": {
+          "easy": 3,
+          "medium": 3,
+          "unique": 6
+        },
+        "remaining": {
+          "easy": 3,
+          "medium": 1,
+          "hard": 2
+        }
+      },
+      "science-nature": {
+        "easy": 6,
+        "medium": 4,
+        "hard": 2,
+        "classicProbe": {
+          "easy": 3,
+          "medium": 3,
+          "unique": 6
+        },
+        "remaining": {
+          "easy": 3,
+          "medium": 1,
+          "hard": 2
+        }
+      },
+      "sports": {
+        "easy": 6,
+        "medium": 4,
+        "hard": 2,
+        "classicProbe": {
+          "easy": 3,
+          "medium": 3,
+          "unique": 6
+        },
+        "remaining": {
+          "easy": 3,
+          "medium": 1,
+          "hard": 2
+        }
+      }
+    },
+    "http": {
+      "/health": 200,
+      "/questions": 404,
+      "/catalog": 404,
+      "/data/questions/published/catalog.json": 404,
+      "POST /guest-sessions": 201
+    },
+    "vitePrivateFiles": {
+      "data/questions/published/catalog.json": 403,
+      "data/questions/reviewed/geography.json": 403,
+      "data/publication-reports/t11-editorial.json": 403
+    },
+    "webBundle": {
+      "filesScanned": 54,
+      "editorialIdsFound": 0,
+      "editorialPromptsFound": 0,
+      "privateCatalogHashFound": false
+    },
+    "limitation": "Stock probe verifies the proposed classic mix only; it does not implement or exercise gameplay or T12 selection."
+  }
+}

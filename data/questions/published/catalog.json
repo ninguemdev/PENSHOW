@@ -1,0 +1,3153 @@
+{
+  "manifest": {
+    "availability": {
+      "arts-literature": {
+        "easy": 6,
+        "hard": 2,
+        "medium": 4,
+        "total": 12
+      },
+      "geography": {
+        "easy": 6,
+        "hard": 2,
+        "medium": 4,
+        "total": 12
+      },
+      "history": {
+        "easy": 6,
+        "hard": 2,
+        "medium": 4,
+        "total": 12
+      },
+      "pop-culture": {
+        "easy": 6,
+        "hard": 2,
+        "medium": 4,
+        "total": 12
+      },
+      "science-nature": {
+        "easy": 6,
+        "hard": 2,
+        "medium": 4,
+        "total": 12
+      },
+      "sports": {
+        "easy": 6,
+        "hard": 2,
+        "medium": 4,
+        "total": 12
+      }
+    },
+    "contentSha256": "50d8db0c570d45f300b3ef72ee3b7170ea2ecc6cd3402d2f3162727f49ccedad",
+    "questionCount": 72
+  },
+  "questions": [
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:arts-literature:23cb2195602682b1",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Leonardo da Vinci"
+        },
+        {
+          "id": "option-1",
+          "text": "Pablo Picasso"
+        },
+        {
+          "id": "option-2",
+          "text": "Vincent van Gogh"
+        },
+        {
+          "id": "option-3",
+          "text": "Michelangelo"
+        }
+      ],
+      "prompt": "Quem pintou a Mona Lisa?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.louvre.fr/decouvrir/le-palais/de-la-joconde-aux-noces-de-cana",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 0,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-2",
+      "difficulty": "medium",
+      "id": "questionados:arts-literature:3926523cf72f639d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Oscar Niemeyer"
+        },
+        {
+          "id": "option-1",
+          "text": "Ruy Ohtake"
+        },
+        {
+          "id": "option-2",
+          "text": "Lina Bo Bardi"
+        },
+        {
+          "id": "option-3",
+          "text": "Lucio Costa"
+        }
+      ],
+      "prompt": "Quem projetou o edifício do MASP inaugurado em 1968 na avenida Paulista?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.masp.org.br/seminarios/o-masp-de-lina-50-anos-do-edificio-na-avenida-paulista",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 96,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:arts-literature:42fbf499fb012bca",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Pablo Picasso"
+        },
+        {
+          "id": "option-1",
+          "text": "Vincent van Gogh"
+        },
+        {
+          "id": "option-2",
+          "text": "Salvador Dalí"
+        },
+        {
+          "id": "option-3",
+          "text": "Édouard Manet"
+        }
+      ],
+      "prompt": "Quem pintou “A Noite Estrelada”, de 1889, hoje no acervo do MoMA?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.moma.org/collection/works/79802",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 17,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:arts-literature:6048fdb27e792a61",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Tarsila do Amaral"
+        },
+        {
+          "id": "option-1",
+          "text": "Cândido Portinari"
+        },
+        {
+          "id": "option-2",
+          "text": "Anita Malfatti"
+        },
+        {
+          "id": "option-3",
+          "text": "Di Cavalcanti"
+        }
+      ],
+      "prompt": "Qual artista brasileira pintou “Abaporu”, em 1928?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://coleccion.malba.org.ar/Detail/objects/201",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 54,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:arts-literature:85e71d8ba921d8a9",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Donatello"
+        },
+        {
+          "id": "option-1",
+          "text": "Michelangelo"
+        },
+        {
+          "id": "option-2",
+          "text": "Leonardo da Vinci"
+        },
+        {
+          "id": "option-3",
+          "text": "Rafael"
+        }
+      ],
+      "prompt": "Quem esculpiu o “Davi” de mármore, entre 1501 e 1504, hoje na Galleria dell’Accademia de Florença?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 60,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-1",
+      "difficulty": "hard",
+      "id": "questionados:arts-literature:8a7c6a7728d52f02",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Le Corbusier"
+        },
+        {
+          "id": "option-1",
+          "text": "Walter Gropius"
+        },
+        {
+          "id": "option-2",
+          "text": "Frank Lloyd Wright"
+        },
+        {
+          "id": "option-3",
+          "text": "Mies van der Rohe"
+        }
+      ],
+      "prompt": "Quem fundou a escola Bauhaus em Weimar, na Alemanha, em 1919?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://bauhaus-dessau.de/institution/chronologie/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 15,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-3",
+      "difficulty": "hard",
+      "id": "questionados:arts-literature:b0028f4828bc7f6e",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Frank Lloyd Wright"
+        },
+        {
+          "id": "option-1",
+          "text": "Le Corbusier"
+        },
+        {
+          "id": "option-2",
+          "text": "Zaha Hadid"
+        },
+        {
+          "id": "option-3",
+          "text": "Jørn Utzon"
+        }
+      ],
+      "prompt": "Quem foi o arquiteto responsável pelo projeto da Ópera de Sydney, na Austrália?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.sydneyoperahouse.com/our-story",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 44,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-2",
+      "difficulty": "medium",
+      "id": "questionados:arts-literature:c163e69c6253f98c",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Leonardo da Vinci"
+        },
+        {
+          "id": "option-1",
+          "text": "Rafael"
+        },
+        {
+          "id": "option-2",
+          "text": "Sandro Botticelli"
+        },
+        {
+          "id": "option-3",
+          "text": "Michelangelo"
+        }
+      ],
+      "prompt": "Quem pintou “O Nascimento de Vênus”, do acervo das Gallerie degli Uffizi?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.uffizi.it/en/artworks/birth-of-venus",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 7,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:arts-literature:d9bc4a791cef4b64",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Juan Gris"
+        },
+        {
+          "id": "option-1",
+          "text": "Pablo Picasso"
+        },
+        {
+          "id": "option-2",
+          "text": "Fernand Léger"
+        },
+        {
+          "id": "option-3",
+          "text": "Georges Braque"
+        }
+      ],
+      "prompt": "Quem pintou “Les Demoiselles d’Avignon”, em 1907?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.moma.org/collection/works/79766",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 28,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:arts-literature:de598888e2bbffd7",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Eugène Delacroix"
+        },
+        {
+          "id": "option-1",
+          "text": "Théodore Géricault"
+        },
+        {
+          "id": "option-2",
+          "text": "Jean-Auguste-Dominique Ingres"
+        },
+        {
+          "id": "option-3",
+          "text": "Camille Corot"
+        }
+      ],
+      "prompt": "Quem pintou “A Liberdade Guiando o Povo”, de 1830?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://presse.louvre.fr/retour-en-salle-de-la-liberte-guidant-le-peuple-restauree/?lang=fr",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 73,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:arts-literature:ded94c05c908a142",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Vincent van Gogh"
+        },
+        {
+          "id": "option-1",
+          "text": "Rembrandt"
+        },
+        {
+          "id": "option-2",
+          "text": "Johannes Vermeer"
+        },
+        {
+          "id": "option-3",
+          "text": "Pieter Bruegel, o Velho"
+        }
+      ],
+      "prompt": "Quem pintou “Os Comedores de Batata”, de 1885?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/overview-past-exhibitions/exhibition-the-potato-eaters",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 62,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:arts-literature:fbed9f676e349657",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Auguste Rodin"
+        },
+        {
+          "id": "option-1",
+          "text": "Michelangelo"
+        },
+        {
+          "id": "option-2",
+          "text": "Pablo Picasso"
+        },
+        {
+          "id": "option-3",
+          "text": "Antoni Gaudí"
+        }
+      ],
+      "prompt": "Quem é o autor da escultura 'O Pensador'?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 9,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:geography:0f036a88c17c3e8b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Brasília"
+        },
+        {
+          "id": "option-1",
+          "text": "Rio de Janeiro"
+        },
+        {
+          "id": "option-2",
+          "text": "São Paulo"
+        },
+        {
+          "id": "option-3",
+          "text": "Belém"
+        }
+      ],
+      "prompt": "Qual é a capital do Brasil?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://educa.ibge.gov.br/images/educa/criancas/brincadeiras/Cartas_Perguntas_Bingo_Brasil.pdf",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 0,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:geography:10c7585ba82caee2",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "China"
+        },
+        {
+          "id": "option-1",
+          "text": "Índia"
+        },
+        {
+          "id": "option-2",
+          "text": "Estados Unidos"
+        },
+        {
+          "id": "option-3",
+          "text": "Indonésia"
+        }
+      ],
+      "prompt": "Segundo a ONU, qual país ultrapassou a China em população em 2023?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://india.unfpa.org/en/publications/indias-population-growth-and-policy-implications",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 3,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:geography:1e9b4f397b33906f",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "África"
+        },
+        {
+          "id": "option-1",
+          "text": "Ásia"
+        },
+        {
+          "id": "option-2",
+          "text": "América do Sul"
+        },
+        {
+          "id": "option-3",
+          "text": "Austrália"
+        }
+      ],
+      "prompt": "Em qual continente está localizado o Deserto do Saara?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/blogs/earth-matters/2012/11/02/dune-gallery/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 2,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:geography:1fb2a8e6a10de09b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Pacífico"
+        },
+        {
+          "id": "option-1",
+          "text": "Atlântico"
+        },
+        {
+          "id": "option-2",
+          "text": "Índico"
+        },
+        {
+          "id": "option-3",
+          "text": "Ártico"
+        }
+      ],
+      "prompt": "Em que oceano fica a Ilha de Páscoa?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/easter-island-rapa-nui-5366/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 14,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:geography:380a6881efad86b5",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Pacífico"
+        },
+        {
+          "id": "option-1",
+          "text": "Atlântico"
+        },
+        {
+          "id": "option-2",
+          "text": "Índico"
+        },
+        {
+          "id": "option-3",
+          "text": "Ártico"
+        }
+      ],
+      "prompt": "Qual oceano tem a maior área de superfície da Terra?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://oceanservice.noaa.gov/facts/pacific.html",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 6,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "questionados:geography:4f4c76a6f363d462",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Jordânia"
+        },
+        {
+          "id": "option-1",
+          "text": "Egito"
+        },
+        {
+          "id": "option-2",
+          "text": "Turquia"
+        },
+        {
+          "id": "option-3",
+          "text": "Líbano"
+        }
+      ],
+      "prompt": "Em qual país fica o sítio arqueológico de Petra?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://whc.unesco.org/en/list/326/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 29,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:geography:58d3da4a8ea70640",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Canberra"
+        },
+        {
+          "id": "option-1",
+          "text": "Sydney"
+        },
+        {
+          "id": "option-2",
+          "text": "Melbourne"
+        },
+        {
+          "id": "option-3",
+          "text": "Brisbane"
+        }
+      ],
+      "prompt": "Qual é a capital da Austrália?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nca.gov.au/education/canberras-history/siting-and-naming-canberra",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 20,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:geography:8e879f857d0a4b0b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Antártica"
+        },
+        {
+          "id": "option-1",
+          "text": "África"
+        },
+        {
+          "id": "option-2",
+          "text": "América do Sul"
+        },
+        {
+          "id": "option-3",
+          "text": "Oceania"
+        }
+      ],
+      "prompt": "Em qual continente fica o Polo Sul geográfico?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nsf.gov/od/opp/ail/amundson-scott-south-pole-station",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 9,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:geography:d6bf8e88f126bf71",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Índia"
+        },
+        {
+          "id": "option-1",
+          "text": "Egito"
+        },
+        {
+          "id": "option-2",
+          "text": "Turquia"
+        },
+        {
+          "id": "option-3",
+          "text": "China"
+        }
+      ],
+      "prompt": "Em que país está localizado o Taj Mahal?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://whc.unesco.org/en/list/252/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 5,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:geography:e3ed0c082081adac",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Lago Baikal"
+        },
+        {
+          "id": "option-1",
+          "text": "Lago Vitória"
+        },
+        {
+          "id": "option-2",
+          "text": "Lago Superior"
+        },
+        {
+          "id": "option-3",
+          "text": "Lago Titicaca"
+        }
+      ],
+      "prompt": "Qual é o maior lago de água doce do mundo em volume de água?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.usgs.gov/media/images/lake-baikal-space-largest-oldest-and-deepest-lake",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 25,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "questionados:geography:f114912594870f02",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1914"
+        },
+        {
+          "id": "option-1",
+          "text": "1888"
+        },
+        {
+          "id": "option-2",
+          "text": "1925"
+        },
+        {
+          "id": "option-3",
+          "text": "1902"
+        }
+      ],
+      "prompt": "Em que ano ocorreu a inauguração oficial do Canal do Panamá?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://pancanal.com/canal-de-panama-celebra-101-anos-de-operacion/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 49,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:geography:f253e3e13f976eb0",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Mar Negro"
+        },
+        {
+          "id": "option-1",
+          "text": "Mar Adriático"
+        },
+        {
+          "id": "option-2",
+          "text": "Mar Báltico"
+        },
+        {
+          "id": "option-3",
+          "text": "Mar Vermelho"
+        }
+      ],
+      "prompt": "Em qual mar o rio Danúbio deságua?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.icpdr.org/danube-basin/receiving-sea-black-sea",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 19,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-1",
+      "difficulty": "medium",
+      "id": "questionados:history:186775b5b6d4ed20",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Júlio César"
+        },
+        {
+          "id": "option-1",
+          "text": "Augusto"
+        },
+        {
+          "id": "option-2",
+          "text": "Nero"
+        },
+        {
+          "id": "option-3",
+          "text": "Calígula"
+        }
+      ],
+      "prompt": "Quem foi o primeiro imperador romano?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.britishmuseum.org/collection/term/BIOG57074",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 29,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:history:2252198a840c5ee2",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1939"
+        },
+        {
+          "id": "option-1",
+          "text": "1941"
+        },
+        {
+          "id": "option-2",
+          "text": "1943"
+        },
+        {
+          "id": "option-3",
+          "text": "1945"
+        }
+      ],
+      "prompt": "Em que ano a invasão alemã da Polônia marcou o início da Segunda Guerra Mundial na Europa?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939?parent=en%2F55299",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 8,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:history:2315b08a4ddec013",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Ataque a Pearl Harbor"
+        },
+        {
+          "id": "option-1",
+          "text": "Bombardeio de Hiroshima"
+        },
+        {
+          "id": "option-2",
+          "text": "Invasão da Normandia"
+        },
+        {
+          "id": "option-3",
+          "text": "Ataque a Londres"
+        }
+      ],
+      "prompt": "Qual ataque japonês levou à entrada dos Estados Unidos na Segunda Guerra Mundial, em dezembro de 1941?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nps.gov/wwii/learn/historyculture/pearl-harbor.htm",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 28,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:history:496ec9b4cca085d8",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Nelson Mandela"
+        },
+        {
+          "id": "option-1",
+          "text": "Desmond Tutu"
+        },
+        {
+          "id": "option-2",
+          "text": "Steve Biko"
+        },
+        {
+          "id": "option-3",
+          "text": "Thabo Mbeki"
+        }
+      ],
+      "prompt": "Qual líder contra o apartheid tomou posse como presidente da África do Sul em 1994?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nelsonmandela.org/biography",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 18,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-2",
+      "difficulty": "easy",
+      "id": "questionados:history:88806f3eb541f3c2",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Getúlio Vargas"
+        },
+        {
+          "id": "option-1",
+          "text": "Juscelino Kubitschek"
+        },
+        {
+          "id": "option-2",
+          "text": "Deodoro da Fonseca"
+        },
+        {
+          "id": "option-3",
+          "text": "Marechal Floriano Peixoto"
+        }
+      ],
+      "prompt": "Quem foi o primeiro presidente da República do Brasil?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/212-manuel-deodoro-da-fonseca",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 5,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "questionados:history:8996b120738dfab0",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Emmeline Pankhurst"
+        },
+        {
+          "id": "option-1",
+          "text": "Florence Nightingale"
+        },
+        {
+          "id": "option-2",
+          "text": "Rainha Vitória"
+        },
+        {
+          "id": "option-3",
+          "text": "Jane Austen"
+        }
+      ],
+      "prompt": "Qual sufragista fundou a Women’s Social and Political Union (WSPU), no Reino Unido, em 1903?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/speakers-conference/emmeline-pankhurst/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 55,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-2",
+      "difficulty": "easy",
+      "id": "questionados:history:a9cd0effdcde5f0b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Mesopotâmica"
+        },
+        {
+          "id": "option-1",
+          "text": "Romana"
+        },
+        {
+          "id": "option-2",
+          "text": "Egípcia"
+        },
+        {
+          "id": "option-3",
+          "text": "Chinesa"
+        }
+      ],
+      "prompt": "Qual civilização construiu as pirâmides de Gizé?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://whc.unesco.org/en/list/86/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 9,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-1",
+      "difficulty": "medium",
+      "id": "questionados:history:b42dfbc2ecfb601a",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1989"
+        },
+        {
+          "id": "option-1",
+          "text": "1991"
+        },
+        {
+          "id": "option-2",
+          "text": "1993"
+        },
+        {
+          "id": "option-3",
+          "text": "1995"
+        }
+      ],
+      "prompt": "Em que ano a União Soviética foi oficialmente dissolvida?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 37,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-2",
+      "difficulty": "hard",
+      "id": "questionados:history:c2d183fb08abc6ce",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Tratado de Paris"
+        },
+        {
+          "id": "option-1",
+          "text": "Tratado de Versalhes"
+        },
+        {
+          "id": "option-2",
+          "text": "Tratado de Frankfurt"
+        },
+        {
+          "id": "option-3",
+          "text": "Tratado de Brest-Litovski"
+        }
+      ],
+      "prompt": "Qual tratado de paz definitivo, assinado em 10 de maio de 1871, encerrou a Guerra Franco-Prussiana?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/1870-1871-guerre-franco-prussienne/guerre-franco-0",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 48,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:history:c7536d3ca4b28335",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Francisco Ferdinando (Franz Ferdinand)"
+        },
+        {
+          "id": "option-1",
+          "text": "Francisco José I"
+        },
+        {
+          "id": "option-2",
+          "text": "Otto von Bismarck"
+        },
+        {
+          "id": "option-3",
+          "text": "Guilherme II"
+        }
+      ],
+      "prompt": "Qual arquiduque foi assassinado em Sarajevo em 1914, no atentado que precipitou a crise anterior à Primeira Guerra Mundial?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nam.ac.uk/explore/to-arms-1914",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 35,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:history:f2079d0760e77b6c",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1914"
+        },
+        {
+          "id": "option-1",
+          "text": "1917"
+        },
+        {
+          "id": "option-2",
+          "text": "1918"
+        },
+        {
+          "id": "option-3",
+          "text": "1920"
+        }
+      ],
+      "prompt": "Em que ano a Primeira Guerra Mundial começou?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nam.ac.uk/explore/first-world-war",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 3,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-2",
+      "difficulty": "medium",
+      "id": "questionados:history:f458ae2bc6b72cfb",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Maria I"
+        },
+        {
+          "id": "option-1",
+          "text": "Ana"
+        },
+        {
+          "id": "option-2",
+          "text": "Elizabeth I (Isabel I)"
+        },
+        {
+          "id": "option-3",
+          "text": "Vitória"
+        }
+      ],
+      "prompt": "Qual rainha governou a Inglaterra de 1558 a 1603?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.royal.uk/elizabeth-i",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 15,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:12762fa46ea28f5b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Tom Hanks"
+        },
+        {
+          "id": "option-1",
+          "text": "Tim Allen"
+        },
+        {
+          "id": "option-2",
+          "text": "Billy Crystal"
+        },
+        {
+          "id": "option-3",
+          "text": "John Goodman"
+        }
+      ],
+      "prompt": "Quem deu voz a Woody na versão original em inglês de “Toy Story”, de 1995?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://catalog.afi.com/Film/55210-TOY-STORY",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 24,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:pop-culture:1be1452dfe62dbed",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "A Night at the Opera"
+        },
+        {
+          "id": "option-1",
+          "text": "News of the World"
+        },
+        {
+          "id": "option-2",
+          "text": "Sheer Heart Attack"
+        },
+        {
+          "id": "option-3",
+          "text": "The Game"
+        }
+      ],
+      "prompt": "Em qual álbum de estúdio do Queen “Bohemian Rhapsody” foi lançada originalmente?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://store.queenonline.com/products/a-night-at-the-opera-cd",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 47,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:pop-culture:23bbbcde658f5c61",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Christopher Nolan"
+        },
+        {
+          "id": "option-1",
+          "text": "Quentin Tarantino"
+        },
+        {
+          "id": "option-2",
+          "text": "Steven Spielberg"
+        },
+        {
+          "id": "option-3",
+          "text": "James Cameron"
+        }
+      ],
+      "prompt": "Quem dirigiu “A Origem” (“Inception”), de 2010?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=inception",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 19,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:5a604a4e7cb34fb2",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Cinderela"
+        },
+        {
+          "id": "option-1",
+          "text": "Ariel"
+        },
+        {
+          "id": "option-2",
+          "text": "Bela"
+        },
+        {
+          "id": "option-3",
+          "text": "Jasmine"
+        }
+      ],
+      "prompt": "Qual é o nome da princesa sereia protagonista da animação Disney “A Pequena Sereia”, de 1989?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://movies.disney.com/the-little-mermaid",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 63,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-2",
+      "difficulty": "hard",
+      "id": "questionados:pop-culture:78925f98e81c6462",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "In Utero"
+        },
+        {
+          "id": "option-1",
+          "text": "Nevermind"
+        },
+        {
+          "id": "option-2",
+          "text": "Bleach"
+        },
+        {
+          "id": "option-3",
+          "text": "Incesticide"
+        }
+      ],
+      "prompt": "Qual foi o álbum de estreia do Nirvana, lançado em 1989?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.subpop.com/releases/nirvana/bleach",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 69,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-3",
+      "difficulty": "hard",
+      "id": "questionados:pop-culture:9ef5eb5915256bd9",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Steven Spielberg"
+        },
+        {
+          "id": "option-1",
+          "text": "Christopher Nolan"
+        },
+        {
+          "id": "option-2",
+          "text": "James Cameron"
+        },
+        {
+          "id": "option-3",
+          "text": "Gore Verbinski"
+        }
+      ],
+      "prompt": "Quem dirigiu “Piratas do Caribe: A Maldição do Pérola Negra”, de 2003?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://movies.disney.com/pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 98,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:bc12cf7163129d52",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Chris Evans"
+        },
+        {
+          "id": "option-1",
+          "text": "Robert Downey Jr."
+        },
+        {
+          "id": "option-2",
+          "text": "Chris Hemsworth"
+        },
+        {
+          "id": "option-3",
+          "text": "Mark Ruffalo"
+        }
+      ],
+      "prompt": "Qual ator interpretou Tony Stark, o Homem de Ferro, no filme “Homem de Ferro” de 2008?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.marvel.com/articles/movies/iron-man-kevin-feige-jon-favreau-15-anniversary-interview?mibextid=Zxz2cZMarvel",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 0,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:bd34cf84877fc5f5",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Keanu Reeves"
+        },
+        {
+          "id": "option-1",
+          "text": "Laurence Fishburne"
+        },
+        {
+          "id": "option-2",
+          "text": "Hugo Weaving"
+        },
+        {
+          "id": "option-3",
+          "text": "Carrie-Anne Moss"
+        }
+      ],
+      "prompt": "Quem interpretou Neo no filme “Matrix”, de 1999?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.bfi.org.uk/film/cc7edbb1-17e5-509b-935b-725045d722aa/the-matrix",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 90,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-1",
+      "difficulty": "medium",
+      "id": "questionados:pop-culture:dac426abcf48514d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Pierce Brosnan"
+        },
+        {
+          "id": "option-1",
+          "text": "Daniel Craig"
+        },
+        {
+          "id": "option-2",
+          "text": "Sean Connery"
+        },
+        {
+          "id": "option-3",
+          "text": "Roger Moore"
+        }
+      ],
+      "prompt": "Quem interpretou James Bond em “007 - Cassino Royale”, de 2006?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.festival-cannes.com/en/f/casino-royale/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 14,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:e70c2707294a141d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Brad Pitt"
+        },
+        {
+          "id": "option-1",
+          "text": "Leonardo DiCaprio"
+        },
+        {
+          "id": "option-2",
+          "text": "Matt Damon"
+        },
+        {
+          "id": "option-3",
+          "text": "Johnny Depp"
+        }
+      ],
+      "prompt": "Quem interpretou Jack no filme “Titanic”, de 1997?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.paramount.com/movies/titanic",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 4,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:pop-culture:e98d92d88a2cc91c",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "25"
+        },
+        {
+          "id": "option-1",
+          "text": "21"
+        },
+        {
+          "id": "option-2",
+          "text": "19"
+        },
+        {
+          "id": "option-3",
+          "text": "30"
+        }
+      ],
+      "prompt": "Em qual álbum de estúdio de Adele foi lançada a música “Hello”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://shop.xlrecordings.com/release/346503-adele-25?lang=en_GB",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 99,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-2",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:f4486d97f25ea784",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "J.R.R. Tolkien"
+        },
+        {
+          "id": "option-1",
+          "text": "C.S. Lewis"
+        },
+        {
+          "id": "option-2",
+          "text": "J.K. Rowling"
+        },
+        {
+          "id": "option-3",
+          "text": "George R.R. Martin"
+        }
+      ],
+      "prompt": "Quem escreveu os sete romances da série “Harry Potter”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.jkrowling.com/wp-content/uploads/2025/03/J.K.-Rowling-Biography-2025.pdf",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 38,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:science-nature:001ad4d2d581932f",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Gene"
+        },
+        {
+          "id": "option-1",
+          "text": "RNA"
+        },
+        {
+          "id": "option-2",
+          "text": "Proteína"
+        },
+        {
+          "id": "option-3",
+          "text": "Cromossomo"
+        }
+      ],
+      "prompt": "Qual é a unidade básica da hereditariedade?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 7,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-3",
+      "difficulty": "hard",
+      "id": "questionados:science-nature:456a943d5d51794e",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Um tipo de cometa"
+        },
+        {
+          "id": "option-1",
+          "text": "Um planeta em formação"
+        },
+        {
+          "id": "option-2",
+          "text": "Um tipo de galáxia"
+        },
+        {
+          "id": "option-3",
+          "text": "Uma estrela de nêutrons em rotação cujos feixes de radiação são detectados como pulsos"
+        }
+      ],
+      "prompt": "O que é um pulsar?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/universe/stars/types/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 31,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:science-nature:4ad04448e52694cd",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "kelvin (K)"
+        },
+        {
+          "id": "option-1",
+          "text": "grau Celsius (°C)"
+        },
+        {
+          "id": "option-2",
+          "text": "grau Fahrenheit (°F)"
+        },
+        {
+          "id": "option-3",
+          "text": "grau Rankine (°R)"
+        }
+      ],
+      "prompt": "Qual é a unidade de base da temperatura termodinâmica no Sistema Internacional de Unidades (SI)?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.bipm.org/en/si-base-units/kelvin",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 10,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-2",
+      "difficulty": "easy",
+      "id": "questionados:science-nature:556d63734b0b3911",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Oxigênio"
+        },
+        {
+          "id": "option-1",
+          "text": "Dióxido de carbono"
+        },
+        {
+          "id": "option-2",
+          "text": "Nitrogênio"
+        },
+        {
+          "id": "option-3",
+          "text": "Hidrogênio"
+        }
+      ],
+      "prompt": "Qual gás é o mais abundante na atmosfera terrestre seca, em volume?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/earth/climate-change/greenhouse-gases/the-atmosphere-getting-a-handle-on-carbon-dioxide/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 16,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-2",
+      "difficulty": "medium",
+      "id": "questionados:science-nature:64cdce19d8014963",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Um planeta localizado dentro do Sistema Solar"
+        },
+        {
+          "id": "option-1",
+          "text": "Qualquer planeta que tenha anéis"
+        },
+        {
+          "id": "option-2",
+          "text": "Um planeta localizado fora do Sistema Solar"
+        },
+        {
+          "id": "option-3",
+          "text": "Qualquer planeta formado principalmente por gases"
+        }
+      ],
+      "prompt": "Qual é a definição de exoplaneta?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/exoplanets/facts/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 6,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:science-nature:87963949f20d6e08",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Fotossíntese"
+        },
+        {
+          "id": "option-1",
+          "text": "Respiração"
+        },
+        {
+          "id": "option-2",
+          "text": "Digestão"
+        },
+        {
+          "id": "option-3",
+          "text": "Fermentação"
+        }
+      ],
+      "prompt": "Qual processo permite às plantas converter energia luminosa em energia química?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://research.fs.usda.gov/treesearch/13671",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 12,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:science-nature:9a905090345496ae",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "CO2"
+        },
+        {
+          "id": "option-1",
+          "text": "H2O"
+        },
+        {
+          "id": "option-2",
+          "text": "O2"
+        },
+        {
+          "id": "option-3",
+          "text": "CH4"
+        }
+      ],
+      "prompt": "Qual é a fórmula química da água?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.usgs.gov/observatories/yvo/news/how-does-water-snow-and-rain-get-numerous-hot-springs-yellowstone",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 4,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:science-nature:b9ac9b7e458bc0e3",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Lua"
+        },
+        {
+          "id": "option-1",
+          "text": "Sol"
+        },
+        {
+          "id": "option-2",
+          "text": "Vênus"
+        },
+        {
+          "id": "option-3",
+          "text": "Marte"
+        }
+      ],
+      "prompt": "Qual é a estrela do Sistema Solar?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/sun/facts/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 0,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "questionados:science-nature:c16a982c64f4f277",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "pascal (Pa)"
+        },
+        {
+          "id": "option-1",
+          "text": "newton (N)"
+        },
+        {
+          "id": "option-2",
+          "text": "watt (W)"
+        },
+        {
+          "id": "option-3",
+          "text": "joule (J)"
+        }
+      ],
+      "prompt": "Qual é a unidade de pressão no Sistema Internacional de Unidades (SI)?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 74,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-2",
+      "difficulty": "easy",
+      "id": "questionados:science-nature:c3a357101fc1a240",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Terra"
+        },
+        {
+          "id": "option-1",
+          "text": "Marte"
+        },
+        {
+          "id": "option-2",
+          "text": "Júpiter"
+        },
+        {
+          "id": "option-3",
+          "text": "Saturno"
+        }
+      ],
+      "prompt": "Qual é o maior planeta do Sistema Solar?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/jupiter/jupiter-facts/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 2,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:science-nature:c7d7b315959362ab",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Marie Curie"
+        },
+        {
+          "id": "option-1",
+          "text": "Rosalind Franklin"
+        },
+        {
+          "id": "option-2",
+          "text": "Dorothy Crowfoot Hodgkin"
+        },
+        {
+          "id": "option-3",
+          "text": "Barbara McClintock"
+        }
+      ],
+      "prompt": "Qual cientista recebeu o Nobel de Física em 1903 e o de Química em 1911?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 34,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:science-nature:d29f57cc3bc0470d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "A Lua fica entre a Terra e o Sol e encobre parte ou todo o disco solar"
+        },
+        {
+          "id": "option-1",
+          "text": "A Terra fica entre o Sol e a Lua e projeta sua sombra na Lua"
+        },
+        {
+          "id": "option-2",
+          "text": "O Sol fica entre a Terra e a Lua"
+        },
+        {
+          "id": "option-3",
+          "text": "Marte aparece no céu noturno"
+        }
+      ],
+      "prompt": "Qual situação caracteriza um eclipse solar visto da Terra?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/eclipses/types/",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 44,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:sports:3031d522ddb277b1",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Fuleco"
+        },
+        {
+          "id": "option-1",
+          "text": "Zabivaka"
+        },
+        {
+          "id": "option-2",
+          "text": "Pique"
+        },
+        {
+          "id": "option-3",
+          "text": "Goleo"
+        }
+      ],
+      "prompt": "Qual foi o mascote oficial da Copa do Mundo de futebol masculino da FIFA de 2014, no Brasil?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://inside.fifa.com/en/tournaments/mens/worldcup/2014brazil/watch/fuleco-finds-a-surprise-2336156",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 9,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-2",
+      "difficulty": "hard",
+      "id": "questionados:sports:417fa3df906c4664",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "3"
+        },
+        {
+          "id": "option-1",
+          "text": "5"
+        },
+        {
+          "id": "option-2",
+          "text": "7"
+        },
+        {
+          "id": "option-3",
+          "text": "10"
+        }
+      ],
+      "prompt": "Quantas medalhas de ouro o Brasil conquistou nos Jogos Olímpicos de Tóquio 2020, realizados em 2021?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.cob.org.br/comunicacao/noticias/atletas-olimpicos-sao-recebidos-pelo-presidente-da-republica-jair-bolsonaro-em-brasilia",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 54,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:sports:4191c1e7be910dbb",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Fórmula 1"
+        },
+        {
+          "id": "option-1",
+          "text": "Fórmula Indy"
+        },
+        {
+          "id": "option-2",
+          "text": "Rali mundial"
+        },
+        {
+          "id": "option-3",
+          "text": "Fórmula E"
+        }
+      ],
+      "prompt": "Em qual categoria do automobilismo Ayrton Senna foi tricampeão mundial?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.formula1.com/en/information/drivers-hall-of-fame-ayrton-senna.FLD7ZtO0nUn7JzLEn5rOJ",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 4,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-3",
+      "difficulty": "hard",
+      "id": "questionados:sports:73242463048579b4",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Carlos Alberto Parreira"
+        },
+        {
+          "id": "option-1",
+          "text": "Tite"
+        },
+        {
+          "id": "option-2",
+          "text": "Dunga"
+        },
+        {
+          "id": "option-3",
+          "text": "Luiz Felipe Scolari"
+        }
+      ],
+      "prompt": "Quem foi o técnico da seleção brasileira masculina de futebol na conquista da Copa do Mundo de 2002?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.fifa.com/pt/news/articles/copa-2002-brasil-campeao-penta",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 31,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-1",
+      "difficulty": "medium",
+      "id": "questionados:sports:93831f3c87a01014",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Brasil"
+        },
+        {
+          "id": "option-1",
+          "text": "Uruguai"
+        },
+        {
+          "id": "option-2",
+          "text": "Argentina"
+        },
+        {
+          "id": "option-3",
+          "text": "Alemanha"
+        }
+      ],
+      "prompt": "Qual seleção venceu a primeira Copa do Mundo de futebol masculino da FIFA, em 1930?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://inside.fifa.com/news/world-first-for-uruguay-2053846",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 63,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:sports:a45ad559aaea3673",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Egito"
+        },
+        {
+          "id": "option-1",
+          "text": "Catar"
+        },
+        {
+          "id": "option-2",
+          "text": "Emirados Árabes Unidos"
+        },
+        {
+          "id": "option-3",
+          "text": "Arábia Saudita"
+        }
+      ],
+      "prompt": "Qual país sediou a Copa do Mundo de futebol masculino da FIFA em 2022?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022/news/spectacular-opening-ceremony-signals-the-start-of-fifa-world-cup-qatar-2022",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 37,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:sports:bb00beb19b1e6379",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Basquete"
+        },
+        {
+          "id": "option-1",
+          "text": "Golfe"
+        },
+        {
+          "id": "option-2",
+          "text": "Tênis"
+        },
+        {
+          "id": "option-3",
+          "text": "Futebol Americano"
+        }
+      ],
+      "prompt": "Em qual esporte Michael Jordan conquistou seis títulos da NBA pelo Chicago Bulls?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nba.com/news/history-nba-legend-michael-jordan?lv=true",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 7,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "questionados:sports:bf82d7a8ea8588f7",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1950"
+        },
+        {
+          "id": "option-1",
+          "text": "1954"
+        },
+        {
+          "id": "option-2",
+          "text": "1958"
+        },
+        {
+          "id": "option-3",
+          "text": "1962"
+        }
+      ],
+      "prompt": "Em que ano o Brasil sediou pela primeira vez a Copa do Mundo de futebol masculino da FIFA?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://inside.fifa.com/tournaments/mens/u17worldcup/brazil2019/news/brazil-the-perfect-backdrop-for-prestigious-competition",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 52,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-1",
+      "difficulty": "medium",
+      "id": "questionados:sports:c52b6d8dcffa09a6",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Canadá"
+        },
+        {
+          "id": "option-1",
+          "text": "Coreia do Sul"
+        },
+        {
+          "id": "option-2",
+          "text": "Noruega"
+        },
+        {
+          "id": "option-3",
+          "text": "Rússia"
+        }
+      ],
+      "prompt": "Qual país sediou os Jogos Olímpicos de Inverno de PyeongChang, em 2018?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://newsroom.olympics.com/record/900/media_id/1385",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 58,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:sports:c889d6c67e9ca971",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Vôlei"
+        },
+        {
+          "id": "option-1",
+          "text": "Tênis"
+        },
+        {
+          "id": "option-2",
+          "text": "Surfe"
+        },
+        {
+          "id": "option-3",
+          "text": "Natação"
+        }
+      ],
+      "prompt": "Em qual esporte o brasileiro Gustavo Kuerten se destacou?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.atptour.com/players/gustavo-kuerten/k293/bio",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 11,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:sports:d8d792a1c7a26ad9",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Diego Maradona"
+        },
+        {
+          "id": "option-1",
+          "text": "Pelé"
+        },
+        {
+          "id": "option-2",
+          "text": "Cristiano Ronaldo"
+        },
+        {
+          "id": "option-3",
+          "text": "Lionel Messi"
+        }
+      ],
+      "prompt": "Qual jogador brasileiro ficou conhecido pelo apelido “Rei do Futebol”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.cbf.com.br/selecao-brasileira/noticias/detalhes/selecao-masculina/2-anos-sem-pele-o-rei-do-futebol",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 2,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:sports:f949ccc4a18a3a43",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Badminton"
+        },
+        {
+          "id": "option-1",
+          "text": "Tênis"
+        },
+        {
+          "id": "option-2",
+          "text": "Tênis de mesa"
+        },
+        {
+          "id": "option-3",
+          "text": "Squash"
+        }
+      ],
+      "prompt": "Qual destes esportes é disputado com raquetes e uma peteca?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://media.specialolympics.org/resources/sports-essentials/coaching-guides/Sports-Essentials-Badminton-Coaching-Guide-2026-EN.pdf",
+        "reviewedAt": "2026-10-17"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 53,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    }
+  ],
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "questionados",
+      "license": "MIT",
+      "licenseSha256": "dcef56cff6065efb5e8848709fef0d9b03245a25aa3150b88b2ee324463e4f5e",
+      "licenseText": "Copyright (c) 2024 Adaías Magdiel\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "title": "Questionados",
+      "url": "https://github.com/AdaiasMagdiel/questionados"
+    }
+  ]
+}

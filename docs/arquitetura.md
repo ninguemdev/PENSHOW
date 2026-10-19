@@ -1,8 +1,8 @@
 # Arquitetura planejada
 
-Base: [análise do Comicle](analise-comicle.md). Esta estrutura é o destino da implementação; os diretórios de aplicação ainda não foram criados.
+Base: [análise do Comicle](analise-comicle.md). Os três pacotes já têm uma base executável, descrita em [desenvolvimento](desenvolvimento.md). A estrutura de módulos abaixo continua sendo o destino da implementação; os módulos de jogo serão criados nas tarefas correspondentes.
 
-Parâmetros de partida, pontuação e duração vêm do [plano do jogo](plano-do-jogo.md). Ao implementar, manter constantes tipadas por modalidade e distinguir valores confirmados de propostas ainda em consulta.
+Parâmetros de partida, pontuação e duração vêm do [plano do jogo](plano-do-jogo.md). A [T13](pontuacao-e-parametros.md) concentra os padrões experimentais tipados em `modules/scoring/match-rules.ts` e os congela por partida, separados das regras confirmadas da final. Seleção e cálculos usam essa mesma configuração.
 
 O [backlog de implementação](tasks/README.md) distribui a arquitetura em 35 tarefas e contém as convenções comuns de código, verificação e revisão. As [decisões](decisoes.md) registram os formatos ainda em consulta; sua ausência de resposta não deve acoplar nem interromper módulos independentes.
 
@@ -34,7 +34,7 @@ data/questions/   conteúdo privado do servidor e candidatos editoriais
 e2e/              testes entre navegadores
 ```
 
-Manter TypeScript estrito, React, Vite, Tailwind, Zustand, Fastify, Socket.IO e Zod. Reavaliar versões na implementação e gerar lockfile próprio. Não copiar cegamente o lockfile do outro projeto nem declarar que dependências ainda não instaladas foram verificadas.
+Manter TypeScript estrito, React, Vite, Zustand, Fastify, Socket.IO e Zod. A base já usa esses pacotes com versões verificadas e lockfile próprio. A [interface](interface.md) implementa stores de sessão/perfil/sala, navegação e componentes acessíveis. O estilo provisório usa CSS nativo; Tailwind pode ser adotado quando houver necessidade. Reavaliar compatibilidade ao introduzir dependências e não copiar o lockfile do outro projeto.
 
 ## Responsabilidades
 
@@ -44,6 +44,8 @@ Manter TypeScript estrito, React, Vite, Tailwind, Zustand, Fastify, Socket.IO e 
 - Interface: exibe a visão recebida e envia intenções por ações das stores. Placar, gabarito e vidas são calculados no servidor.
 - Estratégias de fase: implementam validação da configuração, abertura, resposta, resolução e encerramento. Final tem domínio próprio porque troca pontos por vidas.
 - Conteúdo: só registros revisados são elegíveis. A seleção é sem reposição na partida e equilibrada por categoria e dificuldade.
+
+`modules/scoring/scoring.domain.ts` contém os cálculos puros de crédito/débito, aposta, transferência, acertos, variações e resolução por pergunta. Retorna snapshots e efeitos explicativos sem acessar transporte, tempo global ou estado compartilhado. O [motor da T14](motor-de-partida.md) ordena recibos na fila, confirma a resolução clássica uma vez e projeta seus efeitos na revelação. `StrategyRegistry` concentra a escolha da modalidade; somente a clássica está instalada. A composição dos comandos de partida na rede pertence à T15.
 
 ## Máquina de estados proposta
 
@@ -81,11 +83,13 @@ Seleção de alvo, apostas e desempates acrescentam subestados somente nas modal
 
 Na final, a primeira resposta válida fecha as tentativas para todos dentro da fila da sala, antes da avaliação do gabarito. Se estiver errada, aplicar uma perda ao autor; se estiver certa, entrar na escolha de alvo, acessível apenas ao autor, e aplicar uma perda ao adversário escolhido. Não aguardar respostas dos demais nem reabrir a mesma pergunta após um erro. Prazo sem resposta e ausência de escolha do alvo ainda precisam de regra antes da implementação.
 
-## Contratos previstos
+## Contratos compartilhados e transporte planejado
+
+Os schemas e tipos públicos estão implementados em `@penshow/shared`, descritos no [protocolo realtime](protocolo-realtime.md) e no [modelo de dados](modelo-de-dados.md). Saúde, `time:sync` e [sessões de convidado](sessoes.md) estão em execução. O [servidor](servidor.md) compõe Socket.IO e handlers, com relógio, agendador, IDs, sorteio e tokens injetáveis. O [serviço de salas](salas.md) implementa membros, anfitrião, fila e ciclo de vida, conectado aos seis comandos `room:*`. Autorização é revalidada dentro da fila. Reconexão recupera a associação pela sessão; saída, expulsão e fechamento emitem `room:removed`. A [T15](quiz-classico.md) conecta cinco comandos de partida ao agregado da T14 e às projeções individuais somente em desenvolvimento/teste. Produção permanece sem o protótipo curto; a interface de jogo pertence à T16.
 
 HTTP: sessão de convidado, verificação de sessão e saúde do serviço.
 
-Socket: `room:create`, `room:join`, `room:leave`, `room:updateProfile`, `room:updateSettings`, `room:kick`, `match:start`, `category:choose`, `answer:submit`, `wager:submit`, `target:choose`, `match:returnToLobby`, `time:sync`.
+Socket planejado, com envelopes já contratados: `room:create`, `room:join`, `room:leave`, `room:updateProfile`, `room:updateSettings`, `room:kick`, `match:start`, `round:ready`, `category:choose`, `answer:submit`, `wager:submit`, `target:choose`, `match:returnToLobby`, `time:sync`.
 
 Todo comando de partida informa `matchId`, `roundId`, `questionId` quando aplicável e `actionId`. O servidor valida fase, associação à sala, prazo, permissão e unicidade. Repetir `actionId` não reaplica efeitos; usar um novo `actionId` também não permite responder duas vezes à mesma pergunta.
 
@@ -98,6 +102,10 @@ Visão pública de pergunta aberta: ID, tema, enunciado, opções com IDs opacos
 ## Dados e persistência
 
 Começar com salas e sessões em memória e catálogo local de perguntas revisadas carregado pelo servidor. Isso preserva a simplicidade e permite jogar sem banco externo. `data/questions` não pertence a `public/` nem pode ser importado pelo bundle web.
+
+A publicação de T10 separa candidatos, revisados e `published/catalog.json`. O artefato tem manifesto e atribuições embutidos, é substituído após validação completa e é conferido antes de aceitar requisições. `QuestionRepository` expõe consultas privadas em memória, com cópias e disponibilidade por tema/dificuldade. Os scripts usam os mesmos schemas privados do leitor, sem colocar tipos editoriais em shared. A T11 fornece 72 perguntas aprovadas, com 12 por tema e revisão factual rastreável. O Vite também bloqueia acesso a arquivos editoriais/servidor por `/@fs` no desenvolvimento.
+
+A [T12 implementa a seleção](selecao-de-perguntas.md) em `modules/questions/`: snapshot local, equivalências editoriais, histórico sem reposição, estoque por dificuldade e UUIDs públicos com alternativas embaralhadas. A fila de temas conserva pendentes e atendidos para continuar na revanche. O orçamento completo experimental reserva 50 perguntas e só oferece escolhas que mantêm viável o restante das fases; o protótipo clássico exige apenas sua mistura 3/3. Esgotamento interrompe sem vencedor. A T14 guarda um checkpoint privado da seleção junto ao agregado, executa mutações em rascunho na fila da sala e confirma conteúdo e placar juntos. Timers são cancelados e revalidados por contexto antes de novas transições; projeções saem após o commit.
 
 PostgreSQL e Drizzle permanecem uma opção coerente com o Comicle quando houver necessidade de histórico, edição de conteúdo ou recuperação após reinício. Sua adoção depende desse requisito; o armazenamento de imagens e histórias do Comicle não será necessário.
 

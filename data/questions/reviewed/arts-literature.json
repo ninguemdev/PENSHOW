@@ -1,0 +1,518 @@
+[
+  {
+    "id": "questionados:arts-literature:23cb2195602682b1",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou a Mona Lisa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-2",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelangelo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.louvre.fr/decouvrir/le-palais/de-la-joconde-aux-noces-de-cana",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:42fbf499fb012bca",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “A Noite Estrelada”, de 1889, hoje no acervo do MoMA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-1",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-2",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-3",
+        "text": "Édouard Manet"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/collection/works/79802",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:fbed9f676e349657",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem é o autor da escultura 'O Pensador'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "option-1",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Antoni Gaudí"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:6048fdb27e792a61",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual artista brasileira pintou “Abaporu”, em 1928?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tarsila do Amaral"
+      },
+      {
+        "id": "option-1",
+        "text": "Cândido Portinari"
+      },
+      {
+        "id": "option-2",
+        "text": "Anita Malfatti"
+      },
+      {
+        "id": "option-3",
+        "text": "Di Cavalcanti"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://coleccion.malba.org.ar/Detail/objects/201",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:85e71d8ba921d8a9",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem esculpiu o “Davi” de mármore, entre 1501 e 1504, hoje na Galleria dell’Accademia de Florença?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Donatello"
+      },
+      {
+        "id": "option-1",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-3",
+        "text": "Rafael"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d9bc4a791cef4b64",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “Les Demoiselles d’Avignon”, em 1907?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Juan Gris"
+      },
+      {
+        "id": "option-1",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernand Léger"
+      },
+      {
+        "id": "option-3",
+        "text": "Georges Braque"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/collection/works/79766",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:c163e69c6253f98c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “O Nascimento de Vênus”, do acervo das Gallerie degli Uffizi?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-2",
+        "text": "Sandro Botticelli"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelangelo"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:3926523cf72f639d",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem projetou o edifício do MASP inaugurado em 1968 na avenida Paulista?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar Niemeyer"
+      },
+      {
+        "id": "option-1",
+        "text": "Ruy Ohtake"
+      },
+      {
+        "id": "option-2",
+        "text": "Lina Bo Bardi"
+      },
+      {
+        "id": "option-3",
+        "text": "Lucio Costa"
+      }
+    ],
+    "correctOptionId": "option-2",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 96,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.masp.org.br/seminarios/o-masp-de-lina-50-anos-do-edificio-na-avenida-paulista",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:de598888e2bbffd7",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “A Liberdade Guiando o Povo”, de 1830?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eugène Delacroix"
+      },
+      {
+        "id": "option-1",
+        "text": "Théodore Géricault"
+      },
+      {
+        "id": "option-2",
+        "text": "Jean-Auguste-Dominique Ingres"
+      },
+      {
+        "id": "option-3",
+        "text": "Camille Corot"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 73,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://presse.louvre.fr/retour-en-salle-de-la-liberte-guidant-le-peuple-restauree/?lang=fr",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:ded94c05c908a142",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “Os Comedores de Batata”, de 1885?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-1",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "option-2",
+        "text": "Johannes Vermeer"
+      },
+      {
+        "id": "option-3",
+        "text": "Pieter Bruegel, o Velho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/overview-past-exhibitions/exhibition-the-potato-eaters",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:b0028f4828bc7f6e",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o arquiteto responsável pelo projeto da Ópera de Sydney, na Austrália?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frank Lloyd Wright"
+      },
+      {
+        "id": "option-1",
+        "text": "Le Corbusier"
+      },
+      {
+        "id": "option-2",
+        "text": "Zaha Hadid"
+      },
+      {
+        "id": "option-3",
+        "text": "Jørn Utzon"
+      }
+    ],
+    "correctOptionId": "option-3",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.sydneyoperahouse.com/our-story",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:8a7c6a7728d52f02",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem fundou a escola Bauhaus em Weimar, na Alemanha, em 1919?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Le Corbusier"
+      },
+      {
+        "id": "option-1",
+        "text": "Walter Gropius"
+      },
+      {
+        "id": "option-2",
+        "text": "Frank Lloyd Wright"
+      },
+      {
+        "id": "option-3",
+        "text": "Mies van der Rohe"
+      }
+    ],
+    "correctOptionId": "option-1",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://bauhaus-dessau.de/institution/chronologie/",
+      "reviewedAt": "2026-10-17",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  }
+]
