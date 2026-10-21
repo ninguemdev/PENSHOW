@@ -16,6 +16,7 @@ O [plano detalhado do jogo](plano-do-jogo.md) contém as fichas completas das fa
 | R06 | Definir e ajustar regras ao longo do desenvolvimento, com consulta sobre dúvidas relevantes |
 | R07 | Na final, somente a primeira resposta de cada pergunta é avaliada. Se acertar, o jogador escolhe qualquer adversário ainda na disputa para tirar uma vida |
 | R08 | Se a primeira resposta da final estiver errada, quem respondeu perde uma vida. Não há outra tentativa naquela pergunta; a disputa segue com uma nova pergunta após a resolução |
+| R09 | O modo clássico será o modo padrão, com cinco fases no total: quatro modalidades diferentes em ordem aleatória e a final obrigatoriamente na quinta posição |
 
 Decisões confirmadas: os valores 4 / 3 / 2 / 1 representam perdas às quais se sobrevive. Por exemplo, o líder começa com cinco vidas: depois de quatro perdas ainda tem uma vida; a quinta perda o elimina. A final tem uma única tentativa por pergunta, disputada entre os jogadores; o primeiro a responder assume o risco de perder uma vida ou ganha o direito de atacar qualquer adversário ativo.
 
@@ -23,18 +24,18 @@ Decisões confirmadas: os valores 4 / 3 / 2 / 1 representam perdas às quais se 
 
 `Perfil → criar/entrar → lobby → instruções → escolher tema → perguntas → resultado da fase`.
 
-Repetir por cinco fases; depois `classificação → desempate se necessário → atribuição de vidas → final → pódio → revanche no lobby`.
+No modo clássico, repetir por quatro modalidades diferentes sorteadas; depois `classificação → desempate se necessário → atribuição de vidas → final (fase 5) → pódio → revanche no lobby`. A [T36](tasks/T36-modo-classico-padrao.md) implementará esse fluxo. A proposta anterior de cinco fases fixas mais final foi substituída pelo pedido de 20/10/2026.
 
 - De 2 a 12 participantes, acompanhando a capacidade do Comicle; confirmar no primeiro teste de grupo.
 - Ninguém precisa criar uma conta. O anfitrião também joga.
 - Perfil editável no lobby; identidade e perfil da partida ficam estáveis durante o jogo.
 - Quem chega após o início observa e entra na próxima partida.
 - Perguntas e instruções em pt-BR. Primeira versão com alternativas textuais.
-- Proposta: seis perguntas em cada uma das quatro primeiras fases; na quinta, dois turnos por participante. Final até restar um jogador com vida. Cada pergunta tem três segundos de leitura; resposta de até 15 segundos nas fases 1 a 4 e na final, ou dez segundos na dinamite.
+- Proposta por modalidade sorteada: seis perguntas em quiz simples, velocidade, aposta e roubo; na pressão/dinamite, dois turnos por participante. A quinta fase é a final, até restar um jogador com vida. Cada pergunta tem três segundos de leitura; resposta de até 15 segundos nas modalidades simultâneas e na final, ou dez segundos na dinamite.
 - Instruções de até 15 segundos, com avanço antecipado se todos os participantes conectados estiverem prontos; essa etapa não consome o prazo de resposta.
 - Todos acumulam pontos até a final. Eliminação de uma fase não significa sair da partida.
-- Escolha de tema: fila de participantes com ordem inicial sorteada, até quatro opções elegíveis e prazo de dez segundos; sorteio automático se ninguém escolher. Continuar a fila na revanche, para contemplar grupos com mais de cinco pessoas. Evitar perguntas repetidas na partida.
-- Cinco modalidades fixas na primeira versão; depois permitir ao anfitrião sortear cinco modalidades distintas de um catálogo maior.
+- Escolha de tema: fila de participantes com ordem inicial sorteada, até quatro opções elegíveis e prazo de dez segundos; sorteio automático se ninguém escolher. Continuar a fila na revanche, para contemplar grupos com mais participantes que escolhas. Evitar perguntas repetidas na partida.
+- Plano da T36 para o catálogo atual: sortear quatro entre quiz simples, velocidade, aposta, roubo e pressão/dinamite, sem reposição, e sortear a ordem. Uma modalidade fica de fora em cada partida. A final não participa do sorteio. A variante de pressão continua sujeita a D04.
 
 ## Modalidades propostas
 
@@ -52,7 +53,7 @@ Para roubo, só revelar a primeira resposta correta depois de fechar as resposta
 
 Para dinamite, uma pergunta média e uma difícil por participante. Sortear a ordem no primeiro ciclo e invertê-la no segundo. Acerto passa a dinamite; erro ou ausência causa explosão e penalidade, seguida de uma dinamite nova para o próximo turno. Não transportar tempo restante negativo. O formato de dinamite está em consulta junto das alternativas de destaque simultâneo e sequência de acertos.
 
-Máximos individuais propostos por fase: 600 / 900 / 900 / 900 / 600 pontos, somando 3.900. O placar começa em zero e nunca fica negativo. Ver fórmulas e exemplos no [plano do jogo](plano-do-jogo.md).
+Máximos individuais propostos por modalidade: 600 / 900 / 900 / 900 / 600 pontos. A soma de 3.900 corresponde ao orçamento anterior com as cinco modalidades; o modo clássico soma apenas as quatro sorteadas e deve ter orçamento/equilíbrio recalculados na T36/T32. O placar começa em zero e nunca fica negativo. Ver fórmulas e exemplos no [plano do jogo](plano-do-jogo.md).
 
 Alternativas de expansão: duas opções (+100 por acerto), sequência (bônus crescente com teto) e sobrevivência (três erros encerram apenas aquela fase). Não tratar uma pergunta de quatro alternativas como verdadeiro/falso sem revisar a transformação e o equilíbrio.
 

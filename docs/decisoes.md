@@ -2,7 +2,9 @@
 
 ## Regras confirmadas
 
-Os requisitos R01 a R08 estão em [regras](regras.md). Para a final, a distribuição é 5 / 4 / 3 / 2 vidas para sobreviver a 4 / 3 / 2 / 1 perdas. Somente a primeira resposta de cada pergunta é avaliada: erro custa uma vida ao autor, acerto permite tirar uma vida de qualquer adversário ainda com vida. Não há outra tentativa na mesma pergunta.
+Os requisitos R01 a R09 estão em [regras](regras.md). Para a final, a distribuição é 5 / 4 / 3 / 2 vidas para sobreviver a 4 / 3 / 2 / 1 perdas. Somente a primeira resposta de cada pergunta é avaliada: erro custa uma vida ao autor, acerto permite tirar uma vida de qualquer adversário ainda com vida. Não há outra tentativa na mesma pergunta.
+
+Em **20/10/2026**, o usuário solicitou adicionar uma tarefa para implementar o **modo clássico como padrão**, com **cinco fases totais**, modalidades diferentes em ordem aleatória e a **final sempre por último**. A [T36](tasks/T36-modo-classico-padrao.md) registra quatro fases de pontuação e a final na quinta posição. Para o catálogo atual, planeja sortear quatro entre as cinco modalidades de pontuação e sua ordem, sem repetição. Essa estrutura substitui a proposta de cinco fases fixas mais final; o modo ainda será implementado. As decisões D02–D06 não foram respondidas por esse pedido.
 
 A organização por três pacotes, servidor autoritativo, projeção por jogador e regras modulares segue a [arquitetura](arquitetura.md) e o reaproveitamento do [Comicle](analise-comicle.md).
 
@@ -15,7 +17,7 @@ D01 a D06 foram enviadas durante a elaboração do plano detalhado. Não há res
 | D01 | Duração desejada de uma partida | Meta de 20 a 30 minutos para 4 a 8 pessoas, com tempos parametrizados; grupos maiores podem ultrapassar | Em consulta |
 | D02 | Se ninguém responder à pergunta da final | Pular sem tirar vidas | Em consulta |
 | D03 | Se acertar na final e não escolher alvo | Após seis segundos, atacar adversário com mais vidas, sorteando em caso de empate | Em consulta |
-| D04 | Modalidade da quinta fase | Dinamite por turnos, dois por participante, prazo individual completo | Em consulta |
+| D04 | Variante da modalidade de pressão, anteriormente prevista como quinta fase | Dinamite por turnos, dois por participante, prazo individual completo; na T36, pode ocupar uma das posições 1 a 4 quando sorteada | Em consulta |
 | D05 | Quem pode roubar em cada pergunta | Primeiro acerto rouba até 50; demais acertos também ganham 100 | Em consulta |
 | D06 | Empate de pontos e acertos antes da final | Sorteio residual no plano atual; alternativas consultadas incluem perguntas extras e vidas iguais | Em consulta |
 

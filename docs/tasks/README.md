@@ -2,7 +2,7 @@
 
 Este backlog segue o formato do Comicle: índice de dependências e status, arquivo por tarefa, entregáveis verificáveis e unidades pequenas de revisão. As tarefas foram desenhadas para o PENSHOW; módulos de quadrinhos não fazem parte do escopo.
 
-**35 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
+**36 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
 
 O status de implementação fica somente neste índice. As checklists dos arquivos registram entregas e evidências.
 
@@ -40,15 +40,18 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T26 | [Reconexão em todas as fases e ciclo de vida](./T26-reconexao-e-ciclo-de-vida.md) | T25, T18, T19, T20, T21 | M4 | ✅ |
 | T27 | [Catálogo de 300 perguntas para testes completos](./T27-catalogo-de-teste-completo.md) | T11, T12 | M3 | ✅ |
 | T28 | [Privacidade, limites e concorrência](./T28-privacidade-limites-e-concorrencia.md) | T26 | M4 | ⬜ |
-| T29 | [Testes ponta a ponta da partida completa](./T29-e2e-partida-completa.md) | T26, T27, T28 | M4 | ⬜ |
+| T29 | [Testes ponta a ponta da partida completa](./T29-e2e-partida-completa.md) | T26, T27, T28, T36 | M4 | ⬜ |
 | T30 | [Acessibilidade, celular e acabamento visual](./T30-acessibilidade-e-responsividade.md) | T25, T18, T19, T20, T21 | M5 | ⬜ |
 | T31 | [Sons e preferências do jogador](./T31-sons-e-preferencias.md) | T25, T21 | M5 | ⬜ |
 | T32 | [Testes com grupos e equilíbrio](./T32-testes-de-grupo-e-equilibrio.md) | T29, T30, T31 | M5 | ⬜ |
 | T33 | [Expansão para 5.000 perguntas revisadas](./T33-expansao-para-5000-perguntas.md) | T27 | M6 | ⬜ |
 | T34 | [Build, container e operação de produção](./T34-build-e-operacao-de-producao.md) | T28, T29 | M6 | ⬜ |
 | T35 | [Publicação e validação final](./T35-publicacao-e-validacao-final.md) | T32, T33, T34 | M6 | ⬜ |
+| T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27 | M3 | ⬜ |
 
 Os números organizam o backlog; o que permite começar é a dependência concluída. Por exemplo, T27 pode avançar após T11/T12, mesmo antes de T18. Uma consulta em uma modalidade não impede concluir salas, perfis, conteúdo ou outros módulos independentes.
+
+A T36 foi acrescentada em 20/10/2026 sem renumerar as tarefas existentes. Implementa o modo padrão com quatro modalidades distintas sorteadas e a final na quinta fase; deve ser entregue antes da T29. T28 continua independente dessa integração.
 
 ## Marcos de entrega
 
@@ -56,7 +59,7 @@ Os números organizam o backlog; o que permite começar é a dependência conclu
 |---|---|---|
 | M1 | Pessoas montam personagens e entram na mesma sala | T01 a T09 |
 | M2 | Quiz clássico curto com perguntas reais, placar e duas sessões | T10 a T17, com o lote inicial de T11 |
-| M3 | Cinco fases e final, pódio e revanche com conteúdo suficiente | T18 a T25 e T27, além das dependências anteriores |
+| M3 | Modo clássico de cinco fases, pódio e revanche com conteúdo suficiente | T18 a T25, T27 e T36, além das dependências anteriores |
 | M4 | Partida completa resistente a queda, concorrência e acesso indevido | T26, T28 e T29 |
 | M5 | Experiência acessível, som e valores avaliados em grupo | T30 a T32 |
 | M6 | Versão completa publicada com catálogo de 5.000 revisadas | T33 a T35 |
@@ -64,7 +67,8 @@ Os números organizam o backlog; o que permite começar é a dependência conclu
 ```mermaid
 flowchart LR
   M1[Perfil e salas] --> M2[Quiz clássico jogável]
-  M2 --> M3[Cinco fases e final]
+  M2 --> M3[Modo clássico de cinco fases]
+  T36[T36: integração e sorteio] --> M3
   M3 --> M4[Reconexão e testes completos]
   M4 --> M5[Acabamento e equilíbrio]
   M5 --> M6[Publicação]
@@ -86,7 +90,7 @@ Um piloto com 300 perguntas não conclui T33 nem a publicação da versão compl
 | P03 — Salas e reconexão | T07, T08, T09, T26 |
 | P04 — Primeira partida curta | T10 a T17 |
 | P05 — Modalidades | T18 a T21 |
-| P06 — Final e pódio | T22 a T25 |
+| P06 — Modo clássico, final e pódio | T22 a T25, T36 |
 | P07 — Conteúdo | T11, T27, T33 |
 | P08 — Qualidade e experiência | T28 a T32 |
 | P09 — Produção | T34, T35 |
