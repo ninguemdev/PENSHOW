@@ -29,6 +29,7 @@
     "test:e2e:run": "pnpm --filter @penshow/e2e smoke",
     "test:e2e:classic": "pnpm --filter @penshow/e2e complete",
     "test:e2e:a11y": "pnpm --filter @penshow/e2e accessibility",
+    "test:e2e:sound": "pnpm --filter @penshow/e2e sound",
     "test:assets": "pnpm --filter @penshow/shared build && node --test scripts/avatars/*.test.mjs",
     "test:content": "node --test scripts/lib/*.test.mjs"
   },

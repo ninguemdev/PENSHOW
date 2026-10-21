@@ -24,6 +24,7 @@ Os caminhos abaixo são relativos ao repositório Comicle no commit analisado.
 | `packages/shared/src/avatar/` e `domain/avatar.ts` | Catálogo, seleção, sanitização e composição em seis categorias | Reaproveitar catálogo e regras, verificar artes na migração |
 | `apps/web/src/features/avatar/` | Editor acessível por teclado e renderizador em camadas | Reaproveitar componentes e adaptar o estilo visual |
 | `apps/web/src/stores/profile-store.ts` | Apelido e avatar persistidos, recuperação de catálogo alterado | Mudar a chave `comicle.profile` para `penshow.profile` |
+| `apps/web/src/features/sound/` e `stores/sound-store.ts` | Catálogo sintetizado, motor Web Audio, volume/silêncio e comparação entre views | T31 reaproveita a abordagem, com composições e implementação próprias; época de conexão e crédito antecipado do roubo recebem tratamento próprio no PENSHOW |
 | `apps/web/src/stores/room-store.ts` | Ações com confirmação, sincronização de horário e reconexão | Manter transporte e reconstruir ações do jogo |
 | `apps/server/src/modules/views/build-player-view.ts` | Projeção individual e ocultação de conteúdo | Reescrever para perguntas: respostas corretas e escolhas alheias permanecem no servidor |
 | `apps/server/src/modules/game-modes/game-mode.ts` | Interface específica de histórias e distribuição de quadros | Reaproveitar a ideia de estratégias, criar uma interface própria de fases |

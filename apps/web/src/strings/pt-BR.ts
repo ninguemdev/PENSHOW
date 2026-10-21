@@ -1,4 +1,21 @@
 export const strings = {
+  sound: {
+    title: 'Som do jogo',
+    activate: 'Ativar som',
+    activating: 'Ativando som…',
+    mute: 'Silenciar som',
+    preview: 'Testar som',
+    volume: 'Volume do som',
+    off: 'Som desligado. Todas as informações continuam na tela.',
+    locked: 'Preferência salva. Ative o som nesta aba para ouvir.',
+    help: 'O volume não altera o silêncio escolhido. Todos os avisos também aparecem na tela.',
+    unavailable:
+      'Áudio indisponível. Você pode continuar jogando ou tentar ativar o som novamente.',
+    storage: {
+      unavailable: 'Não foi possível salvar o som. A preferência vale somente nesta aba.',
+      corrupt: 'A preferência de som estava inválida. Restauramos o som desligado.',
+    },
+  },
   title: 'PENSHOW',
   tagline: 'Uma boa pergunta muda o jogo.',
   description: 'Reúna os amigos. Escolha seu personagem. Prepare-se para disputar cada resposta.',

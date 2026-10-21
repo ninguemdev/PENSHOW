@@ -113,6 +113,36 @@ nav a[aria-current] {
 .connection-notice p {
   margin: 0;
 }
+.sound-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding-block: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.sound-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sound-controls label {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.sound-controls input[type='range'] {
+  width: 180px;
+  max-width: 100%;
+  min-height: 44px;
+  accent-color: var(--ink);
+}
+.sound-controls .help-text,
+.sound-controls p {
+  flex-basis: 100%;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
 .connection-dot {
   display: inline-block;
   width: 8px;
