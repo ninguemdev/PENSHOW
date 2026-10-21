@@ -51,6 +51,40 @@ async function harness(view = finalView()) {
 }
 
 describe('interface da final', () => {
+  it('mostra alvos e dano antes da recapitulação, mesmo com enunciado extenso', async () => {
+    const target = finalPhases().target;
+    const f = await harness(
+      finalView({
+        ...target,
+        reveal: {
+          ...target.reveal,
+          question: { ...target.reveal.question, prompt: 'Enunciado extenso. '.repeat(100) },
+        },
+      }),
+    );
+    const button = f.ui.getByRole('button', { name: strings.final.attack('Bruno', 4, false) });
+    const recap = f.ui.getByRole('heading', { name: /Enunciado extenso/ });
+    expect(button.compareDocumentPosition(recap) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    f.push(finalView(finalPhases().wrong, 3));
+    const result = f.ui.getByText(strings.final.closed);
+    const question = f.ui.getByRole('heading', { name: 'Pergunta recebida 1?' });
+    expect(
+      result.compareDocumentPosition(question) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+  it('usa os mesmos atalhos na final, confirma uma única resposta e anuncia perda e encerramento', async () => {
+    const f = await harness(finalView(finalPhases().open));
+    await userEvent.keyboard('1');
+    expect(f.commands).toHaveLength(1);
+    expect(f.commands[0]).toMatchObject({ event: 'answer:submit', payload: { optionId: option1 } });
+    expect(f.ui.getByText(strings.final.accepted)).toBeDefined();
+    await userEvent.keyboard('234');
+    expect(f.commands).toHaveLength(1);
+    f.push(finalView(finalPhases().wrong, 3));
+    const announcement = f.container.querySelector('[data-result-announcement]')!;
+    expect(announcement.textContent).toContain(strings.final.closed);
+    expect(announcement.textContent).toMatch(/vidas/);
+  });
   it('pódio segue sobrevivente e eliminações, mostra histórico por fase e prepara revanche pelo servidor', async () => {
     const open = finalPhases().open;
     const podium = finalView(

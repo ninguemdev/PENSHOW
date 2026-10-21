@@ -36,7 +36,10 @@ export function Dialog({
           ),
         ).filter(
           (element) =>
-            !element.closest('[hidden], [inert]') && getComputedStyle(element).display !== 'none',
+            element.tabIndex >= 0 &&
+            !element.closest('[hidden], [inert]') &&
+            getComputedStyle(element).display !== 'none' &&
+            getComputedStyle(element).visibility !== 'hidden',
         );
         const first = targets[0];
         const last = targets[targets.length - 1];

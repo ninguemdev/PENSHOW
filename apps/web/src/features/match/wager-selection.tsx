@@ -1,7 +1,7 @@
 import type { MatchStage } from '@penshow/shared';
 import { strings } from '../../strings/pt-BR';
 import { Button } from '../../ui/button';
-import { Timer } from '../../ui/timer';
+import { QuestionFeedback } from './question-feedback';
 import type { RoundProps } from './round-props';
 
 export function WagerSelection({
@@ -32,7 +32,20 @@ export function WagerSelection({
         </p>
       )}
       <p id="wager-help">{strings.match.wagerHelp}</p>
-      <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
+      <QuestionFeedback
+        deadline={stage.deadlineAt}
+        now={now}
+        offset={controls.offset}
+        message={
+          status
+            ? status === 'recorded'
+              ? strings.match.wagerRecorded(amount!)
+              : status === 'sending'
+                ? strings.match.wagerSending
+                : strings.match.wagerUncertain
+            : undefined
+        }
+      />
       {player && (
         <div
           className="quiz-options"
@@ -53,15 +66,6 @@ export function WagerSelection({
             </Button>
           ))}
         </div>
-      )}
-      {status && (
-        <p role="status">
-          {status === 'recorded'
-            ? strings.match.wagerRecorded(amount!)
-            : status === 'sending'
-              ? strings.match.wagerSending
-              : strings.match.wagerUncertain}
-        </p>
       )}
       {status === 'unconfirmed' && (
         <Button

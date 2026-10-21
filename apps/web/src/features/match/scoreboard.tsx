@@ -16,7 +16,7 @@ export function Scoreboard({
   return (
     <section aria-labelledby="scoreboard-title" className="scoreboard">
       <h2 id="scoreboard-title">{title}</h2>
-      <div className="scoreboard-scroll" tabIndex={0} role="region" aria-label={title}>
+      <div className="scoreboard-scroll" tabIndex={0} role="group" aria-label={title}>
         <table>
           <caption className="sr-only">{title}</caption>
           <thead>

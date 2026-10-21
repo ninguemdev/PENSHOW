@@ -12,6 +12,8 @@ import { FinalRound } from './final-round';
 import { FinalEntry } from './final-entry';
 import { RoundHistory } from '../results/round-history';
 import type { RoundProps } from './round-props';
+import { answerShortcut } from './answer-shortcut';
+import { resultAnnouncement } from './result-announcement';
 
 const renderers: Partial<Record<ScoringMode | 'final', ComponentType<RoundProps>>> = {
   classic: CommonRound,
@@ -79,7 +81,14 @@ export function MatchPanel({
   }[mode];
   const focusKey = `${match.matchId}:${match.progress.roundNumber}:${stage.phase}:${match.progress.questionNumber}`;
   useEffect(() => {
-    content.current?.querySelector<HTMLElement>('h2')?.focus();
+    if (
+      document.querySelector('dialog[open]') ||
+      document.activeElement?.closest(
+        'input, textarea, select, [contenteditable]:not([contenteditable="false"])',
+      )
+    )
+      return;
+    content.current?.querySelector<HTMLElement>('h2[tabindex="-1"]')?.focus();
   }, [focusKey]);
   const spectator =
     view.members.find((member) => member.playerId === view.viewerId)?.role === 'spectator';
@@ -124,6 +133,9 @@ export function MatchPanel({
           match.progress.questionCount,
         )}
       </p>
+      <p className="sr-only" role="status" aria-atomic="true" data-result-announcement>
+        {resultAnnouncement(stage, view)}
+      </p>
       {spectator && <p className="storage-notice">{strings.match.spectator}</p>}
       {match.waitingForPlayers && (
         <p role="status" className="storage-notice">
@@ -140,7 +152,7 @@ export function MatchPanel({
           {strings.match.recover}
         </Button>
       )}
-      <div className="match-stage" ref={content}>
+      <div className="match-stage" ref={content} onKeyDown={answerShortcut}>
         {match.pressureRules && stage.phase === 'instructions' && (
           <p>
             {strings.match.pressureInstructions(

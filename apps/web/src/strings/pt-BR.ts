@@ -175,14 +175,14 @@ export const strings = {
     rules: (responseMs: number, targetMs: number) =>
       `Só a primeira resposta aceita pelo servidor é avaliada. Errou: perde uma vida. Acertou: escolhe um adversário para tirar uma vida. Cada pergunta tem ${responseMs / 1000} segundos após a leitura; o alvo deve ser escolhido em ${targetMs / 1000} segundos. A pergunta termina após essa jogada. Vence o último com vida.`,
     pendingHelp:
-      'Neste teste, a final fica pausada se ninguém responder ou se o autor do acerto não escolher alvo. O anfitrião pode encerrar o teste voltando ao lobby.',
+      'A final fica pausada se ninguém responder ou se o autor do acerto não escolher alvo. Essas regras estão em consulta. O anfitrião pode voltar ao lobby.',
     lives: 'Vidas na final',
     remaining: (lives: number, initial: number) => `${lives} de ${initial} vidas`,
     active: 'Na disputa',
     eliminated: 'Eliminado',
     watching: 'Você foi eliminado e está assistindo à final.',
     answerHelp:
-      'Uma única resposta será avaliada. Aguarde o servidor confirmar quem respondeu primeiro.',
+      'Uma única resposta será avaliada. Aguarde a confirmação de quem respondeu primeiro. Com foco na pergunta ou nas alternativas, use as teclas 1 a 4 para responder.',
     accepted: 'O servidor confirmou: sua resposta foi a primeira válida. Aguarde o resultado.',
     rejected: 'Sua resposta foi rejeitada. Aguarde o estado atualizado da final.',
     first: (name: string) => `Primeira resposta confirmada: ${name}.`,
@@ -226,7 +226,7 @@ export const strings = {
     pressureEffect: 'Explosão',
     theftComplete: 'Quiz de roubo concluído',
     theftInstructions: (base: number, maximum: number, ms: number) =>
-      `Protótipo: cada acerto ganha +${base}. Depois de fechar as respostas, o primeiro acerto tem ${ms / 1000} segundos para escolher um adversário e roubar até ${maximum} pontos, limitados ao saldo após os créditos. Sem escolha, não há transferência.`,
+      `Cada acerto ganha +${base}. Depois de fechar as respostas, o primeiro acerto tem ${ms / 1000} segundos para escolher um adversário e roubar até ${maximum} pontos, limitados ao saldo após os créditos. Sem escolha, não há transferência.`,
     theftTargetTitle: 'Escolha do alvo do roubo',
     theftChooser: (name: string) => `${name} conquistou o roubo e escolhe o alvo.`,
     theftTarget: (name: string, balance: number) => `Roubar de ${name} (${balance} pontos)`,
@@ -283,7 +283,8 @@ export const strings = {
     reading: 'Leia a pergunta',
     readingHelp: 'As alternativas serão liberadas em instantes.',
     answer: 'Escolha sua resposta',
-    answerHelp: 'Tocar ou pressionar uma alternativa envia sua resposta imediatamente.',
+    answerHelp:
+      'Tocar ou pressionar uma alternativa envia sua resposta imediatamente. Com foco na pergunta ou nas alternativas, use as teclas 1 a 4 para responder.',
     sending: 'Enviando sua resposta…',
     recorded: 'Resposta registrada. Aguarde a revelação.',
     uncertain:
