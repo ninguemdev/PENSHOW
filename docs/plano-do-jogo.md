@@ -389,3 +389,7 @@ Depois do primeiro teste, revisar os valores de 300 / −150 da dinamite, a vant
 ## Evidência da integração experimental — T36
 
 O [modo clássico](modo-classico.md) já encadeia quatro modalidades sorteadas e a final na quinta posição em desenvolvimento/teste. O orçamento por partida considera apenas as quatro sorteadas, com reserva de 50 perguntas; a matriz do relatório T36 cobre todas as 120 sequências. Os protótipos anteriores e o relatório T27 permanecem como evidência histórica. D02–D06 continuam em consulta; empates e ausências na final têm pendência explícita.
+
+## Piloto mecânico de equilíbrio — T32
+
+O [piloto local de grupos](testes-de-grupo-e-equilibrio.md) executa o modo de cinco fases com 2/4/8/12 jogadores roteirizados, catálogo publicado e relógio virtual, mantendo os tempos completos. Registra o crescimento dos turnos de dinamite, efeitos de pontuação e conversão em vidas; compara valores alternativos sem mudar a configuração da aplicação. As durações sintéticas não aprovam a meta D01 nem substituem partidas observadas com pessoas. D01–D06 continuam em consulta e nenhum ajuste de pontos foi decidido. O [roteiro de observação humana](roteiro-piloto-de-grupo.md) prepara a próxima avaliação.
