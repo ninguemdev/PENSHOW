@@ -45,3 +45,7 @@ Essas duas decisões não foram apresentadas como respondidas nem como consultas
 ## Como atualizar uma decisão
 
 Registrar a resposta, motivo quando houver e tarefas afetadas; atualizar a regra e o plano correspondentes no mesmo conjunto de alterações. Não transformar sugestão de implementação ou resultado de um teste em escolha do usuário. O [índice das tasks](tasks/README.md) continua sendo o único controle de status de implementação.
+
+## Integração experimental da T36
+
+A sequência completa de cinco fases está implementada em desenvolvimento/teste, conforme [modo clássico](modo-classico.md). A consulta sobre adotar as propostas D02–D06 foi reapresentada em 21/10/2026; sem resposta registrada, o modo conserva variantes experimentais de roubo/dinamite e pendências explícitas de empate/final sem resposta ou alvo. Isso não consolida essas decisões.

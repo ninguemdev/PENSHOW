@@ -100,11 +100,12 @@ export function createFinal(
   rules: FrozenMatchRules,
   roundId: RoundId,
   now: number,
+  index: 5 | 6 = 6,
 ): FinalState {
   instant(now);
   if (entry.matchId !== rules.matchId) throw new FinalError('STALE_CONTEXT');
   if (entry.status !== 'ready') throw new FinalError('INVALID_PHASE');
-  const round = roundSchema.parse({ roundId, index: 6, mode: 'final' });
+  const round = roundSchema.parse({ roundId, index, mode: 'final' });
   if (round.mode !== 'final') throw new FinalError('INVALID_PAYLOAD');
   return {
     matchId: entry.matchId,

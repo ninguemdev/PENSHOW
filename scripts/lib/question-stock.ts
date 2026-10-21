@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import type { ScoringMode } from '../../packages/shared/src/schemas/settings.js';
 import {
   matchIdSchema,
   playerIdSchema,
@@ -67,15 +68,15 @@ export function simulateQuestionStock(
   playerCount: number,
   seed: number,
   choice: Choice,
+  modes?: readonly ScoringMode[],
 ) {
   const questions = repository.list();
   const categories = [...new Set(questions.map((q) => q.category))].sort();
   const policy = selectionPolicy(PROTOTYPE_PARAMETERS);
-  const start = QuestionSelection.create(
-    repository,
-    stockDependencies(seed),
-    stockOptions(playerCount, categories),
-  );
+  const start = QuestionSelection.create(repository, stockDependencies(seed), {
+    ...stockOptions(playerCount, categories),
+    ...(modes ? { format: 'classic', modes } : {}),
+  });
   assert.equal(start.status, 'ready', `${playerCount} pessoas: estoque insuficiente`);
   const selection = start.selection;
   const afterReserve = selection.availability();
@@ -95,7 +96,7 @@ export function simulateQuestionStock(
     prompts.add(key);
     used.push(question.editorialQuestionId);
   }
-  const phases = policy.modes.map((mode, index) => {
+  const phases = (modes ?? policy.modes).map((mode, index) => {
     const roundId = roundIdSchema.parse(uuid(index + 1000));
     const offer = selection.openRound(roundId, mode, 1000);
     assert.equal(offer.status, 'choosing');

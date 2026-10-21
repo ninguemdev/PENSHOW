@@ -141,7 +141,9 @@ export class Room {
               JSON.stringify(before.phase.game?.state.rules) !==
                 JSON.stringify(draft.phase.game?.state.rules) ||
               JSON.stringify(before.phase.game?.state.rounds) !==
-                JSON.stringify(draft.phase.game?.state.rounds)
+                JSON.stringify(draft.phase.game?.state.rounds) ||
+              JSON.stringify(before.phase.game?.state.finalRound) !==
+                JSON.stringify(draft.phase.game?.state.finalRound)
             )
               throw new Error('Elenco, configuração e plano da partida são imutáveis.');
             const entry = before.phase.game?.state.finalEntry;

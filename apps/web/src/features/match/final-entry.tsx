@@ -5,7 +5,7 @@ export function FinalEntry({ entry, view }: { entry: Entry; view: RoomView }) {
   return (
     <section aria-label={strings.final.entry}>
       <h3>{strings.final.entry}</h3>
-      <p>{strings.final.entryHelp}</p>
+      <p>{entry.scope === 'full-match' ? strings.room.classicDetail : strings.final.entryHelp}</p>
       {entry.status === 'ready' ? (
         <ol className="final-allocations" aria-label={strings.final.entry}>
           {entry.allocations.map((row) => (

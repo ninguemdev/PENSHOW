@@ -26,6 +26,7 @@ import { finalistsSchema, rankingSchema, scoreboardSchema, scoreEffectSchema } f
 import {
   finalRoundSchema,
   roomSettingsSchema,
+  roundSchema,
   scoringRoundSchema,
   theftRoundSchema,
   wagerRoundSchema,
@@ -352,6 +353,8 @@ export const matchViewSchema = z
   .strictObject({
     matchId: matchIdSchema,
     rulesVersion: z.literal('prototype-v1'),
+    format: z.enum(['classic', 'isolated-prototype']).optional(),
+    plan: z.array(roundSchema).length(5).optional(),
     waitingForPlayers: z.literal(true).optional(),
     finalEntry: finalEntrySchema.optional(),
     roundSummaries: z.array(roundSummarySchema).min(1).max(5).optional(),
@@ -453,10 +456,34 @@ export const matchViewSchema = z
   .superRefine((match, context) => {
     const ids = new Set(match.scoreboard.map((entry) => entry.playerId));
     const stage = match.stage;
+    if (match.format === 'classic') {
+      const plan = match.plan;
+      if (
+        !plan ||
+        plan.some(
+          (round, index) =>
+            round.index !== index + 1 ||
+            (index === 4 ? round.mode !== 'final' : round.mode === 'final'),
+        ) ||
+        new Set(plan.map((round) => round.roundId)).size !== 5 ||
+        new Set(plan.slice(0, 4).map((round) => round.mode)).size !== 4 ||
+        match.progress.roundCount !== 5 ||
+        ('round' in stage &&
+          JSON.stringify(plan[match.progress.roundNumber - 1]) !== JSON.stringify(stage.round))
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'O modo clássico exige quatro modalidades distintas e a final na quinta fase.',
+        });
+    } else if (match.plan) {
+      context.addIssue({ code: 'custom', message: 'O plano completo pertence ao modo clássico.' });
+    }
     const isFinal = 'finalists' in stage;
     if (match.roundSummaries) {
       const summaries = match.roundSummaries;
-      const ended = ['prototype-complete', 'podium', 'interrupted'].includes(stage.phase);
+      const ended = ['prototype-complete', 'ranking', 'podium', 'interrupted'].includes(
+        stage.phase,
+      );
       const totals = new Map(
         match.scoreboard.map((score) => [score.playerId, { points: 0, correctAnswers: 0 }]),
       );
@@ -513,9 +540,10 @@ export const matchViewSchema = z
         entry.ranking.status === 'resolved' ? entry.ranking.entries : entry.ranking.scores;
       if (
         (stage.phase !== 'prototype-complete' &&
+          stage.phase !== 'ranking' &&
           !isFinal &&
           !(stage.phase === 'interrupted' && match.finalRules)) ||
-        entry.scope !== 'isolated-prototype' ||
+        entry.scope !== (match.format === 'classic' ? 'full-match' : 'isolated-prototype') ||
         entry.matchId !== match.matchId ||
         scores.length !== match.scoreboard.length ||
         scores.some(
@@ -696,7 +724,8 @@ export const matchViewSchema = z
       (('question' in stage || 'reveal' in stage || 'questionId' in stage) &&
         match.progress.questionNumber === 0) ||
       (stage.phase === 'prototype-complete' &&
-        (match.progress.roundNumber !== match.progress.roundCount ||
+        (match.progress.roundNumber !==
+          match.progress.roundCount - (match.format === 'classic' ? 1 : 0) ||
           match.progress.questionNumber !== match.progress.questionCount))
     )
       context.addIssue({

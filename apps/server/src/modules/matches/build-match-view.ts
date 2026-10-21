@@ -1,9 +1,10 @@
-import { matchViewSchema, type MatchStage, type PlayerId } from '@penshow/shared';
+import { matchViewSchema, rankingSchema, type MatchStage, type PlayerId } from '@penshow/shared';
 import { currentRound, currentPressureTurn, type MatchState } from './match.domain.js';
 import { demandSize, phaseDemand } from '../questions/selection-policy.js';
 import { allowedWagerAmounts } from '../scoring/scoring.domain.js';
 import { buildFinalView } from '../final/build-final-view.js';
 import { buildRoundSummaries } from './build-round-summaries.js';
+import { buildMatchPlan } from './build-match-plan.js';
 
 /** Explicit public fields only. Internal IDs, receipts and content checkpoints stay private. */
 export function buildMatchView(state: MatchState, viewerId: PlayerId) {
@@ -162,6 +163,10 @@ export function buildMatchView(state: MatchState, viewerId: PlayerId) {
     case 'prototype-complete':
       view = { phase: stage.phase, round };
       break;
+    case 'ranking':
+      if (!state.finalEntry) throw new Error('Classificação ausente.');
+      view = { phase: 'ranking', ranking: rankingSchema.parse(state.finalEntry.ranking) };
+      break;
     case 'interrupted':
       view = { phase: stage.phase, reason: stage.reason };
       break;
@@ -171,7 +176,8 @@ export function buildMatchView(state: MatchState, viewerId: PlayerId) {
   return matchViewSchema.parse({
     matchId: state.roster.matchId,
     rulesVersion: state.rules.parameters.version,
-    ...(['prototype-complete', 'interrupted'].includes(stage.phase)
+    ...buildMatchPlan(state),
+    ...(['prototype-complete', 'ranking', 'interrupted'].includes(stage.phase)
       ? { roundSummaries: buildRoundSummaries(state) }
       : {}),
     ...(state.finalEntry ? { finalEntry: structuredClone(state.finalEntry) } : {}),
@@ -231,7 +237,7 @@ export function buildMatchView(state: MatchState, viewerId: PlayerId) {
       : {}),
     progress: {
       roundNumber: state.roundIndex + 1,
-      roundCount: state.rounds.length,
+      roundCount: state.rounds.length + (state.finalRound ? 1 : 0),
       questionNumber:
         state.history.filter((record) => record.context.roundId === round.roundId).length +
         (stage.phase === 'wager-selection' ||

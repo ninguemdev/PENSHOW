@@ -7,6 +7,7 @@ import {
   type RoundId,
   type Scoreboard,
   type ScoringRound,
+  type Round,
 } from '@penshow/shared';
 import type { QuizRoster } from '../rooms/room.js';
 import type { PreparedQuestion } from '../questions/question.js';
@@ -71,11 +72,13 @@ export type MatchStage =
     }
   | { phase: 'round-results'; deadlineAt: number }
   | { phase: 'prototype-complete' }
+  | { phase: 'ranking' }
   | { phase: 'interrupted'; reason: 'insufficient-questions' | 'no-players' | 'room-closed' };
 export interface MatchState {
   roster: QuizRoster;
   rules: FrozenMatchRules;
   rounds: ScoringRound[];
+  finalRound?: Extract<Round, { mode: 'final' }>;
   roundIndex: number;
   revision: number;
   scoreboard: Scoreboard;
@@ -124,7 +127,8 @@ export type MatchEffect =
   | { kind: 'select-category'; playerId: PlayerId; category: string }
   | { kind: 'expire-category' }
   | { kind: 'next-question'; previousQuestionId: QuestionId | null }
-  | { kind: 'next-final-question'; previousQuestionId: QuestionId | null };
+  | { kind: 'next-final-question'; previousQuestionId: QuestionId | null }
+  | { kind: 'start-final' };
 export class MatchError extends Error {
   constructor(
     readonly code:
@@ -169,6 +173,7 @@ export function createMatch(
   rounds: readonly ScoringRound[],
   strategies: StrategyRegistry,
   pressureOrder: readonly PlayerId[] = [],
+  finalRound?: Extract<Round, { mode: 'final' }>,
 ): MatchState {
   time(roster.startedAt);
   if (
@@ -178,6 +183,16 @@ export function createMatch(
   )
     throw new MatchError('INVALID_PAYLOAD');
   for (const round of rounds) strategies.get(scoringRoundSchema.parse(round).mode);
+  if (
+    finalRound &&
+    (finalRound.index !== 5 ||
+      rounds.length !== 4 ||
+      new Set(rounds.map((round) => round.mode)).size !== 4 ||
+      rounds.some(
+        (round, index) => round.index !== index + 1 || round.roundId === finalRound.roundId,
+      ))
+  )
+    throw new MatchError('INVALID_PAYLOAD');
   if (
     rounds.some((round) => round.mode === 'pressure') &&
     (pressureOrder.length !== roster.players.length ||
@@ -189,6 +204,7 @@ export function createMatch(
     roster: structuredClone(roster),
     rules: freezeMatchRules(roster.matchId, rules.parameters),
     rounds: structuredClone([...rounds]),
+    ...(finalRound ? { finalRound: structuredClone(finalRound) } : {}),
     roundIndex: 0,
     revision: 0,
     scoreboard: createScoreboard(roster.players.map((player) => player.playerId)),
@@ -261,7 +277,7 @@ export function transitionMatch(
 ): { state: MatchState; effects: MatchEffect[]; changed: boolean } {
   time(now);
   const ignored = () => ({ state: before, effects: [], changed: false });
-  const terminal = ['prototype-complete', 'interrupted'].includes(before.stage.phase);
+  const terminal = ['prototype-complete', 'ranking', 'interrupted'].includes(before.stage.phase);
   if (
     event.kind === 'timer' &&
     (!sameTimer(matchTimer(before), event.timer) || now < event.timer.deadlineAt)
@@ -518,12 +534,13 @@ export function transitionMatch(
             state.finalEntry = prepareFinalEntry(
               {
                 matchId: state.roster.matchId,
-                scope: 'isolated-prototype',
+                scope: state.finalRound ? 'full-match' : 'isolated-prototype',
                 scores: state.scoreboard,
               },
               state.finalEntry,
             );
-            state.stage = { phase: 'prototype-complete' };
+            state.stage = { phase: state.finalRound ? 'ranking' : 'prototype-complete' };
+            if (state.finalRound) effects.push({ kind: 'start-final' });
           } else {
             state.roundIndex++;
             state.stage = {

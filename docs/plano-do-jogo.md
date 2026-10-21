@@ -385,3 +385,7 @@ Usar texto e ícones além de cores para acerto, erro e vidas. Garantir botões 
 As seis perguntas enviadas nesta tarefa orientam duração, modalidade da quinta fase, roubo, ausência na final e desempate de classificação. Incorporar as respostas a este plano e a `regras.md` sem interromper as partes independentes da tarefa.
 
 Depois do primeiro teste, revisar os valores de 300 / −150 da dinamite, a vantagem do primeiro acerto no roubo, a duração da final com grupos grandes e o critério residual de desempate. Não alterar as vidas confirmadas nem a exclusividade da primeira resposta por conveniência de implementação.
+
+## Evidência da integração experimental — T36
+
+O [modo clássico](modo-classico.md) já encadeia quatro modalidades sorteadas e a final na quinta posição em desenvolvimento/teste. O orçamento por partida considera apenas as quatro sorteadas, com reserva de 50 perguntas; a matriz do relatório T36 cobre todas as 120 sequências. Os protótipos anteriores e o relatório T27 permanecem como evidência histórica. D02–D06 continuam em consulta; empates e ausências na final têm pendência explícita.

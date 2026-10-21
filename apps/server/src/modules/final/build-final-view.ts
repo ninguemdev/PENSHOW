@@ -1,6 +1,7 @@
 import { matchViewSchema, type MatchStage } from '@penshow/shared';
 import type { MatchState } from '../matches/match.domain.js';
 import { buildRoundSummaries } from '../matches/build-round-summaries.js';
+import { buildMatchPlan } from '../matches/build-match-plan.js';
 
 /** Public final fields are explicit; queue receipts and content checkpoints stay private. */
 export function buildFinalView(state: MatchState) {
@@ -113,6 +114,7 @@ export function buildFinalView(state: MatchState) {
   return matchViewSchema.parse({
     matchId: state.roster.matchId,
     rulesVersion: state.rules.parameters.version,
+    ...buildMatchPlan(state),
     ...(['podium', 'interrupted'].includes(stage.phase)
       ? { roundSummaries: buildRoundSummaries(state) }
       : {}),

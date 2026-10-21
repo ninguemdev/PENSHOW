@@ -55,6 +55,7 @@ interface SelectionOptions {
   players: readonly PlayerId[];
   enabledCategories: readonly CategoryId[];
   format: SelectionFormat;
+  modes?: readonly SelectionMode[];
   previousChoiceQueue?: ThemeChoiceQueue;
   equivalentQuestionIds?: readonly (readonly string[])[];
   categoryChoiceMs?: number;
@@ -159,6 +160,7 @@ export class QuestionSelection {
     if (
       !matchIdSchema.safeParse(options.matchId).success ||
       ![
+        'classic',
         'classic-prototype',
         'speed-prototype',
         'wager-prototype',
@@ -177,6 +179,15 @@ export class QuestionSelection {
     )
       throw new SelectionError('invalid-config');
     phaseDemand('classic', options.players.length, this.rules.parameters);
+    if (
+      options.format === 'classic' &&
+      (!options.modes ||
+        options.modes.length !== 4 ||
+        new Set(options.modes).size !== 4 ||
+        options.modes.some((mode) => !this.policy.modes.includes(mode)))
+    )
+      throw new SelectionError('invalid-config');
+    if (options.format !== 'classic' && options.modes) throw new SelectionError('invalid-config');
     this.questions = canonicalQuestions(
       repository.list(),
       options.equivalentQuestionIds ?? [],
@@ -198,7 +209,9 @@ export class QuestionSelection {
     const selection = new QuestionSelection(repository, deps, options);
     const demands = selection.remainingDemands();
     const stock = stockOf(selection.questions);
-    const reserve = options.format === 'full-prototype' ? selection.policy.finalReserve : undefined;
+    const reserve = ['classic', 'full-prototype'].includes(options.format)
+      ? selection.policy.finalReserve
+      : undefined;
     const allocation = phaseAllocation(stock, demands, reserve);
     if (!allocation)
       return {
@@ -361,8 +374,8 @@ export class QuestionSelection {
       return { status: 'ready' as const, roundId };
     }
     if (
-      this.options.format !== 'full-prototype' ||
-      this.completedRounds !== this.policy.modes.length ||
+      !['classic', 'full-prototype'].includes(this.options.format) ||
+      this.remainingModes().length !== 0 ||
       this.rounds.has(roundId)
     )
       throw new SelectionError('invalid-state');
@@ -385,7 +398,7 @@ export class QuestionSelection {
     }
     if (
       this.interruption ||
-      this.options.format === 'full-prototype' ||
+      ['classic', 'full-prototype'].includes(this.options.format) ||
       this.completedRounds !== 1 ||
       this.rounds.has(roundId) ||
       !Number.isSafeInteger(minimumDamageQuestions) ||
@@ -459,17 +472,19 @@ export class QuestionSelection {
 
   private remainingModes(): readonly SelectionMode[] {
     const modes =
-      this.options.format === 'full-prototype'
-        ? this.policy.modes
-        : this.options.format === 'speed-prototype'
-          ? (['speed'] as const)
-          : this.options.format === 'wager-prototype'
-            ? (['wager'] as const)
-            : this.options.format === 'theft-prototype'
-              ? (['theft'] as const)
-              : this.options.format === 'pressure-prototype'
-                ? (['pressure'] as const)
-                : (['classic'] as const);
+      this.options.format === 'classic'
+        ? this.options.modes!
+        : this.options.format === 'full-prototype'
+          ? this.policy.modes
+          : this.options.format === 'speed-prototype'
+            ? (['speed'] as const)
+            : this.options.format === 'wager-prototype'
+              ? (['wager'] as const)
+              : this.options.format === 'theft-prototype'
+                ? (['theft'] as const)
+                : this.options.format === 'pressure-prototype'
+                  ? (['pressure'] as const)
+                  : (['classic'] as const);
     return modes.slice(this.completedRounds);
   }
   private remainingDemands() {

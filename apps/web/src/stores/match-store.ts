@@ -386,6 +386,7 @@ export function createMatchStore(deps: Dependencies) {
             !view.members.some((member) => member.playerId === view.viewerId && member.isHost) ||
             ![
               'prototype-complete',
+              'ranking',
               'interrupted',
               'podium',
               'final-no-answer-pending',

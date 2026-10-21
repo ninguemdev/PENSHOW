@@ -6,7 +6,7 @@ O desempenho nas quatro primeiras fases do modo clássico determinará a vantage
 
 ## Estado do projeto
 
-A base do monorepo está disponível: navegação React, editor de personagens com 50 peças, perfil local, stores, componentes acessíveis, servidor Fastify e contratos compartilhados. Já é possível criar uma sala, entrar por código/convite e reunir o grupo no lobby com perfis, presença e preferências compartilhadas. Sessões autenticadas e reconexão preservam a identidade e a vaga. O catálogo privado contém [300 perguntas revisadas](docs/revisao-editorial-t27.md), com 50 por tema e estoque validado para o orçamento completo de conteúdo. O [quiz clássico de teste](docs/quiz-classico-web.md) pode ser iniciado na web em desenvolvimento/teste: seis perguntas, resposta definitiva, revelação, placar e retorno ao lobby. O [smoke em Playwright](docs/smoke-m2.md) cobre o percurso real com duas identidades em desktop e celular emulado. Ainda não há partida completa ou versão publicada.
+A base do monorepo está disponível: navegação React, editor de personagens com 50 peças, perfil local, stores, componentes acessíveis, servidor Fastify e contratos compartilhados. Já é possível criar uma sala, entrar por código/convite e reunir o grupo no lobby com perfis, presença e preferências compartilhadas. Sessões autenticadas e reconexão preservam a identidade e a vaga. O catálogo privado contém [300 perguntas revisadas](docs/revisao-editorial-t27.md), com 50 por tema e estoque validado para o orçamento completo de conteúdo. O [quiz clássico de teste](docs/quiz-classico-web.md) pode ser iniciado na web em desenvolvimento/teste: seis perguntas, resposta definitiva, revelação, placar e retorno ao lobby. O [smoke em Playwright](docs/smoke-m2.md) cobre o percurso real com duas identidades em desktop e celular emulado. O [modo clássico integrado](docs/modo-classico.md) já percorre cinco fases em desenvolvimento/teste, com as pausas explícitas das regras ainda em consulta; ainda não há versão publicada.
 
 O projeto parte da arquitetura do [Comicle](https://github.com/ninguemdev/Comicle), especialmente suas salas, identidade de convidado, nomes e avatares. As fases têm como referência a dinâmica de programas de perguntas do [Brain Show](https://store.steampowered.com/app/2235150/).
 
@@ -24,7 +24,7 @@ O [protótipo da final no servidor](docs/final-no-servidor.md) aceita a primeira
 
 ## Planejamento
 
-A [T36 — Modo clássico padrão](docs/tasks/T36-modo-classico-padrao.md) implementará a partida de cinco fases: quatro modalidades distintas sorteadas e a final na quinta posição. Com as cinco modalidades de pontuação atuais, uma ficará de fora em cada partida. Esse formato será a opção padrão; a integração ainda está pendente.
+A [T36 — Modo clássico padrão](docs/tasks/T36-modo-classico-padrao.md) integra experimentalmente a partida de cinco fases: quatro modalidades distintas sorteadas e a final na quinta posição. Com as cinco modalidades de pontuação atuais, uma fica de fora em cada partida. Esse formato é a opção padrão das novas salas em desenvolvimento/teste; a consolidação depende das regras em consulta.
 
 O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da final e os resultados das fases disputadas, com o placar anterior identificado como histórico. O anfitrião pode preparar outra partida na mesma sala; perfis e fila de temas são preservados, espectadores ocupam vagas disponíveis e quem saiu libera sua vaga.
 

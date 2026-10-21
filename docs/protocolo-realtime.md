@@ -41,7 +41,7 @@ Em todas as linhas, `protocolVersion`, `actionId` e `event` ficam no envelope, e
 | `room:updateProfile` | `roomId`, `profile` | Membro no lobby; perfil da partida permanece congelado |
 | `room:updateSettings` | `roomId`, `settings` | Anfitrião no lobby; estoque de perguntas |
 | `room:kick` | `roomId`, `targetPlayerId` | Anfitrião, alvo da mesma sala, somente lobby |
-| `match:start` | `roomId`, `mode?` (`classic`, `speed`, `wager`, `theft` ou `pressure`) | Anfitrião, lobby, participantes e catálogo suficiente; ausência mantém clássico |
+| `match:start` | `roomId`, `mode?` (`classic`, `speed`, `wager`, `theft` ou `pressure`) | Anfitrião, lobby, participantes e catálogo suficiente; ausência inicia o modo completo em salas `classic`; formato legado conserva quiz simples |
 | `final:start` | `roomId`, `matchId` | Anfitrião, protótipo concluído, classificação pronta e estoque suficiente; não recebe vidas/políticas |
 | `round:ready` | `roomId`, `matchId`, `roundId` | Participante nas instruções daquela fase |
 | `category:choose` | `roomId`, `matchId`, `roundId`, `category` | Responsável pela vez, tema oferecido, prazo |
@@ -198,3 +198,5 @@ O cliente consulta a associação em cada conexão e aguarda fotografia nova. Re
 D01–D06 continuam em consulta em [decisões](decisoes.md). `PENDING_DECISIONS` registra esse estado sem selecionar políticas. As visões distinguem a quinta fase pendente da dinamite explicitamente experimental e a classificação pendente de desempate de uma classificação resolvida. Os schemas não têm defaults de duração, política de final sem resposta, alvo automático, variante de roubo ou desempate residual.
 
 O núcleo contratado da resolução final contém erro e ataque manual. Resolução por ausência de resposta e fallback de alvo serão estendidos na tarefa afetada quando a política correspondente estiver definida; o contrato atual não promete que essas situações já são resolvidas. A presença de um formato experimental não muda o estado das consultas.
+
+A [T36](modo-classico.md) acrescenta `settings.format: "classic"` como padrão de criação e `MatchView.format`/`plan` para distinguir a partida completa dos protótipos. O plano público contém quatro modalidades distintas nas posições 1–4 e a final na quinta; o schema confere IDs únicos e correspondência da fase corrente com a posição anunciada. Modalidades deixam de ter índices fixos. `finalEntry.scope: "full-match"` pertence ao modo integrado; `ranking` publica a pendência D06 após a quarta fase. Quando a classificação está pronta, a final inicia automaticamente. `mode` explícito continua escolhendo uma fase isolada.

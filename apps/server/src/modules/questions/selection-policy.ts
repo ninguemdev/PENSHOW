@@ -10,6 +10,7 @@ export type Difficulty = ApprovedQuestion['difficulty'];
 export type QuestionDemand = Readonly<Record<Difficulty, number>>;
 export type SelectionMode = ScoringMode;
 export type SelectionFormat =
+  | 'classic'
   | 'classic-prototype'
   | 'speed-prototype'
   | 'wager-prototype'
