@@ -116,6 +116,12 @@ test('acessibilidade: teclado, textos longos, movimento reduzido e alvos até o 
             : option.optionId !== stage.question.correctOptionId,
         );
         const heading = player.page.locator('.match-stage .question-prompt');
+        await expect(
+          player.page
+            .getByRole('group', { name: 'Escolha sua resposta', exact: true })
+            .getByRole('button')
+            .nth(index),
+        ).toBeEnabled();
         await expect(heading).toBeFocused();
         if (!scanned.has('long-options') && player === host) {
           await player.page
@@ -196,6 +202,15 @@ test('acessibilidade: retrato, paisagem, tablet, texto ampliado, diálogo e cone
       contentType: 'image/png',
     });
   }
+  await page.setViewportSize(sizes[0]!);
+  await page.evaluate(() => {
+    document.documentElement.style.fontFamily = 'Arial, sans-serif';
+  });
+  await expectReflow(page);
+  await page.evaluate(() => {
+    document.documentElement.style.fontFamily = '';
+  });
+  await page.setViewportSize(sizes.at(-1)!);
   await activateWithKeyboard(page, page.getByRole('button', { name: 'Sair da sala', exact: true }));
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
