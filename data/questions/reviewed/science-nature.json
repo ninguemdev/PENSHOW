@@ -514,5 +514,1639 @@
         "uniqueAnswer": true
       }
     }
+  },
+  {
+    "id": "questionados:science-nature:ad903ede7020e5e1",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a menor partícula que ainda caracteriza um elemento químico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Átomo"
+      },
+      {
+        "id": "option-1",
+        "text": "Molécula"
+      },
+      {
+        "id": "option-2",
+        "text": "Célula"
+      },
+      {
+        "id": "option-3",
+        "text": "Cristal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://goldbook.iupac.org/terms/view/A00493/plain",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:da4b6c0232abba75",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual físico formulou a teoria da relatividade restrita em 1905?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "option-1",
+        "text": "Isaac Newton"
+      },
+      {
+        "id": "option-2",
+        "text": "Niels Bohr"
+      },
+      {
+        "id": "option-3",
+        "text": "Galileu Galilei"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://educationalgames.nobelprize.org/educational/physics/relativity/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:b5fdc2c969a87611",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem publicou “A Origem das Espécies” em 1859?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charles Darwin"
+      },
+      {
+        "id": "option-1",
+        "text": "Gregor Mendel"
+      },
+      {
+        "id": "option-2",
+        "text": "Louis Pasteur"
+      },
+      {
+        "id": "option-3",
+        "text": "Carl Linnaeus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:0e94458ab2313d20",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual órgão produz a insulina no corpo humano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pâncreas"
+      },
+      {
+        "id": "option-1",
+        "text": "Fígado"
+      },
+      {
+        "id": "option-2",
+        "text": "Rim"
+      },
+      {
+        "id": "option-3",
+        "text": "Estômago"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:8fd6c3f751c0013a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quais órgãos filtram o sangue e removem resíduos pela urina?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rins"
+      },
+      {
+        "id": "option-1",
+        "text": "Pulmões"
+      },
+      {
+        "id": "option-2",
+        "text": "Pâncreas e baço"
+      },
+      {
+        "id": "option-3",
+        "text": "Intestinos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c38cf47c5eca0198",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é uma função principal dos glóbulos vermelhos do sangue?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Transportar oxigênio"
+      },
+      {
+        "id": "option-1",
+        "text": "Produzir anticorpos"
+      },
+      {
+        "id": "option-2",
+        "text": "Formar o tampão inicial da coagulação"
+      },
+      {
+        "id": "option-3",
+        "text": "Produzir insulina"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nhlbi.nih.gov/health/anemia/causes",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:8a4bf545ee0605b4",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de base de comprimento no Sistema Internacional de Unidades?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Metro"
+      },
+      {
+        "id": "option-1",
+        "text": "Quilômetro"
+      },
+      {
+        "id": "option-2",
+        "text": "Centímetro"
+      },
+      {
+        "id": "option-3",
+        "text": "Milímetro"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bipm.org/en/si-base-units/metre",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:d880c95a381c5206",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o primeiro satélite artificial colocado em órbita da Terra, em 1957?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sputnik 1"
+      },
+      {
+        "id": "option-1",
+        "text": "Explorer 1"
+      },
+      {
+        "id": "option-2",
+        "text": "Vanguard 1"
+      },
+      {
+        "id": "option-3",
+        "text": "Telstar 1"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nasa.gov/image-article/sputnik-1/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:fabd521900ced120",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de base de tempo no Sistema Internacional de Unidades?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Segundo"
+      },
+      {
+        "id": "option-1",
+        "text": "Minuto"
+      },
+      {
+        "id": "option-2",
+        "text": "Hora"
+      },
+      {
+        "id": "option-3",
+        "text": "Dia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bipm.org/en/si-base-units/second",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c33233757c99844a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na gravitação de Newton entre duas massas pontuais fixas, o que acontece com a força ao dobrar a distância?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Passa a um quarto"
+      },
+      {
+        "id": "option-1",
+        "text": "Passa à metade"
+      },
+      {
+        "id": "option-2",
+        "text": "Dobra"
+      },
+      {
+        "id": "option-3",
+        "text": "Quadruplica"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-weight/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:5af9a3beb6c5f4cc",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual região do espaço possui um horizonte de eventos do qual nem a luz pode escapar para o exterior?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Buraco negro"
+      },
+      {
+        "id": "option-1",
+        "text": "Estrela de nêutrons"
+      },
+      {
+        "id": "option-2",
+        "text": "Anã branca"
+      },
+      {
+        "id": "option-3",
+        "text": "Quasar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/universe/black-holes/anatomy/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:88f37cb8d1d541b8",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Segundo o modelo do Big Bang, como era o Universo em sua fase inicial de expansão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Muito mais quente e denso"
+      },
+      {
+        "id": "option-1",
+        "text": "Muito mais frio e denso"
+      },
+      {
+        "id": "option-2",
+        "text": "Muito mais quente e rarefeito"
+      },
+      {
+        "id": "option-3",
+        "text": "Com densidade constante durante toda a expansão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-big-bang/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:1bc8ab84817d61f1",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na divisão celular, qual processo separa as cópias dos cromossomos e preserva seu número nas células-filhas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mitose"
+      },
+      {
+        "id": "option-1",
+        "text": "Meiose"
+      },
+      {
+        "id": "option-2",
+        "text": "Fecundação"
+      },
+      {
+        "id": "option-3",
+        "text": "Transcrição"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:e24fc0fa80cfc39a",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a unidade de base de corrente elétrica no SI?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ampere"
+      },
+      {
+        "id": "option-1",
+        "text": "Volt"
+      },
+      {
+        "id": "option-2",
+        "text": "Ohm"
+      },
+      {
+        "id": "option-3",
+        "text": "Coulomb"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bipm.org/en/si-base-units/ampere",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:439663ae9ad27417",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o menor osso do corpo humano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estribo"
+      },
+      {
+        "id": "option-1",
+        "text": "Martelo"
+      },
+      {
+        "id": "option-2",
+        "text": "Bigorna"
+      },
+      {
+        "id": "option-3",
+        "text": "Fíbula"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5324402/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:62bce819af2e413b",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual grupo de células sanguíneas ajuda a combater infecções?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leucócitos"
+      },
+      {
+        "id": "option-1",
+        "text": "Hemácias"
+      },
+      {
+        "id": "option-2",
+        "text": "Plaquetas"
+      },
+      {
+        "id": "option-3",
+        "text": "Reticulócitos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/white-blood-cell",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:1c96d3a33835c1a7",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual ácido é secretado pelas células parietais do estômago?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ácido clorídrico"
+      },
+      {
+        "id": "option-1",
+        "text": "Ácido sulfúrico"
+      },
+      {
+        "id": "option-2",
+        "text": "Ácido cítrico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ácido acético"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://pubmed.ncbi.nlm.nih.gov/15420166/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:2d8741e3dc233e92",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "As placas tectônicas são grandes porções rígidas de qual camada da Terra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Litosfera"
+      },
+      {
+        "id": "option-1",
+        "text": "Núcleo externo"
+      },
+      {
+        "id": "option-2",
+        "text": "Núcleo interno"
+      },
+      {
+        "id": "option-3",
+        "text": "Mesosfera atmosférica"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://pubs.usgs.gov/gip/dynamic/tectonic.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:9be9fa220574d7be",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o elemento químico mais abundante na crosta terrestre em massa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oxigênio"
+      },
+      {
+        "id": "option-1",
+        "text": "Silício"
+      },
+      {
+        "id": "option-2",
+        "text": "Alumínio"
+      },
+      {
+        "id": "option-3",
+        "text": "Ferro"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://pubs.usgs.gov/pp/0440d/report.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:b82cac2e56ecef85",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em uma reação química comum realizada em sistema fechado, o que ocorre com a massa total?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Permanece constante"
+      },
+      {
+        "id": "option-1",
+        "text": "Sempre aumenta"
+      },
+      {
+        "id": "option-2",
+        "text": "Sempre diminui"
+      },
+      {
+        "id": "option-3",
+        "text": "Torna-se nula"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade/chapter-4/conservation-of-mass.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c54f3acb696235e6",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Segundo a conservação da energia, o que pode ocorrer em um sistema isolado?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A energia muda de forma, mantendo o total"
+      },
+      {
+        "id": "option-1",
+        "text": "A energia é criada sem compensação"
+      },
+      {
+        "id": "option-2",
+        "text": "A energia total desaparece por atrito"
+      },
+      {
+        "id": "option-3",
+        "text": "A energia aumenta apenas pela passagem do tempo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/conservation-of-energy/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:a0cbaefa17a9365b",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual estrutura celular lê o RNA mensageiro e monta cadeias de aminoácidos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ribossomo"
+      },
+      {
+        "id": "option-1",
+        "text": "Lisossomo"
+      },
+      {
+        "id": "option-2",
+        "text": "Centríolo"
+      },
+      {
+        "id": "option-3",
+        "text": "Peroxissomo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.genome.gov/genetics-glossary/Ribosome",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:1599c28815dd5419",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Pela primeira lei de Newton, como se move um corpo com força resultante nula em um referencial inercial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Permanece em repouso ou em movimento retilíneo uniforme"
+      },
+      {
+        "id": "option-1",
+        "text": "Sempre desacelera até parar"
+      },
+      {
+        "id": "option-2",
+        "text": "Sempre descreve uma trajetória circular"
+      },
+      {
+        "id": "option-3",
+        "text": "Sua velocidade aumenta continuamente"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:40e13018c47689da",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Segundo a terceira lei de Newton, as forças de ação e reação atuam em quais corpos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Em corpos diferentes, com sentidos opostos e mesma intensidade"
+      },
+      {
+        "id": "option-1",
+        "text": "No mesmo corpo, anulando-se sempre"
+      },
+      {
+        "id": "option-2",
+        "text": "Em corpos diferentes, sempre no mesmo sentido"
+      },
+      {
+        "id": "option-3",
+        "text": "No mesmo corpo, com intensidades diferentes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 66,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:3915ad336938af57",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual gás predomina na atmosfera de Vênus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dióxido de carbono"
+      },
+      {
+        "id": "option-1",
+        "text": "Nitrogênio"
+      },
+      {
+        "id": "option-2",
+        "text": "Oxigênio"
+      },
+      {
+        "id": "option-3",
+        "text": "Metano"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 71,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/venus/venus-facts/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:8e75772a62c0cfee",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que fornece a maior parte da energia emitida por um quasar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Acreção de matéria em um buraco negro supermassivo"
+      },
+      {
+        "id": "option-1",
+        "text": "Fusão nuclear em uma população de estrelas comuns"
+      },
+      {
+        "id": "option-2",
+        "text": "Explosões simultâneas de supernovas no núcleo"
+      },
+      {
+        "id": "option-3",
+        "text": "Decaimento radioativo do gás intergaláctico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Black_holes",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:77e78ca199645be4",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual característica permite que um sistema determinístico caótico tenha previsões muito diferentes a partir de estados inicialmente próximos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sensibilidade às condições iniciais"
+      },
+      {
+        "id": "option-1",
+        "text": "Dependência apenas da força média"
+      },
+      {
+        "id": "option-2",
+        "text": "Ausência de dissipação em todo sistema"
+      },
+      {
+        "id": "option-3",
+        "text": "Periodicidade exata de todas as trajetórias"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:5c5a1bdac24d5296",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Pela lei de Coulomb no vácuo, mantendo as cargas pontuais constantes, como varia a intensidade da força com a distância r?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "É proporcional a 1/r²"
+      },
+      {
+        "id": "option-1",
+        "text": "É proporcional a r"
+      },
+      {
+        "id": "option-2",
+        "text": "É proporcional a r²"
+      },
+      {
+        "id": "option-3",
+        "text": "É independente de r"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://openstax.org/books/university-physics-volume-2/pages/5-3-coulombs-law",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:c999280b1c73f1d9",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na relatividade geral, a gravidade é descrita em termos de qual propriedade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Curvatura do espaço-tempo"
+      },
+      {
+        "id": "option-1",
+        "text": "Interação exclusivamente entre campos magnéticos"
+      },
+      {
+        "id": "option-2",
+        "text": "Variação da velocidade da luz no vácuo com a massa"
+      },
+      {
+        "id": "option-3",
+        "text": "Atração produzida apenas por partículas carregadas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-gravitational-lenses/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:06a0e897e1086368",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Para uma quantidade fixa de gás ideal a temperatura constante, qual relação expressa a lei de Boyle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Produto da pressão pelo volume é constante"
+      },
+      {
+        "id": "option-1",
+        "text": "Quociente da pressão pelo volume é constante"
+      },
+      {
+        "id": "option-2",
+        "text": "Soma da pressão com o volume é constante"
+      },
+      {
+        "id": "option-3",
+        "text": "Pressão e volume são numericamente iguais em qualquer unidade"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boyles-law/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:26b67025987e5d5c",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que caracteriza o decaimento radioativo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Transformação espontânea de núcleos instáveis com emissão de radiação"
+      },
+      {
+        "id": "option-1",
+        "text": "Evaporação de líquidos ao sol"
+      },
+      {
+        "id": "option-2",
+        "text": "Decomposição de matéria orgânica por fungos"
+      },
+      {
+        "id": "option-3",
+        "text": "Mudança de estado sem alteração nuclear"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://nucleus.iaea.org/sites/connect-members/cbh/publicpages/E_Learning_Modules/15/Content/Glossary.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:a6b0deda214dc9e1",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é um objetivo da pesquisa em gravidade quântica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Conciliar a descrição da gravidade com a física quântica"
+      },
+      {
+        "id": "option-1",
+        "text": "Unificar exclusivamente eletricidade e magnetismo clássicos"
+      },
+      {
+        "id": "option-2",
+        "text": "Calcular órbitas usando somente a mecânica de Newton"
+      },
+      {
+        "id": "option-3",
+        "text": "Descrever a gravidade sem efeitos quânticos em qualquer escala"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://cern-courier.web.cern.ch/a/can-experiment-access-planck-scale-physics/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:8afeab3bfccdb67e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em uma sinapse química, o que é um neurotransmissor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mensageiro químico liberado por um neurônio"
+      },
+      {
+        "id": "option-1",
+        "text": "Receptor de membrana que reconhece mensageiros"
+      },
+      {
+        "id": "option-2",
+        "text": "Impulso elétrico propagado pelo axônio"
+      },
+      {
+        "id": "option-3",
+        "text": "Célula que sustenta e nutre neurônios"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11009/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:5806718215ece88e",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na relação E = h × f para um fóton, o que representa h?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Constante de Planck"
+      },
+      {
+        "id": "option-1",
+        "text": "Constante gravitacional"
+      },
+      {
+        "id": "option-2",
+        "text": "Velocidade da luz"
+      },
+      {
+        "id": "option-3",
+        "text": "Carga elementar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://physics.nist.gov/cgi-bin/cuu/Info/pdf/adopted_2018.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:90e52d5a4809c47f",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Para um resistor ôhmico de resistência R, qual relação liga tensão V e corrente I?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "V é o produto de R por I"
+      },
+      {
+        "id": "option-1",
+        "text": "V é o quociente de R por I"
+      },
+      {
+        "id": "option-2",
+        "text": "V é o quociente de I por R"
+      },
+      {
+        "id": "option-3",
+        "text": "V é a soma de R com I"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nist.gov/iaao/upload/NIST_SIM-web-vsn.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:a8989575ee18e195",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual unidade do SI expressa a luminosidade de uma estrela entendida como potência total emitida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Watt"
+      },
+      {
+        "id": "option-1",
+        "text": "Candela"
+      },
+      {
+        "id": "option-2",
+        "text": "Lúmen"
+      },
+      {
+        "id": "option-3",
+        "text": "Magnitude aparente"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/universe/glossary/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:4d2846fde382a92d",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na reflexão especular, a partir de qual direção são medidos os ângulos de incidência e reflexão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Da normal à superfície"
+      },
+      {
+        "id": "option-1",
+        "text": "Da própria superfície refletora"
+      },
+      {
+        "id": "option-2",
+        "text": "Da direção do campo gravitacional"
+      },
+      {
+        "id": "option-3",
+        "text": "De qualquer direção escolhida independentemente para cada raio"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://openstax.org/books/university-physics-volume-3/pages/1-2-the-law-of-reflection",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:science-nature:e0cc792f953f7810",
+    "category": "science-nature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Como se chama a perda de água pelas plantas na forma de vapor, principalmente pelos estômatos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Transpiração"
+      },
+      {
+        "id": "option-1",
+        "text": "Gutação"
+      },
+      {
+        "id": "option-2",
+        "text": "Fotossíntese"
+      },
+      {
+        "id": "option-3",
+        "text": "Respiração celular"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.usgs.gov/media/images/evapotranspiration-sum-plant-transpiration-and-evaporation",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
   }
 ]

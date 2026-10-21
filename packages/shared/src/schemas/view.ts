@@ -1,4 +1,6 @@
 import { z } from 'zod';
+import { finalEntrySchema } from './final-entry.js';
+import { roundSummarySchema } from './results.js';
 import { ROOM_LIMITS } from '../domain/rooms.js';
 import {
   categoryIdSchema,
@@ -86,6 +88,7 @@ export const matchStageSchema = z
       round: scoringRoundSchema,
       question: questionStemSchema,
       opensAt: timestampSchema,
+      ownWager: ownWagerSchema.optional(),
     }),
     z.strictObject({
       phase: z.literal('wager-selection'),
@@ -108,6 +111,7 @@ export const matchStageSchema = z
       ...responseWindow,
       answeredPlayerIds: playerIdsSchema,
       ownAnswer: ownAnswerSchema,
+      ownWager: ownWagerSchema.optional(),
       respondents: z.discriminatedUnion('kind', [
         z.strictObject({ kind: z.literal('all-players') }),
         z.strictObject({ kind: z.literal('single-player'), playerId: playerIdSchema }),
@@ -126,6 +130,44 @@ export const matchStageSchema = z
       round: scoringRoundSchema,
       reveal: revealedQuestionSchema,
       effects: z.array(scoreEffectSchema).max(120),
+      theftResult: z
+        .strictObject({
+          attackerPlayerId: playerIdSchema.nullable(),
+          targetPlayerId: playerIdSchema.nullable(),
+          amount: nonnegativeIntegerSchema,
+          balances: z
+            .array(
+              z.strictObject({
+                playerId: playerIdSchema,
+                balanceBefore: nonnegativeIntegerSchema,
+                correctPoints: nonnegativeIntegerSchema,
+                transfer: z
+                  .number()
+                  .int()
+                  .min(-Number.MAX_SAFE_INTEGER)
+                  .max(Number.MAX_SAFE_INTEGER),
+                balanceAfter: nonnegativeIntegerSchema,
+              }),
+            )
+            .min(2)
+            .max(12),
+        })
+        .optional(),
+      wagerResults: z
+        .array(
+          z.strictObject({
+            playerId: playerIdSchema,
+            amount: nonnegativeIntegerSchema,
+            balanceBefore: nonnegativeIntegerSchema,
+            balanceAfter: nonnegativeIntegerSchema,
+          }),
+        )
+        .min(2)
+        .max(12)
+        .refine(
+          (results) => new Set(results.map((result) => result.playerId)).size === results.length,
+        )
+        .optional(),
       deadlineAt: timestampSchema,
     }),
     z.strictObject({
@@ -171,6 +213,20 @@ export const matchStageSchema = z
       reveal: revealedQuestionSchema,
       resolution: finalResolutionSchema,
       deadlineAt: timestampSchema,
+    }),
+    z.strictObject({
+      phase: z.literal('final-no-answer-pending'),
+      ...finalFields,
+      question: publicQuestionSchema,
+      decisionId: z.literal('D02'),
+    }),
+    z.strictObject({
+      phase: z.literal('final-no-target-pending'),
+      ...finalFields,
+      reveal: revealedQuestionSchema,
+      acceptedAnswer: z.strictObject(acceptedAnswerFields),
+      eligibleTargetIds: playerIdsSchema,
+      decisionId: z.literal('D03'),
     }),
     z.strictObject({
       phase: z.literal('podium'),
@@ -239,7 +295,7 @@ export const matchStageSchema = z
         )
       )
         invalid('A entrada na final conserva as vidas iniciais de todos.');
-      if (stage.phase === 'final-target-selection') {
+      if (stage.phase === 'final-target-selection' || stage.phase === 'final-no-target-pending') {
         const attacker = active.find((player) => player.playerId === stage.acceptedAnswer.playerId);
         const opponents = active.filter(
           (player) => player.playerId !== stage.acceptedAnswer.playerId,
@@ -296,17 +352,99 @@ export const matchViewSchema = z
   .strictObject({
     matchId: matchIdSchema,
     rulesVersion: z.literal('prototype-v1'),
+    waitingForPlayers: z.literal(true).optional(),
+    finalEntry: finalEntrySchema.optional(),
+    roundSummaries: z.array(roundSummarySchema).min(1).max(5).optional(),
+    finalRules: z
+      .strictObject({
+        status: z.literal('prototype'),
+        responseMs: nonnegativeIntegerSchema.min(1),
+        targetSelectionMs: nonnegativeIntegerSchema.min(1),
+        noAnswerPolicy: z.strictObject({
+          status: z.literal('pending'),
+          decisionId: z.literal('D02'),
+        }),
+        noTargetPolicy: z.strictObject({
+          status: z.literal('pending'),
+          decisionId: z.literal('D03'),
+        }),
+      })
+      .optional(),
+    pressureRules: z
+      .strictObject({
+        correctPoints: nonnegativeIntegerSchema,
+        wrongPenalty: nonnegativeIntegerSchema,
+        responseMs: nonnegativeIntegerSchema.min(1),
+        turnDifficulties: z.array(difficultySchema).min(1).max(16),
+        status: z.literal('prototype'),
+        mode: z.literal('dynamite'),
+      })
+      .optional(),
+    pressureTurn: z
+      .strictObject({
+        playerId: playerIdSchema,
+        cycle: nonnegativeIntegerSchema.min(1),
+        cycleCount: nonnegativeIntegerSchema.min(1).max(16),
+        turnNumber: nonnegativeIntegerSchema.min(1),
+        turnCount: nonnegativeIntegerSchema.min(1),
+        nextPlayerId: playerIdSchema.nullable(),
+        difficulty: difficultySchema,
+        outcome: z.enum(['passed', 'exploded']).optional(),
+      })
+      .optional(),
+    theftRules: z
+      .strictObject({
+        correctPoints: nonnegativeIntegerSchema,
+        maximumTransfer: nonnegativeIntegerSchema,
+        targetSelectionMs: nonnegativeIntegerSchema.min(1),
+        policy: z.literal('first-correct-only'),
+        status: z.literal('prototype'),
+      })
+      .optional(),
+    wagerRules: z
+      .strictObject({
+        correctPoints: nonnegativeIntegerSchema,
+        selectionMs: nonnegativeIntegerSchema.min(1),
+      })
+      .optional(),
+    speedRules: z
+      .strictObject({
+        correctPoints: nonnegativeIntegerSchema,
+        responseMs: nonnegativeIntegerSchema.min(1),
+        bonusBands: z
+          .array(
+            z.strictObject({
+              beforeMs: nonnegativeIntegerSchema.min(1),
+              points: nonnegativeIntegerSchema,
+            }),
+          )
+          .min(1)
+          .max(16),
+      })
+      .superRefine((rules, context) => {
+        if (
+          rules.bonusBands.at(-1)?.beforeMs !== rules.responseMs ||
+          rules.bonusBands.some(
+            (band, index) =>
+              index > 0 &&
+              (band.beforeMs <= rules.bonusBands[index - 1]!.beforeMs ||
+                band.points > rules.bonusBands[index - 1]!.points),
+          )
+        )
+          context.addIssue({ code: 'custom', message: 'Faixas de velocidade inválidas.' });
+      })
+      .optional(),
     progress: z
       .strictObject({
         roundNumber: z.number().int().min(1).max(6),
         roundCount: z.number().int().min(1).max(6),
         questionNumber: nonnegativeIntegerSchema,
-        questionCount: nonnegativeIntegerSchema.min(1),
+        questionCount: nonnegativeIntegerSchema.min(1).nullable(),
       })
       .refine(
         (progress) =>
           progress.roundNumber <= progress.roundCount &&
-          progress.questionNumber <= progress.questionCount,
+          (progress.questionCount === null || progress.questionNumber <= progress.questionCount),
         'O progresso precisa pertencer ao plano de fases e perguntas.',
       ),
     scoreboard: scoreboardSchema,
@@ -315,6 +453,245 @@ export const matchViewSchema = z
   .superRefine((match, context) => {
     const ids = new Set(match.scoreboard.map((entry) => entry.playerId));
     const stage = match.stage;
+    const isFinal = 'finalists' in stage;
+    if (match.roundSummaries) {
+      const summaries = match.roundSummaries;
+      const ended = ['prototype-complete', 'podium', 'interrupted'].includes(stage.phase);
+      const totals = new Map(
+        match.scoreboard.map((score) => [score.playerId, { points: 0, correctAnswers: 0 }]),
+      );
+      let valid =
+        ended &&
+        new Set(summaries.map((summary) => summary.round.roundId)).size === summaries.length;
+      for (const summary of summaries) {
+        if (summary.players.length !== totals.size) valid = false;
+        for (const player of summary.players) {
+          const total = totals.get(player.playerId);
+          if (!total || total.points !== player.pointsBefore) {
+            valid = false;
+            continue;
+          }
+          total.points = player.pointsAfter;
+          total.correctAnswers += player.correctAnswers;
+        }
+      }
+      if (
+        !valid ||
+        match.scoreboard.some((score) => {
+          const total = totals.get(score.playerId)!;
+          return total.points !== score.points || total.correctAnswers !== score.correctAnswers;
+        })
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'O histórico por fase precisa corresponder ao placar encerrado.',
+        });
+    }
+    if (
+      match.finalRules &&
+      stage.phase === 'final-question-open' &&
+      stage.deadlineAt - stage.opensAt !== match.finalRules.responseMs
+    )
+      context.addIssue({
+        code: 'custom',
+        message: 'A janela da final deve conservar o prazo anunciado.',
+      });
+    if (
+      (match.progress.questionCount === null &&
+        !isFinal &&
+        !(stage.phase === 'interrupted' && match.finalRules)) ||
+      (match.finalRules &&
+        ((!isFinal && stage.phase !== 'interrupted') || match.progress.questionCount !== null))
+    )
+      context.addIssue({
+        code: 'custom',
+        message: 'O progresso sem total fixo pertence à disputa da final.',
+      });
+    if (match.finalEntry) {
+      const entry = match.finalEntry;
+      const scores =
+        entry.ranking.status === 'resolved' ? entry.ranking.entries : entry.ranking.scores;
+      if (
+        (stage.phase !== 'prototype-complete' &&
+          !isFinal &&
+          !(stage.phase === 'interrupted' && match.finalRules)) ||
+        entry.scope !== 'isolated-prototype' ||
+        entry.matchId !== match.matchId ||
+        scores.length !== match.scoreboard.length ||
+        scores.some(
+          (score) =>
+            !match.scoreboard.some(
+              (current) =>
+                current.playerId === score.playerId &&
+                current.points === score.points &&
+                current.correctAnswers === score.correctAnswers,
+            ),
+        )
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'O resumo de conversão deve corresponder ao placar encerrado e à partida.',
+        });
+      if (
+        isFinal &&
+        (entry.status !== 'ready' ||
+          !match.finalRules ||
+          stage.finalists.some(
+            (player) =>
+              entry.status === 'ready' &&
+              !entry.allocations.some(
+                (row) =>
+                  row.playerId === player.playerId &&
+                  row.rank === player.rank &&
+                  row.initialLives === player.initialLives,
+              ),
+          ))
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'A final precisa conservar a atribuição congelada de vidas.',
+        });
+    }
+    const pressure =
+      'round' in stage &&
+      stage.round.mode === 'pressure' &&
+      stage.round.variant.status === 'prototype';
+    const activeTurn =
+      pressure && ['question-reading', 'question-open', 'reveal'].includes(stage.phase);
+    const turn = match.pressureTurn;
+    const pressureRules = match.pressureRules;
+    if ('round' in stage && pressure !== Boolean(pressureRules))
+      context.addIssue({
+        code: 'custom',
+        message: 'A dinamite precisa publicar suas regras de protótipo.',
+      });
+    if (
+      activeTurn !== Boolean(turn) ||
+      (turn &&
+        (!pressureRules ||
+          !ids.has(turn.playerId) ||
+          (turn.nextPlayerId !== null && !ids.has(turn.nextPlayerId)) ||
+          turn.cycleCount !== pressureRules.turnDifficulties.length ||
+          turn.turnCount !== ids.size * turn.cycleCount ||
+          turn.cycle !== Math.floor((turn.turnNumber - 1) / ids.size) + 1 ||
+          turn.turnNumber !== match.progress.questionNumber ||
+          turn.turnCount !== match.progress.questionCount ||
+          turn.turnNumber > turn.turnCount ||
+          (turn.nextPlayerId === null) !== (turn.turnNumber === turn.turnCount) ||
+          turn.difficulty !== pressureRules.turnDifficulties[turn.cycle - 1] ||
+          (stage.phase === 'reveal') !== Boolean(turn.outcome) ||
+          (stage.phase === 'question-open' &&
+            (stage.respondents.kind !== 'single-player' ||
+              stage.respondents.playerId !== turn.playerId ||
+              stage.deadlineAt - stage.opensAt !== pressureRules.responseMs ||
+              stage.question.difficulty !== turn.difficulty)) ||
+          (stage.phase === 'question-reading' && stage.question.difficulty !== turn.difficulty) ||
+          (stage.phase === 'reveal' &&
+            (stage.reveal.question.difficulty !== turn.difficulty ||
+              stage.effects.length > 1 ||
+              (turn.outcome === 'passed' &&
+                stage.effects.length !== (pressureRules.correctPoints > 0 ? 1 : 0)) ||
+              (turn.outcome === 'exploded' &&
+                (stage.effects[0]?.amount ?? 0) < pressureRules.wrongPenalty &&
+                match.scoreboard.find((score) => score.playerId === turn.playerId)!.points !== 0) ||
+              stage.effects.some(
+                (effect) =>
+                  effect.playerId !== turn.playerId ||
+                  (turn.outcome === 'passed'
+                    ? effect.kind !== 'credit' ||
+                      effect.reason !== 'correct-answer' ||
+                      effect.amount !== pressureRules.correctPoints
+                    : effect.kind !== 'debit' ||
+                      effect.reason !== 'pressure' ||
+                      effect.amount > pressureRules.wrongPenalty),
+              )))))
+    )
+      context.addIssue({
+        code: 'custom',
+        message: 'Turno de dinamite incompatível com a fase, os participantes ou os efeitos.',
+      });
+    if ('round' in stage && (stage.round.mode === 'theft') !== Boolean(match.theftRules))
+      context.addIssue({
+        code: 'custom',
+        message: 'A modalidade de roubo precisa publicar suas regras.',
+      });
+    if (stage.phase === 'theft-target-selection') {
+      const expected = match.scoreboard
+        .filter((score) => score.playerId !== stage.attackerPlayerId && score.points > 0)
+        .map((score) => score.playerId);
+      if (
+        !stage.eligibleTargetIds.length ||
+        expected.length !== stage.eligibleTargetIds.length ||
+        expected.some((id) => !stage.eligibleTargetIds.includes(id))
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'Os alvos do roubo precisam ter saldo após os créditos.',
+        });
+    }
+    if ('round' in stage && (stage.round.mode === 'speed') !== Boolean(match.speedRules))
+      context.addIssue({ code: 'custom', message: 'A velocidade precisa publicar suas regras.' });
+    if ('round' in stage && (stage.round.mode === 'wager') !== Boolean(match.wagerRules))
+      context.addIssue({
+        code: 'custom',
+        message: 'A modalidade de aposta precisa publicar suas regras.',
+      });
+    if (
+      (stage.phase === 'question-reading' || stage.phase === 'question-open') &&
+      (stage.round.mode === 'wager') !== Boolean(stage.ownWager)
+    )
+      context.addIssue({
+        code: 'custom',
+        message: 'A pergunta de aposta precisa informar somente a aposta própria.',
+      });
+    if (stage.phase === 'reveal') {
+      const result = stage.theftResult;
+      if (
+        (stage.round.mode === 'theft') !== Boolean(result) ||
+        (result &&
+          ((result.targetPlayerId === null && result.amount !== 0) ||
+            (result.attackerPlayerId !== null && !ids.has(result.attackerPlayerId)) ||
+            (result.targetPlayerId !== null &&
+              (!ids.has(result.targetPlayerId) ||
+                !result.attackerPlayerId ||
+                result.targetPlayerId === result.attackerPlayerId)) ||
+            result.balances.length !== ids.size ||
+            new Set(result.balances.map((entry) => entry.playerId)).size !== ids.size ||
+            result.balances.some(
+              (entry) =>
+                !ids.has(entry.playerId) ||
+                entry.balanceAfter !==
+                  match.scoreboard.find((score) => score.playerId === entry.playerId)?.points ||
+                entry.balanceAfter !== entry.balanceBefore + entry.correctPoints + entry.transfer ||
+                entry.transfer !==
+                  (entry.playerId === result.attackerPlayerId
+                    ? result.amount
+                    : entry.playerId === result.targetPlayerId
+                      ? -result.amount
+                      : 0),
+            )))
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'A transferência e a decomposição precisam corresponder ao placar.',
+        });
+      if (
+        (stage.round.mode === 'wager') !== Boolean(stage.wagerResults) ||
+        (stage.wagerResults &&
+          (stage.wagerResults.length !== ids.size ||
+            stage.wagerResults.some(
+              (result) =>
+                !ids.has(result.playerId) ||
+                result.balanceAfter !==
+                  match.scoreboard.find((score) => score.playerId === result.playerId)?.points ||
+                result.amount > result.balanceBefore,
+            )))
+      )
+        context.addIssue({
+          code: 'custom',
+          message: 'A revelação de aposta precisa corresponder aos saldos e participantes.',
+        });
+    }
     if (
       (('question' in stage || 'reveal' in stage || 'questionId' in stage) &&
         match.progress.questionNumber === 0) ||
@@ -441,7 +818,15 @@ export const roomViewSchema = z
           match.scoreboard.find((entry) => entry.playerId === room.viewerId)?.points ?? 0;
         if (stage.ownWager.status === 'submitted' && stage.ownWager.amount > balance)
           invalid('A aposta não pode ultrapassar o saldo disponível.');
+        if (stage.allowedAmounts.some((amount) => amount > balance))
+          invalid('As apostas oferecidas precisam estar cobertas pelo saldo.');
       }
+      if (
+        (stage.phase === 'question-reading' || stage.phase === 'question-open') &&
+        stage.ownWager &&
+        (viewer?.role === 'spectator') !== (stage.ownWager.status === 'unavailable')
+      )
+        invalid('Somente participantes recebem sua aposta própria.');
     }
   });
 

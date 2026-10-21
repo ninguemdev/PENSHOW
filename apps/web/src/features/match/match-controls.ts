@@ -14,10 +14,13 @@ export function useMatchControls(stores: ClientStores) {
       session.status !== 'active' ||
       session.connection !== 'online' ||
       !session.viewReady ||
+      (view?.state.status === 'match' && view.state.match.waitingForPlayers === true) ||
       actions.busyKey === key,
     waitingView: !session.viewReady,
     offset: session.offset,
     error: actions.errorKey === key ? actions.error : null,
     attempt: actions.attempt?.key === key ? actions.attempt : null,
+    wagerAttempt: actions.wagerAttempt?.key === key ? actions.wagerAttempt : null,
+    targetAttempt: actions.targetAttempt?.key === key ? actions.targetAttempt : null,
   };
 }

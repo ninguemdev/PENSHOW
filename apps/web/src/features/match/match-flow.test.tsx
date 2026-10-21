@@ -20,6 +20,10 @@ import {
   phases,
   spectatorId,
   zeroScores,
+  wagerPhases,
+  wagerView,
+  theftView,
+  pressureView,
 } from '../../test/match-fixtures';
 
 beforeEach(() => vi.spyOn(Date, 'now').mockReturnValue(1000));
@@ -54,6 +58,200 @@ async function harness(view = matchView()) {
 }
 
 describe('telas do quiz clássico', () => {
+  it('espera por retorno é explícita e não permite ação sobre a janela encerrada', async () => {
+    const view = matchView(phases().instructions);
+    if (view.state.status !== 'match') throw new Error();
+    view.state.match.waitingForPlayers = true;
+    const f = await harness(view);
+    expect(f.ui.getByText(strings.match.waitingPlayers)).toBeDefined();
+    expect(f.ui.getByRole('button', { name: strings.match.ready }).hasAttribute('disabled')).toBe(
+      true,
+    );
+    expect(await f.stores.match.getState().ready()).toBe(false);
+    expect(f.commands).toEqual([]);
+  });
+  it('inicia dinamite, mostra dono, ciclo e prazo, trava após envio e revela explosão com próximo turno', async () => {
+    const source = pressureView('instructions');
+    if (source.state.status !== 'match') throw new Error();
+    const f = await harness({
+      ...source,
+      state: { status: 'lobby', settings: source.state.settings },
+    });
+    await userEvent.click(f.ui.getByRole('button', { name: strings.room.startPressure }));
+    expect(f.commands[0]).toMatchObject({ event: 'match:start', payload: { mode: 'pressure' } });
+    f.push(pressureView('instructions', 3));
+    expect(f.ui.getByText(strings.match.pressureInstructions(300, 150, 10000, 2))).toBeDefined();
+    f.push(pressureView('reading', 4));
+    expect(f.ui.queryByRole('button', { name: 'Alternativa Alfa' })).toBeNull();
+    f.push(pressureView('open', 5));
+    expect(f.ui.getByText(strings.match.pressureOwner('Joana'))).toBeDefined();
+    expect(f.ui.getByText(strings.match.pressureCycle(1, 2, 1, 4))).toBeDefined();
+    expect(f.ui.getByRole('timer').textContent).toContain('10 segundos');
+    const button = f.ui.getByRole('button', { name: 'Alternativa Alfa' });
+    button.focus();
+    await userEvent.keyboard('[Enter]');
+    expect(f.commands.at(-1)).toMatchObject({
+      event: 'answer:submit',
+      payload: { optionId: option1 },
+    });
+    expect(f.ui.getByRole('button', { name: 'Alternativa Beta' }).hasAttribute('disabled')).toBe(
+      true,
+    );
+    f.push(pressureView('reveal', 6));
+    expect(f.ui.getByText(strings.match.pressureExploded)).toBeDefined();
+    expect(f.ui.getByText(strings.match.pressureNext('Bruno'))).toBeDefined();
+    expect(f.ui.getByText('−150 Explosão')).toBeDefined();
+  });
+  it.each([guestId, spectatorId])(
+    'dinamite: %s acompanha dono do turno sem enviar resposta',
+    async (viewer) => {
+      const f = await harness(pressureView('open', 2, viewer));
+      const buttons = f.ui.getAllByRole('button', { name: /Alternativa/ });
+      expect(buttons.every((button) => button.hasAttribute('disabled'))).toBe(true);
+      await userEvent.click(buttons[0]!);
+      expect(f.commands).toHaveLength(0);
+      expect(f.ui.getByText(strings.match.answered(0, 1))).toBeDefined();
+    },
+  );
+  it('inicia roubo, oferece alvo somente ao autor e revela transferência e saldos', async () => {
+    const source = matchView();
+    if (source.state.status !== 'match') throw new Error();
+    const f = await harness({
+      ...source,
+      state: { status: 'lobby', settings: source.state.settings },
+    });
+    await userEvent.click(f.ui.getByRole('button', { name: strings.room.startTheft }));
+    expect(f.commands[0]).toMatchObject({ event: 'match:start', payload: { mode: 'theft' } });
+    f.push(theftView('instructions', 3));
+    expect(f.ui.getByText(strings.match.theftInstructions(100, 50, 6000))).toBeDefined();
+    f.push(theftView('target', 4));
+    const button = f.ui.getByRole('button', { name: strings.match.theftTarget('Bruno', 100) });
+    button.focus();
+    await userEvent.keyboard('[Enter]');
+    expect(f.commands.at(-1)).toMatchObject({
+      event: 'target:choose',
+      payload: { targetPlayerId: guestId },
+    });
+    expect(JSON.stringify(f.commands.at(-1))).not.toMatch(/"amount"|"damage"|"points"/);
+    f.push(theftView('reveal', 5));
+    expect(f.ui.getByText(strings.match.theftTransfer('Joana', 'Bruno', 50))).toBeDefined();
+    expect(
+      f.ui.getByText(strings.match.theftBalance(0, 100, -50, 50), { exact: false }),
+    ).toBeDefined();
+    expect(f.ui.getByText('−50 Roubo')).toBeDefined();
+  });
+  it('outro jogador ou espectador acompanha o alvo sem poder escolher', async () => {
+    const guest = await harness(theftView('target', 2, guestId));
+    expect(guest.ui.queryByRole('button', { name: /Roubar de/ })).toBeNull();
+    const spectator = await harness(theftView('target', 2, spectatorId));
+    expect(spectator.ui.queryByRole('button', { name: /Roubar de/ })).toBeNull();
+  });
+  it('inicia aposta pelo anfitrião, confirma escolha por teclado e revela ganho/perda individuais', async () => {
+    const source = matchView();
+    if (source.state.status !== 'match') throw new Error();
+    const f = await harness({
+      ...source,
+      state: { status: 'lobby', settings: source.state.settings },
+    });
+    await userEvent.click(f.ui.getByRole('button', { name: strings.room.startWager }));
+    expect(f.commands[0]).toMatchObject({ event: 'match:start', payload: { mode: 'wager' } });
+    f.push(wagerView(wagerPhases().instructions, 3));
+    expect(f.ui.getByText(strings.match.wagerInstructions(100, 6000))).toBeDefined();
+    f.push(wagerView(wagerPhases().selection, 4));
+    expect(f.ui.queryByText('Pergunta recebida 1?')).toBeNull();
+    expect(f.ui.getByText(strings.match.wagerBalance(50))).toBeDefined();
+    const button = f.ui.getByRole('button', { name: strings.match.wagerButton(25) });
+    button.focus();
+    await userEvent.keyboard('[Enter]');
+    expect(f.commands.at(-1)).toMatchObject({ event: 'wager:submit', payload: { amount: 25 } });
+    expect(JSON.stringify(f.commands.at(-1))).not.toMatch(/pointsAtSelection|playerId|balance/);
+    expect(f.ui.getByText(strings.match.wagerRecorded(25))).toBeDefined();
+    expect(f.ui.getByText(strings.match.wagerBalance(50))).toBeDefined();
+    expect(
+      f.ui
+        .getAllByRole('button', { name: /Apostar/ })
+        .every((item) => item.hasAttribute('disabled')),
+    ).toBe(true);
+    f.push(wagerView(wagerPhases().reading, 5));
+    expect(f.ui.getByText(strings.match.wagerOwn(25))).toBeDefined();
+    f.push(wagerView(wagerPhases().open, 6));
+    await userEvent.click(f.ui.getByRole('button', { name: 'Alternativa Alfa' }));
+    f.push(wagerView(wagerPhases().reveal, 7));
+    expect(f.ui.getByText(strings.match.wagerResult(25, 50, 175), { exact: false })).toBeDefined();
+    expect(f.ui.getByText(strings.match.wagerResult(50, 50, 0), { exact: false })).toBeDefined();
+    expect(f.ui.getByText('−50 Aposta')).toBeDefined();
+  });
+  it('aposta recuperada fica bloqueada, saldo limita opções e espectador não aposta', async () => {
+    const f = await harness(
+      wagerView({
+        ...wagerPhases().selection,
+        allowedAmounts: [0, 25],
+        ownWager: { status: 'submitted', amount: 25 },
+      }),
+    );
+    expect(f.ui.getByText(strings.match.wagerRecorded(25))).toBeDefined();
+    expect(f.ui.queryByRole('button', { name: strings.match.wagerButton(50) })).toBeNull();
+    expect(
+      f.ui.getByRole('button', { name: strings.match.wagerButton(25) }).hasAttribute('disabled'),
+    ).toBe(true);
+    const spectator = await harness(
+      wagerView(
+        { ...wagerPhases().selection, allowedAmounts: [0], ownWager: { status: 'unavailable' } },
+        2,
+        spectatorId,
+      ),
+    );
+    expect(spectator.ui.queryByRole('button', { name: /Apostar/ })).toBeNull();
+  });
+  it('inicia velocidade pelo lobby e explica faixas recebidas, com base, bônus e total na revelação', async () => {
+    const source = matchView();
+    if (source.state.status !== 'match') throw new Error();
+    const f = await harness({
+      ...source,
+      state: { status: 'lobby', settings: source.state.settings },
+    });
+    await userEvent.click(f.ui.getByRole('button', { name: strings.room.startSpeed }));
+    expect(f.commands[0]).toMatchObject({ event: 'match:start', payload: { mode: 'speed' } });
+    function speedView(stage: Parameters<typeof matchView>[0], version: number) {
+      const view = matchView(stage, version, hostId, stage?.phase === 'instructions' ? 0 : 1);
+      if (view.state.status !== 'match' || !('round' in view.state.match.stage)) throw new Error();
+      view.state.match.stage.round = { ...phases().open.round, mode: 'speed', index: 2 };
+      // Deliberately use values other than the defaults: UI must consume server parameters.
+      view.state.match.speedRules = {
+        correctPoints: 175,
+        responseMs: 12000,
+        bonusBands: [
+          { beforeMs: 4000, points: 60 },
+          { beforeMs: 12000, points: 0 },
+        ],
+      };
+      return view;
+    }
+    f.push(speedView(phases().instructions, 3));
+    expect(f.ui.getByText(strings.match.speedBase(175))).toBeDefined();
+    expect(f.ui.getByText(strings.match.speedBand(0, 4000, 60))).toBeDefined();
+    f.push(speedView(phases().open, 4));
+    await userEvent.click(f.ui.getByRole('button', { name: 'Alternativa Alfa' }));
+    const command = f.commands.at(-1)!;
+    expect(command).toMatchObject({ event: 'answer:submit', payload: { optionId: option1 } });
+    expect(JSON.stringify(command)).not.toMatch(/points|receivedAt|correct/);
+    const revealed = speedView(
+      {
+        ...phases().reveal,
+        effects: [
+          { kind: 'credit', playerId: hostId, amount: 175, reason: 'correct-answer' },
+          { kind: 'credit', playerId: hostId, amount: 60, reason: 'speed-bonus' },
+        ],
+      },
+      5,
+    );
+    f.push(revealed);
+    expect(
+      f.ui.getByText(strings.match.speedBreakdown(175, 60, 235), { exact: false }),
+    ).toBeDefined();
+    expect(f.ui.getByText(/Base \+0 · Bônus \+0 · Total \+0/)).toBeDefined();
+    expect(f.ui.getByText('+60 Bônus de velocidade')).toBeDefined();
+  });
   it('inicia pelo anfitrião e só muda de tela quando chega a view do servidor', async () => {
     const source = matchView();
     const lobby: RoomView = {
@@ -209,7 +407,10 @@ describe('telas do quiz clássico', () => {
   });
   it('não oferece navegação para fase/modalidade não implementada e mantém o placar', async () => {
     const f = await harness(
-      matchView({ ...phases().open, round: { ...phases().open.round, mode: 'speed', index: 2 } }),
+      matchView({
+        phase: 'ranking',
+        ranking: { status: 'pending-tiebreak', decisionId: 'D06', scores: zeroScores },
+      }),
     );
     expect(f.ui.getByText(strings.match.unsupported)).toBeDefined();
     expect(f.ui.queryByRole('button', { name: /Alternativa/ })).toBeNull();

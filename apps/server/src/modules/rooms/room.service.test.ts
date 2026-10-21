@@ -387,6 +387,56 @@ describe('limite com o ciclo de quiz', () => {
   });
 });
 
+describe('limites de reconexão da T26', () => {
+  it.each([119999, 120000, 120001])(
+    'sala vazia: retorno após %i ms respeita o TTL original',
+    async (elapsed) => {
+      const { service, time } = setup({ policy: DEFAULT_ROOM_POLICY });
+      const entry = await service.create(actor(1), profile, settings);
+      await service.join(actor(2), entry.code, profile);
+      const room = service.registry.byId(entry.roomId)!;
+      await service.disconnect(actor(1));
+      await service.disconnect(actor(2));
+      await time.advanceTo(1000 + elapsed);
+      const result = await service.sync(actor(2, 'returned'));
+      expect(result.status).toBe(elapsed < 120000 ? 'present' : 'absent');
+      expect(service.registry.byId(room.id) === room).toBe(elapsed < 120000);
+      if (elapsed >= 120000)
+        expect(room.snapshot().phase).toEqual({ status: 'closed', reason: 'expired' });
+    },
+  );
+  it.each([29999, 30000])(
+    'anfitrião retorna após %i ms sem recuperar controle já transferido',
+    async (elapsed) => {
+      const { service, time } = setup({ policy: DEFAULT_ROOM_POLICY });
+      const entry = await service.create(actor(1), profile, settings);
+      await service.join(actor(2), entry.code, profile);
+      const room = service.registry.byId(entry.roomId)!;
+      await service.disconnect(actor(1));
+      await time.advanceTo(1000 + elapsed);
+      await service.sync(actor(1, 'returned'));
+      expect(room.snapshot().hostPlayerId).toBe(actor(elapsed < 30000 ? 1 : 2).playerId);
+    },
+  );
+  it('reconfere TTL e transferência mesmo com callbacks ainda não executados', async () => {
+    const { service, runtime } = setup({ policy: DEFAULT_ROOM_POLICY });
+    const entry = await service.create(actor(1), profile, settings);
+    await service.join(actor(2), entry.code, profile);
+    const room = service.registry.byId(entry.roomId)!;
+    await service.disconnect(actor(1));
+    const clock = vi.spyOn(runtime.clock, 'now').mockReturnValue(31000);
+    await service.sync(actor(1, 'new'));
+    expect(room.snapshot().hostPlayerId).toBe(actor(2).playerId);
+    await service.disconnect(actor(1, 'new'));
+    await service.disconnect(actor(2));
+    clock.mockReturnValue(151000);
+    expect(await service.sync(actor(1, 'late'))).toEqual({ status: 'absent' });
+    expect(service.registry.byId(room.id)).toBeUndefined();
+    expect(room.snapshot().phase).toEqual({ status: 'closed', reason: 'expired' });
+    clock.mockRestore();
+  });
+});
+
 describe('timers e encerramento', () => {
   it('aguarda a fila ao encerrar e rejeita comandos ainda não executados', async () => {
     const { service, time } = setup();

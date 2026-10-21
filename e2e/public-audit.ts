@@ -21,9 +21,25 @@ export function observePublicMessages(page: Page, origin: string) {
       );
       if (view.state.status === 'match') {
         const stage = view.state.match.stage;
-        if (stage.phase !== 'reveal')
+        expect(JSON.stringify(view)).not.toContain('"pressureOrder"');
+        if (view.state.match.pressureRules && stage.phase !== 'reveal')
+          expect(view.state.match.pressureTurn?.outcome).toBeUndefined();
+        if (stage.phase === 'question-open')
+          expect(JSON.stringify(stage)).not.toMatch(/"attackerPlayerId"|"theftResult"/);
+        expect(JSON.stringify(view)).not.toMatch(/"wagers"|"pointsAtSelection"/);
+        if (stage.phase !== 'reveal') expect(JSON.stringify(view)).not.toContain('"wagerResults"');
+        if (stage.phase === 'wager-selection')
+          expect(JSON.stringify(stage)).not.toMatch(/"prompt"|"options"|"correctOptionId"/);
+        if (
+          ![
+            'reveal',
+            'final-target-selection',
+            'final-resolution',
+            'final-no-target-pending',
+          ].includes(stage.phase)
+        )
           expect(JSON.stringify(view)).not.toMatch(/"correctOptionId"|"explanation"/);
-        if (stage.phase === 'question-reading')
+        if (stage.phase === 'question-reading' || stage.phase === 'final-question-reading')
           expect(JSON.stringify(stage)).not.toContain('"options"');
       }
       views.push(view);

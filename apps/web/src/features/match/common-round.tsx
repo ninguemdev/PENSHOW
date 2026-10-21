@@ -3,14 +3,20 @@ import { Timer } from '../../ui/timer';
 import { CategoryChoice, Instructions } from './preparation';
 import { QuestionAnswer, QuestionReading, QuestionReveal } from './question';
 import type { RoundProps } from './round-props';
+import { WagerSelection } from './wager-selection';
+import { TheftTarget } from './theft-target';
 
-export function ClassicRound(props: RoundProps) {
+export function CommonRound(props: RoundProps) {
   const stage = props.match.stage;
   switch (stage.phase) {
     case 'instructions':
       return <Instructions {...props} stage={stage} />;
     case 'category-selection':
       return <CategoryChoice {...props} stage={stage} />;
+    case 'wager-selection':
+      return <WagerSelection {...props} stage={stage} />;
+    case 'theft-target-selection':
+      return <TheftTarget {...props} stage={stage} />;
     case 'question-reading':
       return <QuestionReading {...props} stage={stage} />;
     case 'question-open':

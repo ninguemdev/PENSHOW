@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { actionIdSchema } from '@penshow/shared';
+import { actionIdSchema, createDomainError } from '@penshow/shared';
 import { createRealtimeClient } from './socket';
 import { issuedSession } from '../test/fixtures';
 
@@ -45,6 +45,20 @@ beforeEach(() => {
   vi.clearAllMocks();
 });
 describe('transporte PENSHOW', () => {
+  it('credencial recusada no retorno encerra sessão; falha transitória não apaga identidade', () => {
+    const callbacks = { status: vi.fn(), event: vi.fn(), invalid: vi.fn() };
+    createRealtimeClient().connect(issuedSession.token, callbacks);
+    socket.listeners.get('connect_error')?.(new Error('network'));
+    expect(callbacks.event).not.toHaveBeenCalled();
+    socket.listeners.get('connect_error')?.(
+      Object.assign(new Error('rejected'), { data: createDomainError('UNAUTHENTICATED') }),
+    );
+    expect(callbacks.event).toHaveBeenCalledWith({
+      protocolVersion: 1,
+      event: 'session:ended',
+      payload: { reason: 'expired' },
+    });
+  });
   it('não enfileira comandos offline e oculta a credencial ao encerrar', async () => {
     const client = createRealtimeClient();
     const callbacks = { status: vi.fn(), event: vi.fn(), invalid: vi.fn() };

@@ -41,7 +41,8 @@ Em todas as linhas, `protocolVersion`, `actionId` e `event` ficam no envelope, e
 | `room:updateProfile` | `roomId`, `profile` | Membro no lobby; perfil da partida permanece congelado |
 | `room:updateSettings` | `roomId`, `settings` | Anfitrião no lobby; estoque de perguntas |
 | `room:kick` | `roomId`, `targetPlayerId` | Anfitrião, alvo da mesma sala, somente lobby |
-| `match:start` | `roomId` | Anfitrião, lobby, participantes e catálogo suficiente |
+| `match:start` | `roomId`, `mode?` (`classic`, `speed`, `wager`, `theft` ou `pressure`) | Anfitrião, lobby, participantes e catálogo suficiente; ausência mantém clássico |
+| `final:start` | `roomId`, `matchId` | Anfitrião, protótipo concluído, classificação pronta e estoque suficiente; não recebe vidas/políticas |
 | `round:ready` | `roomId`, `matchId`, `roundId` | Participante nas instruções daquela fase |
 | `category:choose` | `roomId`, `matchId`, `roundId`, `category` | Responsável pela vez, tema oferecido, prazo |
 | `answer:submit` | `roomId`, `matchId`, `roundId`, `questionId`, `optionId` | Participante apto, pergunta e alternativa atuais, prazo e oportunidade |
@@ -52,9 +53,21 @@ Em todas as linhas, `protocolVersion`, `actionId` e `event` ficam no envelope, e
 
 `round:ready` explicita a ação de pronto prevista nas instruções do plano. Ações de partida levam contexto até o nível necessário: a aposta já informa `questionId` sem liberar seu enunciado; a revanche informa `matchId`, sem uma fase/pergunta corrente.
 
+A [T18](velocidade.md) habilita também o protótipo isolado de velocidade em desenvolvimento/teste, reutilizando os comandos do clássico. Sua projeção inclui `MatchView.speedRules` com base, prazo e faixas de bônus congelados no servidor; esses valores não são enviados pelo cliente. Os schemas de regra são estritos, validam a ordem/cobertura das faixas e exigem esse campo nas etapas de velocidade. A versão 1 continua em desenvolvimento, com os consumidores do monorepo atualizados juntos.
+
+A [T19](aposta.md) habilita `mode: "wager"` e o handler `wager:submit` em desenvolvimento/teste. `MatchView.wagerRules` informa base e prazo da seleção. O subestado de aposta publica tema/dificuldade, `allowedAmounts` cobertos pelo saldo do destinatário e `ownWager`, sem enunciado. Leitura/resposta conservam somente `ownWager`. A revelação publica `wagerResults` com valor e saldos anterior/atual, validados contra os participantes e placar. Lista privada de apostas e `pointsAtSelection` nunca saem do servidor. Repetição da mesma escolha aceita é no-op; alteração é `ACTION_CONFLICT`; escolha acima do saldo é `INSUFFICIENT_BALANCE`.
+
+A [T20](roubo.md) conecta `mode: "theft"` e `target:choose` ao protótipo do primeiro acerto, mantendo D05 em consulta. Na modalidade de roubo, o handler aceita alvo em `theft-target-selection`, pelo autor autorizado, entre adversários com saldo depois dos créditos. `MatchView.theftRules` informa política e parâmetros experimentais. O autor do roubo nunca aparece em `question-open`. `reveal.theftResult` publica autor/alvo/valor e decomposição dos saldos, validada contra o placar e a transferência. Reenvio depois de liquidar não transfere novamente. A T23 acrescenta o contexto separado de ataque a vidas.
+
+A [T21](dinamite.md) conecta `mode: "pressure"` ao protótipo de dinamite, mantendo D04 em consulta. `pressureRules` publica valores experimentais e dificuldades por ciclo. `pressureTurn` informa dono, ciclo, progresso e próximo jogador somente em leitura/resposta/revelação; `outcome` aparece apenas na revelação. O schema exige correspondência com o respondente exclusivo, a janela de resposta, a dificuldade e os efeitos do dono. `answer:submit` continua com o mesmo payload, autorizado somente ao dono. A ordem completa sorteada permanece privada; a reconexão recupera o turno e prazo originais.
+
+A [T22](classificacao-e-vidas.md) acrescenta `MatchView.finalEntry` ao encerramento dos protótipos, sem novo comando. O escopo `isolated-prototype` distingue o resumo de uma entrada real na final. `ready` publica classificação e atribuições de vidas/perdas suportadas; `pending-tiebreak` publica placar, grupos e necessidade de decisão D06, sem vidas atribuídas. Os schemas validam evidências, distribuição confirmada, identidade, placar e fase. Reconexão e entrada de espectador recuperam o mesmo resumo. O transporte não oferece comando para escolher política ou informar ordem de desempate.
+
+A [T23](final-no-servidor.md) conecta `final:start`, `round:ready`, `answer:submit` e `target:choose` à final de teste. O início cria um novo `roundId`, conserva `finalEntry` e suas vidas iniciais e publica `finalRules` com D02/D03 pendentes. Uma resposta válida confirma `first-valid` e fecha as tentativas; erro causa uma perda no autor e acerto concede somente a ele a escolha de alvo ativo. As projeções publicam vidas atuais, eliminação e uma resolução por pergunta. Na final, `progress.questionCount` é `null`, sem limite fixo de perguntas. `final-no-answer-pending` e `final-no-target-pending` suspendem sem fallback/dano; o anfitrião pode encerrar esse teste voltando ao lobby. O escopo continua de protótipo isolado, sem a sequência completa ou as telas da T24.
+
 Os schemas verificam a estrutura e a pertinência das peças de avatar à própria categoria no catálogo público. Autorização, pertinência de IDs ao estado atual e concorrência pertencem aos serviços. Prazo de jogo, catálogo de perguntas e saldo ainda exigem o motor. Um UUID válido de outra sala não concede acesso. O schema de aposta admite inteiros não negativos; o serviço deve validar a lista de valores permitidos pela configuração congelada. Os valores experimentais 0/25/50 não viraram um limite permanente do protocolo.
 
-Nos seis comandos `room:*`, associação, capacidade, papel e permissões do lobby são verificadas pelo serviço. A sessão e a conexão atual são conferidas novamente dentro da fila, imediatamente antes da mutação; uma ação que aguardou enquanto a sessão expirou ou outra aba assumiu é rejeitada. O quiz clássico revalida conexão/papel/contexto/prazo na mesma fila e verifica conteúdo antes do início. `match:returnToLobby` público exige conclusão ou interrupção. `wager:submit` e `target:choose` continuam sem handler; em produção todos os comandos de partida permanecem indisponíveis. Limites de frequência continuam nas tarefas de robustez.
+Nos seis comandos `room:*`, associação, capacidade, papel e permissões do lobby são verificadas pelo serviço. A sessão e a conexão atual são conferidas novamente dentro da fila, imediatamente antes da mutação; uma ação que aguardou enquanto a sessão expirou ou outra aba assumiu é rejeitada. As modalidades instaladas revalidam conexão/papel/contexto/prazo na mesma fila e verificam conteúdo antes do início. `match:returnToLobby` público exige conclusão, interrupção ou suspensão explícita do protótipo final por D02/D03. `target:choose` opera roubo de pontos ou ataque a vidas conforme o contexto; em produção todos os comandos de partida permanecem indisponíveis. Limites de frequência continuam nas tarefas de robustez.
 
 ## Confirmações e erros
 
@@ -151,16 +164,30 @@ Não se exige uma `stateVersion` enviada pelo cliente para responder: outras res
 
 ## Aplicação única e primeira resposta da final
 
-Identificação, autorização e serialização se aplicam às salas e ao quiz clássico. A T15 impede resposta/placar duplicados por participante/pergunta, mesmo com outro `actionId`, mas não guarda um cache de ack por ação. Registro/deduplicação de `actionId` e limites de frequência continuam nas tarefas de robustez; o cliente atual não repete mutações automaticamente. As garantias da final abaixo ainda exigem seu domínio próprio:
+Identificação, autorização e serialização se aplicam às salas e aos protótipos. A T15 impede resposta/placar duplicados por participante/pergunta, mesmo com outro `actionId`, e a T23 protege a tentativa e o dano únicos da final, sem cache de ack por ação. Registro/deduplicação de `actionId` e limites de frequência continuam nas tarefas de robustez; o cliente atual não repete mutações automaticamente. O domínio da T23 aplica as garantias da final abaixo:
 
 1. Identificar e autorizar o ator antes de acessar o resultado de outra ação. Serializar comandos, presença e timers na mesma fila da sala.
-2. Usar `actionId` por intenção lógica. Reenvio com o mesmo ator/ID/payload devolve o resultado já registrado; o mesmo ID com outros dados produz `ACTION_CONFLICT`.
+2. Usar `actionId` por intenção lógica. O cache que devolverá o ack registrado para mesmo ator/ID/payload e recusará dados conflitantes continua nas tarefas de robustez. Hoje a fase e o contexto impedem repetir o efeito, sem garantir replay do mesmo ack.
 3. Também deduplicar semanticamente por ator/pergunta/tipo de ação. Trocar `actionId` não concede outra resposta, aposta ou ataque.
 4. Na final, validar ator ativo, contexto, alternativa e prazo antes de ocupar a oportunidade global da pergunta. Registrar a primeira resposta válida e fechar a pergunta dentro da fila, antes de avaliar o gabarito.
 5. Uma primeira resposta errada custa uma vida ao autor. As demais são rejeitadas com `QUESTION_CLOSED`, sem avaliação ou dano. Uma correta permite apenas ao autor escolher qualquer adversário ainda ativo; a escolha retira uma vida, uma única vez.
 6. Respostas inválidas, espectadores, eliminados e tentativas fora do prazo não ocupam a oportunidade. Ausência de conexão não torna um adversário com vida imune a ataque.
 
 O schema representa uma única resposta aceita e dano literal 1; provar ordem de chegada, aplicação única e transições exige o motor e os testes de T14/T23/T26/T28. `time:sync` é uma consulta e não aplica efeito de jogo.
+
+## Reconciliação e espera — T26
+
+`room:sync` recebe payload vazio e consulta somente a associação da identidade autenticada atual. O resultado é `{ status: "present", roomId, stateVersion }` ou `{ status: "absent" }`. A presença é reconferida na fila, e uma associação existente publica uma fotografia atual com versão nova. Ator, sala e credenciais não são aceitos no payload da consulta. O ack não substitui o estado público recebido por `room:view`.
+
+`MatchView.waitingForPlayers?: true` identifica espera depois de terminar uma janela sem conexões na sala. Conserva o estágio anterior e seu prazo vencido, bloqueia ações e não publica outra pergunta. No retorno, um timer executa somente o próximo passo pendente; respostas, apostas, placar e vidas já consumidos não voltam. O TTL absoluto não é renovado pela resolução ou por callbacks. D02/D03 conservam seus estados de regra pendente.
+
+O cliente consulta a associação em cada conexão e aguarda fotografia nova. Resultado de ausência limpa o cache sem apagar perfil ou sessão válida, desde que não pertença a outra conexão nem tenha chegado outra sala entretanto. A maior versão por sala/identidade permanece conhecida depois da navegação. `connect_error` com erro de autenticação validado encerra a sessão; falha de transporte comum mantém identidade e ações bloqueadas. Consulte [cenários de reconexão](cenarios-de-reconexao.md).
+
+## Resultados e revanche — T25
+
+`MatchView.roundSummaries` é opcional e publicado somente em `prototype-complete`, `podium` ou `interrupted`. Cada item contém `round`, `status`, `questionsPlayed` e `players`; cada jogador traz `playerId`, `pointsBefore`, `pointsAfter`, `pointsDelta` e `correctAnswers` da fase. Os schemas verificam participantes únicos, delta coerente, acertos compatíveis com a quantidade de perguntas, continuidade de saldo e totais iguais ao placar encerrado. O campo omite perguntas, recibos, escolhas e checkpoint editorial. Os produtores e consumidores em desenvolvimento foram atualizados juntos; clientes estritos devem usar os contratos atuais.
+
+`podium.standings` continua vindo exclusivamente do sobrevivente e da ordem inversa das eliminações. O histórico de pontos não reordena esse resultado. `match:returnToLobby` prepara a revanche pelo serviço e não inicia outra partida automaticamente. Preserva sala/perfis e fila privada de escolha de tema, libera quem saiu explicitamente e promove espectadores até a capacidade. A próxima partida ganha novos IDs; `stateVersion` da sala permanece crescente. Não há comando novo nem acesso do cliente à fila privada. Consulte [pódio e revanche](podio-e-revanche.md).
 
 ## Consultas e evolução
 

@@ -10,6 +10,14 @@ function fixture() {
   const roomCommands: ClientCommand[] = [];
   vi.mocked(f.realtime.command).mockImplementation(async (command) => {
     if (command.event === 'time:sync') throw new Error('No clock sample');
+    if (command.event === 'room:sync')
+      return {
+        protocolVersion: 1,
+        actionId: command.actionId,
+        status: 'ok',
+        event: 'room:sync',
+        result: { status: 'absent' },
+      };
     roomCommands.push(command);
     if (command.event === 'room:create' || command.event === 'room:join') {
       f.callbacks()?.event({ protocolVersion: 1, event: 'room:view', payload: roomView });

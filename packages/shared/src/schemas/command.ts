@@ -22,6 +22,7 @@ const roundContext = { ...matchContext, roundId: roundIdSchema };
 const questionContext = { ...roundContext, questionId: questionIdSchema };
 
 export const clientCommandSchema = z.discriminatedUnion('event', [
+  z.strictObject({ ...envelope, event: z.literal('room:sync'), payload: z.strictObject({}) }),
   z.strictObject({
     ...envelope,
     event: z.literal('room:create'),
@@ -55,12 +56,20 @@ export const clientCommandSchema = z.discriminatedUnion('event', [
   z.strictObject({
     ...envelope,
     event: z.literal('match:start'),
-    payload: z.strictObject(roomContext),
+    payload: z.strictObject({
+      ...roomContext,
+      mode: z.enum(['classic', 'speed', 'wager', 'theft', 'pressure']).optional(),
+    }),
   }),
   z.strictObject({
     ...envelope,
     event: z.literal('round:ready'),
     payload: z.strictObject(roundContext),
+  }),
+  z.strictObject({
+    ...envelope,
+    event: z.literal('final:start'),
+    payload: z.strictObject(matchContext),
   }),
   z.strictObject({
     ...envelope,

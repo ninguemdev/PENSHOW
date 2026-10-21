@@ -87,6 +87,10 @@ export {
   scoreEntrySchema,
 } from './schemas/score.js';
 export type { Finalist, Ranking, ScoreEffect, ScoreEntry, Scoreboard } from './schemas/score.js';
+export { finalEntrySchema, qualificationPolicySchema } from './schemas/final-entry.js';
+export type { FinalEntry, QualificationPolicy } from './schemas/final-entry.js';
+export { roundSummarySchema } from './schemas/results.js';
+export type { RoundSummary } from './schemas/results.js';
 export {
   createDomainError,
   DOMAIN_ERROR_MESSAGES,

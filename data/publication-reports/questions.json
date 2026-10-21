@@ -1,41 +1,41 @@
 {
-  "approvedCount": 72,
+  "approvedCount": 300,
   "availability": {
     "arts-literature": {
-      "easy": 6,
-      "hard": 2,
-      "medium": 4,
-      "total": 12
+      "easy": 15,
+      "hard": 15,
+      "medium": 20,
+      "total": 50
     },
     "geography": {
-      "easy": 6,
-      "hard": 2,
-      "medium": 4,
-      "total": 12
+      "easy": 15,
+      "hard": 15,
+      "medium": 20,
+      "total": 50
     },
     "history": {
-      "easy": 6,
-      "hard": 2,
-      "medium": 4,
-      "total": 12
+      "easy": 15,
+      "hard": 15,
+      "medium": 20,
+      "total": 50
     },
     "pop-culture": {
-      "easy": 6,
-      "hard": 2,
-      "medium": 4,
-      "total": 12
+      "easy": 15,
+      "hard": 15,
+      "medium": 20,
+      "total": 50
     },
     "science-nature": {
-      "easy": 6,
-      "hard": 2,
-      "medium": 4,
-      "total": 12
+      "easy": 15,
+      "hard": 15,
+      "medium": 20,
+      "total": 50
     },
     "sports": {
-      "easy": 6,
-      "hard": 2,
-      "medium": 4,
-      "total": 12
+      "easy": 15,
+      "hard": 15,
+      "medium": 20,
+      "total": 50
     }
   },
   "candidates": {
@@ -50,6 +50,6 @@
   "excluded": [],
   "invalid": [],
   "publishable": true,
-  "reviewedCount": 72,
+  "reviewedCount": 300,
   "schemaVersion": 1
 }

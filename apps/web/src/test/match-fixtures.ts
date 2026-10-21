@@ -44,6 +44,92 @@ export const zeroScores: Scoreboard = [hostId, guestId].map((playerId) => ({
   points: 0,
   correctAnswers: 0,
 }));
+export function pressureView(
+  kind: 'instructions' | 'reading' | 'open' | 'reveal',
+  version = 2,
+  viewerId = hostId,
+) {
+  const pressureRound = {
+    ...round,
+    mode: 'pressure' as const,
+    index: 5 as const,
+    variant: {
+      status: 'prototype' as const,
+      decisionId: 'D04' as const,
+      mode: 'dynamite' as const,
+    },
+  };
+  const common = phases();
+  const q = { ...question(), difficulty: 'medium' as const };
+  const { options: _options, ...stem } = q;
+  void _options;
+  const stage: MatchStage =
+    kind === 'instructions'
+      ? { ...common.instructions, round: pressureRound }
+      : kind === 'reading'
+        ? { ...common.reading, round: pressureRound, question: stem }
+        : kind === 'open'
+          ? {
+              ...common.open,
+              round: pressureRound,
+              question: q,
+              deadlineAt: 11_000,
+              respondents: { kind: 'single-player', playerId: hostId },
+              ownAnswer: { status: viewerId === hostId ? 'pending' : 'unavailable' },
+            }
+          : {
+              ...common.reveal,
+              round: pressureRound,
+              reveal: { ...common.reveal.reveal, question: q },
+              effects: [{ kind: 'debit', playerId: hostId, amount: 150, reason: 'pressure' }],
+            };
+  const base = matchView();
+  if (base.state.status !== 'match') throw new Error();
+  return roomViewSchema.parse({
+    ...base,
+    stateVersion: version,
+    viewerId,
+    state: {
+      ...base.state,
+      match: {
+        ...base.state.match,
+        stage,
+        progress: {
+          roundNumber: 1,
+          roundCount: 1,
+          questionNumber: kind === 'instructions' ? 0 : 1,
+          questionCount: 4,
+        },
+        scoreboard: [
+          { playerId: hostId, points: kind === 'reveal' ? 150 : 300, correctAnswers: 1 },
+          zeroScores[1],
+        ],
+        pressureRules: {
+          correctPoints: 300,
+          wrongPenalty: 150,
+          responseMs: 10000,
+          turnDifficulties: ['medium', 'hard'],
+          status: 'prototype',
+          mode: 'dynamite',
+        },
+        ...(kind === 'instructions'
+          ? {}
+          : {
+              pressureTurn: {
+                playerId: hostId,
+                cycle: 1,
+                cycleCount: 2,
+                turnNumber: 1,
+                turnCount: 4,
+                nextPlayerId: guestId,
+                difficulty: 'medium',
+                ...(kind === 'reveal' ? { outcome: 'exploded' } : {}),
+              },
+            }),
+      },
+    },
+  });
+}
 export function phases(index = 1) {
   const q = question(index),
     { options: _options, ...stem } = q;
@@ -121,10 +207,148 @@ export function matchView(
       match: {
         matchId,
         rulesVersion: 'prototype-v1',
+        ...('round' in stage && stage.round.mode === 'theft'
+          ? {
+              theftRules: {
+                correctPoints: 100,
+                maximumTransfer: 50,
+                targetSelectionMs: 6000,
+                policy: 'first-correct-only',
+                status: 'prototype',
+              },
+            }
+          : {}),
+        ...('round' in stage && stage.round.mode === 'wager'
+          ? { wagerRules: { correctPoints: 100, selectionMs: 6000 } }
+          : {}),
         progress: { roundNumber: 1, roundCount: 1, questionNumber: number, questionCount: 6 },
         scoreboard: scores,
         stage,
       },
     },
   });
+}
+
+export function wagerPhases() {
+  const wagerRound = { ...round, mode: 'wager' as const, index: 3 as const };
+  const common = phases();
+  return {
+    instructions: { ...common.instructions, round: wagerRound },
+    selection: {
+      phase: 'wager-selection',
+      round: wagerRound,
+      questionId: question().questionId,
+      category: 'history',
+      difficulty: 'easy',
+      deadlineAt: 7000,
+      allowedAmounts: [0, 25, 50],
+      ownWager: { status: 'pending' },
+    },
+    reading: {
+      ...common.reading,
+      round: wagerRound,
+      ownWager: { status: 'submitted', amount: 25 },
+    },
+    open: { ...common.open, round: wagerRound, ownWager: { status: 'submitted', amount: 25 } },
+    reveal: {
+      ...common.reveal,
+      round: wagerRound,
+      effects: [
+        { kind: 'credit', playerId: hostId, amount: 100, reason: 'correct-answer' },
+        { kind: 'credit', playerId: hostId, amount: 25, reason: 'wager' },
+        { kind: 'debit', playerId: guestId, amount: 50, reason: 'wager' },
+      ],
+      wagerResults: [
+        { playerId: hostId, amount: 25, balanceBefore: 50, balanceAfter: 175 },
+        { playerId: guestId, amount: 50, balanceBefore: 50, balanceAfter: 0 },
+      ],
+    },
+  } satisfies Record<string, MatchStage>;
+}
+
+export function theftView(
+  phase: 'target' | 'reveal' | 'instructions' = 'target',
+  version = 2,
+  viewer = hostId,
+): RoomView {
+  const theftRound = { ...round, mode: 'theft' as const, index: 4 as const };
+  const stage: MatchStage =
+    phase === 'instructions'
+      ? { ...phases().instructions, round: theftRound }
+      : phase === 'target'
+        ? {
+            phase: 'theft-target-selection',
+            round: theftRound,
+            questionId: question().questionId,
+            attackerPlayerId: hostId,
+            eligibleTargetIds: [guestId],
+            deadlineAt: 7000,
+          }
+        : {
+            ...phases().reveal,
+            round: theftRound,
+            effects: [
+              { kind: 'credit', playerId: hostId, amount: 100, reason: 'correct-answer' },
+              { kind: 'credit', playerId: guestId, amount: 100, reason: 'correct-answer' },
+              { kind: 'debit', playerId: guestId, amount: 50, reason: 'theft' },
+              { kind: 'credit', playerId: hostId, amount: 50, reason: 'theft' },
+            ],
+            theftResult: {
+              attackerPlayerId: hostId,
+              targetPlayerId: guestId,
+              amount: 50,
+              balances: [
+                {
+                  playerId: hostId,
+                  balanceBefore: 0,
+                  correctPoints: 100,
+                  transfer: 50,
+                  balanceAfter: 150,
+                },
+                {
+                  playerId: guestId,
+                  balanceBefore: 0,
+                  correctPoints: 100,
+                  transfer: -50,
+                  balanceAfter: 50,
+                },
+              ],
+            },
+          };
+  return matchView(
+    stage,
+    version,
+    viewer,
+    phase === 'instructions' ? 0 : 1,
+    zeroScores.map((score) => ({
+      ...score,
+      points:
+        phase === 'instructions'
+          ? 0
+          : phase === 'target'
+            ? 100
+            : score.playerId === hostId
+              ? 150
+              : 50,
+      correctAnswers: phase === 'instructions' ? 0 : 1,
+    })),
+  );
+}
+export function wagerView(
+  stage: MatchStage = wagerPhases().selection,
+  version = 2,
+  viewer = hostId,
+) {
+  return matchView(
+    stage,
+    version,
+    viewer,
+    stage.phase === 'instructions' ? 0 : 1,
+    stage.phase === 'reveal'
+      ? [
+          { playerId: hostId, points: 175, correctAnswers: 1 },
+          { playerId: guestId, points: 0, correctAnswers: 0 },
+        ]
+      : zeroScores.map((score) => ({ ...score, points: 50 })),
+  );
 }

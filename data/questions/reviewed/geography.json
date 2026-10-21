@@ -514,5 +514,1639 @@
         "uniqueAnswer": true
       }
     }
+  },
+  {
+    "id": "questionados:geography:1c737964bc0dc2dd",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual montanha tem o cume de maior altitude acima do nível do mar?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Monte Everest"
+      },
+      {
+        "id": "option-1",
+        "text": "K2"
+      },
+      {
+        "id": "option-2",
+        "text": "Kilimanjaro"
+      },
+      {
+        "id": "option-3",
+        "text": "Aconcágua"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/mt-everest/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:f1a2921955262971",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior país da América do Sul em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Peru"
+      },
+      {
+        "id": "option-3",
+        "text": "Colômbia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2/bn_2024_v32.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:c907c93ff088d6c3",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Rússia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moscou"
+      },
+      {
+        "id": "option-1",
+        "text": "São Petersburgo"
+      },
+      {
+        "id": "option-2",
+        "text": "Kazan"
+      },
+      {
+        "id": "option-3",
+        "text": "Novosibirsk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/photojournal/moscow-russia/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:dba3a3b30e2388f9",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Argentina?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Buenos Aires"
+      },
+      {
+        "id": "option-1",
+        "text": "Córdoba"
+      },
+      {
+        "id": "option-2",
+        "text": "Rosário"
+      },
+      {
+        "id": "option-3",
+        "text": "Mendoza"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.argentina.gob.ar/caba",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:2fd5ccda477a966c",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual continente fica o Deserto do Atacama?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-1",
+        "text": "África"
+      },
+      {
+        "id": "option-2",
+        "text": "Ásia"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/looking-down-on-the-andes-151670/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:bf8cce87739665c0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a moeda do Japão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Iene"
+      },
+      {
+        "id": "option-1",
+        "text": "Won"
+      },
+      {
+        "id": "option-2",
+        "text": "Yuan"
+      },
+      {
+        "id": "option-3",
+        "text": "Rupia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.boj.or.jp/about/education/oshiete/money/c25.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:69042a85cdf144f5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual oceano fica o arquipélago do Havaí?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://oceanservice.noaa.gov/facts/hawaii.html/1000",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:6206ddc2d8d742ec",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "A Grande Barreira de Coral fica junto à costa de qual país?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-1",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-2",
+        "text": "Tailândia"
+      },
+      {
+        "id": "option-3",
+        "text": "Filipinas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/154/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:ee3f966dbe929ea2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Chile?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santiago"
+      },
+      {
+        "id": "option-1",
+        "text": "Valparaíso"
+      },
+      {
+        "id": "option-2",
+        "text": "Concepción"
+      },
+      {
+        "id": "option-3",
+        "text": "Antofagasta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 55,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.chile.gob.cl/en/chile/sobre-chile/informacion-turistica/turismo/turismo",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:b2d1261ba3bf19c5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país é conhecido como Terra do Sol Nascente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Japão"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Coreia do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Vietnã"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.japan.travel/en/responsible-travel-guide/features/overview-japanese-history/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:620453e422e6dbcf",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país o canguru-vermelho é nativo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austrália"
+      },
+      {
+        "id": "option-1",
+        "text": "Nova Zelândia"
+      },
+      {
+        "id": "option-2",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-3",
+        "text": "África do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://australian.museum/learn/animals/mammals/red-kangaroo/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:32e38630074e7536",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o segundo maior país do mundo em área total?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-1",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-2",
+        "text": "China"
+      },
+      {
+        "id": "option-3",
+        "text": "Brasil"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:24da1484c1b2f30a",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Às margens de qual rio fica a cidade do Cairo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nilo"
+      },
+      {
+        "id": "option-1",
+        "text": "Eufrates"
+      },
+      {
+        "id": "option-2",
+        "text": "Tigre"
+      },
+      {
+        "id": "option-3",
+        "text": "Jordão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/cairo-egypt-2813/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:2bb24e00bf827118",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual cadeia de montanhas fica o Monte Everest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Himalaia"
+      },
+      {
+        "id": "option-1",
+        "text": "Andes"
+      },
+      {
+        "id": "option-2",
+        "text": "Alpes"
+      },
+      {
+        "id": "option-3",
+        "text": "Cárpatos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/mt-everest/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:41bb7ee3d0d7692b",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país fica a cidade de Marrakech?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marrocos"
+      },
+      {
+        "id": "option-1",
+        "text": "Argélia"
+      },
+      {
+        "id": "option-2",
+        "text": "Tunísia"
+      },
+      {
+        "id": "option-3",
+        "text": "Líbia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/331/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:89b654bb4a5fbedb",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital do Canadá?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ottawa"
+      },
+      {
+        "id": "option-1",
+        "text": "Toronto"
+      },
+      {
+        "id": "option-2",
+        "text": "Vancouver"
+      },
+      {
+        "id": "option-3",
+        "text": "Montreal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:108507dc879c4774",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual continente fica o Cabo da Boa Esperança?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "África"
+      },
+      {
+        "id": "option-1",
+        "text": "Europa"
+      },
+      {
+        "id": "option-2",
+        "text": "América do Sul"
+      },
+      {
+        "id": "option-3",
+        "text": "Oceania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 37,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/cape-of-good-hope-cape-point",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:8c758c658e63e1e6",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o maior país africano em área territorial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Argélia"
+      },
+      {
+        "id": "option-1",
+        "text": "República Democrática do Congo"
+      },
+      {
+        "id": "option-2",
+        "text": "Sudão"
+      },
+      {
+        "id": "option-3",
+        "text": "Líbia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.worldbank.org/ext/en/country/algeria",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:2cdcccb856e1a4a2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país fica o Parque Nacional de Yellowstone?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estados Unidos"
+      },
+      {
+        "id": "option-1",
+        "text": "Canadá"
+      },
+      {
+        "id": "option-2",
+        "text": "México"
+      },
+      {
+        "id": "option-3",
+        "text": "Islândia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nps.gov/yell/planyourvisit/basicinfo.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:30d54b5d0a46158a",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Coreia do Sul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seul"
+      },
+      {
+        "id": "option-1",
+        "text": "Busan"
+      },
+      {
+        "id": "option-2",
+        "text": "Incheon"
+      },
+      {
+        "id": "option-3",
+        "text": "Daejeon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.korea.net/Government/Briefing-Room/Press-Releases/view?articleId=1265&type=O",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:f122dc5e3bd51135",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Nova Zelândia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wellington"
+      },
+      {
+        "id": "option-1",
+        "text": "Auckland"
+      },
+      {
+        "id": "option-2",
+        "text": "Christchurch"
+      },
+      {
+        "id": "option-3",
+        "text": "Hamilton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://nzhistory.govt.nz/page/capital-150-0",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:7c2d717fdab7f319",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O rio Tâmisa atravessa qual país constituinte do Reino Unido?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Inglaterra"
+      },
+      {
+        "id": "option-1",
+        "text": "Escócia"
+      },
+      {
+        "id": "option-2",
+        "text": "País de Gales"
+      },
+      {
+        "id": "option-3",
+        "text": "Irlanda do Norte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.gov.uk/government/publications/river-thames-scheme",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:adea7bfe9eb04fb0",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Suécia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estocolmo"
+      },
+      {
+        "id": "option-1",
+        "text": "Gotemburgo"
+      },
+      {
+        "id": "option-2",
+        "text": "Malmö"
+      },
+      {
+        "id": "option-3",
+        "text": "Uppsala"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://visitsweden.com/where-to-go/middle-sweden/stockholm/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:6d19a34f3a32e359",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Excluindo os continentes, qual é a maior ilha do mundo em área?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Groenlândia"
+      },
+      {
+        "id": "option-1",
+        "text": "Nova Guiné"
+      },
+      {
+        "id": "option-2",
+        "text": "Bornéu"
+      },
+      {
+        "id": "option-3",
+        "text": "Madagascar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/mission/omg/about/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:1c9be665d29ab299",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quais dois estados brasileiros abrigam o bioma Pantanal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mato Grosso e Mato Grosso do Sul"
+      },
+      {
+        "id": "option-1",
+        "text": "Goiás e Tocantins"
+      },
+      {
+        "id": "option-2",
+        "text": "Amazonas e Pará"
+      },
+      {
+        "id": "option-3",
+        "text": "Paraná e Santa Catarina"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 65,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.ibge.gov.br/apps/biomas/pdf/Lim06_PantCerr.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:bc94be4afffdf925",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual estreito liga o Mar Negro ao Mar de Mármara?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bósforo"
+      },
+      {
+        "id": "option-1",
+        "text": "Dardanelos"
+      },
+      {
+        "id": "option-2",
+        "text": "Gibraltar"
+      },
+      {
+        "id": "option-3",
+        "text": "Ormuz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_East_meets_West",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:e9933804dea0072e",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O Mar de Coral integra qual oceano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Índico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://origin-east-www-ospo.woc.noaa.gov/products/imagery/sohemi.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:8048c9265e4be557",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual fossa oceânica fica o Challenger Deep, ponto mais profundo conhecido dos oceanos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fossa das Marianas"
+      },
+      {
+        "id": "option-1",
+        "text": "Fossa de Tonga"
+      },
+      {
+        "id": "option-2",
+        "text": "Fossa de Porto Rico"
+      },
+      {
+        "id": "option-3",
+        "text": "Fossa de Java"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 50,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://oceanservice.noaa.gov/facts/oceandepth.html?platform=hootsuite",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:e160d3106b8bf6c4",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O Deserto de Gobi se estende principalmente por quais dois países?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mongólia e China"
+      },
+      {
+        "id": "option-1",
+        "text": "China e Índia"
+      },
+      {
+        "id": "option-2",
+        "text": "Mongólia e Rússia"
+      },
+      {
+        "id": "option-3",
+        "text": "Cazaquistão e Uzbequistão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://science.nasa.gov/earth/earth-observatory/gobi-dust-storm-46908/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:b1d158741426a525",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual cadeia montanhosa fica o Monte McKinley, também conhecido como Denali?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cordilheira do Alasca"
+      },
+      {
+        "id": "option-1",
+        "text": "Montanhas Rochosas"
+      },
+      {
+        "id": "option-2",
+        "text": "Cordilheira dos Andes"
+      },
+      {
+        "id": "option-3",
+        "text": "Montes Apalaches"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nps.gov/dena/learn/nature/denali.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:fd478d3caf987b51",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Mongólia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ulaanbaatar (Ulan Bator)"
+      },
+      {
+        "id": "option-1",
+        "text": "Astana"
+      },
+      {
+        "id": "option-2",
+        "text": "Tashkent"
+      },
+      {
+        "id": "option-3",
+        "text": "Bishkek"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:72b906c1487173e2",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na divisão em cinco oceanos, o Mar de Weddell integra qual oceano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antártico (Austral)"
+      },
+      {
+        "id": "option-1",
+        "text": "Índico"
+      },
+      {
+        "id": "option-2",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bas.ac.uk/project/so-wise/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:72ef53937d0e076f",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país fica o Monte Kilimanjaro?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tanzânia"
+      },
+      {
+        "id": "option-1",
+        "text": "Quênia"
+      },
+      {
+        "id": "option-2",
+        "text": "Uganda"
+      },
+      {
+        "id": "option-3",
+        "text": "Ruanda"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 67,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/statesparties/tz/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:35ffd42e5b2a1a00",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual oceano fica o arquipélago de Seychelles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Índico"
+      },
+      {
+        "id": "option-1",
+        "text": "Atlântico"
+      },
+      {
+        "id": "option-2",
+        "text": "Pacífico"
+      },
+      {
+        "id": "option-3",
+        "text": "Ártico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 69,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/261/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:62473f84ba774da5",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Os manguezais de Sundarbans ficam no delta de quais rios principais?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ganges, Brahmaputra e Meghna"
+      },
+      {
+        "id": "option-1",
+        "text": "Nilo e Atbara"
+      },
+      {
+        "id": "option-2",
+        "text": "Paraná e Uruguai"
+      },
+      {
+        "id": "option-3",
+        "text": "Tigre e Eufrates"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 70,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/798/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:397d9887b868293c",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é a capital da Turquia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ancara"
+      },
+      {
+        "id": "option-1",
+        "text": "Istambul"
+      },
+      {
+        "id": "option-2",
+        "text": "Izmir"
+      },
+      {
+        "id": "option-3",
+        "text": "Antália"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 72,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://goturkiye.com/ankara",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:45932daf66e85ecc",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano o Canal de Suez foi aberto à navegação pela primeira vez?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1869"
+      },
+      {
+        "id": "option-1",
+        "text": "1859"
+      },
+      {
+        "id": "option-2",
+        "text": "1914"
+      },
+      {
+        "id": "option-3",
+        "text": "1956"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 79,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/CanalCharacteristics.aspx",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:geography:de7313499e0ac401",
+    "category": "geography",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual estado brasileiro fica o Parque Nacional da Chapada dos Veadeiros?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Goiás"
+      },
+      {
+        "id": "option-1",
+        "text": "Tocantins"
+      },
+      {
+        "id": "option-2",
+        "text": "Mato Grosso"
+      },
+      {
+        "id": "option-3",
+        "text": "Minas Gerais"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+      "recordIndex": 93,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.icmbio.gov.br/parnachapadadosveadeiros/images/stories/Guia_Pouso_Alto_AECV_PNCV.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
   }
 ]

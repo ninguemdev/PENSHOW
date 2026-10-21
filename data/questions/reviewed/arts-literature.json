@@ -514,5 +514,1639 @@
         "uniqueAnswer": true
       }
     }
+  },
+  {
+    "id": "questionados:arts-literature:ac3a4e3f4c847712",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “A Última Ceia”, no convento de Santa Maria delle Grazie, em Milão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Rafael"
+      },
+      {
+        "id": "option-2",
+        "text": "Caravaggio"
+      },
+      {
+        "id": "option-3",
+        "text": "Ticiano"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://cenacolovinciano.org/museo/le-opere/ultima-cena-leonardo-da-vinci-1452-1519/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:6abf38d5de50a2e3",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual monumento de Nova York representa uma mulher com uma tocha erguida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Estátua da Liberdade"
+      },
+      {
+        "id": "option-1",
+        "text": "Obelisco de Washington"
+      },
+      {
+        "id": "option-2",
+        "text": "Cristo Redentor"
+      },
+      {
+        "id": "option-3",
+        "text": "Coluna de Nelson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:13c153e2c4c5c285",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "As pinturas paleolíticas da caverna de Chauvet pertencem a qual período amplo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pré-História"
+      },
+      {
+        "id": "option-1",
+        "text": "Idade Média"
+      },
+      {
+        "id": "option-2",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-3",
+        "text": "Barroco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://archeologie.culture.gouv.fr/chauvet/en/aurignacian-cave-art",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d9952a2b8afb1724",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual técnica forma imagens pela aplicação de pequenos pontos de cor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pontilhismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-2",
+        "text": "Afresco"
+      },
+      {
+        "id": "option-3",
+        "text": "Xilogravura"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nationalgalleries.org/art-and-artists/glossary-terms/pointillism",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:2f9a641e8ae46f5a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "“O Nascimento de Vênus”, de Botticelli, pertence a qual período artístico?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renascimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Barroco"
+      },
+      {
+        "id": "option-2",
+        "text": "Romantismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Impressionismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:036a8413c646c5ec",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou a escultura “O Beijo”, cuja versão em mármore foi encomendada pelo Estado francês?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "option-1",
+        "text": "Camille Claudel"
+      },
+      {
+        "id": "option-2",
+        "text": "Gian Lorenzo Bernini"
+      },
+      {
+        "id": "option-3",
+        "text": "Amedeo Modigliani"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/kiss",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:f0c757698dc1de7f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual pintor criou a série “Nenúfares”, inspirada em seu jardim de Giverny?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-1",
+        "text": "Edgar Degas"
+      },
+      {
+        "id": "option-2",
+        "text": "Camille Pissarro"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierre-Auguste Renoir"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 70,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://boutique.musee-orangerie.fr/en/contents/artworks/82-claude-monet-1840-1926/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:460fd7a8c8358ab5",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou o autorretrato duplo “As Duas Fridas”, de 1939?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frida Kahlo"
+      },
+      {
+        "id": "option-1",
+        "text": "Remedios Varo"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonora Carrington"
+      },
+      {
+        "id": "option-3",
+        "text": "María Izquierdo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 91,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://mam.inba.gob.mx/destacadas.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:fc215cb86c81091f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou o “Monumento às Bandeiras”, próximo ao Parque Ibirapuera, em São Paulo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Victor Brecheret"
+      },
+      {
+        "id": "option-1",
+        "text": "Aleijadinho"
+      },
+      {
+        "id": "option-2",
+        "text": "Bruno Giorgi"
+      },
+      {
+        "id": "option-3",
+        "text": "Franz Weissmann"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 93,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.prefeitura.sp.gov.br/web/cultura/w/patrimonio_historico/adote_obra/4526",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:9ff2cabe02531c17",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual prática artística modela argila e a endurece por queima em forno?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cerâmica"
+      },
+      {
+        "id": "option-1",
+        "text": "Mosaico"
+      },
+      {
+        "id": "option-2",
+        "text": "Litografia"
+      },
+      {
+        "id": "option-3",
+        "text": "Xilogravura"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.vam.ac.uk/articles/a-z-of-ceramics",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:48910c3eb6dc8652",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual estilo dos séculos XVII e XVIII é associado a movimento, dramaticidade e integração das artes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Barroco"
+      },
+      {
+        "id": "option-1",
+        "text": "Minimalismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Neoclassicismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Construtivismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.vam.ac.uk/articles/the-baroque-style",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:84727236030c0979",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual movimento explorou sonhos, associações livres e o inconsciente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Realismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Neoclassicismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Concretismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/collection/terms/surrealism/surrealism-and-dreams",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:892a1acb49590199",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na aquarela tradicional, qual líquido dilui a tinta antes de sua aplicação?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Água"
+      },
+      {
+        "id": "option-1",
+        "text": "Óleo de linhaça"
+      },
+      {
+        "id": "option-2",
+        "text": "Terebintina"
+      },
+      {
+        "id": "option-3",
+        "text": "Álcool etílico"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.vam.ac.uk/articles/what-is-watercolour",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:045732ed59d274a5",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na arte de Marcel Duchamp, o que caracteriza um readymade?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Objeto industrial escolhido e apresentado como arte"
+      },
+      {
+        "id": "option-1",
+        "text": "Escultura esculpida diretamente em mármore"
+      },
+      {
+        "id": "option-2",
+        "text": "Pintura feita exclusivamente com pigmentos naturais"
+      },
+      {
+        "id": "option-3",
+        "text": "Gravura produzida por entalhe em madeira"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/collection/terms/readymade",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:650b9d78da8d0b80",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “Almoço na Relva”, de 1863, hoje no Musée d’Orsay?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Édouard Manet"
+      },
+      {
+        "id": "option-1",
+        "text": "Claude Monet"
+      },
+      {
+        "id": "option-2",
+        "text": "Edgar Degas"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierre-Auguste Renoir"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.musee-orsay.fr/fr/oeuvres/le-dejeuner-sur-lherbe-904",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d8f0ad864825f395",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “A Persistência da Memória”, de 1931, conhecida pelos relógios moles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Salvador Dalí"
+      },
+      {
+        "id": "option-1",
+        "text": "René Magritte"
+      },
+      {
+        "id": "option-2",
+        "text": "Joan Miró"
+      },
+      {
+        "id": "option-3",
+        "text": "Max Ernst"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/collection/works/79018",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:55de39bdbc14ada4",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual técnica de pintura mural aplica pigmentos sobre reboco ainda úmido?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Afresco"
+      },
+      {
+        "id": "option-1",
+        "text": "Encáustica"
+      },
+      {
+        "id": "option-2",
+        "text": "Têmpera a ovo"
+      },
+      {
+        "id": "option-3",
+        "text": "Pintura a óleo sobre tela"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://mobile-api.moma.org/collection/terms/fresco",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:6ee5f85ef33e0038",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Como se chama a gravura cuja matriz é entalhada em madeira?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Xilogravura"
+      },
+      {
+        "id": "option-1",
+        "text": "Linogravura"
+      },
+      {
+        "id": "option-2",
+        "text": "Litografia"
+      },
+      {
+        "id": "option-3",
+        "text": "Água-forte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://resources.metmuseum.org/resources/metpublications/pdf/How_Prints_Look.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:312b4ee61294e8e8",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou “A Lição de Anatomia do Dr. Nicolaes Tulp”, de 1632?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rembrandt van Rijn"
+      },
+      {
+        "id": "option-1",
+        "text": "Johannes Vermeer"
+      },
+      {
+        "id": "option-2",
+        "text": "Jan van Eyck"
+      },
+      {
+        "id": "option-3",
+        "text": "Hieronymus Bosch"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.mauritshuis.nl/en/our-collection/artworks/146-the-anatomy-lesson-of-dr-nicolaes-tulp",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:3d781977a6a7affa",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual ingrediente é o aglutinante da têmpera a ovo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gema de ovo"
+      },
+      {
+        "id": "option-1",
+        "text": "Óleo de linhaça"
+      },
+      {
+        "id": "option-2",
+        "text": "Cera de abelha"
+      },
+      {
+        "id": "option-3",
+        "text": "Resina acrílica"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nationalgallery.org.uk/paintings/glossary/tempera",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d16d0f3ccd101765",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Como se chama a escultura em que as figuras se projetam pouco acima do fundo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Baixo-relevo"
+      },
+      {
+        "id": "option-1",
+        "text": "Alto-relevo"
+      },
+      {
+        "id": "option-2",
+        "text": "Escultura de vulto pleno"
+      },
+      {
+        "id": "option-3",
+        "text": "Instalação"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.getty.edu/news/relief-sculpture-definition-art-term-venus-type/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:bcc208f3a5876b6c",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual movimento francês do século XIX, associado a Courbet, valorizou a vida cotidiana sem idealização?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Realismo"
+      },
+      {
+        "id": "option-1",
+        "text": "Futurismo"
+      },
+      {
+        "id": "option-2",
+        "text": "Surrealismo"
+      },
+      {
+        "id": "option-3",
+        "text": "Fauvismo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 47,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://musee-courbet.fr/en/the-museum/courbet-work/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:e94ed6db90afcb6a",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual técnica de impressão se baseia na repulsão entre água e substâncias gordurosas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Litografia"
+      },
+      {
+        "id": "option-1",
+        "text": "Xilogravura"
+      },
+      {
+        "id": "option-2",
+        "text": "Serigrafia"
+      },
+      {
+        "id": "option-3",
+        "text": "Água-forte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/momaorg/shared/pdfs/docs/learn/courses/what_is_a_print_brochure_1999.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:43a03044f7fd1e9d",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na escultura em madeira, como se chama a técnica de retirar material com ferramentas de corte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Entalhe"
+      },
+      {
+        "id": "option-1",
+        "text": "Modelagem"
+      },
+      {
+        "id": "option-2",
+        "text": "Fundição"
+      },
+      {
+        "id": "option-3",
+        "text": "Colagem"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.vam.ac.uk/articles/sculpture-techniques",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:5db206f718d622c7",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem projetou o Museu de Arte Contemporânea de Niterói, inaugurado em 1996?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar Niemeyer"
+      },
+      {
+        "id": "option-1",
+        "text": "Lúcio Costa"
+      },
+      {
+        "id": "option-2",
+        "text": "Ruy Ohtake"
+      },
+      {
+        "id": "option-3",
+        "text": "Paulo Mendes da Rocha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 87,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://smc.niteroi.rj.gov.br/espacos-culturais/mac/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:c4fc963ee9f271cb",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual arquiteto colaborou com Koechlin e Nouguier no desenho da Torre Eiffel?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stephen Sauvestre"
+      },
+      {
+        "id": "option-1",
+        "text": "Antoni Gaudí"
+      },
+      {
+        "id": "option-2",
+        "text": "Le Corbusier"
+      },
+      {
+        "id": "option-3",
+        "text": "Frank Lloyd Wright"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 4,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.toureiffel.paris/en/news/130-years/how-was-eiffel-tower-invented",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:549b1a53e6c0dc35",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual técnica pictórica mistura pigmentos com cera aquecida?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Encáustica"
+      },
+      {
+        "id": "option-1",
+        "text": "Aquarela"
+      },
+      {
+        "id": "option-2",
+        "text": "Têmpera a ovo"
+      },
+      {
+        "id": "option-3",
+        "text": "Guache"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.getty.edu/vow/AATFullDisplay?find=drawing&logic=AND&note=&subjectid=300053913",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:cf5e44422f955e30",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual artista é uma figura central da Op Art, marcada por ilusões ópticas geométricas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Victor Vasarely"
+      },
+      {
+        "id": "option-1",
+        "text": "Kazimir Malevich"
+      },
+      {
+        "id": "option-2",
+        "text": "Piet Mondrian"
+      },
+      {
+        "id": "option-3",
+        "text": "Jean Arp"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.museothyssen.org/en/collection/artists/vasarely-victor",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:5330620fffec82c5",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou o “Retrato de Ambroise Vollard” de 1899, do Petit Palais?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Paul Cézanne"
+      },
+      {
+        "id": "option-1",
+        "text": "Amedeo Modigliani"
+      },
+      {
+        "id": "option-2",
+        "text": "Gustave Courbet"
+      },
+      {
+        "id": "option-3",
+        "text": "Édouard Manet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://petitpalais.paris.fr/explorer/collections/panorama-des-collections/xixe-siecle/portrait-dambroise-vollard",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:c9f84c5720675b9f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem esculpiu o grupo “O Rapto das Sabinas” instalado na Loggia dei Lanzi, em Florença?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Giambologna"
+      },
+      {
+        "id": "option-1",
+        "text": "Gian Lorenzo Bernini"
+      },
+      {
+        "id": "option-2",
+        "text": "Benvenuto Cellini"
+      },
+      {
+        "id": "option-3",
+        "text": "Donatello"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.galleriaaccademiafirenze.it/en/artworks/ratto-delle-sabine-giambologna/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:d3b452828c894a39",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual fotógrafo publicou “Men at Work”, com estudos fotográficos de trabalhadores e máquinas, em 1932?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lewis Hine"
+      },
+      {
+        "id": "option-1",
+        "text": "Ansel Adams"
+      },
+      {
+        "id": "option-2",
+        "text": "Diane Arbus"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Mapplethorpe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.loc.gov/pictures/item/32023587/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:8f0f2f1e7ebaabb2",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou “Maman”, a escultura de uma aranha gigante?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Louise Bourgeois"
+      },
+      {
+        "id": "option-1",
+        "text": "Meret Oppenheim"
+      },
+      {
+        "id": "option-2",
+        "text": "Barbara Hepworth"
+      },
+      {
+        "id": "option-3",
+        "text": "Niki de Saint Phalle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.guggenheim-bilbao.eus/la-coleccion/obras/mama",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:003d439f5412c043",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual cidade foi aberto o Cabaret Voltaire, berço do dadaísmo, em 1916?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Zurique"
+      },
+      {
+        "id": "option-1",
+        "text": "Paris"
+      },
+      {
+        "id": "option-2",
+        "text": "Berlim"
+      },
+      {
+        "id": "option-3",
+        "text": "Viena"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.cabaretvoltaire.ch/blog/geburtsort-von-dada-in-zuerich",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:0fee244d97116dad",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual artista criou o movimento chamado suprematismo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kazimir Malevich"
+      },
+      {
+        "id": "option-1",
+        "text": "Wassily Kandinsky"
+      },
+      {
+        "id": "option-2",
+        "text": "Piet Mondrian"
+      },
+      {
+        "id": "option-3",
+        "text": "Vladimir Tatlin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/momaorg/shared/pdfs/moma_learning/docs/MAI4_full.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:75e6a79bd5dd7e1f",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem pintou o tríptico “O Jardim das Delícias”, do Museu do Prado?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hieronymus Bosch"
+      },
+      {
+        "id": "option-1",
+        "text": "Pieter Bruegel, o Velho"
+      },
+      {
+        "id": "option-2",
+        "text": "Jan van Eyck"
+      },
+      {
+        "id": "option-3",
+        "text": "Peter Paul Rubens"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:4446056b82a54080",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou “Fruteira e Copo”, de 1912, um dos primeiros papiers collés cubistas?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Georges Braque"
+      },
+      {
+        "id": "option-1",
+        "text": "Juan Gris"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernand Léger"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Matisse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 63,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.metmuseum.org/art/collection/search/490612",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:aebc58b4048e8f97",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual pintor norte-americano criou “No. 5, 1948”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jackson Pollock"
+      },
+      {
+        "id": "option-1",
+        "text": "Mark Rothko"
+      },
+      {
+        "id": "option-2",
+        "text": "Willem de Kooning"
+      },
+      {
+        "id": "option-3",
+        "text": "Barnett Newman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 64,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.moma.org/documents/moma_catalogue_1724_300299011.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:arts-literature:0443046697d40198",
+    "category": "arts-literature",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou “Charging Bull”, conhecido como Touro de Wall Street?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Arturo Di Modica"
+      },
+      {
+        "id": "option-1",
+        "text": "Fernando Botero"
+      },
+      {
+        "id": "option-2",
+        "text": "Henry Moore"
+      },
+      {
+        "id": "option-3",
+        "text": "Alberto Giacometti"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+      "recordIndex": 84,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www2.nycgovparks.org/parks/bowling-green/monuments/1750",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
   }
 ]

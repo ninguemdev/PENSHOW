@@ -737,6 +737,81 @@ dialog::backdrop {
 .scoreboard {
   margin-top: 32px;
 }
+.final-lives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+.final-lives li {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow-wrap: anywhere;
+}
+.final-allocations {
+  padding: 0;
+  list-style: none;
+}
+.podium {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 16px;
+}
+.podium > li {
+  display: flex;
+  gap: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.podium > li:first-child {
+  background: #fff0c7;
+}
+.podium-rank {
+  font-size: 1.8rem;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+.podium > li > div {
+  min-width: 0;
+}
+.podium p {
+  margin: 12px 0 0;
+}
+.round-history {
+  margin-top: 32px;
+}
+.round-history li {
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+.final-allocations li {
+  padding: 12px 0;
+  overflow-wrap: anywhere;
+  animation: final-allocation 450ms ease-out both;
+}
+@keyframes final-allocation {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .final-allocations li {
+    animation: none;
+  }
+}
 .scoreboard-scroll {
   overflow-x: auto;
   max-width: 100%;

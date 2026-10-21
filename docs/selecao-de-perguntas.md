@@ -25,7 +25,7 @@ O total de perguntas não basta para autorizar um formato. A busca de alocação
 
 A busca usa primeiro a fase com menos temas possíveis, elimina tentativas simétricas e memoriza impasses. Foi comparada à enumeração de todas as distribuições em 150 cenários pequenos. Não converte uma dificuldade em outra para completar quantidade.
 
-Quando o catálogo não cobre o formato, a criação retorna `{ status: "blocked", reason: "insufficient-content", message }`. Com as 72 perguntas da T11, o clássico fica disponível nos seis temas, enquanto o formato completo é recusado. Os 50 reservados não são uma exigência para o primeiro protótipo de fase isolada.
+Quando o catálogo não cobre o formato, a criação retorna `{ status: "blocked", reason: "insufficient-content", message }`. Com as 72 perguntas da T11, o clássico ficava disponível nos seis temas e o formato completo era recusado. A [T27](revisao-editorial-t27.md) publica 300 perguntas e verifica o orçamento completo com 2–12 pessoas: cada subconjunto de três a seis temas permite a admissão; um ou dois temas não cobrem as dificuldades e a reserva. Os 50 reservados não são uma exigência para os protótipos de fase isolada.
 
 ## Escolha e prazo
 

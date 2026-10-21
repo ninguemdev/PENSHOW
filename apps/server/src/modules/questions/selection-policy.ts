@@ -9,7 +9,13 @@ import {
 export type Difficulty = ApprovedQuestion['difficulty'];
 export type QuestionDemand = Readonly<Record<Difficulty, number>>;
 export type SelectionMode = ScoringMode;
-export type SelectionFormat = 'classic-prototype' | 'full-prototype';
+export type SelectionFormat =
+  | 'classic-prototype'
+  | 'speed-prototype'
+  | 'wager-prototype'
+  | 'theft-prototype'
+  | 'pressure-prototype'
+  | 'full-prototype';
 
 // Adapt the single experimental configuration; never duplicate content budgets here.
 export function selectionPolicy(parameters: DeepReadonly<PrototypeParameters>) {

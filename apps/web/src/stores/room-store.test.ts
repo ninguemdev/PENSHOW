@@ -1,6 +1,23 @@
 import { expect, it } from 'vitest';
 import { issuedSession, roomView, testStores } from '../test/fixtures';
 import { createRoomStore } from './room-store';
+it('descarta versões antigas mesmo após limpar a fotografia na navegação', () => {
+  const store = createRoomStore();
+  store.getState().listen();
+  expect(store.getState().receive({ ...roomView, stateVersion: 10 }, issuedSession.playerId)).toBe(
+    true,
+  );
+  store.getState().expectRoom(roomView.code);
+  expect(store.getState().receive({ ...roomView, stateVersion: 9 }, issuedSession.playerId)).toBe(
+    false,
+  );
+  expect(store.getState().receive({ ...roomView, stateVersion: 10 }, issuedSession.playerId)).toBe(
+    false,
+  );
+  expect(store.getState().receive({ ...roomView, stateVersion: 11 }, issuedSession.playerId)).toBe(
+    true,
+  );
+});
 it('aplica remoção somente à sala atual e impede fotografia atrasada de restaurá-la', () => {
   const store = createRoomStore();
   store.getState().expectRoom(roomView.code);

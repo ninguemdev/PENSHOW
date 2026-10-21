@@ -72,6 +72,34 @@ export function createSessionStore(
           if (connection === 'online') {
             hasClockSample = false;
             const epoch = get().connectionEpoch;
+            const cachedView = room.getState().view;
+            void realtime
+              .command({
+                protocolVersion: 1,
+                actionId: actionIdSchema.parse(crypto.randomUUID()),
+                event: 'room:sync',
+                payload: {},
+              })
+              .then((ack) => {
+                if (
+                  version !== generation ||
+                  epoch !== get().connectionEpoch ||
+                  ack.status !== 'ok' ||
+                  ack.event !== 'room:sync'
+                )
+                  return;
+                if (ack.result.status === 'absent' && room.getState().view === cachedView) {
+                  room.getState().reset();
+                  room.getState().listen();
+                  set({
+                    viewReady: true,
+                    ...(cachedView ? { message: strings.session.roomUnavailable } : {}),
+                  });
+                }
+              })
+              .catch(() => {
+                // A failed reconciliation cannot authorize a cached match view.
+              });
             const clientSentAt = Date.now();
             void realtime
               .command({
@@ -111,6 +139,7 @@ export function createSessionStore(
             if (room.getState().receive(event.payload, value.playerId))
               set({
                 viewReady: true,
+                message: null,
                 ...(!hasClockSample ? { offset: event.payload.serverNow - Date.now() } : {}),
               });
           } else room.getState().remove(event.payload);

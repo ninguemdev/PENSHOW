@@ -1,4 +1,5 @@
-import { roundIdSchema } from '@penshow/shared';
+import { roundIdSchema, type MatchId } from '@penshow/shared';
+import { createFinal, FinalError } from '../final/final.domain.js';
 import { PublicCommandError } from '../../command-error.js';
 import type { CancelTask, Runtime } from '../../ports.js';
 import type { QuizLifecycle, RoomActor } from '../rooms/room.service.js';
@@ -6,6 +7,9 @@ import type { QuizRoster, Room, RoomState } from '../rooms/room.js';
 import type { QuestionRepository } from '../questions/question.repository.js';
 import { QuestionSelection } from '../questions/question-selection.js';
 import { SelectionError } from '../questions/selection-policy.js';
+import { shuffled } from '../questions/theme-queue.domain.js';
+import type { ThemeChoiceQueue } from '../questions/theme-queue.domain.js';
+import { waitsForPlayers } from './match-presence.js';
 import { freezeMatchRules, type PrototypeParameters } from '../scoring/match-rules.js';
 import {
   createMatch,
@@ -21,7 +25,14 @@ import {
   type MatchSession,
   type MatchTimer,
 } from './match.domain.js';
-import { classicStrategy, StrategyRegistry } from './match-strategy.js';
+import {
+  classicStrategy,
+  speedStrategy,
+  wagerStrategy,
+  theftStrategy,
+  pressureStrategy,
+  StrategyRegistry,
+} from './match-strategy.js';
 
 interface Dependencies {
   runtime: Runtime;
@@ -36,36 +47,107 @@ interface ScheduledMatch {
   cancel: CancelTask;
 }
 
-/** Classic prototype lifecycle, installed by the app only outside production. */
+/** Isolated scoring prototypes, installed by the app only outside production. */
 export class MatchService implements QuizLifecycle {
   private readonly strategies: StrategyRegistry;
   private readonly timers = new Map<Room, ScheduledMatch>();
   constructor(private readonly deps: Dependencies) {
-    this.strategies = deps.strategies ?? new StrategyRegistry([classicStrategy]);
+    this.strategies =
+      deps.strategies ??
+      new StrategyRegistry([
+        classicStrategy,
+        speedStrategy,
+        wagerStrategy,
+        theftStrategy,
+        pressureStrategy,
+      ]);
   }
 
-  validateStart(roster: QuizRoster): MatchSession {
+  validateStart(roster: QuizRoster, previousChoiceQueue?: ThemeChoiceQueue): MatchSession {
+    const mode = roster.prototypeMode ?? 'classic';
     const rules = freezeMatchRules(roster.matchId, this.deps.parameters);
     const result = QuestionSelection.create(this.deps.questions, this.deps.runtime, {
       matchId: roster.matchId,
       players: roster.players.map((player) => player.playerId),
       enabledCategories: roster.settings.enabledCategories,
-      format: 'classic-prototype',
+      format: `${mode}-prototype`,
       rules,
+      ...(previousChoiceQueue ? { previousChoiceQueue } : {}),
     });
     if (result.status !== 'ready') throw new PublicCommandError('INSUFFICIENT_QUESTIONS');
     return {
       state: createMatch(
         roster,
         rules,
-        [{ roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 1, mode: 'classic' }],
+        [
+          mode === 'pressure'
+            ? {
+                roundId: roundIdSchema.parse(this.deps.runtime.ids.next()),
+                index: 5,
+                mode,
+                variant: { status: 'prototype', decisionId: 'D04', mode: 'dynamite' },
+              }
+            : mode === 'theft'
+              ? { roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 4, mode }
+              : mode === 'wager'
+                ? { roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 3, mode }
+                : mode === 'speed'
+                  ? { roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 2, mode }
+                  : { roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 1, mode },
+        ],
         this.strategies,
+        mode === 'pressure'
+          ? shuffled(
+              roster.players.map((player) => player.playerId).sort(),
+              this.deps.runtime.random,
+            )
+          : [],
       ),
       selection: result.selection.checkpoint(),
     };
   }
 
   execute(room: Room, actor: RoomActor, command: MatchInput) {
+    return this.transact(room, actor, (session) =>
+      this.apply(session, { ...command, playerId: actor.playerId }),
+    );
+  }
+
+  choiceQueueForRematch(session: MatchSession): ThemeChoiceQueue {
+    return QuestionSelection.resume(session.selection, this.deps.runtime).choiceQueueForRematch();
+  }
+
+  startFinal(room: Room, actor: RoomActor, matchId: MatchId) {
+    return this.transact(room, actor, (session, isHost) => {
+      if (!isHost) throw new PublicCommandError('FORBIDDEN');
+      if (session.state.roster.matchId !== matchId) throw new MatchError('STALE_CONTEXT');
+      if (session.state.final) return { session, changed: false };
+      if (
+        session.state.stage.phase !== 'prototype-complete' ||
+        session.state.finalEntry?.status !== 'ready'
+      )
+        throw new MatchError('INVALID_PHASE');
+      const entry = session.state.finalEntry;
+      const state = structuredClone(session.state),
+        selection = QuestionSelection.resume(session.selection, this.deps.runtime);
+      const roundId = roundIdSchema.parse(this.deps.runtime.ids.next());
+      const minimum = entry.allocations.reduce((total, row) => total + row.initialLives, 0) - 1;
+      if (selection.startPrototypeFinal(roundId, minimum).status === 'blocked')
+        throw new PublicCommandError('INSUFFICIENT_QUESTIONS');
+      state.final = createFinal(entry, state.rules, roundId, this.deps.runtime.clock.now());
+      state.revision++;
+      return { session: { state, selection: selection.checkpoint() }, changed: true };
+    });
+  }
+
+  private transact(
+    room: Room,
+    actor: RoomActor,
+    operation: (
+      session: MatchSession,
+      isHost: boolean,
+    ) => { session: MatchSession; changed: boolean },
+  ) {
     return room
       .runExclusive((tx) => {
         const member = tx.state.members.find((item) => item.playerId === actor.playerId);
@@ -80,7 +162,8 @@ export class MatchService implements QuizLifecycle {
         if (tx.state.phase.status !== 'match' || !tx.state.phase.game)
           throw new PublicCommandError('INVALID_PHASE');
         if (member.role !== 'player') throw new PublicCommandError('FORBIDDEN');
-        const result = this.apply(tx.state.phase.game, { ...command, playerId: actor.playerId });
+        if (tx.state.phase.game.suspended) throw new PublicCommandError('INVALID_PHASE');
+        const result = operation(tx.state.phase.game, tx.state.hostPlayerId === actor.playerId);
         if (result.changed) {
           tx.state.phase.game = result.session;
           tx.touch();
@@ -88,7 +171,8 @@ export class MatchService implements QuizLifecycle {
         return { stateVersion: tx.state.stateVersion };
       })
       .catch((error: unknown) => {
-        if (error instanceof MatchError) throw new PublicCommandError(error.code);
+        if (error instanceof MatchError || error instanceof FinalError)
+          throw new PublicCommandError(error.code);
         if (error instanceof SelectionError) throw new PublicCommandError('INVALID_PHASE');
         throw error;
       });
@@ -96,15 +180,21 @@ export class MatchService implements QuizLifecycle {
 
   /** Called after a room commit, before its views. Presence updates keep the existing timer. */
   committed(room: Room, after: RoomState) {
+    const session = after.phase.status === 'match' ? after.phase.game : undefined;
     const context =
-      after.phase.status === 'match' && after.phase.game
-        ? matchTimer(after.phase.game.state)
+      session && (!session.suspended || after.emptySince === null)
+        ? matchTimer(session.state)
         : null;
     const previous = this.timers.get(room);
     if (previous && sameTimer(previous.context, context)) return;
     previous?.cancel();
     this.timers.delete(room);
-    if (context) this.schedule(room, context, context.deadlineAt);
+    if (context)
+      this.schedule(
+        room,
+        context,
+        session?.suspended ? this.deps.runtime.clock.now() : context.deadlineAt,
+      );
   }
 
   private schedule(room: Room, context: MatchTimer, deadlineAt: number) {
@@ -120,7 +210,16 @@ export class MatchService implements QuizLifecycle {
               !sameTimer(matchTimer(tx.state.phase.game.state), context)
             )
               return;
-            const result = this.apply(tx.state.phase.game, { kind: 'timer', timer: context });
+            if (tx.state.emptySince !== null && waitsForPlayers(tx.state.phase.game.state)) {
+              tx.state.phase.game.suspended = true;
+              tx.touch();
+              return;
+            }
+            // Suspension keeps the original stage/deadline. Applying its expired timer
+            // resumes only the next step; consumed answers, wagers and damage stay intact.
+            const { suspended: _suspended, ...active } = tx.state.phase.game;
+            void _suspended;
+            const result = this.apply(active, { kind: 'timer', timer: context });
             if (result.changed) {
               tx.state.phase.game = result.session;
               tx.touch();
@@ -159,6 +258,18 @@ export class MatchService implements QuizLifecycle {
       const effect = effects[index]!;
       const round = currentRound(state);
       switch (effect.kind) {
+        case 'next-final-question': {
+          const final = state.final;
+          if (!final) throw new Error('Final ausente.');
+          if (effect.previousQuestionId)
+            selection.advanceFinalQuestion(final.round.roundId, effect.previousQuestionId);
+          const question = selection.currentFinalQuestion(final.round.roundId);
+          receive({
+            kind: 'final-question-prepared',
+            question: 'status' in question ? null : question,
+          });
+          break;
+        }
         case 'offer-categories': {
           const offer = selection.openRound(round.roundId, round.mode, now);
           if (offer.status === 'interrupted')
@@ -191,5 +302,8 @@ export function matchContext(state: MatchState): {
   matchId: MatchState['roster']['matchId'];
   roundId: ReturnType<typeof currentRound>['roundId'];
 } {
-  return { matchId: state.roster.matchId, roundId: currentRound(state).roundId };
+  return {
+    matchId: state.roster.matchId,
+    roundId: state.final?.round.roundId ?? currentRound(state).roundId,
+  };
 }

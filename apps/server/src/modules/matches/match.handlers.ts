@@ -12,13 +12,20 @@ export function createMatchHandlers(
     const actor = { playerId, connectionId };
     switch (command.event) {
       case 'match:start':
-        return rooms.start(actor, command.payload.roomId);
+        return rooms.start(actor, command.payload.roomId, command.payload.mode);
       case 'match:returnToLobby':
         return rooms.returnToLobby(actor, command.payload.roomId, command.payload.matchId, {
           requireFinished: true,
         });
+      case 'final:start': {
+        const room = rooms.registry.byId(command.payload.roomId);
+        if (!room) throw new PublicCommandError('ROOM_NOT_FOUND');
+        return matches.startFinal(room, actor, command.payload.matchId);
+      }
       case 'round:ready':
       case 'category:choose':
+      case 'wager:submit':
+      case 'target:choose':
       case 'answer:submit': {
         const room = rooms.registry.byId(command.payload.roomId);
         if (!room) throw new PublicCommandError('ROOM_NOT_FOUND');
@@ -34,13 +41,34 @@ export function createMatchHandlers(
             ...context,
             category: command.payload.category,
           });
+        if (command.event === 'wager:submit')
+          return matches.execute(room, actor, {
+            kind: 'wager',
+            ...context,
+            questionId: command.payload.questionId,
+            amount: command.payload.amount,
+          });
+        if (command.event === 'target:choose')
+          return matches.execute(room, actor, {
+            kind: 'target',
+            ...context,
+            questionId: command.payload.questionId,
+            targetPlayerId: command.payload.targetPlayerId,
+          });
         const result = await matches.execute(room, actor, {
           kind: 'answer',
           ...context,
           questionId: command.payload.questionId,
           optionId: command.payload.optionId,
         });
-        return { ...result, acceptance: 'recorded' as const };
+        const phase = room.snapshot().phase;
+        return {
+          ...result,
+          acceptance:
+            phase.status === 'match' && phase.game?.state.final
+              ? ('first-valid' as const)
+              : ('recorded' as const),
+        };
       }
       default:
         throw new PublicCommandError('INVALID_PHASE');
@@ -48,9 +76,12 @@ export function createMatchHandlers(
   };
   return {
     'match:start': handle,
+    'final:start': handle,
     'round:ready': handle,
     'category:choose': handle,
     'answer:submit': handle,
+    'wager:submit': handle,
+    'target:choose': handle,
     'match:returnToLobby': handle,
   };
 }

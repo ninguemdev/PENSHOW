@@ -59,13 +59,17 @@ Prazos precisam ser inteiros positivos. O serviço usa apenas relógio/agendador
 
 Cada timer guarda identidade do objeto sala, chave, token de agendamento e epoch da fase. Cancelamento, reconexão, nova partida, encerramento e reutilização de código invalidam callbacks anteriores, inclusive os já entregues à fila. Fechar uma sala cancela apenas os seus timers. Fechar a aplicação chama `rooms.dispose()` antes de encerrar o agendador.
 
-A saída do último membro fecha imediatamente com `no-players`. Ausência de todos os conectados por TTL ou idade máxima fecha com `expired`; desligamento usa `server-shutdown`. Não é declarado vencedor. A política de pausa/resolução de janela de jogo e reconexão em cada fase pertence a T14/T26; o roster de T07 não simula essas fases.
+A saída do último membro fecha imediatamente com `no-players`. Ausência de todos os conectados por TTL ou idade máxima fecha com `expired`; desligamento usa `server-shutdown`. Não é declarado vencedor. A [T26](cenarios-de-reconexao.md) resolve a janela atual e suspende o motor antes de outra pergunta, retomando o próximo passo ao retornar uma conexão. O prazo de sala vazia continua contado da última desconexão.
+
+`room:sync` reconcilia a associação da própria identidade autenticada e publica uma fotografia nova quando a sala existe. Ausência/expiração retorna `absent`, sem aceitar ator/sala no payload nem recuperar dados após reinício. Entrada, sincronização e ações reconferem expiração e transferência de anfitrião por prazo absoluto na fila, mesmo se os callbacks estiverem atrasados. A política de 30/120 segundos continua experimental e injetável.
 
 ## Limite com o quiz
 
 `QuizLifecycle.validateStart` é uma porta síncrona de validação/preparação. Recebe cópia do `QuizRoster`: ID da partida, instante, configurações e lista de jogadores/perfis congelados, incluindo vagas reservadas de ausentes. Falha de preparação não muda o lobby. Ela não pode alterar o elenco armazenado por referência.
 
-A T14 permite retornar um `MatchSession` preparado por `validateStart`, confirmado no mesmo início de sala. O hook `committed` cancela/agenda o timer de partida antes da publicação. Elenco, configuração e plano continuam imutáveis na mesma partida. A T15 injeta `MatchService` e o seletor efetivo em desenvolvimento/teste; produção continua sem essa porta porque o modo atual é um protótipo de uma fase. Validadores antigos podem retornar `void`. O retorno interno permite cancelamento; o handler público fixa `requireFinished: true`, verificado na fila, aceitando apenas conclusão ou interrupção. Revanche completa/histórico pertencem à T25.
+A T14 permite retornar um `MatchSession` preparado por `validateStart`, confirmado no mesmo início de sala. O hook `committed` cancela/agenda o timer de partida antes da publicação. Elenco, configuração e plano continuam imutáveis na mesma partida. A T15 injeta `MatchService` e o seletor efetivo em desenvolvimento/teste; produção continua sem essa porta porque o modo atual é um protótipo de uma fase. Validadores antigos podem retornar `void`. O retorno interno permite cancelamento; o handler público fixa `requireFinished: true`, verificado na fila, aceitando conclusão, interrupção ou as pausas explícitas de regras da final.
+
+A [T25](podio-e-revanche.md) conserva a fila privada de temas entre partidas: `QuizLifecycle.choiceQueueForRematch` extrai somente essa fila do agregado concluído e `validateStart` pode recebê-la como segundo argumento confiável. A sala não conserva o agregado anterior. `Member.leftMatch` registra internamente uma saída explícita durante a disputa; o retorno ao lobby libera esses membros, suas reservas e vagas, enquanto uma queda real segue a carência já configurada. Reentrada antes da revanche restaura a presença. Espectadores são promovidos até a capacidade, e uma nova partida congela seu novo elenco/perfis. Nenhum desses campos internos entra na projeção pública.
 
 ## Verificação
 

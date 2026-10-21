@@ -6,6 +6,8 @@ export function createRoomHandlers(rooms: RoomService, connectionId: string): Co
   const handle: CommandHandler = (playerId, command) => {
     const actor = { playerId, connectionId };
     switch (command.event) {
+      case 'room:sync':
+        return rooms.sync(actor);
       case 'room:create':
         return rooms.create(actor, command.payload.profile, command.payload.settings);
       case 'room:join':
@@ -23,6 +25,7 @@ export function createRoomHandlers(rooms: RoomService, connectionId: string): Co
     }
   };
   return {
+    'room:sync': handle,
     'room:create': handle,
     'room:join': handle,
     'room:leave': handle,
