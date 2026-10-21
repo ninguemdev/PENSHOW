@@ -57,3 +57,4 @@ Aplicar as [convenções e verificações comuns](README.md#convenções-de-impl
 - Regressão com 32 cenários de navegador aprovada em desktop/celular, sem retry. O registro distingue essa execução da revisão focada após o último ajuste visual.
 - Após o último ajuste, build e dois percursos acessíveis até o pódio aprovados em desktop/celular, sem retry; capturas dos alvos e resultado inspecionadas. Formatação, lint e tipos aprovados.
 - A aceitação definitiva permanece aberta para D07 e a revisão complementar em aparelho físico descrita acima.
+- A validação dos PRs em Linux detectou overflow do cabeçalho a 200% com fonte alternativa e uma tecla enviada antes de habilitar as alternativas no relógio do cliente. O cabeçalho permite quebra dentro da largura disponível; a regressão inclui Arial a 320 px. O percurso de teclado aguarda a alternativa habilitada, mantendo as verificações de foco, prazo e efeitos reais, sem sleeps ou relaxamento de critérios.
