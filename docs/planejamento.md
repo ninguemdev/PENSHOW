@@ -2,11 +2,11 @@
 
 ## Objetivo
 
-Criar um quiz multiplayer para navegador com a entrada simples do Comicle e modalidades variadas inspiradas no Brain Show. O placar das cinco primeiras fases se converte em vantagem explícita na final.
+Criar um quiz multiplayer para navegador com a entrada simples do Comicle e modalidades variadas inspiradas no Brain Show. No modo clássico padrão solicitado em 20/10/2026, quatro modalidades distintas são sorteadas e seu placar se converte em vantagem na final, sempre a quinta fase. A [T36](tasks/T36-modo-classico-padrao.md) integra esse formato.
 
 O desenho de cada fase está no [plano detalhado do jogo](plano-do-jogo.md): pontos, quantidade de perguntas, tempos, escolha de temas, dificuldade, exemplos, final, telas e casos de borda. Os números são propostas de protótipo, exceto as regras da final já confirmadas.
 
-A execução foi decomposta em [35 tasks de implementação](tasks/README.md), com arquivo por tarefa, dependências, critérios de aceite e verificações. O índice das tasks é o único controle de status de implementação; as etapas P01 a P09 abaixo descrevem o escopo geral. As [decisões pendentes](decisoes.md) indicam o que afeta cada módulo sem bloquear as frentes independentes.
+A execução foi decomposta em [36 tasks de implementação](tasks/README.md), com arquivo por tarefa, dependências, critérios de aceite e verificações. O índice das tasks é o único controle de status de implementação; as etapas P01 a P09 abaixo descrevem o escopo geral e conservam o registro do planejamento inicial. As [decisões pendentes](decisoes.md) indicam o que afeta cada módulo sem bloquear as frentes independentes.
 
 ## Estado inicial
 

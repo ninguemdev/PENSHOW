@@ -1,6 +1,6 @@
 # T29 — Testes ponta a ponta da partida completa
 
-- **Depende de:** [T26](./T26-reconexao-e-ciclo-de-vida.md), [T27](./T27-catalogo-de-teste-completo.md), [T28](./T28-privacidade-limites-e-concorrencia.md)
+- **Depende de:** [T26](./T26-reconexao-e-ciclo-de-vida.md), [T27](./T27-catalogo-de-teste-completo.md), [T28](./T28-privacidade-limites-e-concorrencia.md), [T36](./T36-modo-classico-padrao.md)
 - **Pacotes:** e2e, web, server, data
 - **Marco:** M4
 - **Branch sugerido:** `task/29-e2e-partida-completa`
@@ -9,7 +9,7 @@ O status desta tarefa fica somente no [índice](README.md). Caminhos de implemen
 
 ## Objetivo
 
-Demonstrar que todas as modalidades e a final funcionam juntas com navegadores e servidor reais.
+Demonstrar que o modo clássico padrão da T36 funciona com navegadores e servidor reais: quatro modalidades distintas sorteadas e a final obrigatória na quinta fase. Cobrir o catálogo de modalidades entre diferentes partidas.
 
 ## Leia antes
 
@@ -19,7 +19,8 @@ Demonstrar que todas as modalidades e a final funcionam juntas com navegadores e
 
 ## Entregáveis
 
-- [ ] Cobrir criação, seis fases, placar, conversão em vidas, primeira resposta exclusiva, pódio e revanche.
+- [ ] Cobrir criação com modo clássico padrão, cinco fases totais, placar acumulado, conversão em vidas, primeira resposta exclusiva, pódio e revanche.
+- [ ] Verificar quatro modalidades iniciais sem repetição, ordem sorteada igual entre clientes e final sempre na quinta posição; recarga não refaz o plano.
 - [ ] Adicionar cenários de aposta, roubo e dinamite com as variantes confirmadas em D04/D05.
 - [ ] Exercitar reconexão, anfitrião ausente e rejeição de respostas/ataques repetidos.
 - [ ] Expandir CI com fixtures isoladas, artefatos de falha e verificação de catálogo/assets.

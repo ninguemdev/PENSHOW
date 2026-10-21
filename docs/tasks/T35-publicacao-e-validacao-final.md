@@ -37,7 +37,7 @@ D08 define destino, URL e acesso de hospedagem. Preparação de build e document
 
 ## Verificação
 
-- [ ] Validar o fluxo de seis fases, primeira resposta exclusiva, pódio, revanche e queda do anfitrião no destino real.
+- [ ] Validar o modo clássico padrão de cinco fases: quatro modalidades distintas sorteadas, final na quinta posição, primeira resposta exclusiva, pódio, revanche e queda do anfitrião no destino real.
 - [ ] Conferir em celular e computador e testar que o Comicle continua isolado no mesmo domínio, se compartilhado.
 
 ## Cuidados de implementação

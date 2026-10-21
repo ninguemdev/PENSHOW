@@ -6,9 +6,11 @@ Este documento detalha uma partida completa para orientar os primeiros protótip
 
 Confirmado para a final: vidas iniciais de 5 / 4 / 3 / 2, para sobreviver a 4 / 3 / 2 / 1 perdas; somente a primeira resposta de cada pergunta é avaliada; erro custa uma vida; acerto permite tirar uma vida de qualquer adversário ainda na disputa.
 
+**Atualização de 20/10/2026 — modo clássico padrão:** o usuário definiu cinco fases no total, com modalidades diferentes em ordem aleatória e a final obrigatoriamente na quinta posição. A [T36](tasks/T36-modo-classico-padrao.md) planeja quatro modalidades distintas sorteadas entre as cinco de pontuação disponíveis e depois a final. O pedido substitui a sequência fixa de seis etapas proposta abaixo. As fichas, números de fase e orçamentos antigos permanecem como referência dos protótipos; a T36 deve adequar seleção, pontuação acumulada, interfaces e simulações ao plano sorteado. D02–D06 continuam em consulta.
+
 Perguntas enviadas durante este planejamento: duração desejada, pergunta da final sem resposta, ataque sem escolha de alvo, dinâmica da quinta fase, quantidade de jogadores com direito ao roubo e desempate antes da final. Enquanto não houver resposta, as alternativas de trabalho abaixo permanecem propostas. Isso permite concluir o planejamento sem bloquear a tarefa e sem transformar silêncio em confirmação.
 
-## 2. Partida padrão proposta
+## 2. Partida padrão proposta anteriormente — referência dos protótipos
 
 Uma **fase** é uma das seis etapas da partida. Uma **pergunta** é uma disputa dentro de uma fase. Na dinamite, um **turno** é a pergunta exclusiva de um participante.
 

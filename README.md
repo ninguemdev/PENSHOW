@@ -2,7 +2,7 @@
 
 Jogo multiplayer de perguntas e respostas para jogar com amigos pelo navegador. Crie uma sala, escolha seu nome e monte seu personagem para disputar fases com regras diferentes.
 
-O desempenho nas primeiras cinco fases determinará a vantagem na final: **1º lugar com 5 vidas, 2º com 4, 3º com 3 e os demais com 2**. Assim, sobrevivem respectivamente a 4, 3, 2 e 1 perdas de vida; a perda seguinte elimina. Na final, só a primeira resposta de cada pergunta é avaliada: se errar, o jogador perde uma vida; se acertar, escolhe qualquer adversário ainda na disputa para tirar uma vida. A pergunta se encerra após essa jogada.
+O desempenho nas quatro primeiras fases do modo clássico determinará a vantagem na final, sempre a quinta fase: **1º lugar com 5 vidas, 2º com 4, 3º com 3 e os demais com 2**. Assim, sobrevivem respectivamente a 4, 3, 2 e 1 perdas de vida; a perda seguinte elimina. Na final, só a primeira resposta de cada pergunta é avaliada: se errar, o jogador perde uma vida; se acertar, escolhe qualquer adversário ainda na disputa para tirar uma vida. A pergunta se encerra após essa jogada.
 
 ## Estado do projeto
 
@@ -24,11 +24,13 @@ O [protótipo da final no servidor](docs/final-no-servidor.md) aceita a primeira
 
 ## Planejamento
 
+A [T36 — Modo clássico padrão](docs/tasks/T36-modo-classico-padrao.md) implementará a partida de cinco fases: quatro modalidades distintas sorteadas e a final na quinta posição. Com as cinco modalidades de pontuação atuais, uma ficará de fora em cada partida. Esse formato será a opção padrão; a integração ainda está pendente.
+
 O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da final e os resultados das fases disputadas, com o placar anterior identificado como histórico. O anfitrião pode preparar outra partida na mesma sala; perfis e fila de temas são preservados, espectadores ocupam vagas disponíveis e quem saiu libera sua vaga.
 
 - [Plano detalhado do jogo](docs/plano-do-jogo.md): cada fase, quantidade de perguntas, pontos, tempos, exemplos, final e casos de borda.
 - [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
-- [Tasks de implementação](docs/tasks/README.md): 35 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
+- [Tasks de implementação](docs/tasks/README.md): 36 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
 - [Análise do Comicle](docs/analise-comicle.md): módulos examinados e adaptações necessárias.
 - [Referência do Brain Show](docs/referencia-brain-show.md): evidências e propostas para o PENSHOW.
 - [Regras em discussão](docs/regras.md): o que foi definido e o que precisa ser decidido.
