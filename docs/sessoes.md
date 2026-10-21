@@ -49,6 +49,8 @@ Essas respostas e os erros das rotas têm `Cache-Control: no-store` e `Pragma: n
 
 A criação não aceita um ID ou nome escolhido pelo navegador. Chamá-la novamente cria outra identidade; não recupera uma sessão pelo apelido. Dois perfis com o mesmo nome continuam com jogadores distintos. A renovação exige o token da própria sessão.
 
+A [T28](privacidade-limites-e-concorrencia.md) limita emissões a 60 e consultas/renovações somadas a 240 por IP remoto a cada 60 segundos, em orçamentos separados. Excesso retorna 429/`RATE_LIMITED` com `Retry-After` e os mesmos cabeçalhos de não armazenamento. O registro comporta até 10.000 sessões por instância; emissão na capacidade recupera expiradas antes de recusar com 503/`SERVER_BUSY`. Novos handshakes e conexões simultâneas também têm limites; reconectar não restaura o orçamento de comandos da identidade.
+
 ## Prazo e renovação
 
 - Validade padrão: **24 horas**, configurada por `GUEST_SESSION_TTL_MS=86400000`.

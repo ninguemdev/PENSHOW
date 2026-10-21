@@ -49,6 +49,7 @@ export interface QuizLifecycle {
 interface Dependencies {
   runtime: Runtime;
   policy?: RoomPolicy;
+  maxRooms?: number;
   quiz?: QuizLifecycle;
   isCurrentActor?: (actor: RoomActor) => boolean;
   /** Internal snapshot. Observers must project it before sending anything to a client. */
@@ -67,6 +68,8 @@ export class RoomService {
   private disposed = false;
 
   constructor(private readonly deps: Dependencies) {
+    if (!Number.isSafeInteger(deps.maxRooms ?? 500) || (deps.maxRooms ?? 500) < 1)
+      throw new Error('O limite de salas deve ser um inteiro positivo.');
     this.policy = validateRoomPolicy(deps.policy ?? DEFAULT_ROOM_POLICY);
   }
 
@@ -75,6 +78,8 @@ export class RoomService {
     const profile = this.profile(rawProfile),
       settings = this.settings(rawSettings);
     if (this.registry.roomOf(actor.playerId)) throw new PublicCommandError('INVALID_PHASE');
+    if (this.registry.all().length >= (this.deps.maxRooms ?? 500))
+      throw new PublicCommandError('SERVER_BUSY');
     const roomId = roomIdSchema.parse(this.deps.runtime.ids.next());
     const code = generateUniqueRoomCode(
       this.deps.runtime.random,

@@ -1,6 +1,7 @@
 import cors from '@fastify/cors';
 import {
   createDomainError,
+  actionIdSchema,
   healthResponseSchema,
   PROTOCOL_VERSION,
   serverEventSchema,
@@ -31,6 +32,12 @@ import { PublicCommandError } from './command-error.js';
 import { closeConnections } from './platform/realtime/close-connections.js';
 import { LocalQuestionRepository } from './platform/local-question.repository.js';
 import type { QuestionRepository } from './modules/questions/question.repository.js';
+import {
+  DEFAULT_TRAFFIC_POLICY,
+  TrafficLimiter,
+  validateTrafficPolicy,
+  type TrafficPolicy,
+} from './platform/traffic-policy.js';
 
 export interface AppDependencies {
   config?: ServerConfig;
@@ -39,12 +46,14 @@ export interface AppDependencies {
   handlers?: CommandHandlers;
   logStream?: FastifyLoggerOptions['stream'];
   roomPolicy?: RoomPolicy;
+  trafficPolicy?: TrafficPolicy;
   questions?: QuestionRepository;
   questionCatalogFile?: string | URL;
 }
 
 export function buildApp(deps: AppDependencies = {}) {
   const config = validateConfig(deps.config ?? loadConfig());
+  const traffic = validateTrafficPolicy(deps.trafficPolicy ?? DEFAULT_TRAFFIC_POLICY);
   const app = Fastify({
     bodyLimit: config.httpBodyLimit,
     logController: new LogController({ disableRequestLogging: true }),
@@ -84,12 +93,19 @@ export function buildApp(deps: AppDependencies = {}) {
     ids: runtime.ids,
     tokens: deps.sessionTokens ?? createSystemSessionTokens(),
     ttlMs: config.guestSessionTtlMs,
+    maxSessions: traffic.maxSessions,
   });
   const connections = new ActiveConnections(sessions, runtime.scheduler);
   const localQuestions = new LocalQuestionRepository(deps.questionCatalogFile);
   const questions = deps.questions ?? localQuestions;
   const allowed = new Set(config.allowedOrigins);
   const acceptsOrigin = (origin: string | undefined) => origin === undefined || allowed.has(origin);
+  const limiter = (limit: number) =>
+    new TrafficLimiter(runtime.clock, traffic.windowMs, limit, traffic.maxTrackedKeys);
+  const sessionCreates = limiter(traffic.sessionCreatesPerWindow);
+  const sessionRequests = limiter(traffic.sessionRequestsPerWindow);
+  const commands = limiter(traffic.commandsPerWindow);
+  const handshakes = limiter(traffic.handshakesPerWindow);
 
   app.addHook('onRequest', async (request, reply) => {
     if (!acceptsOrigin(request.headers.origin))
@@ -101,6 +117,8 @@ export function buildApp(deps: AppDependencies = {}) {
     allowedHeaders: ['Content-Type', 'Authorization'],
   });
   app.setErrorHandler((error, _request, reply) => {
+    if (error instanceof PublicCommandError && error.code === 'SERVER_BUSY')
+      return reply.code(503).send({ error: createDomainError(error.code) });
     const status =
       error && typeof error === 'object' && 'statusCode' in error ? error.statusCode : undefined;
     if (status === 400 || status === 413 || status === 415)
@@ -113,7 +131,11 @@ export function buildApp(deps: AppDependencies = {}) {
   );
 
   app.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
-  registerSessionRoutes(app, sessions);
+  registerSessionRoutes(app, sessions, {
+    creates: sessionCreates,
+    requests: sessionRequests,
+    windowMs: traffic.windowMs,
+  });
   app.addHook('onReady', async () => {
     if (!deps.questions) await localQuestions.load();
     sessions.startSweeping();
@@ -130,12 +152,18 @@ export function buildApp(deps: AppDependencies = {}) {
       allowedHeaders: ['Content-Type', 'Authorization'],
     },
     allowRequest: (request, callback) =>
-      callback(null, !closing && acceptsOrigin(request.headers.origin)),
+      callback(
+        null,
+        !closing &&
+          realtime.engine.clientsCount < traffic.maxConnections &&
+          acceptsOrigin(request.headers.origin) &&
+          handshakes.take(request.socket.remoteAddress ?? 'unknown'),
+      ),
   });
   const isCurrent = (actor: RoomActor) =>
     connections.isCurrent(actor.playerId, actor.connectionId) &&
     realtime.sockets.sockets.get(actor.connectionId)?.connected === true;
-  // This one-round prototype is available only in development/test, never as the full game.
+  // Experimental policies stay in development/test until the product decisions are confirmed.
   const matches =
     config.environment === 'production'
       ? undefined
@@ -147,6 +175,7 @@ export function buildApp(deps: AppDependencies = {}) {
         });
   const rooms = new RoomService({
     runtime,
+    maxRooms: traffic.maxRooms,
     ...(matches ? { quiz: matches } : {}),
     ...(deps.roomPolicy ? { policy: deps.roomPolicy } : {}),
     isCurrentActor: (actor) => !closing && isCurrent(actor),
@@ -240,9 +269,31 @@ export function buildApp(deps: AppDependencies = {}) {
       },
       onInternalError: () => app.log.error('Falha interna ao processar comando.'),
     });
+    let pendingCommands = 0;
     socket.onAny((event: unknown, ...args: unknown[]) => {
       const acknowledge = args.at(-1);
+      if (closing) return;
+      // Charge malformed and unacknowledged packets too; reconnecting keeps the same budget.
+      const admitted = commands.take(
+        proof ? `player:${proof.playerId}` : `ip:${socket.handshake.address}`,
+      );
+      if (!admitted || pendingCommands >= traffic.maxPendingCommands) {
+        if (typeof acknowledge === 'function') {
+          const raw = args[0];
+          const id = actionIdSchema.safeParse(
+            raw && typeof raw === 'object' && 'actionId' in raw ? raw.actionId : null,
+          );
+          acknowledge({
+            protocolVersion: PROTOCOL_VERSION,
+            actionId: id.success ? id.data : null,
+            status: 'error',
+            error: createDomainError('RATE_LIMITED'),
+          });
+        }
+        return;
+      }
       if (closing || typeof acknowledge !== 'function') return;
+      pendingCommands++;
       const execution = dispatch(event, args.length === 2 ? args[0] : undefined, () =>
         proof ? connections.identify(proof, socket.id) : null,
       )
@@ -251,6 +302,9 @@ export function buildApp(deps: AppDependencies = {}) {
         })
         .catch(() => {
           app.log.error('Falha ao confirmar comando.');
+        })
+        .finally(() => {
+          pendingCommands--;
         });
       running.add(execution);
       void execution.finally(() => running.delete(execution));
@@ -263,6 +317,10 @@ export function buildApp(deps: AppDependencies = {}) {
     await closeConnections(realtime.sockets.sockets.values());
     realtime.engine.close();
     sessions.dispose();
+    sessionCreates.clear();
+    sessionRequests.clear();
+    commands.clear();
+    handshakes.clear();
     await runtime.scheduler.dispose();
     await Promise.allSettled(running);
   });

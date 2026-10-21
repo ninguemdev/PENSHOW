@@ -6,6 +6,7 @@ import { buildApp } from '../../app.js';
 import type { AppDependencies } from '../../app.js';
 import { createTestRuntime } from '../../test-support/runtime.js';
 import { loadConfig, SOCKET_PATH } from '../config.js';
+import { DEFAULT_TRAFFIC_POLICY } from '../traffic-policy.js';
 
 const actionId = '00000000-0000-4000-8000-000000000002';
 const roomId = '00000000-0000-4000-8000-000000000003';
@@ -55,6 +56,97 @@ async function connect(
 }
 
 describe('transporte Socket.IO real em porta efêmera', () => {
+  it('limita novas tentativas de handshake por IP mesmo após fechar a conexão', async () => {
+    const { app, address, time } = await start({
+      trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, handshakesPerWindow: 1 },
+    });
+    const first = await connect(address);
+    first.disconnect();
+    await vi.waitFor(() => expect(app.realtime.engine.clientsCount).toBe(0));
+    await expect(connect(address)).rejects.toBeInstanceOf(Error);
+    await time.advanceTo(61_000);
+    expect((await connect(address)).connected).toBe(true);
+  });
+  it('limita spam anônimo, inclusive sem ack e inválido, e recupera o orçamento no prazo', async () => {
+    const { address, time } = await start({
+      trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, commandsPerWindow: 2 },
+    });
+    const client = await connect(address);
+    client.emit('unknown', { private: 'segredo' });
+    expect(await client.timeout(1500).emitWithAck('unknown', {})).toMatchObject({
+      status: 'error',
+      error: { code: 'UNKNOWN_EVENT' },
+    });
+    expect(await client.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      status: 'error',
+      actionId,
+      error: { code: 'RATE_LIMITED' },
+    });
+    const replacement = await connect(address);
+    expect(await replacement.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      error: { code: 'RATE_LIMITED' },
+    });
+    await time.advanceTo(61_000);
+    expect(await replacement.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      status: 'ok',
+    });
+  });
+  it('preserva limite da identidade ao substituir conexão sem penalizar outro jogador', async () => {
+    const { app, address } = await start({
+      trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, commandsPerWindow: 1 },
+    });
+    const session = app.sessions.create();
+    const first = await connect(address, 'websocket', undefined, session.token);
+    expect(await first.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      status: 'ok',
+    });
+    const replacement = await connect(address, 'websocket', undefined, session.token);
+    expect(await replacement.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      error: { code: 'RATE_LIMITED' },
+    });
+    const other = await connect(address, 'websocket', undefined, app.sessions.create().token);
+    expect(await other.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      status: 'ok',
+    });
+  });
+  it('limita comandos em andamento antes de executar outro serviço e libera após falha', async () => {
+    const started = Promise.withResolvers<void>(),
+      finish = Promise.withResolvers<void>();
+    const service = vi.fn(async () => {
+      started.resolve();
+      await finish.promise;
+      throw new Error('segredo interno');
+    });
+    const { app, address } = await start({
+      trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, maxPendingCommands: 1 },
+      handlers: { 'room:leave': service },
+    });
+    const client = await connect(address, 'websocket', undefined, app.sessions.create().token);
+    const first = client.timeout(1500).emitWithAck('room:leave', leave);
+    try {
+      await started.promise;
+      expect(await client.timeout(1500).emitWithAck('room:leave', leave)).toMatchObject({
+        error: { code: 'RATE_LIMITED' },
+      });
+      expect(service).toHaveBeenCalledTimes(1);
+    } finally {
+      finish.resolve();
+    }
+    expect(await first).toMatchObject({ error: { code: 'INTERNAL_ERROR' } });
+    expect(await client.timeout(1500).emitWithAck('time:sync', sync)).toMatchObject({
+      status: 'ok',
+    });
+  });
+  it('limita conexões Engine.IO e libera vaga após desconexão', async () => {
+    const { app, address } = await start({
+      trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, maxConnections: 1 },
+    });
+    const first = await connect(address);
+    await expect(connect(address)).rejects.toBeInstanceOf(Error);
+    first.disconnect();
+    await vi.waitFor(() => expect(app.realtime.engine.clientsCount).toBe(0));
+    expect((await connect(address)).connected).toBe(true);
+  });
   it.each(['polling', 'websocket'] as const)(
     'responde time:sync em %s pelo caminho isolado',
     async (transport) => {

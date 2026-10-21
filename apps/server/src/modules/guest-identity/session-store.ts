@@ -1,6 +1,7 @@
 import { guestSessionTokenSchema, playerIdSchema } from '@penshow/shared';
 import type { GuestSession, IssuedGuestSession, PlayerId } from '@penshow/shared';
 import type { CancelTask, Clock, IdGenerator, Scheduler, SessionTokenCodec } from '../../ports.js';
+import { PublicCommandError } from '../../command-error.js';
 
 export const SESSION_SWEEP_INTERVAL_MS = 600000;
 
@@ -19,6 +20,7 @@ interface SessionStoreDependencies {
   ids: IdGenerator;
   tokens: SessionTokenCodec;
   ttlMs: number;
+  maxSessions?: number;
 }
 
 export class GuestSessionStore {
@@ -28,12 +30,19 @@ export class GuestSessionStore {
   private disposed = false;
 
   constructor(private readonly deps: SessionStoreDependencies) {
+    if (!Number.isSafeInteger(deps.maxSessions ?? 10_000) || (deps.maxSessions ?? 10_000) < 1)
+      throw new Error('O limite de sessões deve ser um inteiro positivo.');
     if (!Number.isSafeInteger(deps.ttlMs) || deps.ttlMs < 1000 || deps.ttlMs > 604800000)
       throw new Error('A validade da sessão deve estar entre 1 segundo e 7 dias.');
   }
 
   create(): IssuedGuestSession {
     if (this.disposed) throw new Error('O registro de sessões foi encerrado.');
+    if (this.sessions.size >= (this.deps.maxSessions ?? 10_000)) {
+      for (const hash of this.sessions.keys()) this.find(hash);
+      if (this.sessions.size >= (this.deps.maxSessions ?? 10_000))
+        throw new PublicCommandError('SERVER_BUSY');
+    }
     for (let attempt = 0; attempt < 5; attempt++) {
       const token = guestSessionTokenSchema.parse(this.deps.tokens.issue());
       const tokenHash = this.deps.tokens.hash(token);

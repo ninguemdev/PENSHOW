@@ -8,6 +8,7 @@ import {
 } from '@penshow/shared';
 import type { FastifyInstance, FastifyRequest } from 'fastify';
 import type { GuestSessionStore } from './session-store.js';
+import type { TrafficLimiter } from '../../platform/traffic-policy.js';
 
 export function bearerToken(authorization: string | undefined) {
   const match = authorization?.match(/^Bearer ([^\s]+)$/iu);
@@ -15,11 +16,22 @@ export function bearerToken(authorization: string | undefined) {
   return token.success ? token.data : null;
 }
 
-export function registerSessionRoutes(app: FastifyInstance, sessions: GuestSessionStore) {
+export function registerSessionRoutes(
+  app: FastifyInstance,
+  sessions: GuestSessionStore,
+  limits: { creates: TrafficLimiter; requests: TrafficLimiter; windowMs: number },
+) {
   app.register(async (routes) => {
-    routes.addHook('onRequest', async (_request, reply) => {
+    routes.addHook('onRequest', async (request, reply) => {
       reply.header('Cache-Control', 'no-store');
       reply.header('Pragma', 'no-cache');
+      const limiter =
+        request.routeOptions.url === '/guest-sessions' ? limits.creates : limits.requests;
+      if (!limiter.take(request.ip))
+        return reply
+          .header('Retry-After', Math.ceil(limits.windowMs / 1000))
+          .code(429)
+          .send({ error: createDomainError('RATE_LIMITED') });
     });
     routes.post('/guest-sessions', async (request, reply) => {
       if (

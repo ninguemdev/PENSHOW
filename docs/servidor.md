@@ -14,6 +14,7 @@ O servidor executa Fastify e Socket.IO no mesmo servidor HTTP. Saúde, `time:syn
 | `handlers` | Registro de adaptadores de comando, indexado pelos eventos contratados |
 | `logStream` | Destino dos logs, inclusive captura nos testes |
 | `roomPolicy` | Prazos tipados de anfitrião, ausência e duração máxima de salas |
+| `trafficPolicy` | Limites internos congelados de frequência, pendências, sessões, conexões e salas |
 | `questions` | Porta de leitura já preparada, para testes ou outro adaptador local |
 | `questionCatalogFile` | Caminho/URL de arquivo privado para o adaptador local; não é parâmetro HTTP |
 
@@ -66,7 +67,7 @@ Um evento nomeado deve levar exatamente um envelope e um callback de confirmaç�
 
 Os demais comandos válidos exigem prova de sessão válida e conexão ativa. O handshake recebe somente `{ token }` ou `{}` para consulta anônima; nomes ou IDs declarados não autenticam. O token em claro é removido de `handshake.auth` após a validação. Um comando cujo adaptador ainda não está registrado recebe `INVALID_PHASE` quando autenticado. Não há comandos de jogo com sucesso fictício.
 
-Mensagem maior que `maxHttpBufferSize` é rejeitada pelo Engine.IO, podendo encerrar a conexão antes de existir confirmação. Um envelope recebido, mas inválido ou maior que o limite interno, recebe `INVALID_PAYLOAD`. Eventos desconhecidos recebem `UNKNOWN_EVENT`. Duração/renovação estão em [sessões](sessoes.md); autorização de sala, fila, deduplicação e rate limits específicos serão adicionados nas tarefas correspondentes.
+Mensagem maior que `maxHttpBufferSize` é rejeitada pelo Engine.IO, podendo encerrar a conexão antes de existir confirmação. Um envelope recebido, mas inválido ou maior que o limite interno, recebe `INVALID_PAYLOAD`. Eventos desconhecidos recebem `UNKNOWN_EVENT`, dentro do orçamento de frequência. A [auditoria T28](privacidade-limites-e-concorrencia.md) documenta os limites por identidade/IP, pendências, capacidade e sua recuperação. Excesso de frequência recebe `RATE_LIMITED`; falta de capacidade de sessão/sala recebe `SERVER_BUSY`. Autorização e contexto são revalidados na fila. Duração/renovação estão em [sessões](sessoes.md).
 
 As opções de caminho, limite e origem seguem a [documentação de opções do Socket.IO](https://socket.io/docs/v4/server-options/); a validação de origem também considera a [distinção entre CORS e WebSocket](https://socket.io/docs/v4/handling-cors/). Foram instalados e verificados Socket.IO/cliente 4.8.4 e `@fastify/cors` 11.3.1 com Fastify 5.12.7.
 
