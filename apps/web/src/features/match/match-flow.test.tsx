@@ -1,4 +1,4 @@
-import { act, render, within } from '@testing-library/react';
+import { act, fireEvent, render, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import {
@@ -8,6 +8,7 @@ import {
   type RoomView,
 } from '@penshow/shared';
 import { RoomPage } from '../lobby/room-page';
+import { Dialog } from '../../ui/dialog';
 import { strings } from '../../strings/pt-BR';
 import { testStores, issuedSession, profile } from '../../test/fixtures';
 import {
@@ -58,6 +59,105 @@ async function harness(view = matchView()) {
 }
 
 describe('telas do quiz clássico', () => {
+  it('ignora composição, repetição e teclas sem alternativa em perguntas booleanas', async () => {
+    const source = phases().open;
+    const f = await harness(
+      matchView({
+        ...source,
+        question: {
+          ...source.question,
+          type: 'boolean',
+          options: source.question.options.slice(0, 2),
+        },
+      }),
+    );
+    const heading = f.ui.getByRole('heading', { name: source.question.prompt });
+    fireEvent.keyDown(heading, { key: '1', repeat: true });
+    fireEvent.keyDown(heading, { key: '2', isComposing: true });
+    await userEvent.keyboard('34');
+    expect(f.commands).toHaveLength(0);
+    await userEvent.keyboard('2');
+    expect(f.commands).toHaveLength(1);
+    expect(f.commands[0]).toMatchObject({ event: 'answer:submit', payload: { optionId: option2 } });
+  });
+  it.each(['1', '2', '3', '4'])(
+    'responde com %s dentro da etapa e impede uma segunda escolha',
+    async (key) => {
+      const f = await harness(matchView(phases().open));
+      const options = within(f.ui.getByRole('group', { name: strings.match.answer })).getAllByRole(
+        'button',
+      );
+      const index = Number(key) - 1;
+      expect(document.activeElement).toBe(
+        f.ui.getByRole('heading', { name: 'Pergunta recebida 1?' }),
+      );
+      await userEvent.keyboard(key);
+      expect(f.commands).toHaveLength(1);
+      expect(f.commands[0]).toMatchObject({
+        event: 'answer:submit',
+        payload: { optionId: phases().open.question.options[index]!.optionId },
+      });
+      expect(options[index]!.getAttribute('aria-pressed')).toBe('true');
+      expect(f.ui.getByText(strings.match.recorded).closest('[role="status"]')).not.toBeNull();
+      await userEvent.keyboard('1234');
+      expect(f.commands).toHaveLength(1);
+    },
+  );
+  it('não responde fora da etapa, com modificadores, em campos editáveis ou durante diálogo', async () => {
+    const f = await harness(matchView(phases().open));
+    f.ui.getByRole('button', { name: strings.room.leave }).focus();
+    await userEvent.keyboard('1');
+    const stage = f.container.querySelector('.match-stage')!;
+    for (const tag of ['input', 'textarea', 'select', 'div']) {
+      const field = document.createElement(tag);
+      if (tag === 'div') {
+        field.setAttribute('contenteditable', 'true');
+        field.tabIndex = 0;
+      }
+      stage.append(field);
+      field.focus();
+      await userEvent.keyboard('1234');
+      field.remove();
+    }
+    f.ui.getByRole('heading', { name: 'Pergunta recebida 1?' }).focus();
+    await userEvent.keyboard('{Control>}1{/Control}{Alt>}2{/Alt}{Shift>}3{/Shift}');
+    const modal = render(
+      <Dialog open title="Ajuda" onClose={() => undefined}>
+        <button>Fechar</button>
+      </Dialog>,
+    );
+    const dialog = within(modal.container).getByRole('dialog');
+    const focused = document.activeElement;
+    f.push(matchView(phases(2).open, 3));
+    expect(document.activeElement).toBe(focused);
+    expect(dialog.contains(document.activeElement)).toBe(true);
+    await userEvent.keyboard('1234');
+    expect(f.commands.filter((command) => command.event === 'answer:submit')).toHaveLength(0);
+  });
+  it('preserva digitação quando o estado muda e anuncia resultado sem depender de cor', async () => {
+    const f = await harness(pressureView('open'));
+    const field = document.createElement('input');
+    f.container.append(field);
+    field.focus();
+    f.push(pressureView('reveal', 3));
+    expect(document.activeElement).toBe(field);
+    const announcement = f.container.querySelector('[data-result-announcement]')!;
+    expect(announcement.getAttribute('role')).toBe('status');
+    expect(announcement.textContent).toContain('Joana: −150 Explosão');
+    expect(announcement.textContent).toContain(strings.match.correct);
+    field.remove();
+  });
+  it('atalhos respeitam desconexão, prazo encerrado e espectador', async () => {
+    const f = await harness(matchView(phases().open));
+    act(() => f.callbacks()!.status('offline'));
+    await userEvent.keyboard('1');
+    act(() => f.callbacks()!.status('online'));
+    f.push(matchView({ ...phases().open, opensAt: 0, deadlineAt: 1000 }, 3));
+    await userEvent.keyboard('2');
+    f.push(matchView({ ...phases().open, ownAnswer: { status: 'unavailable' } }, 4, spectatorId));
+    await userEvent.keyboard('3');
+    expect(f.commands.filter((command) => command.event === 'answer:submit')).toHaveLength(0);
+  });
   it('espera por retorno é explícita e não permite ação sobre a janela encerrada', async () => {
     const view = matchView(phases().instructions);
     if (view.state.status !== 'match') throw new Error();

@@ -6,6 +6,8 @@ import { FinalEntry } from './final-entry';
 import { QuestionText } from './question';
 import type { RoundProps } from './round-props';
 import { Podium } from '../results/podium';
+import { AnswerOptions } from './answer-options';
+import { QuestionFeedback } from './question-feedback';
 
 type FinalStage = Extract<MatchStage, { finalists: unknown }>;
 
@@ -37,13 +39,8 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
         </p>
       )}
       <section aria-label={strings.final.lives}>
-        <h3>{strings.final.lives}</h3>
-        <ul
-          className="final-lives"
-          aria-label={strings.final.lives}
-          aria-live="polite"
-          aria-atomic="true"
-        >
+        <h2>{strings.final.lives}</h2>
+        <ul className="final-lives" aria-label={strings.final.lives}>
           {stage.finalists.map((player) => (
             <li key={player.playerId}>
               <strong>{name(player.playerId)}</strong>
@@ -89,59 +86,56 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
             <h2 tabIndex={-1}>{strings.final.target}</h2>
           )}
           {stage.phase === 'final-resolution' && <h2 tabIndex={-1}>{strings.final.resolution}</h2>}
-          {'question' in stage && <QuestionText question={stage.question} />}
-          {'reveal' in stage && <FinalReveal stage={stage} />}
-          {stage.phase === 'final-question-reading' && (
-            <>
-              <p role="status">{strings.match.readingHelp}</p>
-              <Timer deadline={stage.opensAt} now={now} offset={controls.offset} />
-            </>
+          {stage.phase === 'final-question-open' && (
+            <QuestionFeedback
+              deadline={stage.deadlineAt}
+              now={now}
+              offset={controls.offset}
+              message={
+                attempt
+                  ? attempt.status === 'sending'
+                    ? strings.match.sending
+                    : attempt.status === 'rejected'
+                      ? strings.final.rejected
+                      : attempt.status === 'recorded' && attempt.acceptance === 'first-valid'
+                        ? strings.final.accepted
+                        : strings.match.uncertain
+                  : undefined
+              }
+            />
           )}
+          {stage.phase === 'final-question-reading' && (
+            <QuestionFeedback
+              deadline={stage.opensAt}
+              now={now}
+              offset={controls.offset}
+              message={strings.match.readingHelp}
+            />
+          )}
+          {'question' in stage && <QuestionText question={stage.question} />}
           {accepted && <p role="status">{strings.final.first(name(accepted.playerId))}</p>}
           {stage.phase === 'final-question-open' && (
             <>
               <p id="final-answer-help">{strings.final.answerHelp}</p>
-              <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
               {active ? (
-                <div
-                  className="quiz-options"
-                  role="group"
-                  aria-label={strings.match.answer}
-                  aria-describedby="final-answer-help"
-                >
-                  {stage.question.options.map((option) => (
-                    <Button
-                      key={option.optionId}
-                      aria-pressed={attempt?.optionId === option.optionId}
-                      disabled={
-                        controls.blocked ||
-                        !!attempt ||
-                        expired ||
-                        now + controls.offset < stage.opensAt
-                      }
-                      onClick={() => void controls.answer(option.optionId)}
-                    >
-                      {option.text}
-                    </Button>
-                  ))}
-                </div>
+                <AnswerOptions
+                  options={stage.question.options}
+                  selected={attempt?.optionId}
+                  helpId="final-answer-help"
+                  disabled={
+                    controls.blocked ||
+                    !!attempt ||
+                    expired ||
+                    now + controls.offset < stage.opensAt
+                  }
+                  onAnswer={(optionId) => void controls.answer(optionId)}
+                />
               ) : (
                 <ul>
                   {stage.question.options.map((option) => (
                     <li key={option.optionId}>{option.text}</li>
                   ))}
                 </ul>
-              )}
-              {attempt && (
-                <p role="status">
-                  {attempt.status === 'sending'
-                    ? strings.match.sending
-                    : attempt.status === 'rejected'
-                      ? strings.final.rejected
-                      : attempt.status === 'recorded' && attempt.acceptance === 'first-valid'
-                        ? strings.final.accepted
-                        : strings.match.uncertain}
-                </p>
               )}
               {attempt?.status === 'unconfirmed' && (
                 <Button
@@ -157,7 +151,20 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
           {stage.phase === 'final-target-selection' && (
             <>
               <p>{strings.final.chooser(name(stage.acceptedAnswer.playerId))}</p>
-              <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
+              <QuestionFeedback
+                deadline={stage.deadlineAt}
+                now={now}
+                offset={controls.offset}
+                message={
+                  controls.targetAttempt
+                    ? controls.targetAttempt.status === 'sending'
+                      ? strings.match.theftSending
+                      : controls.targetAttempt.status === 'recorded'
+                        ? strings.final.targetRecorded
+                        : strings.match.theftUncertain
+                    : undefined
+                }
+              />
               {active && view.viewerId === stage.acceptedAnswer.playerId && (
                 <div className="quiz-options" role="group" aria-label={strings.final.target}>
                   {stage.eligibleTargetIds.map((id) => (
@@ -176,15 +183,6 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
                     </Button>
                   ))}
                 </div>
-              )}
-              {controls.targetAttempt && (
-                <p role="status">
-                  {controls.targetAttempt.status === 'sending'
-                    ? strings.match.theftSending
-                    : controls.targetAttempt.status === 'recorded'
-                      ? strings.final.targetRecorded
-                      : strings.match.theftUncertain}
-                </p>
               )}
               {controls.targetAttempt?.status === 'unconfirmed' && (
                 <Button
@@ -214,6 +212,7 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
               <p>{strings.final.pendingHelp}</p>
             </>
           )}
+          {'reveal' in stage && <FinalReveal stage={stage} />}
           {expired && <p role="status">{strings.match.waitingUpdate}</p>}
         </>
       )}
@@ -259,7 +258,7 @@ function FinalResult({
       player.playerId === (result.outcome === 'attack' ? result.targetPlayerId : result.playerId),
   )!;
   return (
-    <div role="status" aria-atomic="true">
+    <div>
       <p>
         {result.outcome === 'wrong-answer'
           ? strings.final.wrong(name(result.playerId))

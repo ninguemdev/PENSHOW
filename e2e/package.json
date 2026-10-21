@@ -6,9 +6,11 @@
   "scripts": {
     "smoke": "playwright test",
     "complete": "playwright test tests/classic-mode.spec.ts tests/classic-failures.spec.ts tests/classic-capacity.spec.ts",
+    "accessibility": "playwright test tests/accessibility.spec.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "@penshow/server": "workspace:*",
     "@penshow/shared": "workspace:*",
     "@playwright/test": "1.64.1",

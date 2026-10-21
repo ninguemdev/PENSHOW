@@ -1,7 +1,7 @@
 import type { MatchStage } from '@penshow/shared';
 import { strings } from '../../strings/pt-BR';
 import { Button } from '../../ui/button';
-import { Timer } from '../../ui/timer';
+import { QuestionFeedback } from './question-feedback';
 import type { RoundProps } from './round-props';
 
 export function TheftTarget({
@@ -19,7 +19,20 @@ export function TheftTarget({
     <>
       <h2 tabIndex={-1}>{strings.match.theftTargetTitle}</h2>
       <p>{strings.match.theftChooser(attacker?.profile.nickname ?? strings.match.player)}</p>
-      <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
+      <QuestionFeedback
+        deadline={stage.deadlineAt}
+        now={now}
+        offset={controls.offset}
+        message={
+          attempt
+            ? attempt.status === 'sending'
+              ? strings.match.theftSending
+              : attempt.status === 'recorded'
+                ? strings.match.theftRecorded
+                : strings.match.theftUncertain
+            : undefined
+        }
+      />
       {permitted && (
         <div role="group" aria-label={strings.match.theftTargetTitle} className="quiz-options">
           {stage.eligibleTargetIds.map((playerId) => (
@@ -37,15 +50,6 @@ export function TheftTarget({
             </Button>
           ))}
         </div>
-      )}
-      {attempt && (
-        <p role="status">
-          {attempt.status === 'sending'
-            ? strings.match.theftSending
-            : attempt.status === 'recorded'
-              ? strings.match.theftRecorded
-              : strings.match.theftUncertain}
-        </p>
       )}
       {attempt?.status === 'unconfirmed' && (
         <Button

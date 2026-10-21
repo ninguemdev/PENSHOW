@@ -3,6 +3,8 @@ import { strings } from '../../strings/pt-BR';
 import { Button } from '../../ui/button';
 import { Timer } from '../../ui/timer';
 import type { RoundProps } from './round-props';
+import { AnswerOptions } from './answer-options';
+import { QuestionFeedback } from './question-feedback';
 
 export function QuestionReading({
   stage,
@@ -12,12 +14,16 @@ export function QuestionReading({
   return (
     <>
       <p className="eyebrow">{strings.match.reading}</p>
+      <QuestionFeedback
+        deadline={stage.opensAt}
+        now={now}
+        offset={controls.offset}
+        message={strings.match.readingHelp}
+      />
       <QuestionText question={stage.question} />
       {stage.ownWager?.status === 'submitted' && (
         <p>{strings.match.wagerOwn(stage.ownWager.amount)}</p>
       )}
-      <p role="status">{strings.match.readingHelp}</p>
-      <Timer deadline={stage.opensAt} now={now} offset={controls.offset} />
     </>
   );
 }
@@ -52,50 +58,42 @@ export function QuestionAnswer({
   return (
     <>
       <p className="eyebrow">{strings.match.answer}</p>
+      <QuestionFeedback
+        deadline={stage.deadlineAt}
+        now={now}
+        offset={controls.offset}
+        message={
+          status
+            ? strings.match[
+                status === 'sending' ? 'sending' : status === 'recorded' ? 'recorded' : 'uncertain'
+              ]
+            : undefined
+        }
+      />
       <QuestionText question={stage.question} />
       {stage.ownWager?.status === 'submitted' && (
         <p>{strings.match.wagerOwn(stage.ownWager.amount)}</p>
       )}
-      <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
       <p id="answer-help">{strings.match.answerHelp}</p>
-      <div
-        className="quiz-options"
-        role="group"
-        aria-label={strings.match.answer}
-        aria-describedby="answer-help"
-      >
-        {stage.question.options.map((option) => (
-          <Button
-            key={option.optionId}
-            aria-pressed={choice === option.optionId}
-            disabled={
-              controls.blocked ||
-              stage.ownAnswer.status !== 'pending' ||
-              !!controls.attempt ||
-              expired ||
-              now + controls.offset < stage.opensAt
-            }
-            onClick={() => void controls.answer(option.optionId)}
-          >
-            {option.text}
-          </Button>
-        ))}
-      </div>
+      <AnswerOptions
+        options={stage.question.options}
+        selected={choice}
+        helpId="answer-help"
+        disabled={
+          controls.blocked ||
+          stage.ownAnswer.status !== 'pending' ||
+          !!controls.attempt ||
+          expired ||
+          now + controls.offset < stage.opensAt
+        }
+        onAnswer={(optionId) => void controls.answer(optionId)}
+      />
       <p role="status">
         {strings.match.answered(
           stage.answeredPlayerIds.length,
           stage.respondents.kind === 'single-player' ? 1 : match.scoreboard.length,
         )}
       </p>
-      {status && (
-        <p role="status" className="answer-status">
-          {
-            strings.match[
-              status === 'sending' ? 'sending' : status === 'recorded' ? 'recorded' : 'uncertain'
-            ]
-          }
-        </p>
-      )}
       {status === 'unconfirmed' && !controls.waitingView && (
         <Button
           className="secondary"

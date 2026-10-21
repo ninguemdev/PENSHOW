@@ -41,7 +41,7 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T27 | [Catálogo de 300 perguntas para testes completos](./T27-catalogo-de-teste-completo.md) | T11, T12 | M3 | ✅ |
 | T28 | [Privacidade, limites e concorrência](./T28-privacidade-limites-e-concorrencia.md) | T26 | M4 | ✅ |
 | T29 | [Testes ponta a ponta da partida completa](./T29-e2e-partida-completa.md) | T26, T27, T28, T36 | M4 | 🟨 |
-| T30 | [Acessibilidade, celular e acabamento visual](./T30-acessibilidade-e-responsividade.md) | T25, T18, T19, T20, T21 | M5 | ⬜ |
+| T30 | [Acessibilidade, celular e acabamento visual](./T30-acessibilidade-e-responsividade.md) | T25, T18, T19, T20, T21 | M5 | 🟨 |
 | T31 | [Sons e preferências do jogador](./T31-sons-e-preferencias.md) | T25, T21 | M5 | ⬜ |
 | T32 | [Testes com grupos e equilíbrio](./T32-testes-de-grupo-e-equilibrio.md) | T29, T30, T31 | M5 | ⬜ |
 | T33 | [Expansão para 5.000 perguntas revisadas](./T33-expansao-para-5000-perguntas.md) | T27 | M6 | ⬜ |
