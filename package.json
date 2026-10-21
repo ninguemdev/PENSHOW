@@ -21,6 +21,7 @@
     "questions:validate": "node scripts/validate-questions.mjs",
     "questions:publish": "node scripts/publish-questions.mjs",
     "questions:check": "node scripts/publish-questions.mjs --check",
+    "questions:simulate": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-question-stock.ts",
     "avatars:check": "pnpm --filter @penshow/shared build && node scripts/check-avatars.mjs",
     "test": "pnpm test:content && pnpm test:assets && pnpm -r test",
     "test:e2e": "pnpm questions:check && pnpm build && pnpm test:e2e:run",

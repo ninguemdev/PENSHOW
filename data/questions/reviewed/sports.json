@@ -514,5 +514,1639 @@
         "uniqueAnswer": true
       }
     }
+  },
+  {
+    "id": "questionados:sports:5ec57d7a31387d10",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Ao vencer a Copa do Mundo masculina de 2002, o Brasil chegou a quantos títulos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cinco"
+      },
+      {
+        "id": "option-1",
+        "text": "Três"
+      },
+      {
+        "id": "option-2",
+        "text": "Quatro"
+      },
+      {
+        "id": "option-3",
+        "text": "Seis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/pt/news/articles/copa-2002-brasil-campeao-penta",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:145d9e013efe3b15",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube mineiro de futebol tem o galo como mascote?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atlético Mineiro"
+      },
+      {
+        "id": "option-1",
+        "text": "Cruzeiro"
+      },
+      {
+        "id": "option-2",
+        "text": "América Mineiro"
+      },
+      {
+        "id": "option-3",
+        "text": "Villa Nova"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://atletico.com.br/institucional/identidade/simbolos-e-marcas/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:3525634232f8a98e",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país nasceu Cristiano Ronaldo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-1",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-2",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-3",
+        "text": "Espanha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 8,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.uefa.com/european-qualifiers/teams/players/63706--cristiano-ronaldo/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:9f783aeeca78dd34",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual número de camisa ficou mais associado a Michael Jordan no Chicago Bulls?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "23"
+      },
+      {
+        "id": "option-1",
+        "text": "24"
+      },
+      {
+        "id": "option-2",
+        "text": "32"
+      },
+      {
+        "id": "option-3",
+        "text": "33"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nba.com/stats/player/893/scoring",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:a0ab128f0e772e8d",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual piloto brasileiro morreu após um acidente em Ímola, em 1994?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ayrton Senna"
+      },
+      {
+        "id": "option-1",
+        "text": "Nelson Piquet"
+      },
+      {
+        "id": "option-2",
+        "text": "Emerson Fittipaldi"
+      },
+      {
+        "id": "option-3",
+        "text": "Rubens Barrichello"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.formula1.com/en/latest/article/who-was-ayrton-senna-and-why-is-he-regarded-as-one-of-f1s-greatest-drivers.2GZEdmgHd9mPeCae2n6n4K",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:0df15e2c8b5887a0",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube inaugurou o estádio Camp Nou em 1957?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Barcelona"
+      },
+      {
+        "id": "option-1",
+        "text": "Real Madrid"
+      },
+      {
+        "id": "option-2",
+        "text": "Atlético de Madrid"
+      },
+      {
+        "id": "option-3",
+        "text": "Valencia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou/history",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:d6d8ac480d74cd98",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "No futebol, quantos gols um jogador marca na mesma partida para completar um hat-trick?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Três"
+      },
+      {
+        "id": "option-1",
+        "text": "Dois"
+      },
+      {
+        "id": "option-2",
+        "text": "Quatro"
+      },
+      {
+        "id": "option-3",
+        "text": "Cinco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/every-hat-trick-history",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:5ea7502a2606f712",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade sediou os primeiros Jogos Olímpicos de Verão realizados no Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rio de Janeiro"
+      },
+      {
+        "id": "option-1",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-2",
+        "text": "Brasília"
+      },
+      {
+        "id": "option-3",
+        "text": "Belo Horizonte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=166382&parentDocumentId=166381&skipCopyright=true&skipWatermark=true",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:b0f0c14bc4d3cdd9",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Após vencer a edição masculina de 2018, quantos títulos da Copa do Mundo a França tinha?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dois"
+      },
+      {
+        "id": "option-1",
+        "text": "Um"
+      },
+      {
+        "id": "option-2",
+        "text": "Três"
+      },
+      {
+        "id": "option-3",
+        "text": "Quatro"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 51,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/fr/articles/tous-les-titres-france-coupes-du-monde-histoire",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:be4db82dcc5f5ffd",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual brasileiro superou os 77 gols oficiais de Pelé pela seleção masculina ao marcar duas vezes contra a Bolívia em setembro de 2023?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Neymar"
+      },
+      {
+        "id": "option-1",
+        "text": "Ronaldo Nazário"
+      },
+      {
+        "id": "option-2",
+        "text": "Romário"
+      },
+      {
+        "id": "option-3",
+        "text": "Rivaldo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/pt/news/articles/neymar-maior-goleador-selecao-brasileira-pele",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:fc34e3c27477448c",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube argentino venceu sete edições da Libertadores entre 1964 e 1984?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Independiente"
+      },
+      {
+        "id": "option-1",
+        "text": "Boca Juniors"
+      },
+      {
+        "id": "option-2",
+        "text": "River Plate"
+      },
+      {
+        "id": "option-3",
+        "text": "Racing"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/es/articles/que-equipo-gano-mas-veces-la-copa-libertadores-historia-de-reyes-con-corona",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:f24c078f91f8e530",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual seleção derrotou o Brasil no jogo decisivo da Copa do Mundo masculina de 1950, no Maracanã?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uruguai"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Itália"
+      },
+      {
+        "id": "option-3",
+        "text": "Alemanha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/en/articles/uruguay-brazil-1950-maracanazo",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:344b3a9bbdc73ce0",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o capitão da Argentina na conquista da Copa do Mundo masculina de 2022?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lionel Messi"
+      },
+      {
+        "id": "option-1",
+        "text": "Ángel Di María"
+      },
+      {
+        "id": "option-2",
+        "text": "Javier Mascherano"
+      },
+      {
+        "id": "option-3",
+        "text": "Gabriel Batistuta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fifa.com/en/articles/messi-i-am-proud-to-be-able-to-finish-my-world-cup-journey-playing-this-final-world-cup-2022",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:37fe56bf0d53712e",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube venceu sua 15ª Copa dos Campeões da Europa/Liga dos Campeões em 2024?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Real Madrid"
+      },
+      {
+        "id": "option-1",
+        "text": "Milan"
+      },
+      {
+        "id": "option-2",
+        "text": "Liverpool"
+      },
+      {
+        "id": "option-3",
+        "text": "Bayern de Munique"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.uefa.com/uefachampionsleague/news/028d-1ad799ae4525-365c9c4d1986-1000--meet-the-2024-winners/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:505e17b2954f39ef",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual cidade fica o estádio Beira-Rio?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Porto Alegre"
+      },
+      {
+        "id": "option-1",
+        "text": "Curitiba"
+      },
+      {
+        "id": "option-2",
+        "text": "Florianópolis"
+      },
+      {
+        "id": "option-3",
+        "text": "Caxias do Sul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://static.internacional.com.br/cms/assets/00_Guia_de_Informacoes_Torcida_Visitante_4320a39425.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:6abf78cfcbe33f93",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país constituinte do Reino Unido foi fundada a Football Association em 1863?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Inglaterra"
+      },
+      {
+        "id": "option-1",
+        "text": "Escócia"
+      },
+      {
+        "id": "option-2",
+        "text": "País de Gales"
+      },
+      {
+        "id": "option-3",
+        "text": "Irlanda do Norte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.thefa.com/news/2014/oct/25/fa-reaches-151-261014",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:34c800b57f41cfd5",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual equipe venceu a temporada 2021–2022 da NBA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Golden State Warriors"
+      },
+      {
+        "id": "option-1",
+        "text": "Boston Celtics"
+      },
+      {
+        "id": "option-2",
+        "text": "Milwaukee Bucks"
+      },
+      {
+        "id": "option-3",
+        "text": "Los Angeles Lakers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nba.com/warriors/championship/2022",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:5de946f210bccfa2",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O Grande Prêmio de Mônaco de Fórmula 1 é disputado em qual circuito urbano?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Circuito de Mônaco, em Monte Carlo"
+      },
+      {
+        "id": "option-1",
+        "text": "Circuito de Silverstone"
+      },
+      {
+        "id": "option-2",
+        "text": "Circuito de Spa-Francorchamps"
+      },
+      {
+        "id": "option-3",
+        "text": "Circuito de Suzuka"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.formula1.com/en/information/monaco-circuit-de-monaco-monte-carlo.2ZWRtIcSI6ZzVGX1uGRpkJ",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:c6431e7c6b06cae0",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual piloto brasileiro ganhou o título mundial de Fórmula 1 em 1991?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ayrton Senna"
+      },
+      {
+        "id": "option-1",
+        "text": "Nelson Piquet"
+      },
+      {
+        "id": "option-2",
+        "text": "Emerson Fittipaldi"
+      },
+      {
+        "id": "option-3",
+        "text": "Rubens Barrichello"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.formula1.com/en/information/drivers-hall-of-fame-ayrton-senna.FLD7ZtO0nUn7JzLEn5rOJ",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:9fe254de437557b2",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual estádio foi disputada a final da Copa do Mundo masculina de 2018?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Luzhniki"
+      },
+      {
+        "id": "option-1",
+        "text": "Maracanã"
+      },
+      {
+        "id": "option-2",
+        "text": "Wembley"
+      },
+      {
+        "id": "option-3",
+        "text": "Estádio Olímpico de Berlim"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.youtube.com/watch?v=GrsEAvRerTg",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:4cc85688f601eab5",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual nadador ganhou oito medalhas de ouro nos Jogos de Pequim 2008?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Phelps"
+      },
+      {
+        "id": "option-1",
+        "text": "Mark Spitz"
+      },
+      {
+        "id": "option-2",
+        "text": "Ian Thorpe"
+      },
+      {
+        "id": "option-3",
+        "text": "Ryan Lochte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.youtube.com/watch?v=e-ldwePuoW0",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:0a79802df45a1ec4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual jogador encerrou sua passagem pelo Barcelona em 2021 com 672 gols oficiais pelo clube?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lionel Messi"
+      },
+      {
+        "id": "option-1",
+        "text": "César Rodríguez"
+      },
+      {
+        "id": "option-2",
+        "text": "Luis Suárez"
+      },
+      {
+        "id": "option-3",
+        "text": "Samuel Eto’o"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.fcbarcelona.com/en/ficha/2214377/leo-messi",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:e0903de52dd4e868",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual jogador de basquete adotou o apelido “Black Mamba”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kobe Bryant"
+      },
+      {
+        "id": "option-1",
+        "text": "LeBron James"
+      },
+      {
+        "id": "option-2",
+        "text": "Michael Jordan"
+      },
+      {
+        "id": "option-3",
+        "text": "Magic Johnson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 41,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nba.com/news/kobe-bryant-10-things-to-know",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:e100fa9a8781b3b6",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual nadador chegou a 28 medalhas olímpicas ao fim dos Jogos do Rio de 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Phelps"
+      },
+      {
+        "id": "option-1",
+        "text": "Mark Spitz"
+      },
+      {
+        "id": "option-2",
+        "text": "Ryan Lochte"
+      },
+      {
+        "id": "option-3",
+        "text": "Ian Thorpe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.teamusa.com/profiles/michael-phelps",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:6495502c40b73e54",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem superou Kareem Abdul-Jabbar na artilharia acumulada da temporada regular da NBA em fevereiro de 2023?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "LeBron James"
+      },
+      {
+        "id": "option-1",
+        "text": "Michael Jordan"
+      },
+      {
+        "id": "option-2",
+        "text": "Kobe Bryant"
+      },
+      {
+        "id": "option-3",
+        "text": "Karl Malone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 61,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nba.com/news/lebron-james-scoring-tracker",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:62091c951947f1eb",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube brasileiro ganhou a Copa Sul-Americana de 2012?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-1",
+        "text": "Flamengo"
+      },
+      {
+        "id": "option-2",
+        "text": "Palmeiras"
+      },
+      {
+        "id": "option-3",
+        "text": "Santos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.saopaulofc.net/campeao-da-copa-sul-americana-de-2012/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:dbd0e8cd7fbe1bfd",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem se tornou o primeiro colombiano campeão da classificação geral do Tour de France em 2019?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Egan Bernal"
+      },
+      {
+        "id": "option-1",
+        "text": "Nairo Quintana"
+      },
+      {
+        "id": "option-2",
+        "text": "Rigoberto Urán"
+      },
+      {
+        "id": "option-3",
+        "text": "Fernando Gaviria"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 25,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.letour.fr/en/news/2019/bernal-phenomenal/1283313",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:66ee52ffe36161f4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual brasileiro integrou o Golden State Warriors campeão da NBA em 2015?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leandro Barbosa"
+      },
+      {
+        "id": "option-1",
+        "text": "Anderson Varejão"
+      },
+      {
+        "id": "option-2",
+        "text": "Nenê Hilário"
+      },
+      {
+        "id": "option-3",
+        "text": "Tiago Splitter"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://lnb.com.br/noticias/os-passos-do-campeao/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:983ae23bc71ef00c",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual torneio estadual integrou a tríplice coroa do Cruzeiro em 2003, junto ao Brasileiro e à Copa do Brasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Campeonato Mineiro"
+      },
+      {
+        "id": "option-1",
+        "text": "Campeonato Paulista"
+      },
+      {
+        "id": "option-2",
+        "text": "Campeonato Carioca"
+      },
+      {
+        "id": "option-3",
+        "text": "Campeonato Gaúcho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.brasileirao.com.br/cruzeiro-na-triplice-coroa-alex-revela-pedido-a-arbitro-e-elege-apice-de-2003",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:66dfa7c4eaeaeebf",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube argentino conquistou a Sul-Americana de 2014 e a Libertadores de 2015?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "River Plate"
+      },
+      {
+        "id": "option-1",
+        "text": "Boca Juniors"
+      },
+      {
+        "id": "option-2",
+        "text": "Independiente"
+      },
+      {
+        "id": "option-3",
+        "text": "San Lorenzo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.riverplate.com/club/institucional/historia",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:d00544d81437664c",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em quais anos o Santos conquistou as duas Copas Intercontinentais da era Pelé?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1962 e 1963"
+      },
+      {
+        "id": "option-1",
+        "text": "1961 e 1962"
+      },
+      {
+        "id": "option-2",
+        "text": "1963 e 1964"
+      },
+      {
+        "id": "option-3",
+        "text": "1964 e 1965"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.santosfc.com.br/sem-novidades-fifa-reconhece-santos-fc-como-bicampeao-do-mundo-em-1962-e-1963/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:f640fce9400a0bf7",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual ano foi fundada a liga que deu origem à NBA, inicialmente chamada BAA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1946"
+      },
+      {
+        "id": "option-1",
+        "text": "1936"
+      },
+      {
+        "id": "option-2",
+        "text": "1949"
+      },
+      {
+        "id": "option-3",
+        "text": "1956"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 56,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nba.com/news/faq",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:7c53050d6074bfe2",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube brasileiro venceu o Liverpool na final do Mundial de Clubes da FIFA em 2005?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "São Paulo"
+      },
+      {
+        "id": "option-1",
+        "text": "Santos"
+      },
+      {
+        "id": "option-2",
+        "text": "Grêmio"
+      },
+      {
+        "id": "option-3",
+        "text": "Flamengo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 59,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.saopaulofc.net/campeao-mundial-de-2005/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:44a4c7fb85edd267",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Segundo o histórico olímpico reconhecido pelo COI, em que ano foi disputado o primeiro torneio de futebol dos Jogos modernos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1900"
+      },
+      {
+        "id": "option-1",
+        "text": "1896"
+      },
+      {
+        "id": "option-2",
+        "text": "1924"
+      },
+      {
+        "id": "option-3",
+        "text": "1936"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.olympedia.org/editions/2/sports/FBL?id=ARC",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:32ec4bc78a882300",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual tempo Usain Bolt marcou na final dos 100 m do Mundial de Berlim em 2009?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "9,58 segundos"
+      },
+      {
+        "id": "option-1",
+        "text": "9,63 segundos"
+      },
+      {
+        "id": "option-2",
+        "text": "9,69 segundos"
+      },
+      {
+        "id": "option-3",
+        "text": "9,74 segundos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 64,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://worldathletics.org/competitions/world-athletics-championships/12th-iaaf-world-championships-in-athletics-6998524/results/men/100-metres/final/result",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:81831e15c4e5a160",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual clube inglês foi fundado em 1857 e é reconhecido como o clube independente de futebol mais antigo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sheffield FC"
+      },
+      {
+        "id": "option-1",
+        "text": "Nottingham Forest"
+      },
+      {
+        "id": "option-2",
+        "text": "Notts County"
+      },
+      {
+        "id": "option-3",
+        "text": "Sheffield Wednesday"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 65,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://sheffieldfc.com/index.php",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:12ba4a8d0f9f801a",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual lutador de MMA é conhecido como “The Notorious”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Conor McGregor"
+      },
+      {
+        "id": "option-1",
+        "text": "Jon Jones"
+      },
+      {
+        "id": "option-2",
+        "text": "Georges St-Pierre"
+      },
+      {
+        "id": "option-3",
+        "text": "Anderson Silva"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 66,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.ufc.com.br/athlete/conor-mcgregor",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:sports:9e220c50a238c5c4",
+    "category": "sports",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual atleta cubano saltou 2,45 m em Salamanca em 1993?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Javier Sotomayor"
+      },
+      {
+        "id": "option-1",
+        "text": "Stefan Holm"
+      },
+      {
+        "id": "option-2",
+        "text": "Mutaz Essa Barshim"
+      },
+      {
+        "id": "option-3",
+        "text": "Ivan Ukhov"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+      "recordIndex": 71,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://worldathletics.org/athletes/_/14169305",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
   }
 ]

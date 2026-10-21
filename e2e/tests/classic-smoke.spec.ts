@@ -278,6 +278,30 @@ test('perfil, convite, edição, recarga, duas sessões e seis perguntas reais',
       ).toBeVisible();
       await score(player.page, 'Ana Silva', 500, 5);
       await score(player.page, 'Bruno', 200, 2);
+      const completed = player.audit.views.findLast(
+        (view) =>
+          view.state.status === 'match' && view.state.match.stage.phase === 'prototype-complete',
+      );
+      expect(completed?.state).toMatchObject({
+        status: 'match',
+        match: {
+          finalEntry: {
+            status: 'ready',
+            scope: 'isolated-prototype',
+            ranking: {
+              status: 'resolved',
+              entries: [
+                { rank: 1, points: 500, correctAnswers: 5 },
+                { rank: 2, points: 200, correctAnswers: 2 },
+              ],
+            },
+            allocations: [
+              { initialLives: 5, survivableLosses: 4, eliminatingLoss: 5 },
+              { initialLives: 4, survivableLosses: 3, eliminatingLoss: 4 },
+            ],
+          },
+        },
+      });
       await info.attach(`placar-${player === host ? 'host' : 'guest'}`, {
         body: await player.page.screenshot({ fullPage: true }),
         contentType: 'image/png',
@@ -321,6 +345,8 @@ test('perfil, convite, edição, recarga, duas sessões e seis perguntas reais',
         uniqueQuestions: seen.size,
         difficulties,
         finalPoints: [500, 200],
+        initialLives: [5, 4],
+        survivableLosses: [4, 3],
         viewsAudited: audits.reduce((count, audit) => count + audit.views.length, 0),
         externalRequests: 0,
         returnedToLobby: true,

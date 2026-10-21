@@ -51,6 +51,7 @@ pnpm questions:import:opentdb --amount=1000
 pnpm questions:validate
 pnpm questions:publish
 pnpm questions:check
+pnpm questions:simulate --check
 pnpm test:content
 ```
 
@@ -116,8 +117,18 @@ Após publicar um novo catálogo, reinicie o servidor para carregá-lo. Não há
 
 ### Lote inicial publicado — T11
 
-Em 17/10/2026, o catálogo contém **72 perguntas aprovadas em pt-BR**, com **12 por tema: seis fáceis, quatro médias e duas difíceis**. Os seis temas são artes e literatura, geografia, história, cultura pop, ciência e natureza e esportes. As referências e decisões individuais estão em [`data/publication-reports/t11-editorial.json`](../data/publication-reports/t11-editorial.json); o [relatório editorial](revisao-editorial-t11.md) explica o método e os limites.
+Em 17/10/2026, a primeira publicação continha **72 perguntas aprovadas em pt-BR**, com **12 por tema: seis fáceis, quatro médias e duas difíceis**. Os seis temas são artes e literatura, geografia, história, cultura pop, ciência e natureza e esportes. As referências e decisões individuais estão em [`data/publication-reports/t11-editorial.json`](../data/publication-reports/t11-editorial.json); o [relatório editorial](revisao-editorial-t11.md) explica o método e os limites.
 
-O estoque de cada tema permite um aquecimento isolado com **três fáceis e três médias**, conforme a proposta do plano. A [T12](selecao-de-perguntas.md) implementa seleção sem reposição, mistura de dificuldades e IDs públicos; a integração ao motor continua futura. A classificação de dificuldade é editorial e provisória, sem calibração com jogadores.
+Esse estoque permitia um aquecimento isolado com **três fáceis e três médias**, conforme a proposta do plano. A [T12](selecao-de-perguntas.md) implementou posteriormente seleção sem reposição, mistura de dificuldades e IDs públicos. A classificação de dificuldade é editorial e provisória, sem calibração com jogadores.
 
-Os **1.531 candidatos originais permanecem inalterados**: 531 em pt-BR com `needs-review` e 1.000 em inglês com `needs-translation`. A aprovação fica apenas nas 72 cópias revisadas. O lote não cobre uma partida completa com doze jogadores, as 300 perguntas da T27 ou as 5.000 da T33. O início de partida continua desabilitado.
+Os **1.531 candidatos originais permaneceram inalterados**: 531 em pt-BR com `needs-review` e 1.000 em inglês com `needs-translation`. Na T11, a aprovação ficou apenas nas 72 cópias revisadas. O lote inicial não cobria uma partida completa com doze jogadores, as 300 perguntas da T27 ou as 5.000 da T33. A publicação atual está descrita a seguir.
+
+### Expansão publicada — T27
+
+A publicação de **20/10/2026** amplia o lote da T11 para **300 perguntas aprovadas em pt-BR**: 50 em cada tema, com 15 fáceis, 20 médias e 15 difíceis. As 72 anteriores permanecem intactas; foram acrescentadas 228 cópias revisadas de candidatos Questionados, sob a mesma licença MIT. Não há novas importações nem traduções do Open Trivia DB nesta entrega. Os candidatos e `data/sources.json` conservam os hashes registrados na T11.
+
+O [relatório editorial da T27](revisao-editorial-t27.md) registra a revisão, amostras cruzadas por tema/dificuldade e os limites de diversidade/calibração. [t27-editorial.json](../data/publication-reports/t27-editorial.json) guarda cada decisão com antes/depois, referência, data e justificativa. Esse lote substitui a contagem atual do lote inicial descrito acima.
+
+`pnpm questions:simulate` gera [t27-stock.json](../data/publication-reports/t27-stock.json), usando o mesmo seletor e os parâmetros experimentais do servidor. São 66 percursos com 2–12 participantes, duas sementes e três formas de escolha; a verificação percorre cinco fases, conserva as 50 da final, continua até esgotar as fáceis e confirma ausência de repetição. Também registra a admissão de todos os 693 subconjuntos de temas/tamanhos de grupo. `--check` compara os bytes sem escrever; a CI executa essa verificação.
+
+O orçamento completo exige ao menos três temas deste catálogo: com apenas dois, há 30 fáceis e são necessárias 34, incluindo as 25 reservadas. A dinamite proposta usa um ciclo médio e um difícil; duplicar ambos para doze pessoas exigiria 24 médias e 24 difíceis em um único tema, acima do estoque. Dificuldades não são convertidas para esconder falta de conteúdo. A T27 habilita o conteúdo para esse orçamento; a sequência jogável completa e D02–D06 continuam nas respectivas tarefas. Após publicar, reinicie o servidor para carregar o novo catálogo.

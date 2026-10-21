@@ -514,5 +514,1639 @@
         "uniqueAnswer": true
       }
     }
+  },
+  {
+    "id": "questionados:history:058492a8c4597192",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade foi conquistada pelos otomanos em 1453, encerrando o Império Bizantino?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Constantinopla"
+      },
+      {
+        "id": "option-1",
+        "text": "Roma"
+      },
+      {
+        "id": "option-2",
+        "text": "Viena"
+      },
+      {
+        "id": "option-3",
+        "text": "Atenas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 1,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.worldhistory.org/article/1180/1453-the-fall-of-constantinople/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:5553e35852ad4af7",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder da independência da Índia ficou conhecido pela resistência não violenta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mahatma Gandhi"
+      },
+      {
+        "id": "option-1",
+        "text": "Subhas Chandra Bose"
+      },
+      {
+        "id": "option-2",
+        "text": "Bhagat Singh"
+      },
+      {
+        "id": "option-3",
+        "text": "Muhammad Ali Jinnah"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=43259",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:8c2cb0b42d2e35d3",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder bolchevique chefiou o novo governo russo após a Revolução de Outubro de 1917?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vladimir Lenin"
+      },
+      {
+        "id": "option-1",
+        "text": "Nicolau II"
+      },
+      {
+        "id": "option-2",
+        "text": "Alexander Kerensky"
+      },
+      {
+        "id": "option-3",
+        "text": "Leonid Brezhnev"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://encyclopedia.ushmm.org/content/en/article/the-russian-revolution-1917",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:1f2803e958ecd7ba",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder comandou o movimento que derrubou Fulgencio Batista em Cuba em 1959?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fidel Castro"
+      },
+      {
+        "id": "option-1",
+        "text": "Augusto Pinochet"
+      },
+      {
+        "id": "option-2",
+        "text": "Juan Domingo Perón"
+      },
+      {
+        "id": "option-3",
+        "text": "Anastasio Somoza"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 13,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.loc.gov/item/2002709651/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:284d676659571555",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual país foi pioneiro da Revolução Industrial no século XVIII?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grã-Bretanha"
+      },
+      {
+        "id": "option-1",
+        "text": "Brasil"
+      },
+      {
+        "id": "option-2",
+        "text": "Japão"
+      },
+      {
+        "id": "option-3",
+        "text": "Rússia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://blog.sciencemuseum.org.uk/steaming-through-the-centuries/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:0efbb056661a30c4",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano foram abertos os postos de fronteira do Muro de Berlim, no episódio conhecido como sua queda?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1989"
+      },
+      {
+        "id": "option-1",
+        "text": "1961"
+      },
+      {
+        "id": "option-2",
+        "text": "1991"
+      },
+      {
+        "id": "option-3",
+        "text": "1945"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 19,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.berlin.de/en/history/8482274-8619314-opening-and-fall-of-the-berlin-wall.en.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:c77a4f56d143e15f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "O que foi o apartheid na África do Sul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Regime de segregação racial institucionalizada"
+      },
+      {
+        "id": "option-1",
+        "text": "Sistema de voto universal implantado em 1948"
+      },
+      {
+        "id": "option-2",
+        "text": "Movimento de independência da Índia"
+      },
+      {
+        "id": "option-3",
+        "text": "Tratado de unificação de países africanos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nelsonmandela.org/apartheid",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:76c84d1ff5d34cae",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder dos direitos civis dos Estados Unidos pronunciou “I Have a Dream” em 1963?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Martin Luther King Jr."
+      },
+      {
+        "id": "option-1",
+        "text": "Malcolm X"
+      },
+      {
+        "id": "option-2",
+        "text": "Frederick Douglass"
+      },
+      {
+        "id": "option-3",
+        "text": "W. E. B. Du Bois"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 38,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nps.gov/subjects/civilrights/martin-luther-king.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:d0e1b7e3eb9dc96f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano começou a Revolução Francesa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1789"
+      },
+      {
+        "id": "option-1",
+        "text": "1688"
+      },
+      {
+        "id": "option-2",
+        "text": "1815"
+      },
+      {
+        "id": "option-3",
+        "text": "1848"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 94,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/versailles-au-coeur-revolution-francaise",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:71ed1d4f644d16c1",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual imperador romano governou de 54 a 68 d.C.?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nero"
+      },
+      {
+        "id": "option-1",
+        "text": "Trajano"
+      },
+      {
+        "id": "option-2",
+        "text": "Marco Aurélio"
+      },
+      {
+        "id": "option-3",
+        "text": "Constantino"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 0,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.britishmuseum.org/collection/term/BIOG59557",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:7c38ed40a14fc11f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual era a nau capitânia da expedição de Colombo que partiu da Espanha em 1492?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santa Maria"
+      },
+      {
+        "id": "option-1",
+        "text": "Niña"
+      },
+      {
+        "id": "option-2",
+        "text": "Pinta"
+      },
+      {
+        "id": "option-3",
+        "text": "Victoria"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 10,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.rmg.co.uk/collections/objects/rmgc-object-40260",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:a9e60c5707f7d7af",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual general liderou o Exército dos Andes na campanha de libertação do Chile?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "José de San Martín"
+      },
+      {
+        "id": "option-1",
+        "text": "Juan Manuel de Rosas"
+      },
+      {
+        "id": "option-2",
+        "text": "Bernardo O’Higgins"
+      },
+      {
+        "id": "option-3",
+        "text": "Antonio José de Sucre"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 11,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.argentina.gob.ar/node/358831",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:8518e27159eb5ae8",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem fundou o Império Mongol em 1206?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Genghis Khan"
+      },
+      {
+        "id": "option-1",
+        "text": "Kublai Khan"
+      },
+      {
+        "id": "option-2",
+        "text": "Tamerlão"
+      },
+      {
+        "id": "option-3",
+        "text": "Átila"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 20,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.worldhistory.org/Mongol_Empire/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:889bac5f1bed2b0a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual fortaleza parisiense foi tomada em 14 de julho de 1789?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bastilha"
+      },
+      {
+        "id": "option-1",
+        "text": "Palácio de Versailles"
+      },
+      {
+        "id": "option-2",
+        "text": "Palácio das Tulherias"
+      },
+      {
+        "id": "option-3",
+        "text": "Fortaleza de Vincennes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.chateauversailles.fr/ressources-pedagogiques/vie-politique/revolution-francaise/prise-bastille-14-juillet-1789",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:924de05ff9bd8353",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o objetivo central do Congresso de Viena de 1814–1815?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Reorganizar a Europa após as guerras napoleônicas"
+      },
+      {
+        "id": "option-1",
+        "text": "Fundar a Organização das Nações Unidas"
+      },
+      {
+        "id": "option-2",
+        "text": "Negociar a independência dos Estados Unidos"
+      },
+      {
+        "id": "option-3",
+        "text": "Dividir a África entre potências coloniais"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bundeskanzleramt.gv.at/en/federal-chancellery/visit-us/history/the-congress-of-vienna.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:1a8c7d376ff9808a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem lançou o Grito de Dolores, em 1810, marco do início da luta de independência do México?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miguel Hidalgo y Costilla"
+      },
+      {
+        "id": "option-1",
+        "text": "Agustín de Iturbide"
+      },
+      {
+        "id": "option-2",
+        "text": "Benito Juárez"
+      },
+      {
+        "id": "option-3",
+        "text": "Emiliano Zapata"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.gob.mx/segob/articulos/ccviii-aniversario-del-grito-de-independencia-de-mexico?idiom=es",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:2723409654fb254b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual comandante liderou o exército aliado anglo-holandês em Waterloo, em 1815?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Duque de Wellington"
+      },
+      {
+        "id": "option-1",
+        "text": "Gebhard von Blücher"
+      },
+      {
+        "id": "option-2",
+        "text": "Michel Ney"
+      },
+      {
+        "id": "option-3",
+        "text": "Napoleão Bonaparte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:196ef035f686d67f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o primeiro presidente dos Estados Unidos submetido a impeachment, em 1868?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andrew Johnson"
+      },
+      {
+        "id": "option-1",
+        "text": "Bill Clinton"
+      },
+      {
+        "id": "option-2",
+        "text": "Richard Nixon"
+      },
+      {
+        "id": "option-3",
+        "text": "Andrew Jackson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.senate.gov/about/powers-procedures/impeachment/impeachment-johnsonandrew.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:7f4583207eac5d33",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem comandou a etapa final da primeira circum-navegação, concluída em 1522?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Juan Sebastián Elcano"
+      },
+      {
+        "id": "option-1",
+        "text": "Fernão de Magalhães"
+      },
+      {
+        "id": "option-2",
+        "text": "Vasco da Gama"
+      },
+      {
+        "id": "option-3",
+        "text": "Pedro Álvares Cabral"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 36,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://ejercito.defensa.gob.es/museo/HECHOS_HISTORICOS/HECHOS_HISTORICOS/09.06_sept_SE_COMPLETO_LA_PRIMERA_VUELTA_AL_MUNDO_POR_ELCANO.html?__locale=es",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:1a55192159dcc888",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder das independências sul-americanas ficou conhecido como “El Libertador” e deu nome à Bolívia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Simón Bolívar"
+      },
+      {
+        "id": "option-1",
+        "text": "José de San Martín"
+      },
+      {
+        "id": "option-2",
+        "text": "Bernardo O’Higgins"
+      },
+      {
+        "id": "option-3",
+        "text": "José Gervasio Artigas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 40,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://tile.loc.gov/storage-services/master/pnp/habshaer/dc/dc1200/dc1242/data/dc1242data.pdf",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:1cca6b6e197d35f0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Para qual faraó foi construída a Grande Pirâmide, a maior das três principais pirâmides de Gizé?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quéops (Khufu)"
+      },
+      {
+        "id": "option-1",
+        "text": "Quéfren (Khafre)"
+      },
+      {
+        "id": "option-2",
+        "text": "Miquerinos (Menkaure)"
+      },
+      {
+        "id": "option-3",
+        "text": "Ramsés II"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 42,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:4467e00e301e60d2",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano começou a Guerra Civil dos Estados Unidos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1861"
+      },
+      {
+        "id": "option-1",
+        "text": "1776"
+      },
+      {
+        "id": "option-2",
+        "text": "1812"
+      },
+      {
+        "id": "option-3",
+        "text": "1914"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://home.nps.gov/gett/learn/historyculture/civil-war-timeline.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:9b8a541b06c392ef",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade italiana, governada pelos Médici, foi um dos principais centros do Renascimento?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Florença"
+      },
+      {
+        "id": "option-1",
+        "text": "Nápoles"
+      },
+      {
+        "id": "option-2",
+        "text": "Turim"
+      },
+      {
+        "id": "option-3",
+        "text": "Gênova"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 46,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/174/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:9045fce9613a8727",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem escreveu o “Manifesto do Partido Comunista”, publicado em 1848?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Karl Marx e Friedrich Engels"
+      },
+      {
+        "id": "option-1",
+        "text": "Vladimir Lenin e Leon Trotsky"
+      },
+      {
+        "id": "option-2",
+        "text": "Adam Smith e David Ricardo"
+      },
+      {
+        "id": "option-3",
+        "text": "Jean-Jacques Rousseau e Voltaire"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 58,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:9c8a1a004c1223ab",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem foi o principal redator da Declaração de Independência dos Estados Unidos, em 1776?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Thomas Jefferson"
+      },
+      {
+        "id": "option-1",
+        "text": "George Washington"
+      },
+      {
+        "id": "option-2",
+        "text": "John Adams"
+      },
+      {
+        "id": "option-3",
+        "text": "Benjamin Franklin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 75,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.archives.gov/nhprc/projects/catalog/thomas-jefferson",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:2c119545e0528d1a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que data foi assinado o Tratado de Versailles com a Alemanha após a Primeira Guerra Mundial?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "28 de junho de 1919"
+      },
+      {
+        "id": "option-1",
+        "text": "11 de novembro de 1918"
+      },
+      {
+        "id": "option-2",
+        "text": "1º de setembro de 1939"
+      },
+      {
+        "id": "option-3",
+        "text": "8 de maio de 1945"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.chateauversailles.fr/decouvrir/histoire/grandes-dates/traite-versailles",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:c94fb42f2b15ddc0",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual batalha de 1453 é considerada a última grande batalha da Guerra dos Cem Anos?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Castillon"
+      },
+      {
+        "id": "option-1",
+        "text": "Azincourt"
+      },
+      {
+        "id": "option-2",
+        "text": "Crécy"
+      },
+      {
+        "id": "option-3",
+        "text": "Poitiers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 14,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.castillonlabataille.fr/la-bataille-de-castillon/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:b859af122242700b",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade se tornou capital do Império Romano do Ocidente em 402 d.C.?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ravena"
+      },
+      {
+        "id": "option-1",
+        "text": "Roma"
+      },
+      {
+        "id": "option-2",
+        "text": "Milão"
+      },
+      {
+        "id": "option-3",
+        "text": "Constantinopla"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whc.unesco.org/en/list/788/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:f07018da46da6b52",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual intervalo ocorreu a Guerra dos Trinta Anos na Europa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1618–1648"
+      },
+      {
+        "id": "option-1",
+        "text": "1453–1483"
+      },
+      {
+        "id": "option-2",
+        "text": "1789–1819"
+      },
+      {
+        "id": "option-3",
+        "text": "1914–1944"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 24,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.dhm.de/en/exhibitions/permanent-exhibition/reformation-and-the-thirty-years-war/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:fa0b2822427b7574",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual país ocorreu a Revolta dos Boxers, no fim do século XIX e início do XX?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "China"
+      },
+      {
+        "id": "option-1",
+        "text": "Japão"
+      },
+      {
+        "id": "option-2",
+        "text": "Coreia"
+      },
+      {
+        "id": "option-3",
+        "text": "Vietnã"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://history.state.gov//milestones/1899-1913/hay-and-china",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:e4a3ac7addce774f",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual local Cornwallis se rendeu às forças franco-americanas em 1781?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yorktown"
+      },
+      {
+        "id": "option-1",
+        "text": "Saratoga"
+      },
+      {
+        "id": "option-2",
+        "text": "Lexington"
+      },
+      {
+        "id": "option-3",
+        "text": "Trenton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 50,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.nps.gov/york/learn/historyculture/siegetimeline.htm",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:0e98b4d576b9f16a",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano começou a Restauração Meiji no Japão?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1868"
+      },
+      {
+        "id": "option-1",
+        "text": "1603"
+      },
+      {
+        "id": "option-2",
+        "text": "1853"
+      },
+      {
+        "id": "option-3",
+        "text": "1912"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 52,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.japan.go.jp/tomodachi/2018/spring2018/the_origin_of_japans_modernization.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:8f610ee00750b9eb",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual líder proclamou a independência do Haiti em 1804?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jean-Jacques Dessalines"
+      },
+      {
+        "id": "option-1",
+        "text": "Toussaint Louverture"
+      },
+      {
+        "id": "option-2",
+        "text": "Henri Christophe"
+      },
+      {
+        "id": "option-3",
+        "text": "Alexandre Pétion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://history.state.gov//milestones/1784-1800/haitian-rev",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:0a1b68cdb0f9d027",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Na Batalha de Áccio, em 31 a.C., as forças de Otaviano derrotaram a aliança de quais governantes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marco Antônio e Cleópatra"
+      },
+      {
+        "id": "option-1",
+        "text": "Júlio César e Pompeu"
+      },
+      {
+        "id": "option-2",
+        "text": "Bruto e Cássio"
+      },
+      {
+        "id": "option-3",
+        "text": "Nero e Agripina"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 54,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.worldhistory.org/Battle_of_Actium/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:776ae3cff29b8e61",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual governante russo foi formalmente coroado czar em 1547?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ivan IV, o Terrível"
+      },
+      {
+        "id": "option-1",
+        "text": "Ivan III"
+      },
+      {
+        "id": "option-2",
+        "text": "Pedro I, o Grande"
+      },
+      {
+        "id": "option-3",
+        "text": "Boris Godunov"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.worldhistory.org/Tsar/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:2f86b944b534c2c7",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Como é conhecido o movimento de unificação da Itália no século XIX?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Risorgimento"
+      },
+      {
+        "id": "option-1",
+        "text": "Restauração Meiji"
+      },
+      {
+        "id": "option-2",
+        "text": "Revolução Gloriosa"
+      },
+      {
+        "id": "option-3",
+        "text": "Primavera de Praga"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 81,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www2.comune.milano.it/web/civiche-raccolte-storiche/museo_del_risorgimento/percorso-espositivo",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:fc1326e632ef89b5",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual rei espartano comandou a resistência grega nas Termópilas em 480 a.C.?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leônidas I"
+      },
+      {
+        "id": "option-1",
+        "text": "Péricles"
+      },
+      {
+        "id": "option-2",
+        "text": "Temístocles"
+      },
+      {
+        "id": "option-3",
+        "text": "Pausânias"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 82,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.worldhistory.org/timeline/Leonidas_I/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:history:735ba5a23086856c",
+    "category": "history",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quais coroas assinaram o Tratado de Tordesilhas em 1494?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Portugal e Castela"
+      },
+      {
+        "id": "option-1",
+        "text": "Inglaterra e França"
+      },
+      {
+        "id": "option-2",
+        "text": "Portugal e Inglaterra"
+      },
+      {
+        "id": "option-3",
+        "text": "França e Aragão"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+      "recordIndex": 87,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.unesco.org/en/memory-world/treaty-tordesillas",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
   }
 ]

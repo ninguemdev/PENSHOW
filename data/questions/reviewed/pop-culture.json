@@ -514,5 +514,1639 @@
         "uniqueAnswer": true
       }
     }
+  },
+  {
+    "id": "questionados:pop-culture:0ea7b3096097c85d",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem dirigiu a trilogia cinematográfica “O Senhor dos Anéis”, lançada de 2001 a 2003?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peter Jackson"
+      },
+      {
+        "id": "option-1",
+        "text": "Steven Spielberg"
+      },
+      {
+        "id": "option-2",
+        "text": "James Cameron"
+      },
+      {
+        "id": "option-3",
+        "text": "Christopher Nolan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 2,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://press.wbd.com/us/media-release/new-line-cinema/warner-bros-pictures-and-new-line-cinema-are-set-reunite-oscar-winning-lord-rings-and",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:83acecc65c4383b2",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cidade fictícia é o principal cenário das aventuras de Batman?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gotham City"
+      },
+      {
+        "id": "option-1",
+        "text": "Metropolis"
+      },
+      {
+        "id": "option-2",
+        "text": "Central City"
+      },
+      {
+        "id": "option-3",
+        "text": "Star City"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 3,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.dc.com/characters/batman",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:04a0e2edc10b571b",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual identidade civil é tradicionalmente usada pela Mulher-Maravilha?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Diana Prince"
+      },
+      {
+        "id": "option-1",
+        "text": "Lois Lane"
+      },
+      {
+        "id": "option-2",
+        "text": "Selina Kyle"
+      },
+      {
+        "id": "option-3",
+        "text": "Dinah Lance"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 6,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.dc.com/characters/wonder-woman",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:78775657dd364971",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual série da HBO adapta os romances “As Crônicas de Gelo e Fogo”, de George R. R. Martin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Game of Thrones"
+      },
+      {
+        "id": "option-1",
+        "text": "The Witcher"
+      },
+      {
+        "id": "option-2",
+        "text": "Outlander"
+      },
+      {
+        "id": "option-3",
+        "text": "The Wheel of Time"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 15,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.hbo.com/series/genre/drama",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:4a8be634bc9ac01a",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Edward Cullen no filme “Crepúsculo”, de 2008?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Robert Pattinson"
+      },
+      {
+        "id": "option-1",
+        "text": "Taylor Lautner"
+      },
+      {
+        "id": "option-2",
+        "text": "Kellan Lutz"
+      },
+      {
+        "id": "option-3",
+        "text": "Jackson Rathbone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 23,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=twilight-trilogy-all-nighter-imax",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:45430b3f09a75186",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem dirigiu “Jurassic Park”, lançado em 1993?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steven Spielberg"
+      },
+      {
+        "id": "option-1",
+        "text": "George Lucas"
+      },
+      {
+        "id": "option-2",
+        "text": "James Cameron"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Zemeckis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 27,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.universalpictures.com/about/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:e69a7d5162b919db",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do tio de Simba que toma o trono em “O Rei Leão”, de 1994?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scar"
+      },
+      {
+        "id": "option-1",
+        "text": "Mufasa"
+      },
+      {
+        "id": "option-2",
+        "text": "Rafiki"
+      },
+      {
+        "id": "option-3",
+        "text": "Zazu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 29,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.disneyplus.com/browse/entity-a3ae7371-39a5-4c0b-a1f2-29a70b372848",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:cb858940d75d9be1",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Arthur Fleck em “Coringa”, de 2019?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joaquin Phoenix"
+      },
+      {
+        "id": "option-1",
+        "text": "Heath Ledger"
+      },
+      {
+        "id": "option-2",
+        "text": "Jared Leto"
+      },
+      {
+        "id": "option-3",
+        "text": "Jack Nicholson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 30,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.dc.com/movies/joker-2019",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:4e26f2d70464dffc",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou o protagonista de “Forrest Gump”, de 1994?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tom Hanks"
+      },
+      {
+        "id": "option-1",
+        "text": "Robin Williams"
+      },
+      {
+        "id": "option-2",
+        "text": "Kevin Costner"
+      },
+      {
+        "id": "option-3",
+        "text": "John Travolta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 60,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.paramountmovies.com/movies/forrest-gump",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:55c20ef5d0ad6237",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano estreou a primeira temporada de “Stranger Things”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2016"
+      },
+      {
+        "id": "option-1",
+        "text": "2014"
+      },
+      {
+        "id": "option-2",
+        "text": "2018"
+      },
+      {
+        "id": "option-3",
+        "text": "2020"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 5,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.netflix.com/tudum/stranger-things?inapp=true",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:6b1960b94ac7300f",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Tony Montana em “Scarface”, de 1983?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Al Pacino"
+      },
+      {
+        "id": "option-1",
+        "text": "Robert De Niro"
+      },
+      {
+        "id": "option-2",
+        "text": "Joe Pesci"
+      },
+      {
+        "id": "option-3",
+        "text": "Ray Liotta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 7,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://en.wikipedia.org/wiki/Scarface_(1983_film)",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:ddf5230a57b478ee",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou “Os Simpsons”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Matt Groening"
+      },
+      {
+        "id": "option-1",
+        "text": "Seth MacFarlane"
+      },
+      {
+        "id": "option-2",
+        "text": "Mike Judge"
+      },
+      {
+        "id": "option-3",
+        "text": "Trey Parker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 9,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.foxflash.com/shows/the-simpsons/bio/matt-groening",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:9e0ac3c4a2b040d4",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome do professor de química interpretado por Bryan Cranston em “Breaking Bad”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Walter White"
+      },
+      {
+        "id": "option-1",
+        "text": "Jesse Pinkman"
+      },
+      {
+        "id": "option-2",
+        "text": "Hank Schrader"
+      },
+      {
+        "id": "option-3",
+        "text": "Saul Goodman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 17,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.sonypictures.com/tv/breakingbad",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:aaf3bcb771a25ab3",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Jim Morrison foi vocalista de qual banda?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Doors"
+      },
+      {
+        "id": "option-1",
+        "text": "The Who"
+      },
+      {
+        "id": "option-2",
+        "text": "The Kinks"
+      },
+      {
+        "id": "option-3",
+        "text": "The Byrds"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 18,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://thedoors.com/the-band",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:cabb8eec05940180",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual cidade do Novo México se passa a maior parte de “Breaking Bad”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Albuquerque"
+      },
+      {
+        "id": "option-1",
+        "text": "Santa Fe"
+      },
+      {
+        "id": "option-2",
+        "text": "Las Cruces"
+      },
+      {
+        "id": "option-3",
+        "text": "Roswell"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 22,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.cabq.gov/film/news/an-homage-to-breaking-bad-and-abq2019s-unstoppable-rise-in-film",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:ea31afb11550dd96",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Por qual filme Leonardo DiCaprio ganhou o Oscar de melhor ator na cerimônia de 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "O Regresso"
+      },
+      {
+        "id": "option-1",
+        "text": "O Lobo de Wall Street"
+      },
+      {
+        "id": "option-2",
+        "text": "O Aviador"
+      },
+      {
+        "id": "option-3",
+        "text": "Diamante de Sangue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 26,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.oscars.org/oscars/ceremonies/2016/B",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:4d3910a34d916b12",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual banda tem Mick Jagger como seu conhecido vocalista?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Rolling Stones"
+      },
+      {
+        "id": "option-1",
+        "text": "The Who"
+      },
+      {
+        "id": "option-2",
+        "text": "The Kinks"
+      },
+      {
+        "id": "option-3",
+        "text": "The Animals"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 28,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://rockhall.com/inductees/rolling-stones/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:2c76b88da92e4808",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o planeta de origem do Superman?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Krypton"
+      },
+      {
+        "id": "option-1",
+        "text": "Oa"
+      },
+      {
+        "id": "option-2",
+        "text": "Thanagar"
+      },
+      {
+        "id": "option-3",
+        "text": "Apokolips"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 32,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.dc.com/characters/superman",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:3dc2f7707ccfc806",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual capitão pirata é interpretado por Johnny Depp na série de filmes “Piratas do Caribe”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jack Sparrow"
+      },
+      {
+        "id": "option-1",
+        "text": "Hector Barbossa"
+      },
+      {
+        "id": "option-2",
+        "text": "Davy Jones"
+      },
+      {
+        "id": "option-3",
+        "text": "James Norrington"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 34,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://pirates.disney.com/jack-sparrow",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:f73bb855946b3774",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome artístico do vocalista do U2?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bono"
+      },
+      {
+        "id": "option-1",
+        "text": "Sting"
+      },
+      {
+        "id": "option-2",
+        "text": "The Edge"
+      },
+      {
+        "id": "option-3",
+        "text": "Morrissey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 44,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.one.org/us/person/bono/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:6ef081ea07e82146",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual ex-integrante dos Beatles formou a banda Wings com Linda McCartney e Denny Laine em 1971?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Paul McCartney"
+      },
+      {
+        "id": "option-1",
+        "text": "John Lennon"
+      },
+      {
+        "id": "option-2",
+        "text": "George Harrison"
+      },
+      {
+        "id": "option-3",
+        "text": "Ringo Starr"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 48,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.paulmccartney.com/wings",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:60b17f416960fc61",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cantora é conhecida como vocalista do Paramore?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hayley Williams"
+      },
+      {
+        "id": "option-1",
+        "text": "Amy Lee"
+      },
+      {
+        "id": "option-2",
+        "text": "Avril Lavigne"
+      },
+      {
+        "id": "option-3",
+        "text": "Shirley Manson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 49,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://qa.grammy.com/artists/paramore/7833",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:bfea30c1ab426830",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual músico é conhecido como vocalista do Coldplay?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chris Martin"
+      },
+      {
+        "id": "option-1",
+        "text": "Thom Yorke"
+      },
+      {
+        "id": "option-2",
+        "text": "Brandon Flowers"
+      },
+      {
+        "id": "option-3",
+        "text": "Matt Bellamy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 62,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.grammy.com/artists/chris-martin/4358/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:c55490d197605447",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Katniss Everdeen no filme “Jogos Vorazes”, de 2012?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jennifer Lawrence"
+      },
+      {
+        "id": "option-1",
+        "text": "Shailene Woodley"
+      },
+      {
+        "id": "option-2",
+        "text": "Kristen Stewart"
+      },
+      {
+        "id": "option-3",
+        "text": "Emma Stone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 79,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://lionsgateplus.com/movies/the-hunger-games/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:255b2fb12b6518f4",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Freddie Mercury em “Bohemian Rhapsody”, de 2018?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rami Malek"
+      },
+      {
+        "id": "option-1",
+        "text": "Taron Egerton"
+      },
+      {
+        "id": "option-2",
+        "text": "Austin Butler"
+      },
+      {
+        "id": "option-3",
+        "text": "Andrew Garfield"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 96,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.oscars.org/oscars/ceremonies/2019",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:17a882d4864fc602",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em que ano Taylor Swift lançou seu primeiro álbum de estúdio?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2006"
+      },
+      {
+        "id": "option-1",
+        "text": "2004"
+      },
+      {
+        "id": "option-2",
+        "text": "2008"
+      },
+      {
+        "id": "option-3",
+        "text": "2010"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 12,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.grammy.com/artists/taylor-swift/15450/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:1934985b7fabed52",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou, escreveu e protagonizou a série “Fleabag”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Phoebe Waller-Bridge"
+      },
+      {
+        "id": "option-1",
+        "text": "Michaela Coel"
+      },
+      {
+        "id": "option-2",
+        "text": "Sharon Horgan"
+      },
+      {
+        "id": "option-3",
+        "text": "Lena Dunham"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 16,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.televisionacademy.com/bios/phoebe-waller-bridge",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:c3b74f654c719997",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual dupla criou a série animada “Rick and Morty”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dan Harmon e Justin Roiland"
+      },
+      {
+        "id": "option-1",
+        "text": "Trey Parker e Matt Stone"
+      },
+      {
+        "id": "option-2",
+        "text": "Matt Groening e David X. Cohen"
+      },
+      {
+        "id": "option-3",
+        "text": "Mike Judge e Greg Daniels"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 21,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://press.wbd.com/us/synopses/rick-and-morty-series-description?language_content_entity=en",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:d836368b76274f05",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem criou a série antológica “Black Mirror”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charlie Brooker"
+      },
+      {
+        "id": "option-1",
+        "text": "Russell T Davies"
+      },
+      {
+        "id": "option-2",
+        "text": "Steven Moffat"
+      },
+      {
+        "id": "option-3",
+        "text": "Vince Gilligan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 33,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.netflix.com/title/70264888?fromWatch=true&source=35",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:22431c02d0c2212b",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual cineasta codirigiu “Cidade de Deus”, de 2002, com Fernando Meirelles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kátia Lund"
+      },
+      {
+        "id": "option-1",
+        "text": "Anna Muylaert"
+      },
+      {
+        "id": "option-2",
+        "text": "Laís Bodanzky"
+      },
+      {
+        "id": "option-3",
+        "text": "Sandra Kogut"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 35,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.bfi.org.uk/interviews/city-god-phenomenon-new-interview-with-fernando-meirelles",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:2667157e22258d7a",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual é o nome da nave de Peter Quill no filme “Guardiões da Galáxia”, de 2014?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Milano"
+      },
+      {
+        "id": "option-1",
+        "text": "Benatar"
+      },
+      {
+        "id": "option-2",
+        "text": "Bowie"
+      },
+      {
+        "id": "option-3",
+        "text": "Rocinante"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 39,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.lego.com/en-us/product/guardians-of-the-galaxy-the-milano-76286",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:dca338c57c1b4e88",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o primeiro álbum completo de estúdio do BTS, lançado em 2014?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dark & Wild"
+      },
+      {
+        "id": "option-1",
+        "text": "2 Cool 4 Skool"
+      },
+      {
+        "id": "option-2",
+        "text": "Skool Luv Affair"
+      },
+      {
+        "id": "option-3",
+        "text": "Wings"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 43,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://bts.ibighit.com/eng/discography/detail/dark_and_wild.html",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:1a93afe159954079",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Em qual álbum de Taylor Swift a faixa “Tim McGraw” foi lançada originalmente?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Taylor Swift"
+      },
+      {
+        "id": "option-1",
+        "text": "Fearless"
+      },
+      {
+        "id": "option-2",
+        "text": "Speak Now"
+      },
+      {
+        "id": "option-3",
+        "text": "Red"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 45,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.grammy.com/artists/taylor-swift/15450/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:af80416034195f3d",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual álbum de David Bowie foi lançado em 8 de janeiro de 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blackstar"
+      },
+      {
+        "id": "option-1",
+        "text": "The Next Day"
+      },
+      {
+        "id": "option-2",
+        "text": "Heathen"
+      },
+      {
+        "id": "option-3",
+        "text": "Reality"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 50,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.davidbowie.com/blackstar",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:ea399a58c36ec38d",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual canção foi a primeira a dar projeção internacional a Billie Eilish?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ocean Eyes"
+      },
+      {
+        "id": "option-1",
+        "text": "Bad Guy"
+      },
+      {
+        "id": "option-2",
+        "text": "Lovely"
+      },
+      {
+        "id": "option-3",
+        "text": "Bury a Friend"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 53,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://iq.grammy.com/artists/billie-eilish/251741",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:902c64d60f40f0aa",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual foi o álbum de estreia de Ariana Grande?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yours Truly"
+      },
+      {
+        "id": "option-1",
+        "text": "My Everything"
+      },
+      {
+        "id": "option-2",
+        "text": "Dangerous Woman"
+      },
+      {
+        "id": "option-3",
+        "text": "Sweetener"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 57,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.grammy.com/artists/ariana-grande/18441/",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:a0304a775c38721b",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Quem interpretou Elizabeth II na terceira e na quarta temporadas de “The Crown”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Olivia Colman"
+      },
+      {
+        "id": "option-1",
+        "text": "Claire Foy"
+      },
+      {
+        "id": "option-2",
+        "text": "Imelda Staunton"
+      },
+      {
+        "id": "option-3",
+        "text": "Helena Bonham Carter"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 88,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://www.netflix.com/tudum/articles/the-crown-season-5-clip",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
+  },
+  {
+    "id": "questionados:pop-culture:e2405b8abb02528c",
+    "category": "pop-culture",
+    "locale": "pt-BR",
+    "type": "multiple",
+    "prompt": "Qual dupla criou a série “Friends”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "David Crane e Marta Kauffman"
+      },
+      {
+        "id": "option-1",
+        "text": "Chuck Lorre e Bill Prady"
+      },
+      {
+        "id": "option-2",
+        "text": "Larry David e Jerry Seinfeld"
+      },
+      {
+        "id": "option-3",
+        "text": "Carter Bays e Craig Thomas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "approved",
+    "source": {
+      "id": "questionados",
+      "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+      "recordIndex": 92,
+      "license": "MIT"
+    },
+    "review": {
+      "referenceUrl": "https://press.wbd.com/us/media-release/friends-reunion-premiere-thursday-may-27-hbo-max-official-teaser",
+      "reviewedAt": "2026-10-20",
+      "checks": {
+        "factual": true,
+        "language": true,
+        "uniqueAnswer": true
+      }
+    }
   }
 ]

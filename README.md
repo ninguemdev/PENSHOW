@@ -6,11 +6,25 @@ O desempenho nas primeiras cinco fases determinará a vantagem na final: **1º l
 
 ## Estado do projeto
 
-A base do monorepo está disponível: navegação React, editor de personagens com 50 peças, perfil local, stores, componentes acessíveis, servidor Fastify e contratos compartilhados. Já é possível criar uma sala, entrar por código/convite e reunir o grupo no lobby com perfis, presença e preferências compartilhadas. Sessões autenticadas e reconexão preservam a identidade e a vaga. O catálogo privado contém um [lote inicial de 72 perguntas revisadas](docs/revisao-editorial-t11.md), com 12 por tema. O [quiz clássico de teste](docs/quiz-classico-web.md) pode ser iniciado na web em desenvolvimento/teste: seis perguntas, resposta definitiva, revelação, placar e retorno ao lobby. O [smoke em Playwright](docs/smoke-m2.md) cobre o percurso real com duas identidades em desktop e celular emulado. Ainda não há partida completa ou versão publicada.
+A base do monorepo está disponível: navegação React, editor de personagens com 50 peças, perfil local, stores, componentes acessíveis, servidor Fastify e contratos compartilhados. Já é possível criar uma sala, entrar por código/convite e reunir o grupo no lobby com perfis, presença e preferências compartilhadas. Sessões autenticadas e reconexão preservam a identidade e a vaga. O catálogo privado contém [300 perguntas revisadas](docs/revisao-editorial-t27.md), com 50 por tema e estoque validado para o orçamento completo de conteúdo. O [quiz clássico de teste](docs/quiz-classico-web.md) pode ser iniciado na web em desenvolvimento/teste: seis perguntas, resposta definitiva, revelação, placar e retorno ao lobby. O [smoke em Playwright](docs/smoke-m2.md) cobre o percurso real com duas identidades em desktop e celular emulado. Ainda não há partida completa ou versão publicada.
 
 O projeto parte da arquitetura do [Comicle](https://github.com/ninguemdev/Comicle), especialmente suas salas, identidade de convidado, nomes e avatares. As fases têm como referência a dinâmica de programas de perguntas do [Brain Show](https://store.steampowered.com/app/2235150/).
 
+A [modalidade de velocidade](docs/velocidade.md) também está disponível como fase isolada de teste no lobby: seis perguntas, bônus por faixa de tempo recebido no servidor e detalhamento de base, bônus e total. Os testes de navegador cobrem clássico e velocidade em desktop e celular emulado. Pontos e tempos continuam experimentais; a sequência completa das fases permanece para as próximas tarefas.
+
+A [modalidade de aposta](docs/aposta.md) acrescenta uma escolha privada antes de cada enunciado, limitada ao saldo, com confirmação e liquidação única na revelação. Também está disponível como fase isolada no lobby em desenvolvimento/teste; não há saldo inicial artificial ou desconto antecipado.
+
+O [protótipo de roubo](docs/roubo.md) permite escolher adversário depois de fechar as respostas e transfere pontos limitados ao saldo após os acertos. Ele exercita a proposta de direito exclusivo do primeiro acerto; D05 continua pendente antes da consolidação da modalidade.
+
+O [protótipo de dinamite](docs/dinamite.md) acrescenta dois turnos por participante, ordem sorteada e inversa no segundo ciclo, prazo individual completo e explosão com penalidade limitada ao saldo. D04 continua pendente para a escolha definitiva da quinta modalidade.
+
+A [classificação e atribuição de vidas](docs/classificacao-e-vidas.md) guarda um retrato único do placar ao encerrar os protótipos, com 5/4/3/2 vidas quando a ordem está definida. Empates mantêm D06 pendente e não atribuem vidas automaticamente.
+
+O [protótipo da final no servidor](docs/final-no-servidor.md) aceita a primeira resposta válida, aplica uma perda por erro ou ataque manual e encerra pelo único sobrevivente. Ele pode continuar um plano isolado concluído com classificação pronta e estoque suficiente. A [interface da final](docs/final-na-web.md) mostra conversão para vidas, disputa, alvo, perdas e eliminação, com recuperação da etapa após reconectar. D02/D03 permanecem pendentes e aparecem como pausas explícitas no teste.
+
 ## Planejamento
+
+O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da final e os resultados das fases disputadas, com o placar anterior identificado como histórico. O anfitrião pode preparar outra partida na mesma sala; perfis e fila de temas são preservados, espectadores ocupam vagas disponíveis e quem saiu libera sua vaga.
 
 - [Plano detalhado do jogo](docs/plano-do-jogo.md): cada fase, quantidade de perguntas, pontos, tempos, exemplos, final e casos de borda.
 - [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
@@ -27,6 +41,15 @@ O projeto parte da arquitetura do [Comicle](https://github.com/ninguemdev/Comicl
 - [Motor de partida](docs/motor-de-partida.md): máquina pura, estratégias, transações, prazos e projeções internas.
 - [Quiz clássico](docs/quiz-classico.md): comandos autenticados, seis perguntas, progresso, privacidade e restrição do protótipo a desenvolvimento/teste.
 - [Quiz na web](docs/quiz-classico-web.md): telas por estado, respostas, cronômetro, placar, reconexão e teclado/toque.
+- [Velocidade](docs/velocidade.md): seis perguntas de teste, faixas de bônus oficiais no servidor e detalhamento na interface; disponível pelo lobby em desenvolvimento/teste.
+- [Aposta](docs/aposta.md): escolha privada antes do enunciado, valores cobertos pelo saldo, confirmação e liquidação única; teste isolado pelo lobby em desenvolvimento/teste.
+- [Roubo](docs/roubo.md): protótipo do primeiro acerto, alvo autorizado, transferência conservada e decomposição do saldo; D05 em consulta.
+- [Dinamite](docs/dinamite.md): turno exclusivo, dois ciclos inversos, pavio individual e explosão sem eliminação; D04 em consulta.
+- [Classificação e vidas](docs/classificacao-e-vidas.md): placar histórico congelado, distribuição confirmada e registro explícito de empates; D06 em consulta.
+- [Final no servidor](docs/final-no-servidor.md): primeira resposta exclusiva, ataque manual, eliminações e projeções; D02/D03 em consulta.
+- [Final na web](docs/final-na-web.md): conversão para vidas, prioridade confirmada, alvo, resolução acessível, espectador e reconexão.
+- [Pódio e revanche](docs/podio-e-revanche.md): ordem pelo sobrevivente, resumo por fase, novo elenco e continuidade da fila de temas na mesma sala.
+- [Reconexão e ciclo de vida](docs/cenarios-de-reconexao.md): matriz por etapa, janela preservada, sala vazia, transferência de anfitrião, consulta de associação e limites após reinício.
 - [Smoke M2](docs/smoke-m2.md): Playwright, duas identidades, isolamento, CI e [roteiro de inspeção](docs/teste-manual-m2.md).
 - [Interface](docs/interface.md): navegação, componentes, estilo provisório, caminho base e estados de conexão/armazenamento.
 - [Avatares](docs/avatares.md): catálogo, editor, persistência, verificação de artes e [licenças](THIRD_PARTY_NOTICES.md).
@@ -66,6 +89,7 @@ O build gera `packages/shared/dist`, `apps/server/dist` e `apps/web/dist`. Após
 pnpm questions:validate
 pnpm questions:publish
 pnpm questions:check
+pnpm questions:simulate --check
 pnpm test:content
 ```
 
@@ -73,7 +97,7 @@ Os comandos anteriores `npm test` e `npm run questions:validate` continuam dispo
 
 Os arquivos em `data/questions/candidates` são candidatos à revisão editorial. Não devem ser usados automaticamente numa partida. As fontes e suas licenças estão em `data/sources.json` e `data/licenses`.
 
-Copie os registros escolhidos para `data/questions/reviewed`, registre a revisão factual/idioma/resposta única e só então marque sua aprovação. `questions:publish` gera atomicamente `data/questions/published/catalog.json` e o relatório editorial; `questions:check` verifica a correspondência sem escrever. O servidor carrega somente esse catálogo privado, validando-o antes de aceitar requisições. A T11 publica 72 perguntas: seis fáceis, quatro médias e duas difíceis em cada um dos seis temas. É um lote inicial para fases isoladas; a cobertura de uma partida completa com doze jogadores pertence a marcos posteriores. Consulte [perguntas](docs/perguntas.md) para o formato, as garantias e seus limites.
+Copie os registros escolhidos para `data/questions/reviewed`, registre a revisão factual/idioma/resposta única e só então marque sua aprovação. `questions:publish` gera atomicamente `data/questions/published/catalog.json` e o relatório editorial; `questions:check` verifica a correspondência sem escrever. O servidor carrega somente esse catálogo privado, validando-o antes de aceitar requisições. A T27 amplia as 72 da T11 para **300 perguntas: 15 fáceis, 20 médias e 15 difíceis em cada um dos seis temas**. `questions:simulate` gera o relatório de reserva/seleção; `questions:simulate --check` o reproduz sem escrever. O orçamento experimental das cinco fases mais 50 perguntas para a final funciona com 2–12 jogadores e pelo menos três temas habilitados. A integração da sequência de fases e as regras pendentes continuam nas tarefas próprias. Consulte [perguntas](docs/perguntas.md) para o formato, as garantias e seus limites.
 
 Coleta inicial: **1.531 candidatos**, sendo **531 em português para revisão** e **1.000 em inglês para tradução**. Nenhum foi marcado como aprovado. O objetivo de expansão é chegar a 5.000 perguntas revisadas em pt-BR.
 

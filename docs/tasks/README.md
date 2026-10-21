@@ -29,16 +29,16 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T15 | [Quiz clássico no servidor](./T15-quiz-classico-servidor.md) | T14 | M2 | ✅ |
 | T16 | [Fluxo de perguntas e placar na web](./T16-quiz-classico-web.md) | T09, T15 | M2 | ✅ |
 | T17 | [Primeiro marco jogável e smoke test](./T17-primeiro-marco-jogavel.md) | T11, T16 | M2 | ✅ |
-| T18 | [Modalidade de velocidade](./T18-fase-velocidade.md) | T17 | M3 | ⬜ |
-| T19 | [Modalidade de aposta](./T19-fase-aposta.md) | T17, T13 | M3 | ⬜ |
-| T20 | [Modalidade de roubo de pontos](./T20-fase-roubo.md) | T17, T13 | M3 | ⬜ |
-| T21 | [Quinta fase de pressão e dinamite](./T21-quinta-fase-pressao.md) | T17, T13 | M3 | ⬜ |
-| T22 | [Classificação, desempates e atribuição de vidas](./T22-classificacao-e-vidas.md) | T13 | M3 | ⬜ |
-| T23 | [Final no servidor com primeira resposta exclusiva](./T23-final-no-servidor.md) | T14, T22 | M3 | ⬜ |
-| T24 | [Final na web e visualização das vidas](./T24-final-na-web.md) | T16, T23 | M3 | ⬜ |
-| T25 | [Pódio, histórico e revanche](./T25-podio-e-revanche.md) | T24 | M3 | ⬜ |
-| T26 | [Reconexão em todas as fases e ciclo de vida](./T26-reconexao-e-ciclo-de-vida.md) | T25, T18, T19, T20, T21 | M4 | ⬜ |
-| T27 | [Catálogo de 300 perguntas para testes completos](./T27-catalogo-de-teste-completo.md) | T11, T12 | M3 | ⬜ |
+| T18 | [Modalidade de velocidade](./T18-fase-velocidade.md) | T17 | M3 | ✅ |
+| T19 | [Modalidade de aposta](./T19-fase-aposta.md) | T17, T13 | M3 | ✅ |
+| T20 | [Modalidade de roubo de pontos](./T20-fase-roubo.md) | T17, T13 | M3 | 🟨 |
+| T21 | [Quinta fase de pressão e dinamite](./T21-quinta-fase-pressao.md) | T17, T13 | M3 | 🟨 |
+| T22 | [Classificação, desempates e atribuição de vidas](./T22-classificacao-e-vidas.md) | T13 | M3 | 🟨 |
+| T23 | [Final no servidor com primeira resposta exclusiva](./T23-final-no-servidor.md) | T14, T22 | M3 | 🟨 |
+| T24 | [Final na web e visualização das vidas](./T24-final-na-web.md) | T16, T23 | M3 | ✅ |
+| T25 | [Pódio, histórico e revanche](./T25-podio-e-revanche.md) | T24 | M3 | ✅ |
+| T26 | [Reconexão em todas as fases e ciclo de vida](./T26-reconexao-e-ciclo-de-vida.md) | T25, T18, T19, T20, T21 | M4 | ✅ |
+| T27 | [Catálogo de 300 perguntas para testes completos](./T27-catalogo-de-teste-completo.md) | T11, T12 | M3 | ✅ |
 | T28 | [Privacidade, limites e concorrência](./T28-privacidade-limites-e-concorrencia.md) | T26 | M4 | ⬜ |
 | T29 | [Testes ponta a ponta da partida completa](./T29-e2e-partida-completa.md) | T26, T27, T28 | M4 | ⬜ |
 | T30 | [Acessibilidade, celular e acabamento visual](./T30-acessibilidade-e-responsividade.md) | T25, T18, T19, T20, T21 | M5 | ⬜ |

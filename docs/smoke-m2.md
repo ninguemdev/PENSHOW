@@ -13,6 +13,22 @@ pnpm test:e2e
 
 `test:e2e` confere o catálogo, compila os três pacotes do aplicativo e executa os dois projetos: desktop **1280×900** e móvel **360×780**, com toque emulado. Usa os tempos reais do protótipo, incluindo uma pergunta com ausência; cada projeto leva aproximadamente um minuto e meio. Não há `waitForTimeout` ou relógio acelerado.
 
+A [T18](velocidade.md) acrescentou `speed-smoke.spec.ts` aos mesmos projetos e job da CI, descoberto automaticamente por Playwright. Seus quatro percursos (clássico/velocidade em desktop/móvel) levaram **4,6 minutos** na execução local registrada naquela tarefa. A velocidade exercita seis perguntas, base/bônus/total nas duas telas, recarga após resposta, prazo preservado, encerramento e retorno ao lobby.
+
+A [T19](aposta.md) acrescenta `wager-smoke.spec.ts`, totalizando seis percursos nas mesmas duas resoluções. O roteiro verifica saldo zero, escolhas 0/25/50, ausência de aposta e de resposta, recarga após apostar, privacidade do enunciado/valores, ganhos/perdas e retorno ao lobby, com resultado **425/325**. O artefato da CI passa a se chamar `smoke-modalidades`; todos os percursos continuam no job `smoke`.
+
+Os seis percursos passaram localmente em **8,3 minutos** em 19/10/2026, sem retry. Naquela etapa, o job recebeu limite de 15 minutos para as três modalidades com os tempos reais. A aposta anexa também capturas de conclusão/placar e resumo; as evidências detalhadas estão na [T19](tasks/T19-fase-aposta.md).
+
+O [protótipo da T20](roubo.md) acrescenta `theft-smoke.spec.ts` aos mesmos projetos e ao artefato `smoke-modalidades`, totalizando oito percursos. O novo teste cobre seis perguntas, erro mais rápido, dois acertos, nenhum acerto, timeout sem alvo, troca de autor, recarga durante a escolha, transferência/placar nas duas telas e retorno ao lobby. O resultado esperado é **400/400** e há capturas da transferência. O job passou a dispor de 20 minutos para as quatro modalidades e instalação do navegador. D05 permanece em consulta; a cobertura de protótipo não consolida a variante.
+
+Os **oito percursos passaram em 10,6 minutos**, sem retry, na execução Windows de 19/10/2026. O roubo terminou em **400/400** e **4/4 acertos** nas duas resoluções, com capturas de transferência inspecionadas. A CI hospedada ainda não foi executada; não houve push/deploy. Evidências estão na [T20](tasks/T20-fase-roubo.md).
+
+O [protótipo da T21](dinamite.md) acrescenta `pressure-smoke.spec.ts` aos dois projetos, totalizando dez percursos das cinco modalidades. O cenário de dinamite usa dois jogadores, quatro turnos, ordem inversa no segundo ciclo, perguntas médias/difíceis, controles exclusivos, recarga com prazo preservado, acertos, timeout e erro, encerrando em **150/150** com um acerto por pessoa. As capturas mostram explosão e próximo turno. O job mantém 20 minutos e o mesmo artefato `smoke-modalidades`. D04 continua em consulta; evidências executadas ficam na [T21](tasks/T21-quinta-fase-pressao.md).
+
+Os **dez percursos passaram em 12,7 minutos**, sem retry, na execução Windows de 19/10/2026. A dinamite terminou em **150/150** e **1/1 acertos** nas duas resoluções; suas capturas foram inspecionadas. A CI hospedada ainda não foi executada.
+
+A [T22](classificacao-e-vidas.md) estende o smoke clássico para conferir `finalEntry` nos eventos recebidos ao encerrar: pontos **500/200**, acertos **5/2**, vidas **5/4**, perdas suportadas **4/3** e perda eliminatória **5/4**. O cenário focado passou em desktop e celular emulado, **2 percursos em 2,7 minutos**, sem retry. Esse resumo tem escopo de protótipo; as telas e a partida real da final ainda serão integradas. A matriz inteira das cinco modalidades não foi repetida nesta tarefa.
+
 Depois de compilar, `pnpm test:e2e:run` executa apenas o navegador. Para investigar um projeto:
 
 ```sh
@@ -55,4 +71,24 @@ O job `smoke` em `.github/workflows/ci.yml` depende de `quality`, usa Ubuntu 24.
 
 A configuração e os comandos do job são verificados localmente; a execução hospedada ocorre quando o usuário publicar o branch. Esta tarefa não realiza commit, push ou deploy.
 
-O [roteiro de inspeção](teste-manual-m2.md) registra ações, resultados esperados e execução desktop/móvel. A base da configuração segue a documentação oficial de [fixtures](https://playwright.dev/docs/test-fixtures), [TypeScript](https://playwright.dev/docs/test-typescript) e [CI](https://playwright.dev/docs/ci-intro). Testes de cinco modalidades/final, navegadores adicionais e grupos maiores pertencem aos marcos seguintes.
+O [roteiro de inspeção](teste-manual-m2.md) registra ações, resultados esperados e execução desktop/móvel. A base da configuração segue a documentação oficial de [fixtures](https://playwright.dev/docs/test-fixtures), [TypeScript](https://playwright.dev/docs/test-typescript) e [CI](https://playwright.dev/docs/ci-intro). A partida completa, navegadores adicionais e grupos maiores pertencem aos marcos seguintes.
+
+## Final na web — T24
+
+`final-smoke.spec.ts` continua o clássico concluído pela interface, com classificação sem empate e estoque real do catálogo. Cobre primeira resposta exclusiva entre duas sessões, erro, acerto, ataque manual a alvo desconectado, dano único, recarga com prazo preservado e eliminação/reconexão até o aviso de sobrevivente e retorno ao lobby. Roda com os relógios reais do aplicativo e do navegador; sincroniza os cliques concorrentes pela fila sem modificar estado. Em 20/10/2026, os projetos desktop e celular emulado passaram em 3,7 minutos, com teclado/toque, auditoria pública e capturas inspecionadas. Consulte [final na web](final-na-web.md) e [T24](tasks/T24-final-na-web.md). Os testes das modalidades isoladas também integram a descoberta automática do job `smoke`; isso ainda não representa a sequência completa das cinco fases.
+
+## Pódio e revanche — T25
+
+O mesmo smoke foi ampliado para duas partidas consecutivas por projeto, sempre com clássico + final. Depois do primeiro pódio, entra um espectador e sai o anfitrião; quem foi eliminado assume o grupo e prepara a revanche pelo serviço. O espectador ocupa a vaga no lobby, e a nova partida começa com IDs novos e pontuação zero, conservando sala/perfis e a fila de temas. Na segunda final, o segundo colocado vence o líder em pontos; a ordem do pódio, o resumo por fase e o placar histórico continuam coerentes após recarga.
+
+Em 20/10/2026, **desktop e celular emulado passaram: dois testes em 7,3 minutos**, com captura `podio-revanche.png` inspecionada em ambos, toque/teclado, auditoria de privacidade e ausência de rolagem horizontal. O job existente descobre os testes automaticamente e tem 30 minutos para executar modalidades, finais e revanches. Consulte [pódio e revanche](podio-e-revanche.md) e [T25](tasks/T25-podio-e-revanche.md). O resultado continua limitado aos protótipos isolados; não representa uma sequência das cinco modalidades.
+
+## Reconexão e ciclo de vida — T26
+
+`reconnection-smoke.spec.ts` usa os relógios reais do servidor/navegadores. Registra resposta, recarrega sem restaurar tentativa/prazo, deixa todas as conexões saírem e espera uma resolução sem próxima pergunta. Recupera a sala antes de 120 s, confere a transferência de anfitrião após 30 s e substitui uma aba autenticada sem duplicar participante nem liberar outra resposta. Retorno do anfitrião antigo não toma o controle de volta. As capturas `reconexao.png` foram inspecionadas em desktop/celular emulado.
+
+Em 20/10/2026, o comando com `reconnection-smoke.spec.ts final-smoke.spec.ts` passou nos dois projetos: **quatro testes em 8,9 minutos**, incluindo as duas partidas consecutivas por projeto e recuperação do alvo/pódio. `restart-smoke.spec.ts` passou adicionalmente nos dois projetos em **9,6 segundos**: aplicativo novo no mesmo backend, sessão/sala antigas encerradas e perfil local preservado. Relatório principal em `e2e/playwright-report/`, relatório de reinício em `e2e/playwright-report/restart/`; resultados em `e2e/test-results/`, com reinício no subdiretório `restart/`. Consulte a [matriz de reconexão](cenarios-de-reconexao.md) e [T26](tasks/T26-reconexao-e-ciclo-de-vida.md).
+
+## Catálogo ampliado — T27
+
+Em 20/10/2026, `classic-smoke.spec.ts` foi repetido com o catálogo publicado de **300 perguntas**, em desktop e celular emulado: **dois testes passaram em 2,6 minutos**. O percurso confere duas identidades, convite, recarga, seis perguntas reais sem repetição, mistura 3 fáceis/3 médias, placares de 500/200, classificação e retorno ao lobby, com auditoria das mensagens públicas. Relatório em `e2e/playwright-report/t27/` e resultados/capturas em `e2e/test-results/t27/`. O orçamento das cinco fases e a reserva de 50 são verificados separadamente pelas 66 simulações determinísticas da [T27](tasks/T27-catalogo-de-teste-completo.md); este smoke continua sendo uma fase clássica isolada.
