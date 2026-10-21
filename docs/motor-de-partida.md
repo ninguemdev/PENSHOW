@@ -71,3 +71,7 @@ Falha de conteúdo/cálculo antes do commit mantém o estado anterior; um timer 
 `match.domain.test.ts` cobre transições, imutabilidade, prontidão repetida, autorização/contexto, prazo exato, callbacks atrasados, todos responderam, ausência, efeitos em ordem, histórico único, interrupção, término e passagem para outra estratégia fornecida somente pelo teste.
 
 `match.service.test.ts` usa salas reais em memória, catálogo sintético aprovado, seleção efetiva, relógio/agendador manuais e projeções validadas. Cobre seis perguntas distintas, concorrência, cancelamento no lobby/fechamento, callback de partida anterior, rollback após consumo de conteúdo, falha de cálculo, nova tentativa do timer, falha de publicação, conexão substituída e privacidade por destinatário. Evidências de execução estão na [T14](tasks/T14-motor-comum-de-partida.md).
+
+## Integração da T36
+
+O [modo clássico integrado](modo-classico.md) instala quatro estratégias sorteadas e um `finalRound` com ID reservado e posição 5. As transições preservam o placar e os acertos; o fim da quarta fase publica classificação pendente ou inicia a final automaticamente com escopo `full-match`. `ranking` é terminal enquanto D06 estiver em consulta. O modo legado e os protótipos isolados conservam seus percursos históricos.

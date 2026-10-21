@@ -7,7 +7,7 @@ import { Admission } from './admission';
 import { SettingsForm } from './settings-form';
 
 const initialSettings: RoomSettings = {
-  format: 'prototype-v1',
+  format: 'classic',
   maxPlayers: ROOM_LIMITS.maxPlayers,
   enabledCategories: Object.keys(strings.room.themeNames),
 };

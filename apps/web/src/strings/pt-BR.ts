@@ -91,6 +91,13 @@ export const strings = {
     settingsSaved: 'Preferências confirmadas.',
     readonlySettings: 'O anfitrião pode ajustar as preferências enquanto o grupo se reúne.',
     format: 'Formato experimental',
+    classicTitle: 'Modo clássico · 5 fases',
+    classicDetail:
+      'Quatro modalidades diferentes em ordem sorteada, seguidas pela final de vidas. Os pontos acumulados nas quatro fases definem sua vantagem na final.',
+    experimentalRules:
+      'Regras em avaliação: dinamite e roubo usam as variantes de teste. Empates e prazos sem resposta ou alvo na final ainda podem pausar a partida.',
+    startClassic: 'Iniciar modo clássico',
+    isolatedTests: 'Testes de modalidades isoladas',
     start: 'Iniciar quiz clássico',
     prototype: 'Quiz clássico de teste · 1 fase · 6 perguntas',
     speedPrototype: 'Velocidade de teste · 1 fase · 6 perguntas',
@@ -199,6 +206,9 @@ export const strings = {
     winner: (name: string) => `${name} venceu a final!`,
   },
   match: {
+    plan: 'Ordem das fases',
+    simpleTitle: 'Quiz simples',
+    classicPaused: 'Classificação aguardando desempate',
     theftTitle: 'Quiz de roubo de pontos',
     pressureTitle: 'Quiz de dinamite',
     pressureComplete: 'Quiz de dinamite concluído',

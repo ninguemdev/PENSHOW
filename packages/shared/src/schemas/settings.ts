@@ -3,7 +3,7 @@ import { categoryIdSchema, roundIdSchema } from './identifiers.js';
 import { ROOM_LIMITS } from '../domain/rooms.js';
 
 export const roomSettingsSchema = z.strictObject({
-  format: z.literal('prototype-v1'),
+  format: z.enum(['classic', 'prototype-v1']).default('classic'),
   maxPlayers: z.number().int().min(ROOM_LIMITS.minPlayers).max(ROOM_LIMITS.maxPlayers),
   enabledCategories: z
     .array(categoryIdSchema)
@@ -23,33 +23,33 @@ export const pressureVariantSchema = z.discriminatedUnion('status', [
 
 export const classicRoundSchema = z.strictObject({
   roundId: roundIdSchema,
-  index: z.literal(1),
+  index: z.number().int().min(1).max(5),
   mode: z.literal('classic'),
 });
 export const speedRoundSchema = z.strictObject({
   roundId: roundIdSchema,
-  index: z.literal(2),
+  index: z.number().int().min(1).max(5),
   mode: z.literal('speed'),
 });
 export const wagerRoundSchema = z.strictObject({
   roundId: roundIdSchema,
-  index: z.literal(3),
+  index: z.number().int().min(1).max(5),
   mode: z.literal('wager'),
 });
 export const theftRoundSchema = z.strictObject({
   roundId: roundIdSchema,
-  index: z.literal(4),
+  index: z.number().int().min(1).max(5),
   mode: z.literal('theft'),
 });
 export const pressureRoundSchema = z.strictObject({
   roundId: roundIdSchema,
-  index: z.literal(5),
+  index: z.number().int().min(1).max(5),
   mode: z.literal('pressure'),
   variant: pressureVariantSchema,
 });
 export const finalRoundSchema = z.strictObject({
   roundId: roundIdSchema,
-  index: z.literal(6),
+  index: z.union([z.literal(5), z.literal(6)]),
   mode: z.literal('final'),
 });
 

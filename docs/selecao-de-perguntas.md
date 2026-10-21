@@ -10,6 +10,7 @@ O [motor da T14](motor-de-partida.md) compõe o módulo na fila da sala, com che
 
 | Formato | Conteúdo exigido |
 |---|---|
+| `classic` | As quatro modalidades sorteadas recebidas em `modes`, mais 25 fáceis e 25 médias protegidas para a final; integração da [T36](modo-classico.md) |
 | `classic-prototype` | Uma fase clássica: três fáceis e três médias em um tema; sem reserva de final |
 | `full-prototype` | As cinco fases propostas, mais 25 fáceis e 25 médias protegidas para a final |
 
@@ -29,7 +30,7 @@ Quando o catálogo não cobre o formato, a criação retorna `{ status: "blocked
 
 ## Escolha e prazo
 
-`openRound(roundId, mode, now)` abre a escolha com até quatro temas elegíveis, sem repetir o tema anterior quando houver alternativa viável. A ordem dos temas é sorteada. A ordem de fases do orçamento completo é fixa; não permite abrir outra antes de concluir a atual. Reabrir o mesmo ID de fase devolve o estado existente e conserva as opções e o prazo.
+`openRound(roundId, mode, now)` abre a escolha com até quatro temas elegíveis, sem repetir o tema anterior quando houver alternativa viável. A ordem dos temas é sorteada. A ordem de fases segue a lista sorteada no modo `classic`; no orçamento histórico `full-prototype`, é fixa; não permite abrir outra antes de concluir a atual. Reabrir o mesmo ID de fase devolve o estado existente e conserva as opções e o prazo.
 
 A fila inicial é sorteada a partir de IDs ordenados, de modo que o sorteio não depende da entrada na sala, do anfitrião ou do placar. Seu estado contém `pending` e `served`. Escolha aceita ou expiração conta como uma oportunidade; nenhuma pessoa repete antes de todas as demais terem tido a vez.
 
@@ -53,7 +54,7 @@ Reconsultar, reconectar ou reabrir a fase não gera outros IDs, outra ordem de a
 
 A reserva é distribuída pelos temas habilitados, privilegiando os que receberam menos itens, dentro do excedente disponível por dificuldade. A divisão pode ficar desigual quando o estoque exige preservar categorias específicas para fases anteriores. Perguntas reservadas ficam fora das opções e alocações dessas fases.
 
-`startFinal(roundId)` exige a conclusão das cinco fases do orçamento completo. `currentFinalQuestion` alterna fácil/média e usa primeiro as 50 reservadas. Dentro dos temas com pergunta disponível na dificuldade da vez, prioriza os ainda não usados no ciclo e os menos exibidos; só reinicia o ciclo quando nenhum tema elegível ainda está pendente. Com estoque equilibrado, todos os temas aparecem antes da repetição. Um tema sem a dificuldade atual não é elegível naquele passo.
+`startFinal(roundId)` exige a conclusão de todas as modalidades do plano: quatro em `classic`, cinco no orçamento histórico `full-prototype`. `currentFinalQuestion` alterna fácil/média e usa primeiro as 50 reservadas. Dentro dos temas com pergunta disponível na dificuldade da vez, prioriza os ainda não usados no ciclo e os menos exibidos; só reinicia o ciclo quando nenhum tema elegível ainda está pendente. Com estoque equilibrado, todos os temas aparecem antes da repetição. Um tema sem a dificuldade atual não é elegível naquele passo.
 
 Ao terminar a reserva, busca perguntas inéditas do snapshot que não foram alocadas anteriormente. Continua alternando fácil/média; não usa difíceis como substituição. Pergunta atual e avanço têm as mesmas garantias de estabilidade e idempotência das outras fases. Uma reserva finita não garante conteúdo para qualquer duração da final.
 

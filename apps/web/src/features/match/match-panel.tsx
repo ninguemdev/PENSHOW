@@ -77,17 +77,45 @@ export function MatchPanel({
       complete: strings.match.theftComplete,
     },
   }[mode];
-  const focusKey = `${match.matchId}:${stage.phase}:${match.progress.questionNumber}`;
+  const focusKey = `${match.matchId}:${match.progress.roundNumber}:${stage.phase}:${match.progress.questionNumber}`;
   useEffect(() => {
     content.current?.querySelector<HTMLElement>('h2')?.focus();
   }, [focusKey]);
   const spectator =
     view.members.find((member) => member.playerId === view.viewerId)?.role === 'spectator';
-  const terminal = stage.phase === 'prototype-complete' || stage.phase === 'interrupted';
+  const terminal =
+    stage.phase === 'prototype-complete' ||
+    (stage.phase === 'ranking' && match.format === 'classic') ||
+    stage.phase === 'interrupted';
   const Renderer = 'round' in stage ? renderers[stage.round.mode] : undefined;
   return (
-    <section className="match-panel" aria-label={presentation.title}>
-      <p className="eyebrow">{presentation.prototype}</p>
+    <section
+      className="match-panel"
+      aria-label={
+        match.format === 'classic' && mode === 'classic'
+          ? strings.match.simpleTitle
+          : presentation.title
+      }
+    >
+      <p className="eyebrow">
+        {match.format === 'classic' ? strings.room.classicTitle : presentation.prototype}
+      </p>
+      {match.plan && (
+        <ol aria-label={strings.match.plan}>
+          {match.plan.map((round) => (
+            <li
+              key={round.roundId}
+              aria-current={round.index === match.progress.roundNumber ? 'step' : undefined}
+            >
+              {round.mode === 'final'
+                ? strings.final.title
+                : round.mode === 'classic'
+                  ? strings.match.simpleTitle
+                  : strings.results.modes[round.mode]}
+            </li>
+          ))}
+        </ol>
+      )}
       <p className="match-progress" role="status">
         {strings.match.progress(
           match.progress.roundNumber,
@@ -179,19 +207,24 @@ export function MatchPanel({
         {terminal ? (
           <>
             <h2 tabIndex={-1}>
-              {stage.phase === 'prototype-complete'
-                ? presentation.complete
+              {stage.phase !== 'interrupted'
+                ? match.format === 'classic'
+                  ? strings.match.classicPaused
+                  : presentation.complete
                 : strings.match.interrupted}
             </h2>
             <p>
-              {stage.phase === 'prototype-complete'
-                ? strings.match.completeHelp
+              {stage.phase !== 'interrupted'
+                ? match.format === 'classic'
+                  ? strings.final.tiePending
+                  : strings.match.completeHelp
                 : strings.match.reasons[stage.reason]}
             </p>
-            {stage.phase === 'prototype-complete' && match.finalEntry && (
+            {stage.phase !== 'interrupted' && match.finalEntry && (
               <>
                 <FinalEntry entry={match.finalEntry} view={view} />
-                {match.finalEntry.status === 'ready' &&
+                {match.format !== 'classic' &&
+                  match.finalEntry.status === 'ready' &&
                   view.members.some(
                     (member) => member.playerId === view.viewerId && member.isHost,
                   ) && (

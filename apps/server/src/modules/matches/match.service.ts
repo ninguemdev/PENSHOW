@@ -10,6 +10,7 @@ import { SelectionError } from '../questions/selection-policy.js';
 import { shuffled } from '../questions/theme-queue.domain.js';
 import type { ThemeChoiceQueue } from '../questions/theme-queue.domain.js';
 import { waitsForPlayers } from './match-presence.js';
+import { createClassicPlan } from './classic-plan.js';
 import { freezeMatchRules, type PrototypeParameters } from '../scoring/match-rules.js';
 import {
   createMatch,
@@ -47,7 +48,7 @@ interface ScheduledMatch {
   cancel: CancelTask;
 }
 
-/** Isolated scoring prototypes, installed by the app only outside production. */
+/** Integrated classic and isolated scoring modes, installed only outside production. */
 export class MatchService implements QuizLifecycle {
   private readonly strategies: StrategyRegistry;
   private readonly timers = new Map<Room, ScheduledMatch>();
@@ -65,12 +66,17 @@ export class MatchService implements QuizLifecycle {
 
   validateStart(roster: QuizRoster, previousChoiceQueue?: ThemeChoiceQueue): MatchSession {
     const mode = roster.prototypeMode ?? 'classic';
+    const plan =
+      !roster.prototypeMode && roster.settings.format === 'classic'
+        ? createClassicPlan(this.deps.runtime)
+        : null;
     const rules = freezeMatchRules(roster.matchId, this.deps.parameters);
     const result = QuestionSelection.create(this.deps.questions, this.deps.runtime, {
       matchId: roster.matchId,
       players: roster.players.map((player) => player.playerId),
       enabledCategories: roster.settings.enabledCategories,
-      format: `${mode}-prototype`,
+      format: plan ? 'classic' : `${mode}-prototype`,
+      ...(plan ? { modes: plan.rounds.map((round) => round.mode) } : {}),
       rules,
       ...(previousChoiceQueue ? { previousChoiceQueue } : {}),
     });
@@ -79,7 +85,7 @@ export class MatchService implements QuizLifecycle {
       state: createMatch(
         roster,
         rules,
-        [
+        plan?.rounds ?? [
           mode === 'pressure'
             ? {
                 roundId: roundIdSchema.parse(this.deps.runtime.ids.next()),
@@ -96,12 +102,13 @@ export class MatchService implements QuizLifecycle {
                   : { roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 1, mode },
         ],
         this.strategies,
-        mode === 'pressure'
+        (plan?.rounds.some((round) => round.mode === 'pressure') ?? mode === 'pressure')
           ? shuffled(
               roster.players.map((player) => player.playerId).sort(),
               this.deps.runtime.random,
             )
           : [],
+        plan?.finalRound,
       ),
       selection: result.selection.checkpoint(),
     };
@@ -258,6 +265,17 @@ export class MatchService implements QuizLifecycle {
       const effect = effects[index]!;
       const round = currentRound(state);
       switch (effect.kind) {
+        case 'start-final': {
+          const finalRound = state.finalRound;
+          if (!finalRound) throw new Error('Plano da final ausente.');
+          if (state.finalEntry?.status !== 'ready') break;
+          if (selection.startFinal(finalRound.roundId).status !== 'ready') {
+            state.stage = { phase: 'interrupted', reason: 'insufficient-questions' };
+            break;
+          }
+          state.final = createFinal(state.finalEntry, state.rules, finalRound.roundId, now, 5);
+          break;
+        }
         case 'next-final-question': {
           const final = state.final;
           if (!final) throw new Error('Final ausente.');

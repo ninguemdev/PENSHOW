@@ -193,7 +193,31 @@ export function RoomPage({ code, stores }: { code: string; stores: ClientStores 
                   <p className="help-text">{strings.room.readonlySettings}</p>
                 </>
               )}
-              <h2>{strings.room.prototype}</h2>
+              {view.state.settings.format === 'classic' && (
+                <>
+                  <h2>{strings.room.classicTitle}</h2>
+                  <p id="classic-help">{strings.room.classicDetail}</p>
+                  <p className="help-text">{strings.room.experimentalRules}</p>
+                  {host && (
+                    <Button
+                      disabled={
+                        blocked ||
+                        matchControls.blocked ||
+                        view.members.filter(
+                          (member) =>
+                            member.role === 'player' && member.connection.status === 'connected',
+                        ).length < 2
+                      }
+                      onClick={() => void matchControls.start()}
+                      aria-describedby="classic-help"
+                    >
+                      {strings.room.startClassic}
+                    </Button>
+                  )}
+                </>
+              )}
+              <h2>{strings.room.isolatedTests}</h2>
+              <h3>{strings.room.prototype}</h3>
               <p id="start-help">{strings.room.prototypeDetail}</p>
               {host && (
                 <>
@@ -206,7 +230,7 @@ export function RoomPage({ code, stores }: { code: string; stores: ClientStores 
                           member.role === 'player' && member.connection.status === 'connected',
                       ).length < 2
                     }
-                    onClick={() => void matchControls.start()}
+                    onClick={() => void matchControls.start('classic')}
                     aria-describedby="start-help"
                   >
                     {strings.room.start}

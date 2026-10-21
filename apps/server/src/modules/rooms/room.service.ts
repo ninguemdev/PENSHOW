@@ -293,13 +293,17 @@ export class RoomService {
   start(
     actor: RoomActor,
     roomId: RoomId,
-    mode: 'classic' | 'speed' | 'wager' | 'theft' | 'pressure' = 'classic',
+    mode?: 'classic' | 'speed' | 'wager' | 'theft' | 'pressure',
   ) {
     return this.asMember(actor, roomId, (tx) => {
       assertCanStart(tx.state, actor.playerId);
       if (!this.deps.quiz) throw new PublicCommandError('INVALID_PHASE');
       const roster: QuizRoster = {
-        prototypeMode: mode,
+        ...(mode
+          ? { prototypeMode: mode }
+          : tx.state.settings.format === 'prototype-v1'
+            ? { prototypeMode: 'classic' as const }
+            : {}),
         matchId: matchIdSchema.parse(this.deps.runtime.ids.next()),
         startedAt: this.deps.runtime.clock.now(),
         settings: structuredClone(tx.state.settings),
@@ -341,7 +345,7 @@ export class RoomService {
                 'final-no-answer-pending',
                 'final-no-target-pending',
               ].includes(tx.state.phase.game.state.final.stage.phase)
-            : ['prototype-complete', 'interrupted'].includes(
+            : ['prototype-complete', 'ranking', 'interrupted'].includes(
                 tx.state.phase.game.state.stage.phase,
               )))
       )

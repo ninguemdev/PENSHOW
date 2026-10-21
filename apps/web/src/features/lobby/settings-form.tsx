@@ -31,7 +31,7 @@ export function SettingsForm({
       onSubmit={async (event) => {
         event.preventDefault();
         const parsed = roomSettingsSchema.safeParse({
-          format: 'prototype-v1',
+          format: settings.format,
           maxPlayers: Number(capacity),
           enabledCategories: themes,
         });

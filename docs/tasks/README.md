@@ -47,7 +47,7 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T33 | [Expansão para 5.000 perguntas revisadas](./T33-expansao-para-5000-perguntas.md) | T27 | M6 | ⬜ |
 | T34 | [Build, container e operação de produção](./T34-build-e-operacao-de-producao.md) | T28, T29 | M6 | ⬜ |
 | T35 | [Publicação e validação final](./T35-publicacao-e-validacao-final.md) | T32, T33, T34 | M6 | ⬜ |
-| T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27 | M3 | ⬜ |
+| T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27 | M3 | 🟨 |
 
 Os números organizam o backlog; o que permite começar é a dependência concluída. Por exemplo, T27 pode avançar após T11/T12, mesmo antes de T18. Uma consulta em uma modalidade não impede concluir salas, perfis, conteúdo ou outros módulos independentes.
 
