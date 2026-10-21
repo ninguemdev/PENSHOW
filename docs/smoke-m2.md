@@ -92,3 +92,7 @@ Em 20/10/2026, o comando com `reconnection-smoke.spec.ts final-smoke.spec.ts` pa
 ## Catálogo ampliado — T27
 
 Em 20/10/2026, `classic-smoke.spec.ts` foi repetido com o catálogo publicado de **300 perguntas**, em desktop e celular emulado: **dois testes passaram em 2,6 minutos**. O percurso confere duas identidades, convite, recarga, seis perguntas reais sem repetição, mistura 3 fáceis/3 médias, placares de 500/200, classificação e retorno ao lobby, com auditoria das mensagens públicas. Relatório em `e2e/playwright-report/t27/` e resultados/capturas em `e2e/test-results/t27/`. O orçamento das cinco fases e a reserva de 50 são verificados separadamente pelas 66 simulações determinísticas da [T27](tasks/T27-catalogo-de-teste-completo.md); este smoke continua sendo uma fase clássica isolada.
+
+## Matriz integrada — T29
+
+A [matriz da partida completa](e2e-partida-completa.md) amplia o modo padrão com duas ordens, as cinco modalidades ao longo das partidas, reconexão, troca de anfitrião/aba, sala vazia e inspeção de 12 participantes. `pnpm test:e2e:classic` executa essa matriz com tempos exclusivos de teste; o job `full-match` a separa dos 16 percursos históricos do job `smoke`. A descoberta geral inclui ambos. As regras D02–D06 continuam em consulta.
