@@ -83,6 +83,8 @@ pnpm build
 
 `pnpm test:e2e:a11y` verifica teclado, árvore de acessibilidade, contraste, textos extensos e adaptação de telas no navegador real após o build. Consulte [acessibilidade e limites da revisão](docs/acessibilidade.md).
 
+`pnpm test:e2e:sound` verifica os avisos sonoros, preferências, áudio indisponível, reconexão e renderização do motor real, com prévia WAV para escuta. Consulte [sons e validação](docs/sons.md).
+
 `pnpm test` executa os testes de conteúdo, artes e as suítes Vitest de shared, server e web. `pnpm avatars:check` confere as 50 artes e o catálogo público. `pnpm format` aplica a formatação. Os arquivos editoriais em `data/` e os documentos de planejamento em `docs/` preservam seu formato original.
 
 O build gera `packages/shared/dist`, `apps/server/dist` e `apps/web/dist`. Após compilar, `pnpm start` inicia o servidor e `pnpm --filter @penshow/web preview` serve a web para inspeção do artefato. Os proxies HTTP/socket do Vite funcionam no preview; na hospedagem estática, encaminhe `/api` ao servidor removendo esse prefixo e `/penshow/socket.io` preservando o caminho e o upgrade WebSocket. `VITE_BASE_PATH` permite servir a web em `/penshow/`; consulte [interface](docs/interface.md). A operação de produção será tratada em T34.

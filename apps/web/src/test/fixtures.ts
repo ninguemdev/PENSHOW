@@ -8,6 +8,8 @@ import { createRoomStore } from '../stores/room-store';
 import { createSessionStore } from '../stores/session-store';
 import { createLobbyStore } from '../stores/lobby-store';
 import { createMatchStore } from '../stores/match-store';
+import { createSoundEngine } from '../features/sound/sound-engine';
+import { createSoundStore } from '../stores/sound-store';
 
 export const issuedSession = issuedGuestSessionSchema.parse({
   scope: 'penshow',
@@ -93,6 +95,10 @@ export function testStores(access = memoryStorage().access) {
       room,
       profile: profileStore,
       session,
+      sound: createSoundStore(
+        access,
+        createSoundEngine(() => null),
+      ),
       lobby: createLobbyStore({ room, profile: profileStore, session, realtime }),
       match: createMatchStore({ room, session, realtime }),
     },

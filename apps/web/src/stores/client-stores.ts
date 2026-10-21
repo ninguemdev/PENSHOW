@@ -6,6 +6,8 @@ import { createRoomStore } from './room-store';
 import { createSessionStore } from './session-store';
 import { createLobbyStore } from './lobby-store';
 import { createMatchStore } from './match-store';
+import { createSoundEngine } from '../features/sound/sound-engine';
+import { createSoundStore } from './sound-store';
 
 export function createClientStores() {
   const room = createRoomStore();
@@ -16,6 +18,7 @@ export function createClientStores() {
     room,
     profile,
     session,
+    sound: createSoundStore(browserStorage, createSoundEngine()),
     lobby: createLobbyStore({ room, profile, session, realtime }),
     match: createMatchStore({ room, session, realtime }),
   };

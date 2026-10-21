@@ -7,6 +7,7 @@
     "smoke": "playwright test",
     "complete": "playwright test tests/classic-mode.spec.ts tests/classic-failures.spec.ts tests/classic-capacity.spec.ts",
     "accessibility": "playwright test tests/accessibility.spec.ts",
+    "sound": "playwright test tests/sound.spec.ts tests/sound-render.spec.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

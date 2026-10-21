@@ -9,6 +9,8 @@ import { createClientStores, type ClientStores } from './stores/client-stores';
 import { strings } from './strings/pt-BR';
 import { ConnectionNotice } from './ui/connection-notice';
 import { NavLink } from './ui/nav-link';
+import { SoundControls } from './features/sound/sound-controls';
+import { watchGameSounds } from './features/sound/sound-controller';
 export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
   const [stores] = useState(() => suppliedStores ?? createClientStores());
   const path = useSyncExternalStore(
@@ -21,8 +23,12 @@ export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
   const issue = sessionIssue ?? profileIssue;
   useEffect(() => {
     stores.profile.getState().hydrate();
+    stores.sound.getState().hydrate();
+    const stopSounds = watchGameSounds(stores);
     void stores.session.getState().initialize();
     return () => {
+      stopSounds();
+      stores.sound.getState().dispose();
       stores.lobby.getState().cancel();
       stores.match.getState().cancel();
       stores.session.getState().dispose();
@@ -53,6 +59,7 @@ export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
       </header>
       <div className="app-shell">
         <ConnectionNotice store={stores.session} />
+        <SoundControls store={stores.sound} />
         {issue && (
           <p className="storage-notice" role="status">
             {strings.storage[issue]}
