@@ -158,7 +158,14 @@ export class QuestionSelection {
     this.categoryChoiceMs = this.rules.parameters.timings.categoryChoiceMs;
     if (
       !matchIdSchema.safeParse(options.matchId).success ||
-      !['classic-prototype', 'full-prototype'].includes(options.format) ||
+      ![
+        'classic-prototype',
+        'speed-prototype',
+        'wager-prototype',
+        'theft-prototype',
+        'pressure-prototype',
+        'full-prototype',
+      ].includes(options.format) ||
       options.players.some((id) => !playerIdSchema.safeParse(id).success) ||
       new Set(options.players).size !== options.players.length ||
       !options.enabledCategories.length ||
@@ -369,6 +376,48 @@ export class QuestionSelection {
     };
     return { status: 'ready' as const, roundId };
   }
+  /** Dev/test continuation after one isolated scoring phase; no arbitrary question cap. */
+  startPrototypeFinal(roundId: RoundId, minimumDamageQuestions: number) {
+    this.assertRoundId(roundId);
+    if (this.final) {
+      if (this.final.roundId !== roundId) throw new SelectionError('stale-context');
+      return { status: 'ready' as const };
+    }
+    if (
+      this.interruption ||
+      this.options.format === 'full-prototype' ||
+      this.completedRounds !== 1 ||
+      this.rounds.has(roundId) ||
+      !Number.isSafeInteger(minimumDamageQuestions) ||
+      minimumDamageQuestions < 1
+    )
+      throw new SelectionError('invalid-state');
+    const available = this.available();
+    if (
+      !covers(
+        {
+          easy: available.filter((q) => q.difficulty === 'easy').length,
+          medium: available.filter((q) => q.difficulty === 'medium').length,
+          hard: 0,
+        },
+        {
+          easy: Math.ceil(minimumDamageQuestions / 2),
+          medium: Math.floor(minimumDamageQuestions / 2),
+          hard: 0,
+        },
+      )
+    )
+      return { status: 'blocked' as const };
+    this.final = {
+      roundId,
+      current: null,
+      completedIds: new Set(),
+      completed: 0,
+      seenCategories: new Set(),
+      categoryCounts: new Map(),
+    };
+    return { status: 'ready' as const };
+  }
   currentFinalQuestion(roundId: RoundId): PreparedQuestion | ContentInterruption {
     const final = this.requireFinal(roundId);
     if (this.interruption) return { ...this.interruption };
@@ -410,7 +459,17 @@ export class QuestionSelection {
 
   private remainingModes(): readonly SelectionMode[] {
     const modes =
-      this.options.format === 'full-prototype' ? this.policy.modes : (['classic'] as const);
+      this.options.format === 'full-prototype'
+        ? this.policy.modes
+        : this.options.format === 'speed-prototype'
+          ? (['speed'] as const)
+          : this.options.format === 'wager-prototype'
+            ? (['wager'] as const)
+            : this.options.format === 'theft-prototype'
+              ? (['theft'] as const)
+              : this.options.format === 'pressure-prototype'
+                ? (['pressure'] as const)
+                : (['classic'] as const);
     return modes.slice(this.completedRounds);
   }
   private remainingDemands() {

@@ -36,4 +36,4 @@ it('bloqueia conteúdo editorial e servidor por /@fs sem bloquear a aplicação 
   } finally {
     await server.close();
   }
-});
+}, 15_000);

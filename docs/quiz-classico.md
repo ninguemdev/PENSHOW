@@ -4,6 +4,10 @@ A T15 conecta o motor da T14 a sessões autenticadas e Socket.IO em `app.ts`. O 
 
 O fluxo tem **uma fase e seis perguntas**, três fáceis e três médias, sem repetição na partida. As perguntas vêm apenas do catálogo privado aprovado. Cada acerto vale **+100**; erro ou ausência vale **zero**. Os valores seguem a configuração experimental da T13; D01–D06 permanecem em consulta. O protótipo não executa as outras quatro modalidades, classificação, vidas, final ou pódio.
 
+A [T18](velocidade.md) acrescenta velocidade como outro protótipo isolado: `match:start` aceita `mode: "speed"`, enquanto ausência ou `mode: "classic"` conserva o fluxo deste documento. A sequência completa continua pendente.
+
+A [T19](aposta.md) acrescenta `mode: "wager"`, com escolha privada antes do enunciado e liquidação única. Os três modos reutilizam o mesmo motor; os comandos de aposta só são aceitos no subestado apropriado dessa modalidade.
+
 A [interface da T16](quiz-classico-web.md) conecta início, perguntas, resposta, revelação, placar e retorno ao lobby aos comandos/visões deste fluxo. O protótipo pode ser exercitado na web em desenvolvimento/teste; não há partida completa ou versão publicada. A [T17](smoke-m2.md) adicionou o smoke permanente de perfil, sala e jogo em Playwright e sua configuração na CI.
 
 ## Comandos e ciclo
@@ -18,7 +22,7 @@ Todos os comandos usam o envelope versão 1 com `actionId`. O ator e a conexão 
 | `answer:submit` | Mesmo contexto, `questionId`, `optionId`; registra uma escolha definitiva, com ack `acceptance: recorded` e versão |
 | `match:returnToLobby` | `roomId`, `matchId`; anfitrião, somente depois de `prototype-complete` ou `interrupted` |
 
-`match.handlers.ts` apenas adapta comandos/acks e encontra a sala. Regras, avaliação e timers ficam no motor/serviços. `wager:submit` e `target:choose` continuam sem handler. O cliente não envia pontos, acerto, identidade do autor ou horário de recebimento.
+`match.handlers.ts` apenas adapta comandos/acks e encontra a sala. Regras, avaliação e timers ficam no motor/serviços. Desde T19, `wager:submit` exige modalidade/etapa de aposta; T20 conecta `target:choose` somente ao protótipo de roubo, cuja variante depende de D05. O cliente não envia pontos, acerto, identidade do autor ou horário de recebimento.
 
 As instruções têm até 15 segundos, o tema até dez e a leitura dura três. O prazo de resposta é de 15 segundos após a abertura anunciada; todos responderem encerra antes. A revelação dura quatro segundos mais um segundo de transição; o resultado de fase dura oito. Todos os números são parâmetros congelados para aquela partida.
 

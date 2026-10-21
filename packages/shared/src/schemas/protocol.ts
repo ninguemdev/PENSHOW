@@ -28,6 +28,18 @@ const roomEntry = z.strictObject({
 const mutation = z.strictObject({ stateVersion: stateVersionSchema });
 
 export const commandSuccessSchema = z.discriminatedUnion('event', [
+  z.strictObject({
+    ...successful,
+    event: z.literal('room:sync'),
+    result: z.discriminatedUnion('status', [
+      z.strictObject({ status: z.literal('absent') }),
+      z.strictObject({
+        status: z.literal('present'),
+        roomId: roomIdSchema,
+        stateVersion: stateVersionSchema,
+      }),
+    ]),
+  }),
   z.strictObject({ ...successful, event: z.literal('room:create'), result: roomEntry }),
   z.strictObject({ ...successful, event: z.literal('room:join'), result: roomEntry }),
   z.strictObject({ ...successful, event: z.literal('room:leave'), result: z.strictObject({}) }),
@@ -40,6 +52,7 @@ export const commandSuccessSchema = z.discriminatedUnion('event', [
     result: z.strictObject({ matchId: matchIdSchema, stateVersion: stateVersionSchema }),
   }),
   z.strictObject({ ...successful, event: z.literal('round:ready'), result: mutation }),
+  z.strictObject({ ...successful, event: z.literal('final:start'), result: mutation }),
   z.strictObject({ ...successful, event: z.literal('category:choose'), result: mutation }),
   z.strictObject({
     ...successful,

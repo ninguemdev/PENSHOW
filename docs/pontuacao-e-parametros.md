@@ -79,6 +79,8 @@ O cálculo é puro: mesmas entradas produzem o mesmo resultado. Não controla es
 
 ## Evidências
 
+A [T22](classificacao-e-vidas.md) acrescenta o domínio separado de classificação e atribuição de vidas. Ele preserva pontos/acertos como histórico, congela a conversão confirmada de 5/4/3/2 vidas e registra empates sem movimentar o placar. D06 continua em consulta; acertos e políticas residuais exigem seleção experimental explícita, sem default de sorteio.
+
 Os testes compõem as cinco fases e obtêm ganhos individuais **600 / 900 / 900 / 900 / 600**, totalizando **3.900 pontos e 26 acertos**. No mesmo cenário, outro participante termina com 3.300 porque sofre as transferências do roubo: não se promete o máximo de roubo a todos simultaneamente.
 
 Também reproduzem a trajetória do plano: **400 → 925 → 1.375 → 1.825 → 1.975**, com 17 acertos. Para cada resolução do exemplo máximo, a soma dos efeitos com sinal corresponde ao delta por participante, e placares/efeitos passam nos schemas públicos. Os demais testes cobrem imutabilidade, mudança de parâmetros, limites temporais, zero/overflow, apostas inválidas, alvo com 30, ausência e contexto incorreto. Execuções e integração compilada estão nas [evidências da T13](tasks/T13-pontuacao-e-parametros.md).

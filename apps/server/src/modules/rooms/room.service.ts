@@ -15,6 +15,7 @@ import {
 } from '@penshow/shared';
 import { PublicCommandError } from '../../command-error.js';
 import type { MatchSession } from '../matches/match.domain.js';
+import type { ThemeChoiceQueue } from '../questions/theme-queue.domain.js';
 import type { CancelTask, Runtime } from '../../ports.js';
 import {
   assertCanStart,
@@ -41,7 +42,8 @@ export interface RoomActor {
 }
 export interface QuizLifecycle {
   /** Prepare a private aggregate before committing the start; legacy validators may return void. */
-  validateStart(roster: QuizRoster): void | MatchSession;
+  validateStart(roster: QuizRoster, previousChoiceQueue?: ThemeChoiceQueue): void | MatchSession;
+  choiceQueueForRematch?(session: MatchSession): ThemeChoiceQueue;
   committed?(room: Room, after: RoomState): void;
 }
 interface Dependencies {
@@ -132,11 +134,13 @@ export class RoomService {
       .runExclusive((tx) => {
         this.assertOpen(room, tx.state);
         this.assertActor(actor);
+        if (this.settleLifecycle(tx)) return null;
         if (tx.state.bannedPlayerIds.includes(actor.playerId))
           throw new PublicCommandError('FORBIDDEN');
         this.registry.reserve(actor.playerId, room.id);
         const existing = tx.state.members.find((member) => member.playerId === actor.playerId);
         if (existing) {
+          delete existing.leftMatch;
           existing.connection = { status: 'connected', connectionId: actor.connectionId };
           if (tx.state.phase.status === 'lobby') existing.profile = profile;
         } else {
@@ -162,6 +166,10 @@ export class RoomService {
         this.updateEmpty(tx.state);
         tx.touch();
         return this.entry(tx.state, actor.playerId);
+      })
+      .then((entry) => {
+        if (!entry) throw new PublicCommandError('ROOM_NOT_FOUND');
+        return entry;
       })
       .catch((error) => {
         if (!room.snapshot().members.some((member) => member.playerId === actor.playerId))
@@ -209,6 +217,7 @@ export class RoomService {
   leave(actor: RoomActor, roomId: RoomId) {
     return this.asMember(actor, roomId, (tx, member) => {
       if (tx.state.phase.status === 'match' && member.role === 'player') {
+        member.leftMatch = true;
         member.connection = { status: 'disconnected', since: this.deps.runtime.clock.now() };
         if (member.playerId === tx.state.hostPlayerId) handOverHost(tx.state);
         this.updateEmpty(tx.state);
@@ -243,15 +252,28 @@ export class RoomService {
   }
 
   /** Reattach an authenticated transport without accepting profile/room identity from it. */
-  reconnect(actor: RoomActor): Promise<void> {
+  async reconnect(actor: RoomActor): Promise<void> {
+    await this.sync(actor);
+  }
+
+  /** Authenticated reconciliation also reports absence after expiry, removal or restart. */
+  sync(actor: RoomActor) {
+    this.assertActor(actor);
     const roomId = this.registry.roomOf(actor.playerId);
     const room = roomId && this.registry.byId(roomId);
-    if (!room || room.snapshot().stateVersion === 0) return Promise.resolve();
+    if (!room || room.snapshot().stateVersion === 0)
+      return Promise.resolve({ status: 'absent' as const });
     return room.runExclusive((tx) => {
       this.assertActor(actor);
-      if (this.registry.byId(room.id) !== room || tx.state.phase.status === 'closed') return;
+      if (
+        this.registry.byId(room.id) !== room ||
+        tx.state.phase.status === 'closed' ||
+        this.settleLifecycle(tx)
+      )
+        return { status: 'absent' as const };
       const member = tx.state.members.find((current) => current.playerId === actor.playerId);
-      if (!member) return;
+      if (!member) return { status: 'absent' as const };
+      delete member.leftMatch;
       member.connection = { status: 'connected', connectionId: actor.connectionId };
       if (tx.state.hostTransferPending && member.role === 'player') {
         tx.state.hostPlayerId = member.playerId;
@@ -259,14 +281,20 @@ export class RoomService {
       }
       this.updateEmpty(tx.state);
       tx.touch();
+      return { status: 'present' as const, roomId: room.id, stateVersion: tx.state.stateVersion };
     });
   }
 
-  start(actor: RoomActor, roomId: RoomId) {
+  start(
+    actor: RoomActor,
+    roomId: RoomId,
+    mode: 'classic' | 'speed' | 'wager' | 'theft' | 'pressure' = 'classic',
+  ) {
     return this.asMember(actor, roomId, (tx) => {
       assertCanStart(tx.state, actor.playerId);
       if (!this.deps.quiz) throw new PublicCommandError('INVALID_PHASE');
       const roster: QuizRoster = {
+        prototypeMode: mode,
         matchId: matchIdSchema.parse(this.deps.runtime.ids.next()),
         startedAt: this.deps.runtime.clock.now(),
         settings: structuredClone(tx.state.settings),
@@ -277,7 +305,12 @@ export class RoomService {
             profile: structuredClone(member.profile),
           })),
       };
-      const game = this.deps.quiz.validateStart(structuredClone(roster));
+      const game = tx.state.themeChoiceQueue
+        ? this.deps.quiz.validateStart(
+            structuredClone(roster),
+            structuredClone(tx.state.themeChoiceQueue),
+          )
+        : this.deps.quiz.validateStart(structuredClone(roster));
       tx.state.phase = { status: 'match', roster, ...(game ? { game } : {}) };
       tx.state.phaseEpoch++;
       return { matchId: roster.matchId, stateVersion: tx.touch() };
@@ -296,9 +329,22 @@ export class RoomService {
       if (
         requireFinished &&
         (!tx.state.phase.game ||
-          !['prototype-complete', 'interrupted'].includes(tx.state.phase.game.state.stage.phase))
+          !(tx.state.phase.game.state.final
+            ? [
+                'podium',
+                'interrupted',
+                'final-no-answer-pending',
+                'final-no-target-pending',
+              ].includes(tx.state.phase.game.state.final.stage.phase)
+            : ['prototype-complete', 'interrupted'].includes(
+                tx.state.phase.game.state.stage.phase,
+              )))
       )
         throw new PublicCommandError('INVALID_PHASE');
+      const session = tx.state.phase.game;
+      const queue = session && this.deps.quiz?.choiceQueueForRematch?.(session);
+      if (queue) tx.state.themeChoiceQueue = structuredClone(queue);
+      tx.state.members = tx.state.members.filter((member) => !member.leftMatch);
       tx.state.phase = { status: 'lobby' };
       tx.state.lobbySince = this.deps.runtime.clock.now();
       tx.state.phaseEpoch++;
@@ -323,19 +369,48 @@ export class RoomService {
   ) {
     const room = this.registry.byId(roomId);
     if (!room) throw new PublicCommandError('ROOM_NOT_FOUND');
-    return room.runExclusive((tx) => {
-      this.assertOpen(room, tx.state);
-      this.assertActor(actor);
-      const member = tx.state.members.find((item) => item.playerId === actor.playerId);
-      if (!member || this.registry.roomOf(actor.playerId) !== room.id)
-        throw new PublicCommandError('NOT_A_MEMBER');
-      if (
-        member.connection.status !== 'connected' ||
-        member.connection.connectionId !== actor.connectionId
-      )
-        throw new PublicCommandError('UNAUTHENTICATED');
-      return action(tx, member);
-    });
+    return room
+      .runExclusive((tx) => {
+        this.assertOpen(room, tx.state);
+        this.assertActor(actor);
+        if (this.settleLifecycle(tx)) return { expired: true as const };
+        const member = tx.state.members.find((item) => item.playerId === actor.playerId);
+        if (!member || this.registry.roomOf(actor.playerId) !== room.id)
+          throw new PublicCommandError('NOT_A_MEMBER');
+        if (
+          member.connection.status !== 'connected' ||
+          member.connection.connectionId !== actor.connectionId
+        )
+          throw new PublicCommandError('UNAUTHENTICATED');
+        return { expired: false as const, value: action(tx, member) };
+      })
+      .then((result) => {
+        if (result.expired) throw new PublicCommandError('ROOM_NOT_FOUND');
+        return result.value;
+      });
+  }
+  /** Deadlines remain authoritative even if their callbacks are delayed in the queue. */
+  private settleLifecycle(tx: RoomTransaction): boolean {
+    const state = tx.state,
+      now = this.deps.runtime.clock.now();
+    if (
+      now >= state.createdAt + this.policy.maxAgeMs ||
+      (state.emptySince !== null && now >= state.emptySince + this.policy.emptyRoomTtlMs)
+    ) {
+      state.phase = { status: 'closed', reason: 'expired' };
+      tx.touch();
+      return true;
+    }
+    const host = state.members.find((member) => member.playerId === state.hostPlayerId);
+    if (
+      host?.connection.status === 'disconnected' &&
+      !state.hostTransferPending &&
+      now >= host.connection.since + this.policy.hostTransferGraceMs
+    ) {
+      handOverHost(state);
+      tx.touch();
+    }
+    return false;
   }
   private assertActor(actor: RoomActor) {
     if (this.disposed) throw new PublicCommandError('INVALID_PHASE');

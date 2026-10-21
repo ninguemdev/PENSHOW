@@ -2,6 +2,7 @@ import { io } from 'socket.io-client';
 import {
   acknowledgementSchema,
   clientCommandSchema,
+  domainErrorSchema,
   serverEventSchema,
   type Acknowledgement,
   type ClientCommand,
@@ -32,7 +33,16 @@ export function createRealtimeClient(): RealtimeClient {
       callbacks.status('connecting');
       socket.on('connect', () => callbacks.status('online'));
       socket.on('disconnect', () => callbacks.status('offline'));
-      socket.on('connect_error', () => callbacks.status('offline'));
+      socket.on('connect_error', (error) => {
+        callbacks.status('offline');
+        const reason = domainErrorSchema.safeParse('data' in error ? error.data : undefined);
+        if (reason.success && reason.data.code === 'UNAUTHENTICATED')
+          callbacks.event({
+            protocolVersion: 1,
+            event: 'session:ended',
+            payload: { reason: 'expired' },
+          });
+      });
       for (const name of ['room:view', 'room:removed', 'session:ended'] as const) {
         socket.on(name, (raw: unknown) => {
           const parsed = serverEventSchema.safeParse(raw);

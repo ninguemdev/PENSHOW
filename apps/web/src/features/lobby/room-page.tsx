@@ -211,6 +211,66 @@ export function RoomPage({ code, stores }: { code: string; stores: ClientStores 
                   >
                     {strings.room.start}
                   </Button>
+                  <Button
+                    className="secondary"
+                    disabled={
+                      blocked ||
+                      matchControls.blocked ||
+                      view.members.filter(
+                        (member) =>
+                          member.role === 'player' && member.connection.status === 'connected',
+                      ).length < 2
+                    }
+                    onClick={() => void matchControls.start('speed')}
+                    aria-describedby="start-help"
+                  >
+                    {strings.room.startSpeed}
+                  </Button>
+                  <Button
+                    className="secondary"
+                    disabled={
+                      blocked ||
+                      matchControls.blocked ||
+                      view.members.filter(
+                        (member) =>
+                          member.role === 'player' && member.connection.status === 'connected',
+                      ).length < 2
+                    }
+                    onClick={() => void matchControls.start('wager')}
+                    aria-describedby="start-help"
+                  >
+                    {strings.room.startWager}
+                  </Button>
+                  <Button
+                    className="secondary"
+                    disabled={
+                      blocked ||
+                      matchControls.blocked ||
+                      view.members.filter(
+                        (member) =>
+                          member.role === 'player' && member.connection.status === 'connected',
+                      ).length < 2
+                    }
+                    onClick={() => void matchControls.start('theft')}
+                    aria-describedby="start-help"
+                  >
+                    {strings.room.startTheft}
+                  </Button>
+                  <Button
+                    className="secondary"
+                    disabled={
+                      blocked ||
+                      matchControls.blocked ||
+                      view.members.filter(
+                        (member) =>
+                          member.role === 'player' && member.connection.status === 'connected',
+                      ).length < 2
+                    }
+                    onClick={() => void matchControls.start('pressure')}
+                    aria-describedby="start-help"
+                  >
+                    {strings.room.startPressure}
+                  </Button>
                   {view.members.filter(
                     (member) =>
                       member.role === 'player' && member.connection.status === 'connected',

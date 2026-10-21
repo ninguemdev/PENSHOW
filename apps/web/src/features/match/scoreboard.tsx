@@ -6,22 +6,19 @@ export function Scoreboard({
   view,
   scores,
   effects = [],
+  title = strings.match.scoreboard,
 }: {
   view: RoomView;
   scores: Scores;
   effects?: ScoreEffect[];
+  title?: string;
 }) {
   return (
     <section aria-labelledby="scoreboard-title" className="scoreboard">
-      <h2 id="scoreboard-title">{strings.match.scoreboard}</h2>
-      <div
-        className="scoreboard-scroll"
-        tabIndex={0}
-        role="region"
-        aria-label={strings.match.scoreboard}
-      >
+      <h2 id="scoreboard-title">{title}</h2>
+      <div className="scoreboard-scroll" tabIndex={0} role="region" aria-label={title}>
         <table>
-          <caption className="sr-only">{strings.match.scoreboard}</caption>
+          <caption className="sr-only">{title}</caption>
           <thead>
             <tr>
               <th scope="col">{strings.match.player}</th>
@@ -47,7 +44,17 @@ export function Scoreboard({
                         <span className="score-change" key={index}>
                           {effect.kind === 'credit' ? '+' : '−'}
                           {effect.amount}{' '}
-                          {effect.reason === 'correct-answer' ? strings.match.credit : ''}
+                          {effect.reason === 'correct-answer'
+                            ? strings.match.credit
+                            : effect.reason === 'speed-bonus'
+                              ? strings.match.bonus
+                              : effect.reason === 'theft'
+                                ? strings.match.theftEffect
+                                : effect.reason === 'wager'
+                                  ? strings.match.wagerEffect
+                                  : effect.reason === 'pressure'
+                                    ? strings.match.pressureEffect
+                                    : ''}
                         </span>
                       ))}
                     {!effects.some((effect) => effect.playerId === score.playerId) &&

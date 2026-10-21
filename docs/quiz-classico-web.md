@@ -16,11 +16,15 @@ O anfitrião pode iniciar quando houver dois jogadores conectados, sessão onlin
 | `round-results` | Placar e prazo; aguarda a conclusão do servidor |
 | `prototype-complete` / `interrupted` | Resultado/motivo e retorno ao lobby apenas para o anfitrião, por comando remoto |
 
-O registro de renderizadores contém somente `ClassicRound`. Preparação, pergunta/revelação e placar ficam em componentes pequenos. Modalidade ainda sem renderizador mostra uma mensagem e conserva o placar, sem simular regras ou oferecer respostas.
+Desde a [T18](velocidade.md), o registro usa `CommonRound` para clássico e velocidade, compartilhando preparação, pergunta/revelação e placar. A [T19](aposta.md) reutiliza o mesmo componente e acrescenta `WagerSelection`, com saldo/opções individuais, confirmação e recuperação da aposta. A velocidade apresenta faixas/base/bônus/total; aposta apresenta valores apostados e saldos anterior/atual somente na revelação. Modalidade ainda sem renderizador mostra uma mensagem e conserva o placar, sem simular regras ou oferecer respostas.
 
 `Scoreboard` exibe pontos e acertos recebidos. Variações são os `ScoreEffect` da revelação, com sinal e valor fornecidos; a UI não recalcula pontos, compara alternativas para pontuar ou mantém uma classificação oficial própria. O gabarito só é consultado no componente da revelação. As fixtures de perguntas/explicações dos testes não são importadas pelo aplicativo.
 
 ## Store, confirmação e reconexão
+
+O [protótipo de roubo](roubo.md) também usa `CommonRound`, com `TheftTarget` depois de fechar as respostas. Só o primeiro acerto da proposta atual recebe botões de adversários elegíveis. A revelação apresenta autor, alvo, valor e decomposição do saldo. Escolha incerta fica bloqueada até recuperar uma fotografia; o cliente não calcula transferência ou dano de vidas.
+
+O [protótipo de dinamite](dinamite.md) usa o mesmo ciclo comum, com dono/ciclo/turno e próximo jogador recebidos do servidor. Só o dono tem alternativas habilitadas; o contador considera uma resposta por turno. O cronômetro representa o pavio individual. A revelação mostra passagem ou explosão e o débito recebido, mantendo todos os participantes. D04 continua em consulta.
 
 `match-store` recebe somente intents simples (`start`, `ready`, `chooseCategory`, `answer`, `returnToLobby`); monta contexto a partir da view atual e revalida fase, papel, opção, conexão, prontidão e prazo antes de emitir. Componentes não importam o transporte. Confirmação de comando não muda a fase, o placar ou o progresso; a fotografia do servidor faz isso.
 

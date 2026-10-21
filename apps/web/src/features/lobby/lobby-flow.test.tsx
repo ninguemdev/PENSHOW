@@ -37,6 +37,14 @@ function connectedLobby(host = true, spectator = false) {
   );
   vi.mocked(f.realtime.command).mockImplementation(async (command) => {
     if (command.event === 'time:sync') throw new Error('No clock sample');
+    if (command.event === 'room:sync')
+      return {
+        protocolVersion: 1,
+        actionId: command.actionId,
+        status: 'ok',
+        event: 'room:sync',
+        result: { status: 'absent' },
+      };
     const published =
       command.event === 'room:create' || command.event === 'room:join'
         ? {

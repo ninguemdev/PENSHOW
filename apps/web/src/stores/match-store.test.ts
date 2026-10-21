@@ -9,6 +9,10 @@ import {
   option2,
   phases,
   spectatorId,
+  wagerPhases,
+  wagerView,
+  theftView,
+  pressureView,
 } from '../test/match-fixtures';
 import { strings } from '../strings/pt-BR';
 
@@ -37,6 +41,114 @@ async function setup() {
   return { ...f, calls, publish, actions: f.stores.match.getState() };
 }
 describe('ações do quiz por visão autoritativa', () => {
+  it('revanche limpa tentativas após descartar view e não aceita ack atrasado da partida anterior', async () => {
+    const f = await setup();
+    let finish!: (ack: Acknowledgement) => void;
+    let command!: ClientCommand;
+    vi.mocked(f.realtime.command).mockImplementationOnce((sent) => {
+      command = sent;
+      return new Promise((resolve) => {
+        finish = resolve;
+      });
+    });
+    const pending = f.actions.answer(option1);
+    expect(f.stores.match.getState().attempt?.status).toBe('sending');
+    const source = matchView();
+    if (source.state.status !== 'match') throw new Error();
+    f.stores.room.getState().expectRoom(source.code);
+    f.publish({
+      ...source,
+      stateVersion: 10,
+      state: { status: 'lobby', settings: source.state.settings },
+    });
+    expect(f.stores.match.getState()).toMatchObject({
+      busyKey: null,
+      attempt: null,
+      targetAttempt: null,
+      wagerAttempt: null,
+      error: null,
+    });
+    finish({
+      protocolVersion: 1,
+      actionId: command.actionId,
+      status: 'ok',
+      event: 'answer:submit',
+      result: { stateVersion: 3, acceptance: 'recorded' },
+    });
+    expect(await pending).toBe(false);
+    expect(f.stores.match.getState().attempt).toBeNull();
+    expect(f.stores.room.getState().view?.state.status).toBe('lobby');
+  });
+  it('dinamite usa o comando comum, trava envio incerto e conserva placar até evento', async () => {
+    const f = await setup();
+    f.publish(pressureView('open', 3));
+    vi.mocked(f.realtime.command).mockImplementationOnce(async (command) => {
+      f.calls.push(command);
+      throw new Error('Timeout');
+    });
+    expect(await f.actions.answer(option1)).toBe(false);
+    expect(await f.actions.answer(option2)).toBe(false);
+    expect(f.calls).toHaveLength(1);
+    expect(f.stores.match.getState().attempt?.status).toBe('unconfirmed');
+    expect(f.stores.room.getState().view).toEqual(pressureView('open', 3));
+    f.publish(pressureView('reveal', 4));
+    expect(f.stores.room.getState().view).toEqual(pressureView('reveal', 4));
+  });
+  it('alvo autorizado é enviado uma vez e timeout bloqueia nova escolha até reconciliação', async () => {
+    const f = await setup();
+    f.publish(theftView('target', 3));
+    expect(await f.actions.target(guestId)).toBe(true);
+    expect(await f.actions.target(guestId)).toBe(false);
+    expect(f.calls).toHaveLength(1);
+    expect(f.calls[0]).toMatchObject({
+      event: 'target:choose',
+      payload: { targetPlayerId: guestId },
+    });
+    f.publish(theftView('target', 4));
+    expect(f.stores.room.getState().view).toEqual(theftView('target', 4));
+    const second = await setup();
+    second.publish(theftView('target', 3));
+    vi.mocked(second.realtime.command).mockRejectedValueOnce(new Error('Timeout'));
+    expect(await second.actions.target(guestId)).toBe(false);
+    second.actions.cancel();
+    expect(await second.actions.target(guestId)).toBe(false);
+    expect(second.stores.match.getState().targetAttempt?.status).toBe('unconfirmed');
+  });
+  it('aposta aceita fica bloqueada sem manter saldo local e sem reenvio automático', async () => {
+    const f = await setup();
+    f.publish(wagerView(wagerPhases().selection, 3));
+    expect(await f.actions.wager(25)).toBe(true);
+    expect(await f.actions.wager(50)).toBe(false);
+    expect(f.calls).toHaveLength(1);
+    expect(f.calls[0]).toMatchObject({ event: 'wager:submit', payload: { amount: 25 } });
+    expect(f.stores.room.getState().view).toEqual(wagerView(wagerPhases().selection, 3));
+    expect(f.stores.match.getState().wagerAttempt?.status).toBe('recorded');
+  });
+  it('aposta incerta fica bloqueada até recuperar fotografia em outra conexão', async () => {
+    const f = await setup();
+    f.publish(wagerView(wagerPhases().selection, 3));
+    vi.mocked(f.realtime.command).mockRejectedValueOnce(new Error('Timeout'));
+    expect(await f.actions.wager(25)).toBe(false);
+    expect(f.stores.match.getState().wagerAttempt?.status).toBe('unconfirmed');
+    f.actions.cancel();
+    expect(await f.actions.wager(50)).toBe(false);
+    f.callbacks()!.status('offline');
+    f.callbacks()!.status('online');
+    f.publish(
+      wagerView({ ...wagerPhases().selection, ownWager: { status: 'submitted', amount: 25 } }, 5),
+    );
+    expect(await f.actions.wager(50)).toBe(false);
+  });
+  it('aposta: valida saldo oferecido, etapa e prazo antes de enviar', async () => {
+    const f = await setup();
+    f.publish(wagerView({ ...wagerPhases().selection, allowedAmounts: [0] }, 3));
+    expect(await f.actions.wager(25)).toBe(false);
+    f.publish(wagerView({ ...wagerPhases().selection, deadlineAt: 1000 }, 4));
+    expect(await f.actions.wager(0)).toBe(false);
+    f.publish(wagerView(wagerPhases().open, 6));
+    expect(await f.actions.wager(0)).toBe(false);
+    expect(f.calls).toHaveLength(0);
+  });
   it('pausa controles ao sair durante a partida até recuperar a presença por conexão nova', async () => {
     const f = await setup();
     await f.stores.lobby.getState().leave();
@@ -61,6 +173,14 @@ describe('ações do quiz por visão autoritativa', () => {
       resolve: (ack: Acknowledgement) => void;
     }[] = [];
     vi.mocked(f.realtime.command).mockImplementation((command) => {
+      if (command.event === 'room:sync')
+        return Promise.resolve({
+          protocolVersion: 1,
+          actionId: command.actionId,
+          status: 'ok',
+          event: 'room:sync',
+          result: { status: 'present', roomId: matchView().roomId, stateVersion: 2 },
+        });
       if (command.event !== 'time:sync') throw new Error('Apenas amostras.');
       return new Promise((resolve) => {
         samples.push({ command, resolve });
@@ -225,6 +345,7 @@ describe('ações do quiz por visão autoritativa', () => {
       );
     expect(await f.actions.answer(option1)).toBe(false);
     expect(await f.actions.ready()).toBe(false);
+    expect(await f.actions.wager(0)).toBe(false);
     f.stores.room.getState().reset();
     f.stores.room.getState().listen();
     f.stores.session.setState({

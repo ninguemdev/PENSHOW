@@ -8,6 +8,7 @@ import {
 } from '@penshow/shared';
 
 export function createRoomStore() {
+  const versions = new Map<string, number>();
   return createStore<{
     view: RoomView | null;
     expectedCode: string | null;
@@ -35,6 +36,8 @@ export function createRoomStore() {
       const parsed = roomViewSchema.safeParse(raw);
       if (!parsed.success) return false;
       const incoming = parsed.data;
+      const identity = `${incoming.roomId}:${viewerId}`;
+      if (incoming.stateVersion <= (versions.get(identity) ?? -1)) return false;
       const { view, listening } = get();
       if (!listening || incoming.viewerId !== viewerId) return false;
       if (
@@ -44,6 +47,7 @@ export function createRoomStore() {
           incoming.stateVersion <= view.stateVersion)
       )
         return false;
+      versions.set(identity, incoming.stateVersion);
       set({ view: incoming, expectedCode: incoming.code, removed: null, removedCode: null });
       return true;
     },
@@ -57,6 +61,7 @@ export function createRoomStore() {
         parsed.data.stateVersion < view.stateVersion
       )
         return false;
+      versions.set(`${view.roomId}:${view.viewerId}`, parsed.data.stateVersion);
       set({
         view: null,
         expectedCode: null,

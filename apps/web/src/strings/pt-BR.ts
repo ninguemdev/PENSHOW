@@ -93,6 +93,14 @@ export const strings = {
     format: 'Formato experimental',
     start: 'Iniciar quiz clássico',
     prototype: 'Quiz clássico de teste · 1 fase · 6 perguntas',
+    speedPrototype: 'Velocidade de teste · 1 fase · 6 perguntas',
+    startSpeed: 'Iniciar velocidade de teste',
+    startWager: 'Iniciar aposta de teste',
+    startTheft: 'Iniciar roubo de teste',
+    theftPrototype: 'Roubo de teste · 1 fase · 6 perguntas',
+    pressurePrototype: 'Dinamite de teste · 1 fase · turnos individuais',
+    startPressure: 'Iniciar dinamite de teste',
+    wagerPrototype: 'Aposta de teste · 1 fase · 6 perguntas',
     prototypeDetail:
       'O grupo responde às mesmas perguntas. Os resultados aparecem depois que todos respondem ou o tempo termina.',
     needPlayers: 'Reúna pelo menos dois jogadores conectados para iniciar.',
@@ -119,7 +127,139 @@ export const strings = {
       'pop-culture': 'Cultura pop',
     } as Record<string, string>,
   },
+  results: {
+    title: 'Pódio da partida',
+    order: 'Classificação final',
+    help: 'A ordem final vem do último sobrevivente e da ordem de eliminação. Os pontos anteriores ficam como histórico.',
+    rematch: 'Preparar revanche',
+    rematchHelp:
+      'Volte ao lobby para reunir os participantes e iniciar outra partida nesta sala. Perfis e fila de temas são preservados; pontos e vidas começam de novo.',
+    entry: (rank: number, lives: number) => `Entrou em ${rank}º, com ${lives} vidas.`,
+    eliminated: (order: number) => `${order}ª eliminação da final.`,
+    survived: (lives: number) =>
+      `Último sobrevivente, com ${lives} ${lives === 1 ? 'vida' : 'vidas'}.`,
+    historical: 'Placar antes da final',
+    history: 'Resumo por fase',
+    historyHelp:
+      'Resultado das fases disputadas nesta partida. O protótipo isolado apresenta somente a modalidade jogada.',
+    questions: (count: number) => `${count} perguntas resolvidas`,
+    interrupted: 'Fase interrompida',
+    score: (before: number, after: number, delta: number, correct: number) =>
+      `${before} → ${after} pontos (${delta >= 0 ? '+' : '−'}${Math.abs(delta)}) · ${correct} acertos`,
+    modes: {
+      classic: 'Quiz clássico',
+      speed: 'Velocidade',
+      wager: 'Aposta',
+      theft: 'Roubo de pontos',
+      pressure: 'Dinamite',
+    },
+  },
+  final: {
+    title: 'Final de vidas',
+    prototype: 'Final de teste · continuação do quiz isolado',
+    start: 'Iniciar final de teste',
+    entry: 'Sua vantagem para a final',
+    entryHelp:
+      'Esta classificação vem do quiz isolado. Os pontos ficam no histórico; a disputa da final usa vidas.',
+    tiePending: 'Há empate na classificação. As vidas aguardam a definição do desempate.',
+    allocation: (name: string, rank: number, points: number, lives: number) =>
+      `${rank}º · ${name}: ${points} pontos → ${lives} vidas`,
+    instructions: 'Prepare-se para a final',
+    rules: (responseMs: number, targetMs: number) =>
+      `Só a primeira resposta aceita pelo servidor é avaliada. Errou: perde uma vida. Acertou: escolhe um adversário para tirar uma vida. Cada pergunta tem ${responseMs / 1000} segundos após a leitura; o alvo deve ser escolhido em ${targetMs / 1000} segundos. A pergunta termina após essa jogada. Vence o último com vida.`,
+    pendingHelp:
+      'Neste teste, a final fica pausada se ninguém responder ou se o autor do acerto não escolher alvo. O anfitrião pode encerrar o teste voltando ao lobby.',
+    lives: 'Vidas na final',
+    remaining: (lives: number, initial: number) => `${lives} de ${initial} vidas`,
+    active: 'Na disputa',
+    eliminated: 'Eliminado',
+    watching: 'Você foi eliminado e está assistindo à final.',
+    answerHelp:
+      'Uma única resposta será avaliada. Aguarde o servidor confirmar quem respondeu primeiro.',
+    accepted: 'O servidor confirmou: sua resposta foi a primeira válida. Aguarde o resultado.',
+    rejected: 'Sua resposta foi rejeitada. Aguarde o estado atualizado da final.',
+    first: (name: string) => `Primeira resposta confirmada: ${name}.`,
+    target: 'Escolha o alvo da final',
+    chooser: (name: string) => `${name} acertou e escolhe quem perde uma vida.`,
+    attack: (name: string, lives: number, offline: boolean) =>
+      `Atacar ${name} (${lives} ${lives === 1 ? 'vida' : 'vidas'}${offline ? ', desconectado' : ''})`,
+    targetRecorded: 'Alvo confirmado. Aguarde o resultado.',
+    resolution: 'Resultado da pergunta da final',
+    wrong: (name: string) => `${name} errou e perdeu uma vida.`,
+    attacked: (name: string, target: string) => `${name} acertou e tirou uma vida de ${target}.`,
+    loss: (name: string, before: number, after: number) => `${name}: ${before} → ${after} vidas.`,
+    elimination: (name: string) => `${name} foi eliminado e continua como espectador.`,
+    closed: 'Pergunta encerrada. Nenhuma outra resposta será avaliada.',
+    paused: 'Final pausada',
+    noAnswer:
+      'Ninguém respondeu no prazo. A regra para continuar está em consulta; nenhuma vida foi retirada.',
+    noTarget:
+      'O prazo para escolher alvo terminou. A regra para continuar está em consulta; nenhum ataque foi aplicado.',
+    complete: 'Final encerrada',
+    winner: (name: string) => `${name} venceu a final!`,
+  },
   match: {
+    theftTitle: 'Quiz de roubo de pontos',
+    pressureTitle: 'Quiz de dinamite',
+    pressureComplete: 'Quiz de dinamite concluído',
+    pressureInstructions: (correct: number, penalty: number, ms: number, cycles: number) =>
+      `${cycles} turnos por participante, em ordem sorteada e inversa no segundo ciclo. Só o dono do turno responde, com ${ms / 1000} segundos após a leitura. Acerto: +${correct}. Erro ou ausência: até −${penalty}, sem saldo negativo.`,
+    pressureTurnTitle: 'Turno da dinamite',
+    pressureOwner: (name: string) => `Dinamite com ${name}.`,
+    pressureCycle: (cycle: number, cycles: number, turn: number, total: number) =>
+      `Ciclo ${cycle} de ${cycles} · Turno ${turn} de ${total}`,
+    pressureFuse: 'Pavio individual: o prazo completo começa após a leitura.',
+    pressurePassed: 'Passagem segura! Resposta correta.',
+    pressureExploded: 'Explosão! O jogador continua na partida, sem perder vidas.',
+    pressureNext: (name: string) => `Próximo turno: ${name}, com prazo completo.`,
+    pressureLast: 'Último turno desta fase.',
+    pressureEffect: 'Explosão',
+    theftComplete: 'Quiz de roubo concluído',
+    theftInstructions: (base: number, maximum: number, ms: number) =>
+      `Protótipo: cada acerto ganha +${base}. Depois de fechar as respostas, o primeiro acerto tem ${ms / 1000} segundos para escolher um adversário e roubar até ${maximum} pontos, limitados ao saldo após os créditos. Sem escolha, não há transferência.`,
+    theftTargetTitle: 'Escolha do alvo do roubo',
+    theftChooser: (name: string) => `${name} conquistou o roubo e escolhe o alvo.`,
+    theftTarget: (name: string, balance: number) => `Roubar de ${name} (${balance} pontos)`,
+    theftSending: 'Enviando escolha de alvo…',
+    theftRecorded: 'Alvo registrado. Aguarde a revelação.',
+    theftUncertain: 'A confirmação do alvo não chegou. Recupere o estado da sala.',
+    theftTransfer: (attacker: string, target: string, amount: number) =>
+      `${attacker} roubou ${amount} pontos de ${target}.`,
+    theftNone: 'Sem transferência nesta pergunta.',
+    theftBalances: 'Créditos e transferência nesta pergunta',
+    theftBalance: (before: number, base: number, transfer: number, after: number) =>
+      `Saldo ${before} · Acerto +${base} · Roubo ${transfer >= 0 ? '+' : '−'}${Math.abs(transfer)} → ${after}`,
+    theftEffect: 'Roubo',
+    wagerTitle: 'Quiz de aposta',
+    wagerComplete: 'Quiz de aposta concluído',
+    wagerInstructions: (base: number, ms: number) =>
+      `Antes de cada pergunta, você tem ${ms / 1000} segundos para escolher uma aposta coberta pelo saldo. Acerto ganha +${base} e a aposta; erro ou ausência perde só a aposta. Sem escolha, a aposta é zero. Valores experimentais.`,
+    wagerChoose: 'Escolha sua aposta',
+    wagerHelp:
+      'A escolha é definitiva e fica oculta dos adversários até a revelação. O enunciado aparece ao encerrar o prazo; nenhum ponto é descontado agora.',
+    wagerBalance: (balance: number) => `Seu saldo: ${balance} pontos`,
+    wagerButton: (amount: number) => `Apostar ${amount} pontos`,
+    wagerRecorded: (amount: number) => `Aposta de ${amount} pontos registrada. Aguarde a pergunta.`,
+    wagerSending: 'Enviando aposta…',
+    wagerUncertain:
+      'A confirmação da aposta não chegou. Recupere o estado da sala antes de tentar novamente.',
+    wagerOwn: (amount: number) => `Sua aposta nesta pergunta: ${amount} pontos.`,
+    wagerResults: 'Apostas e saldos nesta pergunta',
+    wagerResult: (amount: number, before: number, after: number) =>
+      `Aposta ${amount} · Saldo ${before} → ${after}`,
+    wagerEffect: 'Aposta',
+    speedTitle: 'Quiz de velocidade',
+    speedComplete: 'Quiz de velocidade concluído',
+    speedRules: 'Velocidade · valores experimentais',
+    speedBase: (points: number) =>
+      `Cada acerto vale +${points} de base. Erro ou ausência vale zero.`,
+    speedBand: (from: number, before: number, points: number) =>
+      `De ${from / 1000} s até antes de ${before / 1000} s: bônus +${points}.`,
+    speedTiming:
+      'O tempo conta da abertura até o recebimento no servidor. Todos podem ganhar o mesmo bônus por acerto; clicar primeiro não basta.',
+    speedBreakdown: (base: number, bonus: number, total: number) =>
+      `Base +${base} · Bônus +${bonus} · Total +${total}`,
+    bonus: 'Bônus de velocidade',
     title: 'Quiz clássico',
     instructions: 'Prepare-se para responder',
     rules:
@@ -146,7 +286,7 @@ export const strings = {
     results: 'Resultado da fase',
     resultsHelp: 'Confira o placar. O encerramento aparece automaticamente.',
     complete: 'Quiz clássico concluído',
-    completeHelp: 'As seis perguntas do quiz de teste terminaram. Confira o resultado do grupo.',
+    completeHelp: 'As perguntas do quiz de teste terminaram. Confira o resultado do grupo.',
     interrupted: 'Quiz interrompido',
     reasons: {
       'insufficient-questions': 'Não há perguntas suficientes para continuar com estes temas.',
@@ -158,12 +298,15 @@ export const strings = {
     spectator: 'Você está assistindo. As respostas estão disponíveis apenas para os jogadores.',
     offline: 'Ações pausadas. Reconecte para recuperar o estado atual do quiz.',
     waitingView: 'Aguardando o estado atualizado da sala…',
+    waitingPlayers: 'A janela atual terminou. A partida aguarda alguém voltar para continuar.',
     waitingUpdate: 'Tempo encerrado. Aguarde a atualização da sala.',
     unavailable: 'Esta ação não está disponível neste momento.',
     unsupported:
       'Esta etapa precisa de uma versão atualizada da interface. Aguarde a atualização da sala.',
-    progress: (round: number, rounds: number, question: number, questions: number) =>
-      `Fase ${round} de ${rounds} · Pergunta ${question} de ${questions}`,
+    progress: (round: number, rounds: number, question: number, questions: number | null) =>
+      questions === null
+        ? `Fase ${round} de ${rounds} · Pergunta ${question} da final`
+        : `Fase ${round} de ${rounds} · Pergunta ${question} de ${questions}`,
     difficulty: { easy: 'Fácil', medium: 'Média', hard: 'Difícil' },
     scoreboard: 'Placar do grupo',
     player: 'Jogador',
@@ -188,6 +331,8 @@ export const strings = {
     retry: 'Tentar novamente',
   },
   session: {
+    roomUnavailable:
+      'A sala anterior não está disponível para sua sessão. Você pode entrar em outra sala.',
     activate: 'Ativar sessão',
     renew: 'Renovar sessão',
     active: 'Sua sessão está pronta.',

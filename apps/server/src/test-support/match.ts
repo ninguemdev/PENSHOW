@@ -92,33 +92,34 @@ export function reading() {
   }).state;
   return step(state, { kind: 'question-prepared', question: prepared() }).state;
 }
-export function repository(): QuestionRepository {
-  const questions = ['easy', 'medium'].flatMap((difficulty) =>
-    Array.from({ length: 3 }, (_, i) =>
-      approvedQuestionSchema.parse({
-        id: `fixture:${difficulty}:${i}`,
-        category: 'history',
-        difficulty,
-        status: 'approved',
-        locale: 'pt-BR',
-        type: 'multiple',
-        prompt: `Pergunta de teste ${difficulty} ${i}?`,
-        options: ['Alfa', 'Beta', 'Gama', 'Delta'].map((text, j) => ({ id: `opt-${j}`, text })),
-        correctOptionId: 'opt-0',
-        explanation: 'Explicação privada.',
-        source: {
-          id: 'fixture',
-          url: 'https://example.test/source',
-          recordIndex: i,
-          license: 'MIT',
-        },
-        review: {
-          referenceUrl: 'https://example.test/fact',
-          reviewedAt: '2026-10-19',
-          checks: { factual: true, language: true, uniqueAnswer: true },
-        },
-      }),
-    ),
+export function repository(withHard = false, perDifficulty = 3): QuestionRepository {
+  const questions = (withHard ? ['easy', 'medium', 'hard'] : ['easy', 'medium']).flatMap(
+    (difficulty) =>
+      Array.from({ length: perDifficulty }, (_, i) =>
+        approvedQuestionSchema.parse({
+          id: `fixture:${difficulty}:${i}`,
+          category: 'history',
+          difficulty,
+          status: 'approved',
+          locale: 'pt-BR',
+          type: 'multiple',
+          prompt: `Pergunta de teste ${difficulty} ${i}?`,
+          options: ['Alfa', 'Beta', 'Gama', 'Delta'].map((text, j) => ({ id: `opt-${j}`, text })),
+          correctOptionId: 'opt-0',
+          explanation: 'Explicação privada.',
+          source: {
+            id: 'fixture',
+            url: 'https://example.test/source',
+            recordIndex: i,
+            license: 'MIT',
+          },
+          review: {
+            referenceUrl: 'https://example.test/fact',
+            reviewedAt: '2026-10-19',
+            checks: { factual: true, language: true, uniqueAnswer: true },
+          },
+        }),
+      ),
   );
   return {
     list: () => structuredClone(questions),

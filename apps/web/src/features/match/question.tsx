@@ -13,12 +13,15 @@ export function QuestionReading({
     <>
       <p className="eyebrow">{strings.match.reading}</p>
       <QuestionText question={stage.question} />
+      {stage.ownWager?.status === 'submitted' && (
+        <p>{strings.match.wagerOwn(stage.ownWager.amount)}</p>
+      )}
       <p role="status">{strings.match.readingHelp}</p>
       <Timer deadline={stage.opensAt} now={now} offset={controls.offset} />
     </>
   );
 }
-function QuestionText({
+export function QuestionText({
   question,
 }: {
   question: Extract<MatchStage, { phase: 'question-reading' }>['question'];
@@ -50,6 +53,9 @@ export function QuestionAnswer({
     <>
       <p className="eyebrow">{strings.match.answer}</p>
       <QuestionText question={stage.question} />
+      {stage.ownWager?.status === 'submitted' && (
+        <p>{strings.match.wagerOwn(stage.ownWager.amount)}</p>
+      )}
       <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
       <p id="answer-help">{strings.match.answerHelp}</p>
       <div
@@ -76,7 +82,10 @@ export function QuestionAnswer({
         ))}
       </div>
       <p role="status">
-        {strings.match.answered(stage.answeredPlayerIds.length, match.scoreboard.length)}
+        {strings.match.answered(
+          stage.answeredPlayerIds.length,
+          stage.respondents.kind === 'single-player' ? 1 : match.scoreboard.length,
+        )}
       </p>
       {status && (
         <p role="status" className="answer-status">
@@ -104,6 +113,8 @@ export function QuestionReveal({
   stage,
   controls,
   now,
+  match,
+  view,
 }: RoundProps & { stage: Extract<MatchStage, { phase: 'reveal' }> }) {
   const answer = stage.reveal.question.options.find(
     (option) => option.optionId === stage.reveal.correctOptionId,
@@ -120,6 +131,69 @@ export function QuestionReveal({
         <section aria-label={strings.match.explanation}>
           <p>{stage.reveal.explanation}</p>
         </section>
+      )}
+      {match.speedRules && (
+        <ul aria-label={strings.match.bonus}>
+          {match.scoreboard.map((score) => {
+            const effects = stage.effects.filter((effect) => effect.playerId === score.playerId);
+            const base = effects.find((effect) => effect.reason === 'correct-answer')?.amount ?? 0;
+            const bonus = effects.find((effect) => effect.reason === 'speed-bonus')?.amount ?? 0;
+            return (
+              <li key={score.playerId}>
+                {
+                  view.members.find((member) => member.playerId === score.playerId)?.profile
+                    .nickname
+                }
+                : {strings.match.speedBreakdown(base, bonus, base + bonus)}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+      {stage.wagerResults && (
+        <ul aria-label={strings.match.wagerResults}>
+          {stage.wagerResults.map((result) => (
+            <li key={result.playerId}>
+              {view.members.find((member) => member.playerId === result.playerId)?.profile.nickname}
+              :{' '}
+              {strings.match.wagerResult(result.amount, result.balanceBefore, result.balanceAfter)}
+            </li>
+          ))}
+        </ul>
+      )}
+      {stage.theftResult && (
+        <>
+          <p>
+            {stage.theftResult.targetPlayerId && stage.theftResult.attackerPlayerId
+              ? strings.match.theftTransfer(
+                  view.members.find(
+                    (member) => member.playerId === stage.theftResult!.attackerPlayerId,
+                  )?.profile.nickname ?? strings.match.player,
+                  view.members.find(
+                    (member) => member.playerId === stage.theftResult!.targetPlayerId,
+                  )?.profile.nickname ?? strings.match.player,
+                  stage.theftResult.amount,
+                )
+              : strings.match.theftNone}
+          </p>
+          <ul aria-label={strings.match.theftBalances}>
+            {stage.theftResult.balances.map((balance) => (
+              <li key={balance.playerId}>
+                {
+                  view.members.find((member) => member.playerId === balance.playerId)?.profile
+                    .nickname
+                }
+                :{' '}
+                {strings.match.theftBalance(
+                  balance.balanceBefore,
+                  balance.correctPoints,
+                  balance.transfer,
+                  balance.balanceAfter,
+                )}
+              </li>
+            ))}
+          </ul>
+        </>
       )}
       <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
     </>

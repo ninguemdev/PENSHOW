@@ -45,9 +45,13 @@ Manter TypeScript estrito, React, Vite, Zustand, Fastify, Socket.IO e Zod. A bas
 - Estratégias de fase: implementam validação da configuração, abertura, resposta, resolução e encerramento. Final tem domínio próprio porque troca pontos por vidas.
 - Conteúdo: só registros revisados são elegíveis. A seleção é sem reposição na partida e equilibrada por categoria e dificuldade.
 
-`modules/scoring/scoring.domain.ts` contém os cálculos puros de crédito/débito, aposta, transferência, acertos, variações e resolução por pergunta. Retorna snapshots e efeitos explicativos sem acessar transporte, tempo global ou estado compartilhado. O [motor da T14](motor-de-partida.md) ordena recibos na fila, confirma a resolução clássica uma vez e projeta seus efeitos na revelação. `StrategyRegistry` concentra a escolha da modalidade; somente a clássica está instalada. A composição dos comandos de partida na rede pertence à T15.
+`modules/scoring/scoring.domain.ts` contém os cálculos puros de crédito/débito, aposta, transferência, acertos, variações e resolução por pergunta. Retorna snapshots e efeitos explicativos sem acessar transporte, tempo global ou estado compartilhado. O [motor](motor-de-partida.md) ordena recibos na fila e confirma cada resolução uma vez. `StrategyRegistry` concentra clássico, velocidade, aposta e os protótipos de [roubo](roubo.md) e [dinamite](dinamite.md), instalados somente em desenvolvimento/teste. A aposta guarda escolhas privadas antes do enunciado. O roubo mantém resolução pendente até alvo ou prazo, quando acrescenta somente a transferência. A dinamite fixa ordem de turnos sorteada, inverte o segundo ciclo e autoriza apenas o dono, com prazo individual completo. D05 e D04 continuam pendentes antes de consolidar suas variantes.
 
 ## Máquina de estados proposta
+
+A [T22](classificacao-e-vidas.md) acrescenta classificação e conversão puras, separadas da pontuação por pergunta. O motor guarda o resumo público `finalEntry` ao encerrar os planos isolados de teste. Pontos/acertos ficam históricos; vidas prontas são imutáveis na mesma partida. Empates ficam pendentes de D06, e políticas experimentais exigem seleção explícita no domínio. A interface da final e a sequência completa continuam nas etapas posteriores.
+
+A [T23](final-no-servidor.md) conecta `modules/final` à mesma fila e agendamento de partida, usando a conversão já congelada. O início manual do protótipo por `final:start` exige classificação pronta e estoque suficiente. A primeira resposta válida ocupa a oportunidade antes da avaliação, e cada pergunta respondida confirma uma perda por erro ou ataque manual. A final encerra por único sobrevivente; ausência de conteúdo não cria campeão. D02/D03 suspendem explicitamente o teste sem fallback. As telas continuam na T24.
 
 ```mermaid
 stateDiagram-v2
@@ -112,6 +116,8 @@ PostgreSQL e Drizzle permanecem uma opção coerente com o Comicle quando houver
 Configurações e chaves do PENSHOW devem ser próprias: `penshow.profile`, `penshow.session`, `penshow.sound` e base de URL/socket independente. Configurar `/penshow/` somente quando a hospedagem for definida. Conservar o catálogo de avatar no pacote compartilhado porque ele é conteúdo público.
 
 ## Verificação da implementação
+
+A [T25](podio-e-revanche.md) agrega o histórico liquidado em resumos públicos por fase somente no encerramento. A web apresenta o pódio já derivado das vidas e a classificação anterior como histórico. O retorno ao lobby passa pelo serviço, descarta o agregado/timers e conserva apenas a fila privada de escolha de temas para o seletor da próxima partida. A lista de participantes é reconstruída com saídas explícitas e promoção de espectadores até a capacidade; perfis e identidade da sala permanecem.
 
 Testes unitários para transições, pontuação, atribuição de vidas, perda por erro e escolha de alvo, com relógio e sorteio determinísticos. Integração para autorização, ações repetidas, prazos, serialização e reconexão. Na final, testar duas respostas concorrentes, a primeira errada seguida de uma correta rejeitada, ataque único e tentativas de escolher alvo sem ter acertado. Testes de projeção verificam ausência de gabaritos e dados privados em todas as fases e para espectadores.
 

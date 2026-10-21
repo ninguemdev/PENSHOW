@@ -6,7 +6,7 @@ A T14 implementa o motor interno em `apps/server/src/modules/matches/`. Ele comp
 
 `createMatch` copia o elenco, perfis, configurações e plano de fases; valida cada modalidade no `StrategyRegistry` e congela as regras experimentais do `matchId`. O agregado guarda revisão, placar e histórico de resoluções. A sala recusa mudanças no elenco, regras ou plano durante a mesma partida.
 
-`transitionMatch` recebe estado, evento e instante explícitos e devolve novo estado e solicitações de conteúdo. Não lê relógio global, sorteia IDs, instala timers ou chama transporte. O registro fornece a resolução da modalidade por um contrato pequeno; somente `classicStrategy` é instalada pelo serviço. Não há implementação fictícia das outras modalidades nem da final.
+`transitionMatch` recebe estado, evento e instante explícitos e devolve novo estado e solicitações de conteúdo. Não lê relógio global, sorteia IDs, instala timers ou chama transporte. O registro fornece a resolução da modalidade por um contrato pequeno; clássico, velocidade, aposta e os protótipos de [roubo](roubo.md) e [dinamite](dinamite.md) são instalados pelo serviço. D05 e D04 continuam pendentes para consolidar suas variantes. A [final de teste](final-no-servidor.md) tem domínio próprio, conectado à mesma fila; D02/D03 continuam pendentes.
 
 O ciclo executável é:
 
@@ -15,9 +15,14 @@ stateDiagram-v2
   [*] --> Instrucoes
   Instrucoes --> Tema: todos prontos ou prazo
   Tema --> Leitura: escolha válida ou sorteio no prazo
+  Tema --> Aposta: modalidade de aposta
+  Aposta --> Leitura: prazo da aposta
   Leitura --> Respostas: abertura anunciada
   Respostas --> Revelacao: todos responderam ou prazo
+  Respostas --> Alvo: roubo com primeiro acerto e alvo com saldo
+  Alvo --> Revelacao: alvo autorizado ou prazo sem transferência
   Revelacao --> Leitura: próxima pergunta
+  Revelacao --> Aposta: próxima pergunta da modalidade de aposta
   Revelacao --> Resultado: perguntas concluídas
   Resultado --> Instrucoes: próxima estratégia registrada
   Resultado --> PrototipoConcluido: plano atual concluído
@@ -25,7 +30,17 @@ stateDiagram-v2
 
 `awaiting-category` e `awaiting-question` são etapas intermediárias da transação. O serviço resolve seus efeitos antes de confirmar a sala; elas nunca são publicadas. `prototype-complete` encerra somente o plano experimental atual, sem produzir classificação, vidas ou vencedor. A interrupção por conteúdo insuficiente também termina sem vencedor.
 
-O serviço prepara um plano clássico de seis perguntas, com três fáceis e três médias pelos parâmetros padrão. O motor puro aceita planos de estratégias registradas; o serviço só prepara o formato clássico nesta etapa. Apostas, alvos e turnos exclusivos terão suas próprias extensões nas tarefas correspondentes.
+O serviço prepara planos isolados de clássico (três fáceis/três médias), velocidade (duas fáceis/três médias/uma difícil), aposta/roubo (duas por dificuldade) ou dinamite (uma média e uma difícil por participante), pelos parâmetros padrão. A escolha é congelada no início; o formato omitido mantém clássico. O motor puro aceita planos de estratégias registradas; o serviço ainda não prepara a sequência completa.
+
+Na aposta, cada `question-prepared` limpa as apostas anteriores e abre `wager-selection` antes do enunciado. O agregado guarda `SealedWager[]` privado com o saldo original, sem desconto. O prazo integral de seis segundos encerra a escolha; ausência vale zero. Leitura e resposta seguem o ciclo comum. A estratégia recebe as apostas da pergunta, e a resolução aplica base/aposta ou perda uma única vez. Repetição da mesma escolha é no-op; alteração produz `ACTION_CONFLICT`. As visões expõem somente a própria aposta até a revelação e recuperam o mesmo valor na reconexão.
+
+No protótipo de roubo, fechar respostas calcula e confirma os créditos de acerto antes da escolha. A resolução pendente fica em `theft-target-selection`; `settleTarget` acrescenta somente débito/crédito de transferência sobre esse resultado, e a revelação guarda um único histórico completo. Sem alvo no prazo, finaliza a resolução base. Primeiro acerto vem da ordem dos recibos, ignorando erros anteriores; respostas ainda abertas não expõem autor ou pontos. O prazo e a escolha sobrevivem à reconexão sem recalcular créditos.
+
+Na dinamite, `pressureOrder` guarda a permutação sorteada pelo serviço, independente do anfitrião e da ordem de respostas. O histórico determina o índice do turno; `pressureTurn` alterna ordem direta/inversa por ciclo. O dono é enviado à estratégia junto das opções da resolução; quem está fora do turno recebe `FORBIDDEN` antes de registrar resposta. Um recibo do dono encerra o turno; timeout resolve ausência. A leitura seguinte anuncia nova janela integral, e nenhuma explosão remove participantes ou transfere tempo restante. As projeções publicam apenas turno atual/próximo, sem a escala completa.
+
+Ao concluir o plano isolado, a [T22](classificacao-e-vidas.md) guarda `finalEntry` junto de `prototype-complete`. O escopo público é `isolated-prototype`: o resumo classifica e atribui 5/4/3/2 vidas quando os pontos definem a ordem, ou registra pendência D06 sem vidas. O motor não inicia a final nessa etapa. A conversão pronta não muda em transações posteriores da mesma partida, e a projeção/reconexão apenas recupera o retrato. Acertos e políticas residuais continuam em APIs experimentais explícitas do domínio puro.
+
+A T23 acrescenta `final:start` para continuar esse protótipo, pelo anfitrião, quando a classificação está pronta e há conteúdo suficiente. `MatchState.final` guarda o domínio separado de vidas. `transitionMatch` encaminha eventos e timers para `transitionFinal`; a preparação de conteúdo continua no serviço, com checkpoint e rollback. A primeira resposta válida fecha a oportunidade antes de avaliar o gabarito. Erro e ataque manual confirmam um único dano e histórico; a pergunta seguinte não recalcula a perda. Um sobrevivente produz `podium`; esgotamento interrompe sem campeão por pontos. Prazos D02/D03 entram em pendência sem dano. A projeção usa progresso sem total fixo de perguntas e conserva a conversão inicial.
 
 ## Transação, prazos e falhas
 
