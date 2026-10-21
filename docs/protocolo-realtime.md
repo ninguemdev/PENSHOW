@@ -67,7 +67,9 @@ A [T23](final-no-servidor.md) conecta `final:start`, `round:ready`, `answer:subm
 
 Os schemas verificam a estrutura e a pertinência das peças de avatar à própria categoria no catálogo público. Autorização, pertinência de IDs ao estado atual e concorrência pertencem aos serviços. Prazo de jogo, catálogo de perguntas e saldo ainda exigem o motor. Um UUID válido de outra sala não concede acesso. O schema de aposta admite inteiros não negativos; o serviço deve validar a lista de valores permitidos pela configuração congelada. Os valores experimentais 0/25/50 não viraram um limite permanente do protocolo.
 
-Nos seis comandos `room:*`, associação, capacidade, papel e permissões do lobby são verificadas pelo serviço. A sessão e a conexão atual são conferidas novamente dentro da fila, imediatamente antes da mutação; uma ação que aguardou enquanto a sessão expirou ou outra aba assumiu é rejeitada. As modalidades instaladas revalidam conexão/papel/contexto/prazo na mesma fila e verificam conteúdo antes do início. `match:returnToLobby` público exige conclusão, interrupção ou suspensão explícita do protótipo final por D02/D03. `target:choose` opera roubo de pontos ou ataque a vidas conforme o contexto; em produção todos os comandos de partida permanecem indisponíveis. Limites de frequência continuam nas tarefas de robustez.
+Nos seis comandos `room:*`, associação, capacidade, papel e permissões do lobby são verificadas pelo serviço. A sessão e a conexão atual são conferidas novamente dentro da fila, imediatamente antes da mutação; uma ação que aguardou enquanto a sessão expirou ou outra aba assumiu é rejeitada. As modalidades instaladas revalidam conexão/papel/contexto/prazo na mesma fila e verificam conteúdo antes do início. `match:returnToLobby` público exige conclusão, interrupção ou suspensão explícita do protótipo final por D02/D03. `target:choose` opera roubo de pontos ou ataque a vidas conforme o contexto; em produção todos os comandos de partida permanecem indisponíveis. A [T28](privacidade-limites-e-concorrencia.md) limita frequência e comandos pendentes antes do serviço; isso inclui `time:sync`, eventos inválidos e sem callback. Trocar de conexão não restaura o orçamento da identidade.
+
+`RATE_LIMITED` informa que o comando excedeu o orçamento ou as pendências permitidas e não foi executado. O cliente pode tentar manualmente após aguardar, se o prazo/contexto ainda permitir. `SERVER_BUSY` informa capacidade esgotada ao criar sala/sessão. Ambos usam o envelope público de erro, sem detalhes internos; as respostas HTTP correspondentes são 429 (com `Retry-After`) e 503. A versão do protocolo permanece 1 com a ampliação do catálogo de erros compartilhado.
 
 ## Confirmações e erros
 
@@ -133,6 +135,8 @@ Quando não houver um `actionId` válido que possa ser recuperado, a falha usa `
 | `INVALID_SETTINGS` | A configuração da sala é incompatível. |
 | `INSUFFICIENT_QUESTIONS` | Não há perguntas revisadas suficientes para esta partida. |
 | `ACTION_CONFLICT` | Esta ação já foi usada com outros dados. |
+| `RATE_LIMITED` | Muitas ações em pouco tempo. Aguarde e tente novamente. |
+| `SERVER_BUSY` | O servidor está cheio. Aguarde e tente novamente. |
 | `INTERNAL_ERROR` | Não foi possível concluir a ação. Tente novamente. |
 
 Falhas de validação não enviam os objetos de erro do Zod ao navegador. O adaptador traduz a falha para o código apropriado; `UNKNOWN_EVENT` distingue nome desconhecido de payload inválido de evento conhecido. `NOT_FOUND` é usado em HTTP 404 sem repetir a URL recebida. Resultados dos handlers também são validados antes de sair.
@@ -164,7 +168,7 @@ Não se exige uma `stateVersion` enviada pelo cliente para responder: outras res
 
 ## Aplicação única e primeira resposta da final
 
-Identificação, autorização e serialização se aplicam às salas e aos protótipos. A T15 impede resposta/placar duplicados por participante/pergunta, mesmo com outro `actionId`, e a T23 protege a tentativa e o dano únicos da final, sem cache de ack por ação. Registro/deduplicação de `actionId` e limites de frequência continuam nas tarefas de robustez; o cliente atual não repete mutações automaticamente. O domínio da T23 aplica as garantias da final abaixo:
+Identificação, autorização e serialização se aplicam às salas e aos protótipos. A T15 impede resposta/placar duplicados por participante/pergunta, mesmo com outro `actionId`, e a T23 protege a tentativa e o dano únicos da final, sem cache de ack por ação. A T28 aplica os limites de frequência antes do serviço. Replay do mesmo ack por `actionId` não está implementado; o cliente atual não repete mutações automaticamente. O domínio da T23 aplica as garantias da final abaixo:
 
 1. Identificar e autorizar o ator antes de acessar o resultado de outra ação. Serializar comandos, presença e timers na mesma fila da sala.
 2. Usar `actionId` por intenção lógica. O cache que devolverá o ack registrado para mesmo ator/ID/payload e recusará dados conflitantes continua nas tarefas de robustez. Hoje a fase e o contexto impedem repetir o efeito, sem garantir replay do mesmo ack.

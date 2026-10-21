@@ -52,6 +52,7 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 - [Final na web](docs/final-na-web.md): conversão para vidas, prioridade confirmada, alvo, resolução acessível, espectador e reconexão.
 - [Pódio e revanche](docs/podio-e-revanche.md): ordem pelo sobrevivente, resumo por fase, novo elenco e continuidade da fila de temas na mesma sala.
 - [Reconexão e ciclo de vida](docs/cenarios-de-reconexao.md): matriz por etapa, janela preservada, sala vazia, transferência de anfitrião, consulta de associação e limites após reinício.
+- [Privacidade, limites e concorrência](docs/privacidade-limites-e-concorrencia.md): orçamentos por identidade/IP, capacidade, matriz de exposição e isolamento de três salas com 12 jogadores.
 - [Smoke M2](docs/smoke-m2.md): Playwright, duas identidades, isolamento, CI e [roteiro de inspeção](docs/teste-manual-m2.md).
 - [Interface](docs/interface.md): navegação, componentes, estilo provisório, caminho base e estados de conexão/armazenamento.
 - [Avatares](docs/avatares.md): catálogo, editor, persistência, verificação de artes e [licenças](THIRD_PARTY_NOTICES.md).

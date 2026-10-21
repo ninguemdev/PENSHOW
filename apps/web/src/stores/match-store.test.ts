@@ -41,6 +41,37 @@ async function setup() {
   return { ...f, calls, publish, actions: f.stores.match.getState() };
 }
 describe('ações do quiz por visão autoritativa', () => {
+  it.each(['answer', 'wager', 'target'] as const)(
+    'limite de frequência em %s mostra erro e permite tentar de novo sem envio automático',
+    async (kind) => {
+      const f = await setup();
+      if (kind === 'wager') f.publish(wagerView(wagerPhases().selection, 3));
+      if (kind === 'target') f.publish(theftView('target', 3));
+      vi.mocked(f.realtime.command).mockClear();
+      vi.mocked(f.realtime.command).mockImplementationOnce(async (command) => ({
+        protocolVersion: 1,
+        actionId: command.actionId,
+        status: 'error',
+        error: createDomainError('RATE_LIMITED'),
+      }));
+      const act = () =>
+        kind === 'answer'
+          ? f.actions.answer(option1)
+          : kind === 'wager'
+            ? f.actions.wager(25)
+            : f.actions.target(guestId);
+      expect(await act()).toBe(false);
+      expect(f.stores.match.getState()).toMatchObject({
+        error: createDomainError('RATE_LIMITED').message,
+        attempt: null,
+        wagerAttempt: null,
+        targetAttempt: null,
+      });
+      expect(f.realtime.command).toHaveBeenCalledTimes(1);
+      expect(await act()).toBe(true);
+      expect(f.realtime.command).toHaveBeenCalledTimes(2);
+    },
+  );
   it('revanche limpa tentativas após descartar view e não aceita ack atrasado da partida anterior', async () => {
     const f = await setup();
     let finish!: (ack: Acknowledgement) => void;

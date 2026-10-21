@@ -49,6 +49,17 @@ async function failure(action: () => unknown, code: string) {
 }
 
 describe('criação, capacidade e autorização', () => {
+  it('limita salas simultâneas sem reservar identidade e libera a vaga ao encerrar', async () => {
+    const { service } = setup({ maxRooms: 1 });
+    const first = await service.create(actor(1), profile, settings);
+    await failure(() => service.create(actor(2), profile, settings), 'SERVER_BUSY');
+    expect(service.registry.roomOf(actor(2).playerId)).toBeUndefined();
+    expect(service.registry.all()).toHaveLength(1);
+    await service.close(first.roomId);
+    expect(await service.create(actor(2), profile, settings)).toMatchObject({
+      playerId: actor(2).playerId,
+    });
+  });
   it('registra por código/ID, reserva a identidade e preserva snapshots isolados', async () => {
     const { service, changes } = setup();
     const entry = await service.create(actor(1), profile, settings);

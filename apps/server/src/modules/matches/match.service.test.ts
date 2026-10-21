@@ -446,6 +446,47 @@ async function finalOpen(s: Setup) {
 }
 
 describe('serviço de partida na fila da sala', () => {
+  it.each(['before', 'at'] as const)(
+    '12 jogadores: alvo %s do prazo, queda e callbacks antigos conservam uma única resolução',
+    async (when) => {
+      const s = await setup({ mode: 'theft', playerCount: 12 });
+      await s.open();
+      await Promise.all(s.actors.map((_, index) => s.answer(index)));
+      const timer = matchTimer(s.game().state)!;
+      const callback = s.scheduled.findLast((entry) => entry.deadline === timer.deadlineAt)!;
+      const now = vi
+        .spyOn(s.runtime.clock, 'now')
+        .mockReturnValue(timer.deadlineAt - (when === 'before' ? 1 : 0));
+      let results;
+      try {
+        results = await Promise.allSettled([
+          s.target(0, 1),
+          s.target(0, 2),
+          s.rooms.disconnect(s.actors[0]!),
+          callback.task(),
+        ]);
+      } finally {
+        now.mockRestore();
+      }
+      if (when === 'before') expect(results[0]?.status).toBe('fulfilled');
+      else
+        expect(results[0]).toMatchObject({
+          status: 'rejected',
+          reason: { code: 'DEADLINE_EXPIRED' },
+        });
+      expect(s.game().state.stage.phase).toBe('reveal');
+      expect(s.game().state.history).toHaveLength(1);
+      const scores = s.game().state.scoreboard;
+      expect(scores.reduce((sum, score) => sum + score.points, 0)).toBe(1200);
+      await callback.task();
+      expect(s.game().state.scoreboard).toEqual(scores);
+      await s.rooms.close(s.room.id);
+      const closed = s.room.snapshot();
+      expect(s.time.pendingCount).toBe(0);
+      await callback.task();
+      expect(s.room.snapshot()).toEqual(closed);
+    },
+  );
   it.each(['classic', 'speed', 'wager', 'theft', 'pressure'] as const)(
     '%s: sala vazia resolve só a pergunta atual, aguarda e retoma sem dano/placar duplicados',
     async (mode) => {

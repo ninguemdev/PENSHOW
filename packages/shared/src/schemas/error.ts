@@ -20,6 +20,8 @@ export const DOMAIN_ERROR_MESSAGES = Object.freeze({
   INVALID_SETTINGS: 'A configuração da sala é incompatível.',
   INSUFFICIENT_QUESTIONS: 'Não há perguntas revisadas suficientes para esta partida.',
   ACTION_CONFLICT: 'Esta ação já foi usada com outros dados.',
+  RATE_LIMITED: 'Muitas ações em pouco tempo. Aguarde e tente novamente.',
+  SERVER_BUSY: 'O servidor está cheio. Aguarde e tente novamente.',
   INTERNAL_ERROR: 'Não foi possível concluir a ação. Tente novamente.',
 } as const);
 
@@ -43,6 +45,8 @@ export const domainErrorCodeSchema = z.enum([
   'INVALID_SETTINGS',
   'INSUFFICIENT_QUESTIONS',
   'ACTION_CONFLICT',
+  'RATE_LIMITED',
+  'SERVER_BUSY',
   'INTERNAL_ERROR',
 ]);
 

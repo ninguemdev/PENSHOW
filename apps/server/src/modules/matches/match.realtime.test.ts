@@ -89,10 +89,13 @@ async function fixture(overrides: AppDependencies = {}) {
         ),
     };
   }
-  async function group(transport: 'websocket' | 'polling' = 'websocket') {
+  async function group(transport: 'websocket' | 'polling' = 'websocket', playerCount = 2) {
     const host = await connect(await issue(), transport),
       guest = await connect(await issue(), transport);
-    const created = await host.command('room:create', { profile, settings });
+    const created = await host.command('room:create', {
+      profile,
+      settings: { ...settings, maxPlayers: playerCount },
+    });
     if (created.status !== 'ok' || created.event !== 'room:create')
       throw new Error('Sala esperada.');
     const entry = created.result;
@@ -102,6 +105,14 @@ async function fixture(overrides: AppDependencies = {}) {
         profile: { ...profile, nickname: 'Bia' },
       }),
     ).toMatchObject({ status: 'ok' });
+    const participants = [host, guest];
+    for (let index = 2; index < playerCount; index++) {
+      const client = await connect(await issue(), transport);
+      expect(await client.command('room:join', { code: entry.code, profile })).toMatchObject({
+        status: 'ok',
+      });
+      participants.push(client);
+    }
     const room = app.rooms.registry.byId(entry.roomId)!;
     function state() {
       const phase = room.snapshot().phase;
@@ -130,11 +141,11 @@ async function fixture(overrides: AppDependencies = {}) {
     }
     async function choose() {
       const { stage: offer } = await stage(
-        host,
+        participants[0]!,
         'category-selection',
         room.snapshot().stateVersion,
       );
-      const chooser = [host, guest].find(
+      const chooser = participants.find(
         (client) => client.session?.playerId === offer.chooserPlayerId,
       )!;
       expect(
@@ -143,7 +154,7 @@ async function fixture(overrides: AppDependencies = {}) {
     }
     async function open(mode?: 'classic' | 'speed' | 'wager' | 'theft' | 'pressure') {
       await start(mode);
-      for (const client of [host, guest])
+      for (const client of participants)
         expect(await client.command('round:ready', context())).toMatchObject({ status: 'ok' });
       await choose();
       if (state().stage.phase === 'wager-selection') await advance();
@@ -166,6 +177,7 @@ async function fixture(overrides: AppDependencies = {}) {
     return {
       host,
       guest,
+      participants,
       entry,
       room,
       state,
@@ -237,6 +249,102 @@ function privacy(client: Client) {
 }
 
 describe('quiz clássico autenticado em rede', () => {
+  it('isola três salas com 12 jogadores sob respostas, prazo, queda e alvos concorrentes', async () => {
+    const f = await fixture();
+    const groups = [];
+    for (const mode of ['theft', 'speed', 'wager'] as const) {
+      const g = await f.group('websocket', 12);
+      await g.open(mode);
+      groups.push(g);
+    }
+    const [theft, speed, wager] = groups;
+    if (!theft || !speed || !wager) throw new Error('Três salas esperadas.');
+    const spectator = await f.connect(await f.issue());
+    await spectator.command('room:join', { code: theft.entry.code, profile });
+    error(await spectator.command('answer:submit', theft.answerPayload()), 'FORBIDDEN');
+    error(await theft.host.command('answer:submit', speed.answerPayload()), 'NOT_A_MEMBER');
+    error(
+      await theft.host.command('answer:submit', {
+        ...theft.answerPayload(),
+        playerId: theft.guest.session!.playerId,
+      }),
+      'INVALID_PAYLOAD',
+    );
+    for (const path of [
+      '/questions',
+      '/data/questions/published/catalog.json',
+      '/src/modules/questions',
+      '/rooms',
+    ])
+      expect((await f.app.inject(path)).statusCode).toBe(404);
+
+    // Hold only the first queue: another room must commit while it remains blocked.
+    const entered = Promise.withResolvers<void>(),
+      release = Promise.withResolvers<void>();
+    const held = theft.room.runExclusive(async () => {
+      entered.resolve();
+      await release.promise;
+    });
+    await entered.promise;
+    const observed = vi.spyOn(f.app.matches!, 'execute');
+    const beforeSpeed = speed.room.snapshot().stateVersion;
+    const submissions = theft.participants.map((client) =>
+      client.command('answer:submit', theft.answerPayload()),
+    );
+    try {
+      await vi.waitFor(() => expect(observed).toHaveBeenCalledTimes(12));
+      expect(await speed.host.command('answer:submit', speed.answerPayload())).toMatchObject({
+        status: 'ok',
+      });
+      expect(speed.room.snapshot().stateVersion).toBeGreaterThan(beforeSpeed);
+      const serverSocket = f.app.realtime.sockets.sockets.get(spectator.socket.id!)!;
+      const disconnected = new Promise<void>((resolve) =>
+        serverSocket.once('disconnect', () => resolve()),
+      );
+      serverSocket.disconnect(true);
+      await disconnected;
+    } finally {
+      release.resolve();
+    }
+    await held;
+    const results = await Promise.all(submissions);
+    expect(results.every((ack) => ack.status === 'ok')).toBe(true);
+    await theft.room.runExclusive(() => undefined);
+    const phase = theft.state().stage;
+    expect(phase.phase).toBe('theft-target-selection');
+    if (phase.phase !== 'theft-target-selection') throw new Error('Escolha de alvo esperada.');
+    const attacker = theft.participants.find(
+      (client) => client.session!.playerId === phase.attackerPlayerId,
+    )!;
+    const target = {
+      ...theft.context(),
+      questionId: phase.question.publicQuestion.questionId,
+      targetPlayerId: phase.eligibleTargetIds[0],
+    };
+    const picks = await Promise.all([
+      attacker.command('target:choose', target),
+      attacker.command('target:choose', target),
+    ]);
+    expect(picks.filter((ack) => ack.status === 'ok')).toHaveLength(1);
+    expect(theft.state().history).toHaveLength(1);
+    expect(theft.state().scoreboard.reduce((sum, row) => sum + row.points, 0)).toBe(1200);
+    // Shared clock expires remaining rooms; only the one accepted speed answer scores.
+    await f.time.advanceTo(Math.max(...groups.map((g) => matchTimer(g.state())!.deadlineAt)));
+    expect(speed.state().history).toHaveLength(1);
+    expect(speed.state().scoreboard.filter((row) => row.points > 0)).toHaveLength(1);
+    expect(wager.state().history).toHaveLength(1);
+    expect(wager.state().scoreboard.every((row) => row.points === 0)).toBe(true);
+    const old = theft.answerPayload();
+    await f.app.rooms.close(theft.room.id);
+    error(await attacker.command('answer:submit', old), 'ROOM_NOT_FOUND');
+    expect(f.app.rooms.registry.byId(theft.room.id)).toBeUndefined();
+    expect(f.app.rooms.registry.all()).toHaveLength(2);
+    for (const g of groups) for (const client of g.participants) privacy(client);
+    privacy(spectator);
+    await f.app.close();
+    expect(f.time.pendingCount).toBe(0);
+    expect(f.app.sessions.entries()).toHaveLength(0);
+  });
   it.each(['websocket', 'polling'] as const)(
     'matriz de fotografia e conexão única via %s',
     async (transport) => {

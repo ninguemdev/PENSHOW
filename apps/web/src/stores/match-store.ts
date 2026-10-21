@@ -175,20 +175,33 @@ export function createMatchStore(deps: Dependencies) {
             ['QUESTION_CLOSED', 'INVALID_PHASE', 'DEADLINE_EXPIRED', 'STALE_CONTEXT'].includes(
               ack.error.code,
             );
-          if (optionId && ['INVALID_PAYLOAD', 'FORBIDDEN', 'NOT_A_MEMBER'].includes(ack.error.code))
+          if (
+            optionId &&
+            ['INVALID_PAYLOAD', 'FORBIDDEN', 'NOT_A_MEMBER', 'RATE_LIMITED'].includes(
+              ack.error.code,
+            )
+          )
             set({ attempt: null });
           if (
             amount !== undefined &&
-            ['INVALID_PAYLOAD', 'INSUFFICIENT_BALANCE', 'FORBIDDEN', 'NOT_A_MEMBER'].includes(
-              ack.error.code,
-            )
+            [
+              'INVALID_PAYLOAD',
+              'INSUFFICIENT_BALANCE',
+              'FORBIDDEN',
+              'NOT_A_MEMBER',
+              'RATE_LIMITED',
+            ].includes(ack.error.code)
           )
             set({ wagerAttempt: null });
           if (
             targetPlayerId &&
-            ['INVALID_PAYLOAD', 'INVALID_TARGET', 'FORBIDDEN', 'NOT_A_MEMBER'].includes(
-              ack.error.code,
-            )
+            [
+              'INVALID_PAYLOAD',
+              'INVALID_TARGET',
+              'FORBIDDEN',
+              'NOT_A_MEMBER',
+              'RATE_LIMITED',
+            ].includes(ack.error.code)
           )
             set({ targetAttempt: null });
           throw new Error(ack.error.message);
