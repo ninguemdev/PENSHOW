@@ -26,6 +26,7 @@ import { RoomService, type RoomActor } from './modules/rooms/room.service.js';
 import type { RoomPolicy } from './modules/rooms/room-policy.js';
 import { createRoomHandlers } from './modules/rooms/room.handlers.js';
 import { MatchService } from './modules/matches/match.service.js';
+import type { PrototypeParameters } from './modules/scoring/match-rules.js';
 import { createMatchHandlers } from './modules/matches/match.handlers.js';
 import { createRoomPublisher } from './modules/views/room-publisher.js';
 import { PublicCommandError } from './command-error.js';
@@ -49,6 +50,7 @@ export interface AppDependencies {
   trafficPolicy?: TrafficPolicy;
   questions?: QuestionRepository;
   questionCatalogFile?: string | URL;
+  matchParameters?: PrototypeParameters;
 }
 
 export function buildApp(deps: AppDependencies = {}) {
@@ -168,6 +170,7 @@ export function buildApp(deps: AppDependencies = {}) {
     config.environment === 'production'
       ? undefined
       : new MatchService({
+          ...(deps.matchParameters ? { parameters: deps.matchParameters } : {}),
           runtime,
           questions,
           isCurrentActor: (actor) => !closing && isCurrent(actor),

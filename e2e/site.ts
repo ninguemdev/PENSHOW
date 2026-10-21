@@ -1,15 +1,18 @@
 import { fileURLToPath } from 'node:url';
 import { preview } from 'vite';
-import { buildApp } from '../apps/server/src/app.ts';
+import { buildApp, type AppDependencies } from '../apps/server/src/app.ts';
 import { loadConfig } from '../apps/server/src/platform/config.ts';
 
 /** Private fixture: built web + real application, no test routes, fake answers or shared servers. */
-export async function createSite() {
+export async function createSite(overrides: AppDependencies = {}) {
   const port = Number(process.env.PENSHOW_E2E_PORT ?? 4179);
   if (!Number.isSafeInteger(port) || port < 1 || port > 65535)
     throw new Error('PENSHOW_E2E_PORT precisa ser uma porta válida.');
   const origin = `http://127.0.0.1:${port}`;
-  const app = buildApp({ config: loadConfig({ NODE_ENV: 'test', ALLOWED_ORIGINS: origin }) });
+  const app = buildApp({
+    ...overrides,
+    config: loadConfig({ NODE_ENV: 'test', ALLOWED_ORIGINS: origin }),
+  });
   let web: Awaited<ReturnType<typeof preview>> | undefined;
   try {
     const backend = await app.listen({ host: '127.0.0.1', port: 0 });

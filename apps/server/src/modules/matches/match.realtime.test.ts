@@ -17,7 +17,7 @@ import { loadConfig, SOCKET_PATH } from '../../platform/config.js';
 import { createTestRuntime } from '../../test-support/runtime.js';
 import { repository } from '../../test-support/match.js';
 import { QuestionSelection } from '../questions/question-selection.js';
-import { matchTimer } from './match.domain.js';
+import { matchTimer, currentPressureTurn } from './match.domain.js';
 
 const apps: ReturnType<typeof buildApp>[] = [],
   sockets: Socket[] = [];
@@ -89,12 +89,32 @@ async function fixture(overrides: AppDependencies = {}) {
         ),
     };
   }
-  async function group(transport: 'websocket' | 'polling' = 'websocket', playerCount = 2) {
+  async function group(
+    transport: 'websocket' | 'polling' = 'websocket',
+    playerCount = 2,
+    format: 'classic' | 'prototype-v1' = 'prototype-v1',
+  ) {
     const host = await connect(await issue(), transport),
       guest = await connect(await issue(), transport);
     const created = await host.command('room:create', {
       profile,
-      settings: { ...settings, maxPlayers: playerCount },
+      settings: {
+        ...settings,
+        format,
+        maxPlayers: playerCount,
+        ...(format === 'classic'
+          ? {
+              enabledCategories: [
+                'history',
+                'geography',
+                'science-nature',
+                'sports',
+                'arts-literature',
+                'pop-culture',
+              ],
+            }
+          : {}),
+      },
     });
     if (created.status !== 'ok' || created.event !== 'room:create')
       throw new Error('Sala esperada.');
@@ -247,6 +267,238 @@ function privacy(client: Client) {
     }
   }
 }
+
+type IntegratedGroup = Awaited<ReturnType<Awaited<ReturnType<typeof fixture>>['group']>>;
+
+/** Drive real authenticated commands and timers; the service owns every score and transition. */
+async function playIntegratedScoring(g: IntegratedGroup, onSecondRound?: () => Promise<void>) {
+  let ordinaryQuestions = 0,
+    secondRound = false,
+    checkedDuplicate = false;
+  const used = new Set<string>();
+  for (
+    let guard = 0;
+    guard < 400 && !g.state().final && g.state().stage.phase !== 'ranking';
+    guard++
+  ) {
+    const state = g.state(),
+      current = state.stage;
+    if (state.roundIndex === 1 && !secondRound && onSecondRound) {
+      secondRound = true;
+      await onSecondRound();
+      continue;
+    }
+    if (current.phase === 'instructions') {
+      for (const client of g.participants)
+        expect(await client.command('round:ready', g.context())).toMatchObject({ status: 'ok' });
+    } else if (current.phase === 'category-selection') await g.choose();
+    else if (current.phase === 'wager-selection') {
+      for (const client of g.participants)
+        expect(
+          await client.command('wager:submit', {
+            ...g.context(),
+            questionId: current.question.publicQuestion.questionId,
+            amount: 0,
+          }),
+        ).toMatchObject({ status: 'ok' });
+      await g.advance();
+    } else if (current.phase === 'question-open') {
+      expect(used.has(current.question.publicQuestion.questionId)).toBe(false);
+      used.add(current.question.publicQuestion.questionId);
+      const mode = state.rounds[state.roundIndex]!.mode,
+        turn = currentPressureTurn(state);
+      const respondents = g.participants.filter(
+        (client) => !turn || client.session!.playerId === turn.playerId,
+      );
+      for (const client of respondents) {
+        const index = g.participants.indexOf(client);
+        const correct = mode === 'pressure' || (mode !== 'theft' && ordinaryQuestions < 12 - index);
+        const payload = g.answerPayload(correct);
+        expect(await client.command('answer:submit', payload)).toMatchObject({ status: 'ok' });
+        if (!checkedDuplicate && !turn) {
+          const committed = g.room.snapshot();
+          error(await client.command('answer:submit', payload), 'ALREADY_ANSWERED');
+          expect(g.room.snapshot()).toEqual(committed);
+          checkedDuplicate = true;
+        }
+      }
+      if (mode !== 'pressure' && mode !== 'theft') ordinaryQuestions++;
+    } else await g.advance();
+  }
+  expect(g.state().roundIndex).toBe(3);
+  expect(g.state().final?.stage.phase).toBe('final-instructions');
+  expect(checkedDuplicate).toBe(true);
+  return used;
+}
+
+describe('modo clássico completo em rede — T29', () => {
+  it('12 identidades: cinco fases, anfitrião ausente, primeira resposta, dano único e revanche', async () => {
+    const f = await fixture(),
+      g = await f.group('websocket', 12, 'classic');
+    const random = f.runtime.random,
+      choices = [3, 3, 2, 1];
+    f.runtime.random = { integer: (max) => choices.shift() ?? random.integer(max) };
+    await g.start();
+    const initial = g.state(),
+      originalHost = g.host,
+      hostId = originalHost.session!.playerId;
+    expect(initial.rounds.map((round) => round.mode)).toEqual([
+      'classic',
+      'speed',
+      'wager',
+      'pressure',
+    ]);
+    const plan = [...initial.rounds, initial.finalRound];
+    await playIntegratedScoring(g, async () => {
+      originalHost.socket.disconnect();
+      await view(g.guest, (view) =>
+        view.members.some(
+          (member) => member.playerId === hostId && member.connection.status === 'disconnected',
+        ),
+      );
+      await f.time.advanceTo(f.time.now() + 30_000);
+      expect(g.room.snapshot().hostPlayerId).not.toBe(hostId);
+      const replacement = await f.connect(originalHost.session);
+      g.participants[0] = replacement;
+      await view(replacement, (view) => view.state.status === 'match');
+      expect([...g.state().rounds, g.state().finalRound]).toEqual(plan);
+      expect(g.state().roster.matchId).toBe(initial.roster.matchId);
+    });
+    const qualified = g.state(),
+      entry = qualified.finalEntry;
+    expect(entry).toMatchObject({ status: 'ready', scope: 'full-match' });
+    expect(new Set(qualified.scoreboard.map((score) => score.points)).size).toBe(12);
+    expect(qualified.final?.finalists.map((player) => player.initialLives)).toEqual([
+      5,
+      4,
+      3,
+      ...Array.from({ length: 9 }, () => 2),
+    ]);
+    for (const client of g.participants)
+      expect(await client.command('round:ready', g.context())).toMatchObject({ status: 'ok' });
+    await g.advance();
+    const payload = g.answerPayload(),
+      beforeRace = g.state().final!;
+    const acks = await Promise.all(
+      g.participants.map((client) => client.command('answer:submit', payload)),
+    );
+    expect(acks.filter((ack) => ack.status === 'ok')).toHaveLength(1);
+    for (const ack of acks.filter((ack) => ack.status === 'error')) error(ack, 'QUESTION_CLOSED');
+    const locked = g.state().final!.stage;
+    if (locked.phase !== 'final-target-selection') throw new Error('Alvo esperado.');
+    const attacker = g.participants.find(
+      (client) => client.session!.playerId === locked.accepted.playerId,
+    )!;
+    const victim = g
+      .state()
+      .final!.finalists.find(
+        (player) => player.playerId !== locked.accepted.playerId && player.playerId !== hostId,
+      )!;
+    const target = {
+      ...g.context(),
+      questionId: locked.question.publicQuestion.questionId,
+      targetPlayerId: victim.playerId,
+    };
+    expect(await attacker.command('target:choose', target)).toMatchObject({ status: 'ok' });
+    const afterAttack = g.state().final!;
+    expect(
+      beforeRace.finalists.reduce((sum, player) => sum + player.lives, 0) -
+        afterAttack.finalists.reduce((sum, player) => sum + player.lives, 0),
+    ).toBe(1);
+    error(await attacker.command('target:choose', target), 'INVALID_PHASE');
+    expect(g.state().final).toEqual(afterAttack);
+    for (let guard = 0; guard < 150 && g.state().final!.stage.phase !== 'podium'; guard++) {
+      const final = g.state().final!,
+        current = final.stage;
+      if (current.phase === 'final-question-open')
+        expect(await g.participants[0]!.command('answer:submit', g.answerPayload())).toMatchObject({
+          status: 'ok',
+        });
+      else if (current.phase === 'final-target-selection') {
+        const victim = final.finalists.find(
+          (player) => player.status === 'active' && player.playerId !== hostId,
+        )!;
+        expect(
+          await g.participants[0]!.command('target:choose', {
+            ...g.context(),
+            questionId: current.question.publicQuestion.questionId,
+            targetPlayerId: victim.playerId,
+          }),
+        ).toMatchObject({ status: 'ok' });
+      } else await g.advance();
+    }
+    expect(g.state().final!.stage.phase).toBe('podium');
+    expect(g.state().finalEntry).toEqual(entry);
+    expect(g.state().scoreboard).toEqual(qualified.scoreboard);
+    for (const client of g.participants) {
+      const result = await stage(client, 'podium', g.room.snapshot().stateVersion);
+      expect(result.stage.standings[0]).toBe(hostId);
+      expect(result.match.plan).toEqual(plan);
+      expect(result.match.roundSummaries?.map((row) => row.round)).toEqual(initial.rounds);
+      privacy(client);
+    }
+    privacy(originalHost);
+    const currentHost = g.participants.find(
+      (client) => client.session!.playerId === g.room.snapshot().hostPlayerId,
+    )!;
+    expect(
+      await currentHost.command('match:returnToLobby', {
+        roomId: g.room.id,
+        matchId: initial.roster.matchId,
+      }),
+    ).toMatchObject({ status: 'ok' });
+    expect(await currentHost.command('match:start', { roomId: g.room.id })).toMatchObject({
+      status: 'ok',
+    });
+    expect(g.state().scoreboard.every((score) => score.points === 0)).toBe(true);
+    expect(g.state().roster.matchId).not.toBe(initial.roster.matchId);
+    error(await g.participants[0]!.command('answer:submit', payload), 'STALE_CONTEXT');
+    await f.app.close();
+    expect(f.time.pendingCount).toBe(0);
+    expect(f.app.rooms.registry.all()).toHaveLength(0);
+  }, 60_000);
+
+  it.each(['no-answer', 'no-target'] as const)(
+    'final completa mantém a pendência %s sem dano ou repetição',
+    async (policy) => {
+      const f = await fixture(),
+        g = await f.group('websocket', 2, 'classic');
+      const random = f.runtime.random,
+        choices = [3, 3, 2, 1];
+      f.runtime.random = { integer: (max) => choices.shift() ?? random.integer(max) };
+      await g.start();
+      await playIntegratedScoring(g);
+      for (const client of g.participants)
+        expect(await client.command('round:ready', g.context())).toMatchObject({ status: 'ok' });
+      await g.advance();
+      const finalists = structuredClone(g.state().final!.finalists),
+        entry = g.state().finalEntry;
+      if (policy === 'no-target')
+        expect(await g.host.command('answer:submit', g.answerPayload())).toMatchObject({
+          status: 'ok',
+        });
+      await g.advance();
+      const expected =
+        policy === 'no-answer' ? 'final-no-answer-pending' : 'final-no-target-pending';
+      await stage(g.host, expected, g.room.snapshot().stateVersion);
+      expect(g.state().final!.finalists).toEqual(finalists);
+      expect(g.state().final!.history).toHaveLength(0);
+      expect(g.state().finalEntry).toEqual(entry);
+      expect(matchTimer(g.state())).toBeNull();
+      await f.time.advanceTo(f.time.now() + 60_000);
+      expect(g.state().final!.stage.phase).toBe(expected);
+      expect(g.state().final!.finalists).toEqual(finalists);
+      expect(
+        await g.host.command('match:returnToLobby', {
+          roomId: g.room.id,
+          matchId: g.state().roster.matchId,
+        }),
+      ).toMatchObject({ status: 'ok' });
+      for (const client of g.participants) privacy(client);
+    },
+    30_000,
+  );
+});
 
 describe('quiz clássico autenticado em rede', () => {
   it('isola três salas com 12 jogadores sob respostas, prazo, queda e alvos concorrentes', async () => {
