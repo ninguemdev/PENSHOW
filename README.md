@@ -55,6 +55,7 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 - [Privacidade, limites e concorrência](docs/privacidade-limites-e-concorrencia.md): orçamentos por identidade/IP, capacidade, matriz de exposição e isolamento de três salas com 12 jogadores.
 - [Smoke M2](docs/smoke-m2.md): Playwright, duas identidades, isolamento, CI e [roteiro de inspeção](docs/teste-manual-m2.md).
 - [Testes da partida completa](docs/e2e-partida-completa.md): matriz integrada, falhas, 12 participantes e execução separada na CI.
+- [Piloto de grupos e equilíbrio](docs/testes-de-grupo-e-equilibrio.md): simulação local com 2, 4, 8 e 12 jogadores, comparação de parâmetros e roteiro de observação humana.
 - [Interface](docs/interface.md): navegação, componentes, estilo provisório, caminho base e estados de conexão/armazenamento.
 - [Avatares](docs/avatares.md): catálogo, editor, persistência, verificação de artes e [licenças](THIRD_PARTY_NOTICES.md).
 - [Banco de perguntas](docs/perguntas.md): fontes, categorias, revisão e expansão.
@@ -84,6 +85,8 @@ pnpm build
 `pnpm test:e2e:a11y` verifica teclado, árvore de acessibilidade, contraste, textos extensos e adaptação de telas no navegador real após o build. Consulte [acessibilidade e limites da revisão](docs/acessibilidade.md).
 
 `pnpm test:e2e:sound` verifica os avisos sonoros, preferências, áudio indisponível, reconexão e renderização do motor real, com prévia WAV para escuta. Consulte [sons e validação](docs/sons.md).
+
+`pnpm pilot:simulate` gera o relatório mecânico de equilíbrio usando os serviços reais, catálogo publicado, jogadores roteirizados e relógio virtual. `pnpm pilot:simulate --check` reproduz o relatório sem escrever. Os tempos simulados e as comparações de pontos não substituem sessões humanas; consulte [método, resultados e roteiro](docs/testes-de-grupo-e-equilibrio.md).
 
 `pnpm test` executa os testes de conteúdo, artes e as suítes Vitest de shared, server e web. `pnpm avatars:check` confere as 50 artes e o catálogo público. `pnpm format` aplica a formatação. Os arquivos editoriais em `data/` e os documentos de planejamento em `docs/` preservam seu formato original.
 

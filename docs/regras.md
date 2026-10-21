@@ -99,3 +99,5 @@ Propostas a validar com a primeira partida:
 A distribuição de vidas, a primeira resposta exclusiva, a perda por erro e o ataque a qualquer adversário ativo estão definidos. As seis consultas desta etapa tratam de duração, final sem resposta, alvo não escolhido, quinta fase, direito ao roubo e desempate de classificação. Até as respostas chegarem, os padrões correspondentes são propostas descritas no plano. Validar também o equilíbrio da dinamite antes de consolidar o protótipo.
 
 A [integração experimental da T36](modo-classico.md) executa quatro modalidades sorteadas e a final na quinta posição em desenvolvimento/teste. As decisões D02–D06 continuam em consulta; empates e ausências na final conservam pendências explícitas. A execução do protótipo não confirma as propostas acima.
+
+O [piloto mecânico da T32](testes-de-grupo-e-equilibrio.md) compara parâmetros para dinamite, velocidade, aposta e roubo em execuções locais com jogadores roteirizados e relógio virtual. As alternativas pertencem apenas à simulação. D01–D06, os parâmetros atuais e as regras confirmadas da final permanecem como registrados; a avaliação humana de equilíbrio ainda não foi realizada.

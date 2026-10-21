@@ -26,6 +26,7 @@ jobs:
       - run: pnpm questions:check
       - run: pnpm questions:simulate --check
       - run: pnpm questions:simulate:classic --check
+      - run: pnpm pilot:simulate --check
       - run: pnpm avatars:check
       - run: pnpm build
 
