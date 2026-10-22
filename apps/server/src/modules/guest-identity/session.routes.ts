@@ -25,8 +25,9 @@ export function registerSessionRoutes(
     routes.addHook('onRequest', async (request, reply) => {
       reply.header('Cache-Control', 'no-store');
       reply.header('Pragma', 'no-cache');
-      const limiter =
-        request.routeOptions.url === '/guest-sessions' ? limits.creates : limits.requests;
+      const limiter = request.routeOptions.url?.endsWith('/guest-sessions')
+        ? limits.creates
+        : limits.requests;
       if (!limiter.take(request.ip))
         return reply
           .header('Retry-After', Math.ceil(limits.windowMs / 1000))

@@ -45,7 +45,7 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T31 | [Sons e preferências do jogador](./T31-sons-e-preferencias.md) | T25, T21 | M5 | 🟨 |
 | T32 | [Testes com grupos e equilíbrio](./T32-testes-de-grupo-e-equilibrio.md) | T29, T30, T31 | M5 | 🟨 |
 | T33 | [Expansão para 5.000 perguntas revisadas](./T33-expansao-para-5000-perguntas.md) | T27 | M6 | 🟨 |
-| T34 | [Build, container e operação de produção](./T34-build-e-operacao-de-producao.md) | T28, T29 | M6 | ⬜ |
+| T34 | [Build, container e operação de produção](./T34-build-e-operacao-de-producao.md) | T28, T29 | M6 | ✅ |
 | T35 | [Publicação e validação final](./T35-publicacao-e-validacao-final.md) | T32, T33, T34 | M6 | ⬜ |
 | T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27 | M3 | 🟨 |
 

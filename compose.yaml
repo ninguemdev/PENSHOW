@@ -1,0 +1,26 @@
+services:
+  penshow:
+    image: ${PENSHOW_IMAGE:-penshow:local}
+    build:
+      context: .
+      args:
+        WEB_BASE_PATH: /penshow/
+    init: true
+    environment:
+      NODE_ENV: production
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://127.0.0.1:8080}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+    ports:
+      - '127.0.0.1:8080:3000'
+    restart: unless-stopped
+    stop_grace_period: 15s
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'

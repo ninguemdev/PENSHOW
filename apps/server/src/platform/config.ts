@@ -1,4 +1,5 @@
 import { isIP } from 'node:net';
+import { isAbsolute } from 'node:path';
 import { z } from 'zod';
 
 const originSchema = z.string().refine((value) => {
@@ -30,6 +31,12 @@ export const serverConfigSchema = z.strictObject({
   socketMessageLimit: z.number().int().min(1024).max(1048576),
   guestSessionTtlMs: z.number().int().min(1000).max(604800000),
   logLevel: z.enum(['silent', 'fatal', 'error', 'warn', 'info', 'debug', 'trace']),
+  webRoot: z.string().min(1).refine(isAbsolute, 'Informe um caminho absoluto.').optional(),
+  webBasePath: z
+    .string()
+    .regex(/^\/(?:[a-zA-Z0-9_-]+\/)*$/u)
+    .refine((value) => !/^\/(?:api|comicle)(?:\/|$)|^\/penshow\/socket[.]io/u.test(value))
+    .default('/penshow/'),
 });
 
 export type ServerConfig = Readonly<
@@ -71,5 +78,7 @@ export function loadConfig(
     socketMessageLimit: Number(environment.SOCKET_MESSAGE_LIMIT ?? 65536),
     guestSessionTtlMs: Number(environment.GUEST_SESSION_TTL_MS ?? 86400000),
     logLevel: environment.LOG_LEVEL ?? (mode === 'test' ? 'silent' : 'info'),
+    ...(environment.WEB_ROOT !== undefined ? { webRoot: environment.WEB_ROOT } : {}),
+    webBasePath: environment.WEB_BASE_PATH ?? '/penshow/',
   });
 }

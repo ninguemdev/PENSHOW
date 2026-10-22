@@ -21,6 +21,7 @@ describe('configuração do servidor', () => {
       socketMessageLimit: 8192,
       guestSessionTtlMs: 86400000,
       logLevel: 'warn',
+      webBasePath: '/penshow/',
     });
     expect(Object.isFrozen(config)).toBe(true);
     expect(Object.isFrozen(config.allowedOrigins)).toBe(true);
@@ -47,6 +48,13 @@ describe('configuração do servidor', () => {
     { ALLOWED_ORIGINS: 'https://example.com?token=secret' },
     { ALLOWED_ORIGINS: 'https://example.com,https://example.com' },
     { NODE_ENV: 'production' },
+    { WEB_ROOT: '' },
+    { WEB_ROOT: 'relative/path' },
+    { WEB_BASE_PATH: 'penshow' },
+    { WEB_BASE_PATH: '/penshow' },
+    { WEB_BASE_PATH: '/api/' },
+    { WEB_BASE_PATH: '/comicle/' },
+    { WEB_BASE_PATH: '/penshow/../' },
   ])('falha com mensagem compreensível: %j', (environment) => {
     expect(() => loadConfig(environment)).toThrow('Configuração inválida:');
   });

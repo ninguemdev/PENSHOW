@@ -3,6 +3,9 @@ import { afterEach, describe, expect, it } from 'vitest';
 import { buildApp } from './app.js';
 import { loadConfig } from './platform/config.js';
 import { createTestRuntime } from './test-support/runtime.js';
+import { DEFAULT_TRAFFIC_POLICY } from './platform/traffic-policy.js';
+import { createConnection } from 'node:net';
+import { once } from 'node:events';
 
 const apps: ReturnType<typeof buildApp>[] = [];
 afterEach(async () => {
@@ -20,6 +23,51 @@ function makeApp(overrides: Parameters<typeof buildApp>[0] = {}) {
 }
 
 describe('servidor HTTP', () => {
+  it('encerra mesmo com um upload HTTP que não concluiu o corpo da requisição', async () => {
+    const app = makeApp();
+    await app.listen({ host: '127.0.0.1', port: 0 });
+    const address = app.server.address();
+    if (!address || typeof address === 'string') throw new Error('Porta TCP esperada.');
+    const client = createConnection({ host: '127.0.0.1', port: address.port });
+    let timeout: ReturnType<typeof setTimeout> | undefined;
+    try {
+      await once(client, 'connect');
+      client.write(
+        'POST /api/guest-sessions HTTP/1.1\r\nHost: localhost\r\nContent-Type: application/json\r\nContent-Length: 100\r\n\r\n{',
+      );
+      // Receiving the headers establishes an active request, rather than an idle socket.
+      await new Promise<void>((resolve) => app.server.once('request', () => resolve()));
+      await Promise.race([
+        app.close(),
+        new Promise<void>((_resolve, reject) => {
+          timeout = setTimeout(() => reject(new Error('Encerramento HTTP bloqueado.')), 2000);
+        }),
+      ]);
+      expect(app.server.listening).toBe(false);
+    } finally {
+      clearTimeout(timeout);
+      client.destroy();
+    }
+  });
+  it('compartilha o orçamento de criação e a identidade entre rotas históricas e /api', async () => {
+    const app = makeApp({
+      trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, sessionCreatesPerWindow: 2 },
+    });
+    const first = await app.inject({ method: 'POST', url: '/api/guest-sessions' });
+    expect(first.statusCode).toBe(201);
+    const session = issuedGuestSessionSchema.parse(first.json());
+    expect(
+      (
+        await app.inject({
+          url: `/guest-sessions/${session.playerId}`,
+          headers: { authorization: `Bearer ${session.token}` },
+        })
+      ).statusCode,
+    ).toBe(200);
+    expect((await app.inject({ method: 'POST', url: '/guest-sessions' })).statusCode).toBe(201);
+    expect((await app.inject({ method: 'POST', url: '/api/guest-sessions' })).statusCode).toBe(429);
+    expect((await app.inject({ method: 'POST', url: '/guest-sessions' })).statusCode).toBe(429);
+  });
   it('recusa ator sem conexão autenticada no serviço composto e limpa timers no fechamento', async () => {
     const { runtime, time } = createTestRuntime(1000, Array<number>(6).fill(0));
     const app = makeApp({ runtime });
