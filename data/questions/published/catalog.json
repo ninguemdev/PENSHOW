@@ -2,46 +2,1630 @@
   "manifest": {
     "availability": {
       "arts-literature": {
-        "easy": 15,
-        "hard": 15,
-        "medium": 20,
-        "total": 50
+        "easy": 17,
+        "hard": 17,
+        "medium": 22,
+        "total": 56
       },
       "geography": {
-        "easy": 15,
-        "hard": 15,
-        "medium": 20,
-        "total": 50
+        "easy": 17,
+        "hard": 17,
+        "medium": 22,
+        "total": 56
       },
       "history": {
-        "easy": 15,
-        "hard": 15,
-        "medium": 20,
-        "total": 50
+        "easy": 17,
+        "hard": 17,
+        "medium": 22,
+        "total": 56
       },
       "pop-culture": {
-        "easy": 15,
-        "hard": 15,
-        "medium": 20,
-        "total": 50
+        "easy": 17,
+        "hard": 17,
+        "medium": 22,
+        "total": 56
       },
       "science-nature": {
-        "easy": 15,
-        "hard": 15,
-        "medium": 20,
-        "total": 50
+        "easy": 17,
+        "hard": 17,
+        "medium": 22,
+        "total": 56
       },
       "sports": {
-        "easy": 15,
-        "hard": 15,
-        "medium": 20,
-        "total": 50
+        "easy": 17,
+        "hard": 17,
+        "medium": 22,
+        "total": 56
       }
     },
-    "contentSha256": "3636e71bbf3ac19789414b1963a09d628ef3d0c957790f6ca83f3769496b826d",
-    "questionCount": 300
+    "contentSha256": "37285afd46a72e9b960b378bca0b53c7e9d0108abc7addedc52aaf9282441453",
+    "questionCount": 336
   },
   "questions": [
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:arts-literature:12efedfc3c73f5ae",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Wessex"
+        },
+        {
+          "id": "option-1",
+          "text": "Barsetshire"
+        },
+        {
+          "id": "option-2",
+          "text": "Fulchester"
+        },
+        {
+          "id": "option-3",
+          "text": "Ambridge"
+        }
+      ],
+      "prompt": "Como se chama a região imaginária do sul da Inglaterra que serve de cenário a romances de Thomas Hardy?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nationaltrust.org.uk/discover/history/people/where-is-thomas-hardys-wessex",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Books",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 102,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:arts-literature:2acc74c5d074bd3e",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Charles Dickens"
+        },
+        {
+          "id": "option-1",
+          "text": "Charles Darwin"
+        },
+        {
+          "id": "option-2",
+          "text": "Mark Twain"
+        },
+        {
+          "id": "option-3",
+          "text": "Roald Dahl"
+        }
+      ],
+      "prompt": "Quem escreveu “Um Conto de Duas Cidades”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.gutenberg.org/ebooks/98",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Books",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 273,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:arts-literature:4d31c63e2e9217c1",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1502"
+        },
+        {
+          "id": "option-1",
+          "text": "1702"
+        },
+        {
+          "id": "option-2",
+          "text": "1402"
+        },
+        {
+          "id": "option-3",
+          "text": "1602"
+        }
+      ],
+      "prompt": "Em que ano Albrecht Dürer criou “Young Hare”, estudo de uma lebre hoje no acervo da Albertina?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://sammlungenonline.albertina.at/de/objects/39222/feldhase",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Art",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 567,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:arts-literature:b5abc1e031e8810d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Rick Riordan"
+        },
+        {
+          "id": "option-1",
+          "text": "J. K. Rowling"
+        },
+        {
+          "id": "option-2",
+          "text": "Suzanne Collins"
+        },
+        {
+          "id": "option-3",
+          "text": "Roald Dahl"
+        }
+      ],
+      "prompt": "Quem escreveu a série de livros “Percy Jackson e os Olimpianos”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://rickriordan.com/about/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Books",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 379,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:arts-literature:e6530c80a4dc6238",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "George Eliot"
+        },
+        {
+          "id": "option-1",
+          "text": "George Orwell"
+        },
+        {
+          "id": "option-2",
+          "text": "George Bernard Shaw"
+        },
+        {
+          "id": "option-3",
+          "text": "George Saunders"
+        }
+      ],
+      "prompt": "Qual pseudônimo literário foi usado pela escritora Mary Ann Evans?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.penguin.co.uk/authors/9384/george-eliot",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Books",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 549,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:arts-literature:f35f431c58ce7f10",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Herman Melville"
+        },
+        {
+          "id": "option-1",
+          "text": "William Golding"
+        },
+        {
+          "id": "option-2",
+          "text": "William Shakespeare"
+        },
+        {
+          "id": "option-3",
+          "text": "J. R. R. Tolkien"
+        }
+      ],
+      "prompt": "Quem escreveu o romance “Moby-Dick”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.gutenberg.org/ebooks/2701",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Books",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 129,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:film:62fd303a28ea4425",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Jack Black"
+        },
+        {
+          "id": "option-1",
+          "text": "Ben Stiller"
+        },
+        {
+          "id": "option-2",
+          "text": "Jim Carrey"
+        },
+        {
+          "id": "option-3",
+          "text": "Mike Myers"
+        }
+      ],
+      "prompt": "Quem dá voz a Po na versão original em inglês de “Kung Fu Panda”, de 2008?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://prod.dreamworks.com/movies/kung-fu-panda",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 149,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:film:7633fc46df7c8528",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Rope"
+        },
+        {
+          "id": "option-1",
+          "text": "Psicose"
+        },
+        {
+          "id": "option-2",
+          "text": "Um Corpo que Cai"
+        },
+        {
+          "id": "option-3",
+          "text": "Rebecca"
+        }
+      ],
+      "prompt": "Qual foi o primeiro filme de Alfred Hitchcock rodado em cores?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://catalog.afi.com/Film/25703-ROPE",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 208,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:film:7e36a04efdcdbcaf",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "George Lucas"
+        },
+        {
+          "id": "option-1",
+          "text": "Ron Howard"
+        },
+        {
+          "id": "option-2",
+          "text": "Francis Ford Coppola"
+        },
+        {
+          "id": "option-3",
+          "text": "Steven Spielberg"
+        }
+      ],
+      "prompt": "Quem dirigiu o filme “American Graffiti”, lançado em 1973?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.lucasfilm.com/productions/american-graffiti/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 276,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:film:7fdc1fbd47ef66f0",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Shirley Bassey"
+        },
+        {
+          "id": "option-1",
+          "text": "Tom Jones"
+        },
+        {
+          "id": "option-2",
+          "text": "John Barry"
+        },
+        {
+          "id": "option-3",
+          "text": "Sheena Easton"
+        }
+      ],
+      "prompt": "Quem interpreta a canção-título do filme “Goldfinger”, de 1964?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.007.com/goldfinger-remastered-soundtrack-announced/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 152,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:film:84e2fa3f3e5822e8",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Aristogatas"
+        },
+        {
+          "id": "option-1",
+          "text": "101 Dálmatas"
+        },
+        {
+          "id": "option-2",
+          "text": "O Cão e a Raposa"
+        },
+        {
+          "id": "option-3",
+          "text": "A Pequena Sereia"
+        }
+      ],
+      "prompt": "Qual destas animações da Disney foi lançada originalmente em 1970?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://movies.disney.com/the-aristocats",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 92,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:film:c3b9e9cf3bc2f3d2",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Tom Cruise"
+        },
+        {
+          "id": "option-1",
+          "text": "Johnny Depp"
+        },
+        {
+          "id": "option-2",
+          "text": "Sean Connery"
+        },
+        {
+          "id": "option-3",
+          "text": "Pierce Brosnan"
+        }
+      ],
+      "prompt": "Quem interpreta Ethan Hunt no filme “Missão: Impossível”, de 1996?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.paramountpictures.com/movies/mission-impossible",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 180,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:geography:1050e9a90627e5b0",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Nepal"
+        },
+        {
+          "id": "option-1",
+          "text": "Panamá"
+        },
+        {
+          "id": "option-2",
+          "text": "Angola"
+        },
+        {
+          "id": "option-3",
+          "text": "Egito"
+        }
+      ],
+      "prompt": "Qual país tem uma bandeira nacional formada por dois triângulos sobrepostos, em vez de um retângulo?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://tile.loc.gov/storage-services/master/frd/copr/Nepal.pdf",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 203,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:geography:361b02bb23253e96",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Nova Délhi"
+        },
+        {
+          "id": "option-1",
+          "text": "Pequim"
+        },
+        {
+          "id": "option-2",
+          "text": "Ottawa"
+        },
+        {
+          "id": "option-3",
+          "text": "Bangcoc"
+        }
+      ],
+      "prompt": "Qual é a capital da Índia?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.delhitourism.gov.in/aboutus/history_of_delhi.html",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 40,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:geography:3dbddf13bcbdc604",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Noruega"
+        },
+        {
+          "id": "option-1",
+          "text": "Dinamarca"
+        },
+        {
+          "id": "option-2",
+          "text": "Islândia"
+        },
+        {
+          "id": "option-3",
+          "text": "Rússia"
+        }
+      ],
+      "prompt": "O arquipélago de Svalbard integra o território de qual país?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.regjeringen.no/en/documents/meld.-st.-26-20232024/id3041130/?ch=1",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 217,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:geography:784eb19b40571174",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "4"
+        },
+        {
+          "id": "option-1",
+          "text": "3"
+        },
+        {
+          "id": "option-2",
+          "text": "1"
+        },
+        {
+          "id": "option-3",
+          "text": "6"
+        }
+      ],
+      "prompt": "Com quantos países o Quirguistão faz fronteira terrestre?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://documents1.worldbank.org/curated/en/099042225132517162/pdf/P181459-c79f4710-5ecc-4caa-b14f-d9314f09ecf8.pdf",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 214,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:geography:c23b4577aeba3d66",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Lesoto"
+        },
+        {
+          "id": "option-1",
+          "text": "Essuatíni"
+        },
+        {
+          "id": "option-2",
+          "text": "Botsuana"
+        },
+        {
+          "id": "option-3",
+          "text": "Zimbábue"
+        }
+      ],
+      "prompt": "Qual país tem todo o seu território cercado pela África do Sul?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://lvac.gov.ls/data/nationalContext",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 114,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:geography:fa6b5f95b4ca4223",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Europa"
+        },
+        {
+          "id": "option-1",
+          "text": "América do Norte"
+        },
+        {
+          "id": "option-2",
+          "text": "Ásia"
+        },
+        {
+          "id": "option-3",
+          "text": "África"
+        }
+      ],
+      "prompt": "Em qual continente ficam os Alpes?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.alpconv.org/en/home/convention/framework-convention",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 330,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:history:201f471bc7ba4f0f",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1º de outubro de 1949"
+        },
+        {
+          "id": "option-1",
+          "text": "3 de abril de 1947"
+        },
+        {
+          "id": "option-2",
+          "text": "7 de maio de 1945"
+        },
+        {
+          "id": "option-3",
+          "text": "6 de dezembro de 1950"
+        }
+      ],
+      "prompt": "Em que data foi fundada a República Popular da China?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://english.scio.gov.cn/chinafacts/2017-04/14/content_40621714.htm",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 269,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:history:417b856ea06f4adf",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1975"
+        },
+        {
+          "id": "option-1",
+          "text": "1978"
+        },
+        {
+          "id": "option-2",
+          "text": "1967"
+        },
+        {
+          "id": "option-3",
+          "text": "1969"
+        }
+      ],
+      "prompt": "Em que ano a queda de Saigon marcou o fim da Guerra do Vietnã?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://history.state.gov/milestones/1969-1976/ending-vietnam",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 315,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:history:455bfcd1a970d3f2",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Tudor"
+        },
+        {
+          "id": "option-1",
+          "text": "York"
+        },
+        {
+          "id": "option-2",
+          "text": "Stuart"
+        },
+        {
+          "id": "option-3",
+          "text": "Lancaster"
+        }
+      ],
+      "prompt": "Henrique VIII foi o segundo monarca inglês de qual dinastia?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.hrp.org.uk/blog/st-george-and-the-tudors/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 375,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:history:53bac2772e222b25",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Casa Branca"
+        },
+        {
+          "id": "option-1",
+          "text": "Palácio de Westminster"
+        },
+        {
+          "id": "option-2",
+          "text": "Palácio do Eliseu"
+        },
+        {
+          "id": "option-3",
+          "text": "Palácio de Buckingham"
+        }
+      ],
+      "prompt": "Qual residência presidencial dos Estados Unidos foi incendiada por tropas britânicas em 24 de agosto de 1814?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.whitehousehistory.org/rebuilding-the-white-house-and-u-s-capitol",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 211,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:history:ab43712ebf73d23b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "1980"
+        },
+        {
+          "id": "option-1",
+          "text": "1950"
+        },
+        {
+          "id": "option-2",
+          "text": "1920"
+        },
+        {
+          "id": "option-3",
+          "text": "1880"
+        }
+      ],
+      "prompt": "Em que ano “O Canada” se tornou oficialmente o hino nacional do Canadá?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.canada.ca/en/canadian-heritage/services/anthem-canada/history-o-canada.html",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 165,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:history:c20b16295e2ea0d6",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Vespasiano"
+        },
+        {
+          "id": "option-1",
+          "text": "Vitélio"
+        },
+        {
+          "id": "option-2",
+          "text": "Otão"
+        },
+        {
+          "id": "option-3",
+          "text": "Galba"
+        }
+      ],
+      "prompt": "Qual destes imperadores romanos iniciou seu governo em 69 d.C. e governou até 79 d.C.?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.metmuseum.org/ko/essays/the-flavian-dynasty-69-96",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 12,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:science-nature:188528a2e615afa5",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Marte e Júpiter"
+        },
+        {
+          "id": "option-1",
+          "text": "Júpiter e Saturno"
+        },
+        {
+          "id": "option-2",
+          "text": "Mercúrio e Vênus"
+        },
+        {
+          "id": "option-3",
+          "text": "Terra e Marte"
+        }
+      ],
+      "prompt": "O cinturão principal de asteroides do Sistema Solar fica entre as órbitas de quais planetas?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/solar-system/asteroids/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 474,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:science-nature:23e242a42db5e2c8",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Ervilheiras"
+        },
+        {
+          "id": "option-1",
+          "text": "Roseiras"
+        },
+        {
+          "id": "option-2",
+          "text": "Macieiras"
+        },
+        {
+          "id": "option-3",
+          "text": "Samambaias"
+        }
+      ],
+      "prompt": "Com quais plantas Gregor Mendel realizou seus experimentos clássicos sobre hereditariedade?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.genome.gov/25520230/online-education-kit-1865-mendels-peas",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 122,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:science-nature:388c5ec6bb748075",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Polaris"
+        },
+        {
+          "id": "option-1",
+          "text": "Sirius"
+        },
+        {
+          "id": "option-2",
+          "text": "Vega"
+        },
+        {
+          "id": "option-3",
+          "text": "Betelgeuse"
+        }
+      ],
+      "prompt": "Qual estrela é conhecida como Estrela do Norte por estar próxima do polo norte celeste?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/image-article/apod-1999-october-06-polaris-the-north-star/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 67,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:science-nature:65cd2e1b12103f7b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Pierre e Marie Curie"
+        },
+        {
+          "id": "option-1",
+          "text": "Irène e Frédéric Joliot-Curie"
+        },
+        {
+          "id": "option-2",
+          "text": "Ernest Rutherford e Frederick Soddy"
+        },
+        {
+          "id": "option-3",
+          "text": "Niels e Aage Bohr"
+        }
+      ],
+      "prompt": "O elemento químico cúrio recebeu seu nome em homenagem a quais cientistas?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://periodic-table.rsc.org/element/96/curium",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 296,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:science-nature:ba8a09b694136cd7",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Talco"
+        },
+        {
+          "id": "option-1",
+          "text": "Quartzo"
+        },
+        {
+          "id": "option-2",
+          "text": "Diamante"
+        },
+        {
+          "id": "option-3",
+          "text": "Gipsita"
+        }
+      ],
+      "prompt": "Qual mineral ocupa o grau 1, o menor, na escala de dureza de Mohs?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://volcano.wr.usgs.gov/volcanic_ash/density_hardness.html",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 133,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:science-nature:dd8aea219918db6b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Candela"
+        },
+        {
+          "id": "option-1",
+          "text": "Lúmen"
+        },
+        {
+          "id": "option-2",
+          "text": "Lux"
+        },
+        {
+          "id": "option-3",
+          "text": "Coulomb"
+        }
+      ],
+      "prompt": "Qual é a unidade de base de intensidade luminosa no Sistema Internacional de Unidades?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.bipm.org/en/si-base-units/candela",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 106,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:sports:04210825f84dd9d9",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Ding Ning"
+        },
+        {
+          "id": "option-1",
+          "text": "Li Xiaoxia"
+        },
+        {
+          "id": "option-2",
+          "text": "Ai Fukuhara"
+        },
+        {
+          "id": "option-3",
+          "text": "Kim Song-i"
+        }
+      ],
+      "prompt": "Quem conquistou o ouro no tênis de mesa individual feminino nos Jogos Olímpicos do Rio de 2016?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.ittf.com/2016/08/11/press-release-ding-ning-rio-2016-olympic-champion/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 101,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:sports:36707b3b4487d20d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Eagle"
+        },
+        {
+          "id": "option-1",
+          "text": "Birdie"
+        },
+        {
+          "id": "option-2",
+          "text": "Bogey"
+        },
+        {
+          "id": "option-3",
+          "text": "Albatross"
+        }
+      ],
+      "prompt": "No golfe, como se chama completar um buraco com duas tacadas abaixo do par?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.usga.org/content/usga/home-page/history/faq--golf-history-questions-232994f0.html",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 45,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:sports:4e4f00200b137b26",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Hammer"
+        },
+        {
+          "id": "option-1",
+          "text": "Wrench"
+        },
+        {
+          "id": "option-2",
+          "text": "Drill"
+        },
+        {
+          "id": "option-3",
+          "text": "Screwdriver"
+        }
+      ],
+      "prompt": "No curling, qual termo em inglês designa a vantagem de lançar a última pedra de um end?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://worldcurling.org/wp-content/uploads/2024/08/Rule-2024_Change-log_01082024.pdf",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 791,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:sports:8d771849c6bb6f0f",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Ma Long"
+        },
+        {
+          "id": "option-1",
+          "text": "Zhang Jike"
+        },
+        {
+          "id": "option-2",
+          "text": "Jun Mizutani"
+        },
+        {
+          "id": "option-3",
+          "text": "Vladimir Samsonov"
+        }
+      ],
+      "prompt": "Quem conquistou o ouro no tênis de mesa individual masculino nos Jogos Olímpicos do Rio de 2016?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.ittf.com/2016/08/12/mission-accomplished-ma-long-simply-awesome/?from=11",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 749,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:sports:d8eccca3cd6e3c8a",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Tênis"
+        },
+        {
+          "id": "option-1",
+          "text": "Críquete"
+        },
+        {
+          "id": "option-2",
+          "text": "Basquete"
+        },
+        {
+          "id": "option-3",
+          "text": "Curling"
+        }
+      ],
+      "prompt": "Em qual esporte os termos “love”, “deuce” e “volley” fazem parte do vocabulário tradicional em inglês?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.itftennis.com/en/about-us/organisation/tennis-glossary/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 460,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:sports:f62e5ed2e981d12b",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Dale Earnhardt"
+        },
+        {
+          "id": "option-1",
+          "text": "John Andretti"
+        },
+        {
+          "id": "option-2",
+          "text": "Jeff Gordon"
+        },
+        {
+          "id": "option-3",
+          "text": "Michael Waltrip"
+        }
+      ],
+      "prompt": "Quem venceu as 500 Milhas de Daytona da NASCAR em 1998?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nascar.com/news-media/2023/08/17/the-75-greatest-races-in-nascar-history/",
+        "reviewedAt": "2026-10-22"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 436,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
     {
       "category": "arts-literature",
       "correctOptionId": "option-0",
@@ -12945,6 +14529,14 @@
   ],
   "schemaVersion": 1,
   "sources": [
+    {
+      "id": "opentdb",
+      "license": "CC-BY-SA-4.0",
+      "licenseSha256": "31b7703bd28ab4d3e7ac6630a1f5da6009607a663a2d66792947990459930d41",
+      "licenseText": "Open Trivia DB — conteúdo de perguntas e respostas\nFonte: https://opentdb.com/\nDocumentação e declaração de licença: https://opentdb.com/api_config.php\n\nOs dados fornecidos pela API são disponibilizados sob a licença\nCreative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).\n\nLicença: https://creativecommons.org/licenses/by-sa/4.0/\nTexto integral: https://creativecommons.org/licenses/by-sa/4.0/legalcode\n\nAdaptações desta coleta: decodificação de caracteres, organização por temas,\nnormalização do formato e remoção de duplicatas. Os registros originais em inglês\nainda precisam de tradução e revisão para uso no PENSHOW.\n\nPreservar a atribuição à fonte, informar alterações e distribuir adaptações\ndestes dados sob a mesma licença, conforme os termos indicados acima.\n",
+      "title": "Open Trivia DB",
+      "url": "https://opentdb.com/"
+    },
     {
       "id": "questionados",
       "license": "MIT",

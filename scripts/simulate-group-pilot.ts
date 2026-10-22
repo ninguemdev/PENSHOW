@@ -16,7 +16,8 @@ import {
 const args = process.argv.slice(2);
 if (args.some((arg) => arg !== '--check') || args.length > 1)
   throw new Error('Use pilot:simulate [--check].');
-const catalogFile = new URL('../data/questions/published/catalog.json', import.meta.url);
+// The T32 observations used this exact catalog; T33 audits the current publication separately.
+const catalogFile = new URL('../data/editorial-baselines/t27-catalog.json', import.meta.url);
 const target = new URL('../data/publication-reports/t32-group-pilot.json', import.meta.url);
 const catalog = publishedCatalogSchema.parse(JSON.parse(await readFile(catalogFile, 'utf8')));
 const repository = new LocalQuestionRepository(catalogFile);

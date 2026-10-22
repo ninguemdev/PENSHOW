@@ -1,0 +1,3186 @@
+{
+  "schemaVersion": 1,
+  "id": "t33-001",
+  "sequence": 1,
+  "reviewedAt": "2026-10-22",
+  "comparisonCatalogSha256": "3636e71bbf3ac19789414b1963a09d628ef3d0c957790f6ca83f3769496b826d",
+  "method": "Tradução e revisão assistidas por IA, por registro, com consulta ao conteúdo acessível ou indexado das referências. Sem revisão humana independente e sem calibração de dificuldade com jogadores.",
+  "records": [
+    {
+      "original": {
+        "id": "opentdb:arts-literature:f35f431c58ce7f10",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who wrote the novel \"Moby-Dick\"?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Herman Melville"
+          },
+          {
+            "id": "option-1",
+            "text": "William Golding"
+          },
+          {
+            "id": "option-2",
+            "text": "William Shakespeare"
+          },
+          {
+            "id": "option-3",
+            "text": "J. R. R. Tolkien"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 129,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:f35f431c58ce7f10",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem escreveu o romance “Moby-Dick”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Herman Melville"
+          },
+          {
+            "id": "option-1",
+            "text": "William Golding"
+          },
+          {
+            "id": "option-2",
+            "text": "William Shakespeare"
+          },
+          {
+            "id": "option-3",
+            "text": "J. R. R. Tolkien"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 129,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.gutenberg.org/ebooks/2701",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "moby-dick-author",
+      "note": "Autoria conferida no texto catalogado; dificuldade ajustada ao reconhecimento literário, sem afirmar calibração com jogadores.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:2acc74c5d074bd3e",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who wrote \"A Tale of Two Cities\"?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Charles Dickens"
+          },
+          {
+            "id": "option-1",
+            "text": "Charles Darwin"
+          },
+          {
+            "id": "option-2",
+            "text": "Mark Twain"
+          },
+          {
+            "id": "option-3",
+            "text": "Roald Dahl"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 273,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:2acc74c5d074bd3e",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem escreveu “Um Conto de Duas Cidades”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Charles Dickens"
+          },
+          {
+            "id": "option-1",
+            "text": "Charles Darwin"
+          },
+          {
+            "id": "option-2",
+            "text": "Mark Twain"
+          },
+          {
+            "id": "option-3",
+            "text": "Roald Dahl"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 273,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.gutenberg.org/ebooks/98",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "a-tale-of-two-cities-author",
+      "note": "Autoria conferida; título em português também conferido no blog da editora Companhia das Letras, postagem 4500.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:b5abc1e031e8810d",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What is the name of the author of book series 'Percy Jackson'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Rick Riordan"
+          },
+          {
+            "id": "option-1",
+            "text": "J.K. Rowling"
+          },
+          {
+            "id": "option-2",
+            "text": "Sandra Bullock "
+          },
+          {
+            "id": "option-3",
+            "text": "Roald Dahl"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 379,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:b5abc1e031e8810d",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem escreveu a série de livros “Percy Jackson e os Olimpianos”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Rick Riordan"
+          },
+          {
+            "id": "option-1",
+            "text": "J. K. Rowling"
+          },
+          {
+            "id": "option-2",
+            "text": "Suzanne Collins"
+          },
+          {
+            "id": "option-3",
+            "text": "Roald Dahl"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 379,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://rickriordan.com/about/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "percy-jackson-author",
+      "note": "Autoria conferida no site do escritor; distrator que era uma atriz substituído por uma escritora.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:e6530c80a4dc6238",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What was the pen name of novelist, Mary Ann Evans?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "George Eliot"
+          },
+          {
+            "id": "option-1",
+            "text": "George Orwell"
+          },
+          {
+            "id": "option-2",
+            "text": "George Bernard Shaw"
+          },
+          {
+            "id": "option-3",
+            "text": "George Saunders"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 549,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:e6530c80a4dc6238",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual pseudônimo literário foi usado pela escritora Mary Ann Evans?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "George Eliot"
+          },
+          {
+            "id": "option-1",
+            "text": "George Orwell"
+          },
+          {
+            "id": "option-2",
+            "text": "George Bernard Shaw"
+          },
+          {
+            "id": "option-3",
+            "text": "George Saunders"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 549,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.penguin.co.uk/authors/9384/george-eliot",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "mary-ann-evans-pen-name",
+      "note": "Nome e pseudônimo conferidos no catálogo da editora.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:12efedfc3c73f5ae",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which fictional English county was the setting for Thomas Hardy's novels?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Wessex"
+          },
+          {
+            "id": "option-1",
+            "text": "Barsetshire"
+          },
+          {
+            "id": "option-2",
+            "text": "Fulchester"
+          },
+          {
+            "id": "option-3",
+            "text": "Ambridge"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 102,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:12efedfc3c73f5ae",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Como se chama a região imaginária do sul da Inglaterra que serve de cenário a romances de Thomas Hardy?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Wessex"
+          },
+          {
+            "id": "option-1",
+            "text": "Barsetshire"
+          },
+          {
+            "id": "option-2",
+            "text": "Fulchester"
+          },
+          {
+            "id": "option-3",
+            "text": "Ambridge"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 102,
+          "category": "Entertainment: Books",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.nationaltrust.org.uk/discover/history/people/where-is-thomas-hardys-wessex",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "thomas-hardy-fictional-region",
+      "note": "Corrigido county para região: o Wessex literário não é um único condado.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:4d31c63e2e9217c1",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1502"
+          },
+          {
+            "id": "option-1",
+            "text": "1702"
+          },
+          {
+            "id": "option-2",
+            "text": "1402"
+          },
+          {
+            "id": "option-3",
+            "text": "1602"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 567,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:4d31c63e2e9217c1",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que ano Albrecht Dürer criou “Young Hare”, estudo de uma lebre hoje no acervo da Albertina?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1502"
+          },
+          {
+            "id": "option-1",
+            "text": "1702"
+          },
+          {
+            "id": "option-2",
+            "text": "1402"
+          },
+          {
+            "id": "option-3",
+            "text": "1602"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 567,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://sammlungenonline.albertina.at/de/objects/39222/feldhase",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "durer-young-hare-year",
+      "note": "Data conferida no registro do museu; preservado o título em inglês da fonte e acrescentada identificação em português.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:361b02bb23253e96",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What is the capital of India?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "New Delhi"
+          },
+          {
+            "id": "option-1",
+            "text": "Beijing"
+          },
+          {
+            "id": "option-2",
+            "text": "Montreal"
+          },
+          {
+            "id": "option-3",
+            "text": "Tithi"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 40,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:361b02bb23253e96",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é a capital da Índia?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Nova Délhi"
+          },
+          {
+            "id": "option-1",
+            "text": "Pequim"
+          },
+          {
+            "id": "option-2",
+            "text": "Ottawa"
+          },
+          {
+            "id": "option-3",
+            "text": "Bangcoc"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 40,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.delhitourism.gov.in/aboutus/history_of_delhi.html",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "india-capital",
+      "note": "Capital conferida no turismo oficial; distratores adaptados para capitais reconhecíveis.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:fa6b5f95b4ca4223",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "The Alps are a mountain range on which continent?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Europe"
+          },
+          {
+            "id": "option-1",
+            "text": "North America"
+          },
+          {
+            "id": "option-2",
+            "text": "Asia"
+          },
+          {
+            "id": "option-3",
+            "text": "Africa"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 330,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:fa6b5f95b4ca4223",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em qual continente ficam os Alpes?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Europa"
+          },
+          {
+            "id": "option-1",
+            "text": "América do Norte"
+          },
+          {
+            "id": "option-2",
+            "text": "Ásia"
+          },
+          {
+            "id": "option-3",
+            "text": "África"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 330,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.alpconv.org/en/home/convention/framework-convention",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "alps-continent",
+      "note": "Localização conferida no preâmbulo da Convenção Alpina.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:c23b4577aeba3d66",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which country is completely landlocked by South Africa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Lesotho"
+          },
+          {
+            "id": "option-1",
+            "text": "Swaziland"
+          },
+          {
+            "id": "option-2",
+            "text": "Botswana"
+          },
+          {
+            "id": "option-3",
+            "text": "Zimbabwe"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 114,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:c23b4577aeba3d66",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual país tem todo o seu território cercado pela África do Sul?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Lesoto"
+          },
+          {
+            "id": "option-1",
+            "text": "Essuatíni"
+          },
+          {
+            "id": "option-2",
+            "text": "Botsuana"
+          },
+          {
+            "id": "option-3",
+            "text": "Zimbábue"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 114,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://lvac.gov.ls/data/nationalContext",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "lesotho-enclave",
+      "note": "Enclave conferido no órgão oficial; atualizado Swaziland para Essuatíni e ajustada a dificuldade.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:1050e9a90627e5b0",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What is the only country in the world with a flag that doesn't have four right angles?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Nepal"
+          },
+          {
+            "id": "option-1",
+            "text": "Panama"
+          },
+          {
+            "id": "option-2",
+            "text": "Angola"
+          },
+          {
+            "id": "option-3",
+            "text": "Egypt"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 203,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:1050e9a90627e5b0",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual país tem uma bandeira nacional formada por dois triângulos sobrepostos, em vez de um retângulo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Nepal"
+          },
+          {
+            "id": "option-1",
+            "text": "Panamá"
+          },
+          {
+            "id": "option-2",
+            "text": "Angola"
+          },
+          {
+            "id": "option-3",
+            "text": "Egito"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 203,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://tile.loc.gov/storage-services/master/frd/copr/Nepal.pdf",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "nepal-flag-shape",
+      "note": "Substituído critério impreciso dos quatro ângulos retos pela forma da bandeira documentada na Library of Congress.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:784eb19b40571174",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "How many countries border Kyrgyzstan?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "4"
+          },
+          {
+            "id": "option-1",
+            "text": "3"
+          },
+          {
+            "id": "option-2",
+            "text": "1"
+          },
+          {
+            "id": "option-3",
+            "text": "6"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 214,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:784eb19b40571174",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Com quantos países o Quirguistão faz fronteira terrestre?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "4"
+          },
+          {
+            "id": "option-1",
+            "text": "3"
+          },
+          {
+            "id": "option-2",
+            "text": "1"
+          },
+          {
+            "id": "option-3",
+            "text": "6"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 214,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://documents1.worldbank.org/curated/en/099042225132517162/pdf/P181459-c79f4710-5ecc-4caa-b14f-d9314f09ecf8.pdf",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "kyrgyzstan-land-neighbours-count",
+      "note": "Conferidos os quatro vizinhos: Cazaquistão, Uzbequistão, Tajiquistão e China.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:3dbddf13bcbdc604",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "The Svalbard Archipelago is a dependency of which country?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Norway"
+          },
+          {
+            "id": "option-1",
+            "text": "Denmark"
+          },
+          {
+            "id": "option-2",
+            "text": "Iceland"
+          },
+          {
+            "id": "option-3",
+            "text": "Russia"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 217,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:3dbddf13bcbdc604",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "O arquipélago de Svalbard integra o território de qual país?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Noruega"
+          },
+          {
+            "id": "option-1",
+            "text": "Dinamarca"
+          },
+          {
+            "id": "option-2",
+            "text": "Islândia"
+          },
+          {
+            "id": "option-3",
+            "text": "Rússia"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 217,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.regjeringen.no/en/documents/meld.-st.-26-20232024/id3041130/?ch=1",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "svalbard-sovereignty",
+      "note": "Corrigido dependency para parte do Reino da Noruega, conforme documento governamental.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:455bfcd1a970d3f2",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "King Henry VIII was the second monarch of which European royal house?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tudor"
+          },
+          {
+            "id": "option-1",
+            "text": "York"
+          },
+          {
+            "id": "option-2",
+            "text": "Stuart"
+          },
+          {
+            "id": "option-3",
+            "text": "Lancaster"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 375,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:455bfcd1a970d3f2",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Henrique VIII foi o segundo monarca inglês de qual dinastia?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tudor"
+          },
+          {
+            "id": "option-1",
+            "text": "York"
+          },
+          {
+            "id": "option-2",
+            "text": "Stuart"
+          },
+          {
+            "id": "option-3",
+            "text": "Lancaster"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 375,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.hrp.org.uk/blog/st-george-and-the-tudors/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "henry-viii-dynasty",
+      "note": "Conferido segundo rei Tudor no órgão responsável pelos palácios reais.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:417b856ea06f4adf",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What year did the Vietnam War end?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1975"
+          },
+          {
+            "id": "option-1",
+            "text": "1978"
+          },
+          {
+            "id": "option-2",
+            "text": "1967"
+          },
+          {
+            "id": "option-3",
+            "text": "1969"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 315,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:417b856ea06f4adf",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que ano a queda de Saigon marcou o fim da Guerra do Vietnã?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1975"
+          },
+          {
+            "id": "option-1",
+            "text": "1978"
+          },
+          {
+            "id": "option-2",
+            "text": "1967"
+          },
+          {
+            "id": "option-3",
+            "text": "1969"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 315,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://history.state.gov/milestones/1969-1976/ending-vietnam",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "vietnam-war-end-year",
+      "note": "Evento delimitado para distinguir o fim da guerra da retirada norte-americana de 1973.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:201f471bc7ba4f0f",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "When was the People's Republic of China founded?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "October 1, 1949"
+          },
+          {
+            "id": "option-1",
+            "text": "April 3, 1947"
+          },
+          {
+            "id": "option-2",
+            "text": "May 7, 1945"
+          },
+          {
+            "id": "option-3",
+            "text": "December 6, 1950"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 269,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:201f471bc7ba4f0f",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que data foi fundada a República Popular da China?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1º de outubro de 1949"
+          },
+          {
+            "id": "option-1",
+            "text": "3 de abril de 1947"
+          },
+          {
+            "id": "option-2",
+            "text": "7 de maio de 1945"
+          },
+          {
+            "id": "option-3",
+            "text": "6 de dezembro de 1950"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 269,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://english.scio.gov.cn/chinafacts/2017-04/14/content_40621714.htm",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "peoples-republic-of-china-founding-date",
+      "note": "Data conferida no órgão de informação do governo chinês; distinção explícita da República da China.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:ab43712ebf73d23b",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "When did O, Canada officially become the national anthem?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1980"
+          },
+          {
+            "id": "option-1",
+            "text": "1950"
+          },
+          {
+            "id": "option-2",
+            "text": "1920"
+          },
+          {
+            "id": "option-3",
+            "text": "1880"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 165,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:ab43712ebf73d23b",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que ano “O Canada” se tornou oficialmente o hino nacional do Canadá?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "1980"
+          },
+          {
+            "id": "option-1",
+            "text": "1950"
+          },
+          {
+            "id": "option-2",
+            "text": "1920"
+          },
+          {
+            "id": "option-3",
+            "text": "1880"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 165,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.canada.ca/en/canadian-heritage/services/anthem-canada/history-o-canada.html",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "o-canada-official-year",
+      "note": "Distinguida a oficialização em 1980 da primeira apresentação em 1880.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:c20b16295e2ea0d6",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Vespasian"
+          },
+          {
+            "id": "option-1",
+            "text": "Vitellius"
+          },
+          {
+            "id": "option-2",
+            "text": "Otho"
+          },
+          {
+            "id": "option-3",
+            "text": "Galba"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 12,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:c20b16295e2ea0d6",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual destes imperadores romanos iniciou seu governo em 69 d.C. e governou até 79 d.C.?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Vespasiano"
+          },
+          {
+            "id": "option-1",
+            "text": "Vitélio"
+          },
+          {
+            "id": "option-2",
+            "text": "Otão"
+          },
+          {
+            "id": "option-3",
+            "text": "Galba"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 12,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.metmuseum.org/ko/essays/the-flavian-dynasty-69-96",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "vespasian-reign-period",
+      "note": "Cronologia 69–79 conferida no Metropolitan; recorte torna inequívoco o último dos quatro imperadores de 69.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:53bac2772e222b25",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which building was set aflame on August 24th, 1812?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "The White House"
+          },
+          {
+            "id": "option-1",
+            "text": "Parliament Building"
+          },
+          {
+            "id": "option-2",
+            "text": "Grand National Assembly Building"
+          },
+          {
+            "id": "option-3",
+            "text": "Palace of the Nation"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 211,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:53bac2772e222b25",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual residência presidencial dos Estados Unidos foi incendiada por tropas britânicas em 24 de agosto de 1814?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Casa Branca"
+          },
+          {
+            "id": "option-1",
+            "text": "Palácio de Westminster"
+          },
+          {
+            "id": "option-2",
+            "text": "Palácio do Eliseu"
+          },
+          {
+            "id": "option-3",
+            "text": "Palácio de Buckingham"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 211,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.whitehousehistory.org/rebuilding-the-white-house-and-u-s-capitol",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "white-house-burning-1814",
+      "note": "Ano original 1812 corrigido para 1814; enunciado especifica residência presidencial, pois outros edifícios também foram incendiados.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:62fd303a28ea4425",
+        "category": "film",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who plays the character of Po in the Kung Fu Panda movies?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Jack Black"
+          },
+          {
+            "id": "option-1",
+            "text": "Mirana Jonnes"
+          },
+          {
+            "id": "option-2",
+            "text": "McConahey Ramses"
+          },
+          {
+            "id": "option-3",
+            "text": "Jim Petersson"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 149,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:62fd303a28ea4425",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem dá voz a Po na versão original em inglês de “Kung Fu Panda”, de 2008?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Jack Black"
+          },
+          {
+            "id": "option-1",
+            "text": "Ben Stiller"
+          },
+          {
+            "id": "option-2",
+            "text": "Jim Carrey"
+          },
+          {
+            "id": "option-3",
+            "text": "Mike Myers"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 149,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://prod.dreamworks.com/movies/kung-fu-panda",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "kung-fu-panda-2008-po-original-voice",
+      "note": "Versão e ano delimitados para não confundir com dublagem brasileira; nomes malformados dos distratores substituídos.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:c3b9e9cf3bc2f3d2",
+        "category": "film",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who plays protagonist Ethan Hunt in the \"Mission: Impossible\" film-series?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tom Cruise"
+          },
+          {
+            "id": "option-1",
+            "text": "Johnny Depp"
+          },
+          {
+            "id": "option-2",
+            "text": "Sean Connery"
+          },
+          {
+            "id": "option-3",
+            "text": "Pierce Brosnan"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 180,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:c3b9e9cf3bc2f3d2",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem interpreta Ethan Hunt no filme “Missão: Impossível”, de 1996?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tom Cruise"
+          },
+          {
+            "id": "option-1",
+            "text": "Johnny Depp"
+          },
+          {
+            "id": "option-2",
+            "text": "Sean Connery"
+          },
+          {
+            "id": "option-3",
+            "text": "Pierce Brosnan"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 180,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.paramountpictures.com/movies/mission-impossible",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "mission-impossible-1996-ethan-hunt-actor",
+      "note": "Papel conferido nos créditos oficiais; recorte no primeiro filme evita mudanças futuras na franquia.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:84e2fa3f3e5822e8",
+        "category": "film",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which of these Disney classics was released in 1970?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "The Aristocats"
+          },
+          {
+            "id": "option-1",
+            "text": "One Hundred and One Dalmatians"
+          },
+          {
+            "id": "option-2",
+            "text": "The Fox and the Hound"
+          },
+          {
+            "id": "option-3",
+            "text": "The Little Mermaid"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 92,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:84e2fa3f3e5822e8",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual destas animações da Disney foi lançada originalmente em 1970?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Aristogatas"
+          },
+          {
+            "id": "option-1",
+            "text": "101 Dálmatas"
+          },
+          {
+            "id": "option-2",
+            "text": "O Cão e a Raposa"
+          },
+          {
+            "id": "option-3",
+            "text": "A Pequena Sereia"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 92,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://movies.disney.com/the-aristocats",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "aristocats-original-release-year",
+      "note": "Lançamento original delimitado; título brasileiro conferido em artigo da Disney Brasil sobre filmes com gatos.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:7e36a04efdcdbcaf",
+        "category": "film",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who directed the 1973 film \"American Graffiti\"?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "George Lucas"
+          },
+          {
+            "id": "option-1",
+            "text": "Ron Howard"
+          },
+          {
+            "id": "option-2",
+            "text": "Francis Ford Coppola"
+          },
+          {
+            "id": "option-3",
+            "text": "Steven Spielberg"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 276,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:7e36a04efdcdbcaf",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem dirigiu o filme “American Graffiti”, lançado em 1973?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "George Lucas"
+          },
+          {
+            "id": "option-1",
+            "text": "Ron Howard"
+          },
+          {
+            "id": "option-2",
+            "text": "Francis Ford Coppola"
+          },
+          {
+            "id": "option-3",
+            "text": "Steven Spielberg"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 276,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.lucasfilm.com/productions/american-graffiti/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "american-graffiti-director",
+      "note": "Diretor e ano conferidos na produtora; não confundido com o papel de ator de Ron Howard.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:7633fc46df7c8528",
+        "category": "film",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which was the first of Alfred Hitchcock's movies to be filmed in colour?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Rope"
+          },
+          {
+            "id": "option-1",
+            "text": "Psycho"
+          },
+          {
+            "id": "option-2",
+            "text": "Vertigo"
+          },
+          {
+            "id": "option-3",
+            "text": "Rebecca"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 208,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:7633fc46df7c8528",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual foi o primeiro filme de Alfred Hitchcock rodado em cores?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Rope"
+          },
+          {
+            "id": "option-1",
+            "text": "Psicose"
+          },
+          {
+            "id": "option-2",
+            "text": "Um Corpo que Cai"
+          },
+          {
+            "id": "option-3",
+            "text": "Rebecca"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 208,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://catalog.afi.com/Film/25703-ROPE",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "hitchcock-first-colour-film",
+      "note": "Primeiro uso de Technicolor conferido na ficha AFI; Rope identificado como filme de 1948 na referência.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:7fdc1fbd47ef66f0",
+        "category": "film",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who performed the opening theme song for the James Bond 007 movie \"Goldfinger\"?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Shirley Basey"
+          },
+          {
+            "id": "option-1",
+            "text": "Tom Jones"
+          },
+          {
+            "id": "option-2",
+            "text": "John Barry"
+          },
+          {
+            "id": "option-3",
+            "text": "Sheena Easton"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 152,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:7fdc1fbd47ef66f0",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem interpreta a canção-título do filme “Goldfinger”, de 1964?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Shirley Bassey"
+          },
+          {
+            "id": "option-1",
+            "text": "Tom Jones"
+          },
+          {
+            "id": "option-2",
+            "text": "John Barry"
+          },
+          {
+            "id": "option-3",
+            "text": "Sheena Easton"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 152,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.007.com/goldfinger-remastered-soundtrack-announced/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "goldfinger-1964-title-song-performer",
+      "note": "Corrigido Shirley Basey para Shirley Bassey; distinguida intérprete do compositor John Barry.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:23e242a42db5e2c8",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What did Gregory Mendel use to test genetic crossovers?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Peas"
+          },
+          {
+            "id": "option-1",
+            "text": "Cats"
+          },
+          {
+            "id": "option-2",
+            "text": "Flowers"
+          },
+          {
+            "id": "option-3",
+            "text": "Parrots"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 122,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:23e242a42db5e2c8",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Com quais plantas Gregor Mendel realizou seus experimentos clássicos sobre hereditariedade?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Ervilheiras"
+          },
+          {
+            "id": "option-1",
+            "text": "Roseiras"
+          },
+          {
+            "id": "option-2",
+            "text": "Macieiras"
+          },
+          {
+            "id": "option-3",
+            "text": "Samambaias"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 122,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.genome.gov/25520230/online-education-kit-1865-mendels-peas",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "mendel-classic-experiments-plants",
+      "note": "Removida a referência inadequada a genetic crossovers; todos os distratores agora também são plantas.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:188528a2e615afa5",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "The asteroid belt is located between which two planets?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Mars and Jupiter"
+          },
+          {
+            "id": "option-1",
+            "text": "Jupiter and Saturn"
+          },
+          {
+            "id": "option-2",
+            "text": "Mercury and Venus"
+          },
+          {
+            "id": "option-3",
+            "text": "Earth and Mars"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 474,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:188528a2e615afa5",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "O cinturão principal de asteroides do Sistema Solar fica entre as órbitas de quais planetas?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Marte e Júpiter"
+          },
+          {
+            "id": "option-1",
+            "text": "Júpiter e Saturno"
+          },
+          {
+            "id": "option-2",
+            "text": "Mercúrio e Vênus"
+          },
+          {
+            "id": "option-3",
+            "text": "Terra e Marte"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 474,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://science.nasa.gov/solar-system/asteroids/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "main-asteroid-belt-location",
+      "note": "Especificado cinturão principal para distingui-lo de outras populações de pequenos corpos.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:388c5ec6bb748075",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What is the official name of the star located closest to the North Celestial Pole?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Polaris"
+          },
+          {
+            "id": "option-1",
+            "text": "Eridanus"
+          },
+          {
+            "id": "option-2",
+            "text": "Gamma Cephei"
+          },
+          {
+            "id": "option-3",
+            "text": "Iota Cephei"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 67,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:388c5ec6bb748075",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual estrela é conhecida como Estrela do Norte por estar próxima do polo norte celeste?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Polaris"
+          },
+          {
+            "id": "option-1",
+            "text": "Sirius"
+          },
+          {
+            "id": "option-2",
+            "text": "Vega"
+          },
+          {
+            "id": "option-3",
+            "text": "Betelgeuse"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 67,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://science.nasa.gov/image-article/apod-1999-october-06-polaris-the-north-star/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "polaris-north-star",
+      "note": "Removida a alegação de nome oficial e substituído distrator que era constelação por estrelas.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:ba8a09b694136cd7",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What mineral has the lowest number on the Mohs scale?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Talc"
+          },
+          {
+            "id": "option-1",
+            "text": "Quartz"
+          },
+          {
+            "id": "option-2",
+            "text": "Diamond"
+          },
+          {
+            "id": "option-3",
+            "text": "Gypsum"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 133,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:ba8a09b694136cd7",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual mineral ocupa o grau 1, o menor, na escala de dureza de Mohs?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Talco"
+          },
+          {
+            "id": "option-1",
+            "text": "Quartzo"
+          },
+          {
+            "id": "option-2",
+            "text": "Diamante"
+          },
+          {
+            "id": "option-3",
+            "text": "Gipsita"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 133,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://volcano.wr.usgs.gov/volcanic_ash/density_hardness.html",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "mohs-one-mineral",
+      "note": "Conferido grau 1 do talco na tabela USGS; mantida uma única resposta correta.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:dd8aea219918db6b",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What is the standard SI unit for luminous intensity?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Candela"
+          },
+          {
+            "id": "option-1",
+            "text": "Lumen"
+          },
+          {
+            "id": "option-2",
+            "text": "Faraday"
+          },
+          {
+            "id": "option-3",
+            "text": "Coulomb"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 106,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:dd8aea219918db6b",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é a unidade de base de intensidade luminosa no Sistema Internacional de Unidades?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Candela"
+          },
+          {
+            "id": "option-1",
+            "text": "Lúmen"
+          },
+          {
+            "id": "option-2",
+            "text": "Lux"
+          },
+          {
+            "id": "option-3",
+            "text": "Coulomb"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 106,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.bipm.org/en/si-base-units/candela",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "si-luminous-intensity-unit",
+      "note": "Distinguida intensidade luminosa de fluxo luminoso e iluminância; Faraday substituído por lux como distrator.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:65cd2e1b12103f7b",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who is the chemical element Curium named after?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Marie & Pierre Curie"
+          },
+          {
+            "id": "option-1",
+            "text": "The Curiosity Rover"
+          },
+          {
+            "id": "option-2",
+            "text": "Curious George"
+          },
+          {
+            "id": "option-3",
+            "text": "Stephen Curry"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 296,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:65cd2e1b12103f7b",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "O elemento químico cúrio recebeu seu nome em homenagem a quais cientistas?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pierre e Marie Curie"
+          },
+          {
+            "id": "option-1",
+            "text": "Irène e Frédéric Joliot-Curie"
+          },
+          {
+            "id": "option-2",
+            "text": "Ernest Rutherford e Frederick Soddy"
+          },
+          {
+            "id": "option-3",
+            "text": "Niels e Aage Bohr"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 296,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://periodic-table.rsc.org/element/96/curium",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "curium-namesakes",
+      "note": "Homenagem conferida na Royal Society of Chemistry; removidos distratores de humor para não entregar a resposta.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:36707b3b4487d20d",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "In golf, what name is given to a hole score of two under par?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Eagle"
+          },
+          {
+            "id": "option-1",
+            "text": "Birdie"
+          },
+          {
+            "id": "option-2",
+            "text": "Bogey"
+          },
+          {
+            "id": "option-3",
+            "text": "Albatross"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 45,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:36707b3b4487d20d",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "No golfe, como se chama completar um buraco com duas tacadas abaixo do par?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Eagle"
+          },
+          {
+            "id": "option-1",
+            "text": "Birdie"
+          },
+          {
+            "id": "option-2",
+            "text": "Bogey"
+          },
+          {
+            "id": "option-3",
+            "text": "Albatross"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 45,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.usga.org/content/usga/home-page/history/faq--golf-history-questions-232994f0.html",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "golf-two-under-par-term",
+      "note": "Terminologia conferida na associação de golfe; par especificado para não confundir com o total de tacadas.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:d8eccca3cd6e3c8a",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What sport features the terms love, deuce, match and volley?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tennis"
+          },
+          {
+            "id": "option-1",
+            "text": "Cricket"
+          },
+          {
+            "id": "option-2",
+            "text": "Basketball"
+          },
+          {
+            "id": "option-3",
+            "text": "Curling"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 460,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:d8eccca3cd6e3c8a",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em qual esporte os termos “love”, “deuce” e “volley” fazem parte do vocabulário tradicional em inglês?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-1",
+            "text": "Críquete"
+          },
+          {
+            "id": "option-2",
+            "text": "Basquete"
+          },
+          {
+            "id": "option-3",
+            "text": "Curling"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 460,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.itftennis.com/en/about-us/organisation/tennis-glossary/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "tennis-english-terms",
+      "note": "Termos conferidos no glossário da ITF; retirado match por não distinguir modalidade.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:04210825f84dd9d9",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "DING Ning (China)"
+          },
+          {
+            "id": "option-1",
+            "text": "LI Xiaoxia (China)"
+          },
+          {
+            "id": "option-2",
+            "text": "Ai FUKUHARA (Japan)"
+          },
+          {
+            "id": "option-3",
+            "text": "Song KIM (North Korea)"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 101,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:04210825f84dd9d9",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem conquistou o ouro no tênis de mesa individual feminino nos Jogos Olímpicos do Rio de 2016?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Ding Ning"
+          },
+          {
+            "id": "option-1",
+            "text": "Li Xiaoxia"
+          },
+          {
+            "id": "option-2",
+            "text": "Ai Fukuhara"
+          },
+          {
+            "id": "option-3",
+            "text": "Kim Song-i"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 101,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.ittf.com/2016/08/11/press-release-ding-ning-rio-2016-olympic-champion/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "rio-2016-table-tennis-womens-singles-gold",
+      "note": "Evento e edição delimitados; padronizados nomes e corrigido o distrator norte-coreano para Kim Song-i.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:8d771849c6bb6f0f",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Ma Long (China)"
+          },
+          {
+            "id": "option-1",
+            "text": "Zhang Jike (China)"
+          },
+          {
+            "id": "option-2",
+            "text": "Jun Mizutani (Japan)"
+          },
+          {
+            "id": "option-3",
+            "text": "Vladimir Samsonov (Belarus)"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 749,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:8d771849c6bb6f0f",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem conquistou o ouro no tênis de mesa individual masculino nos Jogos Olímpicos do Rio de 2016?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Ma Long"
+          },
+          {
+            "id": "option-1",
+            "text": "Zhang Jike"
+          },
+          {
+            "id": "option-2",
+            "text": "Jun Mizutani"
+          },
+          {
+            "id": "option-3",
+            "text": "Vladimir Samsonov"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 749,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.ittf.com/2016/08/12/mission-accomplished-ma-long-simply-awesome/?from=11",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "rio-2016-table-tennis-mens-singles-gold",
+      "note": "Mantida a edição e a prova, distintas da pergunta sobre o individual feminino.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:f62e5ed2e981d12b",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who won the 1998 Daytona 500?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Dale Earnhardt"
+          },
+          {
+            "id": "option-1",
+            "text": "John Anderson"
+          },
+          {
+            "id": "option-2",
+            "text": "Jeff Gordon"
+          },
+          {
+            "id": "option-3",
+            "text": "Michael Walltrip"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 436,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:f62e5ed2e981d12b",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem venceu as 500 Milhas de Daytona da NASCAR em 1998?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Dale Earnhardt"
+          },
+          {
+            "id": "option-1",
+            "text": "John Andretti"
+          },
+          {
+            "id": "option-2",
+            "text": "Jeff Gordon"
+          },
+          {
+            "id": "option-3",
+            "text": "Michael Waltrip"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 436,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.nascar.com/news-media/2023/08/17/the-75-greatest-races-in-nascar-history/",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "daytona-500-1998-winner",
+      "note": "Vencedor conferido na prova de 15/02/1998; corrigidos os nomes John Anderson e Michael Walltrip nos distratores.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:4e4f00200b137b26",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Hammer"
+          },
+          {
+            "id": "option-1",
+            "text": "Wrench"
+          },
+          {
+            "id": "option-2",
+            "text": "Drill"
+          },
+          {
+            "id": "option-3",
+            "text": "Screwdriver"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 791,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:4e4f00200b137b26",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "No curling, qual termo em inglês designa a vantagem de lançar a última pedra de um end?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Hammer"
+          },
+          {
+            "id": "option-1",
+            "text": "Wrench"
+          },
+          {
+            "id": "option-2",
+            "text": "Drill"
+          },
+          {
+            "id": "option-3",
+            "text": "Screwdriver"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 791,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://worldcurling.org/wp-content/uploads/2024/08/Rule-2024_Change-log_01082024.pdf",
+          "reviewedAt": "2026-10-22",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "curling-last-stone-term",
+      "note": "Definição conferida no glossário da World Curling; preservados os termos ingleses para não inventar nomenclatura traduzida.",
+      "semanticReview": "Fato comparado com as 300 publicadas da T11/T27 e os demais itens deste lote; não há outra pergunta aprovada que cobre o mesmo atributo da mesma entidade."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:57f47f05bf3bdf13",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who sculpted the statue of David?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-1",
+            "text": "Gian Lorenzo Bernini"
+          },
+          {
+            "id": "option-2",
+            "text": "Auguste Rodin"
+          },
+          {
+            "id": "option-3",
+            "text": "Donatello"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 121,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:57f47f05bf3bdf13",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who sculpted the statue of David?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-1",
+            "text": "Gian Lorenzo Bernini"
+          },
+          {
+            "id": "option-2",
+            "text": "Auguste Rodin"
+          },
+          {
+            "id": "option-3",
+            "text": "Donatello"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "rejected",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 121,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "factKey": "david-michelangelo-author",
+      "note": "Duplicata por sentido da autoria do Davi de Michelangelo já publicada; o candidato também não distinguia os vários Davis.",
+      "semanticReview": "Mesmo fato de questionados:arts-literature:85e71d8ba921d8a9; excluído antes da tradução.",
+      "duplicateOf": "questionados:arts-literature:85e71d8ba921d8a9"
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:e32fc11a82cf29a2",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who painted the Mona Lisa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-1",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-2",
+            "text": "Claude Monet"
+          },
+          {
+            "id": "option-3",
+            "text": "Vincent van Gogh"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 591,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:e32fc11a82cf29a2",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who painted the Mona Lisa?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-1",
+            "text": "Pablo Picasso"
+          },
+          {
+            "id": "option-2",
+            "text": "Claude Monet"
+          },
+          {
+            "id": "option-3",
+            "text": "Vincent van Gogh"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "rejected",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 591,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "factKey": "mona-lisa-author",
+      "note": "Duplicata por sentido da autoria da Mona Lisa, já publicada na T11.",
+      "semanticReview": "Mesmo fato de questionados:arts-literature:23cb2195602682b1; excluído antes da tradução.",
+      "duplicateOf": "questionados:arts-literature:23cb2195602682b1"
+    }
+  ]
+}

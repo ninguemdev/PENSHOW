@@ -10,7 +10,9 @@ import {
   stockOptions,
 } from '../../../../scripts/lib/question-stock.js';
 
-const repository = new LocalQuestionRepository();
+const repository = new LocalQuestionRepository(
+  new URL('../../../../data/editorial-baselines/t27-catalog.json', import.meta.url),
+);
 beforeAll(() => repository.load());
 const categories = () => Object.keys(repository.availability()).sort();
 

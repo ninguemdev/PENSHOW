@@ -1,6 +1,6 @@
 # Piloto de grupos e equilíbrio — T32
 
-O piloto mecânico usa os serviços oficiais de sala e partida, o catálogo publicado de 300 perguntas e os parâmetros experimentais completos. Jogadores são roteirizados e o relógio é virtual. As durações registram o tempo percorrido pelo motor nesse roteiro; não são duração observada com pessoas, medição de rede ou avaliação de diversão.
+O piloto mecânico usa os serviços oficiais de sala e partida, o catálogo de 300 perguntas publicado à época da T32 e os parâmetros experimentais completos. Desde a T33, `pilot:simulate` lê o snapshot privado em `data/editorial-baselines/t27-catalog.json`, preservando a reprodução desses resultados. A capacidade do catálogo atual fica no [relatório T33](expansao-editorial-t33.md). Jogadores são roteirizados e o relógio é virtual. As durações registram o tempo percorrido pelo motor nesse roteiro; não são duração observada com pessoas, medição de rede ou avaliação de diversão.
 
 O [relatório reproduzível](../data/publication-reports/t32-group-pilot.json) contém as configurações e seus hashes, hash do catálogo, seeds, resultados por fase e participante, conversão em vidas e resoluções da final. Usa aliases P1…P12; não exporta gabaritos, tokens ou identificadores de conexão. Não há telemetria externa nem alteração de parâmetros da aplicação.
 

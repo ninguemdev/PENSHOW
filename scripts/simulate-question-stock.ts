@@ -17,7 +17,8 @@ const target = new URL('data/publication-reports/t27-stock.json', root);
 const args = process.argv.slice(2);
 if (args.some((arg) => arg !== '--check') || args.length > 1)
   throw new Error('Use questions:simulate [--check].');
-const file = new URL('data/questions/published/catalog.json', root);
+// Reproduce the dated T27 experiment against its original, private 300-question snapshot.
+const file = new URL('data/editorial-baselines/t27-catalog.json', root);
 const catalog = publishedCatalogSchema.parse(JSON.parse(await readFile(file, 'utf8')));
 const repository = new LocalQuestionRepository(file);
 await repository.load();
