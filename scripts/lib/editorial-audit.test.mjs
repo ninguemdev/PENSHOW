@@ -19,13 +19,18 @@ test('o conteúdo aprovado preserva acentos sem caracteres de substituição', a
 
 test('T27 mantém evidência individual consistente com as 228 novas aprovações e preserva os insumos da T11', async () => {
   const report = await read('data/publication-reports/t27-editorial.json');
-  const catalog = await read('data/questions/published/catalog.json');
   const t11 = await read('data/publication-reports/t11-editorial.json');
   assert.equal(report.records.length, 228);
   const oldIds = new Set(t11.records.map((r) => r.id));
   const newRecords = new Map(report.records.map((r) => [r.id, r]));
   assert.equal(newRecords.size, 228);
-  for (const q of catalog.questions) {
+  const baseline = await read('data/editorial-baselines/t27-catalog.json');
+  assert.equal(baseline.questions.length, 300);
+  assert.deepEqual(
+    baseline.questions.map((q) => q.id).toSorted(),
+    [...oldIds, ...newRecords.keys()].toSorted(),
+  );
+  for (const q of baseline.questions) {
     if (oldIds.has(q.id)) continue;
     const decision = newRecords.get(q.id);
     assert.ok(decision, `Sem evidência T27: ${q.id}`);
@@ -58,7 +63,7 @@ test('T27 mantém evidência individual consistente com as 228 novas aprovaçõe
     );
   }
   for (const old of t11.records) {
-    const q = catalog.questions.find((q) => q.id === old.id);
+    const q = baseline.questions.find((q) => q.id === old.id);
     assert.ok(q);
     assert.deepEqual(old.revised, {
       prompt: q.prompt,

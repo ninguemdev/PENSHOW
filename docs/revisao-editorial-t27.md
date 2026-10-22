@@ -1,5 +1,7 @@
 # Catálogo para testes completos — T27
 
+Os números abaixo registram o experimento de 20/10/2026. A partir da T33, sua reprodução usa o snapshot privado original de 300 perguntas em `data/editorial-baselines/t27-catalog.json`. O [relatório T33](expansao-editorial-t33.md) descreve a publicação atual e a simulação de capacidade correspondente.
+
 Revisão em **20/10/2026**: 228 novas perguntas em pt-BR, somadas às 72 preservadas da T11. O catálogo privado publicado contém **300 perguntas**, todas de quatro alternativas, adaptadas de candidatos Questionados sob MIT. ID e procedência originais foram preservados. Não foram aprovados candidatos em massa nem contadas traduções pendentes.
 
 ## Distribuição publicada

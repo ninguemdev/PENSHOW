@@ -86,7 +86,9 @@ pnpm build
 
 `pnpm test:e2e:sound` verifica os avisos sonoros, preferências, áudio indisponível, reconexão e renderização do motor real, com prévia WAV para escuta. Consulte [sons e validação](docs/sons.md).
 
-`pnpm pilot:simulate` gera o relatório mecânico de equilíbrio usando os serviços reais, catálogo publicado, jogadores roteirizados e relógio virtual. `pnpm pilot:simulate --check` reproduz o relatório sem escrever. Os tempos simulados e as comparações de pontos não substituem sessões humanas; consulte [método, resultados e roteiro](docs/testes-de-grupo-e-equilibrio.md).
+`pnpm pilot:simulate` gera o relatório mecânico de equilíbrio usando os serviços reais, snapshot privado de 300 perguntas usado na T32, jogadores roteirizados e relógio virtual. `pnpm pilot:simulate --check` reproduz o relatório sem escrever. Os tempos simulados e as comparações de pontos não substituem sessões humanas; consulte [método, resultados e roteiro](docs/testes-de-grupo-e-equilibrio.md).
+
+`pnpm questions:audit` verifica os lotes editoriais e a publicação atual, com 336 perguntas após o primeiro lote da T33. `pnpm questions:capacity` simula partidas consecutivas sem repetir conteúdo, com orçamento explícito de 50 perguntas na final simulada. Ambos aceitam `--check`; consulte o [relatório da expansão](docs/expansao-editorial-t33.md). A meta de 5.000 permanece pendente.
 
 `pnpm test` executa os testes de conteúdo, artes e as suítes Vitest de shared, server e web. `pnpm avatars:check` confere as 50 artes e o catálogo público. `pnpm format` aplica a formatação. Os arquivos editoriais em `data/` e os documentos de planejamento em `docs/` preservam seu formato original.
 

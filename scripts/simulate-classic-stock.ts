@@ -12,7 +12,8 @@ import { simulateQuestionStock, stockDependencies, stockOptions } from './lib/qu
 const args = process.argv.slice(2);
 if (args.some((arg) => arg !== '--check') || args.length > 1)
   throw new Error('Use questions:simulate:classic [--check].');
-const file = new URL('../data/questions/published/catalog.json', import.meta.url);
+// Keep the T36 evidence reproducible as later editorial batches expand the live catalog.
+const file = new URL('../data/editorial-baselines/t27-catalog.json', import.meta.url);
 const target = new URL('../data/publication-reports/t36-stock.json', import.meta.url);
 const catalog = publishedCatalogSchema.parse(JSON.parse(await readFile(file, 'utf8')));
 const repository = new LocalQuestionRepository(file);

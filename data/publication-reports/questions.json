@@ -1,41 +1,41 @@
 {
-  "approvedCount": 300,
+  "approvedCount": 336,
   "availability": {
     "arts-literature": {
-      "easy": 15,
-      "hard": 15,
-      "medium": 20,
-      "total": 50
+      "easy": 17,
+      "hard": 17,
+      "medium": 22,
+      "total": 56
     },
     "geography": {
-      "easy": 15,
-      "hard": 15,
-      "medium": 20,
-      "total": 50
+      "easy": 17,
+      "hard": 17,
+      "medium": 22,
+      "total": 56
     },
     "history": {
-      "easy": 15,
-      "hard": 15,
-      "medium": 20,
-      "total": 50
+      "easy": 17,
+      "hard": 17,
+      "medium": 22,
+      "total": 56
     },
     "pop-culture": {
-      "easy": 15,
-      "hard": 15,
-      "medium": 20,
-      "total": 50
+      "easy": 17,
+      "hard": 17,
+      "medium": 22,
+      "total": 56
     },
     "science-nature": {
-      "easy": 15,
-      "hard": 15,
-      "medium": 20,
-      "total": 50
+      "easy": 17,
+      "hard": 17,
+      "medium": 22,
+      "total": 56
     },
     "sports": {
-      "easy": 15,
-      "hard": 15,
-      "medium": 20,
-      "total": 50
+      "easy": 17,
+      "hard": 17,
+      "medium": 22,
+      "total": 56
     }
   },
   "candidates": {
@@ -47,9 +47,22 @@
   },
   "duplicates": [],
   "errors": [],
-  "excluded": [],
+  "excluded": [
+    {
+      "file": "data/questions/reviewed/t33-001.json",
+      "id": "opentdb:arts-literature:57f47f05bf3bdf13",
+      "index": 36,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-001.json",
+      "id": "opentdb:arts-literature:e32fc11a82cf29a2",
+      "index": 37,
+      "reason": "rejected"
+    }
+  ],
   "invalid": [],
   "publishable": true,
-  "reviewedCount": 300,
+  "reviewedCount": 338,
   "schemaVersion": 1
 }

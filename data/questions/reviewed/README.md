@@ -1,5 +1,7 @@
 # Registros em revisão editorial
 
+Desde a T33, novas decisões e correções também exigem lote em `data/editorial-batches/`, com original, revisão, referência, justificativa e comparação por sentido. Execute `pnpm questions:audit` após publicar e `pnpm questions:capacity` para medir o cenário de estoque atual. Consulte o [fluxo e primeiro lote da expansão](../../../docs/expansao-editorial-t33.md). A publicação atual contém 336 perguntas; os totais T11/T27 abaixo são históricos.
+
 Copie os registros escolhidos de `../candidates/<fonte>/<tema>.json` para listas JSON neste diretório, preservando `id` e `source`. Os importadores não escrevem aqui. Corrija enunciado, alternativas, gabarito, categoria e dificuldade conforme a revisão factual. Não modifique os candidatos importados para publicar uma correção.
 
 Somente `status: "approved"`, `locale: "pt-BR"`, dificuldade `easy`/`medium`/`hard` e revisão completa podem ser publicados. A revisão precisa de `referenceUrl` HTTP(S), `reviewedAt` como data real `AAAA-MM-DD` e `checks: { "factual": true, "language": true, "uniqueAnswer": true }`, preenchidos depois de conferir os fatos, a tradução e a resposta única. Esses campos registram uma decisão editorial; o programa não comprova a verdade do conteúdo. Os demais status ficam fora do catálogo.

@@ -24,6 +24,8 @@ jobs:
       - run: pnpm test
       - run: pnpm questions:validate
       - run: pnpm questions:check
+      - run: pnpm questions:audit --check
+      - run: pnpm questions:capacity --check
       - run: pnpm questions:simulate --check
       - run: pnpm questions:simulate:classic --check
       - run: pnpm pilot:simulate --check

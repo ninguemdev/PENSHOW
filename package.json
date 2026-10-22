@@ -21,6 +21,8 @@
     "questions:validate": "node scripts/validate-questions.mjs",
     "questions:publish": "node scripts/publish-questions.mjs",
     "questions:check": "node scripts/publish-questions.mjs --check",
+    "questions:audit": "node scripts/audit-editorial-batches.mjs",
+    "questions:capacity": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-consecutive-stock.ts",
     "questions:simulate": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-question-stock.ts",
     "questions:simulate:classic": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-classic-stock.ts",
     "pilot:simulate": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-group-pilot.ts",

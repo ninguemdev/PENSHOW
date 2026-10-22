@@ -4,7 +4,7 @@
 
 Manter o conteúdo disponível localmente no servidor. APIs e repositórios externos são usados na preparação, sem chamadas durante uma partida. O objetivo de expansão é **5.000 perguntas revisadas em pt-BR**, com distribuição útil por temas; esse objetivo não significa que já existam 5.000 perguntas prontas.
 
-Os totais efetivamente importados e a distribuição por categoria ficam em [`data/sources.json`](../data/sources.json). Candidatos, inclusive os já escritos em português, precisam de revisão factual e editorial antes de serem publicados para o jogo.
+Os totais efetivamente importados e a distribuição por categoria ficam em [`data/sources.json`](../data/sources.json). Candidatos, inclusive os já escritos em português, precisam de revisão factual e editorial antes de serem publicados para o jogo. A publicação atual tem **336 perguntas**; o [primeiro lote da T33](expansao-editorial-t33.md) acrescenta 36 traduções revisadas às 300 da T27.
 
 ## Fontes selecionadas
 
@@ -124,6 +124,8 @@ Esse estoque permitia um aquecimento isolado com **três fáceis e três médias
 Os **1.531 candidatos originais permaneceram inalterados**: 531 em pt-BR com `needs-review` e 1.000 em inglês com `needs-translation`. Na T11, a aprovação ficou apenas nas 72 cópias revisadas. O lote inicial não cobria uma partida completa com doze jogadores, as 300 perguntas da T27 ou as 5.000 da T33. A publicação atual está descrita a seguir.
 
 ### Expansão publicada — T27
+
+Esta seção registra a publicação de 20/10/2026. Desde a T33, os experimentos históricos `questions:simulate`, `questions:simulate:classic` e `pilot:simulate` reproduzem o snapshot privado original em `data/editorial-baselines/t27-catalog.json`. A capacidade da publicação atual é verificada por `questions:capacity`.
 
 A publicação de **20/10/2026** amplia o lote da T11 para **300 perguntas aprovadas em pt-BR**: 50 em cada tema, com 15 fáceis, 20 médias e 15 difíceis. As 72 anteriores permanecem intactas; foram acrescentadas 228 cópias revisadas de candidatos Questionados, sob a mesma licença MIT. Não há novas importações nem traduções do Open Trivia DB nesta entrega. Os candidatos e `data/sources.json` conservam os hashes registrados na T11.
 
