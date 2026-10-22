@@ -30,6 +30,7 @@ const input = {
   candidates: await loadQuestions(fileURLToPath(new URL('data/questions/candidates', root))),
   reviewed: structuredClone(reviewed),
   batches: [structuredClone(firstBatch)],
+  sourceRegistry: structuredClone(sources),
 };
 
 test('conta apenas publicáveis com histórico, separa traduções, rejeições e o limite de candidatos', () => {
@@ -130,4 +131,37 @@ test('encadeia retirada editorial sem perder o antes/depois e sem contar duas ve
   assert.equal(report.rejected, 3);
   changed.batches[1].records[0].original.prompt = 'Histórico inventado?';
   assert.throws(() => auditEditorialBatches(changed), /Histórico anterior divergente/u);
+});
+
+test('preserva a comparação histórica quando a última pergunta de uma fonte é retirada', () => {
+  const changed = structuredClone(input);
+  const withdrawn = changed.batches[0].records.filter((r) => r.revised.status === 'approved');
+  const ids = new Set(withdrawn.map((r) => r.revised.id));
+  changed.batches.push({
+    schemaVersion: 1,
+    id: 't33-002',
+    sequence: 2,
+    reviewedAt: '2026-10-23',
+    comparisonCatalogSha256: changed.catalog.manifest.contentSha256,
+    method: 'Cenário sintético de retirada de uma fonte da publicação atual.',
+    records: withdrawn.map((r) => ({
+      ...r,
+      original: structuredClone(r.revised),
+      revised: { ...r.revised, status: 'rejected' },
+      note: 'Retirada sintética para testar a atribuição do catálogo anterior.',
+    })),
+  });
+  changed.reviewed = changed.reviewed.map((q) =>
+    ids.has(q.id) ? { ...q, status: 'rejected' } : q,
+  );
+  changed.catalog.questions = changed.catalog.questions.filter((q) => !ids.has(q.id));
+  changed.catalog.sources = changed.catalog.sources.filter((s) => s.id !== 'opentdb');
+  changed.catalog.manifest = catalogManifest(changed.catalog.questions, changed.catalog.sources);
+  const result = auditEditorialBatches(changed);
+  assert.equal(result.approved, 300);
+  assert.equal(result.rejected, 38);
+  assert.deepEqual(
+    result.sources.map((s) => s.id),
+    ['questionados'],
+  );
 });

@@ -25,7 +25,14 @@ function distribution(questions, field) {
 }
 
 /** Evidence is checked against snapshots; these checks cannot establish factual truth. */
-export function auditEditorialBatches({ baseline, candidates, reviewed, batches, catalog }) {
+export function auditEditorialBatches({
+  baseline,
+  candidates,
+  reviewed,
+  batches,
+  catalog,
+  sourceRegistry,
+}) {
   publishedCatalogSchema.parse(baseline);
   publishedCatalogSchema.parse(catalog);
   const originals = index(candidates);
@@ -50,7 +57,7 @@ export function auditEditorialBatches({ baseline, candidates, reviewed, batches,
       batch.comparisonCatalogSha256,
       catalogManifest(
         previous,
-        catalog.sources.filter((s) => usedSources.has(s.id)),
+        sourceRegistry.filter((s) => usedSources.has(s.id)).toSorted((a, b) => compare(a.id, b.id)),
       ).contentSha256,
       `Catálogo de comparação divergente: ${batch.id}`,
     );

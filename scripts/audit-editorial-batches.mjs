@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { compileQuestionCatalog } from './lib/question-publication.mjs';
+import { compileQuestionCatalog, loadSourceRegistry } from './lib/question-publication.mjs';
 import { auditEditorialBatches } from './lib/editorial-batches.mjs';
 import { jsonFiles, loadQuestions, readJson, PROJECT_ROOT } from './lib/questions.mjs';
 import { stableJson } from '../apps/server/src/modules/questions/catalog-format.ts';
@@ -31,6 +31,7 @@ const report = auditEditorialBatches({
   reviewed: await loadQuestions(join(root, 'data/questions/reviewed')),
   batches,
   catalog: published,
+  sourceRegistry: [...(await loadSourceRegistry(root)).values()],
 });
 const selected = batchId === undefined ? undefined : report.batches.find((b) => b.id === batchId);
 if (batchId !== undefined && !selected) throw new Error('Lote não encontrado.');
