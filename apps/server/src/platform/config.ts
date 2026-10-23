@@ -32,6 +32,7 @@ export const serverConfigSchema = z.strictObject({
   guestSessionTtlMs: z.number().int().min(1000).max(604800000),
   logLevel: z.enum(['silent', 'fatal', 'error', 'warn', 'info', 'debug', 'trace']),
   webRoot: z.string().min(1).refine(isAbsolute, 'Informe um caminho absoluto.').optional(),
+  narrationEnabled: z.boolean().default(false),
   webBasePath: z
     .string()
     .regex(/^\/(?:[a-zA-Z0-9_-]+\/)*$/u)
@@ -80,5 +81,13 @@ export function loadConfig(
     logLevel: environment.LOG_LEVEL ?? (mode === 'test' ? 'silent' : 'info'),
     ...(environment.WEB_ROOT !== undefined ? { webRoot: environment.WEB_ROOT } : {}),
     webBasePath: environment.WEB_BASE_PATH ?? '/penshow/',
+    narrationEnabled:
+      environment.NARRATION_ENABLED === undefined
+        ? mode !== 'test'
+        : environment.NARRATION_ENABLED === 'true'
+          ? true
+          : environment.NARRATION_ENABLED === 'false'
+            ? false
+            : environment.NARRATION_ENABLED,
   });
 }

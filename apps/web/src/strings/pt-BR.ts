@@ -1,4 +1,17 @@
 export const strings = {
+  narrator: {
+    title: 'Narrador robótico',
+    activate: 'Ativar narrador robótico',
+    disable: 'Desligar narrador',
+    preview: 'Ouvir a voz do robô',
+    volume: 'Volume do narrador',
+    help: 'Voz robótica em português. O enunciado é narrado antes de liberar as respostas. O volume é independente dos efeitos.',
+    unavailable:
+      'Narração indisponível. Continue lendo a pergunta na tela ou tente ativar novamente.',
+    loading: 'Preparando a voz do robô…',
+    speaking: 'O robô está narrando o enunciado.',
+    storage: 'Não foi possível salvar a preferência do narrador. Ela vale nesta aba.',
+  },
   sound: {
     title: 'Som do jogo',
     activate: 'Ativar som',

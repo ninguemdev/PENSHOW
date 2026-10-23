@@ -44,6 +44,10 @@ export const ownWagerSchema = z.discriminatedUnion('status', [
 ]);
 
 const responseWindow = { opensAt: timestampSchema, deadlineAt: timestampSchema };
+const narrationSchema = z.strictObject({
+  durationMs: z.number().int().min(1).max(120_000),
+  voice: z.literal('robot-pt-br-v1'),
+});
 const finalFields = { round: finalRoundSchema, finalists: finalistsSchema };
 const acceptedAnswerFields = { playerId: playerIdSchema, optionId: optionIdSchema };
 export const finalResolutionSchema = z.discriminatedUnion('outcome', [
@@ -86,6 +90,7 @@ export const matchStageSchema = z
     }),
     z.strictObject({
       phase: z.literal('question-reading'),
+      narration: narrationSchema.optional(),
       round: scoringRoundSchema,
       question: questionStemSchema,
       opensAt: timestampSchema,
@@ -189,6 +194,7 @@ export const matchStageSchema = z
     }),
     z.strictObject({
       phase: z.literal('final-question-reading'),
+      narration: narrationSchema.optional(),
       ...finalFields,
       question: questionStemSchema,
       opensAt: timestampSchema,

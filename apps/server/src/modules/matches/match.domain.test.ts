@@ -47,6 +47,24 @@ function expire(state: MatchState) {
 }
 
 describe('motor puro de partida', () => {
+  it('reserva a gravação inteira antes de aceitar respostas e mantém a janela de resposta completa', () => {
+    const waiting = step(category(), {
+      kind: 'choose-category',
+      ...context(),
+      playerId: players[0]!,
+      category: 'history',
+    }).state;
+    const question = { ...prepared(), narration: { durationMs: 7000 } };
+    const state = step(waiting, { kind: 'question-prepared', question }).state;
+    expect(state.stage).toMatchObject({ phase: 'question-reading', opensAt: 9500 });
+    expect(() => answer(state, players[0]!, 4000)).toThrow();
+    const opened = expire(state).state;
+    expect(opened.stage).toMatchObject({
+      phase: 'question-open',
+      opensAt: 9500,
+      deadlineAt: 24500,
+    });
+  });
   it('avança para a próxima estratégia registrada sem escolher modalidade no transporte', () => {
     // The speed fixture exercises dispatch only; it is not installed by MatchService.
     const resolve = vi.fn((...args: Parameters<typeof classicStrategy.resolve>) =>

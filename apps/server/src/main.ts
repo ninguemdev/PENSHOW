@@ -2,6 +2,7 @@ import { buildApp } from './app.js';
 import { loadConfig } from './platform/config.js';
 import { QuestionCatalogLoadError } from './platform/local-question.repository.js';
 import { WebBuildLoadError } from './platform/web.js';
+import { NarrationLoadError } from './platform/local-narration.repository.js';
 
 try {
   const config = loadConfig(process.env);
@@ -22,7 +23,9 @@ try {
     app.log.info({ address }, 'PENSHOW disponível.');
   } catch (error) {
     app.log.error(
-      error instanceof QuestionCatalogLoadError || error instanceof WebBuildLoadError
+      error instanceof QuestionCatalogLoadError ||
+        error instanceof WebBuildLoadError ||
+        error instanceof NarrationLoadError
         ? error.message
         : 'Não foi possível iniciar o servidor. Confira HOST, PORT e a disponibilidade da porta.',
     );

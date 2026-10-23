@@ -14,6 +14,7 @@ export type ApprovedQuestion = z.infer<typeof approvedQuestionSchema>;
 
 // Somente o servidor associa IDs editoriais e alternativas públicas embaralhadas.
 export interface PreparedQuestion {
+  narration?: { durationMs: number };
   publicQuestion: PublicQuestion;
   editorialQuestionId: string;
   editorialOptionByPublicId: ReadonlyMap<OptionId, string>;

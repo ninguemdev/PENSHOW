@@ -63,7 +63,7 @@ jobs:
       - run: pnpm questions:check
       - run: pnpm build
       - run: pnpm --filter @penshow/e2e exec playwright install --with-deps chromium
-      - run: pnpm --filter @penshow/e2e exec playwright test --grep-invert 'modo padrão:|modo completo:|acessibilidade:|som:'
+      - run: pnpm --filter @penshow/e2e exec playwright test --grep-invert 'modo padrão:|modo completo:|acessibilidade:|som:|narrador:'
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:

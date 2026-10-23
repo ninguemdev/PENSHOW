@@ -71,6 +71,8 @@ async function start(environment) {
     '--env',
     `NODE_ENV=${environment}`,
     '--env',
+    'NARRATION_ENABLED=true',
+    '--env',
     `ALLOWED_ORIGINS=${origin}`,
     image,
   );
@@ -205,7 +207,8 @@ try {
     assert.equal(process.getuid(), 1000);
     assert.deepEqual(await readdir('/app/data/questions'), ['published']);
     const dependencies = await readdir('/app/apps/server/node_modules/.pnpm');
-    assert.ok(!dependencies.some(name => /^(?:typescript|vitest|tsx|vite|@playwright)[@+]/u.test(name)));
+    assert.ok(!dependencies.some(name => /^(?:typescript|vitest|tsx|vite|@playwright|@echogarden)[@+]/u.test(name)));
+    await access('/app/data/narration/generated/manifest.json');
     await assert.rejects(access('/app/apps/server/src'));
     await access('/app/licenses/comicle-LICENSE.txt');
     await access('/app/data/licenses/opentdb.txt');
@@ -333,6 +336,22 @@ try {
   const seen = new Set();
   let points = 0;
   for (let index = 0; index < 6; index++) {
+    const reading = await stage(
+      'question-reading',
+      (match) => !seen.has(match.stage.question.questionId),
+    );
+    assert.ok(reading.stage.narration.durationMs > 0);
+    const recording = await fetch(
+      `${test.origin}/api/rooms/${context.roomId}/narration/${reading.stage.question.questionId}`,
+      { headers: { Authorization: `Bearer ${quizHost.session.token}` } },
+    );
+    assert.equal(recording.status, 200);
+    const wave = Buffer.from(await recording.arrayBuffer());
+    assert.equal(wave.toString('ascii', 0, 4), 'RIFF');
+    assert.equal(
+      reading.stage.narration.durationMs,
+      Math.ceil(((wave.length - 44) * 1000) / 44100),
+    );
     const opened = await stage(
       'question-open',
       (match) => !seen.has(match.stage.question.questionId),

@@ -1,4 +1,5 @@
 import { open } from 'node:fs/promises';
+import { LocalNarrationRepository } from './local-narration.repository.js';
 import {
   publishedCatalogSchema,
   type PublishedCatalog,
@@ -24,7 +25,13 @@ export class QuestionCatalogLoadError extends Error {
 }
 export class LocalQuestionRepository implements QuestionRepository {
   private catalog: PublishedCatalog | null = null;
-  constructor(private readonly file: string | URL = DEFAULT_CATALOG_FILE) {}
+  readonly narration: LocalNarrationRepository | undefined;
+  constructor(
+    private readonly file: string | URL = DEFAULT_CATALOG_FILE,
+    narrationEnabled = false,
+  ) {
+    this.narration = narrationEnabled ? new LocalNarrationRepository() : undefined;
+  }
 
   async load(): Promise<void> {
     this.catalog = null;
@@ -41,6 +48,10 @@ export class LocalQuestionRepository implements QuestionRepository {
     } finally {
       await handle?.close();
     }
+    await this.narration?.load(this.ready().questions);
+  }
+  narrationDuration(id: string) {
+    return this.narration?.duration(id);
   }
   list(filter: QuestionFilter = {}) {
     const catalog = this.ready();

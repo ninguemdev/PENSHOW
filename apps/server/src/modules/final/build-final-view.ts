@@ -32,6 +32,9 @@ export function buildFinalView(state: MatchState) {
       void _options;
       view = {
         phase: stage.phase,
+        ...(stage.question.narration
+          ? { narration: { ...stage.question.narration, voice: 'robot-pt-br-v1' as const } }
+          : {}),
         ...common,
         question: structuredClone(stem),
         opensAt: stage.opensAt,

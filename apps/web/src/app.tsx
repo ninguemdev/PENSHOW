@@ -11,6 +11,8 @@ import { ConnectionNotice } from './ui/connection-notice';
 import { NavLink } from './ui/nav-link';
 import { SoundControls } from './features/sound/sound-controls';
 import { watchGameSounds } from './features/sound/sound-controller';
+import { NarratorControls } from './features/sound/narrator-controls';
+import { watchNarrator } from './features/sound/narrator-controller';
 export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
   const [stores] = useState(() => suppliedStores ?? createClientStores());
   const path = useSyncExternalStore(
@@ -25,9 +27,13 @@ export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
     stores.profile.getState().hydrate();
     stores.sound.getState().hydrate();
     const stopSounds = watchGameSounds(stores);
+    stores.narrator.getState().hydrate();
+    const stopNarrator = watchNarrator(stores);
     void stores.session.getState().initialize();
     return () => {
       stopSounds();
+      stopNarrator();
+      stores.narrator.getState().dispose();
       stores.sound.getState().dispose();
       stores.lobby.getState().cancel();
       stores.match.getState().cancel();
@@ -60,6 +66,7 @@ export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
       <div className="app-shell">
         <ConnectionNotice store={stores.session} />
         <SoundControls store={stores.sound} />
+        <NarratorControls store={stores.narrator} />
         {issue && (
           <p className="storage-notice" role="status">
             {strings.storage[issue]}

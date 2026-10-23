@@ -30,7 +30,7 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 
 - [Plano detalhado do jogo](docs/plano-do-jogo.md): cada fase, quantidade de perguntas, pontos, tempos, exemplos, final e casos de borda.
 - [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
-- [Tasks de implementação](docs/tasks/README.md): 36 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
+- [Tasks de implementação](docs/tasks/README.md): 37 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
 - [Análise do Comicle](docs/analise-comicle.md): módulos examinados e adaptações necessárias.
 - [Referência do Brain Show](docs/referencia-brain-show.md): evidências e propostas para o PENSHOW.
 - [Regras em discussão](docs/regras.md): o que foi definido e o que precisa ser decidido.
@@ -38,6 +38,7 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 - [Protocolo realtime](docs/protocolo-realtime.md): comandos, confirmações, erros e versões dos contratos públicos; sincronização de tempo disponível.
 - [Modelo de dados](docs/modelo-de-dados.md): perfis, fases, placar, vidas e separação entre perguntas públicas e dados privados.
 - [Servidor](docs/servidor.md): configuração, portas injetáveis, transporte, erros, logs e encerramento.
+- [Narrador robótico](docs/narrador-robotico.md): voz clássica em pt-BR para ler o enunciado antes das respostas, com prévia e volume próprios.
 - [Build e operação](docs/deploy.md): imagem Docker, execução local em `/penshow/`, variáveis, proxy HTTPS/WebSocket, logs, reinício e rollback.
 - [Sessões](docs/sessoes.md): criação, verificação, renovação, expiração e conexão ativa por identidade.
 - [Salas](docs/salas.md): fila, membros, anfitrião, comandos autenticados, projeções e ciclo de vida.

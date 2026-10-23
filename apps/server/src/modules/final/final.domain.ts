@@ -11,6 +11,7 @@ import {
   type RoundId,
 } from '@penshow/shared';
 import type { PreparedQuestion } from '../questions/question.js';
+import { questionReadingMs } from '../questions/question-reading.js';
 import type { FrozenMatchRules } from '../scoring/match-rules.js';
 import type { FrozenFinalEntry } from '../scoring/final-entry.domain.js';
 
@@ -238,7 +239,9 @@ export function transitionFinal(
       state.stage = {
         phase: 'final-question-reading',
         question: structuredClone(event.question),
-        opensAt: instant(now + rules.parameters.timings.readingMs),
+        opensAt: instant(
+          now + questionReadingMs(event.question, rules.parameters.timings.readingMs),
+        ),
       };
       break;
     case 'answer': {

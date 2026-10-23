@@ -17,6 +17,7 @@ it('bloqueia conteúdo editorial e servidor por /@fs sem bloquear a aplicação 
     const origin = `http://127.0.0.1:${address.port}`;
     for (const path of [
       'data/questions/published/catalog.json',
+      'data/narration/generated/manifest.json',
       'data/questions/candidates/questionados/geography.json',
       'data/publication-reports/questions.json',
       'data/import-reports/questionados.json',

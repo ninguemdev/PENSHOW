@@ -2,6 +2,8 @@
 
 ## Regras confirmadas
 
+Em **23/10/2026**, o usuário solicitou narrar as perguntas antes de responder, com voz totalmente robotizada, sem tentar imitar uma pessoa. A entrega usa síntese clássica em pt-BR e reserva no servidor a duração medida da gravação antes de abrir as respostas. A primeira versão lê somente o enunciado, com ativação e volume locais; leitura das alternativas não foi confirmada. Consulte [narrador robótico](narrador-robotico.md). Isso não resolve D01–D08 nem altera as regras confirmadas da final.
+
 Os requisitos R01 a R09 estão em [regras](regras.md). Para a final, a distribuição é 5 / 4 / 3 / 2 vidas para sobreviver a 4 / 3 / 2 / 1 perdas. Somente a primeira resposta de cada pergunta é avaliada: erro custa uma vida ao autor, acerto permite tirar uma vida de qualquer adversário ainda com vida. Não há outra tentativa na mesma pergunta.
 
 Em **20/10/2026**, o usuário solicitou adicionar uma tarefa para implementar o **modo clássico como padrão**, com **cinco fases totais**, modalidades diferentes em ordem aleatória e a **final sempre por último**. A [T36](tasks/T36-modo-classico-padrao.md) registra quatro fases de pontuação e a final na quinta posição. Para o catálogo atual, planeja sortear quatro entre as cinco modalidades de pontuação e sua ordem, sem repetição. Essa estrutura substitui a proposta de cinco fases fixas mais final; o modo ainda será implementado. As decisões D02–D06 não foram respondidas por esse pedido.

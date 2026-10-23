@@ -14,6 +14,7 @@ import { strings } from '../strings/pt-BR';
 import type { createRoomStore } from './room-store';
 
 interface SessionState {
+  loadNarration: (roomId: string, questionId: string, signal: AbortSignal) => Promise<ArrayBuffer>;
   session: GuestSession | null;
   status: 'loading' | 'idle' | 'active' | 'offline' | 'ended';
   connection: ConnectionStatus;
@@ -209,6 +210,11 @@ export function createSessionStore(
       return pending;
     }
     return {
+      loadNarration(roomId, questionId, signal) {
+        if (!credentials || get().status !== 'active')
+          return Promise.reject(new Error(strings.errors.offlineAction));
+        return http.narration(credentials, roomId, questionId, signal);
+      },
       session: null,
       status: 'loading',
       connection: 'connecting',

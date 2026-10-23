@@ -6,6 +6,7 @@ coverage/
 .env.*
 !.env.example
 *.log
+data/narration/generated/
 .DS_Store
 Thumbs.db
 playwright-report/
