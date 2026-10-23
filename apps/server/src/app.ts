@@ -11,6 +11,7 @@ import Fastify, { LogController } from 'fastify';
 import type { FastifyLoggerOptions } from 'fastify';
 import { Server } from 'socket.io';
 import type { Socket } from 'socket.io';
+import type { Duplex } from 'node:stream';
 import type { Runtime, SessionTokenCodec } from './ports.js';
 import { loadConfig, SOCKET_PATH, validateConfig } from './platform/config.js';
 import type { ServerConfig } from './platform/config.js';
@@ -30,7 +31,10 @@ import type { PrototypeParameters } from './modules/scoring/match-rules.js';
 import { createMatchHandlers } from './modules/matches/match.handlers.js';
 import { createRoomPublisher } from './modules/views/room-publisher.js';
 import { PublicCommandError } from './command-error.js';
-import { closeConnections } from './platform/realtime/close-connections.js';
+import {
+  closeConnections,
+  closeUpgradedConnections,
+} from './platform/realtime/close-connections.js';
 import { LocalQuestionRepository } from './platform/local-question.repository.js';
 import { registerWeb } from './platform/web.js';
 import type { QuestionRepository } from './modules/questions/question.repository.js';
@@ -92,6 +96,11 @@ export function buildApp(deps: AppDependencies = {}) {
   });
   const runtime =
     deps.runtime ?? createSystemRuntime(() => app.log.error('Falha em tarefa agendada.'));
+  const upgradedConnections = new Set<Duplex>();
+  app.server.on('upgrade', (_request, connection) => {
+    upgradedConnections.add(connection);
+    connection.once('close', () => upgradedConnections.delete(connection));
+  });
   const sessions = new GuestSessionStore({
     clock: runtime.clock,
     scheduler: runtime.scheduler,
@@ -345,6 +354,7 @@ export function buildApp(deps: AppDependencies = {}) {
     handshakes.clear();
     await runtime.scheduler.dispose();
     await Promise.allSettled(running);
+    await closeUpgradedConnections(upgradedConnections);
   });
   app.addHook('onClose', async () => {
     await realtime.close();

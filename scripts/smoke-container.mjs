@@ -22,7 +22,7 @@ const execute = promisify(execFile);
 const image = process.argv[2] ?? 'penshow:local';
 const containers = [],
   sockets = [],
-  uploads = [];
+  tcpClients = [];
 const temporary = await mkdtemp(join(tmpdir(), 'penshow-container-'));
 async function docker(...args) {
   const { stdout, stderr } = await execute('docker', args, {
@@ -232,8 +232,21 @@ try {
       ),
     20_000,
   );
+  // A peer that reads frames without acknowledging WebSocket Close must not hold the process open.
+  const stalledWebSocket = createConnection({
+    host: '127.0.0.1',
+    port: Number(new URL(origin).port),
+  });
+  tcpClients.push(stalledWebSocket);
+  await once(stalledWebSocket, 'connect');
+  const upgraded = once(stalledWebSocket, 'data');
+  stalledWebSocket.write(
+    'GET /penshow/socket.io/?EIO=4&transport=websocket HTTP/1.1\r\nHost: localhost\r\nConnection: Upgrade\r\nUpgrade: websocket\r\nSec-WebSocket-Version: 13\r\nSec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\r\n\r\n',
+  );
+  assert.match(String((await upgraded)[0]), /101 Switching Protocols/u);
+  stalledWebSocket.resume();
   const upload = createConnection({ host: '127.0.0.1', port: Number(new URL(origin).port) });
-  uploads.push(upload);
+  tcpClients.push(upload);
   await once(upload, 'connect');
   const continuing = once(upload, 'data');
   upload.write(
@@ -242,6 +255,7 @@ try {
   assert.match(String((await continuing)[0]), /100 Continue/u);
   await docker('stop', '--time', '15', name);
   upload.destroy();
+  stalledWebSocket.destroy();
   assert.equal(await docker('inspect', '--format', '{{.State.ExitCode}}', name), '0');
   host.socket.disconnect();
   guest.socket.disconnect();
@@ -364,7 +378,7 @@ try {
   }
   throw error;
 } finally {
-  for (const upload of uploads) upload.destroy();
+  for (const client of tcpClients) client.destroy();
   for (const socket of sockets) socket.disconnect();
   for (const name of containers) {
     try {
