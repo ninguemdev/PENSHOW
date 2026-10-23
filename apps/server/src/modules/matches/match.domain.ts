@@ -11,6 +11,7 @@ import {
 } from '@penshow/shared';
 import type { QuizRoster } from '../rooms/room.js';
 import type { PreparedQuestion } from '../questions/question.js';
+import { questionReadingMs } from '../questions/question-reading.js';
 import type { RoundSelectionView, SelectionCheckpoint } from '../questions/question-selection.js';
 import { freezeMatchRules, type FrozenMatchRules } from '../scoring/match-rules.js';
 import {
@@ -503,7 +504,7 @@ export function transitionMatch(
           state.stage = {
             phase: 'question-reading',
             question: stage.question,
-            opensAt: deadline(now, parameters.timings.readingMs),
+            opensAt: deadline(now, questionReadingMs(stage.question, parameters.timings.readingMs)),
           };
           break;
         case 'question-reading':
@@ -591,7 +592,10 @@ export function transitionMatch(
           : {
               phase: 'question-reading',
               question: structuredClone(event.question),
-              opensAt: deadline(now, parameters.timings.readingMs),
+              opensAt: deadline(
+                now,
+                questionReadingMs(event.question, parameters.timings.readingMs),
+              ),
             }
         : { phase: 'round-results', deadlineAt: deadline(now, parameters.timings.roundResultsMs) };
       break;

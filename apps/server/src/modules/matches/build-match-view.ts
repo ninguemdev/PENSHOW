@@ -44,6 +44,9 @@ export function buildMatchView(state: MatchState, viewerId: PlayerId) {
       const question = stage.question.publicQuestion;
       view = {
         phase: stage.phase,
+        ...(stage.question.narration
+          ? { narration: { ...stage.question.narration, voice: 'robot-pt-br-v1' as const } }
+          : {}),
         round,
         opensAt: stage.opensAt,
         ...(round.mode === 'wager' ? { ownWager } : {}),

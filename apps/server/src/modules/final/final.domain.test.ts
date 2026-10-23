@@ -62,6 +62,26 @@ function target(state: FinalState, playerId = ids[0]!, targetPlayerId = ids[1]!,
   );
 }
 describe('final de primeira resposta exclusiva', () => {
+  it('não aceita a primeira resposta enquanto o narrador lê e só inicia o prazo depois da leitura', () => {
+    const state = initial();
+    state.stage = { phase: 'awaiting-final-question', previousQuestionId: null };
+    const reading = transitionFinal(
+      state,
+      {
+        kind: 'final-question-prepared',
+        question: { ...prepared(), narration: { durationMs: 7000 } },
+      },
+      1000,
+      rules,
+    ).state;
+    expect(reading.stage).toMatchObject({ phase: 'final-question-reading', opensAt: 9500 });
+    expect(() => answer(reading, true, ids[0]!, 4000)).toThrow();
+    expect(expire(reading).state.stage).toMatchObject({
+      phase: 'final-question-open',
+      opensAt: 9500,
+      deadlineAt: 24500,
+    });
+  });
   it('primeiro errado perde uma vida; segundo acerto não é avaliado', () => {
     const open = nextOpen(),
       result = answer(open, false).state;

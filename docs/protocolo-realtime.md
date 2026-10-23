@@ -1,5 +1,7 @@
 # Protocolo público — versão 1
 
+A T37 acrescenta `narration?: { voice: "robot-pt-br-v1", durationMs: number }` às etapas `question-reading` e `final-question-reading`. `opensAt` continua sendo o instante oficial de liberação das respostas, agora considerando a duração medida da gravação quando habilitada. Nenhum comando ou callback de áudio altera esse instante. O WAV do enunciado atual é obtido por HTTP autenticado, conforme [narrador robótico](narrador-robotico.md). Schemas e consumidores da versão 1 em desenvolvimento são atualizados juntos.
+
 Os schemas e tipos deste protocolo estão implementados em `packages/shared/src/`, exportados por `@penshow/shared`. Socket.IO, `time:sync`, as [sessões de convidado](sessoes.md) e os seis comandos `room:*` estão disponíveis. A [T15](quiz-classico.md) conecta `match:start`, `round:ready`, `category:choose`, `answer:submit` e `match:returnToLobby` ao protótipo clássico somente em desenvolvimento/teste. HTTP executa saúde, criação, verificação e renovação de sessão.
 
 Os contratos não dependem de Socket.IO, Fastify, React ou Node. O transporte Socket.IO usa `/penshow/socket.io` no mesmo servidor HTTP, confere a origem e valida os envelopes. A configuração e o ciclo de vida estão em [servidor](servidor.md). Comandos de negócio exigem sessão válida e conexão ativa; `time:sync` permanece uma consulta pública.

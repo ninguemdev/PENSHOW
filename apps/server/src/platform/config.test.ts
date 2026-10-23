@@ -22,6 +22,7 @@ describe('configuração do servidor', () => {
       guestSessionTtlMs: 86400000,
       logLevel: 'warn',
       webBasePath: '/penshow/',
+      narrationEnabled: true,
     });
     expect(Object.isFrozen(config)).toBe(true);
     expect(Object.isFrozen(config.allowedOrigins)).toBe(true);
@@ -48,6 +49,7 @@ describe('configuração do servidor', () => {
     { ALLOWED_ORIGINS: 'https://example.com?token=secret' },
     { ALLOWED_ORIGINS: 'https://example.com,https://example.com' },
     { NODE_ENV: 'production' },
+    { NARRATION_ENABLED: 'yes' },
     { WEB_ROOT: '' },
     { WEB_ROOT: 'relative/path' },
     { WEB_BASE_PATH: 'penshow' },

@@ -33,6 +33,7 @@ ENV NODE_ENV=production \
 COPY --from=build --chown=node:node /out/apps/server ./apps/server
 COPY --from=build --chown=node:node /workspace/apps/web/dist ./apps/web/dist
 COPY --from=build --chown=node:node /workspace/data/questions/published/catalog.json ./data/questions/published/catalog.json
+COPY --from=build --chown=node:node /workspace/data/narration/generated ./data/narration/generated
 COPY --from=build --chown=node:node /workspace/data/licenses ./data/licenses
 COPY --from=build --chown=node:node /workspace/data/sources.json ./data/sources.json
 COPY --from=build --chown=node:node /workspace/licenses ./licenses

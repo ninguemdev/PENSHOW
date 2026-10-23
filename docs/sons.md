@@ -1,5 +1,7 @@
 # Sons e preferências do jogador
 
+O [narrador robótico](narrador-robotico.md) acrescenta leitura de enunciados com volume/ativação próprios. As regras de gravação, privacidade e sincronização dessa voz estão no guia específico; os seis efeitos abaixo continuam independentes.
+
 A T31 acrescenta seis avisos sintetizados no próprio navegador. A abordagem vem do [áudio do Comicle no commit analisado](https://github.com/ninguemdev/Comicle/tree/4521f34df78da7de54a30715d50e748c50aa0696/apps/web/src/features/sound): catálogo declarativo, motor Web Audio, preferências separadas e efeitos derivados da visão. A implementação e as composições são próprias do PENSHOW; nenhum arquivo de áudio ou código do Comicle foi copiado nesta tarefa.
 
 ## Controles e persistência
@@ -31,7 +33,7 @@ Com áudio desligado, indisponível ou ainda bloqueado, os avisos são consumido
 
 `sound-catalog.ts` contém as frequências, ondas, ganhos e durações. `sound-engine.ts` cria osciladores e envelopes com ataque/fade curtos e limita o ganho principal a `0,5 × volume²`. Uma nova composição substitui as fontes da anterior; não há som contínuo ou tique por segundo. O maior aviso termina em até 0,675 s, incluindo a cauda de parada. O áudio não usa callbacks para pontuação, timers ou mudança de etapa.
 
-Os únicos recursos são os nós Web Audio locais. Não há MP3/WAV baixado, voz remota, serviço externo ou dependência nova de áudio. `AudioContext` é criado/retomado no gesto explícito, conforme as [boas práticas do Web Audio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices). Falhas de criação, resume e descarte ficam no serviço e não interrompem a partida.
+Os únicos recursos do motor dos seis avisos são os nós Web Audio locais. Esses efeitos não baixam MP3/WAV nem dependem de voz remota ou serviço externo. `AudioContext` é criado/retomado no gesto explícito, conforme as [boas práticas do Web Audio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices). Falhas de criação, resume e descarte ficam no serviço e não interrompem a partida.
 
 ## Verificação e prévia
 

@@ -11,7 +11,11 @@ export async function createSite(overrides: AppDependencies = {}) {
   const origin = `http://127.0.0.1:${port}`;
   const app = buildApp({
     ...overrides,
-    config: loadConfig({ NODE_ENV: 'test', ALLOWED_ORIGINS: origin }),
+    config: {
+      ...loadConfig({ NODE_ENV: 'test', ALLOWED_ORIGINS: origin }),
+      ...overrides.config,
+      allowedOrigins: [origin],
+    },
   });
   let web: Awaited<ReturnType<typeof preview>> | undefined;
   try {

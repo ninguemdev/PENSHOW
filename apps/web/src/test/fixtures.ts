@@ -10,6 +10,8 @@ import { createLobbyStore } from '../stores/lobby-store';
 import { createMatchStore } from '../stores/match-store';
 import { createSoundEngine } from '../features/sound/sound-engine';
 import { createSoundStore } from '../stores/sound-store';
+import { createNarratorStore } from '../stores/narrator-store';
+import { createNarratorEngine } from '../features/sound/narrator-engine';
 
 export const issuedSession = issuedGuestSessionSchema.parse({
   scope: 'penshow',
@@ -95,6 +97,10 @@ export function testStores(access = memoryStorage().access) {
       room,
       profile: profileStore,
       session,
+      narrator: createNarratorStore(access, createNarratorEngine(), {
+        question: (...args) => session.getState().loadNarration(...args),
+        preview: (signal) => http.narrationPreview(signal),
+      }),
       sound: createSoundStore(
         access,
         createSoundEngine(() => null),

@@ -44,7 +44,24 @@ export function createHttpClient(request: typeof fetch = (...args) => fetch(...a
     }
   }
   const auth = (session: IssuedGuestSession) => ({ Authorization: `Bearer ${session.token}` });
+  async function audio(path: string, signal: AbortSignal, session?: IssuedGuestSession) {
+    const response = await request(`/api${path}`, {
+      cache: 'no-store',
+      signal: AbortSignal.any([signal, AbortSignal.timeout(8000)]),
+      ...(session ? { headers: auth(session) } : {}),
+    });
+    if (!response.ok || !response.headers.get('content-type')?.startsWith('audio/wav'))
+      throw new ApiError(response.status, strings.narrator.unavailable);
+    return response.arrayBuffer();
+  }
   return {
+    narration: (
+      session: IssuedGuestSession,
+      roomId: string,
+      questionId: string,
+      signal: AbortSignal,
+    ) => audio(`/rooms/${roomId}/narration/${questionId}`, signal, session),
+    narrationPreview: (signal: AbortSignal) => audio('/narration/preview', signal),
     health: () => send('/health', healthResponseSchema),
     createSession: () => send('/guest-sessions', issuedGuestSessionSchema, { method: 'POST' }),
     verifySession: (session: IssuedGuestSession) =>

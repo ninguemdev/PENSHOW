@@ -111,6 +111,7 @@ interface FinalSelection {
 
 /** Private selection, checkpointed with the match inside each room transaction. */
 export class QuestionSelection {
+  private readonly narrationDurations = new Map<string, number>();
   private readonly questions: ApprovedQuestion[];
   private readonly rounds = new Map<RoundId, SelectionRound>();
   private readonly claimed = new Set<string>();
@@ -198,6 +199,10 @@ export class QuestionSelection {
     this.editorialIds = new Set(
       this.questions.flatMap((q) => [q.id, ...q.options.map((o) => o.id)]),
     );
+    for (const question of this.questions) {
+      const durationMs = repository.narrationDuration?.(question.id);
+      if (durationMs !== undefined) this.narrationDurations.set(question.id, durationMs);
+    }
     this.queue = choiceQueue(options.players, deps.random, options.previousChoiceQueue);
   }
 
@@ -588,6 +593,9 @@ export class QuestionSelection {
     });
     if (!publicQuestion.success || !correctOptionId) throw new SelectionError('invalid-catalog');
     const prepared: PreparedQuestion = {
+      ...(this.narrationDurations.has(question.id)
+        ? { narration: { durationMs: this.narrationDurations.get(question.id)! } }
+        : {}),
       publicQuestion: publicQuestion.data,
       editorialQuestionId: question.id,
       editorialOptionByPublicId: mapping,

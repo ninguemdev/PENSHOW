@@ -501,6 +501,50 @@ describe('modo clássico completo em rede — T29', () => {
 });
 
 describe('quiz clássico autenticado em rede', () => {
+  it('narração: entrega somente o enunciado atual a membros autenticados e preserva a janela de resposta', async () => {
+    const f = await fixture({
+      config: loadConfig({ NODE_ENV: 'test', NARRATION_ENABLED: 'true' }),
+    });
+    const g = await f.group();
+    await g.start();
+    for (const client of g.participants)
+      expect(await client.command('round:ready', g.context())).toMatchObject({ status: 'ok' });
+    await g.choose();
+    const reading = await stage(g.host, 'question-reading', g.room.snapshot().stateVersion);
+    expect(reading.stage.narration?.durationMs).toBeGreaterThan(0);
+    const url = `/api/rooms/${g.room.id}/narration/${reading.stage.question.questionId}`;
+    expect((await f.app.inject(url)).statusCode).toBe(401);
+    const outsider = await f.issue();
+    expect(
+      (await f.app.inject({ url, headers: { authorization: `Bearer ${outsider.token}` } }))
+        .statusCode,
+    ).toBe(404);
+    const audio = await f.app.inject({
+      url,
+      headers: { authorization: `Bearer ${g.host.session!.token}` },
+    });
+    expect(audio.statusCode).toBe(200);
+    expect(audio.headers['content-type']).toContain('audio/wav');
+    expect(audio.headers['cache-control']).toBe('no-store');
+    expect(audio.rawPayload.toString('ascii', 0, 4)).toBe('RIFF');
+    const durationMs = Math.ceil(((audio.rawPayload.length - 44) * 1000) / 44100);
+    expect(reading.stage.narration?.durationMs).toBe(durationMs);
+    expect(reading.stage.opensAt).toBe(f.time.now() + Math.max(3000, durationMs + 1500));
+    error(await g.host.command('answer:submit', g.answerPayload()), 'INVALID_PHASE');
+    privacy(g.host);
+    privacy(g.guest);
+    await g.advance();
+    const opened = await stage(g.host, 'question-open', g.room.snapshot().stateVersion);
+    expect(opened.stage.deadlineAt - opened.stage.opensAt).toBe(15000);
+    for (const client of g.participants)
+      expect(await client.command('answer:submit', g.answerPayload())).toMatchObject({
+        status: 'ok',
+      });
+    expect(
+      (await f.app.inject({ url, headers: { authorization: `Bearer ${g.host.session!.token}` } }))
+        .statusCode,
+    ).toBe(404);
+  });
   it('isola três salas com 12 jogadores sob respostas, prazo, queda e alvos concorrentes', async () => {
     const f = await fixture();
     const groups = [];

@@ -37,6 +37,7 @@ import {
 } from './platform/realtime/close-connections.js';
 import { LocalQuestionRepository } from './platform/local-question.repository.js';
 import { registerWeb } from './platform/web.js';
+import { registerNarrationRoutes } from './modules/questions/narration.routes.js';
 import type { QuestionRepository } from './modules/questions/question.repository.js';
 import {
   DEFAULT_TRAFFIC_POLICY,
@@ -110,7 +111,10 @@ export function buildApp(deps: AppDependencies = {}) {
     maxSessions: traffic.maxSessions,
   });
   const connections = new ActiveConnections(sessions, runtime.scheduler);
-  const localQuestions = new LocalQuestionRepository(deps.questionCatalogFile);
+  const localQuestions = new LocalQuestionRepository(
+    deps.questionCatalogFile,
+    config.narrationEnabled,
+  );
   const questions = deps.questions ?? localQuestions;
   const allowed = new Set(config.allowedOrigins);
   const acceptsOrigin = (origin: string | undefined) => origin === undefined || allowed.has(origin);
@@ -221,6 +225,20 @@ export function buildApp(deps: AppDependencies = {}) {
     onError: () => app.log.error('Falha ao observar alteração de sala.'),
   });
   const running = new Set<Promise<void>>();
+  if (localQuestions.narration) {
+    registerNarrationRoutes(app, rooms, sessions, localQuestions.narration, {
+      requests: sessionRequests,
+      windowMs: traffic.windowMs,
+    });
+    app.register(
+      async (api) =>
+        registerNarrationRoutes(api, rooms, sessions, localQuestions.narration!, {
+          requests: sessionRequests,
+          windowMs: traffic.windowMs,
+        }),
+      { prefix: '/api' },
+    );
+  }
   const trackPresence = (task: Promise<void>) => {
     const execution = task.catch((error) => {
       if (!(error instanceof PublicCommandError))

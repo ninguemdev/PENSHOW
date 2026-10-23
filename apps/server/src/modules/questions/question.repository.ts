@@ -9,4 +9,5 @@ export interface QuestionFilter {
 export interface QuestionRepository {
   list(filter?: QuestionFilter): readonly ApprovedQuestion[];
   availability(): QuestionAvailability;
+  narrationDuration?(editorialQuestionId: string): number | undefined;
 }

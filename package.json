@@ -9,8 +9,9 @@
     "node": ">=24.15.0 <25"
   },
   "scripts": {
-    "dev": "pnpm --filter @penshow/shared build && pnpm --parallel -r dev",
-    "build": "pnpm -r build",
+    "dev": "pnpm narrations:build && pnpm --filter @penshow/shared build && pnpm --parallel -r dev",
+    "build": "pnpm narrations:build && pnpm -r build",
+    "narrations:build": "node scripts/build-narrations.mjs",
     "start": "pnpm --filter @penshow/server start",
     "lint": "eslint . --max-warnings 0",
     "format": "prettier --write .",
@@ -27,17 +28,19 @@
     "questions:simulate:classic": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-classic-stock.ts",
     "pilot:simulate": "pnpm --filter @penshow/server exec tsx ../../scripts/simulate-group-pilot.ts",
     "avatars:check": "pnpm --filter @penshow/shared build && node scripts/check-avatars.mjs",
-    "test": "pnpm test:content && pnpm test:assets && pnpm -r test",
+    "test": "pnpm narrations:build && pnpm test:content && pnpm test:assets && pnpm -r test",
     "test:e2e": "pnpm questions:check && pnpm build && pnpm test:e2e:run",
     "test:e2e:run": "pnpm --filter @penshow/e2e smoke",
     "test:e2e:classic": "pnpm --filter @penshow/e2e complete",
     "test:e2e:a11y": "pnpm --filter @penshow/e2e accessibility",
     "test:e2e:sound": "pnpm --filter @penshow/e2e sound",
+    "test:e2e:narrator": "pnpm --filter @penshow/e2e narrator",
     "test:container": "node scripts/smoke-container.mjs",
     "test:assets": "pnpm --filter @penshow/shared build && node --test scripts/avatars/*.test.mjs",
     "test:content": "node --test scripts/lib/*.test.mjs"
   },
   "devDependencies": {
+    "@echogarden/espeak-ng-emscripten": "0.3.5",
     "@eslint/js": "10.0.1",
     "@types/node": "24.19.2",
     "eslint": "10.13.0",

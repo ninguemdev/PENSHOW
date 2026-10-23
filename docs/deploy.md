@@ -38,6 +38,7 @@ Somente o estágio final é distribuído. Inclui:
 - `apps/server/dist` e dependências de execução, sem fontes/testes próprios ou ferramentas de desenvolvimento;
 - `apps/web/dist`, com os 50 PNGs de avatar, licenças públicas, HTML e JS/CSS gerados;
 - `data/questions/published/catalog.json`, privado, atualmente com 336 aprovadas;
+- `data/narration/generated`, com WAVs/manifesto privados do narrador robótico, preparados no builder;
 - `data/sources.json`, `data/licenses`, `licenses` e `THIRD_PARTY_NOTICES.md`, preservando procedência e atribuição.
 
 Candidatos, revisões, lotes editoriais, relatórios, `.env`, `.git` e instruções locais de assistentes não integram o runtime. O catálogo fica fora da raiz estática. Não montar `data/`, a raiz do repositório ou diretórios do servidor como arquivos públicos. O builder recebe os insumos editoriais para conferir a publicação; não compartilhar os estágios intermediários como imagem de execução.
@@ -49,6 +50,7 @@ O servidor só publica HTML, assets JS/CSS, avatares PNG e licenças TXT da raiz
 | Variável | Uso |
 |---|---|
 | `NODE_ENV` | `production` na imagem e no Compose. `test`/`development` habilitam regras experimentais; usar apenas em testes privados. |
+| `NARRATION_ENABLED` | `true` em desenvolvimento/produção e `false` por padrão nos testes. Gerações de áudio fazem parte do build; detalhes no [guia do narrador](narrador-robotico.md). |
 | `HOST` | `0.0.0.0` dentro da imagem; fora dela o padrão é `127.0.0.1`. |
 | `PORT` | `3000` interno; ao alterar, ajustar também o mapeamento de portas. O healthcheck lê a mesma variável. |
 | `ALLOWED_ORIGINS` | Obrigatória em produção: origens HTTP(S) exatas separadas por vírgula, sem caminho ou barra final. Exemplo: `https://penshow.example`. |

@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => {
           '.yarnrc.yml',
           '**/.git/**',
           '**/data/questions/**',
+          '**/data/narration/**',
           '**/data/publication-reports/**',
           '**/data/import-reports/**',
           '**/apps/server/**',
