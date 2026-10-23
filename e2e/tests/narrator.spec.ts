@@ -26,6 +26,9 @@ test('narrador: áudio robótico real antes das respostas, sem repetir por prese
   await observeAudio(host.context);
   await observeNarrator(host.context);
   const g = await createClassicGroup(site, players, [4, 3, 2, 1]);
+  await host.page.getByRole('button', { name: 'Ativar som', exact: true }).click();
+  await expect(host.page.getByRole('button', { name: 'Silenciar som', exact: true })).toBeVisible();
+  await host.page.getByRole('slider', { name: /Volume do som/ }).fill('55');
   await host.page.getByRole('button', { name: 'Ativar narrador robótico', exact: true }).click();
   await expect(
     host.page.getByRole('button', { name: 'Desligar narrador', exact: true }),
@@ -53,6 +56,7 @@ test('narrador: áudio robótico real antes das respostas, sem repetir por prese
     host.page.getByText('O robô está narrando o enunciado.', { exact: true }),
   ).toBeVisible();
   expect((await audioState(host.page)).states).toContain('running');
+  await expect(host.page.getByRole('slider', { name: /Volume do som/ })).toHaveValue('55');
   await expect.poll(async () => (await narratorAudio(host.page)).length).toBe(2);
   for (const source of await narratorAudio(host.page)) {
     expect(source.peak).toBeGreaterThan(0);

@@ -24,6 +24,16 @@ async function harness() {
 }
 
 describe('som das fotografias confirmadas', () => {
+  it('acompanha a fala do narrador reduzindo só os efeitos e restaura o volume escolhido', async () => {
+    const f = await harness(),
+      stop = watchGameSounds(f.stores);
+    f.stores.narrator.setState({ status: 'speaking' });
+    expect(f.engine.configure).toHaveBeenLastCalledWith(0.4 * 0.45, false);
+    expect(f.stores.sound.getState().volume).toBe(0.4);
+    f.stores.narrator.setState({ status: 'ready' });
+    expect(f.engine.configure).toHaveBeenLastCalledWith(0.4, false);
+    stop();
+  });
   it('observa todas as transições, mantém deduplicação ao remontar e remove assinaturas', async () => {
     const f = await harness();
     let stop = watchGameSounds(f.stores);
@@ -35,11 +45,11 @@ describe('som das fotografias confirmadas', () => {
     f.push(matchView(phases().instructions, 3));
     f.push(pressureView('open', 4));
     f.push(pressureView('reveal', 5));
-    expect(f.engine.play.mock.calls).toEqual([['start'], ['explosion']]);
+    expect(f.engine.play.mock.calls).toEqual([['start'], ['open'], ['explosion']]);
     stop();
     f.push(matchView(phases(2).open, 6));
     f.push(pressureView('reveal', 7));
-    expect(f.engine.play).toHaveBeenCalledTimes(2);
+    expect(f.engine.play).toHaveBeenCalledTimes(3);
   });
   it('descarta explosões recebidas durante queda ou em aba oculta, sem atraso ao voltar', async () => {
     const f = await harness(),
@@ -56,7 +66,7 @@ describe('som das fotografias confirmadas', () => {
     f.push(matchView(phases(2).reveal, 6));
     visibility.mockReturnValue('visible');
     document.dispatchEvent(new Event('visibilitychange'));
-    expect(f.engine.play).not.toHaveBeenCalled();
+    expect(f.engine.play.mock.calls).toEqual([['open']]);
     expect(f.engine.stop).toHaveBeenCalled();
     stop();
   });

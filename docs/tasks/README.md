@@ -2,7 +2,7 @@
 
 Este backlog segue o formato do Comicle: índice de dependências e status, arquivo por tarefa, entregáveis verificáveis e unidades pequenas de revisão. As tarefas foram desenhadas para o PENSHOW; módulos de quadrinhos não fazem parte do escopo.
 
-**37 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
+**38 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
 
 O status de implementação fica somente neste índice. As checklists dos arquivos registram entregas e evidências.
 
@@ -49,6 +49,7 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T35 | [Publicação e validação final](./T35-publicacao-e-validacao-final.md) | T32, T33, T34 | M6 | ⬜ |
 | T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27 | M3 | 🟨 |
 | T37 | [Narrador robótico antes das respostas](./T37-narrador-robotico.md) | T16, T24, T31 | M5 | ✅ |
+| T38 | [Efeitos sonoros simples e fluidos](./T38-efeitos-sonoros-fluidos.md) | T31, T37 | M5 | ✅ |
 
 Os números organizam o backlog; o que permite começar é a dependência concluída. Por exemplo, T27 pode avançar após T11/T12, mesmo antes de T18. Uma consulta em uma modalidade não impede concluir salas, perfis, conteúdo ou outros módulos independentes.
 
