@@ -32,6 +32,22 @@ jobs:
       - run: pnpm avatars:check
       - run: pnpm build
 
+  container:
+    needs: quality
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @penshow/shared build
+      - run: docker build --tag penshow:ci .
+      - run: pnpm test:container penshow:ci
+
   smoke:
     needs: quality
     runs-on: ubuntu-24.04

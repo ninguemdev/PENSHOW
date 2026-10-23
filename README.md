@@ -38,6 +38,7 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 - [Protocolo realtime](docs/protocolo-realtime.md): comandos, confirmações, erros e versões dos contratos públicos; sincronização de tempo disponível.
 - [Modelo de dados](docs/modelo-de-dados.md): perfis, fases, placar, vidas e separação entre perguntas públicas e dados privados.
 - [Servidor](docs/servidor.md): configuração, portas injetáveis, transporte, erros, logs e encerramento.
+- [Build e operação](docs/deploy.md): imagem Docker, execução local em `/penshow/`, variáveis, proxy HTTPS/WebSocket, logs, reinício e rollback.
 - [Sessões](docs/sessoes.md): criação, verificação, renovação, expiração e conexão ativa por identidade.
 - [Salas](docs/salas.md): fila, membros, anfitrião, comandos autenticados, projeções e ciclo de vida.
 - [Motor de partida](docs/motor-de-partida.md): máquina pura, estratégias, transações, prazos e projeções internas.
@@ -92,7 +93,9 @@ pnpm build
 
 `pnpm test` executa os testes de conteúdo, artes e as suítes Vitest de shared, server e web. `pnpm avatars:check` confere as 50 artes e o catálogo público. `pnpm format` aplica a formatação. Os arquivos editoriais em `data/` e os documentos de planejamento em `docs/` preservam seu formato original.
 
-O build gera `packages/shared/dist`, `apps/server/dist` e `apps/web/dist`. Após compilar, `pnpm start` inicia o servidor e `pnpm --filter @penshow/web preview` serve a web para inspeção do artefato. Os proxies HTTP/socket do Vite funcionam no preview; na hospedagem estática, encaminhe `/api` ao servidor removendo esse prefixo e `/penshow/socket.io` preservando o caminho e o upgrade WebSocket. `VITE_BASE_PATH` permite servir a web em `/penshow/`; consulte [interface](docs/interface.md). A operação de produção será tratada em T34.
+O build gera `packages/shared/dist`, `apps/server/dist` e `apps/web/dist`. Após compilar, `pnpm start` inicia o servidor e `pnpm --filter @penshow/web preview` serve a web para inspeção do artefato. Os proxies HTTP/socket do Vite funcionam no preview. O servidor também atende `/api` diretamente e pode servir a interface compilada quando `WEB_ROOT` está configurado. `VITE_BASE_PATH` e `WEB_BASE_PATH` precisam coincidir; consulte [interface](docs/interface.md) e [deploy](docs/deploy.md).
+
+`docker compose --env-file infra/production.env.example up --build --detach --wait` constrói a imagem e abre a interface em `http://127.0.0.1:8080/penshow/`, com API e socket no mesmo processo. Em produção, somente perfis/salas/lobby estão habilitados; as regras experimentais das partidas continuam restritas a desenvolvimento/teste. `pnpm test:container penshow:local` verifica a imagem, privacidade, parada/reinício e uma partida curta na mesma imagem em teste local. A hospedagem externa continua na T35/D08.
 
 `PORT` e `HOST` configuram a escuta do servidor (padrões: `3000` e `127.0.0.1`). Se mudar a porta, ajuste também o destino do proxy em `apps/web/vite.config.ts`. Socket.IO usa `/penshow/socket.io`, com origens permitidas e limites de mensagem configuráveis. As variáveis estão em `.env.example`; o arquivo `.env` não é carregado automaticamente. Consulte [servidor](docs/servidor.md) para uso do ambiente e [desenvolvimento](docs/desenvolvimento.md) para ferramentas e verificações.
 

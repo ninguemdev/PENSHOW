@@ -44,6 +44,8 @@ O registro recebe ator identificado e envelope validado. `room.handlers.ts` capt
 | `SOCKET_MESSAGE_LIMIT` | `65536` | De 1024 a 1048576 bytes |
 | `LOG_LEVEL` | `info`; `silent` em testes | Níveis do logger: silent/fatal/error/warn/info/debug/trace |
 | `GUEST_SESSION_TTL_MS` | `86400000` (24 horas) | Inteiro de 1000 a 604800000; renovação explícita da janela |
+| `WEB_ROOT` | Ausente (somente API/socket) | Caminho absoluto da web compilada; conteúdo validado no startup |
+| `WEB_BASE_PATH` | `/penshow/` | Caminho absoluto terminado em `/`, igual ao build web; `/api/` e `/comicle/` reservados |
 
 Origens não incluem caminho, credenciais, query ou barra final. Não usar `*` ou `null`. Configurações e sua lista de origens ficam congeladas em execução. Os limites de bytes são orçamentos de transporte; os schemas continuam verificando limites e estrutura dos campos.
 
@@ -57,7 +59,9 @@ node --env-file=.env apps/server/dist/main.js
 
 ## Rede, origem e comandos
 
-Socket.IO usa o caminho **`/penshow/socket.io`**, distinto de `/socket.io` e de caminhos do Comicle. O bundle de cliente não é servido pelo servidor. O cliente futuro deve configurar o mesmo caminho; essa configuração é independente do caminho base de páginas web.
+Socket.IO usa o caminho **`/penshow/socket.io`**, distinto de `/socket.io` e de caminhos do Comicle. O bundle da biblioteca Socket.IO não é servido pelo transporte (`serveClient: false`); a interface compilada pode ser servida pelo módulo web quando `WEB_ROOT` está configurado. O cliente usa o mesmo caminho de socket, independente da base HTML.
+
+A T34 acrescenta aliases HTTP em `/api/health` e `/api/guest-sessions`, compartilhando sessões e limites com as rotas históricas sem prefixo. Assim, a imagem serve cliente/API/socket sem proxy interno. O módulo web só expõe tipos públicos permitidos da raiz compilada e rotas conhecidas da SPA; conteúdo privado e caminhos ausentes não recebem HTML. Cache, imagem e operação estão em [deploy](deploy.md). As partidas experimentais continuam ausentes em produção.
 
 Polling e WebSocket estão habilitados. A origem é conferida no handshake por `allowRequest`, além dos cabeçalhos CORS. HTTP recusa origem explícita não permitida com 403; preflight válido recebe os cabeçalhos CORS. Clientes sem `Origin`, como ferramentas nativas, podem conectar. Origem não autentica um jogador.
 

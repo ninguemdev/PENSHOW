@@ -1,15 +1,20 @@
 import { buildApp } from './app.js';
 import { loadConfig } from './platform/config.js';
 import { QuestionCatalogLoadError } from './platform/local-question.repository.js';
+import { WebBuildLoadError } from './platform/web.js';
 
 try {
   const config = loadConfig(process.env);
   const app = buildApp({ config });
   const shutdown = () => {
-    void app.close().catch(() => {
-      app.log.error('Falha ao encerrar o servidor.');
-      process.exitCode = 1;
-    });
+    app.log.info('Encerrando o servidor.');
+    void app.close().then(
+      () => app.log.info('Servidor encerrado.'),
+      () => {
+        app.log.error('Falha ao encerrar o servidor.');
+        process.exitCode = 1;
+      },
+    );
   };
   for (const signal of ['SIGINT', 'SIGTERM'] as const) process.once(signal, shutdown);
   try {
@@ -17,7 +22,7 @@ try {
     app.log.info({ address }, 'PENSHOW disponível.');
   } catch (error) {
     app.log.error(
-      error instanceof QuestionCatalogLoadError
+      error instanceof QuestionCatalogLoadError || error instanceof WebBuildLoadError
         ? error.message
         : 'Não foi possível iniciar o servidor. Confira HOST, PORT e a disponibilidade da porta.',
     );

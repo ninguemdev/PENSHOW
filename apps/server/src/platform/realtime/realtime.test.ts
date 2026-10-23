@@ -1,6 +1,8 @@
 import { acknowledgementSchema } from '@penshow/shared';
 import { io } from 'socket.io-client';
 import type { Socket } from 'socket.io-client';
+import { createConnection } from 'node:net';
+import { once } from 'node:events';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { buildApp } from '../../app.js';
 import type { AppDependencies } from '../../app.js';
@@ -56,6 +58,32 @@ async function connect(
 }
 
 describe('transporte Socket.IO real em porta efêmera', () => {
+  it('fecha o TCP de um cliente WebSocket que não confirma o handshake de encerramento', async () => {
+    const { app, address } = await start();
+    const peer = createConnection({ host: '127.0.0.1', port: Number(new URL(address).port) });
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    try {
+      await once(peer, 'connect');
+      const upgraded = once(peer, 'data');
+      peer.write(
+        'GET /penshow/socket.io/?EIO=4&transport=websocket HTTP/1.1\r\nHost: localhost\r\nConnection: Upgrade\r\nUpgrade: websocket\r\nSec-WebSocket-Version: 13\r\nSec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\r\n\r\n',
+      );
+      expect(String((await upgraded)[0])).toContain('101 Switching Protocols');
+      // A raw TCP client consumes frames without sending a WebSocket Close acknowledgement.
+      peer.resume();
+      const closed = once(peer, 'close');
+      await Promise.race([
+        Promise.all([app.close(), closed]),
+        new Promise<void>((_resolve, reject) => {
+          timer = setTimeout(() => reject(new Error('TCP WebSocket permaneceu aberto.')), 2000);
+        }),
+      ]);
+      expect(peer.destroyed).toBe(true);
+    } finally {
+      clearTimeout(timer);
+      peer.destroy();
+    }
+  });
   it('limita novas tentativas de handshake por IP mesmo após fechar a conexão', async () => {
     const { app, address, time } = await start({
       trafficPolicy: { ...DEFAULT_TRAFFIC_POLICY, handshakesPerWindow: 1 },

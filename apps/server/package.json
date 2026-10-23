@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsx watch --include ../../packages/shared/dist/** src/main.ts",
     "build": "tsc -p tsconfig.build.json",
@@ -12,6 +15,7 @@
   },
   "dependencies": {
     "@fastify/cors": "11.3.1",
+    "@fastify/static": "10.1.7",
     "@penshow/shared": "workspace:*",
     "fastify": "5.12.7",
     "socket.io": "4.8.4",

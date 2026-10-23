@@ -11,6 +11,7 @@ import Fastify, { LogController } from 'fastify';
 import type { FastifyLoggerOptions } from 'fastify';
 import { Server } from 'socket.io';
 import type { Socket } from 'socket.io';
+import type { Duplex } from 'node:stream';
 import type { Runtime, SessionTokenCodec } from './ports.js';
 import { loadConfig, SOCKET_PATH, validateConfig } from './platform/config.js';
 import type { ServerConfig } from './platform/config.js';
@@ -30,8 +31,12 @@ import type { PrototypeParameters } from './modules/scoring/match-rules.js';
 import { createMatchHandlers } from './modules/matches/match.handlers.js';
 import { createRoomPublisher } from './modules/views/room-publisher.js';
 import { PublicCommandError } from './command-error.js';
-import { closeConnections } from './platform/realtime/close-connections.js';
+import {
+  closeConnections,
+  closeUpgradedConnections,
+} from './platform/realtime/close-connections.js';
 import { LocalQuestionRepository } from './platform/local-question.repository.js';
+import { registerWeb } from './platform/web.js';
 import type { QuestionRepository } from './modules/questions/question.repository.js';
 import {
   DEFAULT_TRAFFIC_POLICY,
@@ -58,6 +63,8 @@ export function buildApp(deps: AppDependencies = {}) {
   const traffic = validateTrafficPolicy(deps.trafficPolicy ?? DEFAULT_TRAFFIC_POLICY);
   const app = Fastify({
     bodyLimit: config.httpBodyLimit,
+    // preClose drains domain work and realtime first; incomplete HTTP uploads must not hold shutdown.
+    forceCloseConnections: true,
     logController: new LogController({ disableRequestLogging: true }),
     genReqId: () => runtime.ids.next(),
     logger: {
@@ -89,6 +96,11 @@ export function buildApp(deps: AppDependencies = {}) {
   });
   const runtime =
     deps.runtime ?? createSystemRuntime(() => app.log.error('Falha em tarefa agendada.'));
+  const upgradedConnections = new Set<Duplex>();
+  app.server.on('upgrade', (_request, connection) => {
+    upgradedConnections.add(connection);
+    connection.once('close', () => upgradedConnections.delete(connection));
+  });
   const sessions = new GuestSessionStore({
     clock: runtime.clock,
     scheduler: runtime.scheduler,
@@ -112,6 +124,10 @@ export function buildApp(deps: AppDependencies = {}) {
   app.addHook('onRequest', async (request, reply) => {
     if (!acceptsOrigin(request.headers.origin))
       return reply.code(403).send({ error: createDomainError('FORBIDDEN') });
+  });
+  app.addHook('onSend', async (_request, reply) => {
+    if (!reply.hasHeader('Cache-Control')) reply.header('Cache-Control', 'no-store');
+    reply.header('X-Content-Type-Options', 'nosniff');
   });
   app.register(cors, {
     origin: [...config.allowedOrigins],
@@ -138,6 +154,18 @@ export function buildApp(deps: AppDependencies = {}) {
     requests: sessionRequests,
     windowMs: traffic.windowMs,
   });
+  app.register(
+    async (api) => {
+      api.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
+      registerSessionRoutes(api, sessions, {
+        creates: sessionCreates,
+        requests: sessionRequests,
+        windowMs: traffic.windowMs,
+      });
+    },
+    { prefix: '/api' },
+  );
+  if (config.webRoot) registerWeb(app, config.webRoot, config.webBasePath);
   app.addHook('onReady', async () => {
     if (!deps.questions) await localQuestions.load();
     sessions.startSweeping();
@@ -326,6 +354,7 @@ export function buildApp(deps: AppDependencies = {}) {
     handshakes.clear();
     await runtime.scheduler.dispose();
     await Promise.allSettled(running);
+    await closeUpgradedConnections(upgradedConnections);
   });
   app.addHook('onClose', async () => {
     await realtime.close();

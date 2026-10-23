@@ -1,0 +1,40 @@
+# Incluir no contexto http do Nginx. Trocar domínio e caminhos dos certificados.
+map $http_upgrade $penshow_connection_upgrade {
+    default upgrade;
+    '' close;
+}
+
+server {
+    listen 443 ssl;
+    server_name penshow.example;
+    ssl_certificate /etc/ssl/penshow/fullchain.pem;
+    ssl_certificate_key /etc/ssl/penshow/privkey.pem;
+
+    # Não registrar tokens, query strings ou corpos de requisição.
+    access_log off;
+    client_max_body_size 1m;
+
+    location = /penshow { return 308 /penshow/; }
+
+    location ^~ /penshow/socket.io/ {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $penshow_connection_upgrade;
+        proxy_set_header Host $host;
+        proxy_read_timeout 75s;
+        proxy_send_timeout 75s;
+        proxy_buffering off;
+    }
+
+    location /penshow/ {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+    }
+
+    location /api/ {
+        # Preservar /api: o servidor já atende esse prefixo.
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+    }
+}
