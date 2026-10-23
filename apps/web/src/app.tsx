@@ -13,6 +13,7 @@ import { SoundControls } from './features/sound/sound-controls';
 import { watchGameSounds } from './features/sound/sound-controller';
 import { NarratorControls } from './features/sound/narrator-controls';
 import { watchNarrator } from './features/sound/narrator-controller';
+import { watchInterfaceSounds } from './features/sound/interface-sounds';
 export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
   const [stores] = useState(() => suppliedStores ?? createClientStores());
   const path = useSyncExternalStore(
@@ -27,11 +28,13 @@ export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
     stores.profile.getState().hydrate();
     stores.sound.getState().hydrate();
     const stopSounds = watchGameSounds(stores);
+    const stopInterfaceSounds = watchInterfaceSounds(stores.sound);
     stores.narrator.getState().hydrate();
     const stopNarrator = watchNarrator(stores);
     void stores.session.getState().initialize();
     return () => {
       stopSounds();
+      stopInterfaceSounds();
       stopNarrator();
       stores.narrator.getState().dispose();
       stores.sound.getState().dispose();

@@ -21,7 +21,7 @@ export const strings = {
     volume: 'Volume do som',
     off: 'Som desligado. Todas as informações continuam na tela.',
     locked: 'Preferência salva. Ative o som nesta aba para ouvir.',
-    help: 'O volume não altera o silêncio escolhido. Todos os avisos também aparecem na tela.',
+    help: 'Efeitos suaves para cliques, perguntas e fases. O volume reduz durante a narração. Todos os avisos também aparecem na tela.',
     unavailable:
       'Áudio indisponível. Você pode continuar jogando ou tentar ativar o som novamente.',
     storage: {

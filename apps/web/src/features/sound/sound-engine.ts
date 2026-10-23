@@ -32,22 +32,56 @@ export function createSoundEngine(
   let master: GainNode | null = null;
   let level = 0;
   let pending: Promise<boolean> | null = null;
-  const active = new Map<OscillatorNode, GainNode>();
+  type Lane = 'ui' | 'game';
+  interface Voice {
+    gain: GainNode;
+    lane: Lane;
+    startsAt: number;
+  }
+  const active = new Map<OscillatorNode, Voice>();
+  let lastInteractionAt = -Infinity;
+  function release(source: OscillatorNode, voice: Voice) {
+    active.delete(source);
+    try {
+      source.disconnect();
+      voice.gain.disconnect();
+    } catch {
+      /* Device removed. */
+    }
+  }
   function stop() {
-    for (const [source, gain] of active) {
+    for (const [source, voice] of active) {
       try {
         source.stop();
       } catch {
         /* A finished source may already be stopped. */
       }
-      try {
-        source.disconnect();
-        gain.disconnect();
-      } catch {
-        /* A device can disappear during cleanup. */
-      }
+      release(source, voice);
     }
     active.clear();
+    lastInteractionAt = -Infinity;
+  }
+  function retire(lane: Lane, at: number) {
+    for (const [source, voice] of active) {
+      if (voice.lane !== lane) continue;
+      try {
+        if (at <= voice.startsAt) {
+          source.stop(at);
+          release(source, voice);
+          continue;
+        }
+        const envelope = voice.gain.gain;
+        if (typeof envelope.cancelAndHoldAtTime === 'function') envelope.cancelAndHoldAtTime(at);
+        else {
+          envelope.cancelScheduledValues(at);
+          envelope.setValueAtTime(Math.max(0.0001, envelope.value), at);
+        }
+        envelope.linearRampToValueAtTime(0, at + 0.012);
+        source.stop(at + 0.015);
+      } catch {
+        release(source, voice);
+      }
+    }
   }
   return {
     unlock() {
@@ -96,9 +130,12 @@ export function createSoundEngine(
     play(id) {
       if (!context || !master || context.state !== 'running' || level === 0) return false;
       try {
-        // A new cue replaces the previous one; unavailable sounds are never queued.
-        stop();
         const at = context.currentTime;
+        const lane: Lane = id === 'click' || id === 'navigate' ? 'ui' : 'game';
+        // Native keyboard/touch double activation must not create a burst of overlapping taps.
+        if (lane === 'ui' && at - lastInteractionAt < 0.06) return true;
+        if (lane === 'ui') lastInteractionAt = at;
+        retire(lane, at);
         for (const tone of SOUND_CATALOG[id]) {
           const source = context.createOscillator(),
             gain = context.createGain();
@@ -114,15 +151,10 @@ export function createSoundEngine(
           gain.gain.exponentialRampToValueAtTime(0.0001, end);
           source.connect(gain);
           gain.connect(master);
-          active.set(source, gain);
+          const voice: Voice = { gain, lane, startsAt: start };
+          active.set(source, voice);
           source.onended = () => {
-            active.delete(source);
-            try {
-              source.disconnect();
-              gain.disconnect();
-            } catch {
-              /* Device teardown is best effort. */
-            }
+            release(source, voice);
           };
           source.start(start);
           source.stop(end + 0.015);

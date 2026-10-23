@@ -9,7 +9,7 @@ export function SoundControls({ store }: { store: ClientStores['sound'] }) {
     id = useId();
   const enabled = !sound.muted && sound.status === 'ready';
   return (
-    <section className="sound-controls" aria-label={strings.sound.title}>
+    <section className="sound-controls" aria-label={strings.sound.title} data-sound="none">
       <div className="sound-actions">
         <Button
           className="secondary"

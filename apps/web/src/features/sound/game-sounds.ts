@@ -2,10 +2,36 @@ import type { RoomView } from '@penshow/shared';
 import type { SoundId } from './sound-catalog';
 
 export function soundForTransition(previous: RoomView | null, next: RoomView): SoundId | null {
-  if (next.state.status !== 'match') return null;
+  if (next.state.status !== 'match') {
+    if (!previous || previous.roomId !== next.roomId) return null;
+    if (previous.state.status === 'match') return 'navigate';
+    if (next.members.length > previous.members.length) return 'join';
+    if (next.members.length < previous.members.length) return 'leave';
+    return null;
+  }
   const match = next.state.match,
     stage = match.stage;
   if (stage.phase === 'instructions' || stage.phase === 'final-instructions') return 'start';
+  if (stage.phase === 'question-reading' || stage.phase === 'final-question-reading')
+    return 'question';
+  if (
+    stage.phase === 'category-selection' ||
+    stage.phase === 'wager-selection' ||
+    stage.phase === 'theft-target-selection'
+  )
+    return 'choice';
+  if (stage.phase === 'round-results') return 'results';
+  if (
+    stage.phase === 'final-no-answer-pending' ||
+    stage.phase === 'final-no-target-pending' ||
+    stage.phase === 'ranking'
+  )
+    return 'notice';
+  if (stage.phase === 'question-open') {
+    if (stage.ownAnswer.status === 'submitted') return 'confirm';
+    return 'open';
+  }
+  if (stage.phase === 'final-question-open') return 'open';
   if (stage.phase === 'podium') return 'victory';
   if (stage.phase === 'final-resolution') return 'damage';
   if (stage.phase === 'final-target-selection')
@@ -29,7 +55,11 @@ export function soundForTransition(previous: RoomView | null, next: RoomView): S
 }
 
 function transitionKey(view: RoomView) {
-  if (view.state.status !== 'match') return 'lobby';
+  if (view.state.status !== 'match')
+    return `lobby:${view.members
+      .map((member) => member.playerId)
+      .sort()
+      .join(',')}`;
   const stage = view.state.match.stage;
   const questionId =
     'question' in stage
@@ -39,7 +69,11 @@ function transitionKey(view: RoomView) {
         : 'questionId' in stage
           ? stage.questionId
           : '';
-  return `${'round' in stage ? stage.round.roundId : ''}:${stage.phase}:${questionId}`;
+  const answer =
+    stage.phase === 'question-open' && stage.ownAnswer.status === 'submitted'
+      ? stage.ownAnswer.optionId
+      : '';
+  return `${'round' in stage ? stage.round.roundId : ''}:${stage.phase}:${questionId}:${answer}`;
 }
 
 /** State belongs to the store, so React remounts cannot replay an already consumed cue. */
@@ -81,6 +115,17 @@ export function createSoundTracker() {
       if (view.stateVersion < version) return null;
       previous = view;
       version = view.stateVersion;
+      if (view.state.status !== 'match') {
+        if (
+          baseline ||
+          !before ||
+          before.roomId !== view.roomId ||
+          before.viewerId !== view.viewerId ||
+          before.stateVersion >= view.stateVersion
+        )
+          return null;
+        return soundForTransition(before, view);
+      }
       if (view.state.status === 'match') {
         const stage = view.state.match.stage;
         if (stage.phase === 'question-reading' || stage.phase === 'question-open') {

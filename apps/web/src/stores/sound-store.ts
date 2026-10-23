@@ -4,6 +4,7 @@ import type { RoomView } from '@penshow/shared';
 import { readStored, writeStored, type StorageAccess, type StorageIssue } from '../lib/storage';
 import { createSoundTracker } from '../features/sound/game-sounds';
 import type { SoundEngine } from '../features/sound/sound-engine';
+import type { SoundId } from '../features/sound/sound-catalog';
 
 export const SOUND_STORAGE_KEY = 'penshow.sound';
 const preferencesSchema = z.strictObject({
@@ -17,6 +18,7 @@ type Preferences = z.infer<typeof preferencesSchema>;
 export function createSoundStore(storage: StorageAccess, engine: SoundEngine) {
   const tracker = createSoundTracker();
   let generation = 0;
+  let ducked = false;
   return createStore<
     Preferences & {
       hydrated: boolean;
@@ -27,13 +29,15 @@ export function createSoundStore(storage: StorageAccess, engine: SoundEngine) {
       mute(): void;
       setVolume(volume: number): void;
       preview(): void;
+      interact(id: Extract<SoundId, 'click' | 'navigate'>): void;
+      setDucked(value: boolean): void;
       observe(view: RoomView | null, epoch: number, ready: boolean): void;
       stop(): void;
       dispose(): void;
     }
   >((set, get) => {
     function save(next: Preferences) {
-      engine.configure(next.volume, next.muted);
+      engine.configure(next.volume * (ducked ? 0.45 : 1), next.muted);
       set({ ...next, storageIssue: writeStored(storage, SOUND_STORAGE_KEY, next) });
     }
     return {
@@ -45,7 +49,7 @@ export function createSoundStore(storage: StorageAccess, engine: SoundEngine) {
         if (get().hydrated) return;
         const saved = readStored(storage, SOUND_STORAGE_KEY, preferencesSchema);
         const preferences = saved.value ?? DEFAULT_SOUND_PREFERENCES;
-        engine.configure(preferences.volume, preferences.muted);
+        engine.configure(preferences.volume * (ducked ? 0.45 : 1), preferences.muted);
         set({ ...preferences, hydrated: true, storageIssue: saved.issue });
       },
       async activate() {
@@ -74,6 +78,15 @@ export function createSoundStore(storage: StorageAccess, engine: SoundEngine) {
       },
       preview() {
         if (get().status === 'ready' && !get().muted) engine.play('start');
+      },
+      interact(id) {
+        if (get().status === 'ready' && !get().muted && get().volume > 0 && !engine.play(id))
+          set({ status: 'locked' });
+      },
+      setDucked(value) {
+        if (ducked === value) return;
+        ducked = value;
+        engine.configure(get().volume * (ducked ? 0.45 : 1), get().muted);
       },
       observe(view, epoch, ready) {
         const cue = tracker.observe(view, epoch, ready);

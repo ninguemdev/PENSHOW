@@ -30,7 +30,7 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 
 - [Plano detalhado do jogo](docs/plano-do-jogo.md): cada fase, quantidade de perguntas, pontos, tempos, exemplos, final e casos de borda.
 - [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
-- [Tasks de implementação](docs/tasks/README.md): 37 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
+- [Tasks de implementação](docs/tasks/README.md): 38 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
 - [Análise do Comicle](docs/analise-comicle.md): módulos examinados e adaptações necessárias.
 - [Referência do Brain Show](docs/referencia-brain-show.md): evidências e propostas para o PENSHOW.
 - [Regras em discussão](docs/regras.md): o que foi definido e o que precisa ser decidido.
@@ -86,7 +86,7 @@ pnpm build
 
 `pnpm test:e2e:a11y` verifica teclado, árvore de acessibilidade, contraste, textos extensos e adaptação de telas no navegador real após o build. Consulte [acessibilidade e limites da revisão](docs/acessibilidade.md).
 
-`pnpm test:e2e:sound` verifica os avisos sonoros, preferências, áudio indisponível, reconexão e renderização do motor real, com prévia WAV para escuta. Consulte [sons e validação](docs/sons.md).
+`pnpm test:e2e:sound` verifica os 16 efeitos sintetizados, cliques reais, preferências, áudio indisponível, reconexão e renderização do motor real. Após `pnpm build`, `pnpm sounds:preview` gera a prévia WAV e os efeitos separados em `data/audio-previews/`. Consulte [sons e validação](docs/sons.md).
 
 `pnpm pilot:simulate` gera o relatório mecânico de equilíbrio usando os serviços reais, snapshot privado de 300 perguntas usado na T32, jogadores roteirizados e relógio virtual. `pnpm pilot:simulate --check` reproduz o relatório sem escrever. Os tempos simulados e as comparações de pontos não substituem sessões humanas; consulte [método, resultados e roteiro](docs/testes-de-grupo-e-equilibrio.md).
 

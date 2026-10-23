@@ -41,6 +41,47 @@ function podium(version = 5) {
 }
 
 describe('preferências e efeitos de som', () => {
+  it('diminui efeitos durante a fala sem sobrescrever volume/silêncio e sem reproduzir avisos', async () => {
+    const f = harness();
+    await f.store.getState().activate();
+    f.store.getState().setVolume(0.8);
+    f.store.getState().setDucked(true);
+    expect(f.engine.configure).toHaveBeenLastCalledWith(0.8 * 0.45, false);
+    expect(f.store.getState().volume).toBe(0.8);
+    expect(JSON.parse(f.storage.values.get(SOUND_STORAGE_KEY)!)).toEqual({
+      version: 1,
+      volume: 0.8,
+      muted: false,
+    });
+    f.store.getState().setVolume(0.6);
+    expect(f.engine.configure).toHaveBeenLastCalledWith(0.6 * 0.45, false);
+    expect(JSON.parse(f.storage.values.get(SOUND_STORAGE_KEY)!)).toEqual({
+      version: 1,
+      volume: 0.6,
+      muted: false,
+    });
+    f.store.getState().setDucked(false);
+    expect(f.engine.configure).toHaveBeenLastCalledWith(0.6, false);
+    f.store.getState().mute();
+    f.store.getState().setDucked(true);
+    expect(f.engine.configure).toHaveBeenLastCalledWith(0.6 * 0.45, true);
+    expect(f.engine.play).not.toHaveBeenCalled();
+  });
+  it('só toca interações depois da ativação e respeita volume zero e silêncio', async () => {
+    const f = harness();
+    f.store.getState().interact('click');
+    expect(f.engine.play).not.toHaveBeenCalled();
+    await f.store.getState().activate();
+    f.store.getState().interact('click');
+    f.store.getState().interact('navigate');
+    expect(f.engine.play.mock.calls).toEqual([['click'], ['navigate']]);
+    f.store.getState().setVolume(0);
+    f.store.getState().interact('click');
+    f.store.getState().setVolume(0.4);
+    f.store.getState().mute();
+    f.store.getState().interact('click');
+    expect(f.engine.play).toHaveBeenCalledTimes(2);
+  });
   it.each([100, 0])(
     'roubo mantém o acerto após o crédito antecipado de %s pontos',
     async (points) => {
@@ -64,7 +105,7 @@ describe('preferências e efeitos de som', () => {
       f.store.getState().observe(open, 1, true);
       f.store.getState().observe(target, 1, true);
       f.store.getState().observe(reveal, 1, true);
-      expect(f.engine.play.mock.calls).toEqual([['correct']]);
+      expect(f.engine.play.mock.calls).toEqual([['choice'], ['correct']]);
     },
   );
   it('começa em silêncio, não cria áudio na hidratação e só persiste a escolha do jogador', async () => {
@@ -206,7 +247,7 @@ describe('preferências e efeitos de som', () => {
     expect(f.engine.play).not.toHaveBeenCalled();
     expect(f.engine.stop).toHaveBeenCalled();
   });
-  it('usa o resultado confirmado, não o envio da resposta, para acerto/erro e dano', async () => {
+  it('confirma o registro separadamente e usa somente o resultado confirmado para acerto/erro e dano', async () => {
     const f = harness();
     await f.store.getState().activate();
     f.store.getState().observe(matchView(phases().open, 2), 1, true);
@@ -225,7 +266,7 @@ describe('preferências e efeitos de som', () => {
       1,
       true,
     );
-    expect(f.engine.play).not.toHaveBeenCalled();
+    expect(f.engine.play.mock.calls).toEqual([['confirm']]);
     f.store.getState().observe(
       matchView(phases().reveal, 4, hostId, 1, [
         { playerId: hostId, points: 100, correctAnswers: 1 },
@@ -239,6 +280,14 @@ describe('preferências e efeitos de som', () => {
     f.store.getState().observe(finalView(finalPhases().open, 7), 1, true);
     f.store.getState().observe(finalView(finalPhases().target, 8), 1, true);
     f.store.getState().observe(finalView(finalPhases().wrong, 9), 1, true);
-    expect(f.engine.play.mock.calls).toEqual([['correct'], ['wrong'], ['correct'], ['damage']]);
+    expect(f.engine.play.mock.calls).toEqual([
+      ['confirm'],
+      ['correct'],
+      ['open'],
+      ['wrong'],
+      ['open'],
+      ['correct'],
+      ['damage'],
+    ]);
   });
 });
