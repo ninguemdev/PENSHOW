@@ -2,6 +2,7 @@
   "name": "penshow",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Jogo multiplayer de perguntas e respostas no navegador",
   "type": "module",
   "packageManager": "pnpm@12.9.1",

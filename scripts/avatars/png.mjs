@@ -90,6 +90,7 @@ export function inspectPng(input) {
   let previous = new Uint8Array(stride),
     hasTransparency = false,
     hasVisiblePixel = false;
+  const bounds = { left: ART_SIZE, top: ART_SIZE, right: 0, bottom: 0 };
   for (let row = 0; row < ART_SIZE; row++) {
     const filter = scanlines[row * (stride + 1)];
     if (filter > 4) throw new Error('filtro inválido');
@@ -111,20 +112,29 @@ export function inspectPng(input) {
       decoded[column] = (scanlines[row * (stride + 1) + column + 1] + prediction) & 255;
     }
     for (let pixel = 0; pixel < ART_SIZE; pixel++) {
+      let alpha;
       if (header.color === 6) {
+        alpha = decoded[pixel * 4 + 3];
         hasTransparency ||= decoded[pixel * 4 + 3] < 255;
         hasVisiblePixel ||= decoded[pixel * 4 + 3] > 0;
       } else {
         const value = decoded[header.depth === 8 ? pixel : Math.floor(pixel / 2)];
         const index = header.depth === 8 ? value : pixel % 2 === 0 ? value >> 4 : value & 15;
         if (index >= palette.length / 3) throw new Error('índice fora da paleta');
+        alpha = transparency?.[index] ?? 255;
         hasTransparency ||= (transparency?.[index] ?? 255) < 255;
         hasVisiblePixel ||= (transparency?.[index] ?? 255) > 0;
+      }
+      if (alpha > 0) {
+        bounds.left = Math.min(bounds.left, pixel);
+        bounds.right = Math.max(bounds.right, pixel + 1);
+        bounds.top = Math.min(bounds.top, row);
+        bounds.bottom = Math.max(bounds.bottom, row + 1);
       }
     }
     previous = decoded;
   }
   if (!hasTransparency) throw new Error('imagem sem pixels transparentes');
   if (!hasVisiblePixel) throw new Error('imagem completamente transparente');
-  return header;
+  return { ...header, bounds };
 }

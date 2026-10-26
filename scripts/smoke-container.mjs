@@ -224,7 +224,7 @@ try {
     await access('/app/licenses/comicle-LICENSE.txt');
     await access('/app/data/licenses/opentdb.txt');
     const files = await readdir('/app/apps/web/dist', { recursive: true });
-    assert.equal(files.filter(file => file.endsWith('.png')).length, 50);
+    assert.equal(files.filter(file => file.endsWith('.png')).length, 51);
     assert.ok(!files.some(file => /\\.(?:json|map|ts|tsx)$/u.test(file)));
     const catalog = JSON.parse(await readFile('/app/data/questions/published/catalog.json', 'utf8'));
     const narration = JSON.parse(await readFile('/app/data/narration/generated/manifest.json', 'utf8'));
@@ -242,7 +242,7 @@ try {
     const scripts = await Promise.all(files.filter(file => file.endsWith('.js')).map(file => readFile(join('/app/apps/web/dist', file), 'utf8')));
     for (const question of catalog.questions) for (const script of scripts)
       assert.ok(!script.includes(JSON.stringify(question.prompt).slice(1, -1)));
-    console.log(JSON.stringify({ approvedQuestions: catalog.questions.length, catalogSha256: catalog.manifest.contentSha256, narrations: entries.size, avatars: 50, developmentTools: false }));
+    console.log(JSON.stringify({ approvedQuestions: catalog.questions.length, catalogSha256: catalog.manifest.contentSha256, narrations: entries.size, avatars: 51, developmentTools: false }));
   `,
   );
   const inspected = JSON.parse(inspection);

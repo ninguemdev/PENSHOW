@@ -110,6 +110,45 @@ async function create(client: Client) {
 }
 
 describe('salas autenticadas em rede', () => {
+  it('publica ajustes de avatar para outros jogadores, preserva na reconexão e recusa mover a cabeça', async () => {
+    const f = await start();
+    const session = await f.issue();
+    const host = await f.connect(session),
+      guest = await f.connect(await f.issue());
+    const room = await create(host);
+    await guest.command('room:join', { code: room.code, profile: { ...profile, nickname: 'Bia' } });
+    const edited = {
+      ...profile,
+      avatar: {
+        ...profile.avatar,
+        hair: 'hair-tousled',
+        layout: {
+          version: 1,
+          parts: { hair: { x: 0.12, y: -0.05, scale: 1.2 } },
+        },
+      },
+    };
+    expect(
+      await host.command('room:updateProfile', { roomId: room.roomId, profile: edited }),
+    ).toMatchObject({ status: 'ok' });
+    const published = await view(guest, (v) => !!v.members[0]?.profile.avatar.layout);
+    expect(published.members[0]?.profile).toEqual(edited);
+    const reconnected = await f.connect(session);
+    expect((await view(reconnected)).members[0]?.profile).toEqual(edited);
+    expect(
+      await reconnected.command('room:updateProfile', {
+        roomId: room.roomId,
+        profile: {
+          ...edited,
+          avatar: {
+            ...edited.avatar,
+            layout: { version: 1, parts: { head: { x: 0.1, y: 0, scale: 1 } } },
+          },
+        },
+      }),
+    ).toMatchObject({ status: 'error', error: { code: 'INVALID_PAYLOAD' } });
+    expect(f.app.rooms.registry.byId(room.roomId)!.snapshot().members[0]?.profile).toEqual(edited);
+  });
   it('descarta comando da aba anterior que aguardava na fila quando a nova assumiu', async () => {
     const f = await start();
     const session = await f.issue();

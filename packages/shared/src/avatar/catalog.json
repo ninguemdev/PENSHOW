@@ -8,22 +8,38 @@
         {
           "id": "head-round",
           "label": "Redonda",
-          "file": "head/head-round.png"
+          "file": "head/head-round.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.55810546875
+          }
         },
         {
           "id": "head-square",
           "label": "Quadrada",
-          "file": "head/head-square.png"
+          "file": "head/head-square.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5322265625
+          }
         },
         {
           "id": "head-oval",
           "label": "Oval",
-          "file": "head/head-oval.png"
+          "file": "head/head-oval.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5703125
+          }
         },
         {
           "id": "head-cloud",
           "label": "Nuvem",
-          "file": "head/head-cloud.png"
+          "file": "head/head-cloud.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.51904296875
+          }
         }
       ]
     },
@@ -34,52 +50,92 @@
         {
           "id": "eyes-dots",
           "label": "Pontinhos",
-          "file": "eyes/eyes-dots.png"
+          "file": "eyes/eyes-dots.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-wide",
           "label": "Arregalados",
-          "file": "eyes/eyes-wide.png"
+          "file": "eyes/eyes-wide.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-sleepy",
           "label": "Sonolentos",
-          "file": "eyes/eyes-sleepy.png"
+          "file": "eyes/eyes-sleepy.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48876953125
+          }
         },
         {
           "id": "eyes-happy",
           "label": "Felizes",
-          "file": "eyes/eyes-happy.png"
+          "file": "eyes/eyes-happy.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48876953125
+          }
         },
         {
           "id": "eyes-angry",
           "label": "Bravos",
-          "file": "eyes/eyes-angry.png"
+          "file": "eyes/eyes-angry.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-classic-open",
           "label": "Clássicos",
-          "file": "eyes/eyes-classic-open.png"
+          "file": "eyes/eyes-classic-open.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-wink-left",
           "label": "Piscadela",
-          "file": "eyes/eyes-wink-left.png"
+          "file": "eyes/eyes-wink-left.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-dizzy-spiral",
           "label": "Espirais",
-          "file": "eyes/eyes-dizzy-spiral.png"
+          "file": "eyes/eyes-dizzy-spiral.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-heart-pupils",
           "label": "Apaixonados",
-          "file": "eyes/eyes-heart-pupils.png"
+          "file": "eyes/eyes-heart-pupils.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48828125
+          }
         },
         {
           "id": "eyes-suspicious",
           "label": "Desconfiados",
-          "file": "eyes/eyes-suspicious.png"
+          "file": "eyes/eyes-suspicious.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48876953125
+          }
         }
       ]
     },
@@ -90,52 +146,92 @@
         {
           "id": "mouth-smile",
           "label": "Sorriso",
-          "file": "mouth/mouth-smile.png"
+          "file": "mouth/mouth-smile.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.693359375
+          }
         },
         {
           "id": "mouth-tongue",
           "label": "Língua de fora",
-          "file": "mouth/mouth-tongue.png"
+          "file": "mouth/mouth-tongue.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.693359375
+          }
         },
         {
           "id": "mouth-big-grin",
           "label": "Sorriso largo",
-          "file": "mouth/mouth-big-grin.png"
+          "file": "mouth/mouth-big-grin.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.69384765625
+          }
         },
         {
           "id": "mouth-open-happy",
           "label": "Aberta feliz",
-          "file": "mouth/mouth-open-happy.png"
+          "file": "mouth/mouth-open-happy.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.693359375
+          }
         },
         {
           "id": "mouth-surprised-o",
           "label": "Surpresa",
-          "file": "mouth/mouth-surprised-o.png"
+          "file": "mouth/mouth-surprised-o.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.68359375
+          }
         },
         {
           "id": "mouth-sad",
           "label": "Triste",
-          "file": "mouth/mouth-sad.png"
+          "file": "mouth/mouth-sad.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.69384765625
+          }
         },
         {
           "id": "mouth-smirk",
           "label": "Sorriso de canto",
-          "file": "mouth/mouth-smirk.png"
+          "file": "mouth/mouth-smirk.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.693359375
+          }
         },
         {
           "id": "mouth-clenched-teeth",
           "label": "Dentes cerrados",
-          "file": "mouth/mouth-clenched-teeth.png"
+          "file": "mouth/mouth-clenched-teeth.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.69384765625
+          }
         },
         {
           "id": "mouth-laugh",
           "label": "Gargalhada",
-          "file": "mouth/mouth-laugh.png"
+          "file": "mouth/mouth-laugh.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.69384765625
+          }
         },
         {
           "id": "mouth-zigzag-nervous",
           "label": "Nervosa",
-          "file": "mouth/mouth-zigzag-nervous.png"
+          "file": "mouth/mouth-zigzag-nervous.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.69384765625
+          }
         }
       ]
     },
@@ -146,32 +242,56 @@
         {
           "id": "cheeks-blush",
           "label": "Coradas",
-          "file": "cheeks/cheeks-blush.png"
+          "file": "cheeks/cheeks-blush.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.62890625
+          }
         },
         {
           "id": "cheeks-freckles",
           "label": "Sardas",
-          "file": "cheeks/cheeks-freckles.png"
+          "file": "cheeks/cheeks-freckles.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.62890625
+          }
         },
         {
           "id": "cheeks-hearts",
           "label": "Corações",
-          "file": "cheeks/cheeks-hearts.png"
+          "file": "cheeks/cheeks-hearts.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.62939453125
+          }
         },
         {
           "id": "cheeks-stripes",
           "label": "Riscos",
-          "file": "cheeks/cheeks-stripes.png"
+          "file": "cheeks/cheeks-stripes.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.62939453125
+          }
         },
         {
           "id": "cheeks-stars",
           "label": "Estrelas",
-          "file": "cheeks/cheeks-stars.png"
+          "file": "cheeks/cheeks-stars.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.62939453125
+          }
         },
         {
           "id": "cheeks-whisker-lines",
           "label": "Marcas de gato",
-          "file": "cheeks/cheeks-whisker-lines.png"
+          "file": "cheeks/cheeks-whisker-lines.png",
+          "pivot": {
+            "x": 0.4990234375,
+            "y": 0.62890625
+          }
         }
       ]
     },
@@ -182,52 +302,92 @@
         {
           "id": "face-accessory-glasses",
           "label": "Óculos",
-          "file": "face-accessory/face-accessory-glasses.png"
+          "file": "face-accessory/face-accessory-glasses.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.48828125
+          }
         },
         {
           "id": "face-accessory-sunglasses",
           "label": "Óculos escuros",
-          "file": "face-accessory/face-accessory-sunglasses.png"
+          "file": "face-accessory/face-accessory-sunglasses.png",
+          "pivot": {
+            "x": 0.49755859375,
+            "y": 0.48828125
+          }
         },
         {
           "id": "face-accessory-mustache",
           "label": "Bigode",
-          "file": "face-accessory/face-accessory-mustache.png"
+          "file": "face-accessory/face-accessory-mustache.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.61083984375
+          }
         },
         {
           "id": "face-accessory-eyepatch",
           "label": "Tapa-olho",
-          "file": "face-accessory/face-accessory-eyepatch.png"
+          "file": "face-accessory/face-accessory-eyepatch.png",
+          "pivot": {
+            "x": 0.455078125,
+            "y": 0.47998046875
+          }
         },
         {
           "id": "face-accessory-monocle",
           "label": "Monóculo",
-          "file": "face-accessory/face-accessory-monocle.png"
+          "file": "face-accessory/face-accessory-monocle.png",
+          "pivot": {
+            "x": 0.6455078125,
+            "y": 0.5048828125
+          }
         },
         {
           "id": "face-accessory-clown-nose",
           "label": "Nariz de palhaço",
-          "file": "face-accessory/face-accessory-clown-nose.png"
+          "file": "face-accessory/face-accessory-clown-nose.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.57470703125
+          }
         },
         {
           "id": "face-accessory-surgical-mask",
           "label": "Máscara",
-          "file": "face-accessory/face-accessory-surgical-mask.png"
+          "file": "face-accessory/face-accessory-surgical-mask.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.68896484375
+          }
         },
         {
           "id": "face-accessory-bandana",
           "label": "Bandana",
-          "file": "face-accessory/face-accessory-bandana.png"
+          "file": "face-accessory/face-accessory-bandana.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.76025390625
+          }
         },
         {
           "id": "face-accessory-nose-bandage",
           "label": "Curativo",
-          "file": "face-accessory/face-accessory-nose-bandage.png"
+          "file": "face-accessory/face-accessory-nose-bandage.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.57373046875
+          }
         },
         {
           "id": "face-accessory-disguise-glasses",
           "label": "Disfarce",
-          "file": "face-accessory/face-accessory-disguise-glasses.png"
+          "file": "face-accessory/face-accessory-disguise-glasses.png",
+          "pivot": {
+            "x": 0.49951171875,
+            "y": 0.564453125
+          }
         }
       ]
     },
@@ -238,52 +398,107 @@
         {
           "id": "hat-cap",
           "label": "Boné",
-          "file": "hat/hat-cap.png"
+          "file": "hat/hat-cap.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.19140625
+          }
         },
         {
           "id": "hat-top",
           "label": "Cartola",
-          "file": "hat/hat-top.png"
+          "file": "hat/hat-top.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.19140625
+          }
         },
         {
           "id": "hat-beanie",
           "label": "Gorro",
-          "file": "hat/hat-beanie.png"
+          "file": "hat/hat-beanie.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.19140625
+          }
         },
         {
           "id": "hat-crown",
           "label": "Coroa",
-          "file": "hat/hat-crown.png"
+          "file": "hat/hat-crown.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.1904296875
+          }
         },
         {
           "id": "hat-party",
           "label": "Festa",
-          "file": "hat/hat-party.png"
+          "file": "hat/hat-party.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.171875
+          }
         },
         {
           "id": "hat-cowboy",
           "label": "Cowboy",
-          "file": "hat/hat-cowboy.png"
+          "file": "hat/hat-cowboy.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.201171875
+          }
         },
         {
           "id": "hat-chef",
           "label": "Cozinheiro",
-          "file": "hat/hat-chef.png"
+          "file": "hat/hat-chef.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.19140625
+          }
         },
         {
           "id": "hat-graduation",
           "label": "Formatura",
-          "file": "hat/hat-graduation.png"
+          "file": "hat/hat-graduation.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.201171875
+          }
         },
         {
           "id": "hat-wizard",
           "label": "Mago",
-          "file": "hat/hat-wizard.png"
+          "file": "hat/hat-wizard.png",
+          "pivot": {
+            "x": 0.50048828125,
+            "y": 0.19140625
+          }
         },
         {
           "id": "hat-propeller",
           "label": "Hélice",
-          "file": "hat/hat-propeller.png"
+          "file": "hat/hat-propeller.png",
+          "pivot": {
+            "x": 0.5,
+            "y": 0.19140625
+          }
+        }
+      ]
+    },
+    "hair": {
+      "label": "Cabelo",
+      "required": false,
+      "options": [
+        {
+          "id": "hair-tousled",
+          "label": "Despenteado",
+          "file": "hair/hair-tousled.png",
+          "pivot": {
+            "x": 0.501953125,
+            "y": 0.34375
+          }
         }
       ]
     }

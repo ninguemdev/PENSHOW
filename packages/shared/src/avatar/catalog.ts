@@ -11,6 +11,7 @@ import {
   type RequiredAvatarCategory,
 } from '../domain/avatar.js';
 import catalogJson from './catalog.json' with { type: 'json' };
+import { avatarLayoutSchema, sanitizeAvatarLayout } from './layout.js';
 
 // Catalog format and rules: docs/avatares.md §2.
 
@@ -34,6 +35,7 @@ const optionSchema = z.strictObject({
   file: z.string().min(1),
   /** Hidden from the picker but still rendered for profiles that use it. */
   retired: z.boolean().optional(),
+  pivot: z.strictObject({ x: z.number().min(0).max(1), y: z.number().min(0).max(1) }).optional(),
 });
 
 const categorySchema = z.strictObject({
@@ -52,6 +54,7 @@ export const avatarCatalogSchema = z
       mouth: categorySchema,
       faceAccessory: categorySchema,
       hat: categorySchema,
+      hair: categorySchema,
     }),
   })
   .superRefine((catalog, ctx) => {
@@ -137,7 +140,9 @@ export function isValidAvatar(avatar: AvatarConfig): boolean {
     isValidRequired('mouth', avatar.mouth) &&
     isValidOptional('cheeks', avatar.cheeks) &&
     isValidOptional('hat', avatar.hat) &&
-    isValidOptional('faceAccessory', avatar.faceAccessory)
+    isValidOptional('faceAccessory', avatar.faceAccessory) &&
+    (avatar.hair === undefined || isValidOptional('hair', avatar.hair)) &&
+    (avatar.layout === undefined || avatarLayoutSchema.safeParse(avatar.layout).success)
   );
 }
 
@@ -159,6 +164,7 @@ export function defaultAvatar(): AvatarConfig {
     cheeks: null,
     hat: null,
     faceAccessory: null,
+    hair: null,
   };
 }
 
@@ -181,12 +187,13 @@ function randomOptional(rng: AvatarRandom, category: OptionalAvatarCategory): st
 /** Random avatar among active options; optional categories may come out as `null`. */
 export function randomAvatar(rng: AvatarRandom): AvatarConfig {
   return {
-    head: randomRequired(rng, 'head'),
+    head: defaultFor('head'),
     eyes: randomRequired(rng, 'eyes'),
     mouth: randomRequired(rng, 'mouth'),
     cheeks: randomOptional(rng, 'cheeks'),
     hat: randomOptional(rng, 'hat'),
     faceAccessory: randomOptional(rng, 'faceAccessory'),
+    hair: randomOptional(rng, 'hair'),
   };
 }
 
@@ -205,9 +212,12 @@ export function sanitizeAvatar(value: unknown): AvatarConfig {
   };
   const optional = (category: OptionalAvatarCategory): string | null => {
     const candidate = saved.get(category);
-    return isValidOptional(category, candidate) ? candidate : fallback[category];
+    return isValidOptional(category, candidate) ? candidate : (fallback[category] ?? null);
   };
+  const layout = sanitizeAvatarLayout(saved.get('layout'));
   return {
+    ...(layout ? { layout } : {}),
+    hair: optional('hair'),
     head: required('head'),
     eyes: required('eyes'),
     mouth: required('mouth'),

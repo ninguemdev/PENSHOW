@@ -486,6 +486,7 @@ dialog::backdrop {
   font-weight: bold;
 }
 .avatar {
+  overflow: hidden;
   display: inline-block;
   position: relative;
   flex-shrink: 0;
@@ -512,6 +513,7 @@ dialog::backdrop {
 .avatar-frame {
   width: min(100%, 278px);
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   place-items: center;
   background: #f6f3eb;
   border: 1px solid var(--line);
@@ -520,6 +522,38 @@ dialog::backdrop {
 }
 .avatar-picker {
   min-width: 0;
+}
+.avatar-drag-surface {
+  width: 100%;
+  min-width: 0;
+  touch-action: none;
+  cursor: move;
+  line-height: 0;
+}
+.avatar-adjustments {
+  display: grid;
+  gap: 14px;
+  margin: 0 0 24px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  min-width: 0;
+}
+.avatar-adjustments label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+}
+.avatar-adjustments input {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-height: 32px;
+  accent-color: var(--ink);
+}
+.avatar-editor-hint {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
 }
 .avatar-tabs {
   display: flex;
@@ -918,8 +952,32 @@ legend {
   .avatar-editor {
     grid-template-columns: 1fr;
   }
+  .avatar-preview {
+    position: sticky;
+    top: 8px;
+    z-index: 2;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 8px;
+    padding: 8px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
   .avatar-frame {
+    width: 120px;
+    grid-row: 1 / 4;
+    align-self: center;
     padding: 0;
+  }
+  .avatar-preview .avatar-editor-hint,
+  .avatar-preview .button {
+    font-size: 0.8rem;
+  }
+  .avatar-preview .button {
+    padding: 8px;
+  }
+  .avatar-picker :is(button, input) {
+    scroll-margin-top: 260px;
   }
 }
 

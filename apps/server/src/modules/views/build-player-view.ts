@@ -32,6 +32,8 @@ export function buildPlayerView(
           cheeks: member.profile.avatar.cheeks,
           faceAccessory: member.profile.avatar.faceAccessory,
           hat: member.profile.avatar.hat,
+          ...(member.profile.avatar.hair !== undefined ? { hair: member.profile.avatar.hair } : {}),
+          ...(member.profile.avatar.layout ? { layout: member.profile.avatar.layout } : {}),
         },
       },
       connection:

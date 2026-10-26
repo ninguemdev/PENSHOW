@@ -21,9 +21,31 @@ test('publicação: cinco identidades entram por convite e iniciam o modo cláss
   const contexts: BrowserContext[] = [];
   const pages: Page[] = [];
   const wrongApiPaths: string[] = [];
+  let hostHairStyle: string | null = null;
   async function profile(page: Page, name: string) {
     await page.getByRole('link', { name: 'Prepare seu perfil', exact: true }).click();
     await page.getByRole('textbox', { name: 'Como você quer ser chamado?' }).fill(name);
+    if (name === 'Piloto 1') {
+      await expect(page.getByRole('tab', { name: 'Cabeça', exact: true })).toHaveCount(0);
+      await page.getByRole('tab', { name: 'Cabelo', exact: true }).click();
+      await page
+        .getByRole('tabpanel', { name: 'Cabelo', exact: true })
+        .getByRole('button', { name: 'Despenteado', exact: true })
+        .click();
+      const size = page.getByRole('slider', { name: 'Tamanho', exact: true });
+      await size.focus();
+      await size.press('ArrowRight');
+      await size.press('ArrowRight');
+      await expect(size).toHaveValue('102');
+      const position = page.getByRole('slider', { name: 'Posição horizontal', exact: true });
+      await position.focus();
+      await position.press('ArrowRight');
+      hostHairStyle = await page
+        .getByRole('img', { name: 'Prévia do seu personagem' })
+        .locator('[data-avatar-part="hair"]')
+        .getAttribute('style');
+      expect(hostHairStyle).toBeTruthy();
+    }
     await page.getByRole('button', { name: 'Salvar e continuar', exact: true }).click();
   }
   try {
@@ -58,10 +80,16 @@ test('publicação: cinco identidades entram por convite e iniciam o modo cláss
       await profile(guest, `Piloto ${index + 2}`);
       await guest.getByRole('button', { name: 'Entrar na sala', exact: true }).click();
     }
-    for (const page of pages)
+    for (const page of pages) {
       await expect(
         page.getByRole('region', { name: 'Pessoas na sala' }).getByRole('listitem'),
       ).toHaveCount(5);
+      await expect(
+        page
+          .getByRole('img', { name: 'Personagem de Piloto 1', exact: true })
+          .locator('[data-avatar-part="hair"]'),
+      ).toHaveAttribute('style', hostHairStyle!);
+    }
     await host.getByRole('button', { name: 'Iniciar modo clássico', exact: true }).click();
     for (const page of pages)
       await expect(

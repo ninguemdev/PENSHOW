@@ -9,7 +9,7 @@ describe('perfil persistido e rascunho', () => {
     const store = createProfileStore(storage.access, { integer: (max) => max - 1 });
     store.getState().hydrate();
     expect(store.getState().draft.nickname).toBe('');
-    expect(store.getState().draft.avatar.head).toBe('head-cloud');
+    expect(store.getState().draft.avatar.head).toBe('head-round');
     expect(store.getState().profile).toBe(null);
     expect(storage.values.size).toBe(0);
     store.getState().changeNickname('Ana');
@@ -70,5 +70,36 @@ describe('perfil persistido e rascunho', () => {
       expect(store.getState().error).toBe('nickname');
       expect(store.getState().profile).toEqual(profile);
     }
+  });
+  it('persiste ajustes por peça e mantém a cabeça fixa ao trocar e sortear', () => {
+    const storage = memoryStorage();
+    const store = createProfileStore(storage.access, { integer: () => 0 });
+    store.getState().save({ nickname: 'Ana', avatar: { ...defaultAvatar(), head: 'head-cloud' } });
+    store.getState().selectPart('head', 'head-square');
+    store.getState().selectPart('hair', 'hair-tousled');
+    const transform = { x: 0.2, y: -0.1, scale: 1.4 };
+    store.getState().transformPart('hair', transform);
+    store.getState().transformPart('mouth', { x: 0, y: 0.1, scale: 0.8 });
+    expect(store.getState().profile?.avatar.layout).toBeUndefined();
+    expect(store.getState().save()).toBe(true);
+    const restored = createProfileStore(storage.access);
+    restored.getState().hydrate();
+    expect(restored.getState().draft.avatar.layout?.parts.hair).toEqual(transform);
+    restored.getState().resetPart('hair');
+    expect(restored.getState().draft.avatar.layout?.parts.hair).toBeUndefined();
+    expect(restored.getState().draft.avatar.layout?.parts.mouth?.scale).toBe(0.8);
+    restored.getState().selectPart('mouth', 'mouth-zigzag-nervous');
+    expect(restored.getState().draft.avatar.layout?.parts.mouth).toBeUndefined();
+    restored.getState().randomize();
+    expect(restored.getState().draft.avatar.head).toBe('head-cloud');
+    expect(restored.getState().draft.avatar.layout).toBeUndefined();
+    expect(restored.getState().draft.nickname).toBe('Ana');
+  });
+  it('não aplica ajustes inválidos ou em peças ausentes', () => {
+    const store = createProfileStore(memoryStorage().access, { integer: () => 0 });
+    store.getState().hydrate();
+    store.getState().transformPart('eyes', { x: 8, y: 0, scale: 1 });
+    store.getState().transformPart('hat', { x: 0.2, y: 0, scale: 1 });
+    expect(store.getState().draft.avatar.layout).toBeUndefined();
   });
 });

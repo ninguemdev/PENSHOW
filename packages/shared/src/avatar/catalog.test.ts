@@ -15,12 +15,13 @@ describe('catálogo de personagens', () => {
   it('sorteia com dependência explícita, incluindo ausência de acessórios', () => {
     expect(randomAvatar({ integer: () => 0 })).toEqual(defaultAvatar());
     expect(randomAvatar({ integer: (max) => max - 1 })).toEqual({
-      head: 'head-cloud',
+      head: 'head-round',
       eyes: 'eyes-suspicious',
       mouth: 'mouth-zigzag-nervous',
       cheeks: 'cheeks-whisker-lines',
       faceAccessory: 'face-accessory-disguise-glasses',
       hat: 'hat-propeller',
+      hair: 'hair-tousled',
     });
   });
   it.each([-1, 1000, 0.5, NaN])('recusa RNG com índice inválido %s', (index) => {

@@ -46,11 +46,19 @@ const fixtureFiles = () =>
     category.options.map((option) => ({ path: option.file, bytes: png() })),
   );
 
-test('verifica as 50 artes copiadas e a integridade do manifesto de procedência', async () => {
+test('verifica as artes atuais e preserva a integridade das 50 artes do Comicle', async () => {
   const files = await readAvatarFiles(
     fileURLToPath(new URL('../../apps/web/public/avatars/', import.meta.url)),
   );
-  assert.deepEqual(checkAvatars(avatarCatalog, files), { total: 50, errors: [] });
+  assert.deepEqual(checkAvatars(avatarCatalog, files), { total: 51, errors: [] });
+  for (const category of Object.values(avatarCatalog.categories))
+    for (const option of category.options) {
+      const { bounds } = inspectPng(files.find((file) => file.path === option.file).bytes);
+      assert.deepEqual(option.pivot, {
+        x: (bounds.left + bounds.right) / 2048,
+        y: (bounds.top + bounds.bottom) / 2048,
+      });
+    }
   const manifest = JSON.parse(
     await readFile(new URL('../../licenses/comicle-avatars.json', import.meta.url), 'utf8'),
   );

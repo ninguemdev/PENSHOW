@@ -232,11 +232,24 @@ export function TiebreakArena({ view, match, stores, controls, now }: RoundProps
         ctx.fill();
         ctx.stroke();
         const member = view.members.find((m) => m.playerId === f.playerId);
-        if (member)
+        if (member) {
+          ctx.save();
+          ctx.beginPath();
+          ctx.rect(x - 22, y - 22, 44, 44);
+          ctx.clip();
           for (const layer of avatarLayers(member.profile.avatar)) {
             const image = images.get(layer.src);
-            if (image?.complete && image.naturalWidth) ctx.drawImage(image, x - 22, y - 22, 44, 44);
+            if (image?.complete && image.naturalWidth)
+              ctx.drawImage(
+                image,
+                x - 22 + layer.rect.x * 44,
+                y - 22 + layer.rect.y * 44,
+                layer.rect.width * 44,
+                layer.rect.height * 44,
+              );
           }
+          ctx.restore();
+        }
         ctx.beginPath();
         ctx.moveTo(x + f.aimX * 22, y + f.aimY * 22);
         ctx.lineTo(x + f.aimX * 39, y + f.aimY * 39);

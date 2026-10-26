@@ -1,6 +1,6 @@
 # Perfil e personagens
 
-Implementação de T06, derivada do Comicle no commit [`4521f34df78da7de54a30715d50e748c50aa0696`](https://github.com/ninguemdev/Comicle/tree/4521f34df78da7de54a30715d50e748c50aa0696). [Atribuição, licença MIT e arquivos reutilizados](../THIRD_PARTY_NOTICES.md). As artes são as originais desse catálogo, sem alterações visuais; o estilo da interface do PENSHOW continua provisório (D07).
+Implementação de T06, ampliada pela [T40](tasks/T40-editor-personagens-transformacoes.md). A base deriva do Comicle no commit [`4521f34df78da7de54a30715d50e748c50aa0696`](https://github.com/ninguemdev/Comicle/tree/4521f34df78da7de54a30715d50e748c50aa0696). As 50 artes migradas permanecem intactas; foi acrescentada uma peça de cabelo própria do PENSHOW. [Atribuição e procedência](../THIRD_PARTY_NOTICES.md). O [planejamento](plano-editor-personagens.md) inclui a futura adaptação ao Comicle.
 
 ## Catálogo público
 
@@ -13,11 +13,12 @@ Implementação de T06, derivada do Comicle no commit [`4521f34df78da7de54a30715
 | 3 | `eyes` — Olhos | Sim | 10 |
 | 4 | `mouth` — Boca | Sim | 10 |
 | 5 | `faceAccessory` — Acessório | Não | 10 |
-| 6 | `hat` — Chapéu | Não | 10 |
+| 6 | `hair` — Cabelo | Não | 1 |
+| 7 | `hat` — Chapéu | Não | 10 |
 
-São 50 peças, mais a opção `Nenhum` (`null`) nas três categorias opcionais. Cada categoria armazena uma única peça. IDs são únicos globalmente, em kebab-case, com prefixo da categoria (`face-accessory` para `faceAccessory`). O arquivo tem o caminho exato `<categoria>/<id>.png`, sem URL, travessia de diretório ou SVG.
+São 51 peças, mais a opção `Nenhum` (`null`) nas quatro categorias opcionais. Os quatro formatos de cabeça permanecem no catálogo para ler perfis antigos, mas não são oferecidos no editor. Cada categoria armazena uma única peça; pares de olhos/bochechas são movidos e redimensionados juntos. IDs são únicos globalmente, em kebab-case, com prefixo da categoria (`face-accessory` para `faceAccessory`). O arquivo tem o caminho exato `<categoria>/<id>.png`, sem URL, travessia de diretório ou SVG.
 
-O padrão é a primeira opção ativa de cada categoria obrigatória e `null` nas opcionais. `randomAvatar(rng)` recebe `AvatarRandom.integer(maxExclusive)`; seleciona apenas opções ativas, incluindo ausência de acessórios. O RNG de aparência do navegador não decide resultado de jogo. Testes usam índices determinísticos.
+O padrão é a primeira opção ativa de cada categoria obrigatória e `null` nas opcionais. Novos personagens usam a cabeça redonda. `randomAvatar(rng)` recebe `AvatarRandom.integer(maxExclusive)`; sorteia as demais categorias entre opções ativas, incluindo ausência de acessórios. O sorteio do editor preserva a cabeça do perfil em edição. O RNG de aparência do navegador não decide resultado de jogo. Testes usam índices determinísticos.
 
 `avatarSchema` exige IDs da própria categoria, inclusive em comandos recebidos pelo servidor. ID desconhecido, peça de outra categoria, campo extra ou `null` em categoria obrigatória são recusados. Para aposentadoria, adicione `retired: true`: a opção deixa o editor/sorteio, mas continua válida para perfis já salvos e renderização. Não remova a arte aposentada nem reutilize um ID publicado.
 
@@ -35,9 +36,21 @@ Getter de storage bloqueado e quota não interrompem a edição. O perfil perman
 
 ## Editor e renderização
 
-`AvatarEditor` apresenta seis abas, com foco móvel por setas esquerda/direita, Home/End e um único tab stop ativo. Opções são botões nativos com `aria-pressed`; Enter, Espaço e toque selecionam peças. O botão Sortear preserva o nome. As três categorias opcionais oferecem Nenhum. Rótulos de catálogo são texto, sem HTML injetado.
+`AvatarEditor` apresenta seis abas editáveis: olhos, boca, bochechas, acessório, cabelo e chapéu, com foco móvel por setas esquerda/direita, Home/End e um único tab stop ativo. A cabeça não possui seletor nem ajustes. Opções são botões nativos com `aria-pressed`; Enter, Espaço e toque selecionam peças. O botão Sortear preserva nome/cabeça e restaura os ajustes. As quatro categorias opcionais oferecem Nenhum. Rótulos de catálogo são texto, sem HTML injetado.
 
-`AvatarRenderer` compõe imagens absolutas dentro de uma área quadrada, com a ordem da tabela, sem Canvas. Imagens têm `alt=""`; o contêiner recebe nome acessível quando necessário e é decorativo nas miniaturas. Os tamanhos previstos são 32, 64, 160 e 256px, limitados ao espaço disponível no celular. `avatar-layers.ts` resolve arquivos somente por IDs do catálogo e respeita `BASE_URL`; não transforma um ID recebido em caminho de arquivo. O `PlayerChip` usa o mesmo renderizador.
+A peça ativa pode ser arrastada na prévia por mouse/toque. Os sliders nativos permitem mover horizontal/verticalmente e redimensionar por teclado, com indicação em porcentagem. A posição varia de -35% a +35% do quadro e o tamanho de 50% a 200%, sempre proporcional. Em telas estreitas, a prévia fica compacta e acompanha a rolagem dentro do editor para permitir observar os ajustes. Sem peça selecionada, os ajustes ficam desabilitados. Trocar/remover a peça ou clicar em Restaurar peça remove apenas seus ajustes; salvar mantém todas as transformações no perfil.
+
+`AvatarRenderer` compõe imagens absolutas dentro de uma área quadrada, com a ordem da tabela e recorte no limite do quadro. Imagens têm `alt=""`; o contêiner recebe nome acessível quando necessário e é decorativo nas miniaturas. Os tamanhos previstos são 32, 64, 160 e 256px, limitados ao espaço disponível no celular. `avatar-layers.ts` resolve arquivos somente por IDs do catálogo e respeita `BASE_URL`; não transforma um ID recebido em caminho de arquivo. O `PlayerChip` usa o mesmo renderizador. O Canvas da arena usa os mesmos retângulos proporcionais e o mesmo recorte; cosméticos não modificam a colisão.
+
+## Contrato de composição e compatibilidade
+
+`AvatarConfig` mantém os IDs existentes e acrescenta `hair?: string | null` e `layout?: { version: 1, parts: { eyes?, mouth?, cheeks?, faceAccessory?, hair?, hat? } }`. Cada ajuste é `{ x, y, scale }`: x/y são frações do quadro, com zero no posicionamento original; scale é um multiplicador uniforme. Ausência de layout ou de uma categoria significa `{ x: 0, y: 0, scale: 1 }`. Assim, perfis antigos conservam sua composição.
+
+O catálogo registra `pivot: { x, y }`, centro do retângulo dos pixels visíveis da arte, em unidades do quadro. `node scripts/avatars/update-pivots.mjs` recalcula esses metadados; `--check` confere sem escrever. `avatarLayerRect` calcula `left = x + pivot.x * (1 - scale)`, a mesma expressão para top, e largura/altura iguais a scale. DOM e Canvas multiplicam o resultado pelo tamanho do quadro. A cabeça sempre recebe a transformação identidade.
+
+Schemas estritos compartilhados validam limites, valores finitos, versão e categorias em cada perfil recebido. `head` dentro de `layout.parts` é recusado. A recuperação de armazenamento local descarta apenas ajustes inválidos e preserva os demais; versões desconhecidas do layout retornam à composição original. Clientes e servidor precisam ser atualizados em conjunto, pois clientes antigos podem recusar os campos novos.
+
+Os módulos de domínio/geometria não dependem de React, armazenamento ou rede. O roteiro de portabilidade para perfis, salas e exportação de quadrinhos do Comicle está no [planejamento](plano-editor-personagens.md).
 
 ## Artes e verificação
 

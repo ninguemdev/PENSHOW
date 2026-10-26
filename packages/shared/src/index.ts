@@ -68,6 +68,17 @@ export {
 } from './avatar/catalog.js';
 export type { AvatarCatalog, AvatarOption } from './avatar/catalog.js';
 export {
+  EDITABLE_AVATAR_CATEGORIES,
+  AVATAR_LAYOUT_LIMITS,
+  DEFAULT_AVATAR_TRANSFORM,
+  avatarTransformSchema,
+  avatarLayoutSchema,
+  sanitizeAvatarLayout,
+  avatarTransform,
+  avatarLayerRect,
+} from './avatar/layout.js';
+export type { EditableAvatarCategory, AvatarTransform, AvatarLayout } from './avatar/layout.js';
+export {
   roomSettingsSchema,
   roundSchema,
   scoringRoundSchema,

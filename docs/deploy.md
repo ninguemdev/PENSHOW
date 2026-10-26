@@ -31,12 +31,12 @@ O smoke exige Node 24, dependências de desenvolvimento instaladas no host e Doc
 
 ## Artefato reproduzível e conteúdo
 
-O Dockerfile fixa Node 24.18.0/bookworm-slim por digest multiarch e pnpm 12.9.1. O builder instala pelo lockfile, verifica publicação e 50 artes, compila shared/server/web e usa `pnpm deploy --prod` para produzir as dependências portáveis do servidor, incluindo shared. Atualizações desses pins precisam de nova validação e build.
+O Dockerfile fixa Node 24.18.0/bookworm-slim por digest multiarch e pnpm 12.9.1. O builder instala pelo lockfile, verifica publicação e 51 artes, compila shared/server/web e usa `pnpm deploy --prod` para produzir as dependências portáveis do servidor, incluindo shared. Atualizações desses pins precisam de nova validação e build.
 
 Somente o estágio final é distribuído. Inclui:
 
 - `apps/server/dist` e dependências de execução, sem fontes/testes próprios ou ferramentas de desenvolvimento;
-- `apps/web/dist`, com os 50 PNGs de avatar, licenças públicas, HTML e JS/CSS gerados;
+- `apps/web/dist`, com os 51 PNGs de avatar, licenças públicas, HTML e JS/CSS gerados;
 - `data/questions/published/catalog.json`, privado, atualmente com 348 aprovadas;
 - `data/narration/generated`, com WAVs/manifesto privados do narrador robótico, preparados no builder;
 - `data/sources.json`, `data/licenses`, `licenses` e `THIRD_PARTY_NOTICES.md`, preservando procedência e atribuição.

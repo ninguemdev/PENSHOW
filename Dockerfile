@@ -16,7 +16,7 @@ COPY apps apps
 COPY scripts scripts
 COPY data data
 COPY licenses licenses
-COPY THIRD_PARTY_NOTICES.md ./
+COPY LICENSE THIRD_PARTY_NOTICES.md ./
 ARG WEB_BASE_PATH
 ENV VITE_BASE_PATH=${WEB_BASE_PATH}
 RUN pnpm questions:check && pnpm avatars:check && pnpm build
@@ -38,6 +38,7 @@ COPY --from=build --chown=node:node /workspace/data/licenses ./data/licenses
 COPY --from=build --chown=node:node /workspace/data/sources.json ./data/sources.json
 COPY --from=build --chown=node:node /workspace/licenses ./licenses
 COPY --from=build --chown=node:node /workspace/THIRD_PARTY_NOTICES.md ./
+COPY --from=build --chown=node:node /workspace/LICENSE ./
 COPY --chown=node:node infra/healthcheck.mjs ./infra/healthcheck.mjs
 USER node
 EXPOSE 3000

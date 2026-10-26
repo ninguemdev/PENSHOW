@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { playerIdSchema, timestampSchema } from './identifiers.js';
 import { isValidAvatar } from '../avatar/catalog.js';
+import { avatarLayoutSchema } from '../avatar/layout.js';
 
 export const nicknameSchema = z
   .string()
@@ -24,6 +25,8 @@ export const avatarSchema = z
     cheeks: avatarPartIdSchema.nullable(),
     faceAccessory: avatarPartIdSchema.nullable(),
     hat: avatarPartIdSchema.nullable(),
+    hair: avatarPartIdSchema.nullable().optional(),
+    layout: avatarLayoutSchema.optional(),
   })
   .refine(isValidAvatar, 'O personagem contém peças que não pertencem ao catálogo.');
 

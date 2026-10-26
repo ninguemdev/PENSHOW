@@ -1,5 +1,9 @@
 # Código e artes de terceiros
 
+## Cabelo acrescentado no PENSHOW
+
+A peça `hair/hair-tousled.png` foi criada para o PENSHOW com a ferramenta integrada de geração de imagens, usando artes do Comicle como referência visual. É distribuída sob a licença MIT do projeto. A [procedência, prompt e SHA-256](licenses/penshow-hair.md) ficam separados do manifesto das 50 artes originais, que permanecem intactas. O catálogo acrescenta metadados de pivô para a edição de tamanho; não altera os PNGs do Comicle.
+
 ## eSpeak NG / Echogarden
 
 A ferramenta de build usa `@echogarden/espeak-ng-emscripten` **0.3.5**, do [projeto Echogarden](https://github.com/echogarden-project/espeak-ng-emscripten), para gerar as gravações do narrador robótico em português. O sintetizador é distribuído sob GPL-3.0, com texto preservado em [licenses/espeak-ng-COPYING.txt](licenses/espeak-ng-COPYING.txt); o repositório do pacote documenta a origem e a compilação do [eSpeak NG](https://github.com/echogarden-project/espeak-ng). O pacote e seu motor ficam nas dependências de desenvolvimento e no estágio de build, sem inclusão no bundle web ou nas dependências de execução do servidor. O runtime distribui as gravações WAV preparadas, o manifesto privado e estes avisos.

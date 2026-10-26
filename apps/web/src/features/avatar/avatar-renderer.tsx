@@ -25,6 +25,13 @@ export function AvatarRenderer({
           width={size}
           height={size}
           draggable={false}
+          data-avatar-part={layer.category}
+          style={{
+            left: `${layer.rect.x * 100}%`,
+            top: `${layer.rect.y * 100}%`,
+            width: `${layer.rect.width * 100}%`,
+            height: `${layer.rect.height * 100}%`,
+          }}
         />
       ))}
     </span>

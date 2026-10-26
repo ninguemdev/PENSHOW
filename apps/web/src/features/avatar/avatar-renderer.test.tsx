@@ -36,3 +36,27 @@ it('agrupa as imagens sob um nome acessível e torna miniaturas decorativas', ()
   expect(screen.queryByRole('img')).toBe(null);
   expect(container.querySelector('canvas')).toBe(null);
 });
+it('renderiza ajustes também em miniaturas e mantém a cabeça sem transformação', () => {
+  const avatar = {
+    ...defaultAvatar(),
+    hair: 'hair-tousled',
+    layout: {
+      version: 1 as const,
+      parts: { eyes: { x: 0.1, y: -0.1, scale: 1.5 } },
+    },
+  };
+  const { container, rerender } = render(<AvatarRenderer avatar={avatar} size={256} />);
+  const layers = avatarLayers(avatar);
+  const eyes = container.querySelector<HTMLImageElement>('[data-avatar-part="eyes"]')!;
+  const style = eyes.getAttribute('style');
+  expect(eyes.style.width).toBe('150%');
+  expect(layers.find((layer) => layer.category === 'head')?.rect).toEqual({
+    x: 0,
+    y: 0,
+    width: 1,
+    height: 1,
+  });
+  expect(layers.map((layer) => layer.category)).toEqual(['head', 'eyes', 'mouth', 'hair']);
+  rerender(<AvatarRenderer avatar={avatar} size={32} />);
+  expect(eyes.getAttribute('style')).toBe(style);
+});
