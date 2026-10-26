@@ -164,17 +164,19 @@ export function buildApp(deps: AppDependencies = {}) {
     requests: sessionRequests,
     windowMs: traffic.windowMs,
   });
-  app.register(
-    async (api) => {
-      api.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
-      registerSessionRoutes(api, sessions, {
-        creates: sessionCreates,
-        requests: sessionRequests,
-        windowMs: traffic.windowMs,
-      });
-    },
-    { prefix: '/api' },
-  );
+  const apiPrefixes = new Set(['/api', `${config.webBasePath}api`]);
+  for (const prefix of apiPrefixes)
+    app.register(
+      async (api) => {
+        api.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
+        registerSessionRoutes(api, sessions, {
+          creates: sessionCreates,
+          requests: sessionRequests,
+          windowMs: traffic.windowMs,
+        });
+      },
+      { prefix },
+    );
   if (config.webRoot) registerWeb(app, config.webRoot, config.webBasePath);
   app.addHook('onReady', async () => {
     if (!deps.questions) await localQuestions.load();
@@ -203,17 +205,16 @@ export function buildApp(deps: AppDependencies = {}) {
   const isCurrent = (actor: RoomActor) =>
     connections.isCurrent(actor.playerId, actor.connectionId) &&
     realtime.sockets.sockets.get(actor.connectionId)?.connected === true;
-  // Experimental policies stay in development/test until the product decisions are confirmed.
-  const matches =
-    config.environment === 'production'
-      ? undefined
-      : new MatchService({
-          ...(deps.matchParameters ? { parameters: deps.matchParameters } : {}),
-          runtime,
-          questions,
-          isCurrentActor: (actor) => !closing && isCurrent(actor),
-          onError: () => app.log.error('Falha ao processar prazo da partida.'),
-        });
+  // Hosted pilots opt in explicitly while keeping production validation and origin checks.
+  const matches = !config.gameplayEnabled
+    ? undefined
+    : new MatchService({
+        ...(deps.matchParameters ? { parameters: deps.matchParameters } : {}),
+        runtime,
+        questions,
+        isCurrentActor: (actor) => !closing && isCurrent(actor),
+        onError: () => app.log.error('Falha ao processar prazo da partida.'),
+      });
   const rooms = new RoomService({
     runtime,
     maxRooms: traffic.maxRooms,
@@ -238,14 +239,15 @@ export function buildApp(deps: AppDependencies = {}) {
       requests: sessionRequests,
       windowMs: traffic.windowMs,
     });
-    app.register(
-      async (api) =>
-        registerNarrationRoutes(api, rooms, sessions, localQuestions.narration!, {
-          requests: sessionRequests,
-          windowMs: traffic.windowMs,
-        }),
-      { prefix: '/api' },
-    );
+    for (const prefix of apiPrefixes)
+      app.register(
+        async (api) =>
+          registerNarrationRoutes(api, rooms, sessions, localQuestions.narration!, {
+            requests: sessionRequests,
+            windowMs: traffic.windowMs,
+          }),
+        { prefix },
+      );
   }
   const trackPresence = (task: Promise<void>) => {
     const execution = task.catch((error) => {

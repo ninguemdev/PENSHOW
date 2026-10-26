@@ -2,11 +2,15 @@
 
 ## Objetivo
 
+**Atualização de 23/10/2026:** as respostas D01–D08 estão em [decisões](decisoes.md), com regras e plano do jogo atualizados. O código ainda precisa aplicar e validar as novas políticas; os registros iniciais abaixo são históricos. A publicação segue o modelo do Comicle e fica por último, após o usuário criar a VM e as demais entregas estarem prontas.
+
+**Atualização de 26/10/2026:** a pedido do usuário, o piloto foi instalado na VM existente do Comicle, tipo `c7i-flex.large`, via MCP AWS/SSM. Está disponível em [dionel.site/penshow/](https://dionel.site/penshow/). Convite com cinco jogadores, início do clássico e reconexão passaram em desktop e celular emulado no destino real. As rotas Cloudflare do domínio principal estão ativas; o conteúdo de 5.000 e as validações humanas continuam pendentes; ver [evidências](validation/t35-piloto-compartilhado.md).
+
 Criar um quiz multiplayer para navegador com a entrada simples do Comicle e modalidades variadas inspiradas no Brain Show. No modo clássico padrão solicitado em 20/10/2026, quatro modalidades distintas são sorteadas e seu placar se converte em vantagem na final, sempre a quinta fase. A [T36](tasks/T36-modo-classico-padrao.md) integra esse formato.
 
 O desenho de cada fase está no [plano detalhado do jogo](plano-do-jogo.md): pontos, quantidade de perguntas, tempos, escolha de temas, dificuldade, exemplos, final, telas e casos de borda. Os números são propostas de protótipo, exceto as regras da final já confirmadas.
 
-A execução foi decomposta em [36 tasks de implementação](tasks/README.md), com arquivo por tarefa, dependências, critérios de aceite e verificações. O índice das tasks é o único controle de status de implementação; as etapas P01 a P09 abaixo descrevem o escopo geral e conservam o registro do planejamento inicial. As [decisões pendentes](decisoes.md) indicam o que afeta cada módulo sem bloquear as frentes independentes.
+A execução foi decomposta em [39 tasks de implementação](tasks/README.md), com arquivo por tarefa, dependências, critérios de aceite e verificações. O índice das tasks é o único controle de status de implementação; as etapas P01 a P09 abaixo descrevem o escopo geral e conservam o registro do planejamento inicial. O [registro de decisões](decisoes.md) reúne as respostas e o trabalho de aplicação. A T39 acrescenta o desempate de eliminações simultâneas por tiro 2D top-down, integrado à final antes da publicação, que continua por último.
 
 ## Estado inicial
 
@@ -48,7 +52,7 @@ Aceite: partida real com amigos funciona de ponta a ponta; gabarito não chega a
 
 ### P05 — Motor de fases e modalidades
 
-Criar estratégias e fases de instrução/resultados; adicionar velocidade, aposta, roubo e dinamite em incrementos separados, conforme as fichas do plano do jogo. Aposta proposta: 0 / 25 / 50; roubo proposto: primeiro acerto transfere até 50; dinamite proposta: dois turnos por participante, +300 / −150. Incorporar as respostas sobre roubo e quinta fase antes de implementar os respectivos formatos e ajustar equilíbrio observando partidas curtas.
+Criar estratégias e fases de instrução/resultados; adicionar velocidade, aposta, roubo e dinamite em incrementos separados, conforme as fichas do plano do jogo. Aposta proposta: 0 / 25 / 50; roubo confirmado em D05 e aplicado em T20: primeiro acerto transfere até 100, com +100 por acerto para todos; dinamite proposta: dois turnos por participante, +300 / −150. Incorporar as respostas sobre roubo e quinta fase antes de implementar os respectivos formatos e ajustar equilíbrio observando partidas curtas.
 
 Aceite: cinco fases completas; cada modalidade explica sua regra; transições não dependem do anfitrião responder; ninguém recebe tempo já vencido; pontuação e transferências são determinísticas.
 

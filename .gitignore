@@ -1,6 +1,8 @@
 node_modules/
 dist/
 coverage/
+.local-releases/
+.wrangler/
 *.tsbuildinfo
 .env
 .env.*

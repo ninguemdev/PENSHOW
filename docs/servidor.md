@@ -1,6 +1,6 @@
 # Servidor e infraestrutura realtime
 
-O servidor executa Fastify e Socket.IO no mesmo servidor HTTP. Saúde, `time:sync`, [sessões de convidado](sessoes.md) e os seis comandos `room:*` estão disponíveis na rede. O [serviço de salas](salas.md) está composto em `app.rooms`, com projeções por destinatário. A [T15](quiz-classico.md) compõe o motor e cinco comandos de partida somente em desenvolvimento/teste; `app.matches` fica ausente em produção. Os envelopes seguem o [protocolo versão 1](protocolo-realtime.md).
+O servidor executa Fastify e Socket.IO no mesmo servidor HTTP. Saúde, `time:sync`, [sessões de convidado](sessoes.md) e os seis comandos `room:*` estão disponíveis na rede. O [serviço de salas](salas.md) está composto em `app.rooms`, com projeções por destinatário. A [T15](quiz-classico.md) compõe o motor quando `GAMEPLAY_ENABLED` está habilitado; o padrão de produção deixa `app.matches` ausente, e o piloto pode habilitá-lo explicitamente. Os envelopes seguem o [protocolo versão 1](protocolo-realtime.md).
 
 ## Composição
 
@@ -26,7 +26,7 @@ No `onReady`, antes da varredura de sessões e de aceitar requisições, o adapt
 
 A [T13](pontuacao-e-parametros.md) fornece `freezeMatchRules` e os cálculos puros de pontuação. O motor da T14 conserva a mesma configuração ao chamar seleção e a estratégia clássica, confirmando placares/efeitos uma vez por pergunta para a revelação. Apostas são seladas sem débito antecipado e liquidadas na resolução; roubo transfere somente após os créditos de acerto. Esses cálculos das outras modalidades permanecem disponíveis para suas tarefas de implementação. Recibos de resposta usam tempo e avaliação internos, nunca campos do cliente.
 
-No encerramento, `rooms.dispose()` bloqueia operações novas, aguarda filas, cancela o timer de partida e notifica a remoção antes de liberar as conexões. O fechamento gracioso do transporte tem limite de um segundo; em seguida são encerrados Engine.IO, sessões e agendador. O módulo de domínio de salas não conhece Socket.IO, banco ou histórias. A composição injeta `QuizLifecycle` com o motor clássico apenas fora de produção, usando o mesmo predicado de conexão atual das salas.
+No encerramento, `rooms.dispose()` bloqueia operações novas, aguarda filas, cancela o timer de partida e notifica a remoção antes de liberar as conexões. O fechamento gracioso do transporte tem limite de um segundo; em seguida são encerrados Engine.IO, sessões e agendador. O módulo de domínio de salas não conhece Socket.IO, banco ou histórias. A composição injeta `QuizLifecycle` quando `GAMEPLAY_ENABLED` permite partidas, usando o mesmo predicado de conexão atual das salas.
 
 O registro recebe ator identificado e envelope validado. `room.handlers.ts` captura o ID da conexão no servidor e chama serviços com ator/payload; o domínio não recebe socket, handshake ou callback de confirmação. Associação e credencial/conexão ativa são reconferidas dentro da fila. O resultado do adaptador passa pelo schema específico daquele evento antes de sair do servidor. Um resultado incompatível recebe `INTERNAL_ERROR` e não é enviado em parte.
 
@@ -37,6 +37,7 @@ O registro recebe ator identificado e envelope validado. `room.handlers.ts` capt
 | Variável | Padrão | Validação |
 |---|---|---|
 | `NODE_ENV` | `development` | `development`, `test` ou `production` |
+| `GAMEPLAY_ENABLED` | `false` em produção; `true` nos ambientes locais | Booleano explícito `true`/`false`; habilita o motor em produção sem relaxar as demais validações |
 | `HOST` | `127.0.0.1` | IP ou nome de host |
 | `PORT` | `3000` | Inteiro de 1 a 65535; testes usam porta 0 diretamente em `listen` |
 | `ALLOWED_ORIGINS` | `http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:4173,http://localhost:4173` | De 1 a 16 origens HTTP(S) exatas, sem repetição, separadas por vírgula; obrigatória em produção |
@@ -61,7 +62,7 @@ node --env-file=.env apps/server/dist/main.js
 
 Socket.IO usa o caminho **`/penshow/socket.io`**, distinto de `/socket.io` e de caminhos do Comicle. O bundle da biblioteca Socket.IO não é servido pelo transporte (`serveClient: false`); a interface compilada pode ser servida pelo módulo web quando `WEB_ROOT` está configurado. O cliente usa o mesmo caminho de socket, independente da base HTML.
 
-A T34 acrescenta aliases HTTP em `/api/health` e `/api/guest-sessions`, compartilhando sessões e limites com as rotas históricas sem prefixo. Assim, a imagem serve cliente/API/socket sem proxy interno. O módulo web só expõe tipos públicos permitidos da raiz compilada e rotas conhecidas da SPA; conteúdo privado e caminhos ausentes não recebem HTML. Cache, imagem e operação estão em [deploy](deploy.md). As partidas experimentais continuam ausentes em produção.
+O servidor atende a API sob a base da web, por exemplo `/penshow/api/health` e `/penshow/api/guest-sessions`, incluindo narração. Os aliases `/api` e as rotas históricas sem prefixo compartilham as mesmas sessões e orçamentos; não permitem contornar limites. O cliente usa apenas a API de sua base, preservando `/api/` do Comicle no domínio compartilhado. Assim, a imagem serve cliente/API/socket sem proxy interno. O módulo web só expõe tipos públicos permitidos da raiz compilada e rotas conhecidas da SPA; conteúdo privado e caminhos ausentes não recebem HTML. Cache, imagem e operação estão em [deploy](deploy.md). As partidas ficam desativadas por padrão em produção; `GAMEPLAY_ENABLED=true` libera o piloto explicitamente.
 
 Polling e WebSocket estão habilitados. A origem é conferida no handshake por `allowRequest`, além dos cabeçalhos CORS. HTTP recusa origem explícita não permitida com 403; preflight válido recebe os cabeçalhos CORS. Clientes sem `Origin`, como ferramentas nativas, podem conectar. Origem não autentica um jogador.
 

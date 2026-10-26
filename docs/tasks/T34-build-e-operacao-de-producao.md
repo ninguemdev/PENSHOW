@@ -5,7 +5,7 @@
 - **Marco:** M6
 - **Branch sugerido:** `task/34-build-e-operacao-de-producao`
 
-O status desta tarefa fica somente no [índice](README.md). A operação do artefato e seus limites estão em [deploy](../deploy.md). A infraestrutura não consolida as regras pendentes da T29/T36: partidas experimentais permanecem desativadas em produção; D08/T35 continuam responsáveis pelo destino e pela publicação real.
+O status desta tarefa fica somente no [índice](README.md). A operação do artefato e seus limites estão em [deploy](../deploy.md). A infraestrutura não conclui os aceites presenciais de T30–T32 ou a expansão editorial de T33: partidas permanecem desativadas por padrão em produção e o piloto T35 usa liberação explícita; D08/T35 continuam responsáveis pelo destino e pela publicação real.
 
 ## Objetivo
 
@@ -60,3 +60,10 @@ Aplicar as [convenções e verificações comuns](README.md#convenções-de-impl
 - A composição agora acompanha conexões que sofreram upgrade. Após drenar domínio/realtime, aguarda o fechamento físico e destrói conexões remanescentes no prazo de um segundo. Não força `process.exit` nem abandona comandos de domínio. Teste com TCP real e smoke da imagem incluem esse cliente sem confirmação, além do upload HTTP incompleto já coberto.
 - Validação da correção: `format:check`, lint, typecheck, build e as 846 verificações das suítes completas aprovados (42 conteúdo, cinco artes, 186 shared, 450 server e 163 web). `docker build --tag penshow:t34-shutdown .` e `pnpm test:container penshow:t34-shutdown` aprovados, incluindo parada com cliente sem confirmação, reinício e partida curta na mesma imagem em teste local. Containers de teste removidos pelo roteiro.
 - T35 ainda exige destino/URL/acesso (D08), escopo da publicação, regras consolidadas e os requisitos de T32/T33. A inspeção desta etapa não registra publicação externa nem aprovação por silêncio.
+
+## Revalidação após T33/T39 — 26/10/2026
+
+- [Registro da imagem atual](../validation/t34-revalidacao-container.md): `penshow:t34-20261026`, catálogo privado de 348 aprovadas, 348 narrações e 50 artes. Build e smoke completos aprovados, incluindo HTTP, socket/polling, privacidade, encerramento, reinício, falhas de startup e quiz curto com duas identidades.
+- O smoke passou a comparar o hash do catálogo da imagem com o da publicação local, validar correspondência e integridade de todas as narrações e inspecionar a ausência de lotes/revisões/baselines no runtime e nas rotas públicas. Uma imagem antiga foi recusada por divergência de hash, como esperado.
+- Compose validado e executado em projeto isolado com porta aleatória apenas em loopback: serviço saudável, saúde/API e interface aprovadas. Recursos temporários removidos.
+- 905 testes, formatação, lint, tipos e build locais aprovados. Nenhuma mudança na política de liberação: partidas continuam desativadas em produção, e T35 permanece por último. A árvore local não recebeu commit ou publicação externa.

@@ -65,6 +65,9 @@ describe('servidor HTTP', () => {
       ).statusCode,
     ).toBe(200);
     expect((await app.inject({ method: 'POST', url: '/guest-sessions' })).statusCode).toBe(201);
+    expect(
+      (await app.inject({ method: 'POST', url: '/penshow/api/guest-sessions' })).statusCode,
+    ).toBe(429);
     expect((await app.inject({ method: 'POST', url: '/api/guest-sessions' })).statusCode).toBe(429);
     expect((await app.inject({ method: 'POST', url: '/guest-sessions' })).statusCode).toBe(429);
   });

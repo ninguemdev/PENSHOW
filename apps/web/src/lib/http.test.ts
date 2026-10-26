@@ -3,6 +3,34 @@ import { createHttpClient } from './http';
 import { issuedSession } from '../test/fixtures';
 
 describe('cliente HTTP', () => {
+  it('mantém sessões e narração na API do PENSHOW quando a origem é compartilhada', async () => {
+    const request = vi
+      .fn()
+      .mockResolvedValueOnce(Response.json(issuedSession))
+      .mockResolvedValueOnce(
+        new Response(new Uint8Array([82, 73, 70, 70]), {
+          headers: { 'Content-Type': 'audio/wav' },
+        }),
+      )
+      .mockResolvedValueOnce(
+        new Response(new Uint8Array([82, 73, 70, 70]), {
+          headers: { 'Content-Type': 'audio/wav' },
+        }),
+      );
+    const client = createHttpClient(request, '/penshow/');
+    await client.createSession();
+    const signal = new AbortController().signal;
+    await client.narrationPreview(signal);
+    await client.narration(issuedSession, 'room-id', 'question-id', signal);
+    expect(request.mock.calls.map(([path]) => path)).toEqual([
+      '/penshow/api/guest-sessions',
+      '/penshow/api/narration/preview',
+      '/penshow/api/rooms/room-id/narration/question-id',
+    ]);
+    expect(request.mock.calls[2]?.[1]).toMatchObject({
+      headers: { Authorization: `Bearer ${issuedSession.token}` },
+    });
+  });
   it.each([
     () => Promise.reject(new Error('secret')),
     () => Promise.resolve(new Response(null, { status: 503 })),

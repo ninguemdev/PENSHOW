@@ -29,7 +29,7 @@ async function fixture(base = '/penshow/') {
   return { app, root };
 }
 describe('artefato web servido pelo servidor', () => {
-  it.each(['/penshow/', '/'])(
+  it.each(['/penshow/', '/', '/jogos/penshow/'])(
     'serve páginas e assets no caminho %s com cache apropriado',
     async (base) => {
       const { app } = await fixture(base);
@@ -43,10 +43,10 @@ describe('artefato web servido pelo servidor', () => {
       expect(asset.statusCode).toBe(200);
       expect(asset.headers['cache-control']).toBe('public, max-age=31536000, immutable');
       expect(asset.headers['x-content-type-options']).toBe('nosniff');
-      const health = await app.inject('/api/health');
+      const health = await app.inject(`${base}api/health`);
       expect(health.json()).toEqual({ service: 'penshow', status: 'ok' });
       expect(health.headers['cache-control']).toBe('no-store');
-      const created = await app.inject({ method: 'POST', url: '/api/guest-sessions' });
+      const created = await app.inject({ method: 'POST', url: `${base}api/guest-sessions` });
       expect(created.statusCode).toBe(201);
       const { playerId, token } = created.json();
       const verified = await app.inject({

@@ -94,6 +94,7 @@ export function App({ stores: suppliedStores }: { stores?: ClientStores }) {
           )}
         </main>
         <footer>
+          <span>{strings.pilot} · </span>
           {strings.title} <span>{strings.footer}</span>
           <a href={`${import.meta.env.BASE_URL}licenses/comicle-LICENSE.txt`}>{strings.licenses}</a>
         </footer>

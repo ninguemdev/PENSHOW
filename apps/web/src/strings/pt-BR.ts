@@ -1,4 +1,5 @@
 export const strings = {
+  pilot: 'Versão piloto',
   narrator: {
     title: 'Narrador robótico',
     activate: 'Ativar narrador robótico',

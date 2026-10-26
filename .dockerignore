@@ -1,4 +1,5 @@
 .git
+.local-releases
 .github
 **/node_modules
 **/dist
