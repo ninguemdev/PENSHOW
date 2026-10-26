@@ -5925,7 +5925,7 @@
       "policy": {
         "decisionId": "D04",
         "mode": "dynamite",
-        "status": "prototype"
+        "status": "confirmed"
       },
       "responseMs": 10000,
       "revealMs": 3000,
@@ -5965,11 +5965,11 @@
     "status": "experimental",
     "theft": {
       "correctPoints": 100,
-      "maximumTransfer": 50,
+      "maximumTransfer": 100,
       "policy": {
         "decisionId": "D05",
         "eligible": "first-correct-only",
-        "status": "prototype"
+        "status": "confirmed"
       },
       "questions": {
         "easy": 2,
