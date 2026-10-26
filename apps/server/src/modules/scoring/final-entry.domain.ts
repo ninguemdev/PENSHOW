@@ -44,7 +44,7 @@ function finish(
   tieBreaks: Record[],
 ): FrozenFinalEntry {
   const common = { matchId, scope, policy, tieBreaks };
-  if (groups.some((ids) => ids.length > 1))
+  if (policy.status !== 'confirmed' && groups.some((ids) => ids.length > 1))
     return seal({
       ...common,
       status: 'pending-tiebreak',
@@ -60,10 +60,12 @@ function finish(
         decisionId: 'D06',
       },
     });
-  const entries = groups.flat().map((playerId, index) => ({
-    ...scores.find((score) => score.playerId === playerId)!,
-    rank: index + 1,
-  }));
+  const entries = groups.flatMap((group, groupIndex) =>
+    group.map((playerId) => ({
+      ...scores.find((score) => score.playerId === playerId)!,
+      rank: groupIndex + 1,
+    })),
+  );
   return seal({
     ...common,
     status: 'ready',
@@ -112,7 +114,12 @@ export function prepareFinalEntry(
   const id = matchIdSchema.safeParse(input.matchId),
     scoresResult = scoreboardSchema.safeParse(input.scores),
     policyResult = qualificationPolicySchema.safeParse(
-      input.policy ?? { status: 'pending', decisionId: 'D06' },
+      input.policy ?? {
+        status: 'confirmed',
+        decisionId: 'D06',
+        secondary: 'correct-answers',
+        residual: 'equal-lives',
+      },
     );
   if (!id.success || !scoresResult.success || !policyResult.success)
     throw new FinalEntryError('invalid-input');
@@ -122,7 +129,7 @@ export function prepareFinalEntry(
   const policy = policyResult.data,
     tieBreaks: Record[] = [];
   let groups = partition(scores, (score) => score.points);
-  if (policy.status === 'prototype')
+  if (policy.status !== 'pending')
     groups = groups.flatMap((ids) => {
       if (ids.length === 1) return [ids];
       const after = partition(

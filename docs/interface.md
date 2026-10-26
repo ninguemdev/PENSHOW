@@ -1,6 +1,6 @@
 # Interface web
 
-Base implementada em T05, perfil/editor em T06, criação/convite/lobby em T09, [quiz clássico por estado em T16](quiz-classico-web.md) e [acessibilidade e celular em T30](acessibilidade.md). A direção visual é **provisória**, conforme D07: papel claro, tinta azul e destaque amarelo. Não representa aprovação de identidade definitiva. Os sinais de pontuação são CSS decorativo, ocultos da árvore acessível. As artes de personagem vêm do catálogo público do Comicle, com [licença e procedência](../THIRD_PARTY_NOTICES.md); não há dependência do editor de quadrinhos.
+Base implementada em T05, perfil/editor em T06, criação/convite/lobby em T09, [quiz clássico por estado em T16](quiz-classico-web.md) e [acessibilidade e celular em T30](acessibilidade.md). Em 23/10/2026, D07 aprovou a proposta de definir a direção visual a partir do protótipo. A T30 concretiza essa direção mantendo papel claro, tinta azul, destaque amarelo e tipografia local. Os tokens e os componentes abaixo definem a identidade aplicada, sem atribuir ao usuário uma escolha de cor específica. A revisão em hardware físico continua pendente. Os sinais de pontuação são CSS decorativo, ocultos da árvore acessível. As artes de personagem vêm do catálogo público do Comicle, com [licença e procedência](../THIRD_PARTY_NOTICES.md); não há dependência do editor de quadrinhos.
 
 ## Tokens e componentes
 
@@ -8,7 +8,7 @@ Base implementada em T05, perfil/editor em T06, criação/convite/lobby em T09, 
 |---|---|---|
 | `--ink` | `#17263c` | Texto e ações principais |
 | `--paper` | `#fffdf7` | Superfícies |
-| `--accent` | `#fbc65b` | Ilustração e identificação provisória |
+| `--accent` | `#fbc65b` | Destaque e identificação visual |
 | `--muted` | `#556074` | Texto auxiliar |
 | `--line` | `#d6d5ce` | Divisores decorativos |
 

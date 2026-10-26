@@ -67,6 +67,16 @@ describe('configuração experimental congelada por partida', () => {
     mutable.speed.bonusBands[0]!.points = 999;
     expect(frozen.parameters.classic.correctPoints).toBe(100);
     expect(frozen.parameters.speed.bonusBands[0]!.points).toBe(50);
+    expect(frozen.parameters.theft).toMatchObject({
+      correctPoints: 100,
+      maximumTransfer: 100,
+      policy: { status: 'confirmed', decisionId: 'D05', eligible: 'first-correct-only' },
+    });
+    expect(frozen.parameters.pressure).toMatchObject({
+      turnDifficulties: ['medium', 'hard'],
+      responseMs: 10_000,
+      policy: { status: 'confirmed', decisionId: 'D04', mode: 'dynamite' },
+    });
     expect(Object.isFrozen(frozen)).toBe(true);
     expect(Object.isFrozen(frozen.parameters.speed.bonusBands)).toBe(true);
     expect(Object.isFrozen(frozen.parameters.speed.bonusBands[0])).toBe(true);
@@ -74,11 +84,7 @@ describe('configuração experimental congelada por partida', () => {
     expect(frozen.confirmedFinal).toBe(CONFIRMED_FINAL_RULES);
     expect(frozen.confirmedFinal.initialLivesByRank).toEqual([5, 4, 3, 2]);
     expect(frozen.pendingDecisions).toBe(PENDING_DECISIONS);
-    expect(
-      Object.values(frozen.pendingDecisions).every(
-        (decision) => decision.status === 'in-consultation',
-      ),
-    ).toBe(true);
+    expect(frozen.pendingDecisions).toEqual({});
   });
 
   it('uma alteração explícita afeta a nova partida, conservando a configuração da anterior', () => {
@@ -328,11 +334,11 @@ describe('resolução de perguntas no servidor', () => {
       { mode: 'theft', answers: [answer(a), answer(b, true, 2)], targetPlayerId: b },
       board(0, 240),
     );
-    expect(result.after.map((entry) => entry.points)).toEqual([150, 290]);
+    expect(result.after.map((entry) => entry.points)).toEqual([200, 240]);
     expect(result.after.map((entry) => entry.correctAnswers)).toEqual([1, 1]);
     expect(result.effects.slice(-2)).toEqual([
-      { kind: 'debit', playerId: b, amount: 50, reason: 'theft' },
-      { kind: 'credit', playerId: a, amount: 50, reason: 'theft' },
+      { kind: 'debit', playerId: b, amount: 100, reason: 'theft' },
+      { kind: 'credit', playerId: a, amount: 100, reason: 'theft' },
     ]);
     const smallTarget = run(
       { mode: 'theft', answers: [answer(a)], targetPlayerId: b },
@@ -340,6 +346,32 @@ describe('resolução de perguntas no servidor', () => {
     );
     expect(smallTarget.after.map((entry) => entry.points)).toEqual([130, 0]);
     expect(smallTarget.effects.slice(-2).map((effect) => effect.amount)).toEqual([30, 30]);
+  });
+
+  it.each([
+    [0, false, 0],
+    [30, false, 30],
+    [99, false, 99],
+    [100, false, 100],
+    [101, false, 100],
+    [0, true, 100],
+    [30, true, 100],
+  ])('D05: saldo %i, alvo acerta=%s, transfere %i após os créditos', (balance, correct, amount) => {
+    const result = run(
+      { mode: 'theft', answers: [answer(a), answer(b, correct, 2)], targetPlayerId: b },
+      board(0, balance),
+    );
+    expect(result.after.map((entry) => entry.points)).toEqual([
+      100 + amount,
+      balance + (correct ? 100 : 0) - amount,
+    ]);
+    expect(result.after.reduce((total, entry) => total + entry.points, 0)).toBe(
+      balance + 100 + (correct ? 100 : 0),
+    );
+    expect(result.after.every((entry) => entry.points >= 0)).toBe(true);
+    expect(
+      result.effects.filter((effect) => effect.reason === 'theft').map((effect) => effect.amount),
+    ).toEqual(amount ? [amount, amount] : []);
   });
 
   it('erro mais rápido não bloqueia o roubo e empate de timestamp usa a ordem dos recibos, não a do placar', () => {
@@ -352,8 +384,8 @@ describe('resolução de perguntas no servidor', () => {
       { mode: 'theft', answers: [answer(b), answer(a)], targetPlayerId: a },
       board(100),
     );
-    expect(scoreOf(tied.after, b).points).toBe(150);
-    expect(scoreOf(tied.after, a).points).toBe(150);
+    expect(scoreOf(tied.after, b).points).toBe(200);
+    expect(scoreOf(tied.after, a).points).toBe(100);
     expect(() => run({ mode: 'theft', answers: [answer(a)], targetPlayerId: a })).toThrow(
       'invalid-target',
     );
@@ -437,9 +469,9 @@ describe('exemplos completos do plano', () => {
         }
       deltas.push(scoreOf(scores).points - before);
     }
-    expect(deltas).toEqual([600, 900, 900, 900, 600]);
-    expect(scoreOf(scores)).toMatchObject({ points: 3900, correctAnswers: 26 });
-    expect(scoreOf(scores, b)).toMatchObject({ points: 3300, correctAnswers: 26 });
+    expect(deltas).toEqual([600, 900, 900, 1200, 600]);
+    expect(scoreOf(scores)).toMatchObject({ points: 4200, correctAnswers: 26 });
+    expect(scoreOf(scores, b)).toMatchObject({ points: 3000, correctAnswers: 26 });
     const history: ScoringHistory = { matchId, rules, records };
     expect(JSON.parse(JSON.stringify(history))).toEqual(history);
     for (const record of records) {
@@ -457,11 +489,11 @@ describe('exemplos completos do plano', () => {
       }
     }
     records.at(-1)!.after[0]!.points = 0;
-    expect(records.at(-2)!.after[0]!.points).toBe(3900);
+    expect(records.at(-2)!.after[0]!.points).toBe(4200);
     expect(records[0]!.before).toEqual(board());
   });
 
-  it('reproduz a trajetória 400 → 925 → 1375 → 1825 → 1975 sem zerar o placar', () => {
+  it('reproduz a trajetória 400 → 925 → 1375 → 1875 → 2025 sem zerar o placar', () => {
     let scores = board();
     const totals: number[] = [];
     const apply = (input: ScoringInput) => {
@@ -490,7 +522,7 @@ describe('exemplos completos do plano', () => {
     apply({ mode: 'pressure', respondentId: a, answer: answer() });
     apply({ mode: 'pressure', respondentId: a, answer: answer(a, false) });
     totals.push(scoreOf(scores).points);
-    expect(totals).toEqual([400, 925, 1375, 1825, 1975]);
+    expect(totals).toEqual([400, 925, 1375, 1875, 2025]);
     expect(scoreOf(scores).correctAnswers).toBe(17);
   });
 });

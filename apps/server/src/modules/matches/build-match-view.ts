@@ -7,8 +7,8 @@ import { buildRoundSummaries } from './build-round-summaries.js';
 import { buildMatchPlan } from './build-match-plan.js';
 
 /** Explicit public fields only. Internal IDs, receipts and content checkpoints stay private. */
-export function buildMatchView(state: MatchState, viewerId: PlayerId) {
-  if (state.final) return buildFinalView(state);
+export function buildMatchView(state: MatchState, viewerId: PlayerId, serverNow = 0) {
+  if (state.final) return buildFinalView(state, viewerId, serverNow);
   const round = structuredClone(currentRound(state));
   const stage = state.stage;
   const turn = currentPressureTurn(state);
@@ -191,8 +191,8 @@ export function buildMatchView(state: MatchState, viewerId: PlayerId) {
             wrongPenalty: state.rules.parameters.pressure.wrongPenalty,
             responseMs: state.rules.parameters.pressure.responseMs,
             turnDifficulties: [...state.rules.parameters.pressure.turnDifficulties],
-            status: 'prototype',
-            mode: 'dynamite',
+            status: state.rules.parameters.pressure.policy.status,
+            mode: state.rules.parameters.pressure.policy.mode,
           },
           ...(turn && ['question-reading', 'question-open', 'reveal'].includes(stage.phase)
             ? {

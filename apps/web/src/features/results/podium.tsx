@@ -14,6 +14,7 @@ export function Podium({
     <section aria-label={strings.results.title}>
       <h2 tabIndex={-1}>{strings.results.title}</h2>
       <p role="status">{strings.final.winner(winner?.profile.nickname ?? strings.match.player)}</p>
+      {stage.winnerSource === 'tiebreak' && <p>Campeão no desempate de tiro.</p>}
       <p>{strings.results.help}</p>
       <ol className="podium" aria-label={strings.results.order}>
         {stage.standings.map((playerId, index) => {
@@ -26,9 +27,11 @@ export function Podium({
                 {member ? <PlayerChip member={member} /> : strings.match.player}
                 <p>{strings.results.entry(finalist.rank, finalist.initialLives)}</p>
                 <p>
-                  {finalist.status === 'active'
-                    ? strings.results.survived(finalist.lives)
-                    : strings.results.eliminated(finalist.eliminationOrder)}
+                  {stage.winnerSource === 'tiebreak' && index === 0
+                    ? 'Venceu o desempate de tiro.'
+                    : finalist.status === 'active'
+                      ? strings.results.survived(finalist.lives)
+                      : strings.results.eliminated(finalist.eliminationOrder)}
                 </p>
               </div>
             </li>

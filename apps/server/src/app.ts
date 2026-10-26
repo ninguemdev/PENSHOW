@@ -123,6 +123,12 @@ export function buildApp(deps: AppDependencies = {}) {
   const sessionCreates = limiter(traffic.sessionCreatesPerWindow);
   const sessionRequests = limiter(traffic.sessionRequestsPerWindow);
   const commands = limiter(traffic.commandsPerWindow);
+  const combatInputs = new TrafficLimiter(
+    runtime.clock,
+    1000,
+    traffic.combatInputsPerSecond,
+    traffic.maxTrackedKeys,
+  );
   const handshakes = limiter(traffic.handshakesPerWindow);
 
   app.addHook('onRequest', async (request, reply) => {
@@ -218,7 +224,9 @@ export function buildApp(deps: AppDependencies = {}) {
       clock: runtime.clock,
       isCurrent,
       send: (actor, event) => {
-        realtime.sockets.sockets.get(actor.connectionId)?.emit(event.event, event);
+        const socket = realtime.sockets.sockets.get(actor.connectionId);
+        if (event.event === 'tiebreak:frame') socket?.volatile.emit(event.event, event);
+        else socket?.emit(event.event, event);
       },
       onError: () => app.log.error('Falha ao publicar visão de sala.'),
     }),
@@ -323,7 +331,7 @@ export function buildApp(deps: AppDependencies = {}) {
       const acknowledge = args.at(-1);
       if (closing) return;
       // Charge malformed and unacknowledged packets too; reconnecting keeps the same budget.
-      const admitted = commands.take(
+      const admitted = (event === 'tiebreak:input' ? combatInputs : commands).take(
         proof ? `player:${proof.playerId}` : `ip:${socket.handshake.address}`,
       );
       if (!admitted || pendingCommands >= traffic.maxPendingCommands) {
@@ -369,6 +377,7 @@ export function buildApp(deps: AppDependencies = {}) {
     sessionCreates.clear();
     sessionRequests.clear();
     commands.clear();
+    combatInputs.clear();
     handshakes.clear();
     await runtime.scheduler.dispose();
     await Promise.allSettled(running);

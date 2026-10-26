@@ -475,6 +475,28 @@ export class QuestionSelection {
     final.completed++;
   }
 
+  /** Private atomic batch; shares the match-wide used set and never advances the quiz question. */
+  survivalQuestions(
+    count: number,
+    preserveFinalQuestion: boolean,
+  ): PreparedQuestion[] | ContentInterruption {
+    if (!this.final || !Number.isInteger(count) || count < 1 || count > 12)
+      throw new SelectionError('invalid-state');
+    const candidates = this.questions.filter(
+      (q) => q.difficulty === 'medium' && !this.claimed.has(q.id) && !this.used.has(q.id),
+    );
+    const spare = preserveFinalQuestion ? 1 : 0;
+    if (candidates.length < count + spare) return this.interrupt();
+    const selected = shuffled(candidates, this.deps.random).slice(0, count);
+    const prepared = selected.map((question) => this.prepare(question));
+    for (const question of selected) {
+      this.reservedFinal.delete(question.id);
+      this.claimed.add(question.id);
+      this.used.add(question.id);
+    }
+    return prepared;
+  }
+
   private remainingModes(): readonly SelectionMode[] {
     const modes =
       this.options.format === 'classic'

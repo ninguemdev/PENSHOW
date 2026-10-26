@@ -36,6 +36,8 @@
     "test:e2e:sound": "pnpm --filter @penshow/e2e sound",
     "sounds:preview": "pnpm --filter @penshow/e2e exec playwright test tests/sound-render.spec.ts --project=desktop",
     "test:e2e:narrator": "pnpm --filter @penshow/e2e narrator",
+    "test:e2e:tiebreak": "pnpm --filter @penshow/e2e exec playwright test tests/tiebreak.spec.ts",
+    "tiebreak:benchmark": "pnpm --filter @penshow/server exec tsx ../../scripts/benchmark-tiebreak.ts",
     "test:container": "node scripts/smoke-container.mjs",
     "test:assets": "pnpm --filter @penshow/shared build && node --test scripts/avatars/*.test.mjs",
     "test:content": "node --test scripts/lib/*.test.mjs"

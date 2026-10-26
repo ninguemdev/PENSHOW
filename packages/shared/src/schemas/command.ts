@@ -14,6 +14,7 @@ import {
 } from './identifiers.js';
 import { playerProfileSchema } from './profile.js';
 import { roomSettingsSchema } from './settings.js';
+import { tiebreakInputSchema, tiebreakContextSchema } from './tiebreak.js';
 
 const envelope = { protocolVersion: z.literal(1), actionId: actionIdSchema };
 const roomContext = { roomId: roomIdSchema };
@@ -22,6 +23,16 @@ const roundContext = { ...matchContext, roundId: roundIdSchema };
 const questionContext = { ...roundContext, questionId: questionIdSchema };
 
 export const clientCommandSchema = z.discriminatedUnion('event', [
+  z.strictObject({
+    ...envelope,
+    event: z.literal('tiebreak:input'),
+    payload: tiebreakInputSchema.extend(roundContext),
+  }),
+  z.strictObject({
+    ...envelope,
+    event: z.literal('tiebreak:answer'),
+    payload: tiebreakContextSchema.extend({ ...questionContext, optionId: optionIdSchema }),
+  }),
   z.strictObject({ ...envelope, event: z.literal('room:sync'), payload: z.strictObject({}) }),
   z.strictObject({
     ...envelope,

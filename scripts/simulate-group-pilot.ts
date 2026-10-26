@@ -18,7 +18,7 @@ if (args.some((arg) => arg !== '--check') || args.length > 1)
   throw new Error('Use pilot:simulate [--check].');
 // The T32 observations used this exact catalog; T33 audits the current publication separately.
 const catalogFile = new URL('../data/editorial-baselines/t27-catalog.json', import.meta.url);
-const target = new URL('../data/publication-reports/t32-group-pilot.json', import.meta.url);
+const target = new URL('../data/publication-reports/t21-group-pilot.json', import.meta.url);
 const catalog = publishedCatalogSchema.parse(JSON.parse(await readFile(catalogFile, 'utf8')));
 const repository = new LocalQuestionRepository(catalogFile);
 await repository.load();
@@ -67,18 +67,14 @@ for (const playerCount of playerCounts) {
   }
   for (const scenario of ['no-final-answer', 'no-final-target', 'tied-scoring'] as const) {
     const run = await runGroupPilot(repository, { playerCount, seed: complete.seed, scenario });
-    assert.equal(
-      run.terminalPhase,
-      {
-        'no-final-answer': 'final-no-answer-pending',
-        'no-final-target': 'final-no-target-pending',
-        'tied-scoring': 'ranking',
-      }[scenario],
+    assert(
+      ['podium', 'interrupted'].includes(run.terminalPhase),
+      'Políticas confirmadas não devem manter as pausas antigas.',
     );
-    if (run.final) assert.equal(run.final.questionsWithoutDamage, 1);
+    if (run.final) assert.equal(run.final.questionsWithoutDamage, 0);
     runs.push(run);
   }
-  console.log(`Piloto ${playerCount}: comparações e pausas registradas.`);
+  console.log(`Piloto ${playerCount}: comparações e casos de ausência/empate registrados.`);
 }
 const summary = playerCounts.map((playerCount) => {
   const baseline = runs.filter(
@@ -140,11 +136,13 @@ assert.deepEqual(
   new Set(['classic', 'speed', 'wager', 'theft', 'pressure']),
 );
 const report = {
-  schemaVersion: 1,
-  task: 'T32',
+  schemaVersion: 2,
+  task: 'T21',
   scope:
     'Piloto mecânico experimental local; jogadores roteirizados e relógio virtual. Não são sessões humanas, medição de latência ou avaliação de conforto/equilíbrio percebido.',
-  pendingDecisions: ['D01', 'D02', 'D03', 'D04', 'D05', 'D06'],
+  pendingDecisions: [],
+  implementationNote:
+    'D02/D03/D04/D05/D06/D09 aplicadas. Dinamite confirmada por dois turnos individuais; roubo de até 100, com +100 por acerto para todos. Variantes de pontuação da dinamite e de teto 25 no roubo explicitamente experimentais. Relatórios históricos T32/T39/T20 preservados.',
   methodology: {
     seeds,
     playerCounts,
@@ -160,9 +158,11 @@ const report = {
     pairedRuns:
       'Baseline completo de cada tamanho que inclua a modalidade alterada, ou primeiro baseline com essa modalidade se nenhum deles concluir; mesmos samples e sorteio, uma alteração de pontuação por execução. Mudanças de saldo/alvo/classificação podem alterar o percurso.',
     incompleteRuns:
-      'Mantidas no relatório; duração até a pausa, excluída do intervalo de partidas completas. Sem resolver D02/D03/D06 artificialmente.',
+      'Interrupções por falta de conteúdo são mantidas, excluídas do intervalo de partidas completas, sem inventar campeão.',
+    tiebreak:
+      'Controles roteirizados de movimento/mira/tiro pela API oficial, sem injetar impactos. Em cada combate, o primeiro participante acerta as perguntas de sobrevivência e os outros erram, evitando igualdade eterna de bots simétricos. Não é medição de habilidade humana.',
     safetyGuard:
-      '2000 transições; falha se alcançado. Não representa limite de duração da partida.',
+      '5000 transições; falha se alcançado. Não representa limite de duração da partida.',
   },
   catalogSha256: catalog.manifest.contentSha256,
   configurations: PILOT_VARIANTS.map((variant) => ({
@@ -176,11 +176,11 @@ const report = {
 const bytes = stableJson(report);
 if (args.includes('--check')) {
   if ((await readFile(target, 'utf8')) !== bytes)
-    throw new Error('Relatório T32 divergente; execute pilot:simulate.');
+    throw new Error('Relatório T21 divergente; execute pilot:simulate.');
 } else await writeFile(target, bytes);
 console.log(
   JSON.stringify(
-    { simulations: runs.length, summary, report: 'data/publication-reports/t32-group-pilot.json' },
+    { simulations: runs.length, summary, report: 'data/publication-reports/t21-group-pilot.json' },
     null,
     2,
   ),

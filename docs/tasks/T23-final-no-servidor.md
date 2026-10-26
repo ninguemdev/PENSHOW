@@ -18,11 +18,11 @@ Implementar a disputa de vidas com uma única resposta aceita por pergunta e dan
 - [arquitetura.md](../arquitetura.md)
 - [decisoes.md](../decisoes.md)
 
-## Decisões em consulta
+## Decisões confirmadas em 23/10/2026
 
-D02 trata de ninguém responder e D03 de ausência de alvo. O núcleo de erro/acerto é confirmado e pode avançar; resolver as duas políticas antes de considerar a final completa.
+D02: sem resposta no prazo, todos os participantes ainda ativos perdem uma vida. D03: sem escolha de alvo em seis segundos, sortear entre todos os ativos, incluindo quem acertou. A escolha manual continua restrita aos adversários. D09: se mais de um for eliminado na mesma resolução, os empatados disputam o minigame de tiro da [T39](./T39-desempate-tiro-top-down.md), inclusive se todos os ativos chegarem a zero juntos; ver [decisões](../decisoes.md).
 
-O núcleo confirmado está implementado como continuação de protótipo em desenvolvimento/teste. D02/D03 continuam em consulta; seus prazos produzem pendência explícita sem dano ou campeão automático. A tarefa permanece em andamento até consolidar essas políticas.
+A integração T39 aplica perda coletiva D02, sorteio D03 inclusive do autor e encaminhamento de grupos eliminados ao minigame. Testes de domínio/serviço/rede foram atualizados e o e2e verifica perda coletiva, combate e pódio. As evidências anteriores abaixo permanecem históricas.
 
 ## Entregáveis
 
@@ -30,22 +30,25 @@ O núcleo confirmado está implementado como continuação de protótipo em dese
 - [x] Em erro, retirar uma vida do autor; em acerto, autorizar somente esse ator a escolher outro participante com vida.
 - [x] Aplicar uma perda ao alvo, resolver eliminação e iniciar pergunta inédita ou declarar o último sobrevivente.
 - [x] Integrar prazos, autoridade de tempo, envelopes de ação e projeções sem dados privados, preservando efeito único em reenvios.
-- [ ] Consolidar e integrar os fallbacks após as escolhas de D02/D03.
+- [x] Aplicar D02 como resolução coletiva atômica: tirar uma vida de cada ativo, incluindo desconectados, sem atingir eliminados nem duplicar perdas em callbacks/reenvios.
+- [x] Aplicar D03 com sorteio pela porta de aleatoriedade do servidor, entre todos os ativos com a mesma chance, incluindo quem acertou e desconectados; registrar o alvo uma única vez para reconexão e repetição.
+- [x] Atualizar histórico, schemas e projeções para dano coletivo e grupos eliminados simultaneamente; encaminhar cada grupo à T39 sem declarar campeão ou fixar posições por ordem de conexão. Integrar o resultado ao pódio por T25/T36.
 
 ## Critérios de aceite
 
 - [x] Primeiro errado seguido de outro correto produz uma perda no primeiro e nenhuma avaliação da segunda tentativa.
 - [x] Duas respostas corretas concorrentes concedem um único direito de ataque.
 - [x] Uma pergunta respondida não acumula erro e ataque; reenvio não restaura vidas nem duplica dano.
-- [x] Alvo desconectado continua elegível se tiver vidas; eliminado ou autor do ataque não é alvo válido.
+- [x] Na escolha manual, alvo desconectado continua elegível se tiver vidas; eliminado ou autor do ataque não é alvo válido.
+- [x] No sorteio automático, permitir que o próprio autor seja atingido; excluir eliminados e preservar um único dano por ataque.
 - [x] O motor não concede vitória por placar ao atingir um limite arbitrário de perguntas.
 
 ## Verificação
 
 - [x] Integrar respostas concorrentes, resposta exatamente no prazo, pacote inválido e tentativa de espectador.
 - [x] Testar líder com quatro perdas e quinta eliminação, ataque repetido e alvo já eliminado.
-- [x] Testar suspensão sem dano por ausência de resposta/alvo enquanto D02/D03 estão pendentes.
-- [ ] Validar os fallbacks definitivos após as decisões.
+- [x] Evidência histórica: testar suspensão sem dano por ausência de resposta/alvo antes das respostas de D02/D03. Essa pausa será substituída pelas políticas aprovadas.
+- [x] Validar perda coletiva com sobreviventes e eliminações simultâneas; sorteio que atinge o autor, um adversário ou desconectado; prazo exato, callback atrasado, reconexão e repetição sem novo dano/sorteio.
 
 ## Implementação e evidências do núcleo
 
@@ -59,7 +62,7 @@ Em 19/10/2026, `pnpm test` passou com **371 testes do servidor, 169 de shared, 1
 
 Socket.IO percorre seis perguntas reais do catálogo publicado para obter classificação, inicia a final e verifica WebSocket/polling: pacote e opção inválidos, espectador, resposta no prazo exato, primeiro erro seguido de acerto rejeitado, dois acertos concorrentes, um único ataque, conexão substituta com prazo preservado e alvo desconectado. As duas pendências também foram exercitadas em rede. A matriz de navegador não foi repetida nesta etapa de servidor; final com interface real será verificada na T24.
 
-Guia: [final-no-servidor.md](../final-no-servidor.md). D02/D03 e D06 continuam em consulta, sem alterar `PENDING_DECISIONS` ou `decisoes.md`. Não há cache de ack por `actionId`; o domínio impede reaplicação do efeito mesmo com outro ID, e robustez de ações/frequência continua nas tarefas posteriores.
+Guia: [final-no-servidor.md](../final-no-servidor.md). As evidências acima antecedem as respostas de D02/D03/D06, sem alterar então `PENDING_DECISIONS` ou `decisoes.md`. As escolhas estão registradas em 23/10/2026 e foram aplicadas na integração T39. Não havia cache de ack por `actionId` nesta entrega; o domínio impedia reaplicação do efeito mesmo com outro ID, e robustez de ações/frequência foi encaminhada às tarefas posteriores.
 
 ## Cuidados de implementação
 

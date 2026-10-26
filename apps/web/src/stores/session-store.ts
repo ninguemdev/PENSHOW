@@ -134,6 +134,10 @@ export function createSessionStore(
         },
         event(event) {
           if (version !== generation) return;
+          if (event.event === 'tiebreak:frame') {
+            if (get().viewReady) room.getState().receiveCombat(event.payload);
+            return;
+          }
           if (event.event === 'session:ended')
             end(strings.session.ended[event.payload.reason], event.payload.reason === 'replaced');
           else if (event.event === 'room:view') {

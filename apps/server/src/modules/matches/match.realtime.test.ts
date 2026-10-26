@@ -459,7 +459,7 @@ describe('modo clássico completo em rede — T29', () => {
   }, 60_000);
 
   it.each(['no-answer', 'no-target'] as const)(
-    'final completa mantém a pendência %s sem dano ou repetição',
+    'final completa aplica %s com dano único e prazo de continuação',
     async (policy) => {
       const f = await fixture(),
         g = await f.group('websocket', 2, 'classic');
@@ -478,22 +478,24 @@ describe('modo clássico completo em rede — T29', () => {
           status: 'ok',
         });
       await g.advance();
-      const expected =
-        policy === 'no-answer' ? 'final-no-answer-pending' : 'final-no-target-pending';
+      const expected = 'final-resolution';
       await stage(g.host, expected, g.room.snapshot().stateVersion);
-      expect(g.state().final!.finalists).toEqual(finalists);
-      expect(g.state().final!.history).toHaveLength(0);
+      expect(
+        finalists.reduce((n, p) => n + p.lives, 0) -
+          g.state().final!.finalists.reduce((n, p) => n + p.lives, 0),
+      ).toBe(policy === 'no-answer' ? finalists.length : 1);
+      expect(g.state().final!.history).toHaveLength(1);
       expect(g.state().finalEntry).toEqual(entry);
-      expect(matchTimer(g.state())).toBeNull();
-      await f.time.advanceTo(f.time.now() + 60_000);
+      expect(matchTimer(g.state())).not.toBeNull();
+      await f.time.advanceTo(f.time.now());
       expect(g.state().final!.stage.phase).toBe(expected);
-      expect(g.state().final!.finalists).toEqual(finalists);
+      expect(g.state().final!.history).toHaveLength(1);
       expect(
         await g.host.command('match:returnToLobby', {
           roomId: g.room.id,
           matchId: g.state().roster.matchId,
         }),
-      ).toMatchObject({ status: 'ok' });
+      ).toMatchObject({ status: 'error', error: { code: 'INVALID_PHASE' } });
       for (const client of g.participants) privacy(client);
     },
     30_000,
@@ -908,7 +910,7 @@ describe('quiz clássico autenticado em rede', () => {
     15_000,
   );
   it.each(['D02', 'D03'] as const)(
-    'final em rede suspende %s sem inventar fallback',
+    'final em rede aplica a decisão confirmada %s',
     async (decision) => {
       const f = await fixture(),
         g = await f.group();
@@ -925,12 +927,14 @@ describe('quiz clássico autenticado em rede', () => {
       await g.advance();
       if (decision === 'D03') await g.host.command('answer:submit', g.answerPayload());
       await g.advance();
-      const phase = decision === 'D02' ? 'final-no-answer-pending' : 'final-no-target-pending';
+      const phase = 'final-resolution';
       const pending = await stage(g.host, phase, g.room.snapshot().stateVersion);
-      expect(pending.stage.decisionId).toBe(decision);
-      expect(pending.stage.finalists.map((player) => player.lives)).toEqual([5, 4]);
-      expect(matchTimer(g.state())).toBeNull();
-      expect(g.state().final?.history).toHaveLength(0);
+      expect(pending.stage.resolution.outcome).toBe(decision === 'D02' ? 'no-answer' : 'attack');
+      expect(pending.stage.finalists.reduce((n, p) => n + p.lives, 0)).toBe(
+        decision === 'D02' ? 7 : 8,
+      );
+      expect(matchTimer(g.state())).not.toBeNull();
+      expect(g.state().final?.history).toHaveLength(1);
       privacy(g.host);
       privacy(g.guest);
     },
@@ -1060,6 +1064,12 @@ describe('quiz clássico autenticado em rede', () => {
       });
       const target = await stage(g.host, 'theft-target-selection', g.room.snapshot().stateVersion);
       expect(target.stage.attackerPlayerId).toBe(g.host.session!.playerId);
+      expect(target.match.theftRules).toMatchObject({
+        correctPoints: 100,
+        maximumTransfer: 100,
+        status: 'confirmed',
+        policy: 'first-correct-only',
+      });
       expect(target.match.scoreboard.map((score) => score.points)).toEqual([100, 100]);
       const payload = {
         ...g.context(),
@@ -1097,11 +1107,11 @@ describe('quiz clássico autenticado em rede', () => {
       expect(restored.stage).toEqual(target.stage);
       expect(await replacement.command('target:choose', payload)).toMatchObject({ status: 'ok' });
       const reveal = await stage(replacement, 'reveal', g.room.snapshot().stateVersion);
-      expect(reveal.match.scoreboard.map((score) => score.points)).toEqual([150, 50]);
+      expect(reveal.match.scoreboard.map((score) => score.points)).toEqual([200, 0]);
       expect(reveal.stage.theftResult).toMatchObject({
         attackerPlayerId: g.host.session!.playerId,
         targetPlayerId: g.guest.session!.playerId,
-        amount: 50,
+        amount: 100,
       });
       error(await replacement.command('target:choose', payload), 'INVALID_PHASE');
       expect(g.state().history).toHaveLength(1);
@@ -1608,19 +1618,25 @@ describe('quiz clássico autenticado em rede', () => {
     ).toBe(false);
   });
 
-  it.each(['development', 'production'] as const)(
-    'restringe o protótipo ao ambiente apropriado: %s',
-    async (environment) => {
+  it.each([
+    { environment: 'development', enabled: undefined, allowed: true },
+    { environment: 'production', enabled: undefined, allowed: false },
+    { environment: 'production', enabled: 'true', allowed: true },
+    { environment: 'development', enabled: 'false', allowed: false },
+  ])(
+    'respeita a liberação das partidas: $environment / GAMEPLAY_ENABLED=$enabled',
+    async ({ environment, enabled, allowed }) => {
       const f = await fixture({
         config: loadConfig({
           NODE_ENV: environment,
           ALLOWED_ORIGINS: 'http://127.0.0.1:5173',
           LOG_LEVEL: 'silent',
+          ...(enabled === undefined ? {} : { GAMEPLAY_ENABLED: enabled }),
         }),
       });
       const g = await f.group();
       const ack = await g.host.command('match:start', { roomId: g.room.id });
-      if (environment === 'production') {
+      if (!allowed) {
         error(ack, 'INVALID_PHASE');
         expect(f.app.matches).toBeUndefined();
         expect(g.room.snapshot().phase.status).toBe('lobby');

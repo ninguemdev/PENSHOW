@@ -118,7 +118,7 @@ for (const scenario of [
         expect(settled.theftResult).toMatchObject({
           attackerPlayerId: hostId,
           targetPlayerId: guestId,
-          amount: 50,
+          amount: 100,
         });
         expect(state().scoreboard.reduce((sum, score) => sum + score.points, 0)).toBe(total);
         await synchronized();

@@ -43,7 +43,12 @@ export function createRealtimeClient(): RealtimeClient {
             payload: { reason: 'expired' },
           });
       });
-      for (const name of ['room:view', 'room:removed', 'session:ended'] as const) {
+      for (const name of [
+        'room:view',
+        'room:removed',
+        'session:ended',
+        'tiebreak:frame',
+      ] as const) {
         socket.on(name, (raw: unknown) => {
           const parsed = serverEventSchema.safeParse(raw);
           if (!parsed.success || parsed.data.event !== name) return callbacks.invalid();

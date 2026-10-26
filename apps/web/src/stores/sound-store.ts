@@ -30,6 +30,7 @@ export function createSoundStore(storage: StorageAccess, engine: SoundEngine) {
       setVolume(volume: number): void;
       preview(): void;
       interact(id: Extract<SoundId, 'click' | 'navigate'>): void;
+      shot(): void;
       setDucked(value: boolean): void;
       observe(view: RoomView | null, epoch: number, ready: boolean): void;
       stop(): void;
@@ -81,6 +82,10 @@ export function createSoundStore(storage: StorageAccess, engine: SoundEngine) {
       },
       interact(id) {
         if (get().status === 'ready' && !get().muted && get().volume > 0 && !engine.play(id))
+          set({ status: 'locked' });
+      },
+      shot() {
+        if (get().status === 'ready' && !get().muted && get().volume > 0 && !engine.play('shot'))
           set({ status: 'locked' });
       },
       setDucked(value) {

@@ -54,7 +54,7 @@ export function pressureView(
     mode: 'pressure' as const,
     index: 5 as const,
     variant: {
-      status: 'prototype' as const,
+      status: 'confirmed' as const,
       decisionId: 'D04' as const,
       mode: 'dynamite' as const,
     },
@@ -109,7 +109,7 @@ export function pressureView(
           wrongPenalty: 150,
           responseMs: 10000,
           turnDifficulties: ['medium', 'hard'],
-          status: 'prototype',
+          status: 'confirmed',
           mode: 'dynamite',
         },
         ...(kind === 'instructions'
@@ -211,10 +211,10 @@ export function matchView(
           ? {
               theftRules: {
                 correctPoints: 100,
-                maximumTransfer: 50,
+                maximumTransfer: 100,
                 targetSelectionMs: 6000,
                 policy: 'first-correct-only',
-                status: 'prototype',
+                status: 'confirmed',
               },
             }
           : {}),
@@ -290,27 +290,27 @@ export function theftView(
             effects: [
               { kind: 'credit', playerId: hostId, amount: 100, reason: 'correct-answer' },
               { kind: 'credit', playerId: guestId, amount: 100, reason: 'correct-answer' },
-              { kind: 'debit', playerId: guestId, amount: 50, reason: 'theft' },
-              { kind: 'credit', playerId: hostId, amount: 50, reason: 'theft' },
+              { kind: 'debit', playerId: guestId, amount: 100, reason: 'theft' },
+              { kind: 'credit', playerId: hostId, amount: 100, reason: 'theft' },
             ],
             theftResult: {
               attackerPlayerId: hostId,
               targetPlayerId: guestId,
-              amount: 50,
+              amount: 100,
               balances: [
                 {
                   playerId: hostId,
                   balanceBefore: 0,
                   correctPoints: 100,
-                  transfer: 50,
-                  balanceAfter: 150,
+                  transfer: 100,
+                  balanceAfter: 200,
                 },
                 {
                   playerId: guestId,
                   balanceBefore: 0,
                   correctPoints: 100,
-                  transfer: -50,
-                  balanceAfter: 50,
+                  transfer: -100,
+                  balanceAfter: 0,
                 },
               ],
             },
@@ -328,8 +328,8 @@ export function theftView(
           : phase === 'target'
             ? 100
             : score.playerId === hostId
-              ? 150
-              : 50,
+              ? 200
+              : 0,
       correctAnswers: phase === 'instructions' ? 0 : 1,
     })),
   );

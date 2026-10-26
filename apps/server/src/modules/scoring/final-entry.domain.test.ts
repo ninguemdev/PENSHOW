@@ -30,6 +30,13 @@ function ready(points: number[], correctAnswers?: number[]) {
   return entry;
 }
 describe('classificação e conversão de entrada na final', () => {
+  it('D06 confirmada compartilha vidas e não pula posição após grupos empatados', () => {
+    const entry = ready([500, 500, 400, 300, 200], [5, 5, 4, 3, 2]);
+    expect(entry.allocations.map((row) => row.rank)).toEqual([1, 1, 2, 3, 4]);
+    expect(entry.allocations.map((row) => row.initialLives)).toEqual([5, 5, 4, 3, 2]);
+    const all = ready([0, 0, 0]);
+    expect(all.allocations.map((row) => row.initialLives)).toEqual([5, 5, 5]);
+  });
   it.each([2, 3, 4, 12])(
     '%i participantes recebem exatamente as faixas existentes de vidas',
     (count) => {
@@ -51,11 +58,17 @@ describe('classificação e conversão de entrada na final', () => {
   );
   it('independe da ordem de arrays ou Map; IDs organizam somente a apresentação de empates pendentes', () => {
     const source = scores([100, 300, 200, 100], [1, 0, 9, 5]);
-    const first = prepareFinalEntry({ matchId, scope, scores: source });
+    const first = prepareFinalEntry({
+      matchId,
+      scope,
+      scores: source,
+      policy: { status: 'pending', decisionId: 'D06' },
+    });
     const reversed = prepareFinalEntry({
       matchId,
       scope,
       scores: [...new Map([...source].reverse().map((score) => [score.playerId, score])).values()],
+      policy: { status: 'pending', decisionId: 'D06' },
     });
     expect(reversed).toEqual(first);
     expect(first).toMatchObject({
@@ -67,7 +80,12 @@ describe('classificação e conversão de entrada na final', () => {
     expect(first.tieBreaks).toEqual([]);
   });
   it('política ausente não usa acertos ou sorteio para decidir empate', () => {
-    const entry = prepareFinalEntry({ matchId, scope, scores: scores([100, 100], [1, 5]) });
+    const entry = prepareFinalEntry({
+      matchId,
+      scope,
+      scores: scores([100, 100], [1, 5]),
+      policy: { status: 'pending', decisionId: 'D06' },
+    });
     expect(entry.status).toBe('pending-tiebreak');
     expect(() => resolveFinalTie(entry, { matchId, order: players.slice(0, 2) })).toThrowError(
       expect.objectContaining({ code: 'decision-required' }),

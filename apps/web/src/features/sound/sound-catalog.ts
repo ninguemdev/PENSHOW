@@ -1,4 +1,5 @@
 export type SoundId =
+  | 'shot'
   | 'click'
   | 'navigate'
   | 'question'
@@ -35,6 +36,7 @@ const tone = (frequency: number, delay = 0, duration = 0.14): SoundTone => ({
 
 /** Original short cues synthesized locally; no downloads, speech or continuous ticking. */
 export const SOUND_CATALOG: Readonly<Record<SoundId, readonly SoundTone[]>> = {
+  shot: [{ ...tone(260, 0, 0.045), endFrequency: 110, gain: 0.055, wave: 'triangle' }],
   click: [{ ...tone(720, 0, 0.045), endFrequency: 580, gain: 0.1 }],
   navigate: [
     { ...tone(480, 0, 0.075), gain: 0.12 },

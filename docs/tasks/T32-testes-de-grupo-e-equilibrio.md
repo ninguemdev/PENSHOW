@@ -17,22 +17,28 @@ Validar os valores propostos e a duração com partidas observadas antes de trat
 - [regras.md](../regras.md)
 - [decisoes.md](../decisoes.md)
 
+## Atualização T21
+
+D02/D03/D04/D05/D06/D09 já estão no piloto atual. `pilot:simulate` escreve `t21-group-pilot.json`; os relatórios T32/T39/T20 permanecem históricos. A matriz concluiu 60/60 percursos, com 2/4/8/12 participantes. A T20 aplica o teto de roubo de 100 e +100 para todos os acertos; a T21 confirma a dinamite nos parâmetros/plano/projeções; a validação humana permanece aberta. O roteiro de observação foi ampliado para controles, perguntas de sobrevivência e duração do combate.
+
 ## Entregáveis
 
+- [x] Atualizar piloto, roteiro e relatórios para as respostas de 23/10/2026: meta de 20–30 minutos para 4–8 pessoas, roubo de até 100, perda coletiva sem resposta, sorteio de todos os ativos e vidas iguais por empate. Preservar os relatórios anteriores como evidência histórica.
+- [ ] Medir duração, jogabilidade e clareza do desempate T39 com pessoas, incluindo recuperações sucessivas por acerto e controles em computador/celular; atualizar a meta de duração apenas com decisão e evidência.
 - [ ] Executar sessões observadas com 2, 4 e 8 pessoas.
 - [x] Verificar capacidade de 12 com teste documentado equivalente: serviços oficiais no piloto mecânico e integração HTTP/socket já documentada na T29.
 - [ ] Registrar duração por fase, acertos, efeitos de aposta/roubo, mudanças de posição e vantagem inicial na final nas sessões humanas. Os registros mecânicos estão no relatório do piloto.
 - [ ] Consolidar a revisão de +300 / −150 da dinamite, bônus de velocidade e limites de roubo/aposta com evidência mecânica e humana.
-- [ ] Atualizar plano, regras, parâmetros e expectativas dos testes em cada ajuste decidido.
+- [x] Atualizar plano, regras, parâmetros e expectativas dos testes para D02–D06/D09 aplicadas; novos ajustes dependerão de decisão e evidência.
 - [x] Preparar ferramenta local com jogadores roteirizados, serviços oficiais, catálogo publicado e relógio virtual para os tamanhos 2/4/8/12.
 - [x] Preparar comparação isolada de valores de dinamite, velocidade, aposta e roubo, sem alterar a configuração da aplicação.
 - [x] Preparar ficha de sessão humana que separa dados cronometrados, percepção e sugestão.
-- [x] Executar e registrar 60 percursos mecânicos: 32 referências, 16 comparações de parâmetros e 12 casos dirigidos de pausa.
+- [x] Executar e registrar 60 percursos mecânicos: 32 referências, 16 comparações de parâmetros e 12 casos dirigidos de ausência/empate.
 
 ## Critérios de aceite
 
 - [x] Relatório distingue medição, percepção e sugestão; não apresenta estimativa como tempo observado com pessoas.
-- [x] Seis decisões consultadas estão explicitamente mantidas como experimentais no piloto mecânico identificado, sem consolidar as escolhas do produto.
+- [x] As decisões D01–D06/D09 estão identificadas como confirmadas; variantes de pontuação comparadas são explicitamente experimentais e não alteram a aplicação.
 - [x] Vidas confirmadas e primeira resposta exclusiva da final preservadas.
 - [x] Método informa o crescimento com o grupo, as pausas e as perguntas sem dano, sem prometer limite de duração.
 
@@ -40,11 +46,11 @@ Validar os valores propostos e a duração com partidas observadas antes de trat
 
 - [ ] Conferir registros de pelo menos uma partida completa por tamanho efetivamente testado com pessoas.
 - [x] Conferir percursos completos com jogadores roteirizados para cada tamanho e preservar no relatório os empates e as demais pausas.
-- [ ] Reexecutar somente cenários afetados pelos ajustes e o fluxo completo quando mudarem transições.
+- [x] Reexecutar os cenários das políticas aplicadas: 902 testes, 60 percursos mecânicos e 32 percursos de navegador. Novos ajustes exigirão a regressão correspondente.
 
 ## Cuidados de implementação
 
-Preferir relatório local e estatísticas agregadas da sessão; não adicionar telemetria externa para cumprir esta tarefa. Publicação definitiva depende de consolidar as regras pendentes.
+Preferir relatório local e estatísticas agregadas da sessão; não adicionar telemetria externa para cumprir esta tarefa. Publicação definitiva permanece em T35, por último, após validações e preparação da VM.
 
 Aplicar as [convenções e verificações comuns](README.md#convenções-de-implementação). Registrar evidências reais; checklist não substitui execução ou revisão.
 

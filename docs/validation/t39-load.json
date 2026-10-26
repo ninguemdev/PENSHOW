@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-10-23T17:39:31.450Z",
+  "node": "v24.18.0",
+  "platform": "win32",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13400",
+  "rooms": 3,
+  "playersPerRoom": 12,
+  "virtualDurationMs": 300000,
+  "steps": 18000,
+  "stepP95Ms": 22.285,
+  "maxStepMs": 59.307,
+  "wallTimeMs": 263163.141,
+  "framesSent": 108000,
+  "maxFrameBytes": 2511,
+  "fullViewsDuringMovement": 0,
+  "maxPendingTimers": 6,
+  "errors": 0,
+  "workload": "Neutral controls; fixed-step scheduling, room transactions, cloning, projection and compact-frame publication. Active shots and survival covered separately."
+}

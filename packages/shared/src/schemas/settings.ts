@@ -15,7 +15,7 @@ export const roomSettingsSchema = z.strictObject({
 export const pressureVariantSchema = z.discriminatedUnion('status', [
   z.strictObject({ status: z.literal('pending'), decisionId: z.literal('D04') }),
   z.strictObject({
-    status: z.literal('prototype'),
+    status: z.enum(['prototype', 'confirmed']),
     decisionId: z.literal('D04'),
     mode: z.literal('dynamite'),
   }),

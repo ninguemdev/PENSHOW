@@ -1,4 +1,10 @@
-import { roomViewSchema, roundIdSchema, playerIdSchema, type MatchStage } from '@penshow/shared';
+import {
+  roomViewSchema,
+  roundIdSchema,
+  playerIdSchema,
+  questionIdSchema,
+  type MatchStage,
+} from '@penshow/shared';
 import {
   guestId,
   hostId,
@@ -149,4 +155,51 @@ export function finalView(stage: MatchStage = finalPhases().open, version = 2, v
       },
     },
   });
+}
+
+export function combatStage(): Extract<MatchStage, { phase: 'final-tiebreak' }> {
+  return {
+    phase: 'final-tiebreak',
+    round: finalRound,
+    finalists: finalPhases().instructions.finalists.map((p) =>
+      p.playerId === hostId || p.playerId === guestId
+        ? {
+            playerId: p.playerId,
+            rank: p.rank,
+            initialLives: p.initialLives,
+            status: 'eliminated',
+            lives: 0,
+            eliminationOrder: 1,
+          }
+        : p,
+    ),
+    tiebreak: {
+      phase: 'combat',
+      frame: {
+        tiebreakId: uuid(900),
+        bout: 1,
+        generation: 1,
+        tick: 0,
+        serverNow: 1000,
+        fighters: [hostId, guestId].map((playerId, i) => ({
+          playerId,
+          x: 100 + i * 400,
+          y: 400,
+          aimX: 1,
+          aimY: 0,
+          lives: 3,
+          status: 'fighting',
+          protected: false,
+        })),
+        projectiles: [],
+      },
+      participants: [hostId, guestId],
+      deadlineAt: 1050,
+      readyPlayerIds: [hostId, guestId],
+      pendingPlayerIds: [],
+      ownQuestion: { status: 'unavailable' },
+      standings: [],
+      batchId: questionIdSchema.parse(uuid(800)),
+    },
+  };
 }

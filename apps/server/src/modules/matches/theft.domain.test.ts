@@ -109,7 +109,7 @@ describe('roubo no motor autoritativo', () => {
     expect(state.scoreboard.map((entry) => entry.points)).toEqual([0, 100, 100]);
     expect(state.history).toHaveLength(0);
     state = choose(state, 1, 2, 4003).state;
-    expect(state.scoreboard.map((entry) => entry.points)).toEqual([0, 150, 50]);
+    expect(state.scoreboard.map((entry) => entry.points)).toEqual([0, 200, 0]);
     expect(state.history).toHaveLength(1);
   });
   it.each([
@@ -174,7 +174,7 @@ describe('roubo no motor autoritativo', () => {
       ),
     ).toThrowError(expect.objectContaining({ code: 'INVALID_TARGET' }));
     state = choose(state, 0, 1).state;
-    expect(state.scoreboard.map((entry) => entry.points)).toEqual([150, 80, 0]);
+    expect(state.scoreboard.map((entry) => entry.points)).toEqual([200, 30, 0]);
   });
   it('sem acerto ou sem adversário com saldo, pula o alvo e revela só os créditos', () => {
     expect(expire(open()).stage).toMatchObject({

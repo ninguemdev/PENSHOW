@@ -196,30 +196,44 @@ describe('final de primeira resposta exclusiva', () => {
       'final-target-selection',
     );
   });
-  it('D02 e D03 pendentes não aplicam dano, fallback ou vitória; prazo tardio não reinicia janela', () => {
+  it('D02 aplica dano coletivo e D03 sorteia inclusive o autor sem repetir dano', () => {
     const open = nextOpen(),
       absent = expire(open).state;
-    expect(absent.stage.phase).toBe('final-no-answer-pending');
-    expect(finalDeadline(absent)).toBeNull();
-    expect(absent.finalists).toEqual(open.finalists);
-    expect(absent.history).toHaveLength(0);
-    expect(transitionFinal(absent, { kind: 'expire' }, 100_000, rules).changed).toBe(false);
-    const chosen = answer(open, true).state,
-      noTarget = expire(chosen).state;
-    expect(noTarget.stage.phase).toBe('final-no-target-pending');
-    expect(noTarget.finalists).toEqual(open.finalists);
-    if (chosen.stage.phase !== 'final-target-selection') throw new Error();
-    const targetDeadline = chosen.stage.deadlineAt;
-    expect(() => target(chosen, ids[0]!, ids[1]!, targetDeadline)).toThrowError(
-      expect.objectContaining({ code: 'DEADLINE_EXPIRED' }),
-    );
+    expect(absent.stage.phase).toBe('final-resolution');
+    expect(absent.finalists.map((p) => p.lives)).toEqual([4, 3]);
+    expect(absent.history).toHaveLength(1);
+    expect(absent.history[0]!.resolution).toMatchObject({ outcome: 'no-answer', damage: 1 });
+    expect(
+      transitionFinal(absent, { kind: 'expire' }, finalDeadline(absent)! - 1, rules).changed,
+    ).toBe(false);
+    const chosen = answer(open, true).state;
+    const own = transitionFinal(
+      chosen,
+      { kind: 'expire', randomIndex: 0 },
+      finalDeadline(chosen)!,
+      rules,
+    ).state;
+    expect(own.finalists.map((p) => p.lives)).toEqual([4, 4]);
+    expect(own.history[0]!.resolution).toMatchObject({
+      outcome: 'attack',
+      automatic: true,
+      playerId: ids[0],
+      targetPlayerId: ids[0],
+    });
+    const opponent = transitionFinal(
+      chosen,
+      { kind: 'expire', randomIndex: 1 },
+      finalDeadline(chosen)!,
+      rules,
+    ).state;
+    expect(opponent.finalists.map((p) => p.lives)).toEqual([5, 3]);
     const reading = transitionFinal(
       { ...initial(), stage: { phase: 'awaiting-final-question', previousQuestionId: null } },
       { kind: 'final-question-prepared', question: prepared() },
       1000,
       rules,
     ).state;
-    expect(expire(reading, 15_000).state.stage.phase).toBe('final-no-answer-pending');
+    expect(expire(reading, 15000).state.stage.phase).toBe('final-resolution');
   });
   it('repetição de pronto não avança duas vezes; conteúdo esgotado interrompe sem campeão por pontos', () => {
     const state = initial(),

@@ -1,8 +1,24 @@
 # Piloto de grupos e equilíbrio — T32
 
-O piloto mecânico usa os serviços oficiais de sala e partida, o catálogo de 300 perguntas publicado à época da T32 e os parâmetros experimentais completos. Desde a T33, `pilot:simulate` lê o snapshot privado em `data/editorial-baselines/t27-catalog.json`, preservando a reprodução desses resultados. A capacidade do catálogo atual fica no [relatório T33](expansao-editorial-t33.md). Jogadores são roteirizados e o relógio é virtual. As durações registram o tempo percorrido pelo motor nesse roteiro; não são duração observada com pessoas, medição de rede ou avaliação de diversão.
+**Atualização T21:** o piloto atual aplica D02/D03/D04/D05/D06/D09 e escreve [t21-group-pilot.json](../data/publication-reports/t21-group-pilot.json), com 60/60 percursos completos em 2/4/8/12 participantes e roteiro de combate por intenções oficiais. O roubo padrão usa teto 100 e +100 para todos os acertos; as variantes de roubo de 25 e de dinamite 200/100 permanecem explicitamente experimentais. Os relatórios [T20](../data/publication-reports/t20-group-pilot.json), [T39](../data/publication-reports/t39-group-pilot.json) e T32, assim como as estatísticas abaixo, são históricos e permanecem preservados. Avaliação humana permanece pendente.
 
-O [relatório reproduzível](../data/publication-reports/t32-group-pilot.json) contém as configurações e seus hashes, hash do catálogo, seeds, resultados por fase e participante, conversão em vidas e resoluções da final. Usa aliases P1…P12; não exporta gabaritos, tokens ou identificadores de conexão. Não há telemetria externa nem alteração de parâmetros da aplicação.
+
+O piloto mecânico usa os serviços oficiais de sala e partida, o catálogo de 300 perguntas publicado à época da T32 e os parâmetros experimentais completos. Desde a T33, `pilot:simulate` lê o snapshot privado em `data/editorial-baselines/t27-catalog.json`, mantendo a fonte comparável sem alterar a publicação atual. A capacidade do catálogo atual fica no [relatório T33](expansao-editorial-t33.md). Jogadores são roteirizados e o relógio é virtual. As durações registram o tempo percorrido pelo motor nesse roteiro; não são duração observada com pessoas, medição de rede ou avaliação de diversão.
+
+O [relatório histórico T32](../data/publication-reports/t32-group-pilot.json) contém as configurações e seus hashes, hash do catálogo, seeds, resultados por fase e participante, conversão em vidas e resoluções da final. Usa aliases P1…P12; não exporta gabaritos, tokens ou identificadores de conexão. Não há telemetria externa nem alteração de parâmetros da aplicação.
+
+## Referência mecânica atual — T21
+
+Os 60 percursos concluíram, e os 32 baselines (oito por tamanho) têm as faixas abaixo. A comparação com T20 confirmou os mesmos 60 resultados e resumo: consolidar o marcador D04 não alterou pontuação, vidas, vencedores ou duração virtual.
+
+| Jogadores roteirizados | Duração virtual mínima | Duração virtual máxima |
+|---|---|---|
+| 2 | 9,59 min | 11,99 min |
+| 4 | 13,08 min | 14,42 min |
+| 8 | 15,54 min | 17,12 min |
+| 12 | 16,86 min | 20,27 min |
+
+Esses tempos não medem pessoas nem validam a meta D01 de 20–30 minutos para 4–8 participantes. Discussão, leitura real, latência, aprendizado dos controles e recuperações no combate precisam das sessões observadas. Nenhum parâmetro foi ajustado para aproximar artificialmente esse roteiro da meta.
 
 ## Como executar
 
@@ -12,7 +28,7 @@ pnpm pilot:simulate
 pnpm pilot:simulate --check
 ```
 
-O primeiro comando de simulação grava o relatório local. `--check` repete as execuções e compara os bytes sem escrever. A CI inclui essa verificação após os testes e a validação do estoque. A suíte do servidor também verifica a reprodução do relatório, conservação de pontos/tempo/oportunidades, ausência de gabaritos e as três pausas de produto.
+O primeiro comando de simulação grava o relatório local. `--check` repete as execuções e compara os bytes sem escrever. A CI inclui essa verificação após os testes e a validação do estoque. A suíte do servidor também verifica a reprodução do relatório, conservação de pontos/tempo/oportunidades, ausência de gabaritos e os três cenários de ausência/empate com as políticas confirmadas.
 
 ## Método e limites
 
@@ -63,7 +79,7 @@ Essas alternativas são sondagens de sensibilidade, sem decisão de adotá-las. 
 
 Nos 14 pares que chegaram ao pódio em ambas as configurações, as vidas iniciais e o vencedor permaneceram iguais. Os dois pares restantes não permitem comparar vencedor ou duração completa: os −328.786 ms indicam o trecho da final que deixou de ser percorrido após a pausa por empate. Há apenas um par por alternativa/tamanho, escolhido por cobertura de modalidade e percurso completo; essa seleção não estima frequência de empates ou equilíbrio da população. A hipótese útil para a revisão humana é avaliar também a formação de empates ao reduzir valores, além da agressividade percebida.
 
-O orçamento atual ajuda a interpretar os resultados: dois acertos na dinamite rendem até 600 pontos, enquanto dois erros podem retirar até 300 se houver saldo. Nas modalidades de seis perguntas, o bônus de velocidade pode acrescentar até 300 pontos; a aposta de 50 pode acrescentar ou retirar até 300, limitada pela escolha e saldo de cada pergunta. O roubo pode transferir até 300 por autor numa fase de seis perguntas, com conservação do total transferido. Esses tetos mecânicos não são ganhos esperados nem evidência de equilíbrio percebido. Não houve ajuste decidido na configuração do jogo.
+O orçamento atual ajuda a interpretar os resultados: dois acertos na dinamite rendem até 600 pontos, enquanto dois erros podem retirar até 300 se houver saldo. Nas modalidades de seis perguntas, o bônus de velocidade pode acrescentar até 300 pontos; a aposta de 50 pode acrescentar ou retirar até 300, limitada pela escolha e saldo de cada pergunta. Na configuração histórica, o roubo podia transferir até 300 por autor numa fase de seis perguntas. Com D05 aplicada em T20, o teto passa a 600, com conservação do total transferido. Esses tetos mecânicos não são ganhos esperados nem evidência de equilíbrio percebido. Não houve ajuste decidido na configuração do jogo.
 
 ## Consultas e perguntas sem dano
 

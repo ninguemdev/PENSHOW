@@ -122,7 +122,13 @@ export function createNarratorStore(
       },
       observe(view, epoch, ready, now) {
         const state = view?.state;
-        const stage = state?.status === 'match' ? state.match.stage : undefined;
+        const currentStage = state?.status === 'match' ? state.match.stage : undefined;
+        const own =
+          currentStage?.phase === 'final-tiebreak' ? currentStage.tiebreak.ownQuestion : undefined;
+        const stage =
+          own?.status === 'reading'
+            ? { phase: 'final-question-reading' as const, ...own }
+            : currentStage;
         if (
           !view ||
           state?.status !== 'match' ||

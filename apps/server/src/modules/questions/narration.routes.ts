@@ -40,6 +40,18 @@ export function registerNarrationRoutes(
         const state = room.snapshot();
         const game = state.phase.status === 'match' ? state.phase.game?.state : undefined;
         const stage = game?.final?.stage ?? game?.stage;
+        if (stage?.phase === 'final-tiebreak' && stage.tiebreak.phase === 'questions') {
+          const own = stage.tiebreak.questions.find(
+            (q) =>
+              q.playerId === session.playerId &&
+              q.question.publicQuestion.questionId === questionId.data,
+          );
+          if (!own?.question.narration)
+            return reply.code(404).send({ error: createDomainError('NOT_FOUND') });
+          const audio = await narration.audio(own.question.editorialQuestionId);
+          if (!audio) return reply.code(404).send({ error: createDomainError('NOT_FOUND') });
+          return reply.type('audio/wav').send(audio);
+        }
         if (
           !stage ||
           ![

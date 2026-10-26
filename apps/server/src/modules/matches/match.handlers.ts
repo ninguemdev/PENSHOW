@@ -22,6 +22,20 @@ export function createMatchHandlers(
         if (!room) throw new PublicCommandError('ROOM_NOT_FOUND');
         return matches.startFinal(room, actor, command.payload.matchId);
       }
+      case 'tiebreak:input': {
+        const room = rooms.registry.byId(command.payload.roomId);
+        if (!room) throw new PublicCommandError('ROOM_NOT_FOUND');
+        const { roomId: _roomId, matchId, roundId, ...input } = command.payload;
+        void _roomId;
+        return matches.input(room, actor, { matchId, roundId }, input);
+      }
+      case 'tiebreak:answer': {
+        const room = rooms.registry.byId(command.payload.roomId);
+        if (!room) throw new PublicCommandError('ROOM_NOT_FOUND');
+        const { roomId: _roomId, ...input } = command.payload;
+        void _roomId;
+        return matches.execute(room, actor, { kind: 'tiebreak-answer', ...input });
+      }
       case 'round:ready':
       case 'category:choose':
       case 'wager:submit':
@@ -75,6 +89,8 @@ export function createMatchHandlers(
     }
   };
   return {
+    'tiebreak:input': handle,
+    'tiebreak:answer': handle,
     'match:start': handle,
     'final:start': handle,
     'round:ready': handle,

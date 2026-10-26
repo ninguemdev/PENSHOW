@@ -1,10 +1,15 @@
-import { matchViewSchema, type MatchStage } from '@penshow/shared';
+import { matchViewSchema, type MatchStage, type PlayerId } from '@penshow/shared';
+import { buildTiebreakView } from '../tiebreak/tiebreak.domain.js';
 import type { MatchState } from '../matches/match.domain.js';
 import { buildRoundSummaries } from '../matches/build-round-summaries.js';
 import { buildMatchPlan } from '../matches/build-match-plan.js';
 
 /** Public final fields are explicit; queue receipts and content checkpoints stay private. */
-export function buildFinalView(state: MatchState) {
+export function buildFinalView(
+  state: MatchState,
+  viewerId: PlayerId = state.roster.players[0]!.playerId,
+  serverNow = 0,
+) {
   const final = state.final;
   if (!final) throw new Error('Final ausente.');
   const stage = final.stage,
@@ -19,6 +24,13 @@ export function buildFinalView(state: MatchState) {
     : null;
   let view: MatchStage;
   switch (stage.phase) {
+    case 'final-tiebreak':
+      view = {
+        phase: stage.phase,
+        ...common,
+        tiebreak: buildTiebreakView(stage.tiebreak, viewerId, serverNow),
+      };
+      break;
     case 'final-instructions':
       view = {
         phase: stage.phase,
@@ -90,6 +102,7 @@ export function buildFinalView(state: MatchState) {
       view = {
         phase: stage.phase,
         ...common,
+        winnerSource: final.finalists.some((p) => p.status === 'active') ? 'quiz' : 'tiebreak',
         standings: [...final.finalists]
           .sort((a, b) =>
             a.status === 'active'
@@ -126,8 +139,8 @@ export function buildFinalView(state: MatchState) {
       status: 'prototype',
       responseMs: state.rules.parameters.final.responseMs,
       targetSelectionMs: state.rules.parameters.final.targetSelectionMs,
-      noAnswerPolicy: { status: 'pending', decisionId: 'D02' },
-      noTargetPolicy: { status: 'pending', decisionId: 'D03' },
+      noAnswerPolicy: { status: 'confirmed', decisionId: 'D02' },
+      noTargetPolicy: { status: 'confirmed', decisionId: 'D03' },
     },
     progress: {
       roundNumber: state.rounds.length + 1,

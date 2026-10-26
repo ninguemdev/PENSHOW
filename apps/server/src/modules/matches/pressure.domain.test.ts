@@ -18,7 +18,7 @@ const pressureRound = {
   ...round,
   mode: 'pressure' as const,
   index: 5 as const,
-  variant: { status: 'prototype' as const, decisionId: 'D04' as const, mode: 'dynamite' as const },
+  variant: { status: 'confirmed' as const, decisionId: 'D04' as const, mode: 'dynamite' as const },
 };
 const context = (state: MatchState) => ({
   matchId: state.roster.matchId,

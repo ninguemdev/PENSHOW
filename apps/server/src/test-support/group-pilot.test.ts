@@ -45,26 +45,19 @@ describe('relatório local de grupo', () => {
       expect(report).not.toContain(privateField);
   }, 30_000);
 
-  it.each([
-    ['no-final-answer', 'final-no-answer-pending'],
-    ['no-final-target', 'final-no-target-pending'],
-    ['tied-scoring', 'ranking'],
-  ] as const)(
-    'registra %s como pausa sem fabricar conclusão ou dano',
-    async (scenario, phase) => {
+  it.each(['no-final-answer', 'no-final-target', 'tied-scoring'] as const)(
+    'registra %s com as políticas confirmadas, sem fabricar pausas antigas',
+    async (scenario) => {
       const run = await runGroupPilot(questions, { playerCount: 2, seed: 32, scenario });
-      expect(run.terminalPhase).toBe(phase);
-      expect(run.completed).toBe(false);
-      if (scenario === 'tied-scoring') {
-        expect(run.final).toBeNull();
-        expect(run.tiedGroups).toEqual([['P1', 'P2']]);
-        expect(run.rounds.every((round) => round.players.every((row) => row.tiedAfter))).toBe(true);
-      } else {
-        expect(run.final!.questionsWithoutDamage).toBe(1);
-        expect(run.final!.resolvedQuestions).toBe(0);
-        expect(run.final!.winner).toBeNull();
-      }
+      expect(run.terminalPhase).toBe('podium');
+      expect(run.completed).toBe(true);
+      expect(run.final!.winner).not.toBeNull();
+      expect(run.final!.questionsWithoutDamage).toBe(0);
+      if (scenario === 'tied-scoring')
+        expect(run.final!.initialLives.map((row) => row.lives)).toEqual([5, 5]);
+      if (scenario === 'no-final-answer')
+        expect(run.final!.resolutions.every((row) => row.outcome === 'no-answer')).toBe(true);
     },
-    30_000,
+    30000,
   );
 });

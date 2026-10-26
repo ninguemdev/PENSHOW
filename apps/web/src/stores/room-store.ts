@@ -5,12 +5,16 @@ import {
   type PlayerId,
   type RoomRemoved,
   type RoomView,
+  type TiebreakFrame,
+  type ServerEvent,
 } from '@penshow/shared';
 
 export function createRoomStore() {
   const versions = new Map<string, number>();
   return createStore<{
     view: RoomView | null;
+    combatFrame: TiebreakFrame | null;
+    receiveCombat: (event: Extract<ServerEvent, { event: 'tiebreak:frame' }>['payload']) => boolean;
     expectedCode: string | null;
     removed: RoomRemoved | null;
     removedCode: string | null;
@@ -22,6 +26,33 @@ export function createRoomStore() {
     reset: () => void;
   }>((set, get) => ({
     view: null,
+    combatFrame: null,
+    receiveCombat(payload) {
+      const view = get().view;
+      if (
+        !get().listening ||
+        !view ||
+        view.roomId !== payload.roomId ||
+        view.state.status !== 'match' ||
+        view.state.match.matchId !== payload.matchId ||
+        view.state.match.stage.phase !== 'final-tiebreak'
+      )
+        return false;
+      const stage = view.state.match.stage;
+      const frame = payload.frame;
+      const current = get().combatFrame ?? stage.tiebreak.frame;
+      if (
+        stage.round.roundId !== payload.roundId ||
+        stage.tiebreak.phase !== 'combat' ||
+        frame.tiebreakId !== stage.tiebreak.frame.tiebreakId ||
+        frame.bout !== stage.tiebreak.frame.bout ||
+        frame.generation !== stage.tiebreak.frame.generation ||
+        frame.tick <= current.tick
+      )
+        return false;
+      set({ combatFrame: frame });
+      return true;
+    },
     expectedCode: null,
     removed: null,
     removedCode: null,
@@ -30,7 +61,14 @@ export function createRoomStore() {
       set({ listening: true });
     },
     expectRoom(code) {
-      set({ expectedCode: code, view: null, removed: null, removedCode: null, listening: true });
+      set({
+        expectedCode: code,
+        view: null,
+        combatFrame: null,
+        removed: null,
+        removedCode: null,
+        listening: true,
+      });
     },
     receive(raw, viewerId) {
       const parsed = roomViewSchema.safeParse(raw);
@@ -49,6 +87,19 @@ export function createRoomStore() {
         return false;
       versions.set(identity, incoming.stateVersion);
       set({ view: incoming, expectedCode: incoming.code, removed: null, removedCode: null });
+      const stage = incoming.state.status === 'match' ? incoming.state.match.stage : null;
+      const currentFrame = get().combatFrame;
+      const nextFrame = stage?.phase === 'final-tiebreak' ? stage.tiebreak.frame : null;
+      const preserve =
+        stage?.phase === 'final-tiebreak' &&
+        stage.tiebreak.phase === 'combat' &&
+        currentFrame &&
+        nextFrame &&
+        currentFrame.tiebreakId === nextFrame.tiebreakId &&
+        currentFrame.bout === nextFrame.bout &&
+        currentFrame.generation === nextFrame.generation &&
+        currentFrame.tick > nextFrame.tick;
+      set({ combatFrame: preserve ? currentFrame : nextFrame });
       return true;
     },
     remove(raw) {
@@ -64,6 +115,7 @@ export function createRoomStore() {
       versions.set(`${view.roomId}:${view.viewerId}`, parsed.data.stateVersion);
       set({
         view: null,
+        combatFrame: null,
         expectedCode: null,
         removed: parsed.data,
         removedCode: view.code,
@@ -72,7 +124,14 @@ export function createRoomStore() {
       return true;
     },
     reset() {
-      set({ view: null, expectedCode: null, removed: null, removedCode: null, listening: false });
+      set({
+        view: null,
+        combatFrame: null,
+        expectedCode: null,
+        removed: null,
+        removedCode: null,
+        listening: false,
+      });
     },
   }));
 }

@@ -1,8 +1,8 @@
-# Protótipo de roubo de pontos
+# Roubo de pontos
 
-A T20 acrescenta `theftStrategy`, `theft-target-selection`, escolha de alvo e **Iniciar roubo de teste** ao lobby em desenvolvimento/teste. São seis perguntas aprovadas inéditas, duas por dificuldade, com regras congeladas por partida. Ainda não há sequência completa ou final.
+A T20 acrescenta `theftStrategy`, `theft-target-selection`, escolha de alvo e **Iniciar roubo de teste** ao lobby em desenvolvimento/teste. São seis perguntas aprovadas inéditas, duas por dificuldade, com regras congeladas por partida. Também integra as modalidades sorteadas nas quatro fases de pontuação do modo clássico, antes da final.
 
-**D05 continua em consulta.** O comportamento implementado exercita somente a proposta `first-correct-only`, marcada como protótipo nas regras e na interface. A consolidação depende da escolha do usuário sobre quem pode roubar; testes não representam aprovação da regra.
+**D05 confirmada e aplicada em 23/10/2026.** Somente o primeiro acerto pode roubar até **100 pontos**, limitados ao saldo do alvo após os créditos. Todos os acertos recebem **+100**. As regras congeladas e a projeção pública identificam a política `first-correct-only` como `confirmed`.
 
 ## Fluxo e pontos
 
@@ -12,12 +12,12 @@ Os acertos são creditados antes da escolha de alvo. Se houver primeiro acerto e
 
 | Situação | Resultado |
 |---|---|
-| Ambos acertam partindo de zero; primeiro escolhe o outro | Primeiro termina em 150, alvo em 50 |
+| Ambos acertam partindo de zero; primeiro escolhe o outro | Primeiro termina em 200, alvo em zero |
 | Alvo tem 30 e erra | Transfere só 30; alvo termina em zero |
-| Alvo tinha 30 e acerta | Recebe 100, transfere 50 e termina em 80 |
+| Alvo tinha 30 e acerta | Recebe 100, transfere 100 e termina em 30 |
 | Autor não escolhe no prazo | Nenhuma transferência |
 
-`transferPoints` limita a transferência ao menor entre o parâmetro de **50** e o saldo disponível. Crédito e débito têm o mesmo valor efetivo; apenas o acerto cria pontos. O saldo nunca fica negativo. A modalidade não usa dano de vidas ou a política de primeira resposta exclusiva da final.
+`transferPoints` limita a transferência ao menor entre o parâmetro de **100** e o saldo disponível. Crédito e débito têm o mesmo valor efetivo; apenas o acerto cria pontos. O saldo nunca fica negativo. A modalidade não usa dano de vidas ou a política de primeira resposta exclusiva da final.
 
 ## Resolução e efeitos únicos
 
@@ -31,7 +31,7 @@ Reenvio após liquidar é recusado por fase/contexto e não transfere novamente.
 
 `match:start` aceita `mode: "theft"`, congelado no elenco. O seletor usa `theft-prototype`, sem reserva da final. O índice de domínio é 4 e o progresso do plano isolado é fase 1 de 1. Produção permanece sem os protótipos de partida.
 
-`MatchView.theftRules` publica base, máximo, prazo de alvo, política `first-correct-only` e `status: "prototype"`. O subestado de alvo publica pergunta por ID, autor, adversários elegíveis e prazo; gabarito e recibos continuam privados. O schema exige alvos com saldo após os créditos.
+`MatchView.theftRules` publica base, máximo, prazo de alvo, política `first-correct-only` e `status: "confirmed"`. O subestado de alvo publica pergunta por ID, autor, adversários elegíveis e prazo; gabarito e recibos continuam privados. O schema exige alvos com saldo após os créditos.
 
 Na revelação, `theftResult` inclui autor, alvo (ou `null`), valor efetivo e decomposição por participante: saldo anterior, acerto, transferência com sinal e saldo atual. O schema confere participantes, saldo final, soma dos componentes e correspondência entre transferência e valor. A UI renderiza os valores recebidos e identifica **Roubo** nos efeitos.
 
@@ -39,6 +39,6 @@ O controle de alvo usa botões nativos por teclado/toque, somente para o autor. 
 
 ## Verificação
 
-Domínio cobre erro rápido, ordens no mesmo milissegundo, ausência de acertos, saldo 30, saldo após crédito, timeout, ator/alvo inválidos, prazo exato, repetição e conservação da transferência. Serviço cobre seis perguntas reais, concorrência, reconexão, timer antigo e rollback. Socket.IO cobre WebSocket/polling, espectadores, outra identidade, campo injetado, substituição da conexão e liquidação **150/50**.
+Domínio cobre erro rápido, ordens no mesmo milissegundo, ausência de acertos, saldo 30, saldo após crédito, timeout, ator/alvo inválidos, prazo exato, repetição e conservação da transferência. Serviço cobre seis perguntas reais, concorrência, reconexão, timer antigo e rollback. Socket.IO cobre WebSocket/polling, espectadores, outra identidade, campo injetado, substituição da conexão e liquidação **200/0**.
 
 Web cobre início, instrução, teclado, autorização, decomposição e confirmação incerta. `theft-smoke.spec.ts` percorre seis perguntas em desktop/celular emulado, com erro rápido, nenhum acerto, timeout, troca do autor, recarga no alvo e retorno ao lobby. O resultado esperado é **400/400** com **4/4 acertos**. Evidências ficam na [T20](tasks/T20-fase-roubo.md).

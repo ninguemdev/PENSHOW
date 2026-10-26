@@ -11,6 +11,26 @@ export function soundForTransition(previous: RoomView | null, next: RoomView): S
   }
   const match = next.state.match,
     stage = match.stage;
+  if (stage.phase === 'final-tiebreak') {
+    if (stage.tiebreak.phase === 'instructions') return 'start';
+    if (stage.tiebreak.ownQuestion.status === 'reading') return 'question';
+    if (stage.tiebreak.ownQuestion.status === 'resolved')
+      return stage.tiebreak.ownQuestion.outcome === 'correct' ? 'correct' : 'wrong';
+    if (stage.tiebreak.phase === 'result') return 'results';
+    const previousStage =
+      previous?.state.status === 'match' ? previous.state.match.stage : undefined;
+    if (
+      previousStage?.phase === 'final-tiebreak' &&
+      stage.tiebreak.frame.fighters.some(
+        (f) =>
+          f.lives <
+          (previousStage.tiebreak.frame.fighters.find((p) => p.playerId === f.playerId)?.lives ??
+            f.lives),
+      )
+    )
+      return 'damage';
+    return null;
+  }
   if (stage.phase === 'instructions' || stage.phase === 'final-instructions') return 'start';
   if (stage.phase === 'question-reading' || stage.phase === 'final-question-reading')
     return 'question';
@@ -61,6 +81,10 @@ function transitionKey(view: RoomView) {
       .sort()
       .join(',')}`;
   const stage = view.state.match.stage;
+  if (stage.phase === 'final-tiebreak') {
+    const own = stage.tiebreak.ownQuestion;
+    return `tiebreak:${stage.tiebreak.frame.tiebreakId}:${stage.tiebreak.frame.bout}:${stage.tiebreak.frame.generation}:${stage.tiebreak.phase}:${own.status}:${stage.tiebreak.frame.fighters.map((f) => f.lives).join(',')}`;
+  }
   const questionId =
     'question' in stage
       ? stage.question.questionId

@@ -112,10 +112,25 @@ export type MatchCommand = MatchContext &
     | { kind: 'answer'; playerId: PlayerId; questionId: QuestionId; optionId: OptionId }
     | { kind: 'wager'; playerId: PlayerId; questionId: QuestionId; amount: number }
     | { kind: 'target'; playerId: PlayerId; questionId: QuestionId; targetPlayerId: PlayerId }
+    | {
+        kind: 'tiebreak-answer';
+        playerId: PlayerId;
+        questionId: QuestionId;
+        optionId: OptionId;
+        tiebreakId: string;
+        bout: number;
+        generation: number;
+      }
   );
 export type MatchEvent =
   | MatchCommand
-  | { kind: 'timer'; timer: MatchTimer }
+  | {
+      kind: 'timer';
+      timer: MatchTimer;
+      randomIndex?: number;
+      connectedPlayerIds?: PlayerId[];
+      spawnOrder?: PlayerId[];
+    }
   | { kind: 'category-offered'; offer: Offer }
   | { kind: 'question-prepared'; question: PreparedQuestion | null }
   | { kind: 'final-question-prepared'; question: PreparedQuestion | null }
@@ -286,9 +301,14 @@ export function transitionMatch(
     return ignored();
   if (before.final) {
     let input: FinalEvent;
-    if (event.kind === 'timer') input = { kind: 'expire' };
-    else if (
+    if (event.kind === 'timer') {
+      const { kind: _kind, timer: _timer, ...details } = event;
+      void _kind;
+      void _timer;
+      input = { kind: 'expire', ...details };
+    } else if (
       event.kind === 'ready' ||
+      event.kind === 'tiebreak-answer' ||
       event.kind === 'answer' ||
       event.kind === 'target' ||
       event.kind === 'interrupt' ||
@@ -603,6 +623,7 @@ export function transitionMatch(
       state.stage = { phase: 'interrupted', reason: event.reason };
       break;
     case 'final-question-prepared':
+    case 'tiebreak-answer':
       throw new MatchError('INVALID_PHASE');
   }
   state.revision++;

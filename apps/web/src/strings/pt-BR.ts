@@ -125,7 +125,7 @@ export const strings = {
     classicDetail:
       'Quatro modalidades diferentes em ordem sorteada, seguidas pela final de vidas. Os pontos acumulados nas quatro fases definem sua vantagem na final.',
     experimentalRules:
-      'Regras em avaliação: dinamite e roubo usam as variantes de teste. Empates e prazos sem resposta ou alvo na final ainda podem pausar a partida.',
+      'Na final, ninguém respondeu: todos perdem uma vida. Sem escolher alvo, o sorteio inclui quem acertou. Eliminações simultâneas seguem ao desempate de tiro.',
     startClassic: 'Iniciar modo clássico',
     isolatedTests: 'Testes de modalidades isoladas',
     start: 'Iniciar quiz clássico',
@@ -203,7 +203,7 @@ export const strings = {
       `${rank}º · ${name}: ${points} pontos → ${lives} vidas`,
     instructions: 'Prepare-se para a final',
     rules: (responseMs: number, targetMs: number) =>
-      `Só a primeira resposta aceita pelo servidor é avaliada. Errou: perde uma vida. Acertou: escolhe um adversário para tirar uma vida. Cada pergunta tem ${responseMs / 1000} segundos após a leitura; o alvo deve ser escolhido em ${targetMs / 1000} segundos. A pergunta termina após essa jogada. Vence o último com vida.`,
+      `Só a primeira resposta aceita pelo servidor é avaliada. Errou: perde uma vida. Acertou: escolhe um adversário para tirar uma vida. Cada pergunta tem ${responseMs / 1000} segundos após a leitura; o alvo deve ser escolhido em ${targetMs / 1000} segundos. A pergunta termina após essa jogada. Eliminações simultâneas são resolvidas no desempate de tiro.`,
     pendingHelp:
       'A final fica pausada se ninguém responder ou se o autor do acerto não escolher alvo. Essas regras estão em consulta. O anfitrião pode voltar ao lobby.',
     lives: 'Vidas na final',

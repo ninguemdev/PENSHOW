@@ -4,6 +4,7 @@ import {
   actionIdSchema,
   matchIdSchema,
   playerIdSchema,
+  roundIdSchema,
   roomCodeSchema,
   roomIdSchema,
   stateVersionSchema,
@@ -12,6 +13,7 @@ import {
 import { roomViewSchema } from './view.js';
 import { sessionEndedSchema } from './session.js';
 import { roomRemovedSchema } from './room-removed.js';
+import { tiebreakFrameSchema } from './tiebreak.js';
 
 export const PROTOCOL_VERSION = 1;
 const successful = {
@@ -28,6 +30,8 @@ const roomEntry = z.strictObject({
 const mutation = z.strictObject({ stateVersion: stateVersionSchema });
 
 export const commandSuccessSchema = z.discriminatedUnion('event', [
+  z.strictObject({ ...successful, event: z.literal('tiebreak:input'), result: mutation }),
+  z.strictObject({ ...successful, event: z.literal('tiebreak:answer'), result: mutation }),
   z.strictObject({
     ...successful,
     event: z.literal('room:sync'),
@@ -92,6 +96,16 @@ export const acknowledgementSchema = z.union([
 ]);
 
 export const serverEventSchema = z.discriminatedUnion('event', [
+  z.strictObject({
+    protocolVersion: z.literal(PROTOCOL_VERSION),
+    event: z.literal('tiebreak:frame'),
+    payload: z.strictObject({
+      roomId: roomIdSchema,
+      matchId: matchIdSchema,
+      roundId: roundIdSchema,
+      frame: tiebreakFrameSchema,
+    }),
+  }),
   z.strictObject({
     protocolVersion: z.literal(PROTOCOL_VERSION),
     event: z.literal('room:removed'),

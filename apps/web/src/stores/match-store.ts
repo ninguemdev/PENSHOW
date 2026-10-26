@@ -5,6 +5,7 @@ import {
   type OptionId,
   type PlayerId,
   type RoomView,
+  type TiebreakInput,
 } from '@penshow/shared';
 import type { RealtimeClient } from '../lib/socket';
 import type { createRoomStore } from './room-store';
@@ -28,7 +29,8 @@ type MatchCommand = Extract<
       | 'answer:submit'
       | 'wager:submit'
       | 'target:choose'
-      | 'match:returnToLobby';
+      | 'match:returnToLobby'
+      | 'tiebreak:answer';
   }
 >;
 type Intent = MatchCommand extends infer Command
@@ -62,6 +64,10 @@ export function matchActionKey(view: RoomView | null, epoch: number): string {
   if (view.state.status !== 'match')
     return `${epoch}:${view.roomId}:${view.viewerId}:${view.state.status}`;
   const { matchId, stage, progress } = view.state.match;
+  if (stage.phase === 'final-tiebreak') {
+    const own = stage.tiebreak.ownQuestion;
+    return `${epoch}:${view.roomId}:${view.viewerId}:${matchId}:${stage.tiebreak.frame.tiebreakId}:${stage.tiebreak.frame.bout}:${stage.tiebreak.frame.generation}:${stage.tiebreak.phase}:${'question' in own ? own.question.questionId : ''}`;
+  }
   const questionId =
     'question' in stage
       ? stage.question.questionId
@@ -89,6 +95,8 @@ export function createMatchStore(deps: Dependencies) {
     answer: (optionId: OptionId) => Promise<boolean>;
     wager: (amount: number) => Promise<boolean>;
     target: (targetPlayerId: PlayerId) => Promise<boolean>;
+    tiebreakInput: (input: TiebreakInput) => Promise<boolean>;
+    survivalAnswer: (optionId: OptionId) => Promise<boolean>;
     returnToLobby: () => Promise<boolean>;
     cancel: () => void;
   }>((set, get) => {
@@ -114,6 +122,7 @@ export function createMatchStore(deps: Dependencies) {
       const stage = match(view).stage;
       if (
         'finalists' in stage &&
+        stage.phase !== 'final-tiebreak' &&
         !stage.finalists.some(
           (player) => player.playerId === view.viewerId && player.status === 'active',
         )
@@ -207,9 +216,14 @@ export function createMatchStore(deps: Dependencies) {
           throw new Error(ack.error.message);
         }
         if (ack.event !== intent.event) throw new Error(strings.errors.protocol);
-        if (optionId && ack.event === 'answer:submit')
+        if (optionId && (ack.event === 'answer:submit' || ack.event === 'tiebreak:answer'))
           set({
-            attempt: { key, optionId, status: 'recorded', acceptance: ack.result.acceptance },
+            attempt: {
+              key,
+              optionId,
+              status: 'recorded',
+              acceptance: ack.event === 'answer:submit' ? ack.result.acceptance : 'recorded',
+            },
           });
         if (amount !== undefined) set({ wagerAttempt: { key, amount, status: 'recorded' } });
         if (targetPlayerId) set({ targetAttempt: { key, targetPlayerId, status: 'recorded' } });
@@ -247,6 +261,59 @@ export function createMatchStore(deps: Dependencies) {
       }
     }
     return {
+      async tiebreakInput(input) {
+        const view = deps.room.getState().view,
+          session = deps.session.getState();
+        if (
+          !view ||
+          !session.viewReady ||
+          session.connection !== 'online' ||
+          view.state.status !== 'match' ||
+          view.state.match.stage.phase !== 'final-tiebreak' ||
+          view.state.match.stage.tiebreak.phase !== 'combat'
+        )
+          return false;
+        try {
+          const ack = await deps.realtime.command({
+            protocolVersion: 1,
+            actionId: actionIdSchema.parse(crypto.randomUUID()),
+            event: 'tiebreak:input',
+            payload: { ...context(view), ...input },
+          });
+          return ack.status === 'ok';
+        } catch {
+          return false;
+        }
+      },
+      survivalAnswer: (optionId) =>
+        run(
+          (view) => {
+            participant(view);
+            const stage = match(view).stage;
+            if (stage.phase !== 'final-tiebreak') return unavailable();
+            const own = stage.tiebreak.ownQuestion;
+            if (
+              own.status !== 'open' ||
+              own.submitted ||
+              !own.question.options.some((o) => o.optionId === optionId)
+            )
+              return unavailable();
+            before(own.deadlineAt);
+            const frame = stage.tiebreak.frame;
+            return {
+              event: 'tiebreak:answer',
+              payload: {
+                ...context(view),
+                tiebreakId: frame.tiebreakId,
+                bout: frame.bout,
+                generation: frame.generation,
+                questionId: own.question.questionId,
+                optionId,
+              },
+            };
+          },
+          { kind: 'answer', optionId },
+        ),
       busyKey: null,
       error: null,
       errorKey: null,
@@ -286,6 +353,16 @@ export function createMatchStore(deps: Dependencies) {
         run((view) => {
           participant(view);
           const stage = match(view).stage;
+          if (stage.phase === 'final-tiebreak') {
+            if (
+              stage.tiebreak.phase !== 'instructions' ||
+              !stage.tiebreak.participants.includes(view.viewerId) ||
+              stage.tiebreak.readyPlayerIds.includes(view.viewerId)
+            )
+              return unavailable();
+            before(stage.tiebreak.deadlineAt);
+            return { event: 'round:ready', payload: context(view) };
+          }
           if (
             (stage.phase !== 'instructions' && stage.phase !== 'final-instructions') ||
             stage.readyPlayerIds.includes(view.viewerId)

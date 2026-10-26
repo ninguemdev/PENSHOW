@@ -89,9 +89,9 @@ const wagerRules = { correctPoints: 100, selectionMs: 6000 };
 const theft = { roundId, mode: 'theft', index: 4 };
 const theftRules = {
   correctPoints: 100,
-  maximumTransfer: 50,
+  maximumTransfer: 100,
   targetSelectionMs: 6000,
-  status: 'prototype',
+  status: 'confirmed',
   policy: 'first-correct-only',
 };
 const finalRound = { roundId, mode: 'final', index: 6 };
@@ -682,110 +682,124 @@ describe('fases e projeções por participante', () => {
     ])
       expect(finalEntrySchema.safeParse({ ...pending, tieBreaks: [record] }).success).toBe(false);
   });
-  it('dinamite publica turno exclusivo coerente e impede gabarito antecipado ou metadados contraditórios', () => {
-    const pressureRules = {
-      correctPoints: 300,
-      wrongPenalty: 150,
-      responseMs: 10000,
-      turnDifficulties: ['medium', 'hard'],
-      status: 'prototype',
-      mode: 'dynamite',
-    };
-    const pressureTurn = {
-      playerId: player1,
-      cycle: 1,
-      cycleCount: 2,
-      turnNumber: 1,
-      turnCount: 4,
-      nextPlayerId: player2,
-      difficulty: 'medium',
-    };
-    const pressure = {
-      ...match,
-      pressureRules,
-      pressureTurn,
-      progress: { ...match.progress, questionCount: 4 },
-      stage: {
-        ...questionOpen,
-        round: {
-          roundId,
-          mode: 'pressure',
-          index: 5,
-          variant: { status: 'prototype', decisionId: 'D04', mode: 'dynamite' },
-        },
-        question: { ...question, difficulty: 'medium' },
-        deadlineAt: 11000,
-        respondents: { kind: 'single-player', playerId: player1 },
-      },
-    };
-    expect(
-      clientCommandSchema.safeParse({
-        protocolVersion: 1,
-        actionId,
-        event: 'match:start',
-        payload: { roomId, mode: 'pressure' },
-      }).success,
-    ).toBe(true);
-    expect(matchViewSchema.safeParse(pressure).success).toBe(true);
-    for (const turn of [
-      { ...pressureTurn, playerId: player3 },
-      { ...pressureTurn, cycle: 2 },
-      { ...pressureTurn, turnCount: 6 },
-      { ...pressureTurn, nextPlayerId: null },
-      { ...pressureTurn, outcome: 'exploded' },
-      { ...pressureTurn, difficulty: 'hard' },
-    ])
-      expect(matchViewSchema.safeParse({ ...pressure, pressureTurn: turn }).success).toBe(false);
-    expect(matchViewSchema.safeParse({ ...pressure, pressureTurn: undefined }).success).toBe(false);
-    expect(matchViewSchema.safeParse({ ...pressure, pressureRules: undefined }).success).toBe(
-      false,
-    );
-    expect(
-      matchViewSchema.safeParse({ ...pressure, pressureOrder: [player1, player2] }).success,
-    ).toBe(false);
-    expect(
-      matchViewSchema.safeParse({ ...pressure, stage: { ...pressure.stage, deadlineAt: 12000 } })
-        .success,
-    ).toBe(false);
-    const explosion = {
-      ...pressure,
-      scoreboard: scoreboard.map((score) => ({ ...score, points: 0 })),
-      pressureTurn: { ...pressureTurn, outcome: 'exploded' },
-      stage: {
-        phase: 'reveal',
-        round: pressure.stage.round,
-        reveal: { ...reveal, question: pressure.stage.question },
-        effects: [{ kind: 'debit', reason: 'pressure', playerId: player1, amount: 100 }],
-        deadlineAt: 15000,
-      },
-    };
-    expect(matchViewSchema.safeParse(explosion).success).toBe(true);
-    expect(
-      matchViewSchema.safeParse({
-        ...explosion,
+  it.each(['prototype', 'confirmed'] as const)(
+    'dinamite %s publica turno exclusivo coerente e impede gabarito antecipado ou metadados contraditórios',
+    (status) => {
+      const pressureRules = {
+        correctPoints: 300,
+        wrongPenalty: 150,
+        responseMs: 10000,
+        turnDifficulties: ['medium', 'hard'],
+        status,
+        mode: 'dynamite',
+      };
+      const pressureTurn = {
+        playerId: player1,
+        cycle: 1,
+        cycleCount: 2,
+        turnNumber: 1,
+        turnCount: 4,
+        nextPlayerId: player2,
+        difficulty: 'medium',
+      };
+      const pressure = {
+        ...match,
+        pressureRules,
+        pressureTurn,
+        progress: { ...match.progress, questionCount: 4 },
         stage: {
-          ...explosion.stage,
-          effects: [...explosion.stage.effects, ...explosion.stage.effects],
+          ...questionOpen,
+          round: {
+            roundId,
+            mode: 'pressure',
+            index: 5,
+            variant: { status, decisionId: 'D04', mode: 'dynamite' },
+          },
+          question: { ...question, difficulty: 'medium' },
+          deadlineAt: 11000,
+          respondents: { kind: 'single-player', playerId: player1 },
         },
-      }).success,
-    ).toBe(false);
-    expect(
-      matchViewSchema.safeParse({
-        ...explosion,
+      };
+      expect(
+        clientCommandSchema.safeParse({
+          protocolVersion: 1,
+          actionId,
+          event: 'match:start',
+          payload: { roomId, mode: 'pressure' },
+        }).success,
+      ).toBe(true);
+      expect(matchViewSchema.safeParse(pressure).success).toBe(true);
+      expect(
+        matchViewSchema.safeParse({
+          ...pressure,
+          pressureRules: {
+            ...pressureRules,
+            status: status === 'confirmed' ? 'prototype' : 'confirmed',
+          },
+        }).success,
+      ).toBe(false);
+      for (const turn of [
+        { ...pressureTurn, playerId: player3 },
+        { ...pressureTurn, cycle: 2 },
+        { ...pressureTurn, turnCount: 6 },
+        { ...pressureTurn, nextPlayerId: null },
+        { ...pressureTurn, outcome: 'exploded' },
+        { ...pressureTurn, difficulty: 'hard' },
+      ])
+        expect(matchViewSchema.safeParse({ ...pressure, pressureTurn: turn }).success).toBe(false);
+      expect(matchViewSchema.safeParse({ ...pressure, pressureTurn: undefined }).success).toBe(
+        false,
+      );
+      expect(matchViewSchema.safeParse({ ...pressure, pressureRules: undefined }).success).toBe(
+        false,
+      );
+      expect(
+        matchViewSchema.safeParse({ ...pressure, pressureOrder: [player1, player2] }).success,
+      ).toBe(false);
+      expect(
+        matchViewSchema.safeParse({ ...pressure, stage: { ...pressure.stage, deadlineAt: 12000 } })
+          .success,
+      ).toBe(false);
+      const explosion = {
+        ...pressure,
+        scoreboard: scoreboard.map((score) => ({ ...score, points: 0 })),
+        pressureTurn: { ...pressureTurn, outcome: 'exploded' },
         stage: {
-          ...explosion.stage,
-          effects: [{ ...explosion.stage.effects[0], playerId: player2 }],
+          phase: 'reveal',
+          round: pressure.stage.round,
+          reveal: { ...reveal, question: pressure.stage.question },
+          effects: [{ kind: 'debit', reason: 'pressure', playerId: player1, amount: 100 }],
+          deadlineAt: 15000,
         },
-      }).success,
-    ).toBe(false);
-    expect(
-      matchViewSchema.safeParse({
-        ...explosion,
-        pressureTurn: { ...pressureTurn, outcome: 'passed' },
-        stage: { ...explosion.stage, effects: [] },
-      }).success,
-    ).toBe(false);
-  });
+      };
+      expect(matchViewSchema.safeParse(explosion).success).toBe(true);
+      expect(
+        matchViewSchema.safeParse({
+          ...explosion,
+          stage: {
+            ...explosion.stage,
+            effects: [...explosion.stage.effects, ...explosion.stage.effects],
+          },
+        }).success,
+      ).toBe(false);
+      expect(
+        matchViewSchema.safeParse({
+          ...explosion,
+          stage: {
+            ...explosion.stage,
+            effects: [{ ...explosion.stage.effects[0], playerId: player2 }],
+          },
+        }).success,
+      ).toBe(false);
+      expect(
+        matchViewSchema.safeParse({
+          ...explosion,
+          pressureTurn: { ...pressureTurn, outcome: 'passed' },
+          stage: { ...explosion.stage, effects: [] },
+        }).success,
+      ).toBe(false);
+    },
+  );
   it('aceita início isolado de velocidade e recusa modalidades ou relógios injetados', () => {
     const start = {
       protocolVersion: 1,
@@ -1027,7 +1041,7 @@ describe('fases e projeções por participante', () => {
         roundId,
         mode: 'pressure',
         index: 5,
-        variant: { status: 'prototype', decisionId: 'D04', mode: 'dynamite' },
+        variant: { status: 'confirmed', decisionId: 'D04', mode: 'dynamite' },
       },
       respondents: { kind: 'single-player', playerId: player1 },
     };
@@ -1101,11 +1115,8 @@ describe('fases e projeções por participante', () => {
 });
 
 describe('placar e regras confirmadas da final', () => {
-  it('não resolve D01 a D06 por padrão', () => {
-    expect(Object.keys(PENDING_DECISIONS)).toEqual(['D01', 'D02', 'D03', 'D04', 'D05', 'D06']);
-    expect(
-      Object.values(PENDING_DECISIONS).every((decision) => decision.status === 'in-consultation'),
-    ).toBe(true);
+  it('não apresenta decisões respondidas como consultas pendentes', () => {
+    expect(PENDING_DECISIONS).toEqual({});
     expect(matchStageSchema.safeParse({ ...finalOpen, timeoutPolicy: 'skip' }).success).toBe(false);
   });
   it('conserva saldo não negativo e mantém desempate separado da distribuição de vidas', () => {
@@ -1205,7 +1216,7 @@ describe('placar e regras confirmadas da final', () => {
           eliminationOrder: index + 1,
         })),
       ).success,
-    ).toBe(false);
+    ).toBe(true); // Zero survivors is representable while the final resolves a tiebreak.
   });
   it('não admite várias respostas, repasse da pergunta nem vários danos', () => {
     expect(

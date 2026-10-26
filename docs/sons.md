@@ -1,6 +1,6 @@
 # Sons e preferências do jogador
 
-O [narrador robótico](narrador-robotico.md) acrescenta leitura de enunciados com volume/ativação próprios. As regras de gravação, privacidade e sincronização dessa voz estão no guia específico. A T38 amplia os efeitos para 16 composições curtas e reduz automaticamente sua intensidade enquanto o robô fala.
+O [narrador robótico](narrador-robotico.md) acrescenta leitura de enunciados com volume/ativação próprios. As regras de gravação, privacidade e sincronização dessa voz estão no guia específico. A T38 ampliou os efeitos para 16 composições curtas e a T39 acrescentou o disparo do combate, totalizando **17 efeitos**. A intensidade é reduzida automaticamente enquanto o robô fala.
 
 A T31 acrescenta seis avisos sintetizados no próprio navegador. A abordagem vem do [áudio do Comicle no commit analisado](https://github.com/ninguemdev/Comicle/tree/4521f34df78da7de54a30715d50e748c50aa0696/apps/web/src/features/sound): catálogo declarativo, motor Web Audio, preferências separadas e efeitos derivados da visão. A implementação e as composições são próprias do PENSHOW; nenhum arquivo de áudio ou código do Comicle foi copiado nesta tarefa.
 
@@ -47,7 +47,7 @@ Com áudio desligado, indisponível ou ainda bloqueado, os avisos são consumido
 
 Durante carregamento/leitura do narrador, o volume aplicado aos efeitos é multiplicado por 0,45 antes da curva de ganho, deixando a voz em destaque. Ao encerrar a leitura, o volume retorna suavemente. Essa atenuação não altera o slider nem grava uma nova preferência; silêncio e volume zero continuam valendo.
 
-Os únicos recursos do motor dos 16 avisos são os nós Web Audio locais. Esses efeitos não baixam MP3/WAV nem dependem de voz remota ou serviço externo. `AudioContext` é criado/retomado no gesto explícito, conforme as [boas práticas do Web Audio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices). Falhas de criação, resume e descarte ficam no serviço e não interrompem a partida.
+Os únicos recursos do motor dos 17 avisos são os nós Web Audio locais. Esses efeitos não baixam MP3/WAV nem dependem de voz remota ou serviço externo. `AudioContext` é criado/retomado no gesto explícito, conforme as [boas práticas do Web Audio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices). Falhas de criação, resume e descarte ficam no serviço e não interrompem a partida.
 
 ## Verificação e prévia
 
@@ -59,11 +59,15 @@ pnpm sounds:preview
 
 O teste de fluxo usa web compilada, servidor, HTTP e Socket.IO reais, com perfil privado de quantidade/timing. Instrumenta o Web Audio nativo para contar fontes; não substitui playback nem ignora políticas de autoplay. Percorre as modalidades, força o fechamento real de um transporte, confere a conexão nova sem repetir explosão e recarrega o pódio sem repetir vitória. Outro percurso verifica resposta e prazo sem Web Audio. A auditoria de rede recusa chamadas externas.
 
-O teste de renderização compila o mesmo motor em memória e usa o grafo nativo de um `OfflineAudioContext` para produzir os 16 sinais. Mede pico, RMS, término e variação entre amostras; verifica silêncio, curva de volume, substituição e cliques sem interromper vitória. A adaptação do contexto offline serve somente ao processamento; a ativação é verificada separadamente no fluxo com `AudioContext` real.
+O teste de renderização compila o mesmo motor em memória e usa o grafo nativo de um `OfflineAudioContext` para produzir os 17 sinais. Mede pico, RMS, término e variação entre amostras; verifica silêncio, curva de volume, substituição e cliques sem interromper vitória. A adaptação do contexto offline serve somente ao processamento; a ativação é verificada separadamente no fluxo com `AudioContext` real.
 
-Os artefatos em `e2e/test-results/sound-render-*/` incluem `penshow-efeitos-simples.wav`, prévia mono PCM de 44,1 kHz com os 16 avisos na ordem de `sound-catalog.ts` e pausas entre eles. `medidas-audio.json` acompanha o relatório Playwright. Uma cópia combinada, cada efeito individual (`click.wav`, `question.wav`, `start.wav` etc.) e `ordem-e-medidas.json` são gravados em `data/audio-previews/`, ignorado pelo Git e pelo contexto Docker. O job `sound` da CI publica os relatórios e a prévia no artefato `sons`, sem duplicar os testes históricos.
+Os artefatos em `e2e/test-results/sound-render-*/` incluem `penshow-efeitos-simples.wav`, prévia mono PCM de 44,1 kHz com os 17 avisos na ordem de `sound-catalog.ts` e pausas entre eles. `medidas-audio.json` acompanha o relatório Playwright. Uma cópia combinada, cada efeito individual (`click.wav`, `question.wav`, `start.wav` etc.) e `ordem-e-medidas.json` são gravados em `data/audio-previews/`, ignorado pelo Git e pelo contexto Docker. O job `sound` da CI publica os relatórios e a prévia no artefato `sons`, sem duplicar os testes históricos.
 
 A prévia e as medições não substituem escuta humana. A revisão de intensidade percebida, timbre e conforto no fluxo, com alto-falante e fones, continua pendente; não foi registrada como realizada. Safari/iOS e hardware físico também precisam dessa conferência. A tarefa permanece aberta nesse item de aceite.
+
+## Revalidação técnica — 23/10/2026
+
+A prévia atual contém **17 efeitos**, incluindo o disparo da arena. O processamento real registrado em `data/audio-previews/ordem-e-medidas.json` mede pico máximo **0,1102**, último sinal até **0,675 s** e maior variação entre amostras **0,0163**. Os números descrevem o arquivo processado, sem equivaler a volume percebido, conforto ou escuta humana. O fluxo, o silêncio, a reconexão, a narração e a renderização integram a matriz do [registro conjunto](validation/t21-t36-t29.md).
 
 ## Evidências da T38
 

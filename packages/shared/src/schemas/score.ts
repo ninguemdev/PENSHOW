@@ -34,7 +34,14 @@ export const rankingSchema = z.discriminatedUnion('status', [
           new Set(entries.map((entry) => entry.playerId)).size === entries.length &&
           entries.every(
             (entry, index) =>
-              entry.rank === index + 1 &&
+              (index === 0
+                ? entry.rank === 1
+                : entry.rank === entries[index - 1]!.rank ||
+                  entry.rank === entries[index - 1]!.rank + 1) &&
+              (index === 0 ||
+                entry.rank !== entries[index - 1]!.rank ||
+                (entry.points === entries[index - 1]!.points &&
+                  entry.correctAnswers === entries[index - 1]!.correctAnswers)) &&
               (index === 0 || (entries[index - 1]?.points ?? 0) >= entry.points),
           ),
         'A classificação precisa ter participantes únicos, posições consecutivas e pontos decrescentes.',
@@ -58,7 +65,7 @@ export const finalistSchema = z
       ...finalistFields,
       status: z.literal('eliminated'),
       lives: z.literal(0),
-      eliminationOrder: z.number().int().min(1).max(11),
+      eliminationOrder: z.number().int().min(1).max(12),
     }),
   ])
   .refine(
@@ -81,9 +88,9 @@ export const finalistsSchema = z
       .sort((left, right) => left - right);
     if (
       new Set(players.map((player) => player.playerId)).size !== players.length ||
-      !ranks.every((rank, index) => rank === index + 1) ||
-      !eliminated.every((order, index) => order === index + 1) ||
-      !players.some((player) => player.status === 'active')
+      ranks[0] !== 1 ||
+      ranks.some((rank, index) => index > 0 && rank > ranks[index - 1]! + 1) ||
+      eliminated.some((order, index) => index > 0 && order > eliminated[index - 1]! + 1)
     ) {
       context.addIssue({
         code: 'custom',

@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { combatBotInput } from '../../apps/server/src/test-support/combat-bot.js';
 import { createHash } from 'node:crypto';
 import {
   defaultAvatar,
@@ -38,12 +39,16 @@ export function pilotParameters(variant: PilotVariant) {
   if (variant === 'pressure-200-100') {
     parameters.pressure.correctPoints = 200;
     parameters.pressure.wrongPenalty = 100;
+    parameters.pressure.policy.status = 'prototype';
   } else if (variant === 'speed-25-10-0') {
     parameters.speed.bonusBands.forEach((band, index) => {
       band.points = [25, 10, 0][index]!;
     });
   } else if (variant === 'wager-limit-25') parameters.wager.allowedAmounts = [0, 25];
-  else if (variant === 'theft-limit-25') parameters.theft.maximumTransfer = 25;
+  else if (variant === 'theft-limit-25') {
+    parameters.theft.maximumTransfer = 25;
+    parameters.theft.policy.status = 'prototype';
+  }
   return prototypeParametersSchema.parse(parameters);
 }
 
@@ -164,10 +169,47 @@ export async function runGroupPilot(
       questionIds.add(id);
     };
 
-    for (let guard = 0; guard < 2000; guard++) {
+    for (let guard = 0; guard < 5000; guard++) {
       const before = state();
       const stage = before.final?.stage ?? before.stage;
       if (!matchTimer(before)) break;
+      if (stage.phase === 'final-tiebreak') {
+        const tie = stage.tiebreak;
+        if (tie.phase === 'instructions') {
+          for (const id of tie.combat.fighters.map((f) => f.playerId))
+            await execute(id, { kind: 'ready', ...matchContext(state()) });
+        } else if (tie.phase === 'combat') {
+          for (const f of tie.combat.fighters.filter((f) => f.status === 'fighting'))
+            await matches.input(
+              room,
+              actors.find((a) => a.playerId === f.playerId)!,
+              matchContext(state()),
+              combatBotInput(tie, f.playerId, time.now()),
+            );
+          await deadline();
+        } else if (tie.phase === 'questions') {
+          const available = tie.questions.filter((q) => !q.outcome && time.now() >= q.opensAt);
+          if (!available.length) await deadline();
+          else
+            for (const q of available)
+              await execute(q.playerId, {
+                kind: 'tiebreak-answer',
+                ...matchContext(state()),
+                tiebreakId: tie.tiebreakId,
+                bout: tie.bout,
+                generation: tie.generation,
+                questionId: q.question.publicQuestion.questionId,
+                optionId:
+                  q.playerId === tie.combat.fighters[0]!.playerId
+                    ? q.question.correctOptionId
+                    : q.question.publicQuestion.options.find(
+                        (o) => o.optionId !== q.question.correctOptionId,
+                      )!.optionId,
+              });
+        } else await deadline();
+        assert(guard < 4999, 'Limite de segurança do piloto atingido.');
+        continue;
+      }
       if (stage.phase === 'wager-selection') {
         await advance(time.now() + 1000);
         for (const [index, actor] of actors.entries()) {
@@ -291,7 +333,7 @@ export async function runGroupPilot(
           targetPlayerId: eligible[0]!.playerId,
         });
       } else await deadline();
-      assert(guard < 1999, 'Limite de segurança do piloto atingido.');
+      assert(guard < 4999, 'Limite de segurança do piloto atingido.');
     }
     assert.deepEqual(errors, [], 'Falha assíncrona dos serviços.');
     const last = state();
@@ -363,7 +405,13 @@ export async function runGroupPilot(
     });
     const final = last.final;
     const winner =
-      terminalPhase === 'podium' ? final!.finalists.find((row) => row.status === 'active')! : null;
+      terminalPhase === 'podium'
+        ? (final!.finalists.find((row) => row.status === 'active') ??
+          final!.finalists.find(
+            (row) => row.playerId === final!.tiebreakResults?.at(-1)?.standings[0],
+          ) ??
+          null)
+        : null;
     const totalDuration = time.now() - startedAt;
     assert.equal(
       Object.values(phaseMs).reduce((sum, ms) => sum + ms, 0),
@@ -375,7 +423,7 @@ export async function runGroupPilot(
         assert.equal(
           record.before.reduce((sum, row) => sum + row.lives, 0) -
             record.after.reduce((sum, row) => sum + row.lives, 0),
-          1,
+          record.resolution.outcome === 'no-answer' ? record.resolution.playerIds.length : 1,
         );
       }
     return {
@@ -407,13 +455,16 @@ export async function runGroupPilot(
               lives: row.initialLives,
             })),
             resolutions: final.history.map((record) => ({
-              author: label(record.accepted.playerId),
+              author: record.accepted ? label(record.accepted.playerId) : 'all',
               outcome: record.resolution.outcome,
-              victim: label(
-                record.resolution.outcome === 'attack'
-                  ? record.resolution.targetPlayerId
-                  : record.accepted.playerId,
-              ),
+              victim:
+                record.resolution.outcome === 'no-answer'
+                  ? 'all'
+                  : label(
+                      record.resolution.outcome === 'attack'
+                        ? record.resolution.targetPlayerId
+                        : (record.accepted?.playerId ?? record.before[0]!.playerId),
+                    ),
               damage: record.resolution.damage,
             })),
             winner: winner ? label(winner.playerId) : null,
