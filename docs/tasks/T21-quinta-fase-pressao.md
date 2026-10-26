@@ -5,7 +5,7 @@
 - **Marco:** M3
 - **Branch sugerido:** `task/21-quinta-fase-pressao`
 
-O status desta tarefa fica somente no [índice](README.md). Caminhos de implementação citados abaixo são entregas futuras; sua menção não indica que os arquivos já existem.
+O status desta tarefa fica somente no [índice](README.md). A implementação está no [guia de dinamite](../dinamite.md). As evidências originais do protótipo permanecem separadas da consolidação de D04.
 
 ## Objetivo
 
@@ -17,15 +17,15 @@ Implementar a quinta modalidade com oportunidades equivalentes e prazo individua
 - [regras.md](../regras.md)
 - [decisoes.md](../decisoes.md)
 
-## Decisões em consulta
+## Decisão confirmada em 23/10/2026
 
-D04 escolhe dinamite, destaque simultâneo ou sequência. Esta ficha descreve a dinamite proposta; atualizar a ficha se a escolha mudar, mantendo sua posição na sequência.
+D04 confirma dinamite por turnos, dois por participante, com prazo individual completo. No modo padrão, ela ocupa uma das posições 1 a 4 quando sorteada; a final ocupa sempre a quinta.
 
-Foi implementado um protótipo isolado de dinamite em desenvolvimento/teste. D04 continua em consulta e a tarefa permanece em andamento até a escolha da quinta modalidade. O protótipo não representa aprovação da proposta.
+Foi implementado um protótipo isolado de dinamite em desenvolvimento/teste. A política de D04 foi consolidada em parâmetros, planos sorteados/isolados, projeções e contratos. As evidências anteriores documentam o protótipo executado antes da resposta e permanecem históricas.
 
 ## Entregáveis
 
-- [ ] Consolidar a quinta modalidade após a escolha de D04.
+- [x] Consolidar a dinamite confirmada em D04, atualizando os marcadores de variante experimental e preservando sua posição sorteada em T36.
 - [x] Para dinamite, agendar dois ciclos, uma pergunta média e uma difícil por participante, com ordem sorteada e segundo ciclo inverso.
 - [x] Autorizar resposta apenas ao dono do turno; conceder dez segundos completos após a leitura.
 - [x] Aplicar +300 por acerto ou débito de até 150 por erro/ausência, preservando saldo mínimo zero.
@@ -53,11 +53,19 @@ Domínio cobre saldo 50, zero, crédito 300, prazo exato, timer atrasado/antigo,
 
 Socket.IO verifica WebSocket/polling, espectadores, injeção de identidade, conexão substituída, prazo recuperado e ausência. Web cobre início, instruções, dono/ciclo, teclado, indisponibilidade para outros/espectador, resposta incerta e explosão. Os testes automatizados passaram: **328 do servidor, 165 de shared, 109 da web, 32 de conteúdo e 5 de artes**, total **639**. Lint e tipagem passaram. A verificação específica do serviço foi repetida após acrescentar desconexão real: **34 testes passaram**.
 
-Guia: [dinamite.md](../dinamite.md). A sequência completa e a final continuam nas próximas tarefas; D04 permanece pendente, sem alterar `PENDING_DECISIONS` ou `decisoes.md`.
+Guia: [dinamite.md](../dinamite.md). As evidências acima foram produzidas antes da resposta de D04, sem alterar então `PENDING_DECISIONS` ou `decisoes.md`. A escolha foi confirmada em 23/10/2026 e consolidada conforme o registro abaixo.
 
 Em 19/10/2026, `pnpm test:e2e` verificou o catálogo privado, compilou os pacotes e executou **10 percursos em 12,7 minutos**, todos aprovados e sem retry. Foram clássico, velocidade, aposta, roubo e dinamite em desktop **1280×900** e celular emulado **360×780**. A dinamite confirmou ordem inversa, quatro perguntas inéditas, prazo completo, dono exclusivo, recarga, acerto/erro/timeout, explosão e retorno ao lobby; terminou em **150/150**, com **1/1 acertos**. As duas capturas `dinamite-explosao.png` foram inspecionadas e mostraram dono, ciclo, explosão e próximo turno legíveis, sem transbordamento horizontal da página. O placar móvel conserva sua rolagem interna.
 
 Após a revisão do texto de encerramento e desta documentação, o build e as verificações finais de formato e whitespace foram executados novamente. A CI hospedada permanece sem execução; os resultados acima são locais no Windows.
+
+## Consolidação D04 — 23/10/2026
+
+A configuração padrão, os planos isolados/sorteados e as visões de dinamite usam **confirmed**. O gerador recebe a política congelada da partida; a projeção deriva seu marcador da mesma configuração. O contrato público admite variantes experimentais identificadas, mas rejeita status divergente entre regras e fase. Dois ciclos, dificuldades média/difícil, ordem inversa e prazo individual foram preservados.
+
+Os testes de contrato exercitam tanto a política confirmada quanto a compatibilidade experimental, com validação de dono, janela, progresso, efeitos e privacidade. A enumeração das 120 ordens verifica o marcador D04 em todas as posições permitidas. O percurso de navegador também confere a variante confirmada do plano.
+
+A suíte atual passou com **902 testes**. O piloto concluiu **60/60 percursos**, com 2/4/8/12 participantes, gravando [t21-group-pilot.json](../../data/publication-reports/t21-group-pilot.json). Os 60 resultados e o resumo coincidem com T20; as variantes de pontuação 200/100 na dinamite e de teto 25 no roubo continuam experimentais. Evidências de navegador, verificações e limites estão no [registro conjunto](../validation/t21-t36-t29.md). Não houve alteração nos valores de equilíbrio, publicação ou revisão editorial.
 
 ## Cuidados de implementação
 

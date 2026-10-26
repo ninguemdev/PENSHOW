@@ -17,10 +17,14 @@ export class ApiError extends Error {
   }
 }
 
-export function createHttpClient(request: typeof fetch = (...args) => fetch(...args)) {
+export function createHttpClient(
+  request: typeof fetch = (...args) => fetch(...args),
+  base = import.meta.env.BASE_URL,
+) {
+  const apiBase = `${base}api`;
   async function send<T>(path: string, schema: z.ZodType<T>, init: RequestInit = {}) {
     try {
-      const response = await request(`/api${path}`, {
+      const response = await request(`${apiBase}${path}`, {
         ...init,
         cache: 'no-store',
         signal: AbortSignal.timeout(8000),
@@ -45,7 +49,7 @@ export function createHttpClient(request: typeof fetch = (...args) => fetch(...a
   }
   const auth = (session: IssuedGuestSession) => ({ Authorization: `Bearer ${session.token}` });
   async function audio(path: string, signal: AbortSignal, session?: IssuedGuestSession) {
-    const response = await request(`/api${path}`, {
+    const response = await request(`${apiBase}${path}`, {
       cache: 'no-store',
       signal: AbortSignal.any([signal, AbortSignal.timeout(8000)]),
       ...(session ? { headers: auth(session) } : {}),

@@ -8,7 +8,7 @@ const plan = ['wager', 'pressure', 'classic', 'speed', 'final'].map((mode, index
   index: index + 1,
   mode,
   ...(mode === 'pressure'
-    ? { variant: { status: 'prototype', decisionId: 'D04', mode: 'dynamite' } }
+    ? { variant: { status: 'confirmed', decisionId: 'D04', mode: 'dynamite' } }
     : {}),
 }));
 const view = {

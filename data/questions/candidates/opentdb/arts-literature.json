@@ -1145,5 +1145,4823 @@
       "category": "Entertainment: Books",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:arts-literature:6ef28976b50829bb",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the young adult novel \"The Fault in Our Stars\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Stephenie Meyer"
+      },
+      {
+        "id": "option-2",
+        "text": "Suzanne Collins"
+      },
+      {
+        "id": "option-3",
+        "text": "Stephen Chbosky"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1024,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3936c6cf26f0898f",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which classic horror character killed Elizabeth Lavenza?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frankenstein's Monster"
+      },
+      {
+        "id": "option-1",
+        "text": "Count Dracula"
+      },
+      {
+        "id": "option-2",
+        "text": "Werewolf"
+      },
+      {
+        "id": "option-3",
+        "text": "The Creature from the Black Lagoon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1028,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:5991b41a8dc14f8d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Alice in Wonderland, what is the name of Alice's kitten?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dinah"
+      },
+      {
+        "id": "option-1",
+        "text": "Oscar"
+      },
+      {
+        "id": "option-2",
+        "text": "Heath"
+      },
+      {
+        "id": "option-3",
+        "text": "Smokey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1135,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:89c8554efaf7753a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The novel \"Jane Eyre\" was written by what author? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charlotte Brontë"
+      },
+      {
+        "id": "option-1",
+        "text": "Emily Brontë"
+      },
+      {
+        "id": "option-2",
+        "text": "Jane Austen"
+      },
+      {
+        "id": "option-3",
+        "text": "Louisa May Alcott"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1162,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:00ab99108abdf060",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Richard Bachman"
+      },
+      {
+        "id": "option-1",
+        "text": "J. D. Robb"
+      },
+      {
+        "id": "option-2",
+        "text": "Mark Twain"
+      },
+      {
+        "id": "option-3",
+        "text": "Lewis Carroll"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1179,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:06728721f26cabb1",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which author and poet famously wrote the line, \"The female of the species is more deadly than the male\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rudyard Kipling"
+      },
+      {
+        "id": "option-1",
+        "text": "Edgar Allan Poe"
+      },
+      {
+        "id": "option-2",
+        "text": "William Shakespeare"
+      },
+      {
+        "id": "option-3",
+        "text": "William Wordsworth"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1197,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9ac756d21a98715d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hunter S. Thompson"
+      },
+      {
+        "id": "option-1",
+        "text": "F. Scott Fitzgerald"
+      },
+      {
+        "id": "option-2",
+        "text": "Henry Miller"
+      },
+      {
+        "id": "option-3",
+        "text": "William S. Burroughs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1289,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a1e45601b9f83eb3",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was Salvador Dali's painting, \"The Persistence of Memory,\" completed?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1931"
+      },
+      {
+        "id": "option-1",
+        "text": "1932"
+      },
+      {
+        "id": "option-2",
+        "text": "1929"
+      },
+      {
+        "id": "option-3",
+        "text": "1934"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1307,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:781002e00c30bc4e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the novel 1984, written by George Orwell, what is the name of the totalitarian regime that controls Oceania?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "INGSOC"
+      },
+      {
+        "id": "option-1",
+        "text": "Neo-Bolshevism"
+      },
+      {
+        "id": "option-2",
+        "text": "Obliteration of the Self"
+      },
+      {
+        "id": "option-3",
+        "text": "Earth Alliance"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1409,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:53363429d9baf737",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was the Mona Lisa finished?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1504"
+      },
+      {
+        "id": "option-1",
+        "text": "1487"
+      },
+      {
+        "id": "option-2",
+        "text": "1523"
+      },
+      {
+        "id": "option-3",
+        "text": "1511"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1410,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:14b1c7f097115cb3",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted the epic mural Guernica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-1",
+        "text": "Francisco Goya"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Matisse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1418,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:874110657a2ea3e8",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What nationality was the famous artist Van Gogh?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dutch"
+      },
+      {
+        "id": "option-1",
+        "text": "French"
+      },
+      {
+        "id": "option-2",
+        "text": "Russian"
+      },
+      {
+        "id": "option-3",
+        "text": "Polish"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1420,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:44d4fa5c0f551dab",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Shub-Niggurath is a creature that was created by J. R. R. Tolkien in his novel \"The Lord of The Rings\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1450,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3409fdeee21b0c47",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "By what name was the author Eric Blair better known?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Orwell"
+      },
+      {
+        "id": "option-1",
+        "text": "Aldous Huxley"
+      },
+      {
+        "id": "option-2",
+        "text": "Ernest Hemingway"
+      },
+      {
+        "id": "option-3",
+        "text": "Ray Bradbury"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1494,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:bd68da4163cc1c0f",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Anna Karenina"
+      },
+      {
+        "id": "option-1",
+        "text": "Notes from the Underground"
+      },
+      {
+        "id": "option-2",
+        "text": "Crime and Punishment"
+      },
+      {
+        "id": "option-3",
+        "text": "The Brothers Karamazov"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1518,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:5dd63496c5ca8cd8",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Mary Shelley is the author of what classic horror story?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frankenstein"
+      },
+      {
+        "id": "option-1",
+        "text": "Dracula"
+      },
+      {
+        "id": "option-2",
+        "text": "Strange Case of Dr Jekyll and Mr Hyde"
+      },
+      {
+        "id": "option-3",
+        "text": "The Legend of Sleepy Hollow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1559,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:476354dfdc317520",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted \"American Gothic\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grant Wood"
+      },
+      {
+        "id": "option-1",
+        "text": "Anita Malfatti"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Marc Chagall"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1586,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:49691d16794f9e45",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Steinbeck"
+      },
+      {
+        "id": "option-1",
+        "text": "F. Scott Fitzgerald"
+      },
+      {
+        "id": "option-2",
+        "text": "Ernest Hemingway"
+      },
+      {
+        "id": "option-3",
+        "text": "William Faulkner"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1589,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:7ba908784edf89e9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Lord of the Rings, who is the father of the dwarf Gimli?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gloin"
+      },
+      {
+        "id": "option-1",
+        "text": "Thorin Oakenshield"
+      },
+      {
+        "id": "option-2",
+        "text": "Bombur"
+      },
+      {
+        "id": "option-3",
+        "text": "Dwalin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1609,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:67d5b18f40c177f8",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Pablo Picasso is one of the founding fathers of \"Cubism.\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1621,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:407e1404327f9d4a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these does Charlie NOT read in The Perks of Being a Wallflower?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Grapes of Wrath"
+      },
+      {
+        "id": "option-1",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-2",
+        "text": "The Great Gatsby"
+      },
+      {
+        "id": "option-3",
+        "text": "Peter Pan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1649,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:f269947a16ce9d36",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What nationality was the famous artist Pablo Picasso?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spanish"
+      },
+      {
+        "id": "option-1",
+        "text": "French"
+      },
+      {
+        "id": "option-2",
+        "text": "Italian"
+      },
+      {
+        "id": "option-3",
+        "text": "German"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1651,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:44f2441105f0a66b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The novel \"Of Mice And Men\" was written by what author? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Steinbeck "
+      },
+      {
+        "id": "option-1",
+        "text": "George Orwell"
+      },
+      {
+        "id": "option-2",
+        "text": "Mark Twain "
+      },
+      {
+        "id": "option-3",
+        "text": "Harper Lee"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1653,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4a35c6b8c72d5aeb",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The book \"Fahrenheit 451\" was written by whom?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ray Bradbury"
+      },
+      {
+        "id": "option-1",
+        "text": "R. L. Stine"
+      },
+      {
+        "id": "option-2",
+        "text": "Wolfgang Amadeus Mozart"
+      },
+      {
+        "id": "option-3",
+        "text": "Stephen King"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1696,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b0cf043d1f79618e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Prince and the Pauper"
+      },
+      {
+        "id": "option-1",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-2",
+        "text": "Wealthy Boy and the Schmuck"
+      },
+      {
+        "id": "option-3",
+        "text": "A Modern Twain Story"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1762,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:6f8d728590c1ecb8",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Paul Gauguin moved to which country in 1895?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tahiti"
+      },
+      {
+        "id": "option-1",
+        "text": "France"
+      },
+      {
+        "id": "option-2",
+        "text": "Atuona"
+      },
+      {
+        "id": "option-3",
+        "text": "Lithuania"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1784,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c7e9a5ee5b05a460",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the major distinction between the English and French Gothic styles of architecture?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fan vaulting"
+      },
+      {
+        "id": "option-1",
+        "text": "Pinnacles"
+      },
+      {
+        "id": "option-2",
+        "text": "Gargoyles"
+      },
+      {
+        "id": "option-3",
+        "text": "Hemispherical Domes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1817,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:740147a07195bc89",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the Mysterious Island, in Jules Verne's \"The Mysterious Island\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lincoln Island"
+      },
+      {
+        "id": "option-1",
+        "text": "Vulcania Island"
+      },
+      {
+        "id": "option-2",
+        "text": "Prometheus Island"
+      },
+      {
+        "id": "option-3",
+        "text": "Neptune Island"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1835,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c0d91a318cad392d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1842,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:7a6ba73a9b9c04ee",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which artist painted “The Treachery of Images,” a painting of a pipe with the description \"this is not a pipe\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Magritte"
+      },
+      {
+        "id": "option-1",
+        "text": "Matisse"
+      },
+      {
+        "id": "option-2",
+        "text": "Modigliani"
+      },
+      {
+        "id": "option-3",
+        "text": "Munch "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1851,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a15bf7785cde3e20",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Statue of Liberty's official name is “Liberty Enlightening the World”.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1906,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d294f57da61e4fef",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which classic book opens with the line \"Call me Ishmael\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moby Dick"
+      },
+      {
+        "id": "option-1",
+        "text": "A Tale of Two Cities"
+      },
+      {
+        "id": "option-2",
+        "text": "Kidnapped"
+      },
+      {
+        "id": "option-3",
+        "text": "Wuthering Heights"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1912,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a1d83a87dc0e7caa",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What French sculptor designed the Statue of Liberty? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frédéric Auguste Bartholdi"
+      },
+      {
+        "id": "option-1",
+        "text": "Jean-Léon Gérôme"
+      },
+      {
+        "id": "option-2",
+        "text": "Auguste Rodin"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Matisse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1917,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:11e18a5aabace990",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the town in which Lily and James Potter are buried?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Godric's Hollow"
+      },
+      {
+        "id": "option-1",
+        "text": "Hogsmeade"
+      },
+      {
+        "id": "option-2",
+        "text": "Ottery St. Catchpole"
+      },
+      {
+        "id": "option-3",
+        "text": "Little Hangleton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2016,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d1adc6143f814e9c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fluffy"
+      },
+      {
+        "id": "option-1",
+        "text": "Spike"
+      },
+      {
+        "id": "option-2",
+        "text": "Poofy"
+      },
+      {
+        "id": "option-3",
+        "text": "Spot"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2032,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b08ae66a4d8ef35f",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these paintings did Johannes Vermeer not paint?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bacchus"
+      },
+      {
+        "id": "option-1",
+        "text": "Girl with a Pearl Earring"
+      },
+      {
+        "id": "option-2",
+        "text": "The Milkmaid"
+      },
+      {
+        "id": "option-3",
+        "text": "The Lacemaker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2064,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3588e409917c2ade",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is not an additional variation of the color purple?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kobicha"
+      },
+      {
+        "id": "option-1",
+        "text": "Byzantium"
+      },
+      {
+        "id": "option-2",
+        "text": "Pomp and Power"
+      },
+      {
+        "id": "option-3",
+        "text": "Palatinate"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2089,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d4176820d79de2a9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote \"Harry Potter\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "J.K. Rowling"
+      },
+      {
+        "id": "option-1",
+        "text": "J.R.R. Tolkien"
+      },
+      {
+        "id": "option-2",
+        "text": "Terry Pratchett"
+      },
+      {
+        "id": "option-3",
+        "text": "Daniel Radcliffe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2099,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4814501b0e5f9661",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Falcon"
+      },
+      {
+        "id": "option-1",
+        "text": "Eagle"
+      },
+      {
+        "id": "option-2",
+        "text": "Kyte"
+      },
+      {
+        "id": "option-3",
+        "text": "Swallow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2100,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:5580ca45fe57391d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": " What color is produced by mixing black and white?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grey"
+      },
+      {
+        "id": "option-1",
+        "text": "Black"
+      },
+      {
+        "id": "option-2",
+        "text": "Brown"
+      },
+      {
+        "id": "option-3",
+        "text": "White"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2168,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d425d733cb1bd216",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Abel Magwitch is a character from which Charles Dickens novel?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Great Expectations"
+      },
+      {
+        "id": "option-1",
+        "text": "The Pickwick Papers"
+      },
+      {
+        "id": "option-2",
+        "text": "Nicholas Nickleby"
+      },
+      {
+        "id": "option-3",
+        "text": "Oliver Twist"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2199,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9d2a1682c33beb74",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many books are in the Chronicles of Narnia series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7"
+      },
+      {
+        "id": "option-1",
+        "text": "6"
+      },
+      {
+        "id": "option-2",
+        "text": "8"
+      },
+      {
+        "id": "option-3",
+        "text": "5"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2218,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:fb5c198630595c19",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "\"Green Eggs And Ham\" is a book by which author?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dr. Seuss"
+      },
+      {
+        "id": "option-1",
+        "text": "Beatrix Potter"
+      },
+      {
+        "id": "option-2",
+        "text": "Roald Dahl"
+      },
+      {
+        "id": "option-3",
+        "text": "A.A. Milne"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2220,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:575943dbf6c3dcbd",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Dresden Files"
+      },
+      {
+        "id": "option-1",
+        "text": "A Hat in Time"
+      },
+      {
+        "id": "option-2",
+        "text": "The Cinder Spires"
+      },
+      {
+        "id": "option-3",
+        "text": "My Life as a Teenage Wizard"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2233,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:0a527749fcbddb08",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The book \"The Little Prince\" was written by...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antoine de Saint-Exupéry"
+      },
+      {
+        "id": "option-1",
+        "text": "Miguel de Cervantes Saavedra"
+      },
+      {
+        "id": "option-2",
+        "text": "Jane Austen"
+      },
+      {
+        "id": "option-3",
+        "text": "F. Scott Fitzgerald"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2235,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:8f8469d02848559b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which artist’s studio was known as 'The Factory'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andy Warhol"
+      },
+      {
+        "id": "option-1",
+        "text": "Roy Lichtenstein"
+      },
+      {
+        "id": "option-2",
+        "text": "David Hockney"
+      },
+      {
+        "id": "option-3",
+        "text": "Peter Blake"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2248,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:e31dffb299a0e887",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the fourth book of the Old Testament?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Numbers"
+      },
+      {
+        "id": "option-1",
+        "text": "Genesis"
+      },
+      {
+        "id": "option-2",
+        "text": "Exodus"
+      },
+      {
+        "id": "option-3",
+        "text": "Leviticus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2305,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:93a69073f29a7d7c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What nationality was the surrealist painter Salvador Dali?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spanish"
+      },
+      {
+        "id": "option-1",
+        "text": "Italian"
+      },
+      {
+        "id": "option-2",
+        "text": "French"
+      },
+      {
+        "id": "option-3",
+        "text": "Portuguese"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2307,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a3a7aead081075ce",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Harry Potter series of books, combined, are over 1,000,000 words in length.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2335,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4fac5a2b4a59d190",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the protagonist of the book: \"The Catcher in the Rye\" by J.D. Salinger",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Holden Caulfield"
+      },
+      {
+        "id": "option-1",
+        "text": "Holden David"
+      },
+      {
+        "id": "option-2",
+        "text": "Jerome Caulfield"
+      },
+      {
+        "id": "option-3",
+        "text": "Jerome David"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2347,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:70e71218179406de",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the author of the \"A Song of Ice and Fire\" book series, starting with \"A Game of Thrones\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George R. R. Martin"
+      },
+      {
+        "id": "option-1",
+        "text": "Brandon Sanderson"
+      },
+      {
+        "id": "option-2",
+        "text": "J. R. R. Tolkien"
+      },
+      {
+        "id": "option-3",
+        "text": "Steven Erikson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2416,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:6a505226b4fbe59b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ulgrotha"
+      },
+      {
+        "id": "option-1",
+        "text": "Bant"
+      },
+      {
+        "id": "option-2",
+        "text": "Llanowar"
+      },
+      {
+        "id": "option-3",
+        "text": "Tazeem"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2476,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:8a6c0a0aa6ae3ee2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted \"The Starry Night\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-1",
+        "text": "Edvard Munch"
+      },
+      {
+        "id": "option-2",
+        "text": "Pablo Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Claude Monet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2530,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:0e33d0e6e5e7beb7",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these colors are not featured in Mondrian's Broadway Boogie-Woogie?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Blue"
+      },
+      {
+        "id": "option-2",
+        "text": "Yellow"
+      },
+      {
+        "id": "option-3",
+        "text": "Red"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2549,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:bba503c6170b97df",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2632,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c34d5f3a8b6b7372",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This play is generally considered to be the most adaptable of Shakespeare’s works, and follows two “star-crossed lovers”.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Romeo and Juliet"
+      },
+      {
+        "id": "option-1",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-2",
+        "text": "The Tempest"
+      },
+      {
+        "id": "option-3",
+        "text": "King Lear"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2638,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:64278969b8e1007c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first successful and commercially viable photographic technique?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Daguerreotype"
+      },
+      {
+        "id": "option-1",
+        "text": "Collodion process"
+      },
+      {
+        "id": "option-2",
+        "text": "The Turin Shroud"
+      },
+      {
+        "id": "option-3",
+        "text": "Kodachrome film"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2640,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b5ac3671d802f354",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A typical trait of the Expressionist art movement is to distort the world radically for emotional effect.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2642,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:cbc9e781dcd40262",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Of the following, which Stephen King novel was published earliest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "\"Cujo\""
+      },
+      {
+        "id": "option-1",
+        "text": "\"Misery\""
+      },
+      {
+        "id": "option-2",
+        "text": "\"Christine\""
+      },
+      {
+        "id": "option-3",
+        "text": "\"IT\""
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2706,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:56d5fb50bbad2e92",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the author of the series \"Malazan Book of the Fallen\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steven Erikson"
+      },
+      {
+        "id": "option-1",
+        "text": "Ian Cameron Esslemont"
+      },
+      {
+        "id": "option-2",
+        "text": "George R. R. Martin"
+      },
+      {
+        "id": "option-3",
+        "text": "J. R. R. Tolkien"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2707,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a23da076500ad1f2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"Elementary, my dear Watson\" is a phrase that is never truly said within the Conan Doyle books of Sherlock Holmes.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2739,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:45eed9dd3a26b2dc",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Harry Potter universe, what is Cornelius Fudge's middle name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oswald"
+      },
+      {
+        "id": "option-1",
+        "text": "James"
+      },
+      {
+        "id": "option-2",
+        "text": "Harold"
+      },
+      {
+        "id": "option-3",
+        "text": "Christopher"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2746,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:1d3520c40563ead4",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Magic: The Gathering universe, the Fallen Empires expansion takes place on which continent?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sarpadia"
+      },
+      {
+        "id": "option-1",
+        "text": "Otaria"
+      },
+      {
+        "id": "option-2",
+        "text": "Terisiare"
+      },
+      {
+        "id": "option-3",
+        "text": "Shiv"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2948,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:48185b67ed814bae",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the fourth book in Stephen King's The Dark Tower series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wizard and Glass"
+      },
+      {
+        "id": "option-1",
+        "text": "Wolves of the Calla"
+      },
+      {
+        "id": "option-2",
+        "text": "Hearts in Atlantis"
+      },
+      {
+        "id": "option-3",
+        "text": "The Dark Half"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2979,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b766e6435e5c18b7",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what Harry Potter book was a Horcrux first encountered?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Chamber of Secrets"
+      },
+      {
+        "id": "option-1",
+        "text": "The Half-Blood Prince"
+      },
+      {
+        "id": "option-2",
+        "text": "The Goblet of Fire"
+      },
+      {
+        "id": "option-3",
+        "text": "The Deathly Hallows"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2994,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d91d81e98004e45d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What position does Harry Potter play in Quidditch?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seeker"
+      },
+      {
+        "id": "option-1",
+        "text": "Beater"
+      },
+      {
+        "id": "option-2",
+        "text": "Chaser"
+      },
+      {
+        "id": "option-3",
+        "text": "Keeper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3067,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d92785a2510441d9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Badger"
+      },
+      {
+        "id": "option-1",
+        "text": "Fox"
+      },
+      {
+        "id": "option-2",
+        "text": "Frog"
+      },
+      {
+        "id": "option-3",
+        "text": "Rabbit"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3090,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:faab8fa85f26c834",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Michael Crichton's novel \"Jurassic Park\", John Hammond meets his demise at the claws of which dinosaur?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Procompsognathus"
+      },
+      {
+        "id": "option-1",
+        "text": "Dilophosaurus"
+      },
+      {
+        "id": "option-2",
+        "text": "Tyrannosaurus Rex"
+      },
+      {
+        "id": "option-3",
+        "text": "Velociraptor"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3163,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:758306e9d2e0b81d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which artist painted the late 15th century mural 'The Last Supper'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "option-1",
+        "text": "Piero della Francesca"
+      },
+      {
+        "id": "option-2",
+        "text": "Paolo Uccello"
+      },
+      {
+        "id": "option-3",
+        "text": "Luca Pacioli"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3180,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:8510ef0c6db372f4",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these book series is by James Patterson?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Maximum Ride"
+      },
+      {
+        "id": "option-1",
+        "text": "Harry Potter"
+      },
+      {
+        "id": "option-2",
+        "text": "The Legend of Xanth"
+      },
+      {
+        "id": "option-3",
+        "text": "The Bartemaeus Trilogy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3218,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:73facd42c27b9b09",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Greasers"
+      },
+      {
+        "id": "option-1",
+        "text": "The Outsiders"
+      },
+      {
+        "id": "option-2",
+        "text": "The Mafia"
+      },
+      {
+        "id": "option-3",
+        "text": "The Socs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3241,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:21c11d59f5a1406b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which artist's style was to use small different colored dots to create a picture?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Georges Seurat"
+      },
+      {
+        "id": "option-1",
+        "text": "Paul Cézanne"
+      },
+      {
+        "id": "option-2",
+        "text": "Vincent Van Gogh"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Rousseau"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3249,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:98914bb6955921c2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Astoria Greengrass"
+      },
+      {
+        "id": "option-1",
+        "text": "Pansy Parkinson"
+      },
+      {
+        "id": "option-2",
+        "text": "Millicent Bulstrode"
+      },
+      {
+        "id": "option-3",
+        "text": "Hermione Granger"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3302,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:039ffe6fd35f5440",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Leonardo da Vinci was not the creator of the Mona Lisa.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3361,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9d268ebbf978c786",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"Harry Potter\" series, what is Headmaster Dumbledore's full name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Albus Percival Wulfric Brian Dumbledore"
+      },
+      {
+        "id": "option-1",
+        "text": "Albus Valum Jetta Mobius Dumbledore"
+      },
+      {
+        "id": "option-2",
+        "text": "Albus James Lunae Otto Dumbledore"
+      },
+      {
+        "id": "option-3",
+        "text": "Albus Valencium Horatio Kul Dumbledore"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3380,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:2b0df0fafafc63df",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the book \"The Martian\", how long was Mark Watney trapped on Mars (in Sols)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "549 Days"
+      },
+      {
+        "id": "option-1",
+        "text": "765 Days"
+      },
+      {
+        "id": "option-2",
+        "text": "401 Days"
+      },
+      {
+        "id": "option-3",
+        "text": "324 Days"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3516,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:7fa91e41bdc0107d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Ancient Greek and Roman sculptors often colored their statues.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3547,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:f359798d37693028",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following authors was not born in England? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Arthur Conan Doyle"
+      },
+      {
+        "id": "option-1",
+        "text": "Graham Greene"
+      },
+      {
+        "id": "option-2",
+        "text": "H G Wells"
+      },
+      {
+        "id": "option-3",
+        "text": "Arthur C Clarke"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3578,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:552c717367a7a6de",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Origami"
+      },
+      {
+        "id": "option-1",
+        "text": "Sumi-e"
+      },
+      {
+        "id": "option-2",
+        "text": "Ukiyo-e"
+      },
+      {
+        "id": "option-3",
+        "text": "Haiku"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3584,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:721803aa930434b9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the world's oldest known piece of fiction?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Epic of Gilgamesh"
+      },
+      {
+        "id": "option-1",
+        "text": "Papyrus of Ani"
+      },
+      {
+        "id": "option-2",
+        "text": "Code of Hammurabi"
+      },
+      {
+        "id": "option-3",
+        "text": "Rosetta Stone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3654,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:135604b53ceafd35",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"Green Eggs and Ham\" consists of only 50 different words.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3659,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b6bf5f37739d4b0a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where does Stephen King's \"IT\" take place?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Derry, Maine"
+      },
+      {
+        "id": "option-1",
+        "text": "Rockford, Illinois"
+      },
+      {
+        "id": "option-2",
+        "text": "Innsmouth, Massachusetts"
+      },
+      {
+        "id": "option-3",
+        "text": "Kingsland, Texas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3689,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:2af759c5ded0fda0",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Albrecht Dürer's birthplace and place of death were in...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nürnberg"
+      },
+      {
+        "id": "option-1",
+        "text": "Augsburg"
+      },
+      {
+        "id": "option-2",
+        "text": "Bamberg"
+      },
+      {
+        "id": "option-3",
+        "text": "Berlin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3738,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:d1fc7c9430e3dfcf",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Salvador Dali"
+      },
+      {
+        "id": "option-1",
+        "text": "Jackson Pollock"
+      },
+      {
+        "id": "option-2",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-3",
+        "text": "Edgar Degas"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3746,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:171bf0fcf77ef166",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which time signature is commonly known as “Cut Time?”",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2/2"
+      },
+      {
+        "id": "option-1",
+        "text": "4/4"
+      },
+      {
+        "id": "option-2",
+        "text": "6/8"
+      },
+      {
+        "id": "option-3",
+        "text": "3/4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3770,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:46c29de7513c462b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is another name for La Gioconda / La Joconde?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Mona Lisa"
+      },
+      {
+        "id": "option-1",
+        "text": "The Girl with a Pearl Earring"
+      },
+      {
+        "id": "option-2",
+        "text": "The Starry Night"
+      },
+      {
+        "id": "option-3",
+        "text": "Sunflowers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3833,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c1d4f410841f19ec",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Clash of Kings"
+      },
+      {
+        "id": "option-1",
+        "text": "A Dance with Dragons"
+      },
+      {
+        "id": "option-2",
+        "text": "A Storm of Swords"
+      },
+      {
+        "id": "option-3",
+        "text": "A Feast for Crows"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3862,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3a930c01a4e6bd3a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Stephen Chbosky wrote the book 'The Perks of Being A Wallflower'.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3987,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9045b2d2960d97b6",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which is NOT a book in the Harry Potter Series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The House Elf"
+      },
+      {
+        "id": "option-1",
+        "text": "The Chamber of Secrets"
+      },
+      {
+        "id": "option-2",
+        "text": "The Prisoner of Azkaban"
+      },
+      {
+        "id": "option-3",
+        "text": "The Deathly Hallows"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3998,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:ca4c92e6322817fd",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The title of Adolf Hitler's autobiography \"Mein Kampf\" is what when translated to English?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "My Struggle"
+      },
+      {
+        "id": "option-1",
+        "text": "My Hatred"
+      },
+      {
+        "id": "option-2",
+        "text": "My Sadness"
+      },
+      {
+        "id": "option-3",
+        "text": "My Desire"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4012,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:93925d5b76346317",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Terisiare"
+      },
+      {
+        "id": "option-1",
+        "text": "Aerona"
+      },
+      {
+        "id": "option-2",
+        "text": "Shiv"
+      },
+      {
+        "id": "option-3",
+        "text": "Jamuraa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4058,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:dd615c30f968cb84",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "George Orwell's novel \"Animal Farm\" was inspired by which historical event?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The rise of communism and Stalin's policies."
+      },
+      {
+        "id": "option-1",
+        "text": "The rise of Imperial Japan and Pacific control."
+      },
+      {
+        "id": "option-2",
+        "text": "The rise of fascism and Hitler's influences."
+      },
+      {
+        "id": "option-3",
+        "text": "Franklin D. Roosevelt's New Deal and its effects on The Great Depression."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4201,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4dbec12cdfa2dbce",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's Harry Potter's dad's name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James Potter"
+      },
+      {
+        "id": "option-1",
+        "text": "Joey Potter"
+      },
+      {
+        "id": "option-2",
+        "text": "Frank Potter"
+      },
+      {
+        "id": "option-3",
+        "text": "Hairy Potter Sr."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4257,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c515fc96b09b9c65",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frankenstein's monster"
+      },
+      {
+        "id": "option-1",
+        "text": "Dracula"
+      },
+      {
+        "id": "option-2",
+        "text": "The Thing"
+      },
+      {
+        "id": "option-3",
+        "text": "The Invisible Man"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4329,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:f791247acc815d94",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Eragon's dragon in \"Eragon\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Saphira"
+      },
+      {
+        "id": "option-1",
+        "text": "Glaedr"
+      },
+      {
+        "id": "option-2",
+        "text": "Thorn"
+      },
+      {
+        "id": "option-3",
+        "text": "Arya"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4362,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b42d34eefcfca775",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In The Lies Of Locke Lamora, what does \"Lamora\" mean in Throne Therin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shadow"
+      },
+      {
+        "id": "option-1",
+        "text": "Thievery"
+      },
+      {
+        "id": "option-2",
+        "text": "Justice"
+      },
+      {
+        "id": "option-3",
+        "text": "Chaos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4394,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:bbb9884120f2f5a9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "George Orwell wrote this book, which is often considered a statement on government oversight.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1984"
+      },
+      {
+        "id": "option-1",
+        "text": "The Old Man and the Sea"
+      },
+      {
+        "id": "option-2",
+        "text": "Catcher and the Rye"
+      },
+      {
+        "id": "option-3",
+        "text": "To Kill a Mockingbird"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4507,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3f2e3ce63be5c50d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Harry Potter was born on July 31st, 1980.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4528,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:e76af4fcd4e4a53f",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Ron Weasley's middle name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bilius"
+      },
+      {
+        "id": "option-1",
+        "text": "Arthur"
+      },
+      {
+        "id": "option-2",
+        "text": "John"
+      },
+      {
+        "id": "option-3",
+        "text": "Dominic"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4549,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3b6ca59a127f0f6a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote \"The Scarlet Letter\", published in 1850?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nathaniel Hawthorne"
+      },
+      {
+        "id": "option-1",
+        "text": "Washington Irving"
+      },
+      {
+        "id": "option-2",
+        "text": "James Fenimore Cooper"
+      },
+      {
+        "id": "option-3",
+        "text": "Catherine Maria Sedgwick"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4592,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c3f07adb3e8e06b9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "J.K. Rowling completed \"Harry Potter and the Deathly Hallows\" in which hotel in Edinburgh, Scotland?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Balmoral"
+      },
+      {
+        "id": "option-1",
+        "text": "The Dunstane Hotel"
+      },
+      {
+        "id": "option-2",
+        "text": "Hotel Novotel"
+      },
+      {
+        "id": "option-3",
+        "text": "Sheraton Grand Hotel & Spa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4610,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:2cdc61d228706cd6",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Study in Scarlet"
+      },
+      {
+        "id": "option-1",
+        "text": "The Sign of the Four"
+      },
+      {
+        "id": "option-2",
+        "text": "A Case of Identity"
+      },
+      {
+        "id": "option-3",
+        "text": "The Doings of Raffles Haw"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4626,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:abacd95e76275b1a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a work done by Shakespeare?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Trial of Temperance"
+      },
+      {
+        "id": "option-1",
+        "text": "Measure For Measure"
+      },
+      {
+        "id": "option-2",
+        "text": "Titus Andronicus"
+      },
+      {
+        "id": "option-3",
+        "text": "Cymbeline"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4733,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:c1754b02c7edbe3b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Zhao Yun"
+      },
+      {
+        "id": "option-1",
+        "text": "Liu Bei"
+      },
+      {
+        "id": "option-2",
+        "text": "Guan Yu"
+      },
+      {
+        "id": "option-3",
+        "text": "Zhang Fei"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4755,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a5a0b1c31dc72b6c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many Harry Potter books are there?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "5"
+      },
+      {
+        "id": "option-3",
+        "text": "6"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4778,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:873d8dc4a0eb967e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the children's book series, where is Paddington Bear originally from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peru"
+      },
+      {
+        "id": "option-1",
+        "text": "India"
+      },
+      {
+        "id": "option-2",
+        "text": "Iceland"
+      },
+      {
+        "id": "option-3",
+        "text": "Canada"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4863,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:38ae60a4640e7fb2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Neoplasticism"
+      },
+      {
+        "id": "option-1",
+        "text": "Precisionism"
+      },
+      {
+        "id": "option-2",
+        "text": "Cubism"
+      },
+      {
+        "id": "option-3",
+        "text": "Impressionism"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4904,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:a3c1dcf55e247aaa",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which famous spy novelist wrote the childrens' story \"Chitty-Chitty-Bang-Bang\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ian Fleming"
+      },
+      {
+        "id": "option-1",
+        "text": "Joseph Conrad"
+      },
+      {
+        "id": "option-2",
+        "text": "John Buchan"
+      },
+      {
+        "id": "option-3",
+        "text": "Graham Greene"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4966,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b118706dc3cf0682",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "42"
+      },
+      {
+        "id": "option-1",
+        "text": "Loving everyone around you"
+      },
+      {
+        "id": "option-2",
+        "text": "Chocolate"
+      },
+      {
+        "id": "option-3",
+        "text": "Death"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4968,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:79f839bed6b34886",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which poet wrote \"The Ballad of Reading Gaol\" whilst imprisoned for being gay?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar Wilde"
+      },
+      {
+        "id": "option-1",
+        "text": "Lord Byron"
+      },
+      {
+        "id": "option-2",
+        "text": "William Blake"
+      },
+      {
+        "id": "option-3",
+        "text": "Wilfred Owen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5065,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:716f03670cd49ec4",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The \"Berenstein Bears\" is the correct spelling of the educational children's book series' name.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5102,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:b9a8b54c32d0e7c7",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Last Supper\" by Leonardo Da Vinci, what two colors were the robes worn by Jesus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Red and Blue"
+      },
+      {
+        "id": "option-1",
+        "text": "Red and White"
+      },
+      {
+        "id": "option-2",
+        "text": "Red and Yellow"
+      },
+      {
+        "id": "option-3",
+        "text": "Red and Black"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5119,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:90ecf0328c37b47f",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The name \"Impressionsim\" was first given to that art movement by a critic's satirical review of a Monet painting.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5180,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:f81fd46a93d3db58",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The painting \"Guernica\" by Pablo Picasso expressed emotions of dread in response to which war?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spanish Civil War"
+      },
+      {
+        "id": "option-1",
+        "text": "World War I"
+      },
+      {
+        "id": "option-2",
+        "text": "The Crimean War"
+      },
+      {
+        "id": "option-3",
+        "text": "Spanish-American War"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5203,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:41206d766aad327e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is the world's best-selling book?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Lord of the Rings"
+      },
+      {
+        "id": "option-1",
+        "text": "The Little Prince"
+      },
+      {
+        "id": "option-2",
+        "text": "Harry Potter and the Philosopher's Stone"
+      },
+      {
+        "id": "option-3",
+        "text": "The Da Vinci Code"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5230,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:ac1812b9c4724634",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What were Marcel Duchamp's readymades?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "utilitarian objects elevated to the status of art"
+      },
+      {
+        "id": "option-1",
+        "text": "a series focused on color and light as opposed to line and shape"
+      },
+      {
+        "id": "option-2",
+        "text": "paintings with a barely visible outlined square"
+      },
+      {
+        "id": "option-3",
+        "text": "a group of identical steel boxes jutting from the wall "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5361,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:31344d0d18e8c08c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted \"The Scream\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Edvard Munch"
+      },
+      {
+        "id": "option-1",
+        "text": "Vincent Van Gogh"
+      },
+      {
+        "id": "option-2",
+        "text": "Picasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Henri Matisse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5362,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:4a2ab37276aa4912",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Rudyard Kipling's \"The Jungle Book\", what type of snake was Kaa?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Python"
+      },
+      {
+        "id": "option-1",
+        "text": "Cobra"
+      },
+      {
+        "id": "option-2",
+        "text": "Anaconda"
+      },
+      {
+        "id": "option-3",
+        "text": "Viper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5424,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:fb7284a904eb3b02",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which classic novel is there a character named Homer Simpson?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Day of the Locust"
+      },
+      {
+        "id": "option-1",
+        "text": "Catch-22"
+      },
+      {
+        "id": "option-2",
+        "text": "Of Mice and Men"
+      },
+      {
+        "id": "option-3",
+        "text": "A Separate Peace"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5431,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:62aaed48b705a32c",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Van Gogh painting depicts the view from his asylum in Saint-Rémy-de-Provence in southern France?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Starry Night"
+      },
+      {
+        "id": "option-1",
+        "text": "Wheatfields with Crows"
+      },
+      {
+        "id": "option-2",
+        "text": "The Sower with Setting Sun"
+      },
+      {
+        "id": "option-3",
+        "text": "The Church at Auvers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5491,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:51e94aae84ef00a3",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these books was NOT written by the Czech author Karel Čapek?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Journey to the Center of the Earth"
+      },
+      {
+        "id": "option-1",
+        "text": "The War with the Newts"
+      },
+      {
+        "id": "option-2",
+        "text": "R.U.R. (Rossum's Universal Robots)"
+      },
+      {
+        "id": "option-3",
+        "text": "Dashenka, or the Life of a Puppy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5500,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:de73d9d1c4b26a2b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Originally, the character Charlie from Charlie and the Chocolate Factory was going to be black.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5541,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:6f0f5f434cdff58e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Russian author wrote the epic novel War and Peace?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leo Tolstoy"
+      },
+      {
+        "id": "option-1",
+        "text": "Fyodor Dostoyevsky"
+      },
+      {
+        "id": "option-2",
+        "text": "Alexander Pushkin"
+      },
+      {
+        "id": "option-3",
+        "text": "Vladimir Nabokov"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5612,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:dd025f46f4844944",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the children's story \"The Little Match Girl\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hans Christian Andersen"
+      },
+      {
+        "id": "option-1",
+        "text": "Charles Dickens"
+      },
+      {
+        "id": "option-2",
+        "text": "Lewis Carroll"
+      },
+      {
+        "id": "option-3",
+        "text": "Oscar Wilde"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5620,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:3e1a4c2c6861458a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Harry Potter and the Deathly Hallows, Hermione destroyed the fourth Horcrux by stabbing it with the Sword of Gryffindor.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5637,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:e900d4a4905741d0",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"Harry Potter\" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Answer a riddle"
+      },
+      {
+        "id": "option-1",
+        "text": "Rhythmically tap barrels with a wand"
+      },
+      {
+        "id": "option-2",
+        "text": "Speak a password"
+      },
+      {
+        "id": "option-3",
+        "text": "Knock in sequence"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5727,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:ff763639c11d4561",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to Bram Stoker's novel, in which British coastal town did Dracula come ashore?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Whitby"
+      },
+      {
+        "id": "option-1",
+        "text": "Scarborough"
+      },
+      {
+        "id": "option-2",
+        "text": "Brighton"
+      },
+      {
+        "id": "option-3",
+        "text": "Portsmouth"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5767,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9f32beed61c2ed82",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"The Hobbit\", who kills Smaug?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bard"
+      },
+      {
+        "id": "option-1",
+        "text": "Bilbo Baggins"
+      },
+      {
+        "id": "option-2",
+        "text": "Gandalf the Grey"
+      },
+      {
+        "id": "option-3",
+        "text": "Frodo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5825,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:413cadfa46c2011e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Leonardo da Vinci's Mona Lisa does not have eyebrows.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5854,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:82a2f5b91ed26281",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which famous book is sub-titled 'The Modern Prometheus'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frankenstein"
+      },
+      {
+        "id": "option-1",
+        "text": "Dracula"
+      },
+      {
+        "id": "option-2",
+        "text": "The Strange Case of Dr. Jekyll and Mr. Hyde "
+      },
+      {
+        "id": "option-3",
+        "text": "The Legend of Sleepy Hollow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5862,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:5a5cd02c9bc20166",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the original author of Frankenstein?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mary Shelley"
+      },
+      {
+        "id": "option-1",
+        "text": "Edgar Allan Poe"
+      },
+      {
+        "id": "option-2",
+        "text": "Bram Stoker"
+      },
+      {
+        "id": "option-3",
+        "text": "H. P. Lovecraft"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5869,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:53cf409d468ba2cb",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Terry Pratchett's Discworld novel 'Wyrd Sisters', which of these are not one of the three main witches?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Winny Hathersham"
+      },
+      {
+        "id": "option-1",
+        "text": "Granny Weatherwax"
+      },
+      {
+        "id": "option-2",
+        "text": "Nanny Ogg"
+      },
+      {
+        "id": "option-3",
+        "text": "Magrat Garlick"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5871,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:8d07f77b672e77ba",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which painting was not made by Vincent Van Gogh?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Ninth Wave"
+      },
+      {
+        "id": "option-1",
+        "text": "Café Terrace at Night"
+      },
+      {
+        "id": "option-2",
+        "text": "Bedroom In Arles"
+      },
+      {
+        "id": "option-3",
+        "text": "Starry Night"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5880,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:33f24961397c55a9",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Camino Island"
+      },
+      {
+        "id": "option-1",
+        "text": "Rogue Lawyer"
+      },
+      {
+        "id": "option-2",
+        "text": "Gray Mountain"
+      },
+      {
+        "id": "option-3",
+        "text": "The Litigators"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5911,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:fa5692b64825fe3a",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The book 1984 was published in 1949.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5919,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:341d491bca652d96",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following was the author of \"Username Evie\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joe Sugg"
+      },
+      {
+        "id": "option-1",
+        "text": "Zoe Sugg"
+      },
+      {
+        "id": "option-2",
+        "text": "Joe Weller"
+      },
+      {
+        "id": "option-3",
+        "text": "Alfie Deyes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5925,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:0c293f50dad9eff2",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where does the book \"The Silence of the Lambs\" get its title from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The main character's trauma in childhood"
+      },
+      {
+        "id": "option-1",
+        "text": "The relation it has with killing the innocents"
+      },
+      {
+        "id": "option-2",
+        "text": "The villain's favourite meal"
+      },
+      {
+        "id": "option-3",
+        "text": "The voice of innocent people being shut by the powerful"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6001,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:18e53f067cfbdc9b",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these are the name of a famous marker brand?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Copic"
+      },
+      {
+        "id": "option-1",
+        "text": "Dopix"
+      },
+      {
+        "id": "option-2",
+        "text": "Cofix"
+      },
+      {
+        "id": "option-3",
+        "text": "Marx"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6014,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:91684577ce5fb02e",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Thorn of Camorr"
+      },
+      {
+        "id": "option-1",
+        "text": "The Rose of the Marrows"
+      },
+      {
+        "id": "option-2",
+        "text": "The Thorn of Emberlain"
+      },
+      {
+        "id": "option-3",
+        "text": "The Thorn of the Marrows"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6090,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:9d4d5a01bfd7724d",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Vincent van Gogh cut off one of his ears.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6119,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:80feac10146d3fed",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Holden Caulfield"
+      },
+      {
+        "id": "option-1",
+        "text": "Fletcher Christian"
+      },
+      {
+        "id": "option-2",
+        "text": "Jay Gatsby"
+      },
+      {
+        "id": "option-3",
+        "text": "Randall Flagg"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6203,
+      "category": "Entertainment: Books",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:arts-literature:ecb2699ce022c665",
+    "category": "arts-literature",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who painted the painting \"Nighthawks\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Edward Hopper"
+      },
+      {
+        "id": "option-1",
+        "text": "Johannes Vermeer"
+      },
+      {
+        "id": "option-2",
+        "text": "Vincent van Gogh"
+      },
+      {
+        "id": "option-3",
+        "text": "Salvador Dali"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6214,
+      "category": "Art",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

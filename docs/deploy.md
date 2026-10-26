@@ -1,8 +1,8 @@
 # Build, container e operação
 
-A T34 entrega uma imagem independente do provedor, com web, HTTP e Socket.IO no mesmo processo Node.js. O destino, domínio e acesso continuam em D08/T35. Não houve publicação externa.
+A T34 entrega uma imagem independente do provedor, com web, HTTP e Socket.IO no mesmo processo Node.js. Em **26/10/2026**, o piloto foi instalado via MCP AWS/SSM na VM `comicle-prod`, `i-05748174e8c875a20`, `us-east-2`, tipo `c7i-flex.large`. Está acessível em [dionel.site/penshow/](https://dionel.site/penshow/), usando o Caddy existente e projeto Compose próprio. O app e banco do Comicle foram preservados sem reinício. O Worker `penshow-proxy` e suas duas rotas Cloudflare foram publicados e validados com cinco jogadores em desktop e celular emulado. O guia está em [infra/ec2](../infra/ec2/README.md) e as verificações reais estão no [registro T35](validation/t35-piloto-compartilhado.md).
 
-**Produção ainda oferece perfil, salas e lobby; as partidas experimentais continuam desativadas.** T29/T36 e as decisões D02–D06 permanecem pendentes. O smoke executa uma partida curta na mesma imagem com `NODE_ENV=test`, somente em loopback, sem mudar a política de produção. Isso verifica o artefato e não conclui a liberação do jogo ou a meta editorial de 5.000 perguntas da T33.
+**Partidas em produção agora podem ser habilitadas explicitamente por `GAMEPLAY_ENABLED=true`.** O padrão de produção continua desativado; a configuração EC2 do piloto ativa as partidas mantendo `NODE_ENV=production`, validação de origens e privacidade. A interface identifica a versão piloto, com 348 perguntas aprovadas. Os aceites presenciais de T30–T32, a meta editorial de T33 e a conclusão de T35 continuam pendentes. O smoke verifica o quiz curto na imagem em produção, tanto a recusa sem liberação quanto a partida habilitada.
 
 ## Executar localmente
 
@@ -37,7 +37,7 @@ Somente o estágio final é distribuído. Inclui:
 
 - `apps/server/dist` e dependências de execução, sem fontes/testes próprios ou ferramentas de desenvolvimento;
 - `apps/web/dist`, com os 50 PNGs de avatar, licenças públicas, HTML e JS/CSS gerados;
-- `data/questions/published/catalog.json`, privado, atualmente com 336 aprovadas;
+- `data/questions/published/catalog.json`, privado, atualmente com 348 aprovadas;
 - `data/narration/generated`, com WAVs/manifesto privados do narrador robótico, preparados no builder;
 - `data/sources.json`, `data/licenses`, `licenses` e `THIRD_PARTY_NOTICES.md`, preservando procedência e atribuição.
 
@@ -50,6 +50,7 @@ O servidor só publica HTML, assets JS/CSS, avatares PNG e licenças TXT da raiz
 | Variável | Uso |
 |---|---|
 | `NODE_ENV` | `production` na imagem e no Compose. `test`/`development` habilitam regras experimentais; usar apenas em testes privados. |
+| `GAMEPLAY_ENABLED` | `false` por padrão em produção; `true` permite as partidas no piloto sem mudar o ambiente para teste. Nos ambientes locais, o padrão é `true`; `false` também permite desativá-las explicitamente. |
 | `NARRATION_ENABLED` | `true` em desenvolvimento/produção e `false` por padrão nos testes. Gerações de áudio fazem parte do build; detalhes no [guia do narrador](narrador-robotico.md). |
 | `HOST` | `0.0.0.0` dentro da imagem; fora dela o padrão é `127.0.0.1`. |
 | `PORT` | `3000` interno; ao alterar, ajustar também o mapeamento de portas. O healthcheck lê a mesma variável. |
@@ -71,13 +72,13 @@ docker build --build-arg WEB_BASE_PATH=/jogos/penshow/ --tag penshow:subpath .
 docker run --rm --init --read-only --cap-drop ALL --security-opt no-new-privileges:true --publish 127.0.0.1:8080:3000 --env ALLOWED_ORIGINS=http://127.0.0.1:8080 penshow:subpath
 ```
 
-O argumento também grava `WEB_BASE_PATH` no estágio final. A URL do exemplo será `/jogos/penshow/`. A API permanece em `/api/` e o transporte em **`/penshow/socket.io`**, independente da base HTML. Não encaminhar `/comicle/` ao PENSHOW nem compartilhar seus tokens/chaves locais. Uma divergência de base/HTML é recusada antes de abrir a porta.
+O argumento também grava `WEB_BASE_PATH` no estágio final. A URL do exemplo será `/jogos/penshow/` e sua API pública `/jogos/penshow/api/`. O transporte continua em **`/penshow/socket.io`**, independente da base HTML. O servidor conserva `/api/` e as rotas históricas para compatibilidade interna; o cliente usa a API sob sua própria base. Não encaminhar `/comicle/` ou a API raiz do Comicle ao PENSHOW. Uma divergência de base/HTML é recusada antes de abrir a porta.
 
 Sem Docker, após `pnpm install --frozen-lockfile`, `pnpm questions:check` e `pnpm build`, é possível iniciar `node apps/server/dist/main.js` com `NODE_ENV`, `ALLOWED_ORIGINS` e, para servir a interface, `WEB_ROOT` absoluto e `WEB_BASE_PATH=/` (base padrão do build local). Para distribuir fora do checkout, preservar o layout da imagem; `DEFAULT_CATALOG_FILE` é relativo ao módulo compilado e não ao diretório atual.
 
 ## Proxy, WebSocket e HTTPS
 
-[infra/nginx.conf.example](../infra/nginx.conf.example) é um exemplo para o contexto `http` do Nginx, com domínio/certificados fictícios. O proxy mantém os caminhos `/penshow/`, `/api/` e `/penshow/socket.io/`; a localização do socket tem prioridade e preserva upgrade, polling e timeouts. Como o próprio servidor já atende `/api`, esse exemplo não remove o prefixo. O proxy Vite de desenvolvimento continua removendo `/api` e usa as rotas históricas sem prefixo.
+[infra/nginx.conf.example](../infra/nginx.conf.example) é um exemplo para o contexto `http` do Nginx, com domínio/certificados fictícios. O proxy mantém `/penshow/`, incluindo `/penshow/api/`, e `/penshow/socket.io/`; a localização do socket tem prioridade e preserva upgrade, polling e timeouts. A instalação compartilhada atual usa o Caddy existente, conforme [infra/ec2](../infra/ec2/README.md). O proxy Vite de desenvolvimento continua aceitando `/api` na base raiz.
 
 Antes de publicar: definir domínio e certificados reais, configurar `ALLOWED_ORIGINS` com a origem HTTPS visível no navegador, validar `nginx -t`, encaminhar HTTP para HTTPS e testar o certificado, o polling e o upgrade WebSocket no destino real. A T34 testa HTTP/socket no container em loopback; emissão/renovação de certificado e TLS no provedor são validações de T35. O app confia no peer direto, sem habilitar `trustProxy`; atrás do proxy os limites por IP são compartilhados entre seus usuários. Não confiar cegamente em `X-Forwarded-For`; configurar política de proxy conhecido somente quando houver destino concreto.
 
@@ -109,5 +110,7 @@ Para rollback, selecione a tag/digest anterior e repita o comando. Esse retorno 
 ## Verificação automatizada
 
 O job `container` da CI constrói a imagem a partir do checkout com lockfile e executa `pnpm test:container`. O roteiro cobre HTTP, caminhos de recarga da SPA, cache, CORS, catálogo privado, usuário sem root, dependências de runtime, 50 artes, healthcheck do Docker, WebSocket e polling autenticados, parada com código 0, reinício sem recuperar tokens/salas e falhas de startup com código 1. Na mesma imagem em teste local, duas identidades jogam seis perguntas sem acesso ao gabarito antecipado e voltam ao lobby com o placar calculado pelas revelações.
+
+O teste compara o hash do catálogo da imagem com o da publicação local: uma tag antiga com conteúdo diferente é recusada, mesmo que o servidor inicie normalmente. Também verifica correspondência entre perguntas e narrações, hashes dos WAVs e ausência de revisões, lotes e baselines no runtime e nas rotas públicas. A [revalidação de 26/10/2026](validation/t34-revalidacao-container.md) registra a imagem atual e o teste negativo de uma imagem antiga.
 
 Referências de implementação: [Fastify Static](https://github.com/fastify/fastify-static), [deploy portátil do pnpm](https://pnpm.io/cli/deploy), [Docker com pnpm](https://pnpm.io/docker) e [proxy WebSocket do Nginx](https://nginx.org/en/docs/http/websocket.html).

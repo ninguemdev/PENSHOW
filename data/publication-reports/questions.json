@@ -1,48 +1,48 @@
 {
-  "approvedCount": 336,
+  "approvedCount": 348,
   "availability": {
     "arts-literature": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "geography": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "history": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "pop-culture": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "science-nature": {
       "easy": 17,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 24,
+      "total": 58
     },
     "sports": {
-      "easy": 17,
-      "hard": 17,
+      "easy": 18,
+      "hard": 18,
       "medium": 22,
-      "total": 56
+      "total": 58
     }
   },
   "candidates": {
-    "count": 1531,
+    "count": 5761,
     "statuses": {
       "needs-review": 531,
-      "needs-translation": 1000
+      "needs-translation": 5230
     }
   },
   "duplicates": [],
@@ -59,10 +59,82 @@
       "id": "opentdb:arts-literature:e32fc11a82cf29a2",
       "index": 37,
       "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:arts-literature:a5304c8190239f42",
+      "index": 12,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:arts-literature:400f41bf1960f4f4",
+      "index": 13,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:arts-literature:da2d616d90e1d31b",
+      "index": 14,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:history:1d7c6f7674ee0933",
+      "index": 15,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:history:d2d8aa9c98e0d036",
+      "index": 16,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:history:7b7ca9c1573f2c46",
+      "index": 17,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:pop-culture:77929de513d2eccb",
+      "index": 18,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:pop-culture:1f3c1f2412a56359",
+      "index": 19,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:sports:470f294dcb4d50bd",
+      "index": 20,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:sports:57ccdb8564cf1c89",
+      "index": 21,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:geography:8462439b12469f82",
+      "index": 22,
+      "reason": "rejected"
+    },
+    {
+      "file": "data/questions/reviewed/t33-002.json",
+      "id": "questionados:science-nature:a8608d7e46463119",
+      "index": 23,
+      "reason": "rejected"
     }
   ],
   "invalid": [],
   "publishable": true,
-  "reviewedCount": 338,
+  "reviewedCount": 362,
   "schemaVersion": 1
 }

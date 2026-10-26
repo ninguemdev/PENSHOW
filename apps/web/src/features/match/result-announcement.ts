@@ -26,6 +26,8 @@ export function resultAnnouncement(stage: MatchStage, view: RoomView): string {
   }
   if (stage.phase === 'final-resolution') {
     const result = stage.resolution;
+    if (result.outcome === 'no-answer')
+      return 'Ninguém respondeu. Todos os participantes ativos perderam uma vida.';
     const victim = stage.finalists.find(
       (player) =>
         player.playerId === (result.outcome === 'attack' ? result.targetPlayerId : result.playerId),

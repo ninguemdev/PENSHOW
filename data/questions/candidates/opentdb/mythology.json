@@ -262,5 +262,2122 @@
       "category": "Mythology",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:mythology:2fda75749a0442c8",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the Greek god of blacksmiths?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hephaestus"
+      },
+      {
+        "id": "option-1",
+        "text": "Dyntos"
+      },
+      {
+        "id": "option-2",
+        "text": "Vulcan"
+      },
+      {
+        "id": "option-3",
+        "text": "Artagatus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1044,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:12f0bb5056041476",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which greek god/goddess tossed a golden apple with the words \"for the fairest\" into the middle of the feast of the gods?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eris"
+      },
+      {
+        "id": "option-1",
+        "text": "Hades"
+      },
+      {
+        "id": "option-2",
+        "text": "Ares"
+      },
+      {
+        "id": "option-3",
+        "text": "Artemis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1091,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:0af7877962a1910e",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Greek mythology, who is the god of wine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dionysus"
+      },
+      {
+        "id": "option-1",
+        "text": "Hephaestus"
+      },
+      {
+        "id": "option-2",
+        "text": "Demeter"
+      },
+      {
+        "id": "option-3",
+        "text": "Apollo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1143,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:a137a47a83153ba2",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Nike apparel and footwear brand takes it's name from the Greek goddess of what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Victory"
+      },
+      {
+        "id": "option-1",
+        "text": "Courage"
+      },
+      {
+        "id": "option-2",
+        "text": "Strength"
+      },
+      {
+        "id": "option-3",
+        "text": "Honor"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1173,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:1b4117e1af1561ba",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Greek Mythology, who killed Achilles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Paris"
+      },
+      {
+        "id": "option-1",
+        "text": "Hector"
+      },
+      {
+        "id": "option-2",
+        "text": "Helen"
+      },
+      {
+        "id": "option-3",
+        "text": "Pericles"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1301,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:65302d7ce9f39fd8",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bull"
+      },
+      {
+        "id": "option-1",
+        "text": "Pig"
+      },
+      {
+        "id": "option-2",
+        "text": "Ox"
+      },
+      {
+        "id": "option-3",
+        "text": "Horse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1315,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:b7240e08cfdbd3a7",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A minotaur is half human half what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bull"
+      },
+      {
+        "id": "option-1",
+        "text": "Cow"
+      },
+      {
+        "id": "option-2",
+        "text": "Horse"
+      },
+      {
+        "id": "option-3",
+        "text": "Eagle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1337,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:3ef251f5d3bcf25c",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tree"
+      },
+      {
+        "id": "option-1",
+        "text": "Mountain"
+      },
+      {
+        "id": "option-2",
+        "text": "Temple"
+      },
+      {
+        "id": "option-3",
+        "text": "Castle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1404,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:5d3b1c31c21ab202",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Horse"
+      },
+      {
+        "id": "option-1",
+        "text": "A Dragon"
+      },
+      {
+        "id": "option-2",
+        "text": "A Tiger"
+      },
+      {
+        "id": "option-3",
+        "text": "A Lion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1465,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:f219228ce584e28e",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many heads does Cerberus have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "2"
+      },
+      {
+        "id": "option-2",
+        "text": "1"
+      },
+      {
+        "id": "option-3",
+        "text": "5"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1797,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:a5766beadb8242b6",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not true about the life of Tiresias?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sailed with the Argonauts to find the golden fleece"
+      },
+      {
+        "id": "option-1",
+        "text": "Athena turned him into a woman, and then years later back into a man"
+      },
+      {
+        "id": "option-2",
+        "text": "Hera blinded him after he agreed with Zeus in an argument"
+      },
+      {
+        "id": "option-3",
+        "text": "Revealed to Oedipus that Oedipus had married his own mother"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1815,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:306c71b28a5fd1ec",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What mythology did the god \"Apollo\" come from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Greek and Roman"
+      },
+      {
+        "id": "option-1",
+        "text": "Roman and Spanish"
+      },
+      {
+        "id": "option-2",
+        "text": "Greek and Chinese"
+      },
+      {
+        "id": "option-3",
+        "text": "Greek, Roman and Norse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1858,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:495d9525909ff5cd",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these mythological creatures is said to be half-man and half-horse?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Centaur"
+      },
+      {
+        "id": "option-1",
+        "text": "Minotaur"
+      },
+      {
+        "id": "option-2",
+        "text": "Pegasus"
+      },
+      {
+        "id": "option-3",
+        "text": "Gorgon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1995,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:d8c09a70d9ef52bd",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the wildman that Gilgamesh befriends and goes on adventures with?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Enkidu"
+      },
+      {
+        "id": "option-1",
+        "text": "Ishtar"
+      },
+      {
+        "id": "option-2",
+        "text": "Inanna"
+      },
+      {
+        "id": "option-3",
+        "text": "Agga"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2150,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:c425435ece3cd308",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "An Ankh is the Egyptian Hieroglyph for what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Life"
+      },
+      {
+        "id": "option-1",
+        "text": "Love"
+      },
+      {
+        "id": "option-2",
+        "text": "Hatred"
+      },
+      {
+        "id": "option-3",
+        "text": "Poison"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2176,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:dea04a9f8d023f46",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the Greek god of peaceful deaths?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Thanatos"
+      },
+      {
+        "id": "option-1",
+        "text": "Tartarus"
+      },
+      {
+        "id": "option-2",
+        "text": "Hades"
+      },
+      {
+        "id": "option-3",
+        "text": "Moros"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2630,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:cdd586a0ed7e81e5",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Rannamaari was a sea demon that haunted the people of the Maldives and had to be appeased monthly with the sacrifice of a virgin girl.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2701,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:d575db20033e082a",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the Roman god of fire?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vulcan"
+      },
+      {
+        "id": "option-1",
+        "text": "Apollo"
+      },
+      {
+        "id": "option-2",
+        "text": "Jupiter"
+      },
+      {
+        "id": "option-3",
+        "text": "Mercury"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2717,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:6fad3b4654bd5dd1",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Skaði is the Norse Goddess of skiing, mountains, winter and bowhunting.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2966,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:ceefad24d2c33e12",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Janus"
+      },
+      {
+        "id": "option-1",
+        "text": "Vulcan"
+      },
+      {
+        "id": "option-2",
+        "text": "Juno"
+      },
+      {
+        "id": "option-3",
+        "text": "Mars"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3205,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:88d90534a6f7cf8b",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Talos, the mythical giant bronze man, was the protector of which island?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Crete"
+      },
+      {
+        "id": "option-1",
+        "text": "Sardinia"
+      },
+      {
+        "id": "option-2",
+        "text": "Sicily"
+      },
+      {
+        "id": "option-3",
+        "text": "Cyprus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3370,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:a45e385c7a05b404",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who did Hippomenes defeat in a footrace?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atalanta"
+      },
+      {
+        "id": "option-1",
+        "text": "Peleus"
+      },
+      {
+        "id": "option-2",
+        "text": "Theseus"
+      },
+      {
+        "id": "option-3",
+        "text": "Jason"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3406,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:dcb3635b49bf17ad",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Greek mythology, Hera is the goddess of harvest.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3426,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:35cfd21367928710",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the King of Gods in Ancient Greek mythology?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Zeus"
+      },
+      {
+        "id": "option-1",
+        "text": "Apollo"
+      },
+      {
+        "id": "option-2",
+        "text": "Hermes"
+      },
+      {
+        "id": "option-3",
+        "text": "Poseidon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3520,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:6d1bb04a930bf7c9",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the Egyptian god of reproduction and lettuce?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Min"
+      },
+      {
+        "id": "option-1",
+        "text": "Menu"
+      },
+      {
+        "id": "option-2",
+        "text": "Mut"
+      },
+      {
+        "id": "option-3",
+        "text": "Meret"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3527,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:d3c790f8db762030",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Hera is god of...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marriage"
+      },
+      {
+        "id": "option-1",
+        "text": "Agriculture"
+      },
+      {
+        "id": "option-2",
+        "text": "Sea"
+      },
+      {
+        "id": "option-3",
+        "text": "War"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3761,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:672d686683e40e90",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which figure from Greek mythology traveled to the underworld to return his wife Eurydice to the land of the living?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Orpheus"
+      },
+      {
+        "id": "option-1",
+        "text": "Hercules"
+      },
+      {
+        "id": "option-2",
+        "text": "Perseus"
+      },
+      {
+        "id": "option-3",
+        "text": "Daedalus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3808,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:7b337ce545982abb",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to Algonquian folklore, how does one transform into a Wendigo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Participating in cannibalism."
+      },
+      {
+        "id": "option-1",
+        "text": "Excessive mutilation of animal corpses."
+      },
+      {
+        "id": "option-2",
+        "text": "Performing a ritual involving murder."
+      },
+      {
+        "id": "option-3",
+        "text": "Drinking the blood of many slain animals."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3813,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:fb54d5c1de35f25f",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the only god from Greece who did not get a name change in Rome?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Apollo"
+      },
+      {
+        "id": "option-1",
+        "text": "Demeter"
+      },
+      {
+        "id": "option-2",
+        "text": "Zeus"
+      },
+      {
+        "id": "option-3",
+        "text": "Athena"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3914,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:57ddbcde1e22aec5",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the father of Icarus, who flew too close to the sun?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daedalus"
+      },
+      {
+        "id": "option-1",
+        "text": "Minos"
+      },
+      {
+        "id": "option-2",
+        "text": "Perseus"
+      },
+      {
+        "id": "option-3",
+        "text": "Zeus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3968,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:f9ad66c4120ee1b0",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Janus was the Roman god of doorways and passageways.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3977,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:b57e23ab0cc4c4d8",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the God Loki's son? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fenrir "
+      },
+      {
+        "id": "option-1",
+        "text": "Odin"
+      },
+      {
+        "id": "option-2",
+        "text": "Hel"
+      },
+      {
+        "id": "option-3",
+        "text": "Sigyn"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4097,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:6ff8b48cf400e7eb",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the punishment for Sysiphus's craftiness?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cursed to roll a boulder up a hill for eternity."
+      },
+      {
+        "id": "option-1",
+        "text": "Tied to a boulder for eternity, being pecked by birds."
+      },
+      {
+        "id": "option-2",
+        "text": "Standing in a lake filled with water he could not drink."
+      },
+      {
+        "id": "option-3",
+        "text": "To fell a tree that regenerated after every axe swing."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4223,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:56a5360e16d8789d",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Japanese god Izanagi successfully returned his wife Izanami from the Underworld.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4301,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:6dc5cd934ddf949d",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The ancient Roman god of war was commonly known as which of the following?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mars"
+      },
+      {
+        "id": "option-1",
+        "text": "Jupiter"
+      },
+      {
+        "id": "option-2",
+        "text": "Juno"
+      },
+      {
+        "id": "option-3",
+        "text": "Ares"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4348,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:59f62f9a4ecba6e3",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "According to Greek Mythology, Atlas was an Olympian God.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4391,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:009bcb605b3d04d1",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eris"
+      },
+      {
+        "id": "option-1",
+        "text": "Charon"
+      },
+      {
+        "id": "option-2",
+        "text": "Ceres"
+      },
+      {
+        "id": "option-3",
+        "text": "Dysnomia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4396,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:1eb9969f7318b73f",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A wyvern is the same as a dragon.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4463,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:bf349e3c5a866ec8",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This Greek mythological figure is the god/goddess of battle strategy (among other things).",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Athena"
+      },
+      {
+        "id": "option-1",
+        "text": "Ares"
+      },
+      {
+        "id": "option-2",
+        "text": "Artemis"
+      },
+      {
+        "id": "option-3",
+        "text": "Apollo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4562,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:4ad87a1ee0ec6c5c",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The greek god Poseidon was the god of what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Sea"
+      },
+      {
+        "id": "option-1",
+        "text": "War"
+      },
+      {
+        "id": "option-2",
+        "text": "Sun"
+      },
+      {
+        "id": "option-3",
+        "text": "Fire"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4641,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:70dd47288bc9e329",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What mytological creatures have women's faces and vultures' bodies?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Harpies"
+      },
+      {
+        "id": "option-1",
+        "text": "Mermaids"
+      },
+      {
+        "id": "option-2",
+        "text": "Nymph"
+      },
+      {
+        "id": "option-3",
+        "text": "Lilith"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4689,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:62d02e402f2715f4",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nidhogg"
+      },
+      {
+        "id": "option-1",
+        "text": "Bragi"
+      },
+      {
+        "id": "option-2",
+        "text": "Odin"
+      },
+      {
+        "id": "option-3",
+        "text": "Ymir"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4713,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:8a1e5351ea9d4bbc",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "According to Norse mythology, Loki is a mother.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4835,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:96cb08b48395ad68",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is a minor god that is protector and creator of various arts, such as cheese making and bee keeping.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Aristaeus"
+      },
+      {
+        "id": "option-1",
+        "text": "Autonoe"
+      },
+      {
+        "id": "option-2",
+        "text": "Carme"
+      },
+      {
+        "id": "option-3",
+        "text": "Cephisso"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4932,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:dae0f2c0c69c6eb9",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spider"
+      },
+      {
+        "id": "option-1",
+        "text": "Wild dog"
+      },
+      {
+        "id": "option-2",
+        "text": "Monkey"
+      },
+      {
+        "id": "option-3",
+        "text": "Crocodile"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4951,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:77629c9251fc8112",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jason"
+      },
+      {
+        "id": "option-1",
+        "text": "Castor"
+      },
+      {
+        "id": "option-2",
+        "text": "Daedalus"
+      },
+      {
+        "id": "option-3",
+        "text": "Odysseus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4995,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:a10397cbe54e7c2c",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mistletoe"
+      },
+      {
+        "id": "option-1",
+        "text": "Wolf's Bane"
+      },
+      {
+        "id": "option-2",
+        "text": "Buckthorn"
+      },
+      {
+        "id": "option-3",
+        "text": "Hemlock"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5038,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:97dd4db09b31bed6",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Enkidu"
+      },
+      {
+        "id": "option-1",
+        "text": "Enki"
+      },
+      {
+        "id": "option-2",
+        "text": "Enlil"
+      },
+      {
+        "id": "option-3",
+        "text": "Enkimdu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5083,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:3ba56c7070b5d91c",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Norse mythology, Thor once dressed as a woman.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5285,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:d263e38925a17489",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "According to Greek Mythology, Zeus can control lightning.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5354,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:d1296246f0d305df",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Greek & Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Apollo"
+      },
+      {
+        "id": "option-1",
+        "text": "Aphrodite"
+      },
+      {
+        "id": "option-2",
+        "text": "Artemis"
+      },
+      {
+        "id": "option-3",
+        "text": "Athena"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5593,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:80d3b61a6deda70b",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Nidhogg is a mythical creature from what mythology?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Norse"
+      },
+      {
+        "id": "option-1",
+        "text": "Egyptian"
+      },
+      {
+        "id": "option-2",
+        "text": "Greek"
+      },
+      {
+        "id": "option-3",
+        "text": "Hindu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5623,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:e79811aa0b67c5bc",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Set"
+      },
+      {
+        "id": "option-1",
+        "text": "Horus"
+      },
+      {
+        "id": "option-2",
+        "text": "Ra"
+      },
+      {
+        "id": "option-3",
+        "text": "Anhur"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5685,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:045a42ae316cb26a",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the god of war in Polynesian mythology?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "'Oro"
+      },
+      {
+        "id": "option-1",
+        "text": "Hina"
+      },
+      {
+        "id": "option-2",
+        "text": "Kohara"
+      },
+      {
+        "id": "option-3",
+        "text": "Māui"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5698,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:35521a4c6dd4c9cd",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the first human being in Norse mythology?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ask"
+      },
+      {
+        "id": "option-1",
+        "text": "Asmund"
+      },
+      {
+        "id": "option-2",
+        "text": "Ake"
+      },
+      {
+        "id": "option-3",
+        "text": "Asger"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5719,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:3520a70fc35de187",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Norse god Odin has two pet crows named \"Huginn\" and \"Muninn\".  What do their names mean?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Thought & Memory"
+      },
+      {
+        "id": "option-1",
+        "text": "Power & Peace"
+      },
+      {
+        "id": "option-2",
+        "text": "War & Learning"
+      },
+      {
+        "id": "option-3",
+        "text": "Sleeping & Waking"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5826,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:210a0c2c09d15289",
+    "category": "mythology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the Greek Mythology, the god of war is called Mars.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5832,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:25fd370a0c4ae351",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Maori hold that which island nation was founded by Kupe, who discovered it under a long white cloud?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "New Zealand"
+      },
+      {
+        "id": "option-1",
+        "text": "Vanuatu"
+      },
+      {
+        "id": "option-2",
+        "text": "Fiji"
+      },
+      {
+        "id": "option-3",
+        "text": "Hawaii"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5917,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:59a19ede8934f551",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to Japanese folklore, what is the favorite food of the Kappa.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cucumbers"
+      },
+      {
+        "id": "option-1",
+        "text": "Kabocha"
+      },
+      {
+        "id": "option-2",
+        "text": "Nasu"
+      },
+      {
+        "id": "option-3",
+        "text": "Soba"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5939,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:49bd35aa80991911",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Norse Mythology, what is the name of the symbol commonly referred to as the \"Tree of Life\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yggdrasil"
+      },
+      {
+        "id": "option-1",
+        "text": "Ymir"
+      },
+      {
+        "id": "option-2",
+        "text": "Tree of the Earth"
+      },
+      {
+        "id": "option-3",
+        "text": "Odin's Roots"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5981,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:d081ae7493f5ec8f",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Norse God has a horse named Sleipnir?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Odin"
+      },
+      {
+        "id": "option-1",
+        "text": "Thor"
+      },
+      {
+        "id": "option-2",
+        "text": "Frigg"
+      },
+      {
+        "id": "option-3",
+        "text": "Balder"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6042,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:6943465b52142855",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In most traditions, who was the wife of Zeus?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hera"
+      },
+      {
+        "id": "option-1",
+        "text": "Aphrodite"
+      },
+      {
+        "id": "option-2",
+        "text": "Athena"
+      },
+      {
+        "id": "option-3",
+        "text": "Hestia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6146,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mythology:7791a477eab8da1c",
+    "category": "mythology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not one of the Greek Fates?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Narcissus"
+      },
+      {
+        "id": "option-1",
+        "text": "Clotho"
+      },
+      {
+        "id": "option-2",
+        "text": "Atropos"
+      },
+      {
+        "id": "option-3",
+        "text": "Lachesis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6248,
+      "category": "Mythology",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

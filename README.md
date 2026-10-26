@@ -2,25 +2,29 @@
 
 Jogo multiplayer de perguntas e respostas para jogar com amigos pelo navegador. Crie uma sala, escolha seu nome e monte seu personagem para disputar fases com regras diferentes.
 
+**Piloto online:** [jogar PENSHOW](https://dionel.site/penshow/). Instalado na VM compartilhada com o Comicle em 26/10/2026, com 348 perguntas revisadas. Convite, cinco jogadores, início do clássico e reconexão foram verificados em desktop e celular emulado. As duas rotas Cloudflare estão ativas e foram validadas no domínio principal; [evidências da implantação](docs/validation/t35-piloto-compartilhado.md).
+
 O desempenho nas quatro primeiras fases do modo clássico determinará a vantagem na final, sempre a quinta fase: **1º lugar com 5 vidas, 2º com 4, 3º com 3 e os demais com 2**. Assim, sobrevivem respectivamente a 4, 3, 2 e 1 perdas de vida; a perda seguinte elimina. Na final, só a primeira resposta de cada pergunta é avaliada: se errar, o jogador perde uma vida; se acertar, escolhe qualquer adversário ainda na disputa para tirar uma vida. A pergunta se encerra após essa jogada.
 
 ## Estado do projeto
 
-A base do monorepo está disponível: navegação React, editor de personagens com 50 peças, perfil local, stores, componentes acessíveis, servidor Fastify e contratos compartilhados. Já é possível criar uma sala, entrar por código/convite e reunir o grupo no lobby com perfis, presença e preferências compartilhadas. Sessões autenticadas e reconexão preservam a identidade e a vaga. O catálogo privado contém [300 perguntas revisadas](docs/revisao-editorial-t27.md), com 50 por tema e estoque validado para o orçamento completo de conteúdo. O [quiz clássico de teste](docs/quiz-classico-web.md) pode ser iniciado na web em desenvolvimento/teste: seis perguntas, resposta definitiva, revelação, placar e retorno ao lobby. O [smoke em Playwright](docs/smoke-m2.md) cobre o percurso real com duas identidades em desktop e celular emulado. O [modo clássico integrado](docs/modo-classico.md) já percorre cinco fases em desenvolvimento/teste, com as pausas explícitas das regras ainda em consulta; ainda não há versão publicada.
+**Decisões de 23/10/2026 registradas:** meta de 20–30 minutos; dinamite por turnos; roubo exclusivo do primeiro acerto de até 100; vidas iguais para empatados em pontos e acertos, com posições consecutivas por grupo (5/5/4/3/2 no exemplo com empate em 1º); perda de uma vida de todos os ativos se ninguém responder na final; alvo automático sorteado entre todos os ativos, inclusive quem acertou. Eliminados simultaneamente disputarão o [minigame de tiro 2D top-down — T39](docs/tasks/T39-desempate-tiro-top-down.md): três vidas iniciais, pergunta ao chegar a zero, erro elimina e acerto concede uma vida. D02/D03/D06/D09 já estão aplicadas em desenvolvimento/teste e no piloto; o [desempate de tiro](docs/desempate-tiro.md) tem arena, controles de computador/celular, perguntas de sobrevivência e pódio. A T20 aplica o roubo de até 100, com +100 para todos os acertos. O refinamento visual seguirá o protótipo. Em 26/10/2026, o piloto foi instalado via MCP AWS/SSM na VM existente do Comicle, sem reiniciar o app ou banco do Comicle. Os esclarecimentos estão em [decisões](docs/decisoes.md).
+
+A base do monorepo está disponível: navegação React, editor de personagens com 50 peças, perfil local, stores, componentes acessíveis, servidor Fastify e contratos compartilhados. Já é possível criar uma sala, entrar por código/convite e reunir o grupo no lobby com perfis, presença e preferências compartilhadas. Sessões autenticadas e reconexão preservam a identidade e a vaga. O catálogo privado contém [348 perguntas aprovadas](docs/expansao-editorial-t33.md), com 58 por tema e estoque validado para o orçamento completo de conteúdo. O [quiz clássico de teste](docs/quiz-classico-web.md) pode ser iniciado na web em desenvolvimento/teste: seis perguntas, resposta definitiva, revelação, placar e retorno ao lobby. O [smoke em Playwright](docs/smoke-m2.md) cobre o percurso real com duas identidades em desktop e celular emulado. O [modo clássico integrado](docs/modo-classico.md) percorre cinco fases, com perda coletiva, alvo automático e desempate de tiro, e está habilitado no piloto publicado. A versão completa e os aceites humanos continuam pendentes.
 
 O projeto parte da arquitetura do [Comicle](https://github.com/ninguemdev/Comicle), especialmente suas salas, identidade de convidado, nomes e avatares. As fases têm como referência a dinâmica de programas de perguntas do [Brain Show](https://store.steampowered.com/app/2235150/).
 
-A [modalidade de velocidade](docs/velocidade.md) também está disponível como fase isolada de teste no lobby: seis perguntas, bônus por faixa de tempo recebido no servidor e detalhamento de base, bônus e total. Os testes de navegador cobrem clássico e velocidade em desktop e celular emulado. Pontos e tempos continuam experimentais; a sequência completa das fases permanece para as próximas tarefas.
+A [modalidade de velocidade](docs/velocidade.md) também está disponível como fase isolada de teste no lobby: seis perguntas, bônus por faixa de tempo recebido no servidor e detalhamento de base, bônus e total. Os testes de navegador cobrem clássico e velocidade em desktop e celular emulado. Pontos e tempos continuam sujeitos à avaliação de equilíbrio; a modalidade integra o modo clássico quando sorteada.
 
 A [modalidade de aposta](docs/aposta.md) acrescenta uma escolha privada antes de cada enunciado, limitada ao saldo, com confirmação e liquidação única na revelação. Também está disponível como fase isolada no lobby em desenvolvimento/teste; não há saldo inicial artificial ou desconto antecipado.
 
-O [protótipo de roubo](docs/roubo.md) permite escolher adversário depois de fechar as respostas e transfere pontos limitados ao saldo após os acertos. Ele exercita a proposta de direito exclusivo do primeiro acerto; D05 continua pendente antes da consolidação da modalidade.
+A [modalidade de roubo](docs/roubo.md) permite escolher adversário depois de fechar as respostas e transfere pontos limitados ao saldo após os acertos. D05 está aplicada: somente o primeiro acerto pode roubar até 100, mantendo +100 para todos os acertos.
 
-O [protótipo de dinamite](docs/dinamite.md) acrescenta dois turnos por participante, ordem sorteada e inversa no segundo ciclo, prazo individual completo e explosão com penalidade limitada ao saldo. D04 continua pendente para a escolha definitiva da quinta modalidade.
+A [dinamite](docs/dinamite.md) acrescenta dois turnos por participante, ordem sorteada e inversa no segundo ciclo, prazo individual completo e explosão com penalidade limitada ao saldo. D04 está aplicada na T21, com política confirmada em parâmetros, plano sorteado e projeção pública.
 
-A [classificação e atribuição de vidas](docs/classificacao-e-vidas.md) guarda um retrato único do placar ao encerrar os protótipos, com 5/4/3/2 vidas quando a ordem está definida. Empates mantêm D06 pendente e não atribuem vidas automaticamente.
+A [classificação e atribuição de vidas](docs/classificacao-e-vidas.md) guarda um retrato único do placar ao encerrar os protótipos, com 5/4/3/2 vidas quando a ordem está definida. D06 já aplica vidas iguais aos empatados em pontos e acertos, contando posições por grupo sem saltos: 1º grupo recebe cinco vidas, próximo recebe quatro, depois três e dois para o 4º grupo em diante.
 
-O [protótipo da final no servidor](docs/final-no-servidor.md) aceita a primeira resposta válida, aplica uma perda por erro ou ataque manual e encerra pelo único sobrevivente. Ele pode continuar um plano isolado concluído com classificação pronta e estoque suficiente. A [interface da final](docs/final-na-web.md) mostra conversão para vidas, disputa, alvo, perdas e eliminação, com recuperação da etapa após reconectar. D02/D03 permanecem pendentes e aparecem como pausas explícitas no teste.
+O [protótipo da final no servidor](docs/final-no-servidor.md) aceita a primeira resposta válida, aplica uma perda por erro ou ataque manual e encerra pelo único sobrevivente. Ele pode continuar um plano isolado concluído com classificação pronta e estoque suficiente. A [interface da final](docs/final-na-web.md) mostra conversão para vidas, disputa, alvo, perdas e eliminação, com recuperação da etapa após reconectar. D02/D03 aplicam perda coletiva sem resposta e sorteio entre todos os ativos na ausência de alvo, inclusive quem acertou. Eliminados simultaneamente seguem para o minigame da T39.
 
 ## Planejamento
 
@@ -29,8 +33,9 @@ A [T36 — Modo clássico padrão](docs/tasks/T36-modo-classico-padrao.md) integ
 O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da final e os resultados das fases disputadas, com o placar anterior identificado como histórico. O anfitrião pode preparar outra partida na mesma sala; perfis e fila de temas são preservados, espectadores ocupam vagas disponíveis e quem saiu libera sua vaga.
 
 - [Plano detalhado do jogo](docs/plano-do-jogo.md): cada fase, quantidade de perguntas, pontos, tempos, exemplos, final e casos de borda.
+- [Plano do desempate de tiro](docs/plano-desempate.md): desenho em nove etapas; implementação e limites no [guia da entrega](docs/desempate-tiro.md).
 - [Plano de desenvolvimento](docs/planejamento.md): entregas, prioridades e critérios de conclusão.
-- [Tasks de implementação](docs/tasks/README.md): 37 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
+- [Tasks de implementação](docs/tasks/README.md): 39 tarefas com dependências, módulos, entregáveis, aceite e verificações, no formato do Comicle.
 - [Análise do Comicle](docs/analise-comicle.md): módulos examinados e adaptações necessárias.
 - [Referência do Brain Show](docs/referencia-brain-show.md): evidências e propostas para o PENSHOW.
 - [Regras em discussão](docs/regras.md): o que foi definido e o que precisa ser decidido.
@@ -47,10 +52,10 @@ O [pódio, histórico e revanche](docs/podio-e-revanche.md) mostram a ordem da f
 - [Quiz na web](docs/quiz-classico-web.md): telas por estado, respostas, cronômetro, placar, reconexão e teclado/toque.
 - [Velocidade](docs/velocidade.md): seis perguntas de teste, faixas de bônus oficiais no servidor e detalhamento na interface; disponível pelo lobby em desenvolvimento/teste.
 - [Aposta](docs/aposta.md): escolha privada antes do enunciado, valores cobertos pelo saldo, confirmação e liquidação única; teste isolado pelo lobby em desenvolvimento/teste.
-- [Roubo](docs/roubo.md): protótipo do primeiro acerto, alvo autorizado, transferência conservada e decomposição do saldo; D05 em consulta.
-- [Dinamite](docs/dinamite.md): turno exclusivo, dois ciclos inversos, pavio individual e explosão sem eliminação; D04 em consulta.
-- [Classificação e vidas](docs/classificacao-e-vidas.md): placar histórico congelado, distribuição confirmada e registro explícito de empates; D06 em consulta.
-- [Final no servidor](docs/final-no-servidor.md): primeira resposta exclusiva, ataque manual, eliminações e projeções; D02/D03 em consulta.
+- [Roubo](docs/roubo.md): primeiro acerto rouba até 100, conforme D05.
+- [Dinamite](docs/dinamite.md): turno exclusivo, dois ciclos inversos, pavio individual e explosão sem eliminação; formato aprovado em D04.
+- [Classificação e vidas](docs/classificacao-e-vidas.md): placar congelado e conversão única; implementar vidas iguais por empate conforme D06.
+- [Final no servidor](docs/final-no-servidor.md): primeira resposta exclusiva, ataque manual, eliminações e projeções; aplicar perda coletiva de D02 e sorteio automático de D03.
 - [Final na web](docs/final-na-web.md): conversão para vidas, prioridade confirmada, alvo, resolução acessível, espectador e reconexão.
 - [Pódio e revanche](docs/podio-e-revanche.md): ordem pelo sobrevivente, resumo por fase, novo elenco e continuidade da fila de temas na mesma sala.
 - [Reconexão e ciclo de vida](docs/cenarios-de-reconexao.md): matriz por etapa, janela preservada, sala vazia, transferência de anfitrião, consulta de associação e limites após reinício.
@@ -86,17 +91,17 @@ pnpm build
 
 `pnpm test:e2e:a11y` verifica teclado, árvore de acessibilidade, contraste, textos extensos e adaptação de telas no navegador real após o build. Consulte [acessibilidade e limites da revisão](docs/acessibilidade.md).
 
-`pnpm test:e2e:sound` verifica os avisos sonoros, preferências, áudio indisponível, reconexão e renderização do motor real, com prévia WAV para escuta. Consulte [sons e validação](docs/sons.md).
+`pnpm test:e2e:sound` verifica os 16 efeitos sintetizados, cliques reais, preferências, áudio indisponível, reconexão e renderização do motor real. Após `pnpm build`, `pnpm sounds:preview` gera a prévia WAV e os efeitos separados em `data/audio-previews/`. Consulte [sons e validação](docs/sons.md).
 
 `pnpm pilot:simulate` gera o relatório mecânico de equilíbrio usando os serviços reais, snapshot privado de 300 perguntas usado na T32, jogadores roteirizados e relógio virtual. `pnpm pilot:simulate --check` reproduz o relatório sem escrever. Os tempos simulados e as comparações de pontos não substituem sessões humanas; consulte [método, resultados e roteiro](docs/testes-de-grupo-e-equilibrio.md).
 
-`pnpm questions:audit` verifica os lotes editoriais e a publicação atual, com 336 perguntas após o primeiro lote da T33. `pnpm questions:capacity` simula partidas consecutivas sem repetir conteúdo, com orçamento explícito de 50 perguntas na final simulada. Ambos aceitam `--check`; consulte o [relatório da expansão](docs/expansao-editorial-t33.md). A meta de 5.000 permanece pendente.
+`pnpm questions:audit` verifica os lotes editoriais e a publicação atual, com 348 perguntas após dois lotes da T33. `pnpm questions:capacity` simula partidas consecutivas sem repetir conteúdo, com orçamento explícito de 50 perguntas na final simulada. Ambos aceitam `--check`; consulte o [relatório da expansão](docs/expansao-editorial-t33.md). A meta de 5.000 permanece pendente.
 
 `pnpm test` executa os testes de conteúdo, artes e as suítes Vitest de shared, server e web. `pnpm avatars:check` confere as 50 artes e o catálogo público. `pnpm format` aplica a formatação. Os arquivos editoriais em `data/` e os documentos de planejamento em `docs/` preservam seu formato original.
 
 O build gera `packages/shared/dist`, `apps/server/dist` e `apps/web/dist`. Após compilar, `pnpm start` inicia o servidor e `pnpm --filter @penshow/web preview` serve a web para inspeção do artefato. Os proxies HTTP/socket do Vite funcionam no preview. O servidor também atende `/api` diretamente e pode servir a interface compilada quando `WEB_ROOT` está configurado. `VITE_BASE_PATH` e `WEB_BASE_PATH` precisam coincidir; consulte [interface](docs/interface.md) e [deploy](docs/deploy.md).
 
-`docker compose --env-file infra/production.env.example up --build --detach --wait` constrói a imagem e abre a interface em `http://127.0.0.1:8080/penshow/`, com API e socket no mesmo processo. Em produção, somente perfis/salas/lobby estão habilitados; as regras experimentais das partidas continuam restritas a desenvolvimento/teste. `pnpm test:container penshow:local` verifica a imagem, privacidade, parada/reinício e uma partida curta na mesma imagem em teste local. A hospedagem externa continua na T35/D08.
+`docker compose --env-file infra/production.env.example up --build --detach --wait` constrói a imagem e abre a interface em `http://127.0.0.1:8080/penshow/`, com API em `/penshow/api/` e socket no mesmo processo. `GAMEPLAY_ENABLED=true` habilita as partidas em produção; o padrão continua desativado. `pnpm test:container penshow:local` verifica a imagem, privacidade, parada/reinício e quiz curto em produção com liberação explícita. O piloto está instalado na VM compartilhada com o Comicle e publicado em `https://dionel.site/penshow/`; operação em [infra/ec2](infra/ec2/README.md) e rotas em [infra/cloudflare](infra/cloudflare/README.md).
 
 `PORT` e `HOST` configuram a escuta do servidor (padrões: `3000` e `127.0.0.1`). Se mudar a porta, ajuste também o destino do proxy em `apps/web/vite.config.ts`. Socket.IO usa `/penshow/socket.io`, com origens permitidas e limites de mensagem configuráveis. As variáveis estão em `.env.example`; o arquivo `.env` não é carregado automaticamente. Consulte [servidor](docs/servidor.md) para uso do ambiente e [desenvolvimento](docs/desenvolvimento.md) para ferramentas e verificações.
 

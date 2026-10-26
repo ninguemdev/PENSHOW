@@ -5,7 +5,16 @@
 - **Marco:** M3
 - **Branch sugerido:** `task/24-final-na-web`
 
-O status desta tarefa fica somente no [índice](README.md). A implementação usa o protótipo isolado da T23; D02/D03 continuam em consulta e são apresentadas como pausas explícitas, sem inventar fallbacks.
+O status desta tarefa fica somente no [índice](README.md). A implementação usa o protótipo isolado da T23 e ainda apresenta as pausas anteriores de D02/D03; as escolhas já foram respondidas e foram aplicadas na integração T39.
+
+## Aplicação das decisões de 23/10/2026
+
+O núcleo desta tarefa já entregue continua registrado no índice. D02/D03/D06 foram respondidas; a adaptação adicional das telas foi integrada com T39:
+
+- [x] Mostrar perda coletiva por ausência de resposta e alvo sorteado, inclusive quando atingir quem acertou, com textos e avisos acessíveis.
+- [x] Remover mensagens de decisões em consulta nos fluxos substituídos pelas políticas aprovadas; preservar estados transitórios coerentes com o servidor.
+- [x] Apresentar vidas iguais e posições consecutivas por grupo (5/5/4/3/2 no exemplo com empate em 1º); mostrar encaminhamento de eliminações simultâneas ao minigame da T39 e seu resultado.
+- [x] Verificar desktop/celular e reconexão no e2e T39; integrar preferências de narração e sons às novas resoluções, sem declarar escuta humana.
 
 ## Objetivo
 

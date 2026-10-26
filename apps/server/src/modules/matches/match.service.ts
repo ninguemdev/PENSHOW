@@ -1,4 +1,5 @@
-import { roundIdSchema, type MatchId } from '@penshow/shared';
+import { roundIdSchema, type MatchId, type PlayerId, type TiebreakInput } from '@penshow/shared';
+import { prepareSurvivalQuestions, TiebreakError } from '../tiebreak/tiebreak.domain.js';
 import { createFinal, FinalError } from '../final/final.domain.js';
 import { PublicCommandError } from '../../command-error.js';
 import type { CancelTask, Runtime } from '../../ports.js';
@@ -52,6 +53,10 @@ interface ScheduledMatch {
 export class MatchService implements QuizLifecycle {
   private readonly strategies: StrategyRegistry;
   private readonly timers = new Map<Room, ScheduledMatch>();
+  private readonly inputs = new Map<
+    Room,
+    Map<PlayerId, { actor: RoomActor; input: TiebreakInput; receivedAt: number }>
+  >();
   constructor(private readonly deps: Dependencies) {
     this.strategies =
       deps.strategies ??
@@ -66,11 +71,11 @@ export class MatchService implements QuizLifecycle {
 
   validateStart(roster: QuizRoster, previousChoiceQueue?: ThemeChoiceQueue): MatchSession {
     const mode = roster.prototypeMode ?? 'classic';
+    const rules = freezeMatchRules(roster.matchId, this.deps.parameters);
     const plan =
       !roster.prototypeMode && roster.settings.format === 'classic'
-        ? createClassicPlan(this.deps.runtime)
+        ? createClassicPlan(this.deps.runtime, rules.parameters.pressure.policy)
         : null;
-    const rules = freezeMatchRules(roster.matchId, this.deps.parameters);
     const result = QuestionSelection.create(this.deps.questions, this.deps.runtime, {
       matchId: roster.matchId,
       players: roster.players.map((player) => player.playerId),
@@ -91,7 +96,7 @@ export class MatchService implements QuizLifecycle {
                 roundId: roundIdSchema.parse(this.deps.runtime.ids.next()),
                 index: 5,
                 mode,
-                variant: { status: 'prototype', decisionId: 'D04', mode: 'dynamite' },
+                variant: { ...rules.parameters.pressure.policy },
               }
             : mode === 'theft'
               ? { roundId: roundIdSchema.parse(this.deps.runtime.ids.next()), index: 4, mode }
@@ -118,6 +123,49 @@ export class MatchService implements QuizLifecycle {
     return this.transact(room, actor, (session) =>
       this.apply(session, { ...command, playerId: actor.playerId }),
     );
+  }
+
+  input(
+    room: Room,
+    actor: RoomActor,
+    context: { matchId: MatchId; roundId: string },
+    input: TiebreakInput,
+  ) {
+    return this.transact(room, actor, (session) => {
+      const stage = session.state.final?.stage;
+      if (
+        session.state.roster.matchId !== context.matchId ||
+        session.state.final?.round.roundId !== context.roundId
+      )
+        throw new MatchError('STALE_CONTEXT');
+      if (stage?.phase !== 'final-tiebreak' || stage.tiebreak.phase !== 'combat')
+        throw new MatchError('INVALID_PHASE');
+      const tie = stage.tiebreak;
+      if (
+        input.tiebreakId !== tie.tiebreakId ||
+        input.bout !== tie.bout ||
+        input.generation !== tie.generation
+      )
+        throw new MatchError('STALE_CONTEXT');
+      const fighter = tie.combat.fighters.find(
+        (f) => f.playerId === actor.playerId && f.status === 'fighting',
+      );
+      if (!fighter) throw new MatchError('FORBIDDEN');
+      let pending = this.inputs.get(room);
+      if (!pending) {
+        pending = new Map();
+        this.inputs.set(room, pending);
+      }
+      const previous = pending.get(actor.playerId);
+      if (input.sequence <= Math.max(fighter.lastSequence, previous?.input.sequence ?? -1))
+        return { session, changed: false };
+      pending.set(actor.playerId, {
+        actor,
+        input: structuredClone(input),
+        receivedAt: this.deps.runtime.clock.now(),
+      });
+      return { session, changed: false };
+    });
   }
 
   choiceQueueForRematch(session: MatchSession): ThemeChoiceQueue {
@@ -178,7 +226,11 @@ export class MatchService implements QuizLifecycle {
         return { stateVersion: tx.state.stateVersion };
       })
       .catch((error: unknown) => {
-        if (error instanceof MatchError || error instanceof FinalError)
+        if (
+          error instanceof MatchError ||
+          error instanceof FinalError ||
+          error instanceof TiebreakError
+        )
           throw new PublicCommandError(error.code);
         if (error instanceof SelectionError) throw new PublicCommandError('INVALID_PHASE');
         throw error;
@@ -188,6 +240,11 @@ export class MatchService implements QuizLifecycle {
   /** Called after a room commit, before its views. Presence updates keep the existing timer. */
   committed(room: Room, after: RoomState) {
     const session = after.phase.status === 'match' ? after.phase.game : undefined;
+    if (
+      session?.state.final?.stage.phase !== 'final-tiebreak' ||
+      session.state.final.stage.tiebreak.phase !== 'combat'
+    )
+      this.inputs.delete(room);
     const context =
       session && (!session.suspended || after.emptySince === null)
         ? matchTimer(session.state)
@@ -226,7 +283,60 @@ export class MatchService implements QuizLifecycle {
             // resumes only the next step; consumed answers, wagers and damage stay intact.
             const { suspended: _suspended, ...active } = tx.state.phase.game;
             void _suspended;
-            const result = this.apply(active, { kind: 'timer', timer: context });
+            const stage = active.state.final?.stage;
+            if (stage?.phase === 'final-tiebreak' && stage.tiebreak.phase === 'combat') {
+              const pending = this.inputs.get(room);
+              for (const f of stage.tiebreak.combat.fighters) {
+                const entry = pending?.get(f.playerId);
+                const member = tx.state.members.find((m) => m.playerId === f.playerId);
+                if (
+                  f.input?.connectionId &&
+                  (member?.connection.status !== 'connected' ||
+                    member.connection.connectionId !== f.input.connectionId)
+                )
+                  f.input = null;
+                if (
+                  entry &&
+                  entry.input.generation === stage.tiebreak.generation &&
+                  entry.input.bout === stage.tiebreak.bout &&
+                  member?.connection.status === 'connected' &&
+                  member.connection.connectionId === entry.actor.connectionId &&
+                  this.deps.isCurrentActor?.(entry.actor) !== false
+                ) {
+                  f.input = {
+                    ...entry.input,
+                    receivedAt: entry.receivedAt,
+                    connectionId: entry.actor.connectionId,
+                  };
+                  f.lastSequence = entry.input.sequence;
+                }
+              }
+              pending?.clear();
+            }
+            const connectedPlayerIds = tx.state.members
+              .filter((m) => m.connection.status === 'connected')
+              .map((m) => m.playerId);
+            const finalists = active.state.final?.finalists ?? [];
+            const result = this.apply(active, {
+              kind: 'timer',
+              timer: context,
+              connectedPlayerIds,
+              ...(stage?.phase === 'final-target-selection'
+                ? {
+                    randomIndex: this.deps.runtime.random.integer(
+                      finalists.filter((p) => p.status === 'active').length,
+                    ),
+                  }
+                : {}),
+              ...(stage?.phase === 'final-resolution' && stage.resolution.outcome === 'no-answer'
+                ? {
+                    spawnOrder: shuffled(
+                      finalists.map((p) => p.playerId),
+                      this.deps.runtime.random,
+                    ),
+                  }
+                : {}),
+            });
             if (result.changed) {
               tx.state.phase.game = result.session;
               tx.touch();
@@ -249,7 +359,10 @@ export class MatchService implements QuizLifecycle {
 
   private apply(session: MatchSession, event: MatchEvent) {
     const now = this.deps.runtime.clock.now();
-    const selection = QuestionSelection.resume(session.selection, this.deps.runtime);
+    let content: QuestionSelection | undefined;
+    // Movement-only steps keep the isolated transaction checkpoint unchanged.
+    const selection = () =>
+      (content ??= QuestionSelection.resume(session.selection, this.deps.runtime));
     let result = transitionMatch(session.state, event, now, this.strategies);
     let state = result.state;
     const changed = result.changed;
@@ -269,7 +382,7 @@ export class MatchService implements QuizLifecycle {
           const finalRound = state.finalRound;
           if (!finalRound) throw new Error('Plano da final ausente.');
           if (state.finalEntry?.status !== 'ready') break;
-          if (selection.startFinal(finalRound.roundId).status !== 'ready') {
+          if (selection().startFinal(finalRound.roundId).status !== 'ready') {
             state.stage = { phase: 'interrupted', reason: 'insufficient-questions' };
             break;
           }
@@ -280,8 +393,8 @@ export class MatchService implements QuizLifecycle {
           const final = state.final;
           if (!final) throw new Error('Final ausente.');
           if (effect.previousQuestionId)
-            selection.advanceFinalQuestion(final.round.roundId, effect.previousQuestionId);
-          const question = selection.currentFinalQuestion(final.round.roundId);
+            selection().advanceFinalQuestion(final.round.roundId, effect.previousQuestionId);
+          const question = selection().currentFinalQuestion(final.round.roundId);
           receive({
             kind: 'final-question-prepared',
             question: 'status' in question ? null : question,
@@ -289,7 +402,7 @@ export class MatchService implements QuizLifecycle {
           break;
         }
         case 'offer-categories': {
-          const offer = selection.openRound(round.roundId, round.mode, now);
+          const offer = selection().openRound(round.roundId, round.mode, now);
           if (offer.status === 'interrupted')
             receive({ kind: 'interrupt', reason: 'insufficient-questions' });
           else if (offer.status === 'choosing') receive({ kind: 'category-offered', offer });
@@ -297,22 +410,36 @@ export class MatchService implements QuizLifecycle {
           break;
         }
         case 'select-category':
-          selection.chooseCategory(round.roundId, effect.playerId, effect.category, now);
+          selection().chooseCategory(round.roundId, effect.playerId, effect.category, now);
           break;
         case 'expire-category':
-          selection.expireCategoryChoice(round.roundId, now);
+          selection().expireCategoryChoice(round.roundId, now);
           break;
         case 'next-question':
           if (effect.previousQuestionId)
-            selection.advanceQuestion(round.roundId, effect.previousQuestionId);
+            selection().advanceQuestion(round.roundId, effect.previousQuestionId);
           receive({
             kind: 'question-prepared',
-            question: selection.currentQuestion(round.roundId),
+            question: selection().currentQuestion(round.roundId),
           });
           break;
       }
     }
-    return { changed, session: { state, selection: selection.checkpoint() } };
+    const final = state.final;
+    if (final?.stage.phase === 'final-tiebreak') {
+      const tie = final.stage.tiebreak;
+      if (tie.phase === 'questions' && !tie.questions.length) {
+        const questions = selection().survivalQuestions(
+          tie.pendingPlayerIds.length,
+          final.finalists.some((p) => p.status === 'active'),
+        );
+        if ('status' in questions)
+          final.stage = { phase: 'interrupted', reason: 'insufficient-questions' };
+        else
+          prepareSurvivalQuestions(tie, questions, now, state.rules.parameters.timings.readingMs);
+      }
+    }
+    return { changed, session: { state, selection: content?.checkpoint() ?? session.selection } };
   }
 }
 

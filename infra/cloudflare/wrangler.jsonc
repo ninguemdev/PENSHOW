@@ -1,0 +1,16 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "penshow-proxy",
+  "account_id": "98305517a6f4dd7489498356ff2215b7",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-26",
+  "workers_dev": false,
+  "preview_urls": false,
+  "vars": {
+    "ORIGIN_HOST": "comicle-origin.dionel.site",
+  },
+  "routes": [
+    { "pattern": "dionel.site/penshow", "zone_name": "dionel.site" },
+    { "pattern": "dionel.site/penshow/*", "zone_name": "dionel.site" },
+  ],
+}

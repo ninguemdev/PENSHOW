@@ -515,5 +515,2178 @@
       "category": "Entertainment: Comics",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:comics:e947430b7b29bbe6",
+    "category": "comics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Deadpool's identity is Slade Wilson.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1034,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:2e5d66c89ef301a6",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Pre-Super Genesis universe of \"Sonic the Hedgehog\" comic, what was the name of  Sally Acorn's brother?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Elias Acorn"
+      },
+      {
+        "id": "option-1",
+        "text": "Maximillian Acorn"
+      },
+      {
+        "id": "option-2",
+        "text": "Alexis Acorn"
+      },
+      {
+        "id": "option-3",
+        "text": "Frederick Acorn"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1195,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f59d492b27cedda6",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the \"Archie\" comics, who was Jughead's first girlfriend?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joani"
+      },
+      {
+        "id": "option-1",
+        "text": "Ethel"
+      },
+      {
+        "id": "option-2",
+        "text": "Debbi"
+      },
+      {
+        "id": "option-3",
+        "text": "Margret"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1210,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:c659720412875a30",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which issue of the \"Sonic the Hedgehog\" comic did Scourge the Hedgehog make his first appearance?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sonic the Hedgehog #11"
+      },
+      {
+        "id": "option-1",
+        "text": "Sonic Universe #32"
+      },
+      {
+        "id": "option-2",
+        "text": "Sonic the Hedgehog #161"
+      },
+      {
+        "id": "option-3",
+        "text": "Sonic the Hedgehog #47"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1253,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:2054215960932d91",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Calvin and Hobbes, what is the name of the babysitter's boyfriend?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charlie"
+      },
+      {
+        "id": "option-1",
+        "text": "Dave"
+      },
+      {
+        "id": "option-2",
+        "text": "Charles"
+      },
+      {
+        "id": "option-3",
+        "text": "Nathaniel"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1371,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:701bff253f0c5a68",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these superhero teams appears in the Invincible comics?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Guardians of the Globe"
+      },
+      {
+        "id": "option-1",
+        "text": "Avengers"
+      },
+      {
+        "id": "option-2",
+        "text": "Justice League"
+      },
+      {
+        "id": "option-3",
+        "text": "Teenage Mutant Ninja Turtles"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1425,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:797d28badc7c4bd8",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the full first name of the babysitter in Calvin and Hobbes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rosalyn"
+      },
+      {
+        "id": "option-1",
+        "text": "Rose"
+      },
+      {
+        "id": "option-2",
+        "text": "Ruby"
+      },
+      {
+        "id": "option-3",
+        "text": "Rachel"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1616,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:be8ec8f44d1d8c98",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to their longtime nickname, what kind of \"duo\" are Batman & Robin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dynamic"
+      },
+      {
+        "id": "option-1",
+        "text": "Dangerous"
+      },
+      {
+        "id": "option-2",
+        "text": "Dynastic"
+      },
+      {
+        "id": "option-3",
+        "text": "Delirious"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1657,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:7f4483c3297d0746",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the names of the two \"Canon fan trolls\" in \"Homestuck\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mierfa Durgas and Nektan Whelan"
+      },
+      {
+        "id": "option-1",
+        "text": "The Wrycrown and Voksea Olkido"
+      },
+      {
+        "id": "option-2",
+        "text": "Aikter Frekik and Xagrai Ollomu"
+      },
+      {
+        "id": "option-3",
+        "text": "Grekei Ceknux and Riya Camacho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1733,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:5abdf25a176eb201",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following rings from the DC Comics' \"Lantern Corps\" are classified as Parasitic?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Indigo (Compassion)"
+      },
+      {
+        "id": "option-1",
+        "text": "Green (Willpower)"
+      },
+      {
+        "id": "option-2",
+        "text": "White (Life)"
+      },
+      {
+        "id": "option-3",
+        "text": "Yellow (Fear)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1800,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:855a2247e84beae2",
+    "category": "comics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the webcomic Homestuck, the first character introduced is Dave Strider.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1803,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:3ad826e5ee92d63c",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Found in the Marvel Comics fictional universe, what is the name of the nearly indestructible metal that coats Wolverine's bones and claws?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Adamantium"
+      },
+      {
+        "id": "option-1",
+        "text": "Titanium"
+      },
+      {
+        "id": "option-2",
+        "text": "Vibranium"
+      },
+      {
+        "id": "option-3",
+        "text": "Carbonadium"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1875,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:2edf44762360a805",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is Batman?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bruce Wayne"
+      },
+      {
+        "id": "option-1",
+        "text": "Clark Kent"
+      },
+      {
+        "id": "option-2",
+        "text": "Barry Allen"
+      },
+      {
+        "id": "option-3",
+        "text": "Tony Stark"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1916,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:66b99fc263c4e488",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the second person to take up the mantle of Night Owl in the Watchmen graphic novel?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daniel Dreiberg"
+      },
+      {
+        "id": "option-1",
+        "text": "Nelson Gardner"
+      },
+      {
+        "id": "option-2",
+        "text": "Hollis Mason"
+      },
+      {
+        "id": "option-3",
+        "text": "Adrian Veidt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1924,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:fa3ba3847699704b",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Homestuck character Gamzee's last name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Makara"
+      },
+      {
+        "id": "option-1",
+        "text": "Makera"
+      },
+      {
+        "id": "option-2",
+        "text": "Makare"
+      },
+      {
+        "id": "option-3",
+        "text": "Makrea"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1925,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:4a9bbe462abe9636",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The stuffed tiger in Calvin and Hobbes is named after what philosopher?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Thomas Hobbes"
+      },
+      {
+        "id": "option-1",
+        "text": "David Hobbes"
+      },
+      {
+        "id": "option-2",
+        "text": "John Hobbes"
+      },
+      {
+        "id": "option-3",
+        "text": "Nathaniel Hobbes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1937,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:06470407b67f59d5",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Hellboy's true name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Anung Un Rama"
+      },
+      {
+        "id": "option-1",
+        "text": "Right Hand of Doom"
+      },
+      {
+        "id": "option-2",
+        "text": "Ogdru Jahad"
+      },
+      {
+        "id": "option-3",
+        "text": "Azzael"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1980,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:0e559001c7aec27f",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these game-based comics were published in 2011 by DC Comics?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Infamous"
+      },
+      {
+        "id": "option-1",
+        "text": "Left 4 Dead: The Sacrifice"
+      },
+      {
+        "id": "option-2",
+        "text": "Prototype"
+      },
+      {
+        "id": "option-3",
+        "text": "Kane & Lynch"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2075,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:bdfecd3c19c02045",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Black Hammer, what city did the heroes save from the Anti-God?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spiral City"
+      },
+      {
+        "id": "option-1",
+        "text": "Mega-City One"
+      },
+      {
+        "id": "option-2",
+        "text": "Rockwood"
+      },
+      {
+        "id": "option-3",
+        "text": "Star City"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2269,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:5b682d1d6589c811",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Batman comics, by what other name is the villain Dr. Jonathan Crane known?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scarecrow"
+      },
+      {
+        "id": "option-1",
+        "text": "Bane"
+      },
+      {
+        "id": "option-2",
+        "text": "Calendar Man"
+      },
+      {
+        "id": "option-3",
+        "text": "Clayface"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2367,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:0b8740ec6d70ee7a",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Hellboy universe, who founded the BPRD?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Trevor Bruttenholm"
+      },
+      {
+        "id": "option-1",
+        "text": "Kate Corrigan"
+      },
+      {
+        "id": "option-2",
+        "text": "Johann Kraus"
+      },
+      {
+        "id": "option-3",
+        "text": "Benjamin Daimio"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2384,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f875c8da161da0da",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Hellboy universe, what was Abe Sapien's birth name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Langdon Everett Caul"
+      },
+      {
+        "id": "option-1",
+        "text": "Lord Baltimore"
+      },
+      {
+        "id": "option-2",
+        "text": "Sir Edward Grey"
+      },
+      {
+        "id": "option-3",
+        "text": "Landis Pope"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2455,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:7c55e2a7278d5966",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the first Robin in the Batman comics?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dick Grayson"
+      },
+      {
+        "id": "option-1",
+        "text": "Bruce Wayne"
+      },
+      {
+        "id": "option-2",
+        "text": "Jason Todd"
+      },
+      {
+        "id": "option-3",
+        "text": "Tim Drake"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2512,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:21b19ca927dd3d36",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first American Vampire (Scott Snyder's American Vampire)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Skinner Sweet"
+      },
+      {
+        "id": "option-1",
+        "text": "Hattie Hargrove"
+      },
+      {
+        "id": "option-2",
+        "text": "Pearl Jones"
+      },
+      {
+        "id": "option-3",
+        "text": "James \"Jim\" Book"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2610,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f1d01b0be5c18cfb",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Better known by his nickname Logan, what is Wolverine's birth name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James Howlett"
+      },
+      {
+        "id": "option-1",
+        "text": "Logan Wolf"
+      },
+      {
+        "id": "option-2",
+        "text": "Thomas Wilde"
+      },
+      {
+        "id": "option-3",
+        "text": "John Savage"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2635,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:52585dd3c11c02d9",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the main character in the webcomic Gunnerkrigg Court by Tom Siddell?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Antimony"
+      },
+      {
+        "id": "option-1",
+        "text": "Bismuth"
+      },
+      {
+        "id": "option-2",
+        "text": "Mercury"
+      },
+      {
+        "id": "option-3",
+        "text": "Cobalt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2698,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:48faf15b073c6937",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Sonic the Hedgehog\" comic, who was the creator of Roboticizer? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Professor Charles the Hedgehog"
+      },
+      {
+        "id": "option-1",
+        "text": "Julian Robotnik"
+      },
+      {
+        "id": "option-2",
+        "text": "Ivo Robotnik"
+      },
+      {
+        "id": "option-3",
+        "text": "Snively Robotnik"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2856,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:5f7685dc18bda4e4",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the Three Virtues of Bionicle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Unity, Duty, Destiny"
+      },
+      {
+        "id": "option-1",
+        "text": "Build, Play, Change"
+      },
+      {
+        "id": "option-2",
+        "text": "Work, Play, Live"
+      },
+      {
+        "id": "option-3",
+        "text": "Forge, Build, Fight"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2875,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:aa60797aff4d73ae",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real full name of Captain America?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steven Grant Rogers "
+      },
+      {
+        "id": "option-1",
+        "text": "Steven John Rogers"
+      },
+      {
+        "id": "option-2",
+        "text": "Steven Peggy Rogers"
+      },
+      {
+        "id": "option-3",
+        "text": "Steven William Rogers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3034,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:293ac74cf85cb6e3",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who created Ultron of Earth-616?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Henry Pym"
+      },
+      {
+        "id": "option-1",
+        "text": "Amadeus Cho"
+      },
+      {
+        "id": "option-2",
+        "text": "Tony Stark"
+      },
+      {
+        "id": "option-3",
+        "text": "Reed Richards"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3124,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f02cfe816bd38e25",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the inspiration for Cuthbert Calculus in the Tintin series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Auguste Picard"
+      },
+      {
+        "id": "option-1",
+        "text": "Jacques Piccard"
+      },
+      {
+        "id": "option-2",
+        "text": "Will Morris"
+      },
+      {
+        "id": "option-3",
+        "text": "J. Cecil Maby"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3206,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:6f038d9ba6ecb66c",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Batman sidekick is the son of Talia al Ghul?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Damian Wayne"
+      },
+      {
+        "id": "option-1",
+        "text": "Dick Grayson"
+      },
+      {
+        "id": "option-2",
+        "text": "Tim Drake"
+      },
+      {
+        "id": "option-3",
+        "text": "Jason Todd"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3392,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f16ad622dce5ef30",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In DC comics, what is Owlman's real name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Thomas Wayne Jr."
+      },
+      {
+        "id": "option-1",
+        "text": "Thomas Wayne"
+      },
+      {
+        "id": "option-2",
+        "text": "Bruce Wayne"
+      },
+      {
+        "id": "option-3",
+        "text": "Joseph Chill "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3393,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:a36fce62da758321",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the comics, which Sonic character took command of the Dark Legion after Luger's assassination?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lien-Da"
+      },
+      {
+        "id": "option-1",
+        "text": "Kragok"
+      },
+      {
+        "id": "option-2",
+        "text": "Dimitri"
+      },
+      {
+        "id": "option-3",
+        "text": "Remington"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3443,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:7fd8103a53d0feb4",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which universe crossover was introduced in the \"Sonic the Hedgehog\" comic issue #247?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mega Man"
+      },
+      {
+        "id": "option-1",
+        "text": "Super Mario Brothers"
+      },
+      {
+        "id": "option-2",
+        "text": "Alex Kidd"
+      },
+      {
+        "id": "option-3",
+        "text": "Super Monkey Ball"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3459,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:e0ec1a475210921b",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which planet did Superman come from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Krypton"
+      },
+      {
+        "id": "option-1",
+        "text": "Avalon"
+      },
+      {
+        "id": "option-2",
+        "text": "Xolnar"
+      },
+      {
+        "id": "option-3",
+        "text": "Starhaven"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3486,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:cdd29d4364d1be15",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the comic about a young boy, and a tiger who is actually a stuffed animal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Calvin and Hobbes"
+      },
+      {
+        "id": "option-1",
+        "text": "Winnie the Pooh"
+      },
+      {
+        "id": "option-2",
+        "text": "Albert and Pogo"
+      },
+      {
+        "id": "option-3",
+        "text": "Peanuts"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3544,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:10ccaa59792690ae",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the alter-ego of the DC comics character \"Superman\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Clark Kent"
+      },
+      {
+        "id": "option-1",
+        "text": "Bruce Wayne"
+      },
+      {
+        "id": "option-2",
+        "text": "Arthur Curry"
+      },
+      {
+        "id": "option-3",
+        "text": "John Jones"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3570,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:982781d75205fa8b",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Calvin and Hobbes, what is the name of Susie's stuffed rabbit?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mr. Bun"
+      },
+      {
+        "id": "option-1",
+        "text": "Mr. Bunbun"
+      },
+      {
+        "id": "option-2",
+        "text": "Mr. Rabbit"
+      },
+      {
+        "id": "option-3",
+        "text": "Mr. Hoppy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3617,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:a915c59fed8b3bc3",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the Garfield comic first published?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1978"
+      },
+      {
+        "id": "option-1",
+        "text": "1982"
+      },
+      {
+        "id": "option-2",
+        "text": "1973"
+      },
+      {
+        "id": "option-3",
+        "text": "1988"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3674,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:7bb5ca759a2c61ac",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the webcomic \"Ava's Demon\", what sin is \"Nevy Nervine\" based off of? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Envy "
+      },
+      {
+        "id": "option-1",
+        "text": "Sloth"
+      },
+      {
+        "id": "option-2",
+        "text": "Wrath "
+      },
+      {
+        "id": "option-3",
+        "text": "Lust"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3705,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:7a445c9d40ca8e76",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Calvin"
+      },
+      {
+        "id": "option-1",
+        "text": "Calvin Klein"
+      },
+      {
+        "id": "option-2",
+        "text": "Calvin Coolidge"
+      },
+      {
+        "id": "option-3",
+        "text": "Phillip Calvin McGraw"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3923,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:34fc7b2047529073",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 1978, Superman teamed up with what celebrity, to defeat an alien invasion?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Muhammad Ali"
+      },
+      {
+        "id": "option-1",
+        "text": "Mike Tyson"
+      },
+      {
+        "id": "option-2",
+        "text": "Sylvester Stallone"
+      },
+      {
+        "id": "option-3",
+        "text": "Arnold Schwarzenegger"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3935,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:3f2cf0e1ba91ae97",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Doom Patrol member was a later addition, first appearing in 1989?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Crazy Jane"
+      },
+      {
+        "id": "option-1",
+        "text": "Elast-Girl"
+      },
+      {
+        "id": "option-2",
+        "text": "Robotman"
+      },
+      {
+        "id": "option-3",
+        "text": "Negative Man"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4247,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:4f7fac98ec9bb0ec",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Marvel Comics, Taurus is the founder and leader of which criminal organization?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Zodiac"
+      },
+      {
+        "id": "option-1",
+        "text": "Scorpio"
+      },
+      {
+        "id": "option-2",
+        "text": "Tiger Mafia"
+      },
+      {
+        "id": "option-3",
+        "text": "The Union"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4444,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:559617b6b9fe9b58",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Calvin and Hobbes, what is the name of the principal at Calvin's school?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mr. Spittle"
+      },
+      {
+        "id": "option-1",
+        "text": "Mr. Boreman"
+      },
+      {
+        "id": "option-2",
+        "text": "Mr. Spitling"
+      },
+      {
+        "id": "option-3",
+        "text": "Mr. Moe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4454,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:45d238518c471e6e",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who authored The Adventures of Tintin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hergé"
+      },
+      {
+        "id": "option-1",
+        "text": "E.P. Jacobs"
+      },
+      {
+        "id": "option-2",
+        "text": "Rin Tin Tin"
+      },
+      {
+        "id": "option-3",
+        "text": "Chic Young"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4529,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:169cd41ec0219af2",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did the first \"The Walking Dead\" comic come out?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2003"
+      },
+      {
+        "id": "option-1",
+        "text": "2001"
+      },
+      {
+        "id": "option-2",
+        "text": "2006"
+      },
+      {
+        "id": "option-3",
+        "text": "1999"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4751,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:1f508c11ffb7be9c",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Black Hammer, what dimension does Colonel Weird travel through?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Para-Zone"
+      },
+      {
+        "id": "option-1",
+        "text": "Hyperspace"
+      },
+      {
+        "id": "option-2",
+        "text": "Mirror Universe"
+      },
+      {
+        "id": "option-3",
+        "text": "Phantom Zone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4774,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:94e4c457a816fe3b",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Marvel comics, which of the following is not one of the infinity stones?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Energy"
+      },
+      {
+        "id": "option-1",
+        "text": "Time"
+      },
+      {
+        "id": "option-2",
+        "text": "Power"
+      },
+      {
+        "id": "option-3",
+        "text": "Soul"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4842,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:cef23adfa96da2ef",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wally West"
+      },
+      {
+        "id": "option-1",
+        "text": "Johnny Quick"
+      },
+      {
+        "id": "option-2",
+        "text": "Jay Garrick"
+      },
+      {
+        "id": "option-3",
+        "text": "Eobard Thawne"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4866,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:6a768e0ea3695286",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dark Elves"
+      },
+      {
+        "id": "option-1",
+        "text": "Frost Giants"
+      },
+      {
+        "id": "option-2",
+        "text": "Kronans"
+      },
+      {
+        "id": "option-3",
+        "text": "Skrulls"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4930,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:cfaaccbc6a9e11c6",
+    "category": "comics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The \"Pepe\" meme originated from a comic drawn by Matt Furie called \"Boy's Club\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5073,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:c5ba3ccd153e75d6",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following superheros did Wonder Woman NOT have a love interest in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Green Arrow"
+      },
+      {
+        "id": "option-1",
+        "text": "Superman"
+      },
+      {
+        "id": "option-2",
+        "text": "Batman"
+      },
+      {
+        "id": "option-3",
+        "text": "Steve Trevor"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5135,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f38ce80fc5644c61",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real name of the \"Master Of Magnetism\" Magneto?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Max Eisenhardt"
+      },
+      {
+        "id": "option-1",
+        "text": "Charles Xavier"
+      },
+      {
+        "id": "option-2",
+        "text": "Pietro Maximoff"
+      },
+      {
+        "id": "option-3",
+        "text": "Johann Schmidt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5153,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:ba1a138a407601c1",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What otherworldly land does Thor come from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Asgard"
+      },
+      {
+        "id": "option-1",
+        "text": "Midgard"
+      },
+      {
+        "id": "option-2",
+        "text": "Jotunheim"
+      },
+      {
+        "id": "option-3",
+        "text": "Sovengarde"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5390,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:d9220f6558c9a3e8",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the Batman comic series \"The Killing Joke\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alan Moore"
+      },
+      {
+        "id": "option-1",
+        "text": "Bill Finger"
+      },
+      {
+        "id": "option-2",
+        "text": "Frank Miller"
+      },
+      {
+        "id": "option-3",
+        "text": "Jerry Siegel"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5596,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:03681fa57e0d4536",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Homestuck\" what is Dave Strider's guardian?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bro"
+      },
+      {
+        "id": "option-1",
+        "text": "Becquerel"
+      },
+      {
+        "id": "option-2",
+        "text": "Doc Scratch"
+      },
+      {
+        "id": "option-3",
+        "text": "Halley"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5688,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:86b674e7a95e3e26",
+    "category": "comics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the comic book \"Archie\", Betty is friends with Veronica because she is rich.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5779,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:f11e51ab183d89d6",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was the first San Diego Comic-Con?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1970"
+      },
+      {
+        "id": "option-1",
+        "text": "2000"
+      },
+      {
+        "id": "option-2",
+        "text": "1990"
+      },
+      {
+        "id": "option-3",
+        "text": "1985"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5879,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:cd2b9a2a943dff8d",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's the weakness of american vampires (Scott Snyder's American Vampire)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gold"
+      },
+      {
+        "id": "option-1",
+        "text": "Sunlight"
+      },
+      {
+        "id": "option-2",
+        "text": "Wood"
+      },
+      {
+        "id": "option-3",
+        "text": "Silver"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5932,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:7e093e5ce20da290",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which \"Green Arrow\" sidekick commonly wears a baseball cap?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roy Harper"
+      },
+      {
+        "id": "option-1",
+        "text": "Black Canary"
+      },
+      {
+        "id": "option-2",
+        "text": "Emiko Queen"
+      },
+      {
+        "id": "option-3",
+        "text": "Dick Grayson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5954,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:comics:53ec98cbb2f103a2",
+    "category": "comics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Marvel comic \"The Superior Spider-Man\", Peter Parker's body is taken over by which character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Otto Octavius "
+      },
+      {
+        "id": "option-1",
+        "text": "Norman Osborn"
+      },
+      {
+        "id": "option-2",
+        "text": "Mary Jane"
+      },
+      {
+        "id": "option-3",
+        "text": "Eddie Brock "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6044,
+      "category": "Entertainment: Comics",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

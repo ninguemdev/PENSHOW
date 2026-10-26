@@ -6,9 +6,9 @@ Este documento detalha uma partida completa para orientar os primeiros protótip
 
 Confirmado para a final: vidas iniciais de 5 / 4 / 3 / 2, para sobreviver a 4 / 3 / 2 / 1 perdas; somente a primeira resposta de cada pergunta é avaliada; erro custa uma vida; acerto permite tirar uma vida de qualquer adversário ainda na disputa.
 
-**Atualização de 20/10/2026 — modo clássico padrão:** o usuário definiu cinco fases no total, com modalidades diferentes em ordem aleatória e a final obrigatoriamente na quinta posição. A [T36](tasks/T36-modo-classico-padrao.md) planeja quatro modalidades distintas sorteadas entre as cinco de pontuação disponíveis e depois a final. O pedido substitui a sequência fixa de seis etapas proposta abaixo. As fichas, números de fase e orçamentos antigos permanecem como referência dos protótipos; a T36 deve adequar seleção, pontuação acumulada, interfaces e simulações ao plano sorteado. D02–D06 continuam em consulta.
+**Atualização de 20/10/2026 — modo clássico padrão:** o usuário definiu cinco fases no total, com modalidades diferentes em ordem aleatória e a final obrigatoriamente na quinta posição. A [T36](tasks/T36-modo-classico-padrao.md) integra quatro modalidades distintas sorteadas entre as cinco de pontuação disponíveis e depois a final. O pedido substitui a sequência fixa de seis etapas proposta abaixo. As fichas, números de fase e orçamentos antigos permanecem como referência dos protótipos; a seleção e o orçamento devem considerar apenas as quatro modalidades sorteadas.
 
-Perguntas enviadas durante este planejamento: duração desejada, pergunta da final sem resposta, ataque sem escolha de alvo, dinâmica da quinta fase, quantidade de jogadores com direito ao roubo e desempate antes da final. Enquanto não houver resposta, as alternativas de trabalho abaixo permanecem propostas. Isso permite concluir o planejamento sem bloquear a tarefa e sem transformar silêncio em confirmação.
+**Atualização de 23/10/2026 — respostas de D01–D09:** meta de 20–30 minutos aprovada; todos os ativos perdem uma vida se ninguém responder na final; ausência de alvo causa sorteio entre todos os ativos, inclusive quem acertou; dinamite por turnos aprovada; primeiro acerto rouba até 100 e todos os acertos ganham 100; empate em pontos e acertos recebe vidas iguais com posições consecutivas por grupo, sem saltos. Eliminados simultaneamente disputam minigame de tiro 2D top-down com três vidas iniciais e pergunta ao chegar a zero: erro elimina, acerto concede uma vida. A abordagem visual por protótipo foi aprovada. Hospedagem como no Comicle fica por último, aguardando VM a ser criada pelo usuário. As duas dúvidas anteriores foram resolvidas, conforme [decisões](decisoes.md). D02/D03/D06/D09 estão aplicadas em desenvolvimento/teste pela T39, conforme [guia](desempate-tiro.md); a T20 aplica o teto de roubo de 100.
 
 ## 2. Partida padrão proposta anteriormente — referência dos protótipos
 
@@ -19,7 +19,7 @@ Uma **fase** é uma das seis etapas da partida. Uma **pergunta** é uma disputa 
 | 1 | Aquecimento (quiz clássico) | 6 perguntas | Todos | Acerto +100; erro ou ausência 0 |
 | 2 | Velocidade | 6 perguntas | Todos | Acerto +100 e bônus de 0, 25 ou 50 |
 | 3 | Aposta | 6 perguntas | Todos | Acerto +100 e a aposta; erro perde a aposta |
-| 4 | Roubo | 6 perguntas | Todos | Acerto +100; primeiro acerto pode roubar até 50 |
+| 4 | Roubo | 6 perguntas | Todos | Acerto +100; primeiro acerto pode roubar até 100 |
 | 5 | Dinamite | 2 turnos por participante | Somente quem está com a dinamite | Acerto +300; erro ou ausência −150 |
 | 6 | Final | Até restar um jogador com vida | Só a primeira resposta é avaliada | Erro −1 vida; acerto permite ataque de −1 vida |
 
@@ -27,7 +27,7 @@ As fases 1 a 5 acumulam o mesmo placar. Todos começam com zero pontos; o saldo 
 
 As cinco primeiras fases são fixas e aparecem nesta ordem na primeira versão proposta. Sorteio de modalidades e partidas personalizadas ficam para depois dos testes do formato padrão.
 
-Meta inicial de duração, ainda em consulta: cerca de 20 a 30 minutos para grupos de quatro a oito pessoas. Grupos pequenos tendem a terminar antes; doze participantes exigem um orçamento maior. A final não tem um limite fixo de perguntas que substitua a regra de último sobrevivente.
+Meta de duração aprovada em D01: cerca de 20 a 30 minutos para grupos de quatro a oito pessoas, a validar com pessoas no modo de cinco fases. Grupos pequenos tendem a terminar antes; doze participantes exigem um orçamento maior. A final não tem um limite fixo de perguntas que substitua o desfecho por vidas.
 
 ## 3. Entrada e preparação
 
@@ -152,30 +152,30 @@ Máximo individual da fase: **+900 pontos**, se houver saldo para apostar 50 em 
 
 Objetivo: permitir interação e recuperação de posições, mantendo pontuação por conhecimento para todos.
 
-**Proposta de trabalho enviada para escolha:** somente o primeiro que acertar pode roubar; os demais acertos também pontuam.
+**Confirmado em D05 (23/10/2026):** somente o primeiro que acertar pode roubar; os demais acertos também pontuam. Teto de transferência de 100 aplicado na T20.
 
 - Seis perguntas; todos respondem dentro do mesmo prazo.
 - Cada acerto recebe **+100 pontos**; erro ou ausência recebe zero.
 - Depois de fechar as respostas, identificar a primeira resposta correta recebida. Uma resposta errada mais rápida não bloqueia a modalidade.
 - Somente esse jogador recebe seis segundos para escolher qualquer adversário participante com saldo positivo.
-- Transferir **até 50 pontos** do alvo para quem roubou: `roubo = mínimo(50, saldo do alvo)`.
+- Transferir **até 100 pontos** do alvo para quem roubou: `roubo = mínimo(100, saldo do alvo)`.
 - Calcular o saldo do alvo depois de aplicar os pontos de acerto daquela pergunta.
 - Sem alvo válido ou sem escolha no prazo: não ocorre roubo; os pontos do acerto permanecem.
 - Alvos e respostas ficam ocultos até o momento da revelação correspondente. Não mostrar quem conquistou o roubo enquanto ainda houver respostas abertas.
 
-O roubo transfere pontos existentes. O acerto cria os 100 pontos da modalidade; o roubo não cria outros 50 no placar total da sala.
+O roubo transfere pontos existentes. O acerto cria os 100 pontos da modalidade; a transferência de até 100 não cria pontos no placar total da sala.
 
-Exemplo: Ana e Beto acertam, mas Ana responde primeiro. Ambos ganham 100. Se Beto tiver 340 depois desse crédito, Ana pode roubar 50: ela recebe **150 no total**, e Beto termina a pergunta com **290**. Se o alvo tiver apenas 30, transferem-se somente 30.
+Exemplo: Ana e Beto acertam, mas Ana responde primeiro. Ambos ganham 100. Se Beto tiver 340 depois desse crédito, Ana pode roubar 100: ela recebe **200 no total**, e Beto termina a pergunta com **240**. Se o alvo tiver apenas 30, transferem-se somente 30.
 
-Máximo individual acrescentado na fase: **900 pontos**, se acertar todas e conquistar os seis roubos completos. Um jogador pode sofrer até 300 pontos de roubo na fase, limitado pelo saldo em cada pergunta. A vantagem de acertar primeiro é menor que o valor base do conhecimento.
+Máximo individual acrescentado na fase: **1.200 pontos**, se acertar todas e conquistar os seis roubos completos. Um jogador pode sofrer até 600 pontos de roubo na fase, limitado pelo saldo em cada pergunta. O roubo integral tem o mesmo valor da base do acerto; reavaliar o equilíbrio em T32.
 
-Se a escolha do usuário for permitir roubo a todos os acertos, será necessário substituir esta ficha por uma resolução coletiva de transferências e revisar os limites. Não implementar os dois formatos simultaneamente por suposição.
+Não há roubo coletivo: D05 confirmou o direito exclusivo do primeiro acerto. A ausência de escolha continua sem transferência nesta modalidade; o sorteio de D03 aplica-se somente à final.
 
 ## 10. Fase 5 — Dinamite
 
 Objetivo: criar uma sequência de turnos com risco maior, sem entregar ao próximo jogador uma contagem já vencida.
 
-**Proposta de trabalho enviada para escolha:** dinamite por turnos, com um prazo novo em cada turno. Alternativas em consulta: destaque com respostas simultâneas ou sequência de acertos.
+**Confirmado em D04 (23/10/2026):** dinamite por turnos, dois por participante, com um prazo individual completo em cada turno. No modo clássico pode ocupar qualquer posição 1 a 4 quando sorteada.
 
 ### Quantidade e ordem
 
@@ -212,7 +212,7 @@ Essa versão usa a tensão visual da passagem de dinamite e garante duas oportun
 
 Esses são máximos individuais por fase, não uma promessa de que todos os jogadores possam obtê-los ao mesmo tempo. Na fase de roubo, só uma pessoa conquista o roubo de cada pergunta.
 
-Proposta de equilíbrio: os acertos sempre têm valor relevante; velocidade e roubo acrescentam no máximo 50 por pergunta; a aposta também é limitada a 50; a fase de maior risco tem apenas dois turnos por pessoa. Não há multiplicador de última pergunta nem dobrar o placar ao entrar na final.
+Proposta de equilíbrio: os acertos sempre têm valor relevante; velocidade acrescenta no máximo 50 e roubo até 100 por pergunta; a aposta também é limitada a 50; a fase de maior risco tem apenas dois turnos por pessoa. Não há multiplicador de última pergunta nem dobrar o placar ao entrar na final.
 
 Registrar depois dos testes: pontuação média por fase, variação de posição, concentração de roubos e taxa de vitória por posição inicial da final. Não tratar o formato como equilibrado apenas por fechar a aritmética.
 
@@ -224,8 +224,8 @@ Registrar depois dos testes: pontuação média por fase, variação de posiçã
 | Aquecimento | 4 acertos | +400 | 400 |
 | Velocidade | 2 acertos de 150, 1 de 125 e 1 de 100 | +525 | 925 |
 | Aposta | Aposta 25 nas seis: 4 acertos e 2 erros | +450 | 1.375 |
-| Roubo | 4 acertos, 2 roubos de 50 e sofreu 1 roubo de 50 | +450 | 1.825 |
-| Dinamite | 1 acerto e 1 erro | +150 | **1.975** |
+| Roubo | 4 acertos, 2 roubos de 100 e sofreu 1 roubo de 100 | +500 | 1.875 |
+| Dinamite | 1 acerto e 1 erro | +150 | **2.025** |
 
 O exemplo descreve um jogador, não a resolução completa de toda a sala.
 
@@ -233,13 +233,13 @@ O exemplo descreve um jogador, não a resolução completa de toda a sala.
 
 Ao encerrar a quinta fase, congelar o placar e mostrar quem ganhou cada faixa de vidas.
 
-Desempate de trabalho proposto, com a escolha entre perguntas extras, sorteio e vidas iguais enviada para consulta:
+Classificação com D06 respondida em 23/10/2026:
 
 1. Maior pontuação acumulada.
 2. Maior número de acertos nas cinco fases.
-3. Persistindo igualdade, sorteio entre os empatados, exibido como desempate antes da distribuição de vidas.
+3. Persistindo igualdade, os empatados recebem **a mesma colocação e vidas**, sem sorteio residual nem perguntas extras. Contar posições por grupo, sem saltos: dois empatados em 1º recebem cinco vidas cada; o próximo grupo é 2º e recebe quatro, depois três e dois para o 4º grupo em diante. Todos empatados recebem cinco vidas; ver [decisões](decisoes.md).
 
-Não usar entrada na sala, condição de anfitrião ou ordem das conexões como critério. Não usar tempo de resposta acumulado, para que velocidade não decida também esse empate sem indicação. O sorteio final é uma proposta para avaliação; sua substituição não muda a pontuação das fases.
+Não usar entrada na sala, condição de anfitrião, ordem das conexões ou tempo de resposta acumulado como critério. A igualdade de vidas não altera a pontuação acumulada.
 
 Cada participante tem 26 oportunidades de resposta antes da final: 24 nas quatro primeiras fases e duas na dinamite. A quantidade total de perguntas exibidas à sala varia porque os turnos da dinamite são individuais.
 
@@ -254,7 +254,7 @@ Cada participante tem 26 oportunidades de resposta antes da final: 24 nas quatro
 | 3º | 3 | 2 | Na terceira perda |
 | 4º em diante | 2 | 1 | Na segunda perda |
 
-Os pontos servem para distribuir essas vidas uma única vez. Durante a final não há pontos, apostas, roubo, cura ou recálculo de vidas nesta proposta.
+As colocações da tabela contam grupos consecutivos por pontos e acertos, sem consumir posições extras quando há empate. Os pontos servem para distribuir essas vidas uma única vez. Durante o quiz da final não há pontos, apostas, roubo, cura ou recálculo de vidas. O minigame de desempate usa vidas separadas e permite recuperar uma vida ao acertar a pergunta de sobrevivência.
 
 ### Uma disputa por pergunta
 
@@ -269,19 +269,30 @@ Uma pergunta respondida causa somente uma perda: erro do primeiro ou ataque do p
 
 Mostrar a escolha como `Sua resposta foi a primeira` apenas depois de o servidor aceitá-la. Os demais veem a pergunta fechada; o cliente não promete prioridade antes da confirmação.
 
-### Situações consultadas durante o planejamento
+### Ausências confirmadas em 23/10/2026
 
-| Situação | Proposta de trabalho, ainda não confirmada |
+| Situação | Regra confirmada |
 |---|---|
-| Ninguém respondeu até 15 s | Revelar e passar para a próxima pergunta, sem perda de vidas |
-| Acertou, mas não escolheu alvo em 6 s | Atacar automaticamente o adversário com mais vidas; sortear se houver empate |
+| Ninguém respondeu até 15 s | Todos os participantes ainda ativos perdem uma vida; aplicar uma única resolução coletiva |
+| Acertou, mas não escolheu alvo em 6 s | Sortear entre todos os participantes ainda ativos, incluindo quem acertou; o sorteado perde uma vida |
 | Acertou e desconectou antes de escolher | Aguardar o mesmo prazo e aplicar a mesma regra de alvo automático |
 
-A proposta de alvo automático serve somente à ausência de escolha. Enquanto o prazo estiver aberto, o jogador mantém o direito confirmado de escolher qualquer adversário.
+A regra de alvo automático serve somente à ausência de escolha na final. Todos os ativos têm a mesma chance, incluindo os desconectados; eliminados ficam fora. Enquanto o prazo estiver aberto, o jogador mantém o direito de escolher qualquer adversário, sem escolher a si mesmo. O resultado automático é registrado uma única vez e não é sorteado novamente ao reconectar.
 
 ### Vitória e classificação final
 
-Proposta: o último participante com vida vence a partida. O segundo é o último eliminado; o terceiro é o penúltimo eliminado, e assim por diante. Como cada jogada tira só uma vida de uma pessoa, não há empate por eliminação simultânea nesse fluxo.
+Proposta: o último participante com vida vence a partida. O segundo é o último eliminado; o terceiro é o penúltimo eliminado, e assim por diante. D02 permite eliminações simultâneas; D09 determina que o grupo empatado dispute o minigame de tiro para resolver suas colocações, inclusive se todos os ativos chegarem a zero juntos. Não ordenar esse grupo por conexão ou processamento de eventos.
+
+### Minigame de tiro para desempatar eliminações simultâneas
+
+1. Encaminhar os participantes eliminados na mesma resolução para uma arena de tiro **2D top-down**, como desempate dentro da final, sem acrescentar uma sexta fase.
+2. Cada um começa com **3 vidas**, próprias do combate, separadas das vidas do quiz.
+3. Quando um participante chega a **zero**, apresentar uma pergunta a ele.
+4. Se **errar**, morre e é eliminado do minigame. Se **acertar**, ganha **1 vida** e continua.
+5. Aplicar a mesma regra se o jogador chegar a zero novamente. O acerto não restaura as três vidas iniciais.
+6. Integrar o resultado do combate às colocações do grupo empatado e ao pódio. Empates de pontos antes da final seguem D06 e não disparam este minigame.
+
+A [T39](tasks/T39-desempate-tiro-top-down.md) e seu [plano de implementação](plano-desempate.md) especificam controles, sincronização, perguntas, resultado, reconexão e nove unidades de entrega. Arena, cadência, prazos e simultaneidade no próprio minigame estão documentados como escolhas iniciais de protótipo, preservando as regras confirmadas acima. A recuperação de uma vida no combate não restaura uma vida no quiz.
 
 O placar das fases anteriores aparece como histórico; não substitui a vitória na final. Eliminados acompanham como espectadores, sem enviar respostas nem escolher alvos. A revanche retorna todos os membros presentes ao lobby com pontuação e vidas zeradas para uma nova partida.
 
@@ -306,7 +317,7 @@ Com duas pessoas há nove vidas ao todo. Com três ou mais, há `2 × N + 6`. Co
 
 O orçamento da final considera até 29 segundos por jogada: três de leitura, 15 de resposta, seis de alvo, quatro de resultado e um de transição. Uma resposta errada dispensa a escolha de alvo; respostas e escolhas antecipadas também encurtam o tempo.
 
-Esses números não são um limite garantido de duração. Perguntas puladas sem dano, reconexões, pausas e falta de escolha de alvo podem ampliar a partida. Se o usuário escolher perder o ataque em vez de alvo automático, perguntas respondidas também poderão terminar sem dano e essa estimativa deverá ser revisada.
+Esses números são uma referência histórica do orçamento de seis fases, não um limite garantido de duração do modo atual. Recalcular para quatro modalidades sorteadas, empates com vidas iguais e dano coletivo em D02. Toda pergunta final resolvida pelas políticas aprovadas causa perda de vidas; o orçamento depende também da narração, reconexões e pausas. A meta D01 aprovada continua sujeita à medição humana.
 
 ## 15. Conexão, ausência e ações do anfitrião
 
@@ -315,7 +326,7 @@ Propostas operacionais:
 - Queda não apaga pontos, resposta, aposta, turno nem vidas; voltar não concede prazo adicional.
 - Nas fases 1 a 4, uma resposta ausente vale erro para a modalidade: zero no aquecimento/velocidade/roubo; perda da aposta na aposta.
 - Na dinamite, o turno agendado permanece; se não voltar e responder no prazo, recebe a penalidade normal de até 150.
-- Na final, ficar sem responder não tira vida individualmente: a perda por erro exige ser o primeiro a enviar uma resposta errada. A regra coletiva de prazo sem resposta continua em consulta.
+- Na final, a perda individual por erro exige ser o primeiro a enviar uma resposta errada. Se ninguém responder, todos os ativos perdem uma vida por D02, inclusive os desconectados. Um participante desconectado também pode ser sorteado por D03 se ainda estiver ativo.
 - Adversário desconectado que ainda tem vidas pode ser alvo. Sem isso, desconectar permitiria evitar ataques.
 - O anfitrião pode remover pessoas no lobby. Durante a partida, não pode expulsar um adversário para alterar a classificação; encerramento da partida deve ser coletivo e aparecer como interrupção sem vencedor.
 - Se o anfitrião cair, transferir o controle após 30 segundos para um participante conectado. Isso não altera a vez, o placar ou o prazo.
@@ -332,7 +343,7 @@ Na primeira versão, não oferecer pausa manual no meio de perguntas. Isso evita
 - Reservar um conjunto inicial de 50 perguntas para a final, distribuídas pelos temas habilitados; ele não pode ser consumido pelas fases anteriores.
 - Ao escolher temas das fases iniciais, verificar o estoque restante por dificuldade. Na dinamite, exigir uma média e uma difícil por participante.
 - Se o conjunto reservado da final terminar, buscar perguntas revisadas ainda inéditas nos temas habilitados. Não repetir silenciosamente para forçar uma conclusão.
-- Sem conteúdo inédito suficiente, interromper de forma visível e oferecer retorno ao lobby sem declarar um vencedor inventado. A proposta de pular perguntas sem dano não permite garantir um catálogo finito para qualquer duração.
+- Sem conteúdo inédito suficiente, interromper de forma visível e oferecer retorno ao lobby sem declarar um vencedor inventado. Recalcular o orçamento considerando vidas iguais e dano coletivo, preservando o ineditismo.
 - Meta de primeiro teste de grupo: pelo menos 50 perguntas revisadas em cada um de seis temas, com distribuição compatível com o formato. Meta de expansão: 5.000 revisadas.
 - Os 1.531 candidatos importados não cumprem automaticamente essa meta: ainda precisam de revisão, tradução quando aplicável e classificação de dificuldade.
 
@@ -367,14 +378,16 @@ Usar texto e ícones além de cores para acerto, erro e vidas. Garantir botões 
 | Aposta 25 e não responde | −25 pontos, uma única vez |
 | Roubo contra saldo de 30 | Transferir 30, sem deixar negativo |
 | Mais rápido erra, segundo acerta no roubo | Segundo conquista o direito de roubar |
-| Duas pessoas acertam no roubo | Ambas recebem +100; só a primeira recebe o roubo nesta proposta |
+| Duas pessoas acertam no roubo | Ambas recebem +100; só a primeira pode roubar até 100 |
 | Dinamite explode no jogador anterior | Próximo turno recebe dez segundos completos |
 | Erra a primeira dinamite | Continua tendo o segundo turno e continua para a final |
 | Líder perde quatro vidas na final | Permanece com uma; quinta perda elimina |
 | Primeiro erra na final e segundo envia a correta | Primeiro perde uma vida; segunda resposta não é avaliada |
 | Primeiro acerta na final | Somente ele recebe escolha de alvo; retirar uma vida do escolhido |
 | Reenviar resposta ou escolha de alvo | Não duplicar pontos, roubo ou dano |
-| Desconectar depois de acertar na final | Aplicar o mesmo prazo de alvo e a política que for confirmada |
+| Desconectar depois de acertar na final | Aplicar o mesmo prazo; sortear entre todos os ativos, incluindo quem acertou, conforme D03 |
+| Ninguém responde na final | Retirar uma vida de cada participante ativo, uma única vez, sem atingir eliminados |
+| Sorteio automático atinge quem acertou | Retirar uma vida de quem acertou; reconexão não repete o sorteio ou o dano |
 | Duas respostas concorrentes na final | Uma única resposta aceita na fila do servidor |
 | Espectador tenta responder | Rejeitar sem consumir a oportunidade |
 | Todos estão empatados antes da final | Aplicar o desempate definido, sem usar ordem de entrada |
@@ -382,14 +395,14 @@ Usar texto e ícones além de cores para acerto, erro e vidas. Garantir botões 
 
 ## 19. O que validar com as respostas e com partidas reais
 
-As seis perguntas enviadas nesta tarefa orientam duração, modalidade da quinta fase, roubo, ausência na final e desempate de classificação. Incorporar as respostas a este plano e a `regras.md` sem interromper as partes independentes da tarefa.
+As seis escolhas foram respondidas em 23/10/2026 e incorporadas ao plano e às regras. O esclarecimento posterior confirmou posições consecutivas por grupo e o minigame D09, resolvendo as duas dúvidas anteriores. D02/D03/D06/D09 já estão aplicadas na T39; seus testes e percursos de navegador estão registrados na tarefa. Avaliar duração e controles com pessoas em T32, incluindo recuperações sucessivas de uma vida no combate.
 
 Depois do primeiro teste, revisar os valores de 300 / −150 da dinamite, a vantagem do primeiro acerto no roubo, a duração da final com grupos grandes e o critério residual de desempate. Não alterar as vidas confirmadas nem a exclusividade da primeira resposta por conveniência de implementação.
 
 ## Evidência da integração experimental — T36
 
-O [modo clássico](modo-classico.md) já encadeia quatro modalidades sorteadas e a final na quinta posição em desenvolvimento/teste. O orçamento por partida considera apenas as quatro sorteadas, com reserva de 50 perguntas; a matriz do relatório T36 cobre todas as 120 sequências. Os protótipos anteriores e o relatório T27 permanecem como evidência histórica. D02–D06 continuam em consulta; empates e ausências na final têm pendência explícita.
+O [modo clássico](modo-classico.md) já encadeia quatro modalidades sorteadas e a final na quinta posição em desenvolvimento/teste. O orçamento por partida considera apenas as quatro sorteadas, com reserva de 50 perguntas; a matriz do relatório T36 cobre todas as 120 sequências. Os protótipos anteriores e o relatório T27 permanecem como evidência histórica. D02–D06 foram respondidas; a integração T39 substitui as pausas por vidas iguais, dano coletivo, sorteio e combate; o roubo aplica até 100 na T20, preservando o crédito de todos os acertos.
 
 ## Piloto mecânico de equilíbrio — T32
 
-O [piloto local de grupos](testes-de-grupo-e-equilibrio.md) executa o modo de cinco fases com 2/4/8/12 jogadores roteirizados, catálogo publicado e relógio virtual, mantendo os tempos completos. Registra o crescimento dos turnos de dinamite, efeitos de pontuação e conversão em vidas; compara valores alternativos sem mudar a configuração da aplicação. As durações sintéticas não aprovam a meta D01 nem substituem partidas observadas com pessoas. D01–D06 continuam em consulta e nenhum ajuste de pontos foi decidido. O [roteiro de observação humana](roteiro-piloto-de-grupo.md) prepara a próxima avaliação.
+O [piloto local de grupos](testes-de-grupo-e-equilibrio.md) executa o modo de cinco fases com 2/4/8/12 jogadores roteirizados, catálogo publicado e relógio virtual, mantendo os tempos completos. Os resultados anteriores são históricos e precisam de nova execução após aplicação das escolhas de 23/10/2026, inclusive roubo de 100 e ausências da final. As durações sintéticas não substituem partidas observadas com pessoas para validar a meta D01. O [roteiro de observação humana](roteiro-piloto-de-grupo.md) prepara a próxima avaliação.

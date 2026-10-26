@@ -1,0 +1,36 @@
+# PENSHOW only. Connects to the existing Caddy network without recreating Comicle services.
+name: penshow
+
+services:
+  penshow:
+    image: ${PENSHOW_IMAGE:?set PENSHOW_IMAGE to the validated image tag or digest}
+    init: true
+    environment:
+      NODE_ENV: production
+      GAMEPLAY_ENABLED: 'true'
+      NARRATION_ENABLED: 'true'
+      WEB_BASE_PATH: /penshow/
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:?set ALLOWED_ORIGINS to the public HTTPS origin}
+      LOG_LEVEL: info
+    # Only the existing Caddy reaches port 3000 on its Docker network.
+    networks:
+      proxy:
+        aliases:
+          - penshow
+    restart: unless-stopped
+    stop_grace_period: 15s
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+
+networks:
+  proxy:
+    external: true
+    name: ${COMICLE_NETWORK:?set COMICLE_NETWORK to the existing Caddy network}

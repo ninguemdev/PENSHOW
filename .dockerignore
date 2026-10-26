@@ -1,4 +1,5 @@
 .git
+.local-releases
 .github
 **/node_modules
 **/dist
@@ -21,3 +22,4 @@ SKILL.md
 .cursor
 docs
 data/narration/generated
+data/audio-previews

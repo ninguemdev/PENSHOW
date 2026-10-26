@@ -1,6 +1,6 @@
 # T36 — Modo clássico padrão com cinco fases e ordem sorteada
 
-- **Depende de:** [T18](./T18-fase-velocidade.md), [T19](./T19-fase-aposta.md), [T20](./T20-fase-roubo.md), [T21](./T21-quinta-fase-pressao.md), [T25](./T25-podio-e-revanche.md), [T26](./T26-reconexao-e-ciclo-de-vida.md), [T27](./T27-catalogo-de-teste-completo.md)
+- **Depende de:** [T18](./T18-fase-velocidade.md), [T19](./T19-fase-aposta.md), [T20](./T20-fase-roubo.md), [T21](./T21-quinta-fase-pressao.md), [T25](./T25-podio-e-revanche.md), [T26](./T26-reconexao-e-ciclo-de-vida.md), [T27](./T27-catalogo-de-teste-completo.md), [T39](./T39-desempate-tiro-top-down.md)
 - **Pacotes:** server, web, shared, scripts, docs
 - **Marco:** M3
 - **Branch sugerido:** `task/36-modo-classico-padrao`
@@ -38,18 +38,20 @@ Uma modalidade de pontuação fica de fora a cada partida; nenhuma fica permanen
 
 **Modo clássico** identifica a partida completa; a modalidade de perguntas sem modificadores deve aparecer como **quiz simples** ou **aquecimento**, evitando confusão com o protótipo hoje chamado quiz clássico. Separar formato de partida e modalidade no contrato/domínio.
 
-## Decisões já em consulta
+## Decisões respondidas em 23/10/2026
 
-D04 define a variante da modalidade de pressão, que deixa de ter posição fixa; não altera a final na quinta fase. D05 define o direito ao roubo; D06 define o desempate anterior às vidas; D02/D03 definem as ausências de resposta/alvo na final. Esta tarefa não aprova as propostas dessas decisões por consequência do sorteio. A integração pode ser exercitada com variantes explicitamente experimentais; a consolidação do modo padrão exige as políticas aplicáveis definidas e validadas.
+D04 aprova dinamite por turnos; D05 confirma primeiro acerto com roubo de até 100 e +100 para todos os acertos; D06 define vidas iguais com posições consecutivas por grupo, sem saltos; D02 define perda coletiva de uma vida sem resposta; D03 define sorteio entre todos os ativos, inclusive quem acertou, quando falta alvo. D01 aprova a meta de 20–30 minutos. D09 acrescenta tiro 2D top-down para os eliminados simultaneamente: três vidas iniciais, pergunta em zero, erro elimina e acerto concede uma vida. D02/D03/D06/D09 foram aplicadas na T39 e D05 na T20; D04 foi consolidada na T21. A matriz técnica é revalidada em T29/T36, e a observação humana de equilíbrio permanece em T32. Ver [decisões](../decisoes.md).
 
 ## Entregáveis
 
+- [x] Integrar as políticas aprovadas de T20/T21/T22/T23/T24, atualizar contratos/marcadores de consulta, reexecutar a matriz pertinente de T29/T32 e conservar as evidências anteriores como históricas.
+- [x] Integrar o minigame T39 aos grupos eliminados simultaneamente e ao pódio, inclusive quando não restar sobrevivente no quiz, preservando cinco fases totais e vidas separadas entre quiz e combate.
 - [x] Adicionar o formato de partida completo ao domínio e aos contratos públicos, separado da modalidade de cada fase e dos protótipos isolados.
 - [x] Tornar o modo clássico a opção padrão ao criar uma sala e a ação principal de início no lobby, sem exigir escolher uma modalidade isolada.
 - [x] Gerar no servidor, com a porta de aleatoriedade existente, quatro modalidades distintas e sua ordem; acrescentar a final na posição 5.
 - [x] Congelar o plano sorteado, IDs, elenco e parâmetros ao iniciar a partida; separar posição da fase e identidade da modalidade, removendo pressupostos de índices fixos.
 - [x] Integrar instruções, escolha de tema, perguntas/turnos, revelação e resultados das quatro modalidades em uma mesma partida, com avanço automático entre fases.
-- [ ] Conservar pontos e acertos entre fases; preparar classificação/desempate somente após a quarta fase e converter em vidas uma única vez antes da quinta.
+- [x] Conservar pontos e acertos entre fases; preparar classificação/desempate somente após a quarta fase e converter em vidas uma única vez antes da quinta.
 - [x] Integrar a final existente, pódio, histórico das fases efetivamente disputadas e revanche na mesma sala.
 - [x] Adaptar a seleção de perguntas e a reserva da final à lista e à ordem sorteadas, sem exigir a sequência fixa de cinco modalidades do atual `full-prototype`.
 - [x] Recalcular elegibilidade de temas e estoque por dificuldade para o plano real, considerando participantes e apenas as quatro modalidades escolhidas; preservar as 50 perguntas da final e o ineditismo em toda a partida.
@@ -65,7 +67,7 @@ D04 define a variante da modalidade de pressão, que deixa de ter posição fixa
 - [x] O plano e os resultados coincidem para todos os clientes; recarga, reconexão, troca de anfitrião ou reenvio de início não refazem o sorteio.
 - [x] Uma fase concluída inicia a próxima sem voltar ao lobby, zerar pontos ou criar uma nova partida.
 - [x] Aposta pode ser a primeira fase: participantes com saldo zero podem apostar zero, sem crédito inicial artificial. Roubo sem alvo com saldo segue a política da modalidade, sem fabricar pontos.
-- [ ] A final só começa após as quatro fases iniciais e o desempate aplicável, preservando as vidas confirmadas de 5/4/3/2 e a primeira resposta exclusiva.
+- [x] A final só começa após as quatro fases iniciais e o desempate aplicável, preservando as vidas confirmadas de 5/4/3/2 e a primeira resposta exclusiva.
 - [x] Nenhuma pergunta ou ação consumida é reaproveitada ao mudar de modalidade; a reserva da final não é gasta antes da quinta fase.
 - [x] Estoque insuficiente impede iniciar a configuração de forma compreensível; não corrige falta de conteúdo repetindo perguntas, trocando dificuldade ou descartando fases silenciosamente.
 - [x] No pódio, o histórico corresponde às quatro modalidades e à final disputadas, com a ordem e os resultados corretos.
@@ -83,6 +85,12 @@ D04 define a variante da modalidade de pressão, que deixa de ter posição fixa
 - [x] Executar um percurso do modo padrão em desktop e celular emulado; a T29 amplia a matriz ponta a ponta e os cenários de falha.
 - [x] Executar as verificações comuns, atualizar contratos/documentos e registrar evidências antes de concluir a tarefa.
 
+## Consolidação das regras — 23/10/2026
+
+D04/D05 foram aplicadas nas T21/T20, somando-se a D02/D03/D06/D09 da T39. A classificação é criada somente no fim das quatro modalidades e então recebe vidas por grupos consecutivos, sem saltos. O teste integrado verifica que ela permanece ausente durante a pontuação, que o placar final coincide com a última resolução e que nem o placar nem a conversão inicial mudam até o pódio. A primeira resposta exclusiva, perda coletiva, sorteio e combate são preservados.
+
+Os nove testes focados do serviço passaram após essas verificações, assim como os **902 testes** da suíte completa. A enumeração das **120 sequências**, **480 percursos de conteúdo** e **1.260 configurações** foi reproduzida sem repetição. O piloto atualizado concluiu **60/60 percursos** e preservou resultados em relação à T20. As evidências de navegador e os limites de avaliação humana ficam no [registro conjunto](../validation/t21-t36-t29.md).
+
 ## Cuidados de implementação
 
 Reutilizar estratégias, classificação, final, projeções e fila transacional existentes. Não concatenar partidas isoladas nem recalcular placar/vidas no cliente. A posição aleatória não muda o significado de uma modalidade; orçamento de conteúdo, instruções, permissões e histórico devem usar o mesmo plano oficial.
@@ -98,7 +106,7 @@ Aplicar as [convenções e verificações comuns](README.md#convenções-de-impl
 - Gerador enumerado sem amostragem: 120 sequências únicas, 24 omissões por modalidade e 24 ocorrências de cada modalidade por posição inicial.
 - [Relatório T36](../../data/publication-reports/t36-stock.json): 480 percursos do seletor real no catálogo publicado, 1.260 configurações de temas, 50 perguntas reservadas e nenhuma repetição. O relatório histórico T27 permanece separado.
 - Testes do serviço percorrem as cinco fases com quiz simples, velocidade, aposta, roubo e pressão na abertura, além de saldo zero, empate explícito, conexão substituída, estoque insuficiente e revanche.
-- A classificação usa somente as regras já consolidadas do protótipo: empate por pontos publica `ranking`/D06 e não distribui vidas; D02/D03 mantêm as pausas explícitas da final. D04/D05 permanecem variantes experimentais. A consolidação e os critérios de desempate dependem da resposta do usuário; nenhum teste os aprova por consequência.
+- Evidência histórica anterior a 23/10/2026: empate por pontos publicava `ranking`/D06 sem distribuir vidas; D02/D03 mantinham pausas na final e D04/D05 eram variantes experimentais. D02/D03/D06/D09 foram aplicadas na T39; D05 foi aplicada na T20 com teto 100. D04 foi consolidada na T21; os testes antigos permanecem históricos.
 - `pnpm format:check`, `pnpm lint`, `pnpm typecheck`, `pnpm test` e `pnpm build` aprovados. A suíte completa executou 785 testes: 34 de conteúdo, 5 de artes, 186 de shared, 426 de server e 134 de web. Após ajustar a nomenclatura de quiz simples no histórico integrado, os 14 testes de final da web também passaram.
 - `pnpm questions:check`, `pnpm questions:simulate --check` e `pnpm questions:simulate:classic --check` aprovados; as evidências T27 e T36 são reproduzíveis separadamente.
 - `pnpm --filter @penshow/e2e exec playwright test tests/classic-mode.spec.ts tests/classic-smoke.spec.ts`: quatro testes aprovados em 4,1 minutos. O modo completo percorreu lobby, cinco fases, recarga, pódio e revanche em desktop (45,4 s) e celular (45,9 s), com auditoria de HTTP/socket. O quiz simples isolado também passou nos dois dispositivos. A matriz ampliada de falhas continua na T29.

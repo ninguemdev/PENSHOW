@@ -1,5 +1,7 @@
 # T13 — Pontuação pura e parâmetros de regras
 
+**Atualização T20 (23/10/2026):** D05 aplicada com teto de 100 e +100 por acerto para todos. A política padrão de roubo agora é `confirmed`; as evidências originais abaixo, incluindo valores 3.900/3.300 e a trajetória de 1.975, permanecem históricas. Os testes atuais validam ganhos 600/900/900/1.200/600, placares 4.200/3.000 e trajetória 400 → 925 → 1.375 → 1.875 → 2.025.
+
 - **Depende de:** [T02](./T02-contratos-e-documentacao.md)
 - **Pacotes:** server, shared
 - **Marco:** M2

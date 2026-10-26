@@ -47,7 +47,7 @@ export function buildPlayerView(
             ...(room.phase.status === 'match' && room.phase.game
               ? {
                   match: {
-                    ...buildMatchView(room.phase.game.state, viewerId),
+                    ...buildMatchView(room.phase.game.state, viewerId, serverNow),
                     ...(room.phase.game.suspended ? { waitingForPlayers: true } : {}),
                   },
                 }

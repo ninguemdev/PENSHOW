@@ -17,11 +17,11 @@ Converter o desempenho acumulado em vantagem na final preservando exatamente as 
 - [regras.md](../regras.md)
 - [decisoes.md](../decisoes.md)
 
-## Decisões em consulta
+## Decisão confirmada em 23/10/2026
 
-D06 define o desempate residual. Comparação por pontos/acertos e sorteio residual é proposta; não apresentá-la como decisão confirmada.
+D06 confirma vidas iguais para quem permanecer empatado em pontos e acertos, sem sorteio residual nem perguntas extras. As posições contam grupos consecutivos, sem saltos: empatados em 1º recebem cinco vidas cada; o próximo grupo é 2º com quatro, depois três e dois para o 4º grupo em diante. Se todos empatarem, todos recebem cinco vidas, conforme [decisões](../decisoes.md).
 
-A base de classificação e conversão está implementada. D06 continua em consulta: o motor instalado não resolve empates automaticamente. O resumo dos planos isolados usa escopo explícito de protótipo e não inicia a final. A consolidação da política e a integração com as telas posteriores permanecem pendentes.
+A integração T39 aplica D06: vidas iguais e posições consecutivas por grupo, sem pausa em empates. Testes de domínio verificam 5/5/4/3/2 e todos empatados; o e2e T39 entra na final com cinco vidas para ambos. As evidências antigas abaixo são históricas. O empate por pontos/acertos não inicia o minigame de T39.
 
 ## Entregáveis
 
@@ -29,7 +29,8 @@ A base de classificação e conversão está implementada. D06 continua em consu
 - [x] Converter colocações em 5 / 4 / 3 / 2 vidas e congelar a classificação de entrada na final.
 - [x] Representar efeitos de desempate e necessidade de perguntas extras sem acoplar o domínio a sockets, caso D06 escolha essa opção.
 - [x] Expor resumo público da conversão, preservando saldo anterior somente como histórico.
-- [ ] Consolidar a política de desempate após a escolha de D06.
+- [x] Consolidar D06 com vidas iguais por grupo empatado, sem ordenação aleatória ou por conexão, preservando conversão única e reconexão.
+- [x] Atualizar schemas, ranking público, vidas por grupo e interface; cobrir empate parcial, todos empatados e múltiplos grupos. Exigir posições 1/1/2/3/4, com vidas 5/5/4/3/2, sem pular a faixa de quatro vidas.
 
 ## Critérios de aceite
 
@@ -37,12 +38,12 @@ A base de classificação e conversão está implementada. D06 continua em consu
 - [x] Ausência de terceiro/quarto em salas pequenas não cria jogadores ou faixas adicionais.
 - [x] Reconexão e acesso repetido ao retrato de entrada não convertem vidas novamente.
 - [x] Ordem de entrada, socket e condição de anfitrião não decidem um empate.
-- [ ] Validar a entrada na tela de final quando a T24 estiver integrada, conservando a mesma conversão.
+- [x] Validar a entrada na tela de final quando a T24 estiver integrada, conservando a mesma conversão.
 
 ## Verificação
 
 - [x] Testar classificação com 2, 3, 4 e 12 jogadores, vários empates e propostas explicitamente experimentais.
-- [ ] Validar a política definitiva após D06.
+- [x] Validar a política definitiva de D06 em domínio, serviço e navegador na integração T39.
 - [x] Testar conversão repetida, saldo congelado e independência de ordem de um Map de membros.
 
 ## Implementação e evidências
@@ -55,7 +56,7 @@ O agregado da sala protege uma conversão pronta contra alteração na mesma par
 
 Em 19/10/2026, `pnpm test` passou com **348 testes do servidor, 167 de shared, 109 da web, 32 de conteúdo e 5 de artes**, total **661**. Lint, tipagem e build passaram. O domínio cobre 2/3/4/12 participantes, empates parciais/múltiplos, saldo congelado, Map invertido, repetição, conflito, grupo inválido e as duas propostas residuais. A conversão de 12 empatados só atribui vidas após resultado explícito do grupo completo.
 
-Guia: [classificacao-e-vidas.md](../classificacao-e-vidas.md). D06 permanece em consulta, sem alteração de `PENDING_DECISIONS` ou `decisoes.md`. A T23/T25 integrará a entrada real após as fases; as telas de vidas e perdas suportadas pertencem à T24.
+Guia: [classificacao-e-vidas.md](../classificacao-e-vidas.md). As evidências acima foram produzidas antes da resposta de D06, sem alterar então `PENDING_DECISIONS` ou `decisoes.md`. Em 23/10/2026 foram escolhidas vidas iguais e confirmadas posições consecutivas por grupo; a distribuição está aplicada na integração T39, com validação registrada na tarefa.
 
 O smoke clássico focado passou em **desktop 1280×900 e celular emulado 360×780**, com **2 percursos em 2,7 minutos**, sem retry. O navegador recebeu o resumo validado junto do encerramento: placar histórico **500/200**, **5/2 acertos**, atribuição **5/4 vidas**, **4/3 perdas suportadas** e perda eliminatória **5/4**. Perfil, convite, recarga, seis perguntas e retorno ao lobby continuaram funcionando. Os dados da conversão foram conferidos nos eventos públicos auditados, sem criar uma tela de final nesta etapa. A matriz completa das cinco modalidades não foi repetida nesta tarefa; a execução integral anterior está registrada na T21.
 

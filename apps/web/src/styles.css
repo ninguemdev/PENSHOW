@@ -990,3 +990,63 @@ dialog {
     position: static;
   }
 }
+.tiebreak-arena {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+.tiebreak-arena canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 2px solid var(--ink);
+  touch-action: none;
+  box-shadow: 0 12px 30px #17263c20;
+}
+.tiebreak-arena canvas:focus-visible {
+  outline: 4px solid #2463bb;
+  outline-offset: 4px;
+}
+.tiebreak-hud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0;
+  list-style: none;
+}
+.tiebreak-hud li {
+  background: #fffdf7;
+  border: 1px solid #d6d5ce;
+  padding: 0.6rem 0.9rem;
+  border-radius: 12px;
+}
+.tiebreak-pads {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.tiebreak-pad {
+  width: min(40vw, 160px);
+  height: 112px;
+  border: 2px solid #17263c;
+  border-radius: 28px;
+  background: #fbc65b;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  touch-action: none;
+  user-select: none;
+}
+.tiebreak-question {
+  background: #fffdf7;
+  border: 2px solid #2463bb;
+  border-radius: 16px;
+  padding: 1rem;
+  scroll-margin-top: 1rem;
+}
+@media (pointer: fine) {
+  .tiebreak-pads {
+    display: none;
+  }
+}

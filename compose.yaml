@@ -8,6 +8,7 @@ services:
     init: true
     environment:
       NODE_ENV: production
+      GAMEPLAY_ENABLED: ${GAMEPLAY_ENABLED:-false}
       ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://127.0.0.1:8080}
       LOG_LEVEL: ${LOG_LEVEL:-info}
     ports:

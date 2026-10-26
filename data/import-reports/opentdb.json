@@ -1,7 +1,7 @@
 {
   "sourceId": "opentdb",
-  "receivedCount": 1001,
-  "duplicateCount": 0,
+  "receivedCount": 6251,
+  "duplicateCount": 1000,
   "invalid": [
     {
       "recordIndex": 999,
@@ -18,6 +18,376 @@
           "Java",
           "C%2B%2B",
           "Objective-C"
+        ]
+      }
+    },
+    {
+      "recordIndex": 1656,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%3A%20Mathematics",
+        "question": "At%20what%20temperature%20does%20temp%20in%20%C2%B0C%20equal%20temp%20in%20%C2%B0F%3F",
+        "correct_answer": "-40",
+        "incorrect_answers": [
+          "%2B40",
+          "0",
+          "%2B100"
+        ]
+      }
+    },
+    {
+      "recordIndex": 1721,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%3A%20Mathematics",
+        "question": "What%20is%20the%20derivative%20of%20sin%28x%29",
+        "correct_answer": "cos%28x%29",
+        "incorrect_answers": [
+          "csc%28x%29",
+          "-cos%28x%29",
+          "-sin%28x%29"
+        ]
+      }
+    },
+    {
+      "recordIndex": 2015,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment%3A%20Video%20Games",
+        "question": "%22Rollercoaster%20Tycoon%22%20was%20programmed%20mostly%20entirely%20in...",
+        "correct_answer": "x86%20Assembly",
+        "incorrect_answers": [
+          "C%2B%2B",
+          "C",
+          "ALGOL"
+        ]
+      }
+    },
+    {
+      "recordIndex": 2678,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment%3A%20Music",
+        "question": "What%20is%20the%20name%20of%20the%202016%20mixtape%20released%20by%20Venezuelan%20electronic%20producer%20Arca%3F",
+        "correct_answer": "Entra%C3%B1as",
+        "incorrect_answers": [
+          "%26%26%26%26%26%26",
+          "Sheep",
+          "Xen"
+        ]
+      }
+    },
+    {
+      "recordIndex": 2714,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science%3A%20Computers",
+        "question": "What%20major%20programming%20language%20does%20Unreal%20Engine%204%20use%3F",
+        "correct_answer": "C%2B%2B",
+        "incorrect_answers": [
+          "Assembly",
+          "C%23",
+          "ECMAScript"
+        ]
+      }
+    },
+    {
+      "recordIndex": 2872,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%20%26%20Nature",
+        "question": "What%20is%20the%20mathematical%20formula%20of%20Ohm%27s%20law%3F",
+        "correct_answer": "V%20%3D%20I%2AR",
+        "incorrect_answers": [
+          "I%20%3D%20V%2AR",
+          "R%20%3D%20V%2AI",
+          "V%20%3D%20I%20%2F%20R"
+        ]
+      }
+    },
+    {
+      "recordIndex": 2997,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%3A%20Computers",
+        "question": "In%20HTML%2C%20which%20non-standard%20tag%20used%20to%20be%20be%20used%20to%20make%20elements%20scroll%20across%20the%20viewport%3F",
+        "correct_answer": "%3Cmarquee%3E%3C%2Fmarquee%3E",
+        "incorrect_answers": [
+          "%3Cscroll%3E%3C%2Fscroll%3E",
+          "%3Cmove%3E%3C%2Fmove%3E",
+          "%3Cslide%3E%3C%2Fslide%3E"
+        ]
+      }
+    },
+    {
+      "recordIndex": 3710,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "General%20Knowledge",
+        "question": "What%20is%20the%20Portuguese%20word%20for%20%22Brazil%22%3F",
+        "correct_answer": "Brasil",
+        "incorrect_answers": [
+          "Brazil",
+          "Brasilia",
+          "Bras%C3%ADl"
+        ]
+      }
+    },
+    {
+      "recordIndex": 3929,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%3A%20Computers",
+        "question": "In%20programming%2C%20the%20ternary%20operator%20is%20mostly%20defined%20with%20what%20symbol%28s%29%3F",
+        "correct_answer": "%3F%3A",
+        "incorrect_answers": [
+          "%3F%3F",
+          "if%20then",
+          "%3F"
+        ]
+      }
+    },
+    {
+      "recordIndex": 3936,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "General%20Knowledge",
+        "question": "Terry%20Gilliam%20was%20an%20animator%20that%20worked%20with%20which%20British%20comedy%20group%3F",
+        "correct_answer": "Monty%20Python",
+        "incorrect_answers": [
+          "The%20Goodies%E2%80%8E",
+          "The%20League%20of%20Gentlemen%E2%80%8E",
+          "The%20Penny%20Dreadfuls"
+        ]
+      }
+    },
+    {
+      "recordIndex": 4096,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science%3A%20Computers",
+        "question": "Which%20computer%20language%20would%20you%20associate%20Django%20framework%20with%3F",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+          "C%23",
+          "C%2B%2B",
+          "Java"
+        ]
+      }
+    },
+    {
+      "recordIndex": 4171,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "General%20Knowledge",
+        "question": "Where%20is%20the%20train%20station%20%22Llanfair%C2%ADpwllgwyngyll%C2%ADgogery%C2%ADchwyrn%C2%ADdrobwll%C2%ADllan%C2%ADtysilio%C2%ADgogo%C2%ADgoch%22%3F",
+        "correct_answer": "Wales",
+        "incorrect_answers": [
+          "Moldova",
+          "Czech%20Republic",
+          "Denmark"
+        ]
+      }
+    },
+    {
+      "recordIndex": 4249,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science%3A%20Computers",
+        "question": "Which%20of%20the%20following%20languages%20is%20used%20as%20a%20scripting%20language%20in%20the%20Unity%203D%20game%20engine%3F",
+        "correct_answer": "C%23",
+        "incorrect_answers": [
+          "Java",
+          "C%2B%2B",
+          "Objective-C"
+        ]
+      }
+    },
+    {
+      "recordIndex": 4656,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science%3A%20Computers",
+        "question": "The%20programming%20language%20%27Swift%27%20was%20created%20to%20replace%20what%20other%20programming%20language%3F",
+        "correct_answer": "Objective-C",
+        "incorrect_answers": [
+          "C%23",
+          "Ruby",
+          "C%2B%2B"
+        ]
+      }
+    },
+    {
+      "recordIndex": 4685,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment%3A%20Video%20Games",
+        "question": "In%20Super%20Mario%20RPG%3A%20Legend%20of%20The%20Seven%20Stars%2C%20what%20is%20Geno%27s%20real%20name%3F",
+        "correct_answer": "%E2%99%A1%E2%99%AA%21%3F",
+        "incorrect_answers": [
+          "Geno",
+          "Exor",
+          "Smithy"
+        ]
+      }
+    },
+    {
+      "recordIndex": 4826,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto deve estar legível, sem HTML ou caracteres de controle.",
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment%3A%20Music",
+        "question": "Which%20of%20these%20is%20not%20an%20Ed%20Sheeran%20album%3F",
+        "correct_answer": "-",
+        "incorrect_answers": [
+          "%2B",
+          "X",
+          "%C3%B7"
+        ]
+      }
+    },
+    {
+      "recordIndex": 5619,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Geography",
+        "question": "Llanfair%C2%ADpwllgwyngyll%C2%ADgogery%C2%ADchwyrn%C2%ADdrobwll%C2%ADllan%C2%ADtysilio%C2%ADgogo%C2%ADgoch%20is%20located%20on%20which%20Welsh%20island%3F",
+        "correct_answer": "Anglesey",
+        "incorrect_answers": [
+          "Barry",
+          "Bardsey",
+          "Caldey"
+        ]
+      }
+    },
+    {
+      "recordIndex": 5707,
+      "errors": [
+        "Texto deve estar legível, sem HTML ou caracteres de controle."
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Geography",
+        "question": "Bridgetown%20is%20the%20capital%20of%20which%20island%20country%20in%20the%20Carribean%3F",
+        "correct_answer": "Barbados",
+        "incorrect_answers": [
+          "Cuba",
+          "Jamaica%E2%80%8E",
+          "Dominica"
+        ]
+      }
+    },
+    {
+      "recordIndex": 5928,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science%3A%20Computers",
+        "question": "According%20to%20DeMorgan%27s%20Theorem%2C%20the%20Boolean%20expression%20%28AB%29%27%20is%20equivalent%20to%3A",
+        "correct_answer": "A%27%20%2B%20B%27",
+        "incorrect_answers": [
+          "A%27B%20%2B%20B%27A",
+          "A%27B%27",
+          "AB%27%20%2B%20AB"
+        ]
+      }
+    },
+    {
+      "recordIndex": 6160,
+      "errors": [
+        "Texto de alternativa repetido"
+      ],
+      "record": {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "History",
+        "question": "According%20to%20scholarly%20estimates%2C%20what%20percentage%20of%20the%20world%20population%20at%20the%20time%20died%20due%20to%20Tamerlane%27s%20conquests%3F",
+        "correct_answer": "5%25",
+        "incorrect_answers": [
+          "1%25",
+          "3%25",
+          "%3C1%25"
         ]
       }
     }

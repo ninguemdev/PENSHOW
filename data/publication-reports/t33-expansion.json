@@ -1,41 +1,41 @@
 {
-  "approved": 336,
+  "approved": 348,
   "availability": {
     "arts-literature": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "geography": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "history": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "pop-culture": {
-      "easy": 17,
+      "easy": 18,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 23,
+      "total": 58
     },
     "science-nature": {
       "easy": 17,
       "hard": 17,
-      "medium": 22,
-      "total": 56
+      "medium": 24,
+      "total": 58
     },
     "sports": {
-      "easy": 17,
-      "hard": 17,
+      "easy": 18,
+      "hard": 18,
       "medium": 22,
-      "total": 56
+      "total": 58
     }
   },
   "baseline": {
@@ -49,36 +49,43 @@
       "rejected": 2,
       "sequence": 1,
       "translated": 36
+    },
+    {
+      "approved": 12,
+      "id": "t33-002",
+      "rejected": 12,
+      "sequence": 2,
+      "translated": 10
     }
   ],
   "candidateBacklog": {
     "byLocale": {
-      "en": 962,
-      "pt-BR": 231
+      "en": 5182,
+      "pt-BR": 217
     },
     "bySource": {
-      "opentdb": 962,
-      "questionados": 231
+      "opentdb": 5182,
+      "questionados": 217
     },
-    "count": 1193,
-    "minimumAdditionalCandidates": 3471
+    "count": 5399,
+    "minimumAdditionalCandidates": 0
   },
-  "catalogSha256": "37285afd46a72e9b960b378bca0b53c7e9d0108abc7addedc52aaf9282441453",
+  "catalogSha256": "246b223566b0f800cbb5ad1b63bf605a7844193a0de73a6bf2061c70c8ec088f",
   "countTargetMet": false,
   "newThemes": [],
-  "rejected": 2,
-  "remaining": 4664,
+  "rejected": 14,
+  "remaining": 4652,
   "schemaVersion": 1,
   "scope": "Auditoria estrutural e de rastreabilidade. Referências, idioma, equivalência por sentido e dificuldade exigem conferência editorial; a ferramenta não os certifica.",
   "sources": [
     {
-      "approved": 36,
+      "approved": 46,
       "id": "opentdb",
       "license": "CC-BY-SA-4.0",
       "licenseSha256": "31b7703bd28ab4d3e7ac6630a1f5da6009607a663a2d66792947990459930d41"
     },
     {
-      "approved": 300,
+      "approved": 302,
       "id": "questionados",
       "license": "MIT",
       "licenseSha256": "dcef56cff6065efb5e8848709fef0d9b03245a25aa3150b88b2ee324463e4f5e"

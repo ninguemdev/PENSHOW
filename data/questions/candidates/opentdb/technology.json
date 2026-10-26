@@ -976,5 +976,6448 @@
       "category": "Science: Gadgets",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:technology:070adc6398cb4dd5",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these names was an actual codename for a cancelled Microsoft project?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Neptune"
+      },
+      {
+        "id": "option-1",
+        "text": "Enceladus"
+      },
+      {
+        "id": "option-2",
+        "text": "Pollux"
+      },
+      {
+        "id": "option-3",
+        "text": "Saturn"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1008,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5112862057ed4789",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What language does Node.js use?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "JavaScript"
+      },
+      {
+        "id": "option-1",
+        "text": "Java"
+      },
+      {
+        "id": "option-2",
+        "text": "Java Source"
+      },
+      {
+        "id": "option-3",
+        "text": "Joomla Source Code"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1010,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:062e00baddc42c7b",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does \"LCD\" stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Liquid Crystal Display"
+      },
+      {
+        "id": "option-1",
+        "text": "Language Control Design"
+      },
+      {
+        "id": "option-2",
+        "text": "Last Common Difference"
+      },
+      {
+        "id": "option-3",
+        "text": "Long Continuous Design"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1073,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f94b550a9c16c260",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does CPU stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Central Processing Unit"
+      },
+      {
+        "id": "option-1",
+        "text": "Central Process Unit"
+      },
+      {
+        "id": "option-2",
+        "text": "Computer Personal Unit"
+      },
+      {
+        "id": "option-3",
+        "text": "Central Processor Unit"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1082,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:03906b36357dfedf",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In CSS, which of these values CANNOT be used with the \"position\" property?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "center"
+      },
+      {
+        "id": "option-1",
+        "text": "static"
+      },
+      {
+        "id": "option-2",
+        "text": "absolute"
+      },
+      {
+        "id": "option-3",
+        "text": "relative"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1136,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1c003983d25f2494",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who invented the \"Spanning Tree Protocol\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Radia Perlman"
+      },
+      {
+        "id": "option-1",
+        "text": "Paul Vixie"
+      },
+      {
+        "id": "option-2",
+        "text": "Vint Cerf"
+      },
+      {
+        "id": "option-3",
+        "text": "Michael Roberts"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1234,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:00fad33082bcfadb",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Time on Computers is measured via the EPOX System.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1287,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:174527ebbccfc350",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The name of technology company HP stands for what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hewlett-Packard"
+      },
+      {
+        "id": "option-1",
+        "text": "Howard Packmann"
+      },
+      {
+        "id": "option-2",
+        "text": "Husker-Pollosk"
+      },
+      {
+        "id": "option-3",
+        "text": "Hellman-Pohl"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1317,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2293e5d2cc64add6",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the Tamagotchi digital pet released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1996"
+      },
+      {
+        "id": "option-1",
+        "text": "1989"
+      },
+      {
+        "id": "option-2",
+        "text": "1992"
+      },
+      {
+        "id": "option-3",
+        "text": "1990"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1342,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:83c9151e725e54b3",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The IBM PC used an Intel 8008 microprocessor clocked at 4.77 MHz and 8 kilobytes of memory.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1375,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ba60f000643247df",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Exclamation Mark"
+      },
+      {
+        "id": "option-1",
+        "text": "Dollar Sign"
+      },
+      {
+        "id": "option-2",
+        "text": "Percent Sign"
+      },
+      {
+        "id": "option-3",
+        "text": "Asterisk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1443,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5fd5058fb0961659",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the acronym CDN stand for in terms of networking?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Content Delivery Network"
+      },
+      {
+        "id": "option-1",
+        "text": "Content Distribution Network"
+      },
+      {
+        "id": "option-2",
+        "text": "Computational Data Network"
+      },
+      {
+        "id": "option-3",
+        "text": "Compressed Data Network"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1447,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5ed83a9b96c706af",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Layer 7 of the OSI model?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Application"
+      },
+      {
+        "id": "option-1",
+        "text": "Session"
+      },
+      {
+        "id": "option-2",
+        "text": "Network"
+      },
+      {
+        "id": "option-3",
+        "text": "Present"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1478,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0185cc80730a482e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The acronym \"RIP\" stands for which of these?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Routing Information Protocol"
+      },
+      {
+        "id": "option-1",
+        "text": "Runtime Instance Processes"
+      },
+      {
+        "id": "option-2",
+        "text": "Regular Interval Processes"
+      },
+      {
+        "id": "option-3",
+        "text": "Routine Inspection Protocol"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1502,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:31dab6f48c3ffcb5",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is the oldest of these computers by release date?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "TRS-80"
+      },
+      {
+        "id": "option-1",
+        "text": "Commodore 64"
+      },
+      {
+        "id": "option-2",
+        "text": "ZX Spectrum"
+      },
+      {
+        "id": "option-3",
+        "text": "Apple 3"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1515,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:288a2acec29f3a73",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which company manufactured the iconic TR-808 drum machine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roland"
+      },
+      {
+        "id": "option-1",
+        "text": "Technics"
+      },
+      {
+        "id": "option-2",
+        "text": "Korg"
+      },
+      {
+        "id": "option-3",
+        "text": "Casio"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1573,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d9ea80a8b5c537ab",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The term \"battery\" to describe an electrical storage device was coined by?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Benjamin Franklin"
+      },
+      {
+        "id": "option-1",
+        "text": "Nikola Tesla"
+      },
+      {
+        "id": "option-2",
+        "text": "Luigi Galvani"
+      },
+      {
+        "id": "option-3",
+        "text": " Alessandro Volta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1611,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:455959cbc9752b6d",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1654,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:fb80e9ac3dbc9caa",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Mobile hardware and software company \"Blackberry Limited\" was founded in which country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Canada"
+      },
+      {
+        "id": "option-1",
+        "text": "Norway"
+      },
+      {
+        "id": "option-2",
+        "text": "United States of America"
+      },
+      {
+        "id": "option-3",
+        "text": "United Kingdom"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1757,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:62e002cf355298b8",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"Windows NT\" is a monolithic kernel.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1804,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:47ab8cb50fee8c46",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Linus Torvalds created Linux and Git.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1810,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:86872bb87c610d00",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"HTML\" stands for Hypertext Markup Language.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1848,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:be8451603b373db5",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the programming language \"C#\" released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2000"
+      },
+      {
+        "id": "option-1",
+        "text": "1998"
+      },
+      {
+        "id": "option-2",
+        "text": "1999"
+      },
+      {
+        "id": "option-3",
+        "text": "2001"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1861,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d1b4700afbb4a706",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The ARM computer chip was originally developed by Acorn Computers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1877,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c6bea090151d809c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Heat Sink"
+      },
+      {
+        "id": "option-1",
+        "text": "CPU Vent"
+      },
+      {
+        "id": "option-2",
+        "text": "Temperature Decipator"
+      },
+      {
+        "id": "option-3",
+        "text": "Heat Vent"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1899,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:737d6922f66c4858",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Linux was first created as an alternative to Windows XP.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1901,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b3b7ed5e853113a5",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many kilobytes in one gigabyte (in decimal)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1000000"
+      },
+      {
+        "id": "option-1",
+        "text": "1024"
+      },
+      {
+        "id": "option-2",
+        "text": "1000"
+      },
+      {
+        "id": "option-3",
+        "text": "1048576"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1913,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:93be13cd7e1fb70c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who patented a steam engine that produced continuous rotary motion?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James Watt"
+      },
+      {
+        "id": "option-1",
+        "text": "Nikola Tesla"
+      },
+      {
+        "id": "option-2",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "option-3",
+        "text": "Alessandro Volta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1983,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9d8d962f263e37b2",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The numbering system with a radix of 16 is more commonly referred to as ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hexidecimal"
+      },
+      {
+        "id": "option-1",
+        "text": "Binary"
+      },
+      {
+        "id": "option-2",
+        "text": "Duodecimal"
+      },
+      {
+        "id": "option-3",
+        "text": "Octal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2042,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b564534e1ac75465",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "HTML is what type of language?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Markup Language"
+      },
+      {
+        "id": "option-1",
+        "text": "Macro Language"
+      },
+      {
+        "id": "option-2",
+        "text": "Programming Language"
+      },
+      {
+        "id": "option-3",
+        "text": "Scripting Language"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2159,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:51bafe1a26ae6c48",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "MacOS is based on Linux.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2160,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:3efd9b52bac3cd53",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the \"Mitsubishi Wakamaru\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A robot"
+      },
+      {
+        "id": "option-1",
+        "text": "A pickup truck"
+      },
+      {
+        "id": "option-2",
+        "text": "An motorcycle"
+      },
+      {
+        "id": "option-3",
+        "text": "A motorboat"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2182,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:7536243e924a2e4e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does SSD stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Solid State Drive"
+      },
+      {
+        "id": "option-1",
+        "text": "Solution Source Disk"
+      },
+      {
+        "id": "option-2",
+        "text": "Solid State Disk"
+      },
+      {
+        "id": "option-3",
+        "text": "Source Solution Drive"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2188,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:7cccacbf72f9281f",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "RAM stands for Random Access Memory.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2194,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:80caed5e5e44a98a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the DVD invented?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1995"
+      },
+      {
+        "id": "option-1",
+        "text": "2000"
+      },
+      {
+        "id": "option-2",
+        "text": "1990"
+      },
+      {
+        "id": "option-3",
+        "text": "1980"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2215,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:a88be8ec5597da09",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which gaming console is developed by Sony?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "PlayStation"
+      },
+      {
+        "id": "option-1",
+        "text": "Xbox"
+      },
+      {
+        "id": "option-2",
+        "text": "Atari"
+      },
+      {
+        "id": "option-3",
+        "text": "Nintendo Switch"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2282,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cedaa2886495b9cb",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does AD stand for in relation to Windows Operating Systems? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Active Directory"
+      },
+      {
+        "id": "option-1",
+        "text": "Alternative Drive"
+      },
+      {
+        "id": "option-2",
+        "text": "Automated Database"
+      },
+      {
+        "id": "option-3",
+        "text": "Active Department"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2286,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:240e9dd40ac2227a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On Twitter, what was the original character limit for a Tweet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "140"
+      },
+      {
+        "id": "option-1",
+        "text": "120"
+      },
+      {
+        "id": "option-2",
+        "text": "160"
+      },
+      {
+        "id": "option-3",
+        "text": "100"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2297,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b77ca347a565bba4",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first Android version specifically optimized for tablets?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Honeycomb"
+      },
+      {
+        "id": "option-1",
+        "text": "Eclair"
+      },
+      {
+        "id": "option-2",
+        "text": "Froyo"
+      },
+      {
+        "id": "option-3",
+        "text": "Marshmellow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2318,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b30b65b5fcbd7be4",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the \"MP\" stand for in MP3?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moving Picture"
+      },
+      {
+        "id": "option-1",
+        "text": "Music Player"
+      },
+      {
+        "id": "option-2",
+        "text": "Multi Pass"
+      },
+      {
+        "id": "option-3",
+        "text": "Micro Point"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2376,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5df151a0bafcf24a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who built the first laser?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Theodore Harold Maiman"
+      },
+      {
+        "id": "option-1",
+        "text": "Nikola Tesla"
+      },
+      {
+        "id": "option-2",
+        "text": "Jack Kilby"
+      },
+      {
+        "id": "option-3",
+        "text": "Edith Clarke"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2436,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ee6f6f2ae0ed1251",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Laserjet and inkjet printers are both examples of what type of printer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Non-impact printer"
+      },
+      {
+        "id": "option-1",
+        "text": "Impact printer"
+      },
+      {
+        "id": "option-2",
+        "text": "Daisywheel printer"
+      },
+      {
+        "id": "option-3",
+        "text": "Dot matrix printer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2475,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:78e711b602d7b76d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the server hosting industry IaaS stands for...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Infrastructure as a Service"
+      },
+      {
+        "id": "option-1",
+        "text": "Internet as a Service"
+      },
+      {
+        "id": "option-2",
+        "text": "Internet and a Server"
+      },
+      {
+        "id": "option-3",
+        "text": "Infrastructure as a Server"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2498,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c7cc6142b2d00e33",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many Hz does the video standard PAL support?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "50"
+      },
+      {
+        "id": "option-1",
+        "text": "59"
+      },
+      {
+        "id": "option-2",
+        "text": "60"
+      },
+      {
+        "id": "option-3",
+        "text": "25"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2503,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1e2720f12758e39d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Taiwan"
+      },
+      {
+        "id": "option-1",
+        "text": "United States"
+      },
+      {
+        "id": "option-2",
+        "text": "Germany"
+      },
+      {
+        "id": "option-3",
+        "text": "China (People's Republic of)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2509,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ec8cb013db86972c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Motherboard"
+      },
+      {
+        "id": "option-1",
+        "text": "Central Processing Unit"
+      },
+      {
+        "id": "option-2",
+        "text": "Hard Disk Drive"
+      },
+      {
+        "id": "option-3",
+        "text": "Random Access Memory"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2545,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0f8e0d61ddb305fa",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When Gmail first launched, how much storage did it provide for your email?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1GB"
+      },
+      {
+        "id": "option-1",
+        "text": "512MB"
+      },
+      {
+        "id": "option-2",
+        "text": "5GB"
+      },
+      {
+        "id": "option-3",
+        "text": "Unlimited"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2554,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d7311def6e3f8666",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "While Apple was formed in California, in which western state was Microsoft founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "New Mexico"
+      },
+      {
+        "id": "option-1",
+        "text": "Washington"
+      },
+      {
+        "id": "option-2",
+        "text": "Colorado"
+      },
+      {
+        "id": "option-3",
+        "text": "Arizona"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2557,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:260c1da9f6c44eb3",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "If you were to code software in this language you'd only be able to type 0's and 1's.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Binary"
+      },
+      {
+        "id": "option-1",
+        "text": "JavaScript"
+      },
+      {
+        "id": "option-2",
+        "text": "C++"
+      },
+      {
+        "id": "option-3",
+        "text": "Python"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2611,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b04a065207a0c80c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In computing, what does LAN stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Local Area Network"
+      },
+      {
+        "id": "option-1",
+        "text": "Long Antenna Node"
+      },
+      {
+        "id": "option-2",
+        "text": "Light Access Node"
+      },
+      {
+        "id": "option-3",
+        "text": "Land Address Navigation"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2627,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:de349aa8fb097280",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A Boolean value of \"0\" represents which of these words?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2658,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2fe85e8d2e79541d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Apple's Voice Assistant, Siri, debuted on which iPhone?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "iPhone 4S"
+      },
+      {
+        "id": "option-1",
+        "text": "iPhone 6S"
+      },
+      {
+        "id": "option-2",
+        "text": "iPhone 3GS"
+      },
+      {
+        "id": "option-3",
+        "text": "iPhone 5S"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2680,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e7fe55ad7a8163b2",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which company developed the Hololens?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Microsoft"
+      },
+      {
+        "id": "option-1",
+        "text": "HTC"
+      },
+      {
+        "id": "option-2",
+        "text": "Oculus"
+      },
+      {
+        "id": "option-3",
+        "text": "Tobii"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2723,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e631be50c018d0d0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In computing, how many bits are in a nibble?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "16"
+      },
+      {
+        "id": "option-2",
+        "text": "32"
+      },
+      {
+        "id": "option-3",
+        "text": "2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2735,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ce8a1b8ef5c3cdf1",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is known as \"the brain\" of the Computer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Central Processing Unit"
+      },
+      {
+        "id": "option-1",
+        "text": "Motherboard"
+      },
+      {
+        "id": "option-2",
+        "text": "Graphics Processing Unit"
+      },
+      {
+        "id": "option-3",
+        "text": "Keyboard"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2773,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1ef1a212d08cac41",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which operating system was released first?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mac OS"
+      },
+      {
+        "id": "option-1",
+        "text": "Windows"
+      },
+      {
+        "id": "option-2",
+        "text": "Linux"
+      },
+      {
+        "id": "option-3",
+        "text": "OS/2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2778,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ee722db2c066c9eb",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "ADPCM Sampler"
+      },
+      {
+        "id": "option-1",
+        "text": "FM Synthesizer"
+      },
+      {
+        "id": "option-2",
+        "text": "Programmable Sound Generator (PSG)"
+      },
+      {
+        "id": "option-3",
+        "text": "PCM Sampler"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2786,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9b7bcc4fe73935d3",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Pointers were not used in the original C programming language; they were added later on in C++.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2811,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ccffba6ad12f5574",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a computer science algorithm?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Float Sort"
+      },
+      {
+        "id": "option-1",
+        "text": "Bubble Sort"
+      },
+      {
+        "id": "option-2",
+        "text": "Merge Sort"
+      },
+      {
+        "id": "option-3",
+        "text": "Quick Sort"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2838,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1b157cb2fe6dc25d",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The 'Raspberry Pi' series of single-board computers were created in the United States.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2844,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:3de297f6c1449d2e",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Western Electric Model 500 telephone uses tone dialing to dial phone numbers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2894,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d93e13931156a991",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is the standard THX subwoofer crossover frequency?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "80 Hz"
+      },
+      {
+        "id": "option-1",
+        "text": "70 Hz"
+      },
+      {
+        "id": "option-2",
+        "text": "90 Hz"
+      },
+      {
+        "id": "option-3",
+        "text": "100 Hz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2905,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:3b4ed19a485cb75a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On which day did the World Wide Web go online?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "December 20, 1990"
+      },
+      {
+        "id": "option-1",
+        "text": "December 17, 1996"
+      },
+      {
+        "id": "option-2",
+        "text": "November 12, 1990"
+      },
+      {
+        "id": "option-3",
+        "text": "November 24, 1995"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2910,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:a46427561400242c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cheetah"
+      },
+      {
+        "id": "option-1",
+        "text": "Puma"
+      },
+      {
+        "id": "option-2",
+        "text": "Tiger"
+      },
+      {
+        "id": "option-3",
+        "text": "Leopard"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2923,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f4926c68c21979a0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first Infinity Coaster in the world and where is it located?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Smiler, Alton Towers, UK"
+      },
+      {
+        "id": "option-1",
+        "text": "Madagascar Mad Pursuit, Motiongate Dubai, UAE"
+      },
+      {
+        "id": "option-2",
+        "text": "Gold Rush, Slagharen, Netherlands "
+      },
+      {
+        "id": "option-3",
+        "text": "Monster, Adventureland Altoona, USA"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2928,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b9a4e4d94035f9b0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many bits make up the significand portion of a single precision floating point number?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "23"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "53"
+      },
+      {
+        "id": "option-3",
+        "text": "15"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2929,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:6e29e9ae2a01099a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the computer software acronym JVM stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Java Virtual Machine"
+      },
+      {
+        "id": "option-1",
+        "text": "Java Vendor Machine"
+      },
+      {
+        "id": "option-2",
+        "text": "Java Visual Machine"
+      },
+      {
+        "id": "option-3",
+        "text": "Just Virtual Machine"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2950,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:91f75a7804fa1c7a",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The programming language \"Python\" is based off a modified version of \"JavaScript\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2953,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ef281affb5ae6d9b",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many bytes are in a single Kibibyte?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1024"
+      },
+      {
+        "id": "option-1",
+        "text": "2400"
+      },
+      {
+        "id": "option-2",
+        "text": "1000"
+      },
+      {
+        "id": "option-3",
+        "text": "1240"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2974,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b5eaeb129bdf67d9",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the compact disc player first released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1982"
+      },
+      {
+        "id": "option-1",
+        "text": "1983"
+      },
+      {
+        "id": "option-2",
+        "text": "1981"
+      },
+      {
+        "id": "option-3",
+        "text": "1980"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2976,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:df9205468b907398",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A Mac is not a PC",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2982,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:680d682ef0855649",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The HTML5 standard was published in 2014.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2992,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9b8c549be98de0dc",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In networking, what does OSPF stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Open Shortest Path First"
+      },
+      {
+        "id": "option-1",
+        "text": "Order State Part First"
+      },
+      {
+        "id": "option-2",
+        "text": "Order Sense Ping Find"
+      },
+      {
+        "id": "option-3",
+        "text": "Open Signal Path Finder"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3047,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:27ea428c1ae60857",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following physical typologies are used with Ethernet Networks?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Star"
+      },
+      {
+        "id": "option-1",
+        "text": "Ring"
+      },
+      {
+        "id": "option-2",
+        "text": "Mesh"
+      },
+      {
+        "id": "option-3",
+        "text": "Hex"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3127,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d799f164b2333ebc",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cherry MX Blue"
+      },
+      {
+        "id": "option-1",
+        "text": "Cherry MX Black"
+      },
+      {
+        "id": "option-2",
+        "text": "Cherry MX Red"
+      },
+      {
+        "id": "option-3",
+        "text": "Cherry MX Brown"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3128,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:a201facbcb9fb29b",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In computing terms, typically what does CLI stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Command Line Interface"
+      },
+      {
+        "id": "option-1",
+        "text": "Common Language Input"
+      },
+      {
+        "id": "option-2",
+        "text": "Control Line Interface"
+      },
+      {
+        "id": "option-3",
+        "text": "Common Language Interface"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3143,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:15698be8f70795fa",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Early RAM was directly seated onto the motherboard and could not be easily removed.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3173,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:739ff65204e58e5c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which kind of algorithm is Ron Rivest not famous for creating?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Secret sharing scheme"
+      },
+      {
+        "id": "option-1",
+        "text": "Hashing algorithm"
+      },
+      {
+        "id": "option-2",
+        "text": "Asymmetric encryption"
+      },
+      {
+        "id": "option-3",
+        "text": "Stream cipher"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3184,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1ede575f0adaa16c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Game Maker"
+      },
+      {
+        "id": "option-1",
+        "text": "Stencyl"
+      },
+      {
+        "id": "option-2",
+        "text": "Construct"
+      },
+      {
+        "id": "option-3",
+        "text": "Torque 2D"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3208,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:44436fe1aee180d1",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Linus Torvalds created which of these?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Linux"
+      },
+      {
+        "id": "option-1",
+        "text": "Microsoft Windows"
+      },
+      {
+        "id": "option-2",
+        "text": "Python"
+      },
+      {
+        "id": "option-3",
+        "text": "Wikipedia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3211,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5b6829ee1e4e1044",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the term USB stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Universal Serial Bus"
+      },
+      {
+        "id": "option-1",
+        "text": "Universal Simtex Blot"
+      },
+      {
+        "id": "option-2",
+        "text": "Unified Signal Bus"
+      },
+      {
+        "id": "option-3",
+        "text": "Unityped Semtex Backer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3230,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:866581108b16ae2e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Motorola 68000"
+      },
+      {
+        "id": "option-1",
+        "text": "Zilog Z80"
+      },
+      {
+        "id": "option-2",
+        "text": "Yamaha YM2612"
+      },
+      {
+        "id": "option-3",
+        "text": "Intel 8088"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3240,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cb9538212121b26a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the domain name for the country Tuvalu?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": ".tv"
+      },
+      {
+        "id": "option-1",
+        "text": ".tu"
+      },
+      {
+        "id": "option-2",
+        "text": ".tt"
+      },
+      {
+        "id": "option-3",
+        "text": ".tl"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3258,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e9f2523049dcec20",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which company designed the \"Betamax\" video cassette format?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sony"
+      },
+      {
+        "id": "option-1",
+        "text": "Panasonic"
+      },
+      {
+        "id": "option-2",
+        "text": "LG"
+      },
+      {
+        "id": "option-3",
+        "text": "Fujitsu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3283,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:21e421518d915659",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What internet protocol was documented in RFC 1459?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "IRC"
+      },
+      {
+        "id": "option-1",
+        "text": "HTTP"
+      },
+      {
+        "id": "option-2",
+        "text": "HTTPS"
+      },
+      {
+        "id": "option-3",
+        "text": "FTP"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3300,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c9cad318ec811c65",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Android versions are named in alphabetical order.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3347,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:8d967aba2655e100",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This former Air Force and NASA engineer is the inventor of the Super Soaker water gun.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lonnie Johnson"
+      },
+      {
+        "id": "option-1",
+        "text": "Bruce D'Andrade"
+      },
+      {
+        "id": "option-2",
+        "text": "Frances Northcutt"
+      },
+      {
+        "id": "option-3",
+        "text": "Ashitey Trebi-Ollennu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3348,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:8298ae37b8f10e95",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Microphones can be used not only to pick up sound, but also to project sound similar to a speaker.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3351,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1ee8b8eaad01e235",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the maximum value of a 32-bit signed binary integer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2,147,483,647"
+      },
+      {
+        "id": "option-1",
+        "text": "255"
+      },
+      {
+        "id": "option-2",
+        "text": "2048"
+      },
+      {
+        "id": "option-3",
+        "text": "9,223,372,036,854,775,807"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3363,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:46877450e73cf6eb",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the original author of the realtime physics engine called PhysX?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "NovodeX"
+      },
+      {
+        "id": "option-1",
+        "text": "Ageia"
+      },
+      {
+        "id": "option-2",
+        "text": "Nvidia"
+      },
+      {
+        "id": "option-3",
+        "text": "AMD"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3382,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:8b2f90e33b01ef17",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Approximately how many Apple I personal computers were created?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "200"
+      },
+      {
+        "id": "option-1",
+        "text": "100"
+      },
+      {
+        "id": "option-2",
+        "text": "500"
+      },
+      {
+        "id": "option-3",
+        "text": "1000"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3419,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:78c49599b7fdff67",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first commerically available computer processor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Intel 4004"
+      },
+      {
+        "id": "option-1",
+        "text": "Intel 486SX"
+      },
+      {
+        "id": "option-2",
+        "text": "TMS 1000"
+      },
+      {
+        "id": "option-3",
+        "text": "AMD AM386"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3438,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:87a44be1a335c95d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which programming language shares its name with an island in Indonesia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Java"
+      },
+      {
+        "id": "option-1",
+        "text": "Python"
+      },
+      {
+        "id": "option-2",
+        "text": "C"
+      },
+      {
+        "id": "option-3",
+        "text": "Jakarta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3461,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:81d45ab2689b0039",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Clipper Chip"
+      },
+      {
+        "id": "option-1",
+        "text": "Enigma Machine"
+      },
+      {
+        "id": "option-2",
+        "text": "Skipjack"
+      },
+      {
+        "id": "option-3",
+        "text": "Nautilus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3469,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ffd0aa9ee799250d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the Prt Sc button do?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Captures what's on the screen and copies it to your clipboard"
+      },
+      {
+        "id": "option-1",
+        "text": "Nothing"
+      },
+      {
+        "id": "option-2",
+        "text": "Saves a .png file of what's on the screen in your screenshots folder in photos"
+      },
+      {
+        "id": "option-3",
+        "text": "Closes all windows"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3478,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:af1efca6d534ecf7",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The teapot often seen in many 3D modeling applications is called what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Utah Teapot"
+      },
+      {
+        "id": "option-1",
+        "text": "Pixar Teapot"
+      },
+      {
+        "id": "option-2",
+        "text": "3D Teapot"
+      },
+      {
+        "id": "option-3",
+        "text": "Tennessee Teapot"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3532,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:79b804b7837bf5ba",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "44.1 kHz"
+      },
+      {
+        "id": "option-1",
+        "text": "32.0 kHz"
+      },
+      {
+        "id": "option-2",
+        "text": "1.5 MHz"
+      },
+      {
+        "id": "option-3",
+        "text": "20.5 kHz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3558,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:8296f5f23aa65100",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In computing, what does MIDI stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Musical Instrument Digital Interface"
+      },
+      {
+        "id": "option-1",
+        "text": "Musical Interface of Digital Instruments"
+      },
+      {
+        "id": "option-2",
+        "text": "Modular Interface of Digital Instruments"
+      },
+      {
+        "id": "option-3",
+        "text": "Musical Instrument Data Interface"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3563,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:08da016928f2b354",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": ".rs is the top-level domain for what country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Serbia"
+      },
+      {
+        "id": "option-1",
+        "text": "Romania"
+      },
+      {
+        "id": "option-2",
+        "text": "Russia"
+      },
+      {
+        "id": "option-3",
+        "text": "Rwanda"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3582,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:32c04c690c2219c7",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the commonly used keyboard shortcut for the 'Copy' function on Windows OS?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ctrl + C"
+      },
+      {
+        "id": "option-1",
+        "text": "Ctrl + X"
+      },
+      {
+        "id": "option-2",
+        "text": "Alt + C"
+      },
+      {
+        "id": "option-3",
+        "text": "Alt + X"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3589,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2cf163f5c98a4ec0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Australia, Japan, and Southeast Asia are in which ITU Region?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Region 3"
+      },
+      {
+        "id": "option-1",
+        "text": "Region 1"
+      },
+      {
+        "id": "option-2",
+        "text": "Region 2"
+      },
+      {
+        "id": "option-3",
+        "text": "Region 4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3624,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c67bea72626266a5",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What five letter word is the motto of the IBM Computer company?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Think"
+      },
+      {
+        "id": "option-1",
+        "text": "Click"
+      },
+      {
+        "id": "option-2",
+        "text": "Logic"
+      },
+      {
+        "id": "option-3",
+        "text": "Pixel"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3626,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ec666065e84dea4b",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The T-Mobile Sidekick smartphone is a re-branded version of the Danger Hiptop.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3631,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b8be2f934afea680",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which RAID array type is associated with data mirroring?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "RAID 1"
+      },
+      {
+        "id": "option-1",
+        "text": "RAID 0"
+      },
+      {
+        "id": "option-2",
+        "text": "RAID 10"
+      },
+      {
+        "id": "option-3",
+        "text": "RAID 5"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3636,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:5b6dd44e6e957e88",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "There is only 1 root name server, among 13 in total, that is currently located in Asia.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3658,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b76cc58e4af0f83d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following cellular device companies is NOT headquartered in Asia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nokia"
+      },
+      {
+        "id": "option-1",
+        "text": "LG Electronics"
+      },
+      {
+        "id": "option-2",
+        "text": "Samsung"
+      },
+      {
+        "id": "option-3",
+        "text": "HTC"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3687,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d8a7c3669a41f012",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which data structure does FILO apply to?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stack"
+      },
+      {
+        "id": "option-1",
+        "text": "Queue"
+      },
+      {
+        "id": "option-2",
+        "text": "Heap"
+      },
+      {
+        "id": "option-3",
+        "text": "Tree"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3717,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:107fa156dba7c8a0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is largely considered the precursor to the USB format?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "PS/2"
+      },
+      {
+        "id": "option-1",
+        "text": "SVGA"
+      },
+      {
+        "id": "option-2",
+        "text": "PCIe"
+      },
+      {
+        "id": "option-3",
+        "text": "FireWire"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3765,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2945777f066f9d20",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these programming languages is a low-level language?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Assembly"
+      },
+      {
+        "id": "option-1",
+        "text": "Python"
+      },
+      {
+        "id": "option-2",
+        "text": "C#"
+      },
+      {
+        "id": "option-3",
+        "text": "Pascal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3810,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:dba8ab9df0ce82fd",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "iRobot's revolutionary floor-cleaning vacuum, the Roomba, was first invented in 2002",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3821,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:92fa59d3c2c68cce",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How does a centrifuge separate heavy and light particles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spinning"
+      },
+      {
+        "id": "option-1",
+        "text": "Vibrating"
+      },
+      {
+        "id": "option-2",
+        "text": "Sifting"
+      },
+      {
+        "id": "option-3",
+        "text": "Ionizing"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3832,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:08592ebfb7fa88ce",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Moore's law originally stated that the number of transistors on a microprocessor chip would double every...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Year"
+      },
+      {
+        "id": "option-1",
+        "text": "Four Years"
+      },
+      {
+        "id": "option-2",
+        "text": "Two Years"
+      },
+      {
+        "id": "option-3",
+        "text": "Eight Years"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3872,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:18190c5354298e7f",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does SSD stand for in the context of computer storage?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": " Solid State Drive"
+      },
+      {
+        "id": "option-1",
+        "text": "Software Storage Device"
+      },
+      {
+        "id": "option-2",
+        "text": "Super Speed Data"
+      },
+      {
+        "id": "option-3",
+        "text": "Secure System Disk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3878,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:08c8594a5b422a23",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The name of the programming language AWK is abbreviated from the names of the developers – Aho, Weinberger, and Kernighan.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3893,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:17f21e5a8c3c4a47",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "America Online (AOL) started out as which of these online service providers?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quantum Link"
+      },
+      {
+        "id": "option-1",
+        "text": "CompuServe"
+      },
+      {
+        "id": "option-2",
+        "text": "Prodigy"
+      },
+      {
+        "id": "option-3",
+        "text": "GEnie"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3974,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:68664bafcb66e622",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Injection "
+      },
+      {
+        "id": "option-1",
+        "text": "Broken Authentication"
+      },
+      {
+        "id": "option-2",
+        "text": "Cross-Site Scripting"
+      },
+      {
+        "id": "option-3",
+        "text": "Insecure Direct Object References"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3976,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:bc8ee7c4437531b4",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first company to use the term \"Golden Master\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Apple"
+      },
+      {
+        "id": "option-1",
+        "text": "IBM"
+      },
+      {
+        "id": "option-2",
+        "text": "Microsoft"
+      },
+      {
+        "id": "option-3",
+        "text": "Google"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3993,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:03be936bca260185",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the first Bulgarian personal computer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "IMKO-1"
+      },
+      {
+        "id": "option-1",
+        "text": "Pravetz 82"
+      },
+      {
+        "id": "option-2",
+        "text": "Pravetz 8D"
+      },
+      {
+        "id": "option-3",
+        "text": "IZOT 1030"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4017,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:7519042cb3a95003",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Windows ME operating system was released in the year 2000.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4114,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d8313f278d59ba3d",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In most programming languages, the operator ++ is equivalent to the statement \"+= 1\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4115,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d10379222575c809",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What programming language was GitHub written in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ruby"
+      },
+      {
+        "id": "option-1",
+        "text": "JavaScript"
+      },
+      {
+        "id": "option-2",
+        "text": "Python"
+      },
+      {
+        "id": "option-3",
+        "text": "Lua"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4122,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:059b428cdb41b517",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Coffee Lake"
+      },
+      {
+        "id": "option-1",
+        "text": "Sandy Bridge"
+      },
+      {
+        "id": "option-2",
+        "text": "Skylake"
+      },
+      {
+        "id": "option-3",
+        "text": "Broadwell"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4145,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1b7970ca7a85bf31",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many values can a single byte represent?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "256"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "1"
+      },
+      {
+        "id": "option-3",
+        "text": "1024"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4164,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9f62495dba77b4d0",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The communication protocol NFC stands for Near-Field Control.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4193,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:3f7c077c71f75d70",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quantum Teleportation"
+      },
+      {
+        "id": "option-1",
+        "text": "Super Dense Coding"
+      },
+      {
+        "id": "option-2",
+        "text": "Quantum Entanglement"
+      },
+      {
+        "id": "option-3",
+        "text": "Quantum Programming"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4262,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c21ab14673c48f50",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is used to measure blood pressure?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sphygmomanometer"
+      },
+      {
+        "id": "option-1",
+        "text": "Barometer"
+      },
+      {
+        "id": "option-2",
+        "text": "Ruler"
+      },
+      {
+        "id": "option-3",
+        "text": "Haemoerythrometer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4277,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:fa421fb8a9584945",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": ".at is the top-level domain for what country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austria"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Australia"
+      },
+      {
+        "id": "option-3",
+        "text": "Angola"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4287,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ae432741e70a9b01",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Electron computer was released in Britain during 1983 for the home computing market, by which company? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Acorn Computers"
+      },
+      {
+        "id": "option-1",
+        "text": "Sinclair Research"
+      },
+      {
+        "id": "option-2",
+        "text": "Amstrad PLC"
+      },
+      {
+        "id": "option-3",
+        "text": "Commodore Business Machines"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4309,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1bed127f41265bcd",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The C programming language was created by this American computer scientist. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dennis Ritchie"
+      },
+      {
+        "id": "option-1",
+        "text": "Tim Berners Lee"
+      },
+      {
+        "id": "option-2",
+        "text": "al-Khwārizmī"
+      },
+      {
+        "id": "option-3",
+        "text": "Willis Ware"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4331,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:99314610b9b0a714",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The first dual-core CPU was the Intel Pentium D.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4334,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1f22c6e9e52bc1c3",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The first computer bug was formed by faulty wires.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4337,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c27d4ac550296ea4",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The first IBM PC was released in 1981.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4355,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:782b10d4bd0d9339",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "To bypass US Munitions Export Laws, the creator of the PGP published all the source code in book form. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4365,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e182536547540127",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What did the name of the Tor Anonymity Network orignially stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Onion Router"
+      },
+      {
+        "id": "option-1",
+        "text": "The Only Router"
+      },
+      {
+        "id": "option-2",
+        "text": "The Orange Router"
+      },
+      {
+        "id": "option-3",
+        "text": "The Ominous Router"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4449,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0dd2bcf7f69a9ba8",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the SI unit for resistance?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ohms"
+      },
+      {
+        "id": "option-1",
+        "text": "Ampheres"
+      },
+      {
+        "id": "option-2",
+        "text": "Siemens"
+      },
+      {
+        "id": "option-3",
+        "text": "Volts"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4477,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2d0c663b5dd3ee3a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which internet company began life as an online bookstore called 'Cadabra'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Amazon"
+      },
+      {
+        "id": "option-1",
+        "text": "eBay"
+      },
+      {
+        "id": "option-2",
+        "text": "Overstock"
+      },
+      {
+        "id": "option-3",
+        "text": "Shopify"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4515,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:145e7ba6d1121091",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1000"
+      },
+      {
+        "id": "option-1",
+        "text": "512"
+      },
+      {
+        "id": "option-2",
+        "text": "1024"
+      },
+      {
+        "id": "option-3",
+        "text": "500"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4531,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:83823812231e003e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the default theme that is installed with Windows XP?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Luna"
+      },
+      {
+        "id": "option-1",
+        "text": "Neptune"
+      },
+      {
+        "id": "option-2",
+        "text": "Whistler"
+      },
+      {
+        "id": "option-3",
+        "text": "Bliss"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4560,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d6def1ca58115314",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the iPhone released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2007"
+      },
+      {
+        "id": "option-1",
+        "text": "2005"
+      },
+      {
+        "id": "option-2",
+        "text": "2006"
+      },
+      {
+        "id": "option-3",
+        "text": "2004"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4575,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:d0a6204214a306ff",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Final"
+      },
+      {
+        "id": "option-1",
+        "text": "Static"
+      },
+      {
+        "id": "option-2",
+        "text": "Private"
+      },
+      {
+        "id": "option-3",
+        "text": "Public"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4582,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:4f52e2df8d7f639b",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Transport"
+      },
+      {
+        "id": "option-1",
+        "text": "Session"
+      },
+      {
+        "id": "option-2",
+        "text": "Data link"
+      },
+      {
+        "id": "option-3",
+        "text": "Network"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4588,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:df5a8c930a071a91",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "FM-7"
+      },
+      {
+        "id": "option-1",
+        "text": "PC-9801"
+      },
+      {
+        "id": "option-2",
+        "text": "Xmillennium "
+      },
+      {
+        "id": "option-3",
+        "text": "MSX"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4600,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:54de9e03bf755aa6",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the programming language \"Python\", which of these statements would display the string \"Hello World\" correctly?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "print(\"Hello World\")"
+      },
+      {
+        "id": "option-1",
+        "text": "console.log(\"Hello World\")"
+      },
+      {
+        "id": "option-2",
+        "text": "echo \"Hello World\""
+      },
+      {
+        "id": "option-3",
+        "text": "printf(\"Hello World\")"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4607,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:c1a1f38fa1c75965",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "During the  early parts of the Vietnam War the M16 had a record for having bad reliability",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4659,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f069bac93044dd6e",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the base station trackers used for the HTC Vive called?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lighthouse"
+      },
+      {
+        "id": "option-1",
+        "text": "Motion"
+      },
+      {
+        "id": "option-2",
+        "text": "Constellation "
+      },
+      {
+        "id": "option-3",
+        "text": "Trackers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4678,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0bbf771e4c90e4a4",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name given to Android 4.3?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jelly Bean"
+      },
+      {
+        "id": "option-1",
+        "text": "Lollipop"
+      },
+      {
+        "id": "option-2",
+        "text": "Nutella"
+      },
+      {
+        "id": "option-3",
+        "text": "Froyo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4692,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:81db7b569652e91f",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Generally, which component of a computer draws the most power?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Video Card"
+      },
+      {
+        "id": "option-1",
+        "text": "Hard Drive"
+      },
+      {
+        "id": "option-2",
+        "text": "Processor"
+      },
+      {
+        "id": "option-3",
+        "text": "Power Supply"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4700,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e82a67edcb08809d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In web design, what does CSS stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cascading Style Sheet"
+      },
+      {
+        "id": "option-1",
+        "text": "Counter Strike: Source"
+      },
+      {
+        "id": "option-2",
+        "text": "Corrective Style Sheet"
+      },
+      {
+        "id": "option-3",
+        "text": "Computer Style Sheet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4703,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:6f63ff6a77b0b871",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the founder of Palantir?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peter Thiel"
+      },
+      {
+        "id": "option-1",
+        "text": "Mark Zuckerberg"
+      },
+      {
+        "id": "option-2",
+        "text": "Marc Benioff"
+      },
+      {
+        "id": "option-3",
+        "text": "Jack Dorsey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4712,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f0eeb35d705d6c5e",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Ada Lovelace is often considered the first computer programmer.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4724,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:fbfc41f4d83ff1fd",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Hexadecimal\", what color would be displayed from the color code? \"#00FF00\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Red"
+      },
+      {
+        "id": "option-2",
+        "text": "Blue"
+      },
+      {
+        "id": "option-3",
+        "text": "Yellow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4828,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f0be23afd06d7e63",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Windows OS was delevoped by which company?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Microsoft"
+      },
+      {
+        "id": "option-1",
+        "text": "Apple"
+      },
+      {
+        "id": "option-2",
+        "text": "Nokia"
+      },
+      {
+        "id": "option-3",
+        "text": "IBM"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4834,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:7fb52efb9f8afca0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the term GPU stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Graphics Processing Unit"
+      },
+      {
+        "id": "option-1",
+        "text": "Gaming Processor Unit"
+      },
+      {
+        "id": "option-2",
+        "text": "Graphite Producing Unit"
+      },
+      {
+        "id": "option-3",
+        "text": "Graphical Proprietary Unit"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4856,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0df4a1c19f0deada",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What kind of memory is used on memory cache?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "SRAM"
+      },
+      {
+        "id": "option-1",
+        "text": "DRAM"
+      },
+      {
+        "id": "option-2",
+        "text": "ROM"
+      },
+      {
+        "id": "option-3",
+        "text": "Flash"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4894,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:047f0d9c5c782d45",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the image that features as the default background wallpaper for Windows XP?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bliss"
+      },
+      {
+        "id": "option-1",
+        "text": "Azul"
+      },
+      {
+        "id": "option-2",
+        "text": "Red moon desert"
+      },
+      {
+        "id": "option-3",
+        "text": "Tulips"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4957,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:824bf7ee93d1e5ed",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In any programming language, what is the most common way to iterate through an array?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "'For' loops"
+      },
+      {
+        "id": "option-1",
+        "text": "'If' Statements"
+      },
+      {
+        "id": "option-2",
+        "text": "'Do-while' loops"
+      },
+      {
+        "id": "option-3",
+        "text": "'While' loops"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4973,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:7fb9404483bafcfc",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the security vulnerability found in Bash in 2014?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shellshock"
+      },
+      {
+        "id": "option-1",
+        "text": "Heartbleed"
+      },
+      {
+        "id": "option-2",
+        "text": "Bashbug"
+      },
+      {
+        "id": "option-3",
+        "text": "Stagefright"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4992,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:3a15db9f29a200dd",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Unix Time is defined as the number of seconds that have elapsed since when?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Midnight, January 1, 1970"
+      },
+      {
+        "id": "option-1",
+        "text": "Midnight, July 4, 1976"
+      },
+      {
+        "id": "option-2",
+        "text": "Midnight on the creator of Unix's birthday"
+      },
+      {
+        "id": "option-3",
+        "text": "Midnight, July 4, 1980"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5025,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:484bce5d222a6fb1",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not a type of computer mouse?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Smoothie mouse"
+      },
+      {
+        "id": "option-1",
+        "text": "Drum mouse"
+      },
+      {
+        "id": "option-2",
+        "text": "Trackball mouse"
+      },
+      {
+        "id": "option-3",
+        "text": "Optical mouse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5034,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ebd160ec38d6854f",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2012"
+      },
+      {
+        "id": "option-1",
+        "text": "2010"
+      },
+      {
+        "id": "option-2",
+        "text": "2011"
+      },
+      {
+        "id": "option-3",
+        "text": "2013"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5041,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:e92003929ebf4f2a",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the International System of Quantities refer 1024 bytes as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kibibyte"
+      },
+      {
+        "id": "option-1",
+        "text": "Kylobyte"
+      },
+      {
+        "id": "option-2",
+        "text": "Kilobyte"
+      },
+      {
+        "id": "option-3",
+        "text": "Kelobyte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5096,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2a659ef3f52c5582",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Windows 7 operating system has six main editions.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5151,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:2da97e900ba45f53",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is not a layer in the OSI model for data communications?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Connection Layer"
+      },
+      {
+        "id": "option-1",
+        "text": "Application Layer"
+      },
+      {
+        "id": "option-2",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "option-3",
+        "text": "Physical Layer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5167,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:909c7611a02e86e3",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Micronesia"
+      },
+      {
+        "id": "option-1",
+        "text": "Fiji"
+      },
+      {
+        "id": "option-2",
+        "text": "Tuvalu"
+      },
+      {
+        "id": "option-3",
+        "text": "Marshall Islands"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5170,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:1c9180b92c767a84",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which buzzword did Apple Inc. use to describe their removal of the headphone jack?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Courage"
+      },
+      {
+        "id": "option-1",
+        "text": "Innovation"
+      },
+      {
+        "id": "option-2",
+        "text": "Revolution"
+      },
+      {
+        "id": "option-3",
+        "text": "Bravery"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5173,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:abcb22911c8b8e17",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the code name for the mobile operating system Android 7.0?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nougat"
+      },
+      {
+        "id": "option-1",
+        "text": "Ice Cream Sandwich"
+      },
+      {
+        "id": "option-2",
+        "text": "Jelly Bean"
+      },
+      {
+        "id": "option-3",
+        "text": "Marshmallow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5244,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cc3798c0b3bd2d60",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5294,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f085a78b6d061ae4",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did the CD begin to appear on the consumer market?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1982"
+      },
+      {
+        "id": "option-1",
+        "text": "1992"
+      },
+      {
+        "id": "option-2",
+        "text": "1972"
+      },
+      {
+        "id": "option-3",
+        "text": "1962"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5321,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:72b3858b83ef11a5",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This mobile OS held the largest market share in 2012.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "iOS"
+      },
+      {
+        "id": "option-1",
+        "text": "Android"
+      },
+      {
+        "id": "option-2",
+        "text": "BlackBerry"
+      },
+      {
+        "id": "option-3",
+        "text": "Symbian"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5366,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cbe4c14c51cf5b8d",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Color model CMYK stands for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cyan, Magenta, Yellow, and Black"
+      },
+      {
+        "id": "option-1",
+        "text": "Cream, Maroon, Yellow, and Black"
+      },
+      {
+        "id": "option-2",
+        "text": "Cyan, Magenta, Yellow, and Khaki"
+      },
+      {
+        "id": "option-3",
+        "text": "Cream, Maroon, Yellow, and Khaki"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5420,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0cb435f1d3ebc4c0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does GHz stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gigahertz"
+      },
+      {
+        "id": "option-1",
+        "text": "Gigahotz"
+      },
+      {
+        "id": "option-2",
+        "text": "Gigahetz"
+      },
+      {
+        "id": "option-3",
+        "text": "Gigahatz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5455,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:870289cf2c11112a",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "AMD created the first consumer 64-bit processor.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5505,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:f28a27e20f8de1dc",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Apple"
+      },
+      {
+        "id": "option-1",
+        "text": "Microsoft"
+      },
+      {
+        "id": "option-2",
+        "text": "Atari"
+      },
+      {
+        "id": "option-3",
+        "text": "Commodore"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5539,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cbb309c209dc2ff7",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "HD Graphics 500"
+      },
+      {
+        "id": "option-1",
+        "text": "HD Graphics 700 "
+      },
+      {
+        "id": "option-2",
+        "text": "HD Graphics 600"
+      },
+      {
+        "id": "option-3",
+        "text": "HD Graphics 7000"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5548,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cf4f40c9a3d8c998",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Python programming language gets its name from the British comedy group \"Monty Python.\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5569,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:0a52694cdfe7fd75",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the most significant side venture the popular firearms company, Remington, has pursued?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Typewriters"
+      },
+      {
+        "id": "option-1",
+        "text": "Blenders"
+      },
+      {
+        "id": "option-2",
+        "text": "Ceiling Fans"
+      },
+      {
+        "id": "option-3",
+        "text": "Door Knobs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5591,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:62d8822971f826f8",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does GPS stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Global Positioning System"
+      },
+      {
+        "id": "option-1",
+        "text": "Global Personal System"
+      },
+      {
+        "id": "option-2",
+        "text": "General Positioning System"
+      },
+      {
+        "id": "option-3",
+        "text": "General Personal Satellite"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5600,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:100a2b78cfd75532",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did the online streaming service \"Mixer\" launch?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2016"
+      },
+      {
+        "id": "option-1",
+        "text": "2013"
+      },
+      {
+        "id": "option-2",
+        "text": "2009"
+      },
+      {
+        "id": "option-3",
+        "text": "2011"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5610,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:87a6c215c6ceb4aa",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does the 'S' in the RSA encryption algorithm stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shamir"
+      },
+      {
+        "id": "option-1",
+        "text": "Secure"
+      },
+      {
+        "id": "option-2",
+        "text": "Schottky"
+      },
+      {
+        "id": "option-3",
+        "text": "Stable"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5679,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:51cba1cdcfa96402",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "CMOS is tech used for constructing integrated circuits. What does CMOS stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Complementary metal–oxide–semiconductor"
+      },
+      {
+        "id": "option-1",
+        "text": "Complementary magnetic-ohms-semiconductor"
+      },
+      {
+        "id": "option-2",
+        "text": "Computer-made operating system"
+      },
+      {
+        "id": "option-3",
+        "text": "Computer-made oscillating static"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5701,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:60b1f11d5ef7cdb0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many cores does the Intel i7-6950X have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10"
+      },
+      {
+        "id": "option-1",
+        "text": "12"
+      },
+      {
+        "id": "option-2",
+        "text": "8"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5718,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:9925bfd34669dd0c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which SQL keyword is used to fetch data from a database?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "SELECT"
+      },
+      {
+        "id": "option-1",
+        "text": "INDEX"
+      },
+      {
+        "id": "option-2",
+        "text": "VALUES"
+      },
+      {
+        "id": "option-3",
+        "text": "EXEC"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5720,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:8a10099f4b165e68",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "JavaScript derives from a later version of Java",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5726,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:78c5930bdf39fbff",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of a simple machine that is made up of a stiff arm that can move freely around a fixed point?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lever"
+      },
+      {
+        "id": "option-1",
+        "text": "Wedge"
+      },
+      {
+        "id": "option-2",
+        "text": "Screw"
+      },
+      {
+        "id": "option-3",
+        "text": "Pulley"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5738,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:ebf72e12b9c31f4b",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On which computer hardware device is the BIOS chip located?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Motherboard"
+      },
+      {
+        "id": "option-1",
+        "text": "Hard Disk Drive"
+      },
+      {
+        "id": "option-2",
+        "text": "Central Processing Unit"
+      },
+      {
+        "id": "option-3",
+        "text": "Graphics Processing Unit"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5742,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:15b463ad72adbf3f",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Nvidia's headquarters are based in which Silicon Valley city?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Santa Clara"
+      },
+      {
+        "id": "option-1",
+        "text": "Palo Alto"
+      },
+      {
+        "id": "option-2",
+        "text": "Cupertino"
+      },
+      {
+        "id": "option-3",
+        "text": "Mountain View"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5753,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:cbc1f860334d6061",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does LTS stand for in the software market?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Long Term Support"
+      },
+      {
+        "id": "option-1",
+        "text": "Long Taco Service"
+      },
+      {
+        "id": "option-2",
+        "text": "Ludicrous Transfer Speed"
+      },
+      {
+        "id": "option-3",
+        "text": "Ludicrous Turbo Speed"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5774,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:355cf47ac0add759",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In programming, what do you call functions with the same name but different implementations?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Overloading"
+      },
+      {
+        "id": "option-1",
+        "text": "Overriding"
+      },
+      {
+        "id": "option-2",
+        "text": "Abstracting"
+      },
+      {
+        "id": "option-3",
+        "text": "Inheriting"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5802,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:73486ec9e1fe8b6c",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following computer components can be built using only NAND gates?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "ALU"
+      },
+      {
+        "id": "option-1",
+        "text": "CPU"
+      },
+      {
+        "id": "option-2",
+        "text": "RAM"
+      },
+      {
+        "id": "option-3",
+        "text": "Register"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5867,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b8ec6ecc442825fe",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How long is an IPv6 address?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "128 bits"
+      },
+      {
+        "id": "option-1",
+        "text": "32 bits"
+      },
+      {
+        "id": "option-2",
+        "text": "64 bits"
+      },
+      {
+        "id": "option-3",
+        "text": "128 bytes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6021,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:b484a5927cc304b0",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What round is a classic AK-47 chambered in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7.62x39mm"
+      },
+      {
+        "id": "option-1",
+        "text": "7.62x51mm"
+      },
+      {
+        "id": "option-2",
+        "text": "5.56x45mm"
+      },
+      {
+        "id": "option-3",
+        "text": "5.45x39mm"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6173,
+      "category": "Science: Gadgets",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:fe9a5ca8eb294646",
+    "category": "technology",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Bitcoin's block size limit in 2010?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1 MB"
+      },
+      {
+        "id": "option-1",
+        "text": "1GB"
+      },
+      {
+        "id": "option-2",
+        "text": "1 KB"
+      },
+      {
+        "id": "option-3",
+        "text": "1 TB"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6225,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:technology:98e43bdacb611222",
+    "category": "technology",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The common software-programming acronym \"I18N\" comes from the term \"Interlocalization\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6247,
+      "category": "Science: Computers",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

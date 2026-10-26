@@ -223,7 +223,7 @@ describe('telas do quiz clássico', () => {
     await userEvent.click(f.ui.getByRole('button', { name: strings.room.startTheft }));
     expect(f.commands[0]).toMatchObject({ event: 'match:start', payload: { mode: 'theft' } });
     f.push(theftView('instructions', 3));
-    expect(f.ui.getByText(strings.match.theftInstructions(100, 50, 6000))).toBeDefined();
+    expect(f.ui.getByText(strings.match.theftInstructions(100, 100, 6000))).toBeDefined();
     f.push(theftView('target', 4));
     const button = f.ui.getByRole('button', { name: strings.match.theftTarget('Bruno', 100) });
     button.focus();
@@ -234,11 +234,11 @@ describe('telas do quiz clássico', () => {
     });
     expect(JSON.stringify(f.commands.at(-1))).not.toMatch(/"amount"|"damage"|"points"/);
     f.push(theftView('reveal', 5));
-    expect(f.ui.getByText(strings.match.theftTransfer('Joana', 'Bruno', 50))).toBeDefined();
+    expect(f.ui.getByText(strings.match.theftTransfer('Joana', 'Bruno', 100))).toBeDefined();
     expect(
-      f.ui.getByText(strings.match.theftBalance(0, 100, -50, 50), { exact: false }),
+      f.ui.getByText(strings.match.theftBalance(0, 100, -100, 0), { exact: false }),
     ).toBeDefined();
-    expect(f.ui.getByText('−50 Roubo')).toBeDefined();
+    expect(f.ui.getByText('−100 Roubo')).toBeDefined();
   });
   it('outro jogador ou espectador acompanha o alvo sem poder escolher', async () => {
     const guest = await harness(theftView('target', 2, guestId));

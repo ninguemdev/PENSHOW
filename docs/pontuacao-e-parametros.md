@@ -17,13 +17,13 @@ Os valores são **experimentais**, conforme o [plano do jogo](plano-do-jogo.md).
 | Clássico | Acerto +100 |
 | Velocidade | Acerto +100; bônus +50 antes de 5 s, +25 antes de 10 s, zero depois |
 | Aposta | +100 por acerto; valores 0/25/50; janela de 6 s |
-| Roubo | +100 por acerto; primeiro acerto transfere até 50; alvo em até 6 s |
+| Roubo | +100 por acerto; primeiro acerto transfere até 100; alvo em até 6 s |
 | Dinamite | Um ciclo médio e um difícil por pessoa; +300 / até −150; resposta 10 s, revelação 3 s |
 | Final, parâmetros experimentais de tempo/conteúdo | Reserva de 50; resposta 15 s, alvo 6 s, revelação 4 s |
 
 Os campos de pontos são inteiros seguros não negativos e os tempos são inteiros seguros positivos. Demandas de conteúdo precisam somar ao menos uma pergunta, com até 100.000 por dificuldade; a reserva é par, entre dois e 100.000 itens, para alternar fácil/média. Apostas incluem zero em ordem crescente, sem duplicatas, com até 16 valores. Faixas de velocidade têm limites temporais crescentes, bônus não crescentes e terminam no prazo de resposta. Até quatro temas podem ser oferecidos, respeitando o contrato público. Esses são limites técnicos de validação, não metas de tamanho ou duração da partida.
 
-As políticas experimentais de roubo e dinamite exigem explicitamente `status: "prototype"` e D05/D04. Não há opção para sobrescrever vidas confirmadas ou marcar decisões como aprovadas. D02/D03 continuam sem política automática de pular pergunta ou escolher alvo; o parâmetro de seis segundos não decide o que fazer depois dele.
+A política D05 de roubo usa `status: "confirmed"`, teto 100 e +100 por acerto. O schema conserva `prototype` para configurações de experimento, como o teto de 25 do piloto; a projeção deriva o status das regras congeladas. Dinamite usa `confirmed` em D04 para dois turnos por pessoa; a variante de pontuação 200/100 do piloto usa `prototype`. As vidas confirmadas não podem ser sobrescritas. A final aplica D02/D03: perda coletiva na ausência de resposta e sorteio entre todos os ativos na ausência de alvo.
 
 Uma nova configuração não altera uma partida que já recebeu seu snapshot. Para experimentar outros valores, validar a cópia completa de parâmetros e chamar a fábrica para a nova partida. O [motor da T14](motor-de-partida.md) guarda esse resultado junto ao elenco/configuração e ao checkpoint privado da seleção.
 
@@ -63,7 +63,7 @@ Acerto recebe a base mais a aposta; erro ou ausência recebe um único débito d
 
 Todos os créditos de acerto são aplicados antes da transferência. O beneficiário é a primeira resposta correta na lista de recibos; uma errada anterior não bloqueia o direito. Empate no mesmo milissegundo conserva a ordem da lista, que deve vir da fila do servidor, sem usar posição no placar, anfitrião ou conexão para desempatar.
 
-O alvo pode ser informado ou `null`. Sem escolha, permanece apenas a pontuação por acerto. Alvo próprio, desconhecido ou transferência sem nenhum acerto são recusados; alvo sem saldo transfere zero. A quantidade é limitada ao saldo do alvo após seus créditos. O caso de 30 pontos transfere 30, com débito e crédito iguais. A autorização de quem enviou a escolha será aplicada pelo serviço da modalidade.
+O alvo pode ser informado ou `null`. Sem escolha, permanece apenas a pontuação por acerto. Alvo próprio, desconhecido ou transferência sem nenhum acerto são recusados; alvo sem saldo transfere zero. A quantidade é limitada ao mínimo entre 100 e o saldo do alvo após seus créditos. O caso de 30 pontos transfere 30, com débito e crédito iguais. O serviço da modalidade verifica a autorização de quem envia a escolha.
 
 ### Dinamite
 

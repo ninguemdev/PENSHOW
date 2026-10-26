@@ -1,0 +1,1860 @@
+{
+  "schemaVersion": 1,
+  "id": "t33-002",
+  "sequence": 2,
+  "reviewedAt": "2026-10-23",
+  "comparisonCatalogSha256": "37285afd46a72e9b960b378bca0b53c7e9d0108abc7addedc52aaf9282441453",
+  "method": "Revisão e tradução assistidas por IA, com conferência individual das referências institucionais acessíveis ou indexadas, alternativas e comparação com os 336 registros existentes. Sem revisão humana independente. Não houve aprovação automática em massa.",
+  "records": [
+    {
+      "original": {
+        "id": "opentdb:arts-literature:345dde775103b61d",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who painted the biblical fresco The Creation of Adam?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-1",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-2",
+            "text": "Caravaggio"
+          },
+          {
+            "id": "option-3",
+            "text": "Rembrandt"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 190,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:345dde775103b61d",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem pintou o afresco “A Criação de Adão”, no teto da Capela Sistina?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "option-1",
+            "text": "Leonardo da Vinci"
+          },
+          {
+            "id": "option-2",
+            "text": "Caravaggio"
+          },
+          {
+            "id": "option-3",
+            "text": "Rembrandt"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 190,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/volta.html",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "creation-adam-painter",
+      "note": "Autoria do teto conferida no acervo dos Museus Vaticanos e na página específica da Criação de Adão; não repetir a autoria do Davi já publicada.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:arts-literature:15d2cec56f56b773",
+        "category": "arts-literature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which art movement was Pablo Picasso known for co-founding?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Cubism"
+          },
+          {
+            "id": "option-1",
+            "text": "Futurism"
+          },
+          {
+            "id": "option-2",
+            "text": "Expressionism"
+          },
+          {
+            "id": "option-3",
+            "text": "Impressionism"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 386,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:arts-literature:15d2cec56f56b773",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual movimento artístico Pablo Picasso ajudou a criar com Georges Braque?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Cubismo"
+          },
+          {
+            "id": "option-1",
+            "text": "Futurismo"
+          },
+          {
+            "id": "option-2",
+            "text": "Expressionismo"
+          },
+          {
+            "id": "option-3",
+            "text": "Impressionismo"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 386,
+          "category": "Art",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://shop.tate.org.uk/cubist-earrings/23072.html",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "picasso-cofounded-cubism",
+      "note": "Conferida a atribuição conjunta a Picasso e Braque no conteúdo institucional da Tate; não confundir com autoria de uma pintura específica.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "questionados:geography:8ed1b3a6149301e3",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que continente está localizado o Monte Kilimanjaro?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "África"
+          },
+          {
+            "id": "option-1",
+            "text": "Ásia"
+          },
+          {
+            "id": "option-2",
+            "text": "Europa"
+          },
+          {
+            "id": "option-3",
+            "text": "América do Sul"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+          "recordIndex": 12,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:geography:8ed1b3a6149301e3",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em qual continente fica o Monte Kilimanjaro?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "África"
+          },
+          {
+            "id": "option-1",
+            "text": "Ásia"
+          },
+          {
+            "id": "option-2",
+            "text": "Europa"
+          },
+          {
+            "id": "option-3",
+            "text": "América do Sul"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+          "recordIndex": 12,
+          "license": "MIT"
+        },
+        "review": {
+          "referenceUrl": "https://whc.unesco.org/en/list/403/",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "kilimanjaro-continent",
+      "note": "UNESCO identifica o Kilimanjaro como ponto culminante da África; a pergunta anterior cobra o país Tanzânia, atributo distinto.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:geography:80f4720daccd6e45",
+        "category": "geography",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "The White Cliffs of Dover is located in which country? ",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "United Kingdom"
+          },
+          {
+            "id": "option-1",
+            "text": "United States"
+          },
+          {
+            "id": "option-2",
+            "text": "Netherlands"
+          },
+          {
+            "id": "option-3",
+            "text": "Sweden"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 166,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:geography:80f4720daccd6e45",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "As Falésias Brancas de Dover, na Inglaterra, ficam em qual Estado soberano?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Reino Unido"
+          },
+          {
+            "id": "option-1",
+            "text": "Estados Unidos"
+          },
+          {
+            "id": "option-2",
+            "text": "Países Baixos"
+          },
+          {
+            "id": "option-3",
+            "text": "Suécia"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 166,
+          "category": "Geography",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.dover.gov.uk/welcome/cliffs.aspx",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "white-cliffs-dover-sovereign-country",
+      "note": "Localização britânica conferida no município de Dover e National Trust; explicitado Estado soberano para distinguir Inglaterra de Reino Unido.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:936dc01e593f5bdc",
+        "category": "history",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Who was the first man to travel into outer space?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Yuri Gagarin"
+          },
+          {
+            "id": "option-1",
+            "text": "Virgil Ivan \"Gus\" Grissom"
+          },
+          {
+            "id": "option-2",
+            "text": "Neil Armstrong"
+          },
+          {
+            "id": "option-3",
+            "text": "Buzz Aldrin"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 0,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:936dc01e593f5bdc",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem se tornou o primeiro ser humano a viajar ao espaço, em 1961?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Yuri Gagarin"
+          },
+          {
+            "id": "option-1",
+            "text": "Gus Grissom"
+          },
+          {
+            "id": "option-2",
+            "text": "Neil Armstrong"
+          },
+          {
+            "id": "option-3",
+            "text": "Buzz Aldrin"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 0,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "gagarin-first-human-space",
+      "note": "NASA confirma o voo de Gagarin de 12 de abril de 1961; atributo não encontrado no catálogo de comparação.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:history:2e663962c8e85049",
+        "category": "history",
+        "locale": "en",
+        "type": "boolean",
+        "prompt": "Vikings were the first Europeans to discover North America.",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "True"
+          },
+          {
+            "id": "option-1",
+            "text": "False"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 110,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:history:2e663962c8e85049",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "boolean",
+        "prompt": "Vestígios arqueológicos confirmam a presença de vikings na América do Norte no século XI, antes da viagem de Colombo de 1492.",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Verdadeiro"
+          },
+          {
+            "id": "option-1",
+            "text": "Falso"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 110,
+          "category": "History",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://whc.unesco.org/en/list/4/",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "norse-north-america-eleventh-century",
+      "note": "UNESCO documenta o assentamento nórdico do século XI em L’Anse aux Meadows; removida a ideia de descoberta de território já habitado.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:dfe90ba5534028f6",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "The human right lung has how many lobes?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "3"
+          },
+          {
+            "id": "option-1",
+            "text": "4"
+          },
+          {
+            "id": "option-2",
+            "text": "2"
+          },
+          {
+            "id": "option-3",
+            "text": "1"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 65,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:dfe90ba5534028f6",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em quantos lobos se divide normalmente o pulmão direito humano?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "3"
+          },
+          {
+            "id": "option-1",
+            "text": "4"
+          },
+          {
+            "id": "option-2",
+            "text": "2"
+          },
+          {
+            "id": "option-3",
+            "text": "1"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 65,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "right-lung-lobes",
+      "note": "NHLBI distingue três lobos no pulmão direito e dois no esquerdo; pergunta de anatomia, sem recomendação de saúde.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:science-nature:d26c567876cb90e3",
+        "category": "science-nature",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "Which of these is used to show that Earth spins on an axis? ",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Foucault Pendulum "
+          },
+          {
+            "id": "option-1",
+            "text": "Polaris"
+          },
+          {
+            "id": "option-2",
+            "text": "Sundial"
+          },
+          {
+            "id": "option-3",
+            "text": "Tectonic Plates "
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 74,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:science-nature:d26c567876cb90e3",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual destes dispositivos demonstra a rotação da Terra em torno de seu eixo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Pêndulo de Foucault"
+          },
+          {
+            "id": "option-1",
+            "text": "Estrela Polar"
+          },
+          {
+            "id": "option-2",
+            "text": "Relógio de sol"
+          },
+          {
+            "id": "option-3",
+            "text": "Placas tectônicas"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 74,
+          "category": "Science & Nature",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.si.edu/spotlight/foucault-pendulum",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "foucault-pendulum-earth-rotation",
+      "note": "Experimento de Foucault de 1851 conferido no conteúdo institucional indexado do Smithsonian; a abertura direta retornou 404 nesta consulta.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:b73e9ee0d3f3b9e0",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "How many soccer players should be on the field at the same time?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "22"
+          },
+          {
+            "id": "option-1",
+            "text": "20"
+          },
+          {
+            "id": "option-2",
+            "text": "24"
+          },
+          {
+            "id": "option-3",
+            "text": "26"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 2,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:b73e9ee0d3f3b9e0",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "No futebol de campo, qual é o total máximo de jogadores das duas equipes em campo ao mesmo tempo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "22"
+          },
+          {
+            "id": "option-1",
+            "text": "20"
+          },
+          {
+            "id": "option-2",
+            "text": "24"
+          },
+          {
+            "id": "option-3",
+            "text": "26"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 2,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.theifab.com/laws/2025-26/the-players/",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "association-football-maximum-total-players",
+      "note": "Lei 3 da IFAB prevê até onze por equipe; incluído máximo para não excluir partidas com expulsões ou jogadores a menos.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:sports:b7cbb2cdfd538f39",
+        "category": "sports",
+        "locale": "en",
+        "type": "multiple",
+        "prompt": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "13"
+          },
+          {
+            "id": "option-1",
+            "text": "11"
+          },
+          {
+            "id": "option-2",
+            "text": "20"
+          },
+          {
+            "id": "option-3",
+            "text": "22"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 39,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:sports:b7cbb2cdfd538f39",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quantos títulos da Premier League Alex Ferguson conquistou como técnico do Manchester United até se aposentar em 2013?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "13"
+          },
+          {
+            "id": "option-1",
+            "text": "11"
+          },
+          {
+            "id": "option-2",
+            "text": "20"
+          },
+          {
+            "id": "option-3",
+            "text": "22"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "hard",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 39,
+          "category": "Sports",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.manutd.com/en/news/inside-story-of-sir-alex-ferguson-farewell-as-man-utd-manager-v-west-brom",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "ferguson-premier-league-titles",
+      "note": "Relato oficial do Manchester United confirma o 13º título em 2013; Premier League não foi confundida com todos os campeonatos ingleses.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "opentdb:film:f2283de735e7d916",
+        "category": "film",
+        "locale": "en",
+        "type": "boolean",
+        "prompt": "Leonardo DiCaprio won an Oscar for Best Actor in 2004's \"The Aviator\".",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "False"
+          },
+          {
+            "id": "option-1",
+            "text": "True"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "easy",
+        "status": "needs-translation",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 261,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        }
+      },
+      "revised": {
+        "id": "opentdb:film:f2283de735e7d916",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "boolean",
+        "prompt": "Leonardo DiCaprio ganhou o Oscar de melhor ator por “O Aviador”, filme lançado em 2004.",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Falso"
+          },
+          {
+            "id": "option-1",
+            "text": "Verdadeiro"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "medium",
+        "status": "approved",
+        "source": {
+          "id": "opentdb",
+          "url": "https://opentdb.com/",
+          "recordIndex": 261,
+          "category": "Entertainment: Film",
+          "license": "CC-BY-SA-4.0"
+        },
+        "review": {
+          "referenceUrl": "https://www.oscars.org/oscars/ceremonies/embed/2005",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "dicaprio-aviator-best-actor-oscar-false",
+      "note": "Academia registra DiCaprio como indicado por O Aviador e Jamie Foxx como vencedor por Ray em 2005; não repete qual filme deu o Oscar de 2016.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "questionados:pop-culture:8805ec28a232074c",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome da nave espacial em 'Star Wars'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Enterprise"
+          },
+          {
+            "id": "option-1",
+            "text": "Millennium Falcon"
+          },
+          {
+            "id": "option-2",
+            "text": "TIE Fighter"
+          },
+          {
+            "id": "option-3",
+            "text": "X-Wing"
+          }
+        ],
+        "correctOptionId": "option-1",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+          "recordIndex": 10,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:pop-culture:8805ec28a232074c",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual nave Han Solo comanda com Chewbacca em “Star Wars”?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Enterprise"
+          },
+          {
+            "id": "option-1",
+            "text": "Millennium Falcon"
+          },
+          {
+            "id": "option-2",
+            "text": "TIE Fighter"
+          },
+          {
+            "id": "option-3",
+            "text": "X-Wing"
+          }
+        ],
+        "correctOptionId": "option-1",
+        "difficulty": "easy",
+        "status": "approved",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+          "recordIndex": 10,
+          "license": "MIT"
+        },
+        "review": {
+          "referenceUrl": "https://www.starwars.com/databank/han-solo",
+          "reviewedAt": "2026-10-23",
+          "checks": {
+            "factual": true,
+            "language": true,
+            "uniqueAnswer": true
+          }
+        }
+      },
+      "factKey": "han-solo-starship",
+      "note": "Databank oficial identifica Han Solo como capitão da Millennium Falcon; corrigido o original, que aceitava várias naves de Star Wars.",
+      "semanticReview": "Comparado com os 336 itens publicados e com os demais itens deste lote: entidade e atributo revisados individualmente; mantidos apenas fatos distintos, sem inverter uma pergunta para contá-la novamente."
+    },
+    {
+      "original": {
+        "id": "questionados:arts-literature:a5304c8190239f42",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em qual movimento artístico surgiu o Cubismo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Renascimento"
+          },
+          {
+            "id": "option-1",
+            "text": "Barroco"
+          },
+          {
+            "id": "option-2",
+            "text": "Romantismo"
+          },
+          {
+            "id": "option-3",
+            "text": "Cubismo"
+          }
+        ],
+        "correctOptionId": "option-3",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+          "recordIndex": 3,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:arts-literature:a5304c8190239f42",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em qual movimento artístico surgiu o Cubismo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Renascimento"
+          },
+          {
+            "id": "option-1",
+            "text": "Barroco"
+          },
+          {
+            "id": "option-2",
+            "text": "Romantismo"
+          },
+          {
+            "id": "option-3",
+            "text": "Cubismo"
+          }
+        ],
+        "correctOptionId": "option-3",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+          "recordIndex": 3,
+          "license": "MIT"
+        }
+      },
+      "factKey": "cubism-tautology",
+      "note": "Enunciado pergunta em qual movimento surgiu o próprio cubismo e oferece Cubismo como resposta; tautologia não testa um fato independente.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:arts-literature:400f41bf1960f4f4",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o movimento artístico que se caracteriza pelo uso de cores vibrantes e formas geométricas?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Cubismo"
+          },
+          {
+            "id": "option-1",
+            "text": "Pop Art"
+          },
+          {
+            "id": "option-2",
+            "text": "Fauvismo"
+          },
+          {
+            "id": "option-3",
+            "text": "Expressionismo"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+          "recordIndex": 18,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:arts-literature:400f41bf1960f4f4",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o movimento artístico que se caracteriza pelo uso de cores vibrantes e formas geométricas?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Cubismo"
+          },
+          {
+            "id": "option-1",
+            "text": "Pop Art"
+          },
+          {
+            "id": "option-2",
+            "text": "Fauvismo"
+          },
+          {
+            "id": "option-3",
+            "text": "Expressionismo"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+          "recordIndex": 18,
+          "license": "MIT"
+        }
+      },
+      "factKey": "art-style-ambiguous",
+      "note": "Cores vibrantes e formas geométricas não identificam exclusivamente fauvismo; a descrição permite mais de um movimento entre as alternativas.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:arts-literature:da2d616d90e1d31b",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome da técnica de pintura em que se utiliza cera derretida e pigmentos sobre uma tela?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Aquarela"
+          },
+          {
+            "id": "option-1",
+            "text": "Encaustica"
+          },
+          {
+            "id": "option-2",
+            "text": "Tempera"
+          },
+          {
+            "id": "option-3",
+            "text": "Pastel"
+          }
+        ],
+        "correctOptionId": "option-1",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+          "recordIndex": 33,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:arts-literature:da2d616d90e1d31b",
+        "category": "arts-literature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome da técnica de pintura em que se utiliza cera derretida e pigmentos sobre uma tela?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Aquarela"
+          },
+          {
+            "id": "option-1",
+            "text": "Encaustica"
+          },
+          {
+            "id": "option-2",
+            "text": "Tempera"
+          },
+          {
+            "id": "option-3",
+            "text": "Pastel"
+          }
+        ],
+        "correctOptionId": "option-1",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/art.js",
+          "recordIndex": 33,
+          "license": "MIT"
+        }
+      },
+      "factKey": "encaustic-duplicate",
+      "note": "A técnica que mistura pigmento e cera aquecida já está publicada; grafia ou suporte diferente não cria novo fato.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável.",
+      "duplicateOf": "questionados:arts-literature:549b1a53e6c0dc35"
+    },
+    {
+      "original": {
+        "id": "questionados:history:1d7c6f7674ee0933",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem foi o líder da Revolução Industrial na Inglaterra?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "James Watt"
+          },
+          {
+            "id": "option-1",
+            "text": "George Stephenson"
+          },
+          {
+            "id": "option-2",
+            "text": "Richard Arkwright"
+          },
+          {
+            "id": "option-3",
+            "text": "James Hargreaves"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+          "recordIndex": 22,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:history:1d7c6f7674ee0933",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem foi o líder da Revolução Industrial na Inglaterra?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "James Watt"
+          },
+          {
+            "id": "option-1",
+            "text": "George Stephenson"
+          },
+          {
+            "id": "option-2",
+            "text": "Richard Arkwright"
+          },
+          {
+            "id": "option-3",
+            "text": "James Hargreaves"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+          "recordIndex": 22,
+          "license": "MIT"
+        }
+      },
+      "factKey": "industrial-england-no-single-leader",
+      "note": "Revolução Industrial inglesa não possui um líder único definido pelo enunciado; diferentes inventores e empresários não podem ser reduzidos ao gabarito proposto.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:history:d2d8aa9c98e0d036",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem foi o líder da Revolução Industrial nos Estados Unidos?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Andrew Carnegie"
+          },
+          {
+            "id": "option-1",
+            "text": "John D. Rockefeller"
+          },
+          {
+            "id": "option-2",
+            "text": "Henry Ford"
+          },
+          {
+            "id": "option-3",
+            "text": "Thomas Edison"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+          "recordIndex": 34,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:history:d2d8aa9c98e0d036",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem foi o líder da Revolução Industrial nos Estados Unidos?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Andrew Carnegie"
+          },
+          {
+            "id": "option-1",
+            "text": "John D. Rockefeller"
+          },
+          {
+            "id": "option-2",
+            "text": "Henry Ford"
+          },
+          {
+            "id": "option-3",
+            "text": "Thomas Edison"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+          "recordIndex": 34,
+          "license": "MIT"
+        }
+      },
+      "factKey": "industrial-us-no-single-leader",
+      "note": "Pergunta atribui liderança única da Revolução Industrial nos Estados Unidos a Henry Ford, sem recorte histórico ou critério verificável.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:history:7b7ca9c1573f2c46",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem foi o líder da Revolução Industrial na Alemanha?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Otto von Bismarck"
+          },
+          {
+            "id": "option-1",
+            "text": "Friedrich Engels"
+          },
+          {
+            "id": "option-2",
+            "text": "Karl Marx"
+          },
+          {
+            "id": "option-3",
+            "text": "Werner von Siemens"
+          }
+        ],
+        "correctOptionId": "option-3",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+          "recordIndex": 44,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:history:7b7ca9c1573f2c46",
+        "category": "history",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem foi o líder da Revolução Industrial na Alemanha?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Otto von Bismarck"
+          },
+          {
+            "id": "option-1",
+            "text": "Friedrich Engels"
+          },
+          {
+            "id": "option-2",
+            "text": "Karl Marx"
+          },
+          {
+            "id": "option-3",
+            "text": "Werner von Siemens"
+          }
+        ],
+        "correctOptionId": "option-3",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/history.js",
+          "recordIndex": 44,
+          "license": "MIT"
+        }
+      },
+      "factKey": "industrial-germany-no-single-leader",
+      "note": "Pergunta pressupõe um líder único da Revolução Industrial alemã sem definir período, função ou critério de liderança.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:pop-culture:77929de513d2eccb",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome da protagonista da série 'Friends'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Monica Geller"
+          },
+          {
+            "id": "option-1",
+            "text": "Rachel Green"
+          },
+          {
+            "id": "option-2",
+            "text": "Phoebe Buffay"
+          },
+          {
+            "id": "option-3",
+            "text": "Joey Tribbiani"
+          }
+        ],
+        "correctOptionId": "option-1",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+          "recordIndex": 20,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:pop-culture:77929de513d2eccb",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome da protagonista da série 'Friends'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Monica Geller"
+          },
+          {
+            "id": "option-1",
+            "text": "Rachel Green"
+          },
+          {
+            "id": "option-2",
+            "text": "Phoebe Buffay"
+          },
+          {
+            "id": "option-3",
+            "text": "Joey Tribbiani"
+          }
+        ],
+        "correctOptionId": "option-1",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+          "recordIndex": 20,
+          "license": "MIT"
+        }
+      },
+      "factKey": "friends-single-protagonist",
+      "note": "Friends tem elenco central de conjunto; o enunciado genérico não sustenta Rachel como única protagonista entre os integrantes oferecidos.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:pop-culture:1f3c1f2412a56359",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome do dragão de Daenerys Targaryen em 'Game of Thrones'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Drogon"
+          },
+          {
+            "id": "option-1",
+            "text": "Rhaegal"
+          },
+          {
+            "id": "option-2",
+            "text": "Viserion"
+          },
+          {
+            "id": "option-3",
+            "text": "Balerion"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+          "recordIndex": 25,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:pop-culture:1f3c1f2412a56359",
+        "category": "pop-culture",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o nome do dragão de Daenerys Targaryen em 'Game of Thrones'?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Drogon"
+          },
+          {
+            "id": "option-1",
+            "text": "Rhaegal"
+          },
+          {
+            "id": "option-2",
+            "text": "Viserion"
+          },
+          {
+            "id": "option-3",
+            "text": "Balerion"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js",
+          "recordIndex": 25,
+          "license": "MIT"
+        }
+      },
+      "factKey": "daenerys-three-dragons",
+      "note": "Drogon, Rhaegal e Viserion são dragões de Daenerys e constam nas alternativas; falta característica que selecione somente um.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:sports:470f294dcb4d50bd",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que esporte o termo 'grand slam' é utilizado?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-1",
+            "text": "Golfe"
+          },
+          {
+            "id": "option-2",
+            "text": "Beisebol"
+          },
+          {
+            "id": "option-3",
+            "text": "Basquete"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+          "recordIndex": 30,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:sports:470f294dcb4d50bd",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Em que esporte o termo 'grand slam' é utilizado?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tênis"
+          },
+          {
+            "id": "option-1",
+            "text": "Golfe"
+          },
+          {
+            "id": "option-2",
+            "text": "Beisebol"
+          },
+          {
+            "id": "option-3",
+            "text": "Basquete"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+          "recordIndex": 30,
+          "license": "MIT"
+        }
+      },
+      "factKey": "grand-slam-multiple-sports",
+      "note": "Grand slam é usado no tênis, golfe e beisebol, todos oferecidos; o enunciado não define contexto para uma resposta única.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:sports:57ccdb8564cf1c89",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o esporte principal dos Jogos Olímpicos de Inverno?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Esqui"
+          },
+          {
+            "id": "option-1",
+            "text": "Bobsled"
+          },
+          {
+            "id": "option-2",
+            "text": "Hóquei no Gelo"
+          },
+          {
+            "id": "option-3",
+            "text": "Patinagem Artística"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+          "recordIndex": 32,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:sports:57ccdb8564cf1c89",
+        "category": "sports",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é o esporte principal dos Jogos Olímpicos de Inverno?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Esqui"
+          },
+          {
+            "id": "option-1",
+            "text": "Bobsled"
+          },
+          {
+            "id": "option-2",
+            "text": "Hóquei no Gelo"
+          },
+          {
+            "id": "option-3",
+            "text": "Patinagem Artística"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/sports.js",
+          "recordIndex": 32,
+          "license": "MIT"
+        }
+      },
+      "factKey": "winter-olympics-principal-undefined",
+      "note": "Não existe critério definido de esporte principal dos Jogos de Inverno; audiência ou quantidade de provas não foram especificadas.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:geography:8462439b12469f82",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é a cidade mais populosa do mundo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tóquio"
+          },
+          {
+            "id": "option-1",
+            "text": "Pequim"
+          },
+          {
+            "id": "option-2",
+            "text": "Mumbai"
+          },
+          {
+            "id": "option-3",
+            "text": "Xangai"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+          "recordIndex": 7,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:geography:8462439b12469f82",
+        "category": "geography",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Qual é a cidade mais populosa do mundo?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Tóquio"
+          },
+          {
+            "id": "option-1",
+            "text": "Pequim"
+          },
+          {
+            "id": "option-2",
+            "text": "Mumbai"
+          },
+          {
+            "id": "option-3",
+            "text": "Xangai"
+          }
+        ],
+        "correctOptionId": "option-0",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js",
+          "recordIndex": 7,
+          "license": "MIT"
+        }
+      },
+      "factKey": "largest-city-undated-definition",
+      "note": "Cidade mais populosa exige período e definição de limites municipais, área urbana ou metropolitana; o candidato não informa nenhum deles.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável."
+    },
+    {
+      "original": {
+        "id": "questionados:science-nature:a8608d7e46463119",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem desenvolveu a teoria da relatividade restrita?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Isaac Newton"
+          },
+          {
+            "id": "option-1",
+            "text": "Niels Bohr"
+          },
+          {
+            "id": "option-2",
+            "text": "Albert Einstein"
+          },
+          {
+            "id": "option-3",
+            "text": "Max Planck"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "needs-review",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+          "recordIndex": 20,
+          "license": "MIT"
+        }
+      },
+      "revised": {
+        "id": "questionados:science-nature:a8608d7e46463119",
+        "category": "science-nature",
+        "locale": "pt-BR",
+        "type": "multiple",
+        "prompt": "Quem desenvolveu a teoria da relatividade restrita?",
+        "options": [
+          {
+            "id": "option-0",
+            "text": "Isaac Newton"
+          },
+          {
+            "id": "option-1",
+            "text": "Niels Bohr"
+          },
+          {
+            "id": "option-2",
+            "text": "Albert Einstein"
+          },
+          {
+            "id": "option-3",
+            "text": "Max Planck"
+          }
+        ],
+        "correctOptionId": "option-2",
+        "difficulty": "unrated",
+        "status": "rejected",
+        "source": {
+          "id": "questionados",
+          "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/science.js",
+          "recordIndex": 20,
+          "license": "MIT"
+        }
+      },
+      "factKey": "special-relativity-duplicate",
+      "note": "Autoria da relatividade restrita por Einstein já está publicada; reformular a mesma associação não cria novo fato.",
+      "semanticReview": "Decisão individual de exclusão por ambiguidade, pressuposto não definido ou repetição identificada; o registro rejeitado fica no histórico e não entra no catálogo jogável.",
+      "duplicateOf": "questionados:science-nature:da4b6c0232abba75"
+    }
+  ]
+}

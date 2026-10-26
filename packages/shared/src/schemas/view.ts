@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { tiebreakViewSchema } from './tiebreak.js';
 import { finalEntrySchema } from './final-entry.js';
 import { roundSummarySchema } from './results.js';
 import { ROOM_LIMITS } from '../domain/rooms.js';
@@ -52,6 +53,11 @@ const finalFields = { round: finalRoundSchema, finalists: finalistsSchema };
 const acceptedAnswerFields = { playerId: playerIdSchema, optionId: optionIdSchema };
 export const finalResolutionSchema = z.discriminatedUnion('outcome', [
   z.strictObject({
+    outcome: z.literal('no-answer'),
+    playerIds: playerIdsSchema.min(2),
+    damage: z.literal(1),
+  }),
+  z.strictObject({
     ...acceptedAnswerFields,
     outcome: z.literal('wrong-answer'),
     damage: z.literal(1),
@@ -62,15 +68,21 @@ export const finalResolutionSchema = z.discriminatedUnion('outcome', [
       outcome: z.literal('attack'),
       targetPlayerId: playerIdSchema,
       damage: z.literal(1),
+      automatic: z.literal(true).optional(),
     })
     .refine(
-      (result) => result.playerId !== result.targetPlayerId,
+      (result) => result.automatic === true || result.playerId !== result.targetPlayerId,
       'O alvo precisa ser outro participante.',
     ),
 ]);
 
 export const matchStageSchema = z
   .discriminatedUnion('phase', [
+    z.strictObject({
+      phase: z.literal('final-tiebreak'),
+      ...finalFields,
+      tiebreak: tiebreakViewSchema,
+    }),
     z.strictObject({
       phase: z.literal('instructions'),
       round: scoringRoundSchema,
@@ -239,6 +251,7 @@ export const matchStageSchema = z
       phase: z.literal('podium'),
       ...finalFields,
       standings: playerIdsSchema.refine((ids) => ids.length >= 2),
+      winnerSource: z.enum(['quiz', 'tiebreak']).optional(),
     }),
     z.strictObject({
       phase: z.literal('interrupted'),
@@ -257,9 +270,7 @@ export const matchStageSchema = z
       stage.phase !== 'instructions' &&
       stage.phase !== 'category-selection'
     ) {
-      invalid(
-        'A quinta fase precisa de uma variante explicitamente experimental antes de abrir perguntas.',
-      );
+      invalid('A modalidade de pressão precisa de uma variante definida antes de abrir perguntas.');
     }
     if (stage.phase === 'question-open') {
       const ownAnswer = stage.ownAnswer;
@@ -271,9 +282,9 @@ export const matchStageSchema = z
         invalid('A resposta própria precisa referenciar uma alternativa da pergunta.');
       }
       const isDynamite =
-        stage.round.mode === 'pressure' && stage.round.variant.status === 'prototype';
+        stage.round.mode === 'pressure' && stage.round.variant.status !== 'pending';
       if (isDynamite !== (stage.respondents.kind === 'single-player'))
-        invalid('Somente a dinamite experimental recebe um respondente exclusivo.');
+        invalid('Somente a dinamite recebe um respondente exclusivo.');
       if (
         respondents.kind === 'single-player' &&
         stage.answeredPlayerIds.some((id) => id !== respondents.playerId)
@@ -293,7 +304,12 @@ export const matchStageSchema = z
       invalid('Quem rouba não pode ser o alvo.');
     if ('finalists' in stage) {
       const active = stage.finalists.filter((player) => player.status === 'active');
-      if (stage.phase !== 'final-resolution' && stage.phase !== 'podium' && active.length < 2)
+      if (
+        stage.phase !== 'final-resolution' &&
+        stage.phase !== 'podium' &&
+        stage.phase !== 'final-tiebreak' &&
+        active.length < 2
+      )
         invalid('Uma disputa da final precisa de pelo menos dois jogadores ativos.');
       if (
         stage.phase === 'final-instructions' &&
@@ -315,7 +331,7 @@ export const matchStageSchema = z
         )
           invalid('Somente o autor do acerto escolhe entre todos os adversários ativos.');
       }
-      if (stage.phase === 'final-resolution') {
+      if (stage.phase === 'final-resolution' && stage.resolution.outcome !== 'no-answer') {
         const result = stage.resolution;
         const actor = stage.finalists.find((player) => player.playerId === result.playerId);
         const victimId =
@@ -328,12 +344,16 @@ export const matchStageSchema = z
           (result.outcome === 'attack') !== (result.optionId === stage.reveal.correctOptionId)
         )
           invalid('A resolução precisa corresponder à única resposta avaliada e à sua vítima.');
-        if (result.outcome === 'attack' && actor?.status !== 'active')
+        if (result.outcome === 'attack' && !result.automatic && actor?.status !== 'active')
           invalid('O autor do acerto precisa estar ativo.');
         if (
           victim?.status === 'eliminated' &&
           victim.eliminationOrder !==
-            stage.finalists.filter((player) => player.status === 'eliminated').length
+            Math.max(
+              ...stage.finalists
+                .filter((player) => player.status === 'eliminated')
+                .map((p) => p.eliminationOrder),
+            )
         )
           invalid('Uma vítima eliminada nesta pergunta precisa ser a última eliminação.');
       }
@@ -346,9 +366,12 @@ export const matchStageSchema = z
           })
           .map((player) => player.playerId);
         if (
-          active.length !== 1 ||
+          (stage.winnerSource !== 'tiebreak' && active.length !== 1) ||
           order.length !== stage.standings.length ||
-          order.some((id, index) => id !== stage.standings[index])
+          new Set(stage.standings).size !== stage.finalists.length ||
+          stage.standings.some((id) => !stage.finalists.some((p) => p.playerId === id)) ||
+          (stage.winnerSource !== 'tiebreak' &&
+            order.some((id, index) => id !== stage.standings[index]))
         )
           invalid('O pódio começa pelo sobrevivente e segue a ordem inversa das eliminações.');
       }
@@ -370,11 +393,11 @@ export const matchViewSchema = z
         responseMs: nonnegativeIntegerSchema.min(1),
         targetSelectionMs: nonnegativeIntegerSchema.min(1),
         noAnswerPolicy: z.strictObject({
-          status: z.literal('pending'),
+          status: z.enum(['pending', 'confirmed']),
           decisionId: z.literal('D02'),
         }),
         noTargetPolicy: z.strictObject({
-          status: z.literal('pending'),
+          status: z.enum(['pending', 'confirmed']),
           decisionId: z.literal('D03'),
         }),
       })
@@ -385,7 +408,7 @@ export const matchViewSchema = z
         wrongPenalty: nonnegativeIntegerSchema,
         responseMs: nonnegativeIntegerSchema.min(1),
         turnDifficulties: z.array(difficultySchema).min(1).max(16),
-        status: z.literal('prototype'),
+        status: z.enum(['prototype', 'confirmed']),
         mode: z.literal('dynamite'),
       })
       .optional(),
@@ -407,7 +430,7 @@ export const matchViewSchema = z
         maximumTransfer: nonnegativeIntegerSchema,
         targetSelectionMs: nonnegativeIntegerSchema.min(1),
         policy: z.literal('first-correct-only'),
-        status: z.literal('prototype'),
+        status: z.enum(['prototype', 'confirmed']),
       })
       .optional(),
     wagerRules: z
@@ -589,11 +612,21 @@ export const matchViewSchema = z
     const pressure =
       'round' in stage &&
       stage.round.mode === 'pressure' &&
-      stage.round.variant.status === 'prototype';
+      stage.round.variant.status !== 'pending';
     const activeTurn =
       pressure && ['question-reading', 'question-open', 'reveal'].includes(stage.phase);
     const turn = match.pressureTurn;
     const pressureRules = match.pressureRules;
+    if (
+      pressureRules &&
+      'round' in stage &&
+      stage.round.mode === 'pressure' &&
+      stage.round.variant.status !== pressureRules.status
+    )
+      context.addIssue({
+        code: 'custom',
+        message: 'A política da dinamite deve coincidir com a variante da fase.',
+      });
     if ('round' in stage && pressure !== Boolean(pressureRules))
       context.addIssue({
         code: 'custom',

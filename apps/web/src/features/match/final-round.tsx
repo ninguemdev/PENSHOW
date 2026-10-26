@@ -8,12 +8,17 @@ import type { RoundProps } from './round-props';
 import { Podium } from '../results/podium';
 import { AnswerOptions } from './answer-options';
 import { QuestionFeedback } from './question-feedback';
+import { TiebreakArena } from '../tiebreak/tiebreak-arena';
 
 type FinalStage = Extract<MatchStage, { finalists: unknown }>;
 
 export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
   const stage = match.stage;
   if (!('finalists' in stage)) return null;
+  if (stage.phase === 'final-tiebreak')
+    return (
+      <TiebreakArena view={view} match={match} controls={controls} stores={stores} now={now} />
+    );
   const name = (id: string) =>
     view.members.find((member) => member.playerId === id)?.profile.nickname ?? strings.match.player;
   const own = stage.finalists.find((player) => player.playerId === view.viewerId);
@@ -25,7 +30,7 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
   const accepted =
     'acceptedAnswer' in stage
       ? stage.acceptedAnswer
-      : stage.phase === 'final-resolution'
+      : stage.phase === 'final-resolution' && stage.resolution.outcome !== 'no-answer'
         ? stage.resolution
         : null;
   const paused =
@@ -60,7 +65,9 @@ export function FinalRound({ view, match, controls, stores, now }: RoundProps) {
               {strings.final.rules(match.finalRules.responseMs, match.finalRules.targetSelectionMs)}
             </p>
           )}
-          <p>{strings.final.pendingHelp}</p>
+          <p>
+            Sem resposta, todos perdem uma vida. Sem escolher alvo, o sorteio inclui quem acertou.
+          </p>
           {match.finalEntry && <FinalEntry view={view} entry={match.finalEntry} />}
           <Timer deadline={stage.deadlineAt} now={now} offset={controls.offset} />
           <p role="status">
@@ -253,6 +260,12 @@ function FinalResult({
   name: (id: string) => string;
 }) {
   const result = stage.resolution;
+  if (result.outcome === 'no-answer')
+    return (
+      <div>
+        <p role="status">Ninguém respondeu. Todos os participantes ativos perderam uma vida.</p>
+      </div>
+    );
   const victim = stage.finalists.find(
     (player) =>
       player.playerId === (result.outcome === 'attack' ? result.targetPlayerId : result.playerId),
@@ -262,7 +275,7 @@ function FinalResult({
       <p>
         {result.outcome === 'wrong-answer'
           ? strings.final.wrong(name(result.playerId))
-          : strings.final.attacked(name(result.playerId), name(result.targetPlayerId))}
+          : `${result.automatic ? 'Alvo sorteado. ' : ''}${strings.final.attacked(name(result.playerId), name(result.targetPlayerId))}`}
       </p>
       <p>{strings.final.loss(name(victim.playerId), victim.lives + result.damage, victim.lives)}</p>
       {victim.status === 'eliminated' && <p>{strings.final.elimination(name(victim.playerId))}</p>}

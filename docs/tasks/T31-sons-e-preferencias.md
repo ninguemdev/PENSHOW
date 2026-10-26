@@ -34,6 +34,10 @@ Adicionar retorno sonoro consistente sem bloquear a partida ou depender de áudi
 - [x] Testar preferência, gesto inicial, ambiente sem áudio e deduplicação por transição.
 - [ ] Ouvir o fluxo manualmente para conferir intensidade, duração e sobreposição.
 
+## Revalidação técnica — 23/10/2026
+
+A consolidação D04/D05 foi incorporada à regressão de áudio/narrador e renderização. A prévia atual tem **17 efeitos**, incluindo disparo da arena: pico máximo 0,1102, último sinal até 0,675 s e maior variação entre amostras 0,0163. Artefatos em `data/audio-previews/`; execução e resultados finais no [registro conjunto](../validation/t21-t36-t29.md). A escuta humana permanece pendente e não foi substituída pelas medições.
+
 ## Cuidados de implementação
 
 Sons são efeito de apresentação. Não colocar pontuação ou transição de partida em callbacks de áudio.

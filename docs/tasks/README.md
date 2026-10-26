@@ -2,9 +2,11 @@
 
 Este backlog segue o formato do Comicle: índice de dependências e status, arquivo por tarefa, entregáveis verificáveis e unidades pequenas de revisão. As tarefas foram desenhadas para o PENSHOW; módulos de quadrinhos não fazem parte do escopo.
 
-**37 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
+**39 tarefas planejadas.** O quadro abaixo registra o andamento real. As ferramentas de importação existentes são ponto de partida de T01/T10, não conclusão dessas tarefas.
 
 O status de implementação fica somente neste índice. As checklists dos arquivos registram entregas e evidências.
+
+**Decisões de 23/10/2026:** D01–D08 foram respondidas e D09 acrescentou o minigame de desempate, conforme [registro](../decisoes.md). D06 usa posições por grupo sem saltos: 5/4/3/2 vidas. T20/T21/T22/T23/T29/T36 incorporam as políticas aprovadas, com evidências na [consolidação técnica](../validation/t21-t36-t29.md). T30/T31/T32 conservam validações presenciais e T33 conserva a expansão editorial; os acréscimos da interface da final ficam registrados em T24 e integrados por T36. A T39 implementou o tiro 2D top-down com três vidas e pergunta ao chegar a zero em desenvolvimento/teste. Em 26/10/2026, o piloto foi instalado via MCP AWS/SSM na VM do Comicle e validado em [dionel.site/penshow/](https://dionel.site/penshow/), com cinco jogadores em desktop e celular emulado. As rotas Cloudflare do domínio principal estão ativas. T35 continua em andamento: partida humana completa e critérios globais permanecem pendentes. Evidências anteriores continuam históricas; as dúvidas anteriores sobre empate e faixas de vidas foram respondidas.
 
 Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 
@@ -31,28 +33,32 @@ Legenda: ⬜ pendente · 🟨 em andamento · ✅ concluída.
 | T17 | [Primeiro marco jogável e smoke test](./T17-primeiro-marco-jogavel.md) | T11, T16 | M2 | ✅ |
 | T18 | [Modalidade de velocidade](./T18-fase-velocidade.md) | T17 | M3 | ✅ |
 | T19 | [Modalidade de aposta](./T19-fase-aposta.md) | T17, T13 | M3 | ✅ |
-| T20 | [Modalidade de roubo de pontos](./T20-fase-roubo.md) | T17, T13 | M3 | 🟨 |
-| T21 | [Quinta fase de pressão e dinamite](./T21-quinta-fase-pressao.md) | T17, T13 | M3 | 🟨 |
-| T22 | [Classificação, desempates e atribuição de vidas](./T22-classificacao-e-vidas.md) | T13 | M3 | 🟨 |
-| T23 | [Final no servidor com primeira resposta exclusiva](./T23-final-no-servidor.md) | T14, T22 | M3 | 🟨 |
+| T20 | [Modalidade de roubo de pontos](./T20-fase-roubo.md) | T17, T13 | M3 | ✅ |
+| T21 | [Quinta fase de pressão e dinamite](./T21-quinta-fase-pressao.md) | T17, T13 | M3 | ✅ |
+| T22 | [Classificação, desempates e atribuição de vidas](./T22-classificacao-e-vidas.md) | T13 | M3 | ✅ |
+| T23 | [Final no servidor com primeira resposta exclusiva](./T23-final-no-servidor.md) | T14, T22 | M3 | ✅ |
 | T24 | [Final na web e visualização das vidas](./T24-final-na-web.md) | T16, T23 | M3 | ✅ |
 | T25 | [Pódio, histórico e revanche](./T25-podio-e-revanche.md) | T24 | M3 | ✅ |
 | T26 | [Reconexão em todas as fases e ciclo de vida](./T26-reconexao-e-ciclo-de-vida.md) | T25, T18, T19, T20, T21 | M4 | ✅ |
 | T27 | [Catálogo de 300 perguntas para testes completos](./T27-catalogo-de-teste-completo.md) | T11, T12 | M3 | ✅ |
 | T28 | [Privacidade, limites e concorrência](./T28-privacidade-limites-e-concorrencia.md) | T26 | M4 | ✅ |
-| T29 | [Testes ponta a ponta da partida completa](./T29-e2e-partida-completa.md) | T26, T27, T28, T36 | M4 | 🟨 |
+| T29 | [Testes ponta a ponta da partida completa](./T29-e2e-partida-completa.md) | T26, T27, T28, T36 | M4 | ✅ |
 | T30 | [Acessibilidade, celular e acabamento visual](./T30-acessibilidade-e-responsividade.md) | T25, T18, T19, T20, T21 | M5 | 🟨 |
 | T31 | [Sons e preferências do jogador](./T31-sons-e-preferencias.md) | T25, T21 | M5 | 🟨 |
 | T32 | [Testes com grupos e equilíbrio](./T32-testes-de-grupo-e-equilibrio.md) | T29, T30, T31 | M5 | 🟨 |
 | T33 | [Expansão para 5.000 perguntas revisadas](./T33-expansao-para-5000-perguntas.md) | T27 | M6 | 🟨 |
 | T34 | [Build, container e operação de produção](./T34-build-e-operacao-de-producao.md) | T28, T29 | M6 | ✅ |
-| T35 | [Publicação e validação final](./T35-publicacao-e-validacao-final.md) | T32, T33, T34 | M6 | ⬜ |
-| T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27 | M3 | 🟨 |
+| T35 | [Publicação e validação final](./T35-publicacao-e-validacao-final.md) | T32, T33, T34, T39 | M6 | 🟨 |
+| T36 | [Modo clássico padrão com cinco fases e ordem sorteada](./T36-modo-classico-padrao.md) | T18, T19, T20, T21, T25, T26, T27, T39 | M3 | ✅ |
 | T37 | [Narrador robótico antes das respostas](./T37-narrador-robotico.md) | T16, T24, T31 | M5 | ✅ |
+| T38 | [Efeitos sonoros simples e fluidos](./T38-efeitos-sonoros-fluidos.md) | T31, T37 | M5 | ✅ |
+| T39 | [Desempate por minigame de tiro 2D top-down](./T39-desempate-tiro-top-down.md) | T23, T24, T25, T28 | M3 | ✅ |
 
 Os números organizam o backlog; o que permite começar é a dependência concluída. Por exemplo, T27 pode avançar após T11/T12, mesmo antes de T18. Uma consulta em uma modalidade não impede concluir salas, perfis, conteúdo ou outros módulos independentes.
 
 A T36 foi acrescentada em 20/10/2026 sem renumerar as tarefas existentes. Implementa o modo padrão com quatro modalidades distintas sorteadas e a final na quinta fase; deve ser entregue antes da T29. T28 continua independente dessa integração.
+
+A T39 foi acrescentada em 23/10/2026 para o desempate de eliminações simultâneas. Seu [plano de implementação](../plano-desempate.md) divide a entrega em T39-A a T39-I, com arquitetura, parâmetros iniciais e matriz de testes. Integra a final da T36 e deve estar validada antes de concluir T29/T32 e publicar em T35; não acrescenta uma sexta fase. A entrega em desenvolvimento/teste está documentada no [guia do desempate](../desempate-tiro.md), com testes e carga registrados na T39.
 
 ## Marcos de entrega
 
@@ -60,7 +66,7 @@ A T36 foi acrescentada em 20/10/2026 sem renumerar as tarefas existentes. Implem
 |---|---|---|
 | M1 | Pessoas montam personagens e entram na mesma sala | T01 a T09 |
 | M2 | Quiz clássico curto com perguntas reais, placar e duas sessões | T10 a T17, com o lote inicial de T11 |
-| M3 | Modo clássico de cinco fases, pódio e revanche com conteúdo suficiente | T18 a T25, T27 e T36, além das dependências anteriores |
+| M3 | Modo clássico de cinco fases, desempate de tiro, pódio e revanche com conteúdo suficiente | T18 a T25, T27, T36 e T39, além das dependências anteriores |
 | M4 | Partida completa resistente a queda, concorrência e acesso indevido | T26, T28 e T29 |
 | M5 | Experiência acessível, som e valores avaliados em grupo | T30 a T32 |
 | M6 | Versão completa publicada com catálogo de 5.000 revisadas | T33 a T35 |
@@ -136,22 +142,23 @@ docs/tasks/        escopo e critérios de cada tarefa
 9. Comentários explicam motivo e restrição; funções e tipos explicam a operação. Não deixar código morto, tarefa pendente escondida ou comando que finge passar.
 10. Mensagens de commit em pt-BR, no padrão Conventional Commits, com a identidade Git configurada e sem coautoria. Um commit deve ter um propósito coerente.
 
-## Decisões pendentes
+## Decisões e aplicação
 
-Consultar [decisões](../decisoes.md). D01 a D06 já foram perguntadas durante o plano do jogo; não há resposta registrada no repositório. A criação deste backlog não muda esse estado.
+Consultar [decisões](../decisoes.md). D01–D08 foram respondidas em 23/10/2026 e D09 acrescentou o desempate de tiro. As duas dúvidas derivadas de empate foram esclarecidas. O quadro abaixo acompanha o trabalho de aplicação, sem confundir escolha de produto com código entregue.
 
 | Decisão | Tarefas diretamente afetadas | Como continuar |
 |---|---|---|
-| D01 — Duração e valores de timing | T13, T18, T21, T32 | Parametrizar o protótipo; não prometer duração medida |
-| D02 — Final sem resposta | T23, T24, T29 | Implementar núcleo confirmado e isolar a política de prazo |
-| D03 — Acerto sem alvo | T23, T24, T26, T29 | Implementar escolha manual e isolar o fallback |
-| D04 — Quinta modalidade | T21, T27, T31 | Avançar base e conteúdo; consolidar a modalidade após a escolha |
-| D05 — Quem pode roubar | T20, T29 | Reusar pontos e perguntas; não misturar duas variantes de roubo |
-| D06 — Desempate antes da final | T22, T29 | Implementar comparação por pontos e conversão já confirmada; resolver a política residual |
-| D07 — Direção visual definitiva | T05, T30 | Construir componentes e acessibilidade com estilo provisório |
-| D08 — Destino de hospedagem | T34, T35 | Preparar artefato independente do destino; publicar quando houver destino concreto |
+| D01 — Meta de 20–30 minutos | T13, T18, T21, T32 | Medir com pessoas e reavaliar o impacto do minigame; não prometer duração medida |
+| D02 — Final sem resposta | T23, T24, T29, T39 | Aplicar uma perda coletiva atômica e detectar grupos eliminados simultaneamente |
+| D03 — Acerto sem alvo | T23, T24, T26, T29 | Sortear entre todos os ativos, inclusive quem acertou, uma única vez |
+| D04 — Dinamite por turnos | T21, T27, T31 | Aplicada na T21: dois turnos por participante, prazo individual completo e política confirmada no plano e nas projeções |
+| D05 — Primeiro acerto rouba até 100 | T20, T29 | Aplicada na T20: teto 100, +100 para todos os acertos e limite pelo saldo após créditos; manter nas regressões de T29 |
+| D06 — Vidas iguais por grupo | T22, T29, T39 | Aplicar posições consecutivas sem saltos e atualizar schemas da final |
+| D07 — Visual a partir do protótipo | T05, T30 | Refinar a base aprovada e registrar identidade concreta; manter acessibilidade |
+| D08 — Hospedagem como no Comicle | T34, T35 | Piloto instalado na VM existente em 26/10/2026; preservar Comicle e concluir aceites globais |
+| D09 — Desempate de tiro | T23, T24, T25, T29, T32, T36, T39 | Executar T39-A a T39-I: três vidas, pergunta em zero, erro elimina e acerto devolve uma vida |
 
-Proposta pode ser exercitada em protótipo identificado, com configuração e evidência correspondentes. Uma tarefa cuja aceitação dependa de uma escolha continua aberta até esse requisito estar atendido; isso não suspende tarefas independentes. Não marcar uma versão definitiva com consultas essenciais ainda sem resposta.
+Parâmetros e políticas complementares de protótipo devem ser identificados, congelados por partida e avaliados com evidência. Manter abertas as tarefas cuja implementação ou validação ainda não esteja concluída; isso não suspende as frentes independentes nem cria aprovação obrigatória de cada etapa.
 
 ## Fluxo de uma tarefa
 

@@ -1,6 +1,6 @@
-# Protótipo de dinamite por turnos
+# Dinamite por turnos
 
-A T21 disponibiliza **Iniciar dinamite de teste** no lobby de desenvolvimento/teste. É um plano isolado da quinta fase, com `pressureStrategy` e a variante experimental `dynamite`. **D04 continua em consulta**: a implementação permite avaliar a proposta, sem escolher definitivamente a quinta modalidade. A sequência completa e a final pertencem às próximas tarefas.
+A T21 disponibiliza **Iniciar dinamite de teste** no lobby de desenvolvimento/teste. O plano isolado usa `pressureStrategy` e a variante `dynamite`. **D04 confirmada e aplicada em 23/10/2026:** dois turnos por participante e prazo individual completo. No modo clássico, a modalidade pode ocupar qualquer posição de 1 a 4 quando sorteada; a final ocupa a quinta. Os planos e as regras públicas padrão usam `confirmed`.
 
 ## Turnos e tempo
 
@@ -16,13 +16,13 @@ Acerto credita **300 pontos** e um acerto. Erro ou ausência debita **até 150**
 
 `pressure-turns.domain.ts` determina dono, ciclo, dificuldade e próximo jogador pela permutação congelada e pelo histórico confirmado. A estratégia recebe o dono explicitamente e delega os pontos ao domínio de pontuação. Somente ele pode gerar recibo. Resolução e avanço acontecem na fila da sala; comandos repetidos e timers antigos não duplicam pontos, penalidades ou turnos.
 
-`MatchView.pressureRules` publica base, penalidade, prazo e dificuldades com `status: "prototype"`. Durante leitura, resposta e revelação, `pressureTurn` publica dono, ciclo, número e total dos turnos, dificuldade e próximo jogador (ou `null` no último turno). Somente a revelação inclui `outcome: "passed" | "exploded"`. O schema confere participantes, progresso, ciclos, dificuldade, respondente exclusivo, janela de resposta e efeitos do dono.
+`MatchView.pressureRules` publica base, penalidade, prazo e dificuldades com `status: "confirmed"`. A projeção deriva o marcador das regras congeladas; o schema rejeita divergência com a variante da fase. A política `prototype` permanece disponível somente para configurações de experimento. Durante leitura, resposta e revelação, `pressureTurn` publica dono, ciclo, número e total dos turnos, dificuldade e próximo jogador (ou `null` no último turno). Somente a revelação inclui `outcome: "passed" | "exploded"`. O schema confere participantes, progresso, ciclos, dificuldade, respondente exclusivo, janela de resposta e efeitos do dono.
 
 Na resposta, `respondents` é `single-player`; somente o dono recebe `ownAnswer: pending`. Outros participantes e espectadores recebem `unavailable`. O gabarito e a explicação aparecem exclusivamente na revelação; recibos e ordem completa nunca integram as visões públicas. A interface usa os componentes comuns, mostra pavio individual, dono/ciclo, passagem ou explosão e próximo turno, e renderiza o saldo recebido. Resposta incerta permanece bloqueada até recuperar o estado.
 
 ## Conteúdo e verificação
 
-O catálogo publicado atual permite o smoke com duas pessoas. O estoque de difíceis por tema ainda limita grupos maiores; a ampliação editorial permanece na T27. Os testes de serviço com 4 e 12 pessoas usam catálogo sintético aprovado de teste, sem alterar o catálogo publicado ou fingir conteúdo revisado.
+O catálogo publicado atual tem 336 perguntas aprovadas. O estoque para o plano completo é verificado antes de iniciar a sala, incluindo até 12 jogadores. O serviço conserva também os testes com catálogo sintético; navegador, rede e piloto mecânico exercitam o catálogo real, com seu snapshot histórico identificado no piloto. A expansão para 5.000 segue em T33.
 
 Domínio e serviço cobrem saldo 50, zero, +300, limite exato do prazo, callback atrasado, ator fora do turno, duplicidade, timer antigo, ausência e distribuição de 2/4/12 participantes. Socket.IO exercita WebSocket/polling, espectadores, campo de identidade injetado e substituição de conexão com prazo preservado. Web cobre instruções, dono, ciclo, teclado, bloqueios, confirmação incerta e efeitos recebidos.
 

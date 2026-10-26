@@ -14,6 +14,13 @@ import type { PreparedQuestion } from '../questions/question.js';
 import { questionReadingMs } from '../questions/question-reading.js';
 import type { FrozenMatchRules } from '../scoring/match-rules.js';
 import type { FrozenFinalEntry } from '../scoring/final-entry.domain.js';
+import {
+  createTiebreak,
+  expireTiebreak,
+  readyTiebreak,
+  answerSurvival,
+  type TiebreakState,
+} from '../tiebreak/tiebreak.domain.js';
 
 type FinalRound = Extract<Round, { mode: 'final' }>;
 type Accepted = { playerId: PlayerId; optionId: OptionId; receivedAt: number };
@@ -43,6 +50,7 @@ export type FinalStage =
   | { phase: 'final-no-answer-pending'; question: PreparedQuestion }
   | { phase: 'final-no-target-pending'; question: PreparedQuestion; accepted: Accepted }
   | { phase: 'podium' }
+  | { phase: 'final-tiebreak'; tiebreak: TiebreakState }
   | { phase: 'interrupted'; reason: 'insufficient-questions' | 'no-players' | 'room-closed' };
 export interface FinalState {
   matchId: MatchId;
@@ -50,14 +58,26 @@ export interface FinalState {
   finalists: Finalist[];
   history: {
     questionId: QuestionId;
-    accepted: Accepted;
+    accepted: Accepted | null;
     resolution: FinalResolution;
     before: Finalist[];
     after: Finalist[];
   }[];
   stage: FinalStage;
+  tiebreakResults?: { tiebreakId: string; batchId: QuestionId; standings: PlayerId[] }[];
 }
 export type FinalEvent =
+  | {
+      kind: 'tiebreak-answer';
+      matchId: MatchId;
+      roundId: RoundId;
+      playerId: PlayerId;
+      questionId: QuestionId;
+      optionId: OptionId;
+      tiebreakId: string;
+      bout: number;
+      generation: number;
+    }
   | { kind: 'ready'; matchId: MatchId; roundId: RoundId; playerId: PlayerId }
   | {
       kind: 'answer';
@@ -75,7 +95,12 @@ export type FinalEvent =
       questionId: QuestionId;
       targetPlayerId: PlayerId;
     }
-  | { kind: 'expire' }
+  | {
+      kind: 'expire';
+      randomIndex?: number;
+      connectedPlayerIds?: PlayerId[];
+      spawnOrder?: PlayerId[];
+    }
   | { kind: 'final-question-prepared'; question: PreparedQuestion | null }
   | { kind: 'interrupt'; reason: 'insufficient-questions' | 'no-players' | 'room-closed' };
 export class FinalError extends Error {
@@ -130,6 +155,7 @@ export function createFinal(
 }
 export function finalDeadline(state: FinalState) {
   const stage = state.stage;
+  if (stage.phase === 'final-tiebreak') return stage.tiebreak.deadlineAt;
   return stage.phase === 'final-question-reading'
     ? stage.opensAt
     : 'deadlineAt' in stage
@@ -158,6 +184,48 @@ export function transitionFinal(
   }
   const state = structuredClone(before),
     stage = state.stage;
+  if (stage.phase === 'final-tiebreak' && event.kind !== 'interrupt') {
+    const tie = stage.tiebreak;
+    if (event.kind === 'ready') readyTiebreak(tie, event.playerId, now);
+    else if (event.kind === 'tiebreak-answer') {
+      if (
+        event.tiebreakId !== tie.tiebreakId ||
+        event.bout !== tie.bout ||
+        event.generation !== tie.generation
+      )
+        throw new FinalError('STALE_CONTEXT');
+      answerSurvival(tie, event.playerId, event.questionId, event.optionId, now);
+    } else if (event.kind === 'expire') {
+      if (tie.phase === 'result') {
+        const order = tie.standings;
+        const otherEliminated = state.finalists.filter(
+          (p) => p.status === 'eliminated' && !order.includes(p.playerId),
+        );
+        const firstOrder =
+          Math.max(
+            0,
+            ...otherEliminated.map((p) => (p.status === 'eliminated' ? p.eliminationOrder : 0)),
+          ) + 1;
+        for (const p of state.finalists)
+          if (p.status === 'eliminated' && order.includes(p.playerId))
+            p.eliminationOrder = firstOrder + order.length - order.indexOf(p.playerId) - 1;
+        state.tiebreakResults ??= [];
+        if (!state.tiebreakResults.some((r) => r.tiebreakId === tie.tiebreakId))
+          state.tiebreakResults.push({
+            tiebreakId: tie.tiebreakId,
+            batchId: tie.batchId,
+            standings: [...order],
+          });
+        const activeCount = state.finalists.filter((p) => p.status === 'active').length;
+        if (activeCount <= 1) state.stage = { phase: 'podium' };
+        else {
+          state.stage = { phase: 'awaiting-final-question', previousQuestionId: tie.batchId };
+          return { state, changed: true, nextQuestion: tie.batchId };
+        }
+      } else expireTiebreak(tie, now, new Set(event.connectedPlayerIds ?? tie.participants));
+    } else throw new FinalError('INVALID_PHASE');
+    return { state, changed: true };
+  }
   const active = (id: PlayerId) =>
     state.finalists.some((player) => player.playerId === id && player.status === 'active');
   if ('playerId' in event && !active(event.playerId)) throw new FinalError('FORBIDDEN');
@@ -170,6 +238,7 @@ export function transitionFinal(
     accepted: Accepted,
     victimId: PlayerId,
     outcome: 'wrong-answer' | 'attack',
+    automatic = false,
   ) => {
     const original = structuredClone(state.finalists);
     const victim = state.finalists.find((player) => player.playerId === victimId);
@@ -185,7 +254,12 @@ export function transitionFinal(
             lives: 0,
             status: 'eliminated',
             eliminationOrder:
-              state.finalists.filter((player) => player.status === 'eliminated').length + 1,
+              Math.max(
+                0,
+                ...state.finalists
+                  .filter((player) => player.status === 'eliminated')
+                  .map((p) => p.eliminationOrder),
+              ) + 1,
           }
         : { ...victim, lives };
     const result: FinalResolution =
@@ -196,6 +270,7 @@ export function transitionFinal(
             optionId: accepted.optionId,
             targetPlayerId: victimId,
             damage: 1,
+            ...(automatic ? { automatic: true as const } : {}),
           }
         : { outcome, playerId: accepted.playerId, optionId: accepted.optionId, damage: 1 };
     if (state.history.some((record) => record.questionId === question.publicQuestion.questionId))
@@ -211,6 +286,47 @@ export function transitionFinal(
       phase: 'final-resolution',
       question,
       resolution: result,
+      deadlineAt: instant(
+        now + rules.parameters.final.revealMs + rules.parameters.timings.transitionMs,
+      ),
+    };
+  };
+  const noAnswer = (question: PreparedQuestion) => {
+    const original = structuredClone(state.finalists);
+    const playerIds = original.filter((p) => p.status === 'active').map((p) => p.playerId);
+    const eliminationOrder =
+      Math.max(
+        0,
+        ...original.filter((p) => p.status === 'eliminated').map((p) => p.eliminationOrder),
+      ) + 1;
+    state.finalists = state.finalists.map((p) =>
+      p.status !== 'active'
+        ? p
+        : p.lives > 1
+          ? { ...p, lives: p.lives - 1 }
+          : {
+              playerId: p.playerId,
+              rank: p.rank,
+              initialLives: p.initialLives,
+              status: 'eliminated',
+              lives: 0,
+              eliminationOrder,
+            },
+    );
+    const resolution: FinalResolution = { outcome: 'no-answer', playerIds, damage: 1 };
+    if (state.history.some((r) => r.questionId === question.publicQuestion.questionId))
+      throw new FinalError('STALE_CONTEXT');
+    state.history.push({
+      questionId: question.publicQuestion.questionId,
+      accepted: null,
+      resolution,
+      before: original,
+      after: structuredClone(state.finalists),
+    });
+    state.stage = {
+      phase: 'final-resolution',
+      question,
+      resolution,
       deadlineAt: instant(
         now + rules.parameters.final.revealMs + rules.parameters.timings.transitionMs,
       ),
@@ -292,27 +408,57 @@ export function transitionFinal(
         case 'final-instructions':
           return next(null);
         case 'final-question-reading':
-          state.stage =
-            now >= stage.opensAt + rules.parameters.final.responseMs
-              ? { phase: 'final-no-answer-pending', question: stage.question }
-              : {
-                  phase: 'final-question-open',
-                  question: stage.question,
-                  opensAt: stage.opensAt,
-                  deadlineAt: instant(stage.opensAt + rules.parameters.final.responseMs),
-                };
+          if (now >= stage.opensAt + rules.parameters.final.responseMs) noAnswer(stage.question);
+          else
+            state.stage = {
+              phase: 'final-question-open',
+              question: stage.question,
+              opensAt: stage.opensAt,
+              deadlineAt: instant(stage.opensAt + rules.parameters.final.responseMs),
+            };
           break;
         case 'final-question-open':
-          state.stage = { phase: 'final-no-answer-pending', question: stage.question };
+          noAnswer(stage.question);
           break;
         case 'final-target-selection':
-          state.stage = {
-            phase: 'final-no-target-pending',
-            question: stage.question,
-            accepted: stage.accepted,
-          };
+          {
+            const candidates = state.finalists.filter((p) => p.status === 'active');
+            const index = event.randomIndex ?? 0;
+            if (!Number.isInteger(index) || index < 0 || index >= candidates.length)
+              throw new FinalError('INVALID_PAYLOAD');
+            settle(stage.question, stage.accepted, candidates[index]!.playerId, 'attack', true);
+          }
           break;
         case 'final-resolution':
+          if (stage.resolution.outcome === 'no-answer') {
+            const record = state.history.find(
+              (r) => r.questionId === stage.question.publicQuestion.questionId,
+            )!;
+            const eliminated = record.after
+              .filter(
+                (p) =>
+                  p.status === 'eliminated' &&
+                  record.before.some(
+                    (previous) => previous.playerId === p.playerId && previous.status === 'active',
+                  ),
+              )
+              .map((p) => p.playerId);
+            if (eliminated.length > 1) {
+              const order = event.spawnOrder?.filter((id) => eliminated.includes(id)) ?? eliminated;
+              if (order.length !== eliminated.length || new Set(order).size !== order.length)
+                throw new FinalError('INVALID_PAYLOAD');
+              state.stage = {
+                phase: 'final-tiebreak',
+                tiebreak: createTiebreak(
+                  stage.question.publicQuestion.questionId,
+                  stage.question.publicQuestion.questionId,
+                  order,
+                  now,
+                ),
+              };
+              break;
+            }
+          }
           if (state.finalists.filter((player) => player.status === 'active').length === 1)
             state.stage = { phase: 'podium' };
           else return next(stage.question.publicQuestion.questionId);
@@ -321,6 +467,8 @@ export function transitionFinal(
           return ignored();
       }
       break;
+    case 'tiebreak-answer':
+      throw new FinalError('INVALID_PHASE');
     case 'interrupt':
       state.stage = { phase: 'interrupted', reason: event.reason };
       break;

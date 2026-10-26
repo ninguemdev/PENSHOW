@@ -76,7 +76,7 @@ export const prototypeParametersSchema = z.strictObject({
     maximumTransfer: points,
     targetSelectionMs: duration,
     policy: z.strictObject({
-      status: z.literal('prototype'),
+      status: z.enum(['prototype', 'confirmed']),
       decisionId: z.literal('D05'),
       eligible: z.literal('first-correct-only'),
     }),
@@ -91,7 +91,7 @@ export const prototypeParametersSchema = z.strictObject({
     responseMs: duration,
     revealMs: duration,
     policy: z.strictObject({
-      status: z.literal('prototype'),
+      status: z.enum(['prototype', 'confirmed']),
       decisionId: z.literal('D04'),
       mode: z.literal('dynamite'),
     }),
@@ -123,7 +123,7 @@ function freezeDeep<T>(value: T): DeepReadonly<T> {
   return value as DeepReadonly<T>;
 }
 
-/** Publicly discussed proposals, held privately by the server; no gameplay policy is confirmed here. */
+/** Server-owned configuration, including confirmed D04/D05 gameplay policies. */
 export const PROTOTYPE_PARAMETERS = freezeDeep(
   prototypeParametersSchema.parse({
     version: 'prototype-v1',
@@ -166,9 +166,9 @@ export const PROTOTYPE_PARAMETERS = freezeDeep(
       correctPoints: 100,
       responseMs: 15_000,
       revealMs: 4_000,
-      maximumTransfer: 50,
+      maximumTransfer: 100,
       targetSelectionMs: 6_000,
-      policy: { status: 'prototype', decisionId: 'D05', eligible: 'first-correct-only' },
+      policy: { status: 'confirmed', decisionId: 'D05', eligible: 'first-correct-only' },
     },
     pressure: {
       turnDifficulties: ['medium', 'hard'],
@@ -176,7 +176,7 @@ export const PROTOTYPE_PARAMETERS = freezeDeep(
       wrongPenalty: 150,
       responseMs: 10_000,
       revealMs: 3_000,
-      policy: { status: 'prototype', decisionId: 'D04', mode: 'dynamite' },
+      policy: { status: 'confirmed', decisionId: 'D04', mode: 'dynamite' },
     },
     final: { reserveQuestions: 50, responseMs: 15_000, targetSelectionMs: 6_000, revealMs: 4_000 },
   }),

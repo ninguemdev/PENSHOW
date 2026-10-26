@@ -1,5 +1,11 @@
 # Modelo de dados e fronteiras
 
+## Extensão de desempate T39
+
+Eliminações da mesma resolução coletiva compartilham um lote; só após o minigame o grupo ganha ordem final. Posição de entrada é por grupo consecutivo de pontos/acertos, permitindo 1/1/2/3 com vidas 5/5/4/3. Schemas não presumem um sobrevivente em todos os estados: zero ativos é válido durante a resolução/desempate e no pódio de campeão por combate.
+
+`FinalStage.final-tiebreak` guarda o estado privado: participantes, lote de origem, subcombate, geração de controles, simulação, intenções, projéteis, perguntas preparadas por proprietário, lotes de eliminação, posições pendentes e resultado. `FinalState.tiebreakResults` registra a aplicação única à final. Vida do quiz, vida de combate e colocação final são dados distintos. O checkpoint de conteúdo compartilha usados com quiz/final, sem copiar gabaritos para shared ou cliente. As estruturas públicas estão nos schemas de `tiebreak`, `score`, `final-entry`, `command`, `protocol` e `view`; detalhes em [desempate de tiro](desempate-tiro.md).
+
 Os contratos públicos validados, transporte, dependências injetáveis, sessões de convidado e salas em memória com comandos autenticados estão disponíveis. A publicação editorial e o leitor privado do catálogo também estão implementados; a T11 fornece 72 perguntas aprovadas em pt-BR. O [motor da T14](motor-de-partida.md) integra seleção, pontuação e projeção com confirmação atômica; a [T15](quiz-classico.md) conecta o quiz clássico à rede em desenvolvimento/teste, com progresso e conclusão de uma fase. As mensagens estão no [protocolo](protocolo-realtime.md), a infraestrutura em [servidor](servidor.md), identidade em [sessões](sessoes.md) e domínio interno em [salas](salas.md).
 
 ## Localização e exposição

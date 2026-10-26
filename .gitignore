@@ -1,12 +1,15 @@
 node_modules/
 dist/
 coverage/
+.local-releases/
+.wrangler/
 *.tsbuildinfo
 .env
 .env.*
 !.env.example
 *.log
 data/narration/generated/
+data/audio-previews/
 .DS_Store
 Thumbs.db
 playwright-report/

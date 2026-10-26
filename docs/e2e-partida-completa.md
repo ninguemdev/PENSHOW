@@ -1,8 +1,10 @@
 # Testes da partida completa — T29
 
+**Atualização T21/T36/T29 (23/10/2026):** os testes usam roubo de até 100, dinamite por dois turnos individuais, vidas iguais por grupos consecutivos, perda coletiva sem resposta, sorteio entre todos os ativos e combate para eliminados simultaneamente. As evidências das versões anteriores permanecem datadas nas tarefas.
+
 A matriz usa o modo clássico integrado da T36: quatro modalidades de pontuação distintas e a final na quinta posição. Navegadores e sockets usam o aplicativo real, catálogo publicado, seleção, fila de sala, pontuação, classificação, vidas e pódio. O processo de teste consulta a pergunta privada apenas para escolher uma alternativa já oferecida; não injeta pontuação, vitória ou visões no cliente.
 
-As políticas D02–D06 continuam em consulta. Roubo e dinamite são as variantes experimentais existentes. As finalizações sem resposta ou alvo são verificadas como pausas sem dano; o desempate não é escolhido pelo teste. Por isso, a execução da matriz não consolida as regras nem conclui essas dependências de produto.
+D02–D06 e D09 foram confirmadas pelo usuário. Roubo e dinamite publicam status confirmado na configuração padrão. Os cenários reais exercitam dano coletivo, alvo automático inclusive no próprio autor e combate de desempate; os testes complementam a decisão de produto com evidência técnica, sem medir equilíbrio percebido.
 
 ## Execução
 
@@ -42,7 +44,7 @@ O sorteio é controlado apenas pela porta de aleatoriedade do servidor depois da
 
 Na final, os 12 clientes disputam a mesma pergunta: uma resposta é aceita e as demais recebem `QUESTION_CLOSED`. O ataque consome uma vida; o reenvio com outro ID de ação é recusado sem alterar o estado. O percurso continua por comandos autenticados até sobrar um jogador. Todos os clientes recebem o mesmo plano, classificação, histórico e pódio. O novo anfitrião prepara a revanche; placar reinicia, comandos da partida antiga são recusados e o encerramento limpa salas/timers.
 
-Outros dois percursos completos exercitam D02/D03: expirar a resposta ou o alvo conserva vidas, classificação e histórico de dano, remove o timer da partida e exige retorno explícito ao lobby. São verificações do comportamento pendente, sem aprovar um fallback.
+Outros dois percursos completos exercitam D02/D03: expirar a resposta aplica uma perda por ativo e detecta eliminações simultâneas; expirar o alvo aplica um único ataque sorteado, incluindo a possibilidade do próprio autor. Classificação e conversão iniciais permanecem congeladas. O minigame é coberto também em navegadores reais, com controles, pergunta em zero, recuperação, erro, reconexão e pódio.
 
 ## CI, artefatos e limites
 
@@ -50,4 +52,4 @@ O job `full-match` depende de `quality`, verifica catálogo/artes, compila o apl
 
 Falhas preservam trace, capturas dos navegadores, relatório HTML e `estado-publico.json`, construído pelas projeções públicas de cada membro. O checkpoint, sessões/tokens, mapeamentos editoriais e respostas futuras não entram nesse anexo. A captura `grupo-12-dinamite.png` permite inspeção assistida do grupo grande em cada dispositivo. Os diretórios de resultados continuam ignorados por Git.
 
-Esta matriz complementa os testes de autorização, concorrência entre salas e limpeza da T28. A inspeção com 12 conexões não mede capacidade de produção nem equivale a uma sessão com 12 pessoas. As regras pendentes e as evidências executadas ficam na [T29](tasks/T29-e2e-partida-completa.md).
+Esta matriz complementa os testes de autorização, concorrência entre salas e limpeza da T28. A inspeção com 12 conexões não mede capacidade de produção nem equivale a uma sessão com 12 pessoas. As políticas aplicadas e as evidências executadas ficam na [T29](tasks/T29-e2e-partida-completa.md).

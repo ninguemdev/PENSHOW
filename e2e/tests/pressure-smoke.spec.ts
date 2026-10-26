@@ -56,6 +56,10 @@ test('dinamite: dois ciclos inversos, turno exclusivo, prazo completo e explosã
       ).toBeVisible();
     const open = state().stage;
     if (open.phase !== 'question-open') throw new Error();
+    expect(state().rounds[state().roundIndex]).toMatchObject({
+      mode: 'pressure',
+      variant: { status: 'confirmed', decisionId: 'D04', mode: 'dynamite' },
+    });
     expect(open.deadlineAt - open.opensAt).toBe(10_000);
     expect(open.question.publicQuestion.difficulty).toBe(turn < 2 ? 'medium' : 'hard');
     const ownerId = firstOrder[turn < 2 ? turn : 3 - turn]!;

@@ -12,6 +12,13 @@ describe('plano do modo clássico', () => {
     for (const plan of plans) {
       expect(plan.rounds.map((round) => round.index)).toEqual([1, 2, 3, 4]);
       expect(new Set(plan.rounds.map((round) => round.mode)).size).toBe(4);
+      for (const round of plan.rounds)
+        if (round.mode === 'pressure')
+          expect(round.variant).toEqual({
+            status: 'confirmed',
+            decisionId: 'D04',
+            mode: 'dynamite',
+          });
       expect(plan.finalRound).toMatchObject({ mode: 'final', index: 5 });
       expect(new Set([...plan.rounds, plan.finalRound].map((round) => round.roundId)).size).toBe(5);
     }

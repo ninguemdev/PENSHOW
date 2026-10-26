@@ -1,6 +1,15 @@
 export { healthResponseSchema } from './schemas/health.js';
+export {
+  TIEBREAK_RULES,
+  TIEBREAK_OBSTACLES,
+  tiebreakContextSchema,
+  tiebreakInputSchema,
+  tiebreakFrameSchema,
+  tiebreakViewSchema,
+} from './schemas/tiebreak.js';
+export type { TiebreakInput, TiebreakFrame, TiebreakView } from './schemas/tiebreak.js';
 export type { HealthResponse } from './schemas/health.js';
-export { CONFIRMED_FINAL_RULES, PENDING_DECISIONS } from './domain/rules.js';
+export { CONFIRMED_FINAL_RULES, CONFIRMED_DECISIONS, PENDING_DECISIONS } from './domain/rules.js';
 export { ROOM_LIMITS } from './domain/rooms.js';
 export type { PendingDecisionId } from './domain/rules.js';
 export {

@@ -1,6 +1,6 @@
 # Acessibilidade e uso no celular
 
-A T30 melhora a interface com a identidade provisória existente. A direção visual definitiva continua em consulta em D07. O navegador apresenta o estado recebido; os atalhos não alteram regras, prioridade, prazos nem pontos.
+A T30 consolida a direção aprovada em D07 com a identidade do protótipo: papel claro, tinta azul, destaque amarelo e tipografia local, conforme os [tokens da interface](interface.md#tokens-e-componentes). A inspeção física permanece aberta. O navegador apresenta o estado recebido; os atalhos não alteram regras, prioridade, prazos nem pontos.
 
 ## Operação
 
@@ -40,9 +40,19 @@ A CI tem um job `accessibility` e artefato `acessibilidade`, separado dos cenár
 
 A árvore do Chromium e a automação não equivalem a uma sessão com NVDA, VoiceOver ou TalkBack. As dimensões reduzidas simulam o espaço tomado por um teclado; não acionam um teclado virtual de aparelho físico. A ampliação executada é de texto a 200% com reflow em 320 px, sem afirmar zoom da interface do navegador. As safe areas foram implementadas, mas a inspeção de um recorte físico requer aparelho compatível.
 
-Antes de considerar a identidade definitiva aceita, conferir as telas em aparelho real com teclado virtual, recorte e leitor de tela, inclusive pausa/retorno e ambos os alvos. D07 permanece pendente no backlog.
+Antes do aceite físico, conferir as telas em aparelho real com teclado virtual, recorte e leitor de tela, inclusive pausa/retorno e ambos os alvos. A direção D07 já está aplicada; a [ficha da revisão física](validation/t30-revisao-fisica.md) mantém cada resultado pendente até observação em aparelho.
 
-## Registro de execução
+## Foco do combate — revisão de 23/10/2026
+
+Os atalhos WASD/setas, IJKL e Espaço só operam quando o canvas da arena tem foco. Mudar para um link, campo, botão ou diálogo zera o movimento e o disparo; voltar à arena não restaura teclas antigas. Atalhos com Ctrl/Alt/Meta e composição de texto não iniciam ações. Soltar uma tecla continua encerrando sua ação mesmo quando um modificador está pressionado. A instrução visível orienta selecionar a arena antes de usar o teclado.
+
+A correção cobre o caso em que o listener global podia consumir setas na navegação ou manter movimento após mudar o foco. Três regressões de DOM verificam foco, diálogo e atalhos/composição. A suíte web passou com **182 testes**; após o ajuste final de soltura com modificador, as três regressões passaram novamente. Build, tipos, lint e formato foram verificados. O Canvas é substituído por contexto nulo apenas nos testes de DOM; os percursos abaixo usam o navegador e o servidor reais.
+
+Dois percursos Playwright de combate passaram, sem retry, em **1,3 minuto**, no desktop 1280×900 e celular 360×780 emulado. Além do fluxo de combate/pergunta/pódio, o desktop segura uma tecla, transfere o foco para um link e confere a intenção neutra recebida pelo servidor; setas fora da arena não voltam a movimentar. Toque, mouse, IJKL/Espaço e auditorias axe/reflow continuam passando. Relatório preservado em `e2e/playwright-report/t30-focus-review/` e artefatos em `e2e/test-results/t30-focus-review/`.
+
+A revisão física não foi executada: não foi identificado aparelho conectado e ainda falta informar o equipamento. A ficha separa teclado virtual, recortes, zoom nativo, leitor de tela e uso com dois dedos. Isso não altera o status de T30 para concluída.
+
+## Registro de execução histórico
 
 - A revisão encontrou três problemas verificáveis: regiões duplicadas no placar (`landmark-unique`), salto de nível no título das vidas (`heading-order`) e legenda fora da viewport de 320 px com texto a 200%. Corrigidos com grupo de rolagem dentro da região do placar, título de nível 2 sem desviar o foco da etapa e quebra de linha nas legendas.
 - Cálculo de luminância das cores principais: texto/papel 14,97:1, auxiliar/papel 6,23:1, foco/papel 5,77:1 e texto no destaque amarelo 13,45:1. A varredura no navegador complementa esse cálculo para os elementos efetivamente renderizados.

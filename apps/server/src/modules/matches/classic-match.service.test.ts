@@ -61,6 +61,7 @@ async function setup(choices: number[] = [0, 0, 0, 0], stock = 60) {
     ) {
       const state = game().state,
         stage = state.stage;
+      expect(state.finalEntry).toBeNull();
       roundIds.add(state.rounds[state.roundIndex]!.roundId);
       if (stage.phase === 'question-open') {
         expect(questionIds.has(stage.question.publicQuestion.questionId)).toBe(false);
@@ -114,6 +115,8 @@ describe('modo clássico integrado', () => {
     expect(qualified.finalEntry).toMatchObject({ scope: 'full-match', status: 'ready' });
     expect(qualified.final?.stage.phase).toBe('final-instructions');
     expect(qualified.final?.finalists.map((row) => row.initialLives)).toEqual([5, 4]);
+    expect(qualified.scoreboard).toEqual(qualified.history.at(-1)!.after);
+    const qualification = structuredClone(qualified.finalEntry);
     expect(
       QuestionSelection.resume(s.game().selection, s.runtime).availability().finalReserve,
     ).toEqual(reserve);
@@ -139,7 +142,8 @@ describe('modo clássico integrado', () => {
       } else await s.advance();
     }
     expect(s.game().state.final?.stage.phase).toBe('podium');
-    expect(s.game().state.finalEntry).toEqual(qualified.finalEntry);
+    expect(s.game().state.finalEntry).toEqual(qualification);
+    expect(s.game().state.scoreboard).toEqual(qualified.scoreboard);
     const last = s.views.at(-1)!;
     if (last.state.status !== 'match') throw new Error();
     const view = matchViewSchema.parse(last.state.match);
@@ -173,18 +177,20 @@ describe('modo clássico integrado', () => {
     ).rejects.toMatchObject({ code: 'STALE_CONTEXT' });
   });
 
-  it('mantém empate explícito antes da conversão, sem inventar uma decisão D06', async () => {
+  it('empate em pontos e acertos atribui cinco vidas a ambos e inicia a final', async () => {
     const s = await setup();
     await s.start();
     await s.playScoring(true);
-    expect(s.game().state.final).toBeNull();
+    expect(s.game().state.final?.stage.phase).toBe('final-instructions');
     expect(s.game().state.finalEntry).toMatchObject({
       scope: 'full-match',
-      status: 'pending-tiebreak',
-      next: { kind: 'decision-required' },
+      status: 'ready',
+      allocations: [
+        { rank: 1, initialLives: 5 },
+        { rank: 1, initialLives: 5 },
+      ],
     });
-    expect(matchTimer(s.game().state)).toBeNull();
-    expect(s.views.at(-1)?.state.status).toBe('match');
+    expect(matchTimer(s.game().state)).not.toBeNull();
   });
 
   it('bloqueia estoque insuficiente antes de sair do lobby', async () => {

@@ -123,6 +123,12 @@ export function buildApp(deps: AppDependencies = {}) {
   const sessionCreates = limiter(traffic.sessionCreatesPerWindow);
   const sessionRequests = limiter(traffic.sessionRequestsPerWindow);
   const commands = limiter(traffic.commandsPerWindow);
+  const combatInputs = new TrafficLimiter(
+    runtime.clock,
+    1000,
+    traffic.combatInputsPerSecond,
+    traffic.maxTrackedKeys,
+  );
   const handshakes = limiter(traffic.handshakesPerWindow);
 
   app.addHook('onRequest', async (request, reply) => {
@@ -158,17 +164,19 @@ export function buildApp(deps: AppDependencies = {}) {
     requests: sessionRequests,
     windowMs: traffic.windowMs,
   });
-  app.register(
-    async (api) => {
-      api.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
-      registerSessionRoutes(api, sessions, {
-        creates: sessionCreates,
-        requests: sessionRequests,
-        windowMs: traffic.windowMs,
-      });
-    },
-    { prefix: '/api' },
-  );
+  const apiPrefixes = new Set(['/api', `${config.webBasePath}api`]);
+  for (const prefix of apiPrefixes)
+    app.register(
+      async (api) => {
+        api.get('/health', () => healthResponseSchema.parse({ service: 'penshow', status: 'ok' }));
+        registerSessionRoutes(api, sessions, {
+          creates: sessionCreates,
+          requests: sessionRequests,
+          windowMs: traffic.windowMs,
+        });
+      },
+      { prefix },
+    );
   if (config.webRoot) registerWeb(app, config.webRoot, config.webBasePath);
   app.addHook('onReady', async () => {
     if (!deps.questions) await localQuestions.load();
@@ -197,17 +205,16 @@ export function buildApp(deps: AppDependencies = {}) {
   const isCurrent = (actor: RoomActor) =>
     connections.isCurrent(actor.playerId, actor.connectionId) &&
     realtime.sockets.sockets.get(actor.connectionId)?.connected === true;
-  // Experimental policies stay in development/test until the product decisions are confirmed.
-  const matches =
-    config.environment === 'production'
-      ? undefined
-      : new MatchService({
-          ...(deps.matchParameters ? { parameters: deps.matchParameters } : {}),
-          runtime,
-          questions,
-          isCurrentActor: (actor) => !closing && isCurrent(actor),
-          onError: () => app.log.error('Falha ao processar prazo da partida.'),
-        });
+  // Hosted pilots opt in explicitly while keeping production validation and origin checks.
+  const matches = !config.gameplayEnabled
+    ? undefined
+    : new MatchService({
+        ...(deps.matchParameters ? { parameters: deps.matchParameters } : {}),
+        runtime,
+        questions,
+        isCurrentActor: (actor) => !closing && isCurrent(actor),
+        onError: () => app.log.error('Falha ao processar prazo da partida.'),
+      });
   const rooms = new RoomService({
     runtime,
     maxRooms: traffic.maxRooms,
@@ -218,7 +225,9 @@ export function buildApp(deps: AppDependencies = {}) {
       clock: runtime.clock,
       isCurrent,
       send: (actor, event) => {
-        realtime.sockets.sockets.get(actor.connectionId)?.emit(event.event, event);
+        const socket = realtime.sockets.sockets.get(actor.connectionId);
+        if (event.event === 'tiebreak:frame') socket?.volatile.emit(event.event, event);
+        else socket?.emit(event.event, event);
       },
       onError: () => app.log.error('Falha ao publicar visão de sala.'),
     }),
@@ -230,14 +239,15 @@ export function buildApp(deps: AppDependencies = {}) {
       requests: sessionRequests,
       windowMs: traffic.windowMs,
     });
-    app.register(
-      async (api) =>
-        registerNarrationRoutes(api, rooms, sessions, localQuestions.narration!, {
-          requests: sessionRequests,
-          windowMs: traffic.windowMs,
-        }),
-      { prefix: '/api' },
-    );
+    for (const prefix of apiPrefixes)
+      app.register(
+        async (api) =>
+          registerNarrationRoutes(api, rooms, sessions, localQuestions.narration!, {
+            requests: sessionRequests,
+            windowMs: traffic.windowMs,
+          }),
+        { prefix },
+      );
   }
   const trackPresence = (task: Promise<void>) => {
     const execution = task.catch((error) => {
@@ -323,7 +333,7 @@ export function buildApp(deps: AppDependencies = {}) {
       const acknowledge = args.at(-1);
       if (closing) return;
       // Charge malformed and unacknowledged packets too; reconnecting keeps the same budget.
-      const admitted = commands.take(
+      const admitted = (event === 'tiebreak:input' ? combatInputs : commands).take(
         proof ? `player:${proof.playerId}` : `ip:${socket.handshake.address}`,
       );
       if (!admitted || pendingCommands >= traffic.maxPendingCommands) {
@@ -369,6 +379,7 @@ export function buildApp(deps: AppDependencies = {}) {
     sessionCreates.clear();
     sessionRequests.clear();
     commands.clear();
+    combatInputs.clear();
     handshakes.clear();
     await runtime.scheduler.dispose();
     await Promise.allSettled(running);

@@ -1199,5 +1199,5383 @@
       "category": "Entertainment: Television",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:television:87609fe4888845b6",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What country is Cory in the House set in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The United States of America"
+      },
+      {
+        "id": "option-1",
+        "text": "Canada"
+      },
+      {
+        "id": "option-2",
+        "text": "Venezuala"
+      },
+      {
+        "id": "option-3",
+        "text": "England"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1033,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:9981836a74ac11bb",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following figures did NOT have a cameo on \"The Drew Carey Show\" (1995-2004)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bill Cosby"
+      },
+      {
+        "id": "option-1",
+        "text": "Donald Trump"
+      },
+      {
+        "id": "option-2",
+        "text": "\"Weird Al\" Yankovic"
+      },
+      {
+        "id": "option-3",
+        "text": "Daffy Duck"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1040,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b0b251f00eff8cbd",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oscar"
+      },
+      {
+        "id": "option-1",
+        "text": "Emmy"
+      },
+      {
+        "id": "option-2",
+        "text": "Tony"
+      },
+      {
+        "id": "option-3",
+        "text": "Grammy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1056,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:4588fd533b2e1217",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The author behind the acclaimed novel \"Leaving Las Vegas\" also wrote an episode of Rugrats.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1106,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:483533b855115c41",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the \"Flash\" and \"Arrow\" spinoff featuring a team of characters that have appeared on both shows?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Legends of Tomorrow"
+      },
+      {
+        "id": "option-1",
+        "text": "Heroes of Tomorrow"
+      },
+      {
+        "id": "option-2",
+        "text": "The Justice Society of America"
+      },
+      {
+        "id": "option-3",
+        "text": "The Justice Society"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1161,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:64df895782d5ac91",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who composed the theme song for The Simpsons?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Danny Elfman"
+      },
+      {
+        "id": "option-1",
+        "text": "John Williams"
+      },
+      {
+        "id": "option-2",
+        "text": "Hans Zimmer"
+      },
+      {
+        "id": "option-3",
+        "text": "Ennio Morricone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1271,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:dd1458167470f3b6",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actor was not a major character in TV Show Freaks and Geeks?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jonah Hill"
+      },
+      {
+        "id": "option-1",
+        "text": "Jason Segel"
+      },
+      {
+        "id": "option-2",
+        "text": "Seth Rogen"
+      },
+      {
+        "id": "option-3",
+        "text": "James Franco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1352,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:a21695ad58ee3b51",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did the television company BBC officially launch the channel BBC One?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1936"
+      },
+      {
+        "id": "option-1",
+        "text": "1948"
+      },
+      {
+        "id": "option-2",
+        "text": "1932"
+      },
+      {
+        "id": "option-3",
+        "text": "1955"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1414,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:fe4d57a3508acd11",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Klingons once had a period of Democracy in their history, they referred to it as the \"Dark Times\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1429,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:56a246aabd573ea7",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "From what show is the character \"James Doakes\"? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dexter"
+      },
+      {
+        "id": "option-1",
+        "text": "Marvel's Daredevil"
+      },
+      {
+        "id": "option-2",
+        "text": "Boardwalk Empire"
+      },
+      {
+        "id": "option-3",
+        "text": "The Walking Dead"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1469,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:1ddf5c383fca060c",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Husker"
+      },
+      {
+        "id": "option-1",
+        "text": "Starbuck"
+      },
+      {
+        "id": "option-2",
+        "text": "Apollo"
+      },
+      {
+        "id": "option-3",
+        "text": "Crashdown"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1492,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:8ba7e7dcc02a8d56",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who sang the theme song for the TV show 'Rawhide'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Frankie Laine"
+      },
+      {
+        "id": "option-1",
+        "text": "Guy Mitchell"
+      },
+      {
+        "id": "option-2",
+        "text": " Tennessee Ernie Ford"
+      },
+      {
+        "id": "option-3",
+        "text": "Slim Whitman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1524,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:912d0530c54c76dc",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Radar"
+      },
+      {
+        "id": "option-1",
+        "text": "Hawkeye"
+      },
+      {
+        "id": "option-2",
+        "text": "Hot Lips"
+      },
+      {
+        "id": "option-3",
+        "text": "Trapper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1543,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:5c91a93be421bbdb",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the UK \"Who Wants to be a Millionaire?\" cheating scandal known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Major Fraud"
+      },
+      {
+        "id": "option-1",
+        "text": "Ingram Cheater"
+      },
+      {
+        "id": "option-2",
+        "text": "Coughing Major"
+      },
+      {
+        "id": "option-3",
+        "text": "Millionaire Crime"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1554,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:ca5e97a0f704f261",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In season one of the US Kitchen Nightmares, Gordan Ramsay tried to save 10 different restaurants. How many ended up closing afterwards?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "9"
+      },
+      {
+        "id": "option-1",
+        "text": "6"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1587,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0c8e8756f1bccdd8",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these characters in \"Stranger Things\" has the power of Telekinesis?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eleven"
+      },
+      {
+        "id": "option-1",
+        "text": "Mike"
+      },
+      {
+        "id": "option-2",
+        "text": "Lucas"
+      },
+      {
+        "id": "option-3",
+        "text": "Karen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1720,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:65ca32df934b5a56",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What actor portrays Hogan \"Wash\" Washburne in the TV Show Firefly?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alan Tudyk"
+      },
+      {
+        "id": "option-1",
+        "text": "Adam Baldwin"
+      },
+      {
+        "id": "option-2",
+        "text": "Nathan Fillion"
+      },
+      {
+        "id": "option-3",
+        "text": "Sean Maher"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1745,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:90ff0da69ed9105f",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the star of the AMC series Breaking Bad?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Walter White"
+      },
+      {
+        "id": "option-1",
+        "text": "Saul Goodman"
+      },
+      {
+        "id": "option-2",
+        "text": "Jesse Pinkman"
+      },
+      {
+        "id": "option-3",
+        "text": "Skyler White"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1755,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:f0f2fac481948611",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the TV series Red Dwarf, Kryten's full name is Kryten 2X4B-523P.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1856,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b422775c86634ce9",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the police officer in the cartoon \"Top Cat\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dibble"
+      },
+      {
+        "id": "option-1",
+        "text": "Barbrady"
+      },
+      {
+        "id": "option-2",
+        "text": "Mahoney"
+      },
+      {
+        "id": "option-3",
+        "text": "Murphy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1935,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:5b93877ac9e11960",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Two and a Half Men, what is Alan Harper's son's name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jake"
+      },
+      {
+        "id": "option-1",
+        "text": "John"
+      },
+      {
+        "id": "option-2",
+        "text": "Jeremy"
+      },
+      {
+        "id": "option-3",
+        "text": "James"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1954,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:ce38e80b21242389",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following actors portrayed the Ninth Doctor in the British television show \"Doctor Who\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Christopher Eccleston"
+      },
+      {
+        "id": "option-1",
+        "text": "David Tennant"
+      },
+      {
+        "id": "option-2",
+        "text": "Matt Smith"
+      },
+      {
+        "id": "option-3",
+        "text": "Tom Baker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1974,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:461d08d2e223961a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Rick And Morty\", who shot \"Mr. Poopybutthole\" in the episode \"Total Rickall\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Beth"
+      },
+      {
+        "id": "option-1",
+        "text": "Rick"
+      },
+      {
+        "id": "option-2",
+        "text": "Jerry"
+      },
+      {
+        "id": "option-3",
+        "text": "Morty"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2006,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:d0f6e7de4fa5dccb",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sabrina"
+      },
+      {
+        "id": "option-1",
+        "text": "Hermione"
+      },
+      {
+        "id": "option-2",
+        "text": "Dorothy"
+      },
+      {
+        "id": "option-3",
+        "text": "Dahlia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2035,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:45c9634580a55d62",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Black Mirror episode \"Bandersnatch\", PAC-MAN stands for:",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Program And Control Man"
+      },
+      {
+        "id": "option-1",
+        "text": "Postgraduate Aplications Centre Man"
+      },
+      {
+        "id": "option-2",
+        "text": "Political Action Committee Man"
+      },
+      {
+        "id": "option-3",
+        "text": "Physics & Astronomy Classification Man"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2062,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:e48a4c420ff6e191",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actor portrays \"Walter White\" in the series \"Breaking Bad\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": " Bryan Cranston"
+      },
+      {
+        "id": "option-1",
+        "text": "Andrew Lincoln"
+      },
+      {
+        "id": "option-2",
+        "text": "Aaron Paul"
+      },
+      {
+        "id": "option-3",
+        "text": "RJ Mitte"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2140,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:33a14478bad1da62",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What Nickelodeon game show featured a house on the set that the contestants would ransack to find hidden objects?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Finders Keepers"
+      },
+      {
+        "id": "option-1",
+        "text": "Double Dare"
+      },
+      {
+        "id": "option-2",
+        "text": "Nickelodeon Guts"
+      },
+      {
+        "id": "option-3",
+        "text": "Nick Arcade"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2152,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:669c4ff9a97951c5",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the main antagonists in Battlestar Galactica?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Cylons"
+      },
+      {
+        "id": "option-1",
+        "text": "The Collective"
+      },
+      {
+        "id": "option-2",
+        "text": "The Federation"
+      },
+      {
+        "id": "option-3",
+        "text": "The Rebels"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2185,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b6f8b09a245420db",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Dee from \"It's Always Sunny in Philadelphia\" has dated all of the following guys EXCEPT",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Matthew \"Rickety Cricket\" Mara"
+      },
+      {
+        "id": "option-1",
+        "text": "Colin the Thief"
+      },
+      {
+        "id": "option-2",
+        "text": "Ben the Soldier"
+      },
+      {
+        "id": "option-3",
+        "text": "Kevin Gallagher aka Lil' Kevin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2189,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:09ffc0e13fc61f23",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Cesar Romero played which iconic Batman villain from the 1960's TV show?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Joker"
+      },
+      {
+        "id": "option-1",
+        "text": "The Penguin"
+      },
+      {
+        "id": "option-2",
+        "text": "The Riddler"
+      },
+      {
+        "id": "option-3",
+        "text": "Mr. Freeze"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2198,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:f03ef4309fe0dc04",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Game of Thrones, what is Littlefinger's real name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Petyr Baelish"
+      },
+      {
+        "id": "option-1",
+        "text": "Podrick Payne"
+      },
+      {
+        "id": "option-2",
+        "text": "Lancel Lannister"
+      },
+      {
+        "id": "option-3",
+        "text": "Torrhen Karstark"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2267,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:7cbb010272a38a34",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the Klingon's afterlife called?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sto-vo-kor"
+      },
+      {
+        "id": "option-1",
+        "text": "Valhalla"
+      },
+      {
+        "id": "option-2",
+        "text": "Karon'gahk"
+      },
+      {
+        "id": "option-3",
+        "text": "New Jersey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2329,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:070f5c21114a74e1",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The HBO series \"Game of Thrones\" is based on which series of books?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A Song of Ice and Fire"
+      },
+      {
+        "id": "option-1",
+        "text": "The Wheel of Time"
+      },
+      {
+        "id": "option-2",
+        "text": "Harry Potter"
+      },
+      {
+        "id": "option-3",
+        "text": "The Notebook"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2352,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:9a46dbc9959aedab",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Prior to working at Wizards of the Coast, \"Mark Rosewater\" was a writer for which show?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roseanne"
+      },
+      {
+        "id": "option-1",
+        "text": "Boy Meets World"
+      },
+      {
+        "id": "option-2",
+        "text": "The X-Files"
+      },
+      {
+        "id": "option-3",
+        "text": "NYPD Blue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2377,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:c96e60dc2caf9574",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the Season 1 SpongeBob Squarepants episode, \"Help Wanted,\" the song \"Living in the Sunlight\" by Tiny Tim can be heard.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2393,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:3ccf2a1ca63135d3",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Klingon home planet is Qo'noS.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2396,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:aa2635e02f615e8c",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "An episode of \"The Simpsons\" is dedicated to Moe Szyslak's bar rag.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2448,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:461b12543e9bcfe6",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"The Simpsons\", what is the real name of \"Comic Book Guy\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jeff Albertson"
+      },
+      {
+        "id": "option-1",
+        "text": "Comic Book Guy"
+      },
+      {
+        "id": "option-2",
+        "text": "Edward Stone"
+      },
+      {
+        "id": "option-3",
+        "text": "Jack Richardson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2484,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:bdde9c9cf252314e",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played Agent Fox Mulder in the TV sci-fi drama \"The X-Files\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "David Duchovny"
+      },
+      {
+        "id": "option-1",
+        "text": "Gillian Anderson"
+      },
+      {
+        "id": "option-2",
+        "text": "Robert Patrick"
+      },
+      {
+        "id": "option-3",
+        "text": "Mitch Pileggi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2536,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:3cd668182c073727",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which company has exclusive rights to air episodes of the \"The Grand Tour\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Amazon"
+      },
+      {
+        "id": "option-1",
+        "text": "Netflix"
+      },
+      {
+        "id": "option-2",
+        "text": "BBC"
+      },
+      {
+        "id": "option-3",
+        "text": "CCTV"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2592,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:6426ff768ef07cbe",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which state of America was the Fresh Prince of Bel-Air born and raised in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pennsylvania"
+      },
+      {
+        "id": "option-1",
+        "text": "Florida"
+      },
+      {
+        "id": "option-2",
+        "text": "California"
+      },
+      {
+        "id": "option-3",
+        "text": "New Jersey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2623,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:c8fa7f0f816e61e3",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"It's Always Sunny in Philadelphia\" what was the name of Frank's wrestling persona?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Trash Man"
+      },
+      {
+        "id": "option-1",
+        "text": "Bird of War"
+      },
+      {
+        "id": "option-2",
+        "text": "Day Man"
+      },
+      {
+        "id": "option-3",
+        "text": "The Maniac"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2634,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:fa10f26d99783281",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The White Ranger was the leader of the Power Rangers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2645,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:e7972248bf618942",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these in the Star Trek series is NOT Klingon food?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hors d'oeuvre"
+      },
+      {
+        "id": "option-1",
+        "text": "Racht"
+      },
+      {
+        "id": "option-2",
+        "text": "Gagh"
+      },
+      {
+        "id": "option-3",
+        "text": "Bloodwine"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2685,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:de777552b3f04b43",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which British seaside town was the BBC sitcom \"Fawlty Towers\" set?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Torquay"
+      },
+      {
+        "id": "option-1",
+        "text": "Blackpool"
+      },
+      {
+        "id": "option-2",
+        "text": "Bournemouth"
+      },
+      {
+        "id": "option-3",
+        "text": "Great Yarmouth"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2686,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:8da9bd0a4b26075b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the setting of the show \"Parks and Recreation\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pawnee, Indiana"
+      },
+      {
+        "id": "option-1",
+        "text": "Eagleton, Indiana"
+      },
+      {
+        "id": "option-2",
+        "text": "Pasadena, California"
+      },
+      {
+        "id": "option-3",
+        "text": "London, England"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2788,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:52daeab3c7b89796",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Star Trek\", Klingons respect William Shakespeare, they even suspect him having a Klingon lineage.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2826,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:27b8bc313e2f706c",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Chris's brother in \"Everybody Hates Chris\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Drew"
+      },
+      {
+        "id": "option-1",
+        "text": "Jerome"
+      },
+      {
+        "id": "option-2",
+        "text": "Greg"
+      },
+      {
+        "id": "option-3",
+        "text": "Joe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2860,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:1ed2e2fbf76f549a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the surname of the character Daryl in AMC's show The Walking Dead?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dixon"
+      },
+      {
+        "id": "option-1",
+        "text": "Grimes"
+      },
+      {
+        "id": "option-2",
+        "text": "Dickinson"
+      },
+      {
+        "id": "option-3",
+        "text": "Dicketson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2896,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:4ee2762d67bacf6b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The 1985 Toyota Corolla \"AE86\" was the hero car for what anime? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Initial D"
+      },
+      {
+        "id": "option-1",
+        "text": "Wangan Midnight"
+      },
+      {
+        "id": "option-2",
+        "text": "Ghost MF"
+      },
+      {
+        "id": "option-3",
+        "text": "Ex Driver"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2907,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0b37ef57cfa6b770",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the original voice actor of Shaggy Rogers in Scooby-Doo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Casey Kasem"
+      },
+      {
+        "id": "option-1",
+        "text": "Dante Basco"
+      },
+      {
+        "id": "option-2",
+        "text": "Billy West"
+      },
+      {
+        "id": "option-3",
+        "text": "Frank Welker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2927,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:dbf70ba013935c4a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Star Trek\", what sauce is commonly used by Klingons on bregit lung?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grapok sauce"
+      },
+      {
+        "id": "option-1",
+        "text": "Gazorpazorp pudding"
+      },
+      {
+        "id": "option-2",
+        "text": "Sweet chili sauce"
+      },
+      {
+        "id": "option-3",
+        "text": "Grapork sauce"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3027,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:82e1b4ad9689b795",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first Big Brother US winner to win with a perfect game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dan Gheesling"
+      },
+      {
+        "id": "option-1",
+        "text": "Ian Terry"
+      },
+      {
+        "id": "option-2",
+        "text": "Jordan Lloyd"
+      },
+      {
+        "id": "option-3",
+        "text": "Rachael Reilly"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3035,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:afd22d5594bf373b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the original Doctor Who series (1963), fourth doctor Tom Baker's scarf was how long?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7 Meters"
+      },
+      {
+        "id": "option-1",
+        "text": "10 Meters"
+      },
+      {
+        "id": "option-2",
+        "text": "2 Meters"
+      },
+      {
+        "id": "option-3",
+        "text": "5 Meters"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3120,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:db5c8dc3f7190bab",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which movie served as the KTMA pilot episode for the show \"Mystery Science Theater 3000\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Green Slime"
+      },
+      {
+        "id": "option-1",
+        "text": "The Robot Vs. The Aztec Mummy"
+      },
+      {
+        "id": "option-2",
+        "text": "The Crawling Eye"
+      },
+      {
+        "id": "option-3",
+        "text": "Plan 9 From Outer Space"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3165,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:bbe58d5716071f1c",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following was not an actor/actress on the American television show \"Saturday Night Live\" in Season 42?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tina Fey"
+      },
+      {
+        "id": "option-1",
+        "text": "Mikey Day"
+      },
+      {
+        "id": "option-2",
+        "text": "Kate McKinnon"
+      },
+      {
+        "id": "option-3",
+        "text": "Sasheer Zamata"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3210,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:3823420dc8d6b2fb",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How long was Ken Jennings' win streak on Jeopardy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "74"
+      },
+      {
+        "id": "option-1",
+        "text": "88"
+      },
+      {
+        "id": "option-2",
+        "text": "49"
+      },
+      {
+        "id": "option-3",
+        "text": "62"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3233,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:762efdf44e97d8cc",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was Firestorm's rival during the original run of UK Robot Wars?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Panic Attack"
+      },
+      {
+        "id": "option-1",
+        "text": "Razer"
+      },
+      {
+        "id": "option-2",
+        "text": "Chaos 2"
+      },
+      {
+        "id": "option-3",
+        "text": "Hypno Disc"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3239,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:43dfe174e926f4b0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the television show Breaking Bad, what is the street name of Walter and Jesse's notorious product?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blue Sky"
+      },
+      {
+        "id": "option-1",
+        "text": "Baby Blue"
+      },
+      {
+        "id": "option-2",
+        "text": "Rock Candy"
+      },
+      {
+        "id": "option-3",
+        "text": "Pure Glass"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3244,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:56bfa3071554351e",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Pat Cashman, the announcer for Super Smash Brothers: Brawl, also featured prominently in what famous TV show?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bill Nye the Science Guy"
+      },
+      {
+        "id": "option-1",
+        "text": "The Muppet Show"
+      },
+      {
+        "id": "option-2",
+        "text": "Scooby-Doo"
+      },
+      {
+        "id": "option-3",
+        "text": "Seinfeld"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3333,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:3523c1c7c980415d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the pirate that sings the intro to \"Spongebob Squarepants\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Painty"
+      },
+      {
+        "id": "option-1",
+        "text": "Patchy"
+      },
+      {
+        "id": "option-2",
+        "text": "Lloyd"
+      },
+      {
+        "id": "option-3",
+        "text": "Larry"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3466,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:8cffb7aa092531c7",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the winner of \"Big Brother\" Season 10?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dan Gheesling"
+      },
+      {
+        "id": "option-1",
+        "text": "Bryce Kranyik"
+      },
+      {
+        "id": "option-2",
+        "text": "Ryan Sutfin"
+      },
+      {
+        "id": "option-3",
+        "text": "Chris Mundorf"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3518,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b57e1c9b48809775",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Supernatural, what's is Sam's brothers name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dean"
+      },
+      {
+        "id": "option-1",
+        "text": "Dave"
+      },
+      {
+        "id": "option-2",
+        "text": "Steve"
+      },
+      {
+        "id": "option-3",
+        "text": "Mike"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3540,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0dd4733b9c2fe89d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many seasons did the Sci-Fi television show \"Stargate Universe\" have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2"
+      },
+      {
+        "id": "option-1",
+        "text": "10"
+      },
+      {
+        "id": "option-2",
+        "text": "5"
+      },
+      {
+        "id": "option-3",
+        "text": "3"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3545,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:e5dd7a96ca8e6eb0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the the first episode of Doctor Who to air in 1963?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "An Unearthly Child"
+      },
+      {
+        "id": "option-1",
+        "text": "The Daleks"
+      },
+      {
+        "id": "option-2",
+        "text": "The Aztecs"
+      },
+      {
+        "id": "option-3",
+        "text": "The Edge of Destruction"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3562,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:4662b1384ff080c6",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show \"Tengen Toppa Gurren Lagann\" what is the name of the character who force everyone to live underground?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lordgenome"
+      },
+      {
+        "id": "option-1",
+        "text": "Kingloname"
+      },
+      {
+        "id": "option-2",
+        "text": "Lord Genome"
+      },
+      {
+        "id": "option-3",
+        "text": "King Loname"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3573,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:66b36b1b9257d297",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jessica"
+      },
+      {
+        "id": "option-1",
+        "text": "Angela"
+      },
+      {
+        "id": "option-2",
+        "text": "Erica"
+      },
+      {
+        "id": "option-3",
+        "text": "Sandra"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3670,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b55666a7624373ae",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did \"The Big Bang Theory\" debut on CBS?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2007"
+      },
+      {
+        "id": "option-1",
+        "text": "2008"
+      },
+      {
+        "id": "option-2",
+        "text": "2006"
+      },
+      {
+        "id": "option-3",
+        "text": "2009"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3685,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:66de87feb3dc560d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What TV show is about a grandfather dragging his grandson around on adventures?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rick & Morty"
+      },
+      {
+        "id": "option-1",
+        "text": "Family Guy"
+      },
+      {
+        "id": "option-2",
+        "text": "South Park"
+      },
+      {
+        "id": "option-3",
+        "text": "American Dad"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3773,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:6ba10dd899439fd0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was Netflix founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1997"
+      },
+      {
+        "id": "option-1",
+        "text": "1999"
+      },
+      {
+        "id": "option-2",
+        "text": "2004"
+      },
+      {
+        "id": "option-3",
+        "text": "2001"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3778,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:ce13b4891ace2ff2",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When Donkey Kong died in the \"Donkey Kong Country\" episode \"It's a Wonderful Life\", who was his guardian angel?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eddie the Mean Old Yeti"
+      },
+      {
+        "id": "option-1",
+        "text": "Kiddy Kong"
+      },
+      {
+        "id": "option-2",
+        "text": "Diddy Kong"
+      },
+      {
+        "id": "option-3",
+        "text": "King K. Rool"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3809,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:c6e5f25f7fcc6b0d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Battlestar Galactica (2004), what is the name of the President of the Twelve Colonies?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Laura Roslin"
+      },
+      {
+        "id": "option-1",
+        "text": "William Adama"
+      },
+      {
+        "id": "option-2",
+        "text": "Tricia Helfer"
+      },
+      {
+        "id": "option-3",
+        "text": "Harry Stills"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3844,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:504eb2045736ce2e",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Guy's Grocery Games is hosted by which presenter?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Guy Fieri"
+      },
+      {
+        "id": "option-1",
+        "text": "Guy Martin"
+      },
+      {
+        "id": "option-2",
+        "text": "Guy Ritchie"
+      },
+      {
+        "id": "option-3",
+        "text": "Ainsley Harriott"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3952,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:9757526c18a9335a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show \"Futurama\" what is Fry's full name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Philip J. Fry"
+      },
+      {
+        "id": "option-1",
+        "text": "Fry J. Philip"
+      },
+      {
+        "id": "option-2",
+        "text": "Fry Rodríguez"
+      },
+      {
+        "id": "option-3",
+        "text": "Fry Philip"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4019,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:13236a74ed577eb0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following won the first season of American Idol in 2002?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kelly Clarkson"
+      },
+      {
+        "id": "option-1",
+        "text": "Justin Guarini"
+      },
+      {
+        "id": "option-2",
+        "text": "Ruben Studdard"
+      },
+      {
+        "id": "option-3",
+        "text": "Chris Daughtry"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4029,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:c8d64c6a40f89979",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the comedy series \"Trailer Park Boys\", which of the following characters takes care of stray cats?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bubbles"
+      },
+      {
+        "id": "option-1",
+        "text": "Ricky"
+      },
+      {
+        "id": "option-2",
+        "text": "Julian"
+      },
+      {
+        "id": "option-3",
+        "text": "Randy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4043,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:2ef0e62a48d378fa",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "British actor David Morrissey stars as which role in \"The Walking Dead\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Governor"
+      },
+      {
+        "id": "option-1",
+        "text": "Negan"
+      },
+      {
+        "id": "option-2",
+        "text": "Rick Grimes"
+      },
+      {
+        "id": "option-3",
+        "text": "Daryl Dixon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4085,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:528bd68d75273798",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In AMC's \"The Walking Dead,\" the characters Rick, Carl, Daryl, Morgan, Carol and Maggie were introduced in Season 1.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4136,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:f95986ef5d52b5b7",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first ever actor to play \"The Doctor\" on \"Doctor Who\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "William Hartnell"
+      },
+      {
+        "id": "option-1",
+        "text": "David Tennant"
+      },
+      {
+        "id": "option-2",
+        "text": "Peter Capaldi"
+      },
+      {
+        "id": "option-3",
+        "text": "Tom Baker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4144,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:3ca96a15bb231414",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Star Trek\", Klingons are commonly referred to as \"Black Elves\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4152,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:8e30e8005fb15c5d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Star Trek\", who was the founder of the Klingon Empire and its philosophy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kahless the Unforgettable"
+      },
+      {
+        "id": "option-1",
+        "text": "Lady Lukara of the Great Hall"
+      },
+      {
+        "id": "option-2",
+        "text": "Molor the Unforgiving"
+      },
+      {
+        "id": "option-3",
+        "text": "Dahar Master Kor"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4159,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:7a19b11a399e8b37",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Star Trek\", Klaang is a typical Klingon male.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4205,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:136dc9a69cc4558d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who plays the character of Dennis Reynolds on It's Always Sunny in Philadelphia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Glenn Howerton"
+      },
+      {
+        "id": "option-1",
+        "text": "Rob McElhenney"
+      },
+      {
+        "id": "option-2",
+        "text": "Charlie Day"
+      },
+      {
+        "id": "option-3",
+        "text": "Danny DeVito"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4210,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0a22e784ad271e62",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the main character in \"The Flash\" TV series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Barry Allen"
+      },
+      {
+        "id": "option-1",
+        "text": "Oliver Queen"
+      },
+      {
+        "id": "option-2",
+        "text": "Bart Allen"
+      },
+      {
+        "id": "option-3",
+        "text": "Bruce Wayne"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4283,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:a803b9cd145e9751",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Like his character in \"Parks and Recreation\", Aziz Ansari was born in South Carolina.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4314,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:41da5268812b46ae",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Star Trek: Voyager\", which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pathfinder"
+      },
+      {
+        "id": "option-1",
+        "text": "Message In A Bottle"
+      },
+      {
+        "id": "option-2",
+        "text": "Someone To Watch Over Me"
+      },
+      {
+        "id": "option-3",
+        "text": "Counterpoint"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4418,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:222937d5c6d5b2b0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In season one of the Netflix political drama \"House of Cards\", what government position does Frank Underwood hold?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "House Majority Whip"
+      },
+      {
+        "id": "option-1",
+        "text": "Attorney General"
+      },
+      {
+        "id": "option-2",
+        "text": "President"
+      },
+      {
+        "id": "option-3",
+        "text": "Chief of Staff"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4425,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:78bfb4784bd2422e",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The \"Psycho\" series of videos on YouTube was created by which of the following?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "RiDGiD STUDiOS"
+      },
+      {
+        "id": "option-1",
+        "text": "Dan Bell"
+      },
+      {
+        "id": "option-2",
+        "text": "Billy Familia"
+      },
+      {
+        "id": "option-3",
+        "text": "VeganGainz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4483,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:22a28c4319549d75",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Sci-Fi television show Doctor Who, who plays the Tenth Doctor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "David Tennant"
+      },
+      {
+        "id": "option-1",
+        "text": "William Hartnell"
+      },
+      {
+        "id": "option-2",
+        "text": "Peter Capaldi"
+      },
+      {
+        "id": "option-3",
+        "text": "Peter Davison"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4509,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:06a8c1e7fc87c6c4",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who co-founded the YouTube Let's Play channel \"Game Grumps\" alongside Newgrounds animator Egoraptor?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "JonTron"
+      },
+      {
+        "id": "option-1",
+        "text": "Pewdiepie"
+      },
+      {
+        "id": "option-2",
+        "text": "Tobuscus"
+      },
+      {
+        "id": "option-3",
+        "text": "Markiplier"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4512,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:06e8c72bc5343cb5",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What TV show featured older women named Blanche, Rose, Dorothy and Sophia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Golden Girls"
+      },
+      {
+        "id": "option-1",
+        "text": "Cheers"
+      },
+      {
+        "id": "option-2",
+        "text": "The Wonder Years"
+      },
+      {
+        "id": "option-3",
+        "text": "Family Ties"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4520,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:63ac508bdeba7dc4",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the race horse that Tony Soprano becomes attached to?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pie-O-My"
+      },
+      {
+        "id": "option-1",
+        "text": "Man o' war"
+      },
+      {
+        "id": "option-2",
+        "text": "Bada Bing"
+      },
+      {
+        "id": "option-3",
+        "text": "Honest Earnings"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4539,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:5e0877a6c7ed2ac7",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"The Simpsons\" family is named after creator Matt Groening's real family.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4545,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:ab549ca9dc057ef0",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The television show Doctor Who first aired in 1963.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4558,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:8593b28bb12dd1a1",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Grant Gustin plays which superhero on the CW show of the same name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Flash"
+      },
+      {
+        "id": "option-1",
+        "text": "The Arrow"
+      },
+      {
+        "id": "option-2",
+        "text": "Black Canary"
+      },
+      {
+        "id": "option-3",
+        "text": "Daredevil"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4602,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:cfe86a94457e0af6",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "\"The A Team\" first aired in the USA and in the UK in what year?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1983"
+      },
+      {
+        "id": "option-1",
+        "text": "1981"
+      },
+      {
+        "id": "option-2",
+        "text": "1985"
+      },
+      {
+        "id": "option-3",
+        "text": "1987"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4603,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:a2c32b0b84b7e9c8",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In DuckTales, what is the name of the city where all the main characters live?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Duckburg"
+      },
+      {
+        "id": "option-1",
+        "text": "Duckwing"
+      },
+      {
+        "id": "option-2",
+        "text": "Tailspin"
+      },
+      {
+        "id": "option-3",
+        "text": "Wingford"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4629,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:68ed275df4f93cbf",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Breaking Bad, the initials W.W. refer to which of the following?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Walter White"
+      },
+      {
+        "id": "option-1",
+        "text": "William Wolf"
+      },
+      {
+        "id": "option-2",
+        "text": "Willy Wonka"
+      },
+      {
+        "id": "option-3",
+        "text": "Wally Walrus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4693,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0cfbb04364990133",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which character was played by Dustin Diamond in the sitcom 'Saved by the Bell'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Screech"
+      },
+      {
+        "id": "option-1",
+        "text": "Zack"
+      },
+      {
+        "id": "option-2",
+        "text": "Mr. Belding"
+      },
+      {
+        "id": "option-3",
+        "text": "A.C. Slater"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4710,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:9c36e5074a313956",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which race enjoys a glass of warm baghol in \"Star Trek\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Klingon"
+      },
+      {
+        "id": "option-1",
+        "text": "Vulcan"
+      },
+      {
+        "id": "option-2",
+        "text": "Human"
+      },
+      {
+        "id": "option-3",
+        "text": "Botha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4720,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:3ef2755b847bf34b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the star of the TV series \"24\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kiefer Sutherland"
+      },
+      {
+        "id": "option-1",
+        "text": "Kevin Bacon"
+      },
+      {
+        "id": "option-2",
+        "text": "Hugh Laurie"
+      },
+      {
+        "id": "option-3",
+        "text": "Rob Lowe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4753,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:18664becd1fe67c9",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which character does voice actress Tara Strong NOT voice?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bubbles (2016)"
+      },
+      {
+        "id": "option-1",
+        "text": "Twilight Sparkle"
+      },
+      {
+        "id": "option-2",
+        "text": "Timmy Turner"
+      },
+      {
+        "id": "option-3",
+        "text": "Harley Quinn"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4819,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0b8b03d6194572da",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these voices wasn't a choice for the House AI in \"The Simpsons Treehouse of Horror\" short, House of Whacks?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George Clooney"
+      },
+      {
+        "id": "option-1",
+        "text": "Matthew Perry"
+      },
+      {
+        "id": "option-2",
+        "text": "Dennis Miller"
+      },
+      {
+        "id": "option-3",
+        "text": "Pierce Brosnan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4843,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:85ebe905c22db0ff",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The first half-hour CGI cartoon, ReBoot, aired on which year?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1994"
+      },
+      {
+        "id": "option-1",
+        "text": "1993"
+      },
+      {
+        "id": "option-2",
+        "text": "1998"
+      },
+      {
+        "id": "option-3",
+        "text": "1999"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4846,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:7cd93f8e9a15fd1b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the TV Show \"Donkey Kong Country\", which episode did the song \"Eddie, Let Me Go Back To My Home\" play in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "It's a Wonderful Life"
+      },
+      {
+        "id": "option-1",
+        "text": "Message In A Bottle Show"
+      },
+      {
+        "id": "option-2",
+        "text": "To The Moon Baboon"
+      },
+      {
+        "id": "option-3",
+        "text": "Ape-Nesia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4905,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:2c7b65fd7986e00b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Naruto: Shippuden, which of the following elements is a \"Kekkei Tōta?\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Particle Style"
+      },
+      {
+        "id": "option-1",
+        "text": "Any Doujutsu"
+      },
+      {
+        "id": "option-2",
+        "text": "Shadow Style"
+      },
+      {
+        "id": "option-3",
+        "text": "Ice Style"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4926,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:00b00c28019a7b2f",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which PBS station was the first station to air \"Monty Python's Flying Circus\" (1969-1974) in the United States?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "KERA (Dallas-Fort Worth)"
+      },
+      {
+        "id": "option-1",
+        "text": "KLCS (Los Angeles)"
+      },
+      {
+        "id": "option-2",
+        "text": "WETA (Washington D.C.)"
+      },
+      {
+        "id": "option-3",
+        "text": "WNET (New York City)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5089,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:8e0cd9aa5a7b3939",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's Dr. Doofenshmirtz first name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Heinz"
+      },
+      {
+        "id": "option-1",
+        "text": "Hans"
+      },
+      {
+        "id": "option-2",
+        "text": "Hank"
+      },
+      {
+        "id": "option-3",
+        "text": "Heidi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5134,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:41966a50b9297705",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Game of Thrones, what continent lies across the Narrow Sea from Westeros?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Essos"
+      },
+      {
+        "id": "option-1",
+        "text": "Easteros"
+      },
+      {
+        "id": "option-2",
+        "text": "Westereast"
+      },
+      {
+        "id": "option-3",
+        "text": "Esuntos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5154,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:1408977559a98c51",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What NBC sitcom once saw two of its characters try to pitch NBC on a sitcom about nothing?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seinfeld"
+      },
+      {
+        "id": "option-1",
+        "text": "Frasier"
+      },
+      {
+        "id": "option-2",
+        "text": "Becker"
+      },
+      {
+        "id": "option-3",
+        "text": "Friends"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5165,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:37250b66108daea7",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The theme for the popular science fiction series \"Doctor Who\" was composed by who?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ron Grainer"
+      },
+      {
+        "id": "option-1",
+        "text": "Murray Gold"
+      },
+      {
+        "id": "option-2",
+        "text": "Delia Derbyshire"
+      },
+      {
+        "id": "option-3",
+        "text": "Peter Howell"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5186,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b8cb544ff06b8606",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played the Waitress in the Spam sketch of \"Monty Python's Flying Circus\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Terry Jones"
+      },
+      {
+        "id": "option-1",
+        "text": "Eric Idle"
+      },
+      {
+        "id": "option-2",
+        "text": "Graham Chapman"
+      },
+      {
+        "id": "option-3",
+        "text": "John Cleese"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5277,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:a999f90130a27263",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did the TV show Rick and Morty first air on Adult Swim?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2013"
+      },
+      {
+        "id": "option-1",
+        "text": "2014"
+      },
+      {
+        "id": "option-2",
+        "text": "2016"
+      },
+      {
+        "id": "option-3",
+        "text": "2015"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5326,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:f1df5a915307887f",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the TV series \"Person of Interest\", who plays the character \"Harold Finch\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Emerson"
+      },
+      {
+        "id": "option-1",
+        "text": "Jim Caviezel"
+      },
+      {
+        "id": "option-2",
+        "text": "Taraji P. Henson"
+      },
+      {
+        "id": "option-3",
+        "text": "Kevin Chapman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5342,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:eeb777ac20af4164",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Star Trek\", Klingons are aliens.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5374,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:9afb64979669692a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of following is rude and dishonorable by Klingon standards?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Taking his D'k tahg"
+      },
+      {
+        "id": "option-1",
+        "text": "Insulting and laughing at him at the dinner table"
+      },
+      {
+        "id": "option-2",
+        "text": "Reaching over and taking his meal"
+      },
+      {
+        "id": "option-3",
+        "text": "Punching him and taking his ship station position"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5414,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:6cc1560a6a7f16d9",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The fictional movie 'Rochelle, Rochelle' features in which sitcom?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seinfeld"
+      },
+      {
+        "id": "option-1",
+        "text": "Frasier"
+      },
+      {
+        "id": "option-2",
+        "text": "Cheers"
+      },
+      {
+        "id": "option-3",
+        "text": "Friends"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5425,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:5e14bbadb4d2478d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played the sun baby in the original run of Teletubbies?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jessica Smith"
+      },
+      {
+        "id": "option-1",
+        "text": "Pui Fan Lee"
+      },
+      {
+        "id": "option-2",
+        "text": "Sue Monroe"
+      },
+      {
+        "id": "option-3",
+        "text": "Lisa Brockwell"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5450,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:ac1674fa57aefafb",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On the NBC show Community what was Star Burns' real name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alex"
+      },
+      {
+        "id": "option-1",
+        "text": "Todd"
+      },
+      {
+        "id": "option-2",
+        "text": "Neal"
+      },
+      {
+        "id": "option-3",
+        "text": "Grimus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5451,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:e36e37461805d1d5",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the date of original airing of the pilot episode of My Little Pony: Friendship is Magic?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "October 10th, 2010"
+      },
+      {
+        "id": "option-1",
+        "text": "November 6th, 2010"
+      },
+      {
+        "id": "option-2",
+        "text": "April 14th, 1984"
+      },
+      {
+        "id": "option-3",
+        "text": "May 18th, 2015"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5469,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:f574e327cf3cf090",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the cartoon 'SpongeBob SquarePants', what did the acronym E.V.I.L stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Every Villain Is Lemons"
+      },
+      {
+        "id": "option-1",
+        "text": "Every Villain Is Lemonade"
+      },
+      {
+        "id": "option-2",
+        "text": "Every Villain Is Limes"
+      },
+      {
+        "id": "option-3",
+        "text": "Each Villain Is Lemonade"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5473,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:48e7ba16bc723b15",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "At which university do \"The Big Bang Theory\" characters Mr. Wolowitz and Drs. Cooper, Hofstadter and Koothrappali work?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Caltech"
+      },
+      {
+        "id": "option-1",
+        "text": "UCLA"
+      },
+      {
+        "id": "option-2",
+        "text": "MIT"
+      },
+      {
+        "id": "option-3",
+        "text": "UC Berkeley "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5507,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:e867ca5f37e99774",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these Bojack Horseman characters is a human?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Todd Chavez"
+      },
+      {
+        "id": "option-1",
+        "text": "Lennie Turtletaub"
+      },
+      {
+        "id": "option-2",
+        "text": "Princess Carolyn"
+      },
+      {
+        "id": "option-3",
+        "text": "Tom Jumbo-Grumbo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5509,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:6782200595ac531b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This composer worked on the 2003 TV series Battlestar Galatica.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bear McCreary"
+      },
+      {
+        "id": "option-1",
+        "text": "Ramin Djawadi"
+      },
+      {
+        "id": "option-2",
+        "text": "Jeremy Soule"
+      },
+      {
+        "id": "option-3",
+        "text": "Harry Gregson-Williams"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5510,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:4513a606b9e316bf",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Game of Thrones what is the name of Jon Snow's sword?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Longclaw"
+      },
+      {
+        "id": "option-1",
+        "text": "Oathkeeper"
+      },
+      {
+        "id": "option-2",
+        "text": "Widow's Wail"
+      },
+      {
+        "id": "option-3",
+        "text": "Needle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5511,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:abdd8cbe99c78601",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Star Trek universe, what color is Vulcan blood?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Blue"
+      },
+      {
+        "id": "option-2",
+        "text": "Red"
+      },
+      {
+        "id": "option-3",
+        "text": "Purple"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5522,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:1448c09d9f4f286a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"The Big Bang Theory\", what is Howard Wolowitz's nickname in World of Warcraft?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wolowizard"
+      },
+      {
+        "id": "option-1",
+        "text": "Sheldor"
+      },
+      {
+        "id": "option-2",
+        "text": "Rajesh"
+      },
+      {
+        "id": "option-3",
+        "text": "Priya"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5557,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:503f095fd637dd1f",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Star Trek\", what is the Klingon delicacy of \"gagh\" made from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Serpent worms"
+      },
+      {
+        "id": "option-1",
+        "text": "Earthworms"
+      },
+      {
+        "id": "option-2",
+        "text": "Spaghetti noodles"
+      },
+      {
+        "id": "option-3",
+        "text": "Klingworms"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5563,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:580bc992255fca9f",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Star Trek: The Next Generation, what is the name of Data's cat?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Spot"
+      },
+      {
+        "id": "option-1",
+        "text": "Mittens"
+      },
+      {
+        "id": "option-2",
+        "text": "Tom"
+      },
+      {
+        "id": "option-3",
+        "text": "Kitty"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5585,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:ee3d567183f71b6e",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which former Coronation Street actress was once a hostess on the British Game Show \"Double Your Money\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Amanda Barrie"
+      },
+      {
+        "id": "option-1",
+        "text": "Sue Nicholls"
+      },
+      {
+        "id": "option-2",
+        "text": "Violet Carson"
+      },
+      {
+        "id": "option-3",
+        "text": "Jean Alexander"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5594,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:dd91b35f1295d898",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these Disney shows is classified as an anime?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stitch!"
+      },
+      {
+        "id": "option-1",
+        "text": "Cory in the House"
+      },
+      {
+        "id": "option-2",
+        "text": "The Emperor's New School"
+      },
+      {
+        "id": "option-3",
+        "text": "Hannah Montana"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5641,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:146877a2fa34b18b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country does the YouTuber \"SinowBeats\" originate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scotland"
+      },
+      {
+        "id": "option-1",
+        "text": "England"
+      },
+      {
+        "id": "option-2",
+        "text": "Sweden"
+      },
+      {
+        "id": "option-3",
+        "text": "Germany"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5658,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:bc53e52ea5fa8fb0",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Star Trek: The Next Generation\", Data is the only android in existence.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5667,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b054586864fb464b",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Klingons respect their disabled comrades, and those who are old, injuried, and helpless.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5676,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:853f467d465a0f12",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Battlestar Galactica (2004), Cylons were created by man as cybernetic workers and soldiers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5699,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:1cea6a7d237eeeb2",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eggo Waffles"
+      },
+      {
+        "id": "option-1",
+        "text": "Toast"
+      },
+      {
+        "id": "option-2",
+        "text": "Captain Crunch"
+      },
+      {
+        "id": "option-3",
+        "text": "Bacon and Eggs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5714,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:cc8b3e97a38a66eb",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Nickelodeon's original name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pinwheel"
+      },
+      {
+        "id": "option-1",
+        "text": "MTVKids"
+      },
+      {
+        "id": "option-2",
+        "text": "KidsTV"
+      },
+      {
+        "id": "option-3",
+        "text": "Splat!"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5732,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:975a9fcd26efe0ba",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show \"Dragonball Z\", what is the name of Cell's most powerful attack?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Solar Kamehameha"
+      },
+      {
+        "id": "option-1",
+        "text": "Super Kamehameha"
+      },
+      {
+        "id": "option-2",
+        "text": "Cell Kamehameha"
+      },
+      {
+        "id": "option-3",
+        "text": "Android Kamehameha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5744,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:bb377aca13d51984",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which track by \"Massive Attack\" is used for the theme of \"House\"? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Teardrop"
+      },
+      {
+        "id": "option-1",
+        "text": "Protection"
+      },
+      {
+        "id": "option-2",
+        "text": "Angel"
+      },
+      {
+        "id": "option-3",
+        "text": "Black Milk"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5755,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:60db51ae8dfa0175",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show 'Doctor Who', what is the name of the time-capsule model stolen by 'the Doctor'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "TT Type 40, Mark 3 (TARDIS)"
+      },
+      {
+        "id": "option-1",
+        "text": "TT Type 1, Mark 3 (TARDIS)"
+      },
+      {
+        "id": "option-2",
+        "text": "TT Type 40, Mark 5 (TARDIS)"
+      },
+      {
+        "id": "option-3",
+        "text": "TT Type 1, Mark 5 (TARDIS)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5759,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:0272edbef0c3237a",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rik Mayall"
+      },
+      {
+        "id": "option-1",
+        "text": "Adrian Edmondson"
+      },
+      {
+        "id": "option-2",
+        "text": "Nigel Planer"
+      },
+      {
+        "id": "option-3",
+        "text": "Christopher Ryan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5773,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:6cd8377ab0ee2142",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Star Trek\", what is the Klingon death ritual?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Look into sky and yell loudly in mourning."
+      },
+      {
+        "id": "option-1",
+        "text": "Kiss the jagged forehead before burial."
+      },
+      {
+        "id": "option-2",
+        "text": "Shoot into space in a torpedo casing."
+      },
+      {
+        "id": "option-3",
+        "text": "Split the deceased's earnings between bloodkin."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5777,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b7887d655eeda04c",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the TV show \"Mad Men\", what was Donald Draper's birthname?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Richard \"Dick\" Whitman"
+      },
+      {
+        "id": "option-1",
+        "text": "Donald Draper"
+      },
+      {
+        "id": "option-2",
+        "text": "John Ashbury"
+      },
+      {
+        "id": "option-3",
+        "text": "Michael \"Mikey\" Wilhelm"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5804,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:80901b838eea7577",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many seasons did \"Stargate SG-1\" have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10"
+      },
+      {
+        "id": "option-1",
+        "text": "3"
+      },
+      {
+        "id": "option-2",
+        "text": "7"
+      },
+      {
+        "id": "option-3",
+        "text": "12"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5845,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:33ec2efa9bc8d990",
+    "category": "television",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Doctor Who\", the Doctor gets his TARDIS by stealing it.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5855,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:65066a1be27c0751",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the original Star Trek TV series, what was Captain James T. Kirk's middle name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tiberius"
+      },
+      {
+        "id": "option-1",
+        "text": "Trevor"
+      },
+      {
+        "id": "option-2",
+        "text": "Travis"
+      },
+      {
+        "id": "option-3",
+        "text": "Tyrone"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5876,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:90f86b604a3e3b21",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the mad scientist who owns Planet Express in Futurama?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hubert J. Farnsworth"
+      },
+      {
+        "id": "option-1",
+        "text": "Philip J. Fry"
+      },
+      {
+        "id": "option-2",
+        "text": "Rick Sanchez"
+      },
+      {
+        "id": "option-3",
+        "text": "Ogden Wernstrom"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5884,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:fa29e96fef32737b",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Autobot names in Michael Bay's movies was NOT a name for a Transformer in the original 1980's cartoon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mudflap"
+      },
+      {
+        "id": "option-1",
+        "text": "Skids"
+      },
+      {
+        "id": "option-2",
+        "text": "Sideswipe"
+      },
+      {
+        "id": "option-3",
+        "text": "Ratchet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5936,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:9fa226cda46c84e2",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "$5"
+      },
+      {
+        "id": "option-1",
+        "text": "A Copy of Bonestorm 2"
+      },
+      {
+        "id": "option-2",
+        "text": "$100"
+      },
+      {
+        "id": "option-3",
+        "text": "A Giant Gobstopper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5984,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:119c3521516a9e02",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Time And Relative Dimensions In Space"
+      },
+      {
+        "id": "option-1",
+        "text": "Time And Resting Dimensions In Space"
+      },
+      {
+        "id": "option-2",
+        "text": "Time And Relative Dimensions In Style"
+      },
+      {
+        "id": "option-3",
+        "text": "Toilet Aid Rope Dog Is Soup"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6061,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:beb59de5fab4091d",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On the NBC show Community, whose catch-phrase was \"Pop! Pop!\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Magnitude"
+      },
+      {
+        "id": "option-1",
+        "text": "Star Burns"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonard"
+      },
+      {
+        "id": "option-3",
+        "text": "Senoir Chang"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6078,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:be66b4305f77f116",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the inspector in the series \"On the Buses\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blakey"
+      },
+      {
+        "id": "option-1",
+        "text": "Harper"
+      },
+      {
+        "id": "option-2",
+        "text": "Naily"
+      },
+      {
+        "id": "option-3",
+        "text": "Gally"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6082,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:57bd860893a89fc0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the episode of SpongeBob SquarePants, \"Survival of the Idiots\", Spongebob called Patrick which nickname?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pinhead"
+      },
+      {
+        "id": "option-1",
+        "text": "Starfish"
+      },
+      {
+        "id": "option-2",
+        "text": "Larry"
+      },
+      {
+        "id": "option-3",
+        "text": "Dirty Dan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6091,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:30e40233f75ba0d0",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Spongebob Squarepants,\" what is Mr. Krabs' full name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eugene H. Krabs"
+      },
+      {
+        "id": "option-1",
+        "text": "Eugene G. Krabs"
+      },
+      {
+        "id": "option-2",
+        "text": "Eugene J. Krabs"
+      },
+      {
+        "id": "option-3",
+        "text": "Eugene D. Krabs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6141,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:fdb8b223082d3ca4",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which show is known for the songs \"You are a Pirate\", \"Cooking by the Book\" and \"We Are Number One\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "LazyTown"
+      },
+      {
+        "id": "option-1",
+        "text": "Sofia the First"
+      },
+      {
+        "id": "option-2",
+        "text": "DuckTales"
+      },
+      {
+        "id": "option-3",
+        "text": "Tom and Jerry"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6153,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:b29d8ed98fe6e0ee",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Alan Reed is known for providing the voice of which character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fred Flintstone"
+      },
+      {
+        "id": "option-1",
+        "text": "Bugs Bunny"
+      },
+      {
+        "id": "option-2",
+        "text": "Fangface"
+      },
+      {
+        "id": "option-3",
+        "text": "G.I. Joe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6208,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:936b29fc7ff83e59",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these television shows makes everyone look under their chair?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Oprah"
+      },
+      {
+        "id": "option-1",
+        "text": "Jimmy Fallon"
+      },
+      {
+        "id": "option-2",
+        "text": "Saturday Night Live"
+      },
+      {
+        "id": "option-3",
+        "text": "Larry Rubert"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6228,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:television:554398e772896571",
+    "category": "television",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the television show \"Lazy Town\", who is the actor of Robbie Rotten?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stefán Stefánsson"
+      },
+      {
+        "id": "option-1",
+        "text": "Adam Sandler"
+      },
+      {
+        "id": "option-2",
+        "text": "Magnús Scheving"
+      },
+      {
+        "id": "option-3",
+        "text": "Stephen Carl"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6238,
+      "category": "Entertainment: Television",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

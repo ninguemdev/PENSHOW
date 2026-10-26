@@ -32,9 +32,4 @@ server {
         proxy_set_header Host $host;
     }
 
-    location /api/ {
-        # Preservar /api: o servidor já atende esse prefixo.
-        proxy_pass http://127.0.0.1:8080;
-        proxy_set_header Host $host;
-    }
 }

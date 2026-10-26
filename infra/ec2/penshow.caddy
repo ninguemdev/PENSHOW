@@ -1,0 +1,4 @@
+# Insert inside the existing site's route, AFTER its outsider deny and BEFORE its final 404.
+# The existing TLS, Cloudflare restrictions and Comicle reverse_proxy stay in place.
+redir /penshow /penshow/ 308
+reverse_proxy /penshow/* penshow:3000

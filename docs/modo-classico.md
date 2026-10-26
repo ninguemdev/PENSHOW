@@ -2,7 +2,7 @@
 
 A T36 integra a partida de cinco fases em desenvolvimento/teste. Novas salas usam `settings.format: "classic"`; omitir o formato no contrato também seleciona esse padrão. O botão **Iniciar modo clássico** envia `match:start` sem modalidade. O servidor sorteia quatro entre quiz simples, velocidade, aposta, roubo e dinamite, sem repetição, e acrescenta a final na quinta posição.
 
-O modo continua experimental: D04/D05 conservam as variantes de dinamite por turnos e roubo pelo primeiro acerto. D06 ainda pausa empates antes das vidas; D02/D03 ainda pausam a final sem resposta ou sem alvo. A integração não transforma essas propostas em decisões de produto. A disponibilização em produção permanece para as tarefas de operação/publicação.
+**Atualização de 23/10/2026:** D01–D06 foram respondidas, conforme [decisões](decisoes.md). Dinamite por turnos aprovada; roubo exclusivo do primeiro acerto com teto de 100 e +100 para todos os acertos; empate em pontos e acertos com vidas iguais; sem resposta na final, todos os ativos perdem uma vida; sem alvo, sorteio entre todos os ativos, inclusive quem acertou. A integração T39 já aplica vidas iguais, dano coletivo, alvo automático e desempate de tiro; a T20 aplica o teto de roubo de 100. A T21 consolida a dinamite com política confirmada em plano, regras e projeção. As seções técnicas abaixo descrevem o fluxo atual; os relatórios datados nas tarefas preservam as evidências históricas. O [guia do desempate](desempate-tiro.md) detalha o combate. Hospedagem como no Comicle fica por último, aguardando criação da VM pelo usuário.
 
 ## Plano e transições
 
@@ -12,7 +12,7 @@ O modo continua experimental: D04/D05 conservam as variantes de dinamite por tur
 
 As quatro fases reutilizam instruções, fila de temas, seleção, apostas/turnos, respostas, revelação e resultado. O timer do resultado abre automaticamente as instruções da próxima fase, na mesma partida e com o mesmo placar/acertos. Aposta na abertura oferece zero para saldo zero. Roubo nunca fabrica saldo ou transferência.
 
-Após a quarta fase, `finalEntry.scope: "full-match"` congela a classificação e atribui 5/4/3/2 vidas quando não há empate. A final começa automaticamente com o `roundId` reservado. Se houver empate por pontos, publica `ranking`, conserva o placar e aguarda D06; não sorteia silenciosamente nem atribui vidas. O anfitrião pode voltar ao lobby nessa pendência.
+Após a quarta fase, `finalEntry.scope: "full-match"` congela a classificação por pontos e acertos e atribui 5/4/3/2 vidas por grupos consecutivos. Empatados recebem as mesmas vidas, sem saltar posições: 5/5/4/3/2. A final começa automaticamente com o `roundId` reservado, inclusive quando todos empatam. A classificação e a conversão permanecem inalteradas até o pódio.
 
 A final reutiliza a primeira resposta exclusiva, dano único, ataque manual e eliminação. No pódio, o histórico apresenta as quatro modalidades disputadas na ordem oficial; a classificação final apresenta a disputa por vidas. A revanche retorna à mesma sala, preserva perfis/fila de temas e inicia outro `matchId`, placar zero e novo sorteio, que pode repetir legitimamente a ordem anterior.
 
@@ -32,6 +32,6 @@ Transições e timers passam pela fila existente. O contexto inclui partida, fas
 - `classic-mode.spec.ts`: interface real, HTTP/Socket.IO, duas identidades, cinco fases, recarga, pódio e revanche em desktop/celular. A composição de teste injeta tempos curtos; transporte, relógio e agendador são reais. Não há rota pública de teste.
 - `pnpm questions:simulate:classic`: gera [t36-stock.json](../data/publication-reports/t36-stock.json), separado da evidência histórica da T27. Cobre 480 percursos completos de conteúdo (120 ordens × 2/4/8/12 pessoas), 1.260 configurações de temas, reserva de 50 perguntas, esgotamento explícito e ausência de repetição. `--check` reproduz os bytes sem escrever, inclusive na CI.
 
-O quadro de status e as evidências de execução ficam na [T36](tasks/T36-modo-classico-padrao.md). Regras ainda em consulta impedem declarar a consolidação definitiva do modo.
+O quadro de status e as evidências de execução ficam na [T36](tasks/T36-modo-classico-padrao.md). Os esclarecimentos confirmaram vidas por grupos consecutivos (5/5/4/3/2 no exemplo com empate em 1º) e o desempate de eliminações simultâneas por tiro 2D top-down, planejado na [T39](tasks/T39-desempate-tiro-top-down.md). O minigame começa com três vidas por participante; ao chegar a zero, erro na pergunta elimina e acerto concede uma vida. Essas regras estão implementadas em desenvolvimento/teste na T39, sem acrescentar uma sexta fase ao modo clássico; a validação humana de equilíbrio segue em T32.
 
-A [T29](e2e-partida-completa.md) amplia a verificação com duas sequências reais em desktop/celular, falhas durante a partida integrada e 12 identidades por sockets, mantendo as variantes ainda em consulta explícitas.
+A [T29](e2e-partida-completa.md) amplia a verificação com duas sequências reais em desktop/celular, falhas durante a partida integrada e 12 identidades por sockets, com as políticas confirmadas, sem tratar os testes como avaliação humana de equilíbrio.

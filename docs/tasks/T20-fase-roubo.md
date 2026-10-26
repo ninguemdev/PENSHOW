@@ -5,7 +5,7 @@
 - **Marco:** M3
 - **Branch sugerido:** `task/20-fase-roubo`
 
-O status desta tarefa fica somente no [índice](README.md). O protótipo e suas evidências estão descritos abaixo e no [guia de roubo](../roubo.md). A consolidação permanece condicionada à resposta de D05.
+O status desta tarefa fica somente no [índice](README.md). O protótipo e suas evidências estão descritos abaixo e no [guia de roubo](../roubo.md). D05 foi respondida e aplicada em 23/10/2026: teto 100, crédito de 100 para todos os acertos e direito exclusivo do primeiro acerto.
 
 ## Objetivo
 
@@ -17,15 +17,16 @@ Adicionar interação por transferência de pontos com direito ao roubo explíci
 - [regras.md](../regras.md)
 - [decisoes.md](../decisoes.md)
 
-## Decisões em consulta
+## Decisão confirmada em 23/10/2026
 
-D05 define quem rouba. O plano de trabalho atual usa somente o primeiro acerto; confirmar a variante antes de consolidar esta modalidade, sem bloquear tarefas independentes.
+D05 confirma o direito exclusivo do primeiro acerto, mantendo +100 para todos os acertos e aumentando o roubo para até **100 pontos**, limitado ao saldo do alvo após os créditos. A configuração padrão usa 100 com política `confirmed`. As evidências do protótipo de 19/10/2026, abaixo, usam 50 e permanecem históricas.
 
 ## Entregáveis
 
-- [ ] Implementar o direito ao roubo conforme D05 e preservar +100 para cada resposta correta.
+- [x] Implementar o direito ao roubo conforme D05 e preservar +100 para cada resposta correta.
 - [x] No formato proposto, identificar a primeira resposta correta depois de fechar as respostas e abrir seis segundos de alvo.
-- [x] Transferir mínimo de 50 e saldo disponível do alvo, após creditar os acertos; sem alvo ou escolha, não transferir.
+- [x] Atualizar o teto para 100: transferir o mínimo entre 100 e o saldo do alvo após creditar os acertos; sem alvo ou escolha, não transferir. O protótipo de 50 foi validado anteriormente.
+- [x] Atualizar parâmetros, projeções, exemplos e testes de serviço/rede/web/e2e; preservar conservação dos pontos, limite pelo saldo e aplicação única.
 - [x] Exibir autor, alvo, valor efetivo e decomposição do saldo; atualizar protocolo da escolha de alvo.
 
 ## Critérios de aceite
@@ -58,7 +59,23 @@ Verificações locais em **19/10/2026**, no Windows:
 
 As capturas reais da transferência desktop/móvel foram inspecionadas: autor, alvo, valor e decomposição legíveis, sem transbordamento da página. O relatório local anexa essas capturas em `e2e/playwright-report/`; o job `smoke` descobre os oito percursos e conserva o artefato `smoke-modalidades`, agora com limite de 20 minutos. Não houve teste em aparelho físico.
 
-D05 foi novamente apresentada durante esta implementação. Até chegar resposta, o primeiro entregável e a consolidação da modalidade permanecem abertos; o índice conserva T20 em andamento. Não houve commit, push, deploy ou execução hospedada da CI, e nenhuma pergunta editorial foi alterada.
+Na implementação histórica descrita acima, D05 foi reapresentada e permaneceu sem resposta. Em 23/10/2026, o usuário confirmou primeiro acerto e teto de 100; a consolidação e as evidências do novo teto constam na seção seguinte. As evidências anteriores não incluíram commit, push, deploy ou CI hospedada, nem alteração editorial.
+
+## Consolidação D05 — 23/10/2026
+
+O padrão congelado de roubo agora usa base **100**, teto **100**, direito exclusivo do primeiro acerto e política **confirmed**. O contrato público aceita essa confirmação e a projeção deriva o marcador das regras da partida. A configuração experimental continua identificada separadamente: a variante de teto 25 do piloto permanece **prototype**. Nenhum cliente envia o valor a transferir.
+
+Os cálculos continuam creditando todos os acertos antes de transferir. A matriz adicional cobre saldo 0/30/99/100/101, alvo correto ou errado e conservação do total: saldo 30 com erro cede 30; saldo 30 com acerto chega a 130, cede 100 e termina em 30. Dois acertos a partir de zero terminam em **200/0**. Serviço, rede e interface foram atualizados para 100; reconexão, rollback, autorização, prazo e reenvio conservam uma liquidação.
+
+Verificações locais, no Windows:
+
+- **901 testes aprovados** em `pnpm test`: servidor **482**, shared **192**, web **179**, conteúdo **43** e artes **5**.
+- **6 percursos Playwright aprovados em 5,4 minutos**, sem retry: `theft-smoke.spec.ts` e `classic-mode.spec.ts`, em desktop **1280×900** e celular **360×780** emulado. Cobrem roubo isolado e integrado, crédito de todos os acertos, transferência de 100, conservação, erro rápido, nenhum acerto, timeout sem transferência, troca de autor, recarga preservando prazo, final e revanche. O isolado termina em **400/400**, com **4/4 acertos**. Capturas desktop/móvel inspecionadas com valor e decomposição legíveis; a tabela móvel mantém rolagem interna.
+- `pnpm pilot:simulate`: **60/60 percursos completos**, com **2/4/8/12 participantes**. [Relatório T20](../../data/publication-reports/t20-group-pilot.json) separado dos históricos T32/T39, com parâmetros e hashes atuais. Conferência adicional do JSON validou todas as conclusões, conservação dos pontos por fase, saldos não negativos, base 100 e teto/status de cada configuração (100/confirmed, ou 25/prototype na comparação). A reprodução determinística do percurso também passou na suíte do servidor; o `--check` integral do piloto não foi repetido nesta execução.
+- `pnpm questions:simulate:classic --check`: **120 sequências**, **480 percursos**, **1.260 configurações**, nenhuma pergunta repetida; relatório histórico de estoque reproduzido sem alteração.
+- `pnpm typecheck`, `pnpm lint`, `pnpm build`, `pnpm format:check` e `git diff --check`: aprovados.
+
+Não houve teste em aparelho físico ou avaliação humana de equilíbrio. A aplicação permanece em desenvolvimento/teste; publicação fica por último em T35, após a VM.
 
 ## Cuidados de implementação
 

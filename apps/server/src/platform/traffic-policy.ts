@@ -6,6 +6,7 @@ export const DEFAULT_TRAFFIC_POLICY = Object.freeze({
   sessionRequestsPerWindow: 240,
   handshakesPerWindow: 240,
   commandsPerWindow: 240,
+  combatInputsPerSecond: 30,
   maxTrackedKeys: 16_384,
   maxPendingCommands: 16,
   maxSessions: 10_000,

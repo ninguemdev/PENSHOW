@@ -30,7 +30,12 @@ export function observePublicMessages(page: Page, origin: string) {
         if (stage.phase !== 'reveal') expect(JSON.stringify(view)).not.toContain('"wagerResults"');
         if (stage.phase === 'wager-selection')
           expect(JSON.stringify(stage)).not.toMatch(/"prompt"|"options"|"correctOptionId"/);
-        if (
+        if (stage.phase === 'final-tiebreak') {
+          const own = stage.tiebreak.ownQuestion;
+          if (own.status !== 'resolved')
+            expect(JSON.stringify(stage)).not.toMatch(/"correctOptionId"|"explanation"/);
+          if (own.status === 'reading') expect(JSON.stringify(own)).not.toContain('"options"');
+        } else if (
           ![
             'reveal',
             'final-target-selection',
@@ -62,7 +67,7 @@ export function observePublicMessages(page: Page, origin: string) {
   page.on('response', (response) => {
     const url = new URL(response.url());
     if (
-      !url.pathname.startsWith('/api/') &&
+      !/^\/(?:penshow\/)?api\//u.test(url.pathname) &&
       !(
         url.pathname.startsWith('/penshow/socket.io') &&
         url.searchParams.get('transport') === 'polling' &&
@@ -72,7 +77,7 @@ export function observePublicMessages(page: Page, origin: string) {
       return;
     const task = (async () => {
       const body = await response.text();
-      if (url.pathname.startsWith('/api/'))
+      if (/^\/(?:penshow\/)?api\//u.test(url.pathname))
         expect(body).not.toMatch(
           /"correctOptionId"|"explanation"|"editorialQuestionId"|"editorialOptionByPublicId"/,
         );

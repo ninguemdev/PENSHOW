@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
-import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { createConnection, createServer } from 'node:net';
 import { once } from 'node:events';
@@ -20,6 +20,9 @@ const { io } = createRequire(new URL('../apps/server/package.json', import.meta.
 );
 const execute = promisify(execFile);
 const image = process.argv[2] ?? 'penshow:local';
+const expectedCatalog = JSON.parse(
+  await readFile(new URL('../data/questions/published/catalog.json', import.meta.url), 'utf8'),
+).manifest;
 const containers = [],
   sockets = [],
   tcpClients = [];
@@ -44,7 +47,7 @@ async function eventually(check, timeout = 15_000) {
   } while (Date.now() < until);
   throw failure;
 }
-async function start(environment) {
+async function start(environment, gameplayEnabled = false) {
   const portServer = createServer();
   await new Promise((resolve, reject) => {
     portServer.once('error', reject);
@@ -71,6 +74,8 @@ async function start(environment) {
     '--env',
     `NODE_ENV=${environment}`,
     '--env',
+    `GAMEPLAY_ENABLED=${gameplayEnabled}`,
+    '--env',
     'NARRATION_ENABLED=true',
     '--env',
     `ALLOWED_ORIGINS=${origin}`,
@@ -87,7 +92,7 @@ async function healthy(origin) {
   });
 }
 async function client(origin, transport = 'websocket') {
-  const response = await fetch(`${origin}/api/guest-sessions`, { method: 'POST' });
+  const response = await fetch(`${origin}/penshow/api/guest-sessions`, { method: 'POST' });
   assert.equal(response.status, 201);
   assert.equal(response.headers.get('cache-control'), 'no-store');
   const session = issuedGuestSessionSchema.parse(await response.json());
@@ -177,6 +182,10 @@ try {
     '/comicle/',
     '/data/questions/published/catalog.json',
     '/penshow/data/questions/published/catalog.json',
+    '/penshow/data/editorial-batches/t33-002.json',
+    '/penshow/data/editorial-baselines/t27-catalog.json',
+    '/penshow/data/questions/reviewed/t33-002.json',
+    '/penshow/data/sources.json',
     '/penshow/catalog.json',
     '/penshow/.env',
     '/api/missing',
@@ -202,9 +211,11 @@ try {
     '-e',
     `
     import assert from 'node:assert/strict';
+    import { createHash } from 'node:crypto';
     import { readdir, readFile, access } from 'node:fs/promises';
     import { join } from 'node:path';
     assert.equal(process.getuid(), 1000);
+    assert.deepEqual((await readdir('/app/data')).sort(), ['licenses', 'narration', 'questions', 'sources.json']);
     assert.deepEqual(await readdir('/app/data/questions'), ['published']);
     const dependencies = await readdir('/app/apps/server/node_modules/.pnpm');
     assert.ok(!dependencies.some(name => /^(?:typescript|vitest|tsx|vite|@playwright|@echogarden)[@+]/u.test(name)));
@@ -216,11 +227,29 @@ try {
     assert.equal(files.filter(file => file.endsWith('.png')).length, 50);
     assert.ok(!files.some(file => /\\.(?:json|map|ts|tsx)$/u.test(file)));
     const catalog = JSON.parse(await readFile('/app/data/questions/published/catalog.json', 'utf8'));
+    const narration = JSON.parse(await readFile('/app/data/narration/generated/manifest.json', 'utf8'));
+    assert.equal(narration.entries.length, catalog.questions.length);
+    const entries = new Map(narration.entries.map(entry => [entry.questionId, entry]));
+    assert.equal(entries.size, catalog.questions.length);
+    for (const question of catalog.questions) {
+      const entry = entries.get(question.id);
+      assert.ok(entry, 'Narração ausente.');
+      assert.equal(entry.textHash, createHash('sha256').update(question.prompt).digest('hex'));
+      assert.match(entry.fingerprint, /^[a-f0-9]{64}$/u);
+      const wav = await readFile(join('/app/data/narration/generated', entry.fingerprint + '.wav'));
+      assert.equal(createHash('sha256').update(wav).digest('hex'), entry.sha256);
+    }
     const scripts = await Promise.all(files.filter(file => file.endsWith('.js')).map(file => readFile(join('/app/apps/web/dist', file), 'utf8')));
     for (const question of catalog.questions) for (const script of scripts)
       assert.ok(!script.includes(JSON.stringify(question.prompt).slice(1, -1)));
-    console.log(JSON.stringify({ approvedQuestions: catalog.questions.length, avatars: 50, developmentTools: false }));
+    console.log(JSON.stringify({ approvedQuestions: catalog.questions.length, catalogSha256: catalog.manifest.contentSha256, narrations: entries.size, avatars: 50, developmentTools: false }));
   `,
+  );
+  const inspected = JSON.parse(inspection);
+  assert.equal(
+    inspected.catalogSha256,
+    expectedCatalog.contentSha256,
+    'A imagem não contém o catálogo atual; reconstrua a imagem antes de validar.',
   );
   console.log(`Imagem inspecionada: ${inspection}`);
   const { host, guest, entry } = await group(origin);
@@ -303,8 +332,8 @@ try {
     'Falhas de configuração, build incompatível e catálogo inválido encerram com código 1.',
   );
 
-  // Same runtime image; NODE_ENV=test explicitly enables the existing experimental rules locally.
-  const test = await start('test');
+  // The hosted pilot must play with production checks, without changing NODE_ENV to test.
+  const test = await start('production', true);
   const players = await group(test.origin);
   const { host: quizHost, guest: quizGuest } = players;
   const started = ok(
@@ -342,7 +371,7 @@ try {
     );
     assert.ok(reading.stage.narration.durationMs > 0);
     const recording = await fetch(
-      `${test.origin}/api/rooms/${context.roomId}/narration/${reading.stage.question.questionId}`,
+      `${test.origin}/penshow/api/rooms/${context.roomId}/narration/${reading.stage.question.questionId}`,
       { headers: { Authorization: `Bearer ${quizHost.session.token}` } },
     );
     assert.equal(recording.status, 200);
@@ -385,7 +414,7 @@ try {
   await eventually(() => assert.equal(quizHost.views.at(-1)?.state.status, 'lobby'));
   assert.equal(seen.size, 6);
   console.log(
-    'Mesmo artefato em teste local: duas identidades, seis perguntas, pontuação real e retorno ao lobby aprovados.',
+    'Produção com GAMEPLAY_ENABLED=true: duas identidades, API isolada, seis perguntas, pontuação real e retorno ao lobby aprovados.',
   );
 } catch (error) {
   for (const name of containers) {

@@ -849,5 +849,2741 @@
       "category": "Entertainment: Cartoon & Animations",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:animation:e669b3d5e7ff14d6",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What Cartoon Network show aired its first episode on November 4th, 2013?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steven Universe"
+      },
+      {
+        "id": "option-1",
+        "text": "Regular Show"
+      },
+      {
+        "id": "option-2",
+        "text": "Adventure Time"
+      },
+      {
+        "id": "option-3",
+        "text": "The Amazing World of Gumball"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1002,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:2c8aa880e1a06b6f",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1968 Cartoon Show \"Wacky Races\" what was the name of cavemen duo who rode in The Boulder Mobile?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Slag Brothers"
+      },
+      {
+        "id": "option-1",
+        "text": "The Slate Brothers"
+      },
+      {
+        "id": "option-2",
+        "text": "The Rock Brothers"
+      },
+      {
+        "id": "option-3",
+        "text": "The Stone Brothers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1054,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:78101bc6ece06853",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Nickelodeon is owned by what parent company?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Viacom"
+      },
+      {
+        "id": "option-1",
+        "text": "CBS"
+      },
+      {
+        "id": "option-2",
+        "text": "FOX"
+      },
+      {
+        "id": "option-3",
+        "text": "ABC"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1062,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:54875addf11a9a2a",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the number on Gerald's shirt in \"Hey Arnold!\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "33"
+      },
+      {
+        "id": "option-1",
+        "text": "88"
+      },
+      {
+        "id": "option-2",
+        "text": "38"
+      },
+      {
+        "id": "option-3",
+        "text": "83"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1193,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:08433ff46d64fc27",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who voice acted the character Hiccup in the movie \"How to Train Your Dragon\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jay Baruchel"
+      },
+      {
+        "id": "option-1",
+        "text": "Jack Brauchel"
+      },
+      {
+        "id": "option-2",
+        "text": "John Powell"
+      },
+      {
+        "id": "option-3",
+        "text": "Gerard Butler"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1199,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:3682da61e12947c8",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Donald Duck played the role of Bob Cratchit in Disney's 1983 adaptation of A Christmas Carol.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1326,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f4b4566f698d502a",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Waylon Smithers from \"The Simpsons\" was originally black when he first appeared in the series.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1387,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:52a7034f124659ed",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who voiced the Genie in Disney's \"Aladdin\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Robin Williams"
+      },
+      {
+        "id": "option-1",
+        "text": "Billy Crystal"
+      },
+      {
+        "id": "option-2",
+        "text": "Adam Sandler"
+      },
+      {
+        "id": "option-3",
+        "text": "Jim Carrey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1446,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:67822dbb540e4089",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Dipper's real name from \"Gravity Falls\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mason Pines"
+      },
+      {
+        "id": "option-1",
+        "text": "Mable Pines"
+      },
+      {
+        "id": "option-2",
+        "text": "Jason Pines"
+      },
+      {
+        "id": "option-3",
+        "text": "Mark Pines"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1577,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:fa0e1ea5aa08046e",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which city did Anger berate for ruining pizza in \"Inside Out\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "San Francisco"
+      },
+      {
+        "id": "option-1",
+        "text": "Minnesota"
+      },
+      {
+        "id": "option-2",
+        "text": "Washington"
+      },
+      {
+        "id": "option-3",
+        "text": "California"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1599,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:c85ff6747675aacc",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these characters from \"SpongeBob SquarePants\" is not a squid?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gary"
+      },
+      {
+        "id": "option-1",
+        "text": "Orvillie"
+      },
+      {
+        "id": "option-2",
+        "text": "Squidward"
+      },
+      {
+        "id": "option-3",
+        "text": "Squidette"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1722,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:7f32fba8cef11c72",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Gravity Falls\", the character Bill Cipher remarks that \"the universe is what?\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A hologram "
+      },
+      {
+        "id": "option-1",
+        "text": "An illusion "
+      },
+      {
+        "id": "option-2",
+        "text": "A simulation"
+      },
+      {
+        "id": "option-3",
+        "text": "Corrupting"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1759,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:8f9645ac46144d15",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the \"Shrek\" film franchise, Donkey is played by Eddie Murphy.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1768,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:ea3948d74b385d29",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many episodes were in season five of Samurai Jack?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10"
+      },
+      {
+        "id": "option-1",
+        "text": "12"
+      },
+      {
+        "id": "option-2",
+        "text": "11"
+      },
+      {
+        "id": "option-3",
+        "text": "13"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1788,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:c2c1718327670b2e",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In My Little Pony, what is the name of Applejack's younger sister?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Apple Bloom"
+      },
+      {
+        "id": "option-1",
+        "text": "Red Delicious"
+      },
+      {
+        "id": "option-2",
+        "text": "Apple Sweets"
+      },
+      {
+        "id": "option-3",
+        "text": "Apple Fritter"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1834,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f334dc4d14d61ef2",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is lost in Hawaiian and is also the name of a little girl in a 2002 film which features a alien named \"Stitch\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lilo"
+      },
+      {
+        "id": "option-1",
+        "text": "Lolo"
+      },
+      {
+        "id": "option-2",
+        "text": "Lucy"
+      },
+      {
+        "id": "option-3",
+        "text": "Lulu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1865,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:6e56a25556b876f2",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Townsend Coleman provided the voice for which turtle in the original 1987 series of \"Teenage Mutant Ninja Turtles\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonardo"
+      },
+      {
+        "id": "option-2",
+        "text": "Donatello"
+      },
+      {
+        "id": "option-3",
+        "text": "Raphael"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1923,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:0dd725812abb90ef",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of the sea witch in the 1989 Disney film \"The Little Mermaid\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ursula"
+      },
+      {
+        "id": "option-1",
+        "text": "Madam Mim"
+      },
+      {
+        "id": "option-2",
+        "text": "Maleficent"
+      },
+      {
+        "id": "option-3",
+        "text": "Lady Tremaine"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2067,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:6ad7b70af52dce79",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonardo"
+      },
+      {
+        "id": "option-2",
+        "text": "Donatello"
+      },
+      {
+        "id": "option-3",
+        "text": "Raphael"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2098,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:37e35075afc49fa0",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Ruby Rose's weapon from RWBY?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Crescent Rose"
+      },
+      {
+        "id": "option-1",
+        "text": "Thorned Rosebud"
+      },
+      {
+        "id": "option-2",
+        "text": "Magnhild"
+      },
+      {
+        "id": "option-3",
+        "text": "Crooked Scythe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2148,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:332d725404cb6a0c",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The song 'Little April Shower' features in which Disney cartoon film?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bambi"
+      },
+      {
+        "id": "option-1",
+        "text": "Cinderella"
+      },
+      {
+        "id": "option-2",
+        "text": "Pinocchio"
+      },
+      {
+        "id": "option-3",
+        "text": "The Jungle Book"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2195,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:4f5762e66c68461e",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When did the last episode of \"Futurama\" air before returning in 2023?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "September 4, 2013"
+      },
+      {
+        "id": "option-1",
+        "text": "December 25, 2010"
+      },
+      {
+        "id": "option-2",
+        "text": "March 28, 1999"
+      },
+      {
+        "id": "option-3",
+        "text": "November 4, 2021"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2205,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:087de13ba7effaad",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the city that The Flintstones is based in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bedrock"
+      },
+      {
+        "id": "option-1",
+        "text": "Stoneville"
+      },
+      {
+        "id": "option-2",
+        "text": "Rockhampton"
+      },
+      {
+        "id": "option-3",
+        "text": "Boulder City"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2232,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:122b856ff4405af7",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who created the Cartoon Network series \"Regular Show\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "J. G. Quintel"
+      },
+      {
+        "id": "option-1",
+        "text": "Ben Bocquelet"
+      },
+      {
+        "id": "option-2",
+        "text": "Pendleton Ward"
+      },
+      {
+        "id": "option-3",
+        "text": "Rebecca Sugar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2246,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:dcfe05041deab5cb",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show \"Foster's Home For Imaginary Friends\", which character had an obsession with basketball?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wilt"
+      },
+      {
+        "id": "option-1",
+        "text": "Coco"
+      },
+      {
+        "id": "option-2",
+        "text": "Mac"
+      },
+      {
+        "id": "option-3",
+        "text": "Cheese"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2308,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:af57d3bfc15fa53b",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who created \"RWBY\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Monty Oum"
+      },
+      {
+        "id": "option-1",
+        "text": "Miles Luna"
+      },
+      {
+        "id": "option-2",
+        "text": "Kerry Shawcross"
+      },
+      {
+        "id": "option-3",
+        "text": "Shane Newville"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2429,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:c4292b50e372ea77",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In South Park, what is Stan's surname?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Marsh"
+      },
+      {
+        "id": "option-1",
+        "text": "Stotch"
+      },
+      {
+        "id": "option-2",
+        "text": "Broflovski"
+      },
+      {
+        "id": "option-3",
+        "text": "Tweak"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2433,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:22f890e8c1b1c4fb",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Gravity Falls\", how much does Waddles weigh when Mable wins him in \"The Time Traveler's Pig\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "15 pounds"
+      },
+      {
+        "id": "option-1",
+        "text": "20 pounds"
+      },
+      {
+        "id": "option-2",
+        "text": "10 pounds"
+      },
+      {
+        "id": "option-3",
+        "text": "30 pounds"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2567,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:026c5657ab02034b",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the only voice actor to have a speaking part in all of the Disney Pixar feature films? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Ratzenberger"
+      },
+      {
+        "id": "option-1",
+        "text": "Tom Hanks"
+      },
+      {
+        "id": "option-2",
+        "text": "Dave Foley"
+      },
+      {
+        "id": "option-3",
+        "text": "Geoffrey Rush"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2614,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:2a0256c93b36ab84",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The stop motion comedy show \"Robot Chicken\" was created by which of the following?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seth Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Seth MacFarlane"
+      },
+      {
+        "id": "option-2",
+        "text": "Seth Rogen"
+      },
+      {
+        "id": "option-3",
+        "text": "Seth Rollins"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2663,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:1ef01ce268d0e090",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show \"Fat Albert and the Cosby Kids\", what is the name of the characters' fictional gang?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Junkyard Gang"
+      },
+      {
+        "id": "option-1",
+        "text": "The Trash Troupe"
+      },
+      {
+        "id": "option-2",
+        "text": "The Scrapyard Seven"
+      },
+      {
+        "id": "option-3",
+        "text": "The Rotten Posse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2716,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f8092de44b6e5ba4",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1993 Disney animated series \"Bonkers\", what is the name of Bonker's second partner?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Miranda Wright"
+      },
+      {
+        "id": "option-1",
+        "text": "Dick Tracy"
+      },
+      {
+        "id": "option-2",
+        "text": "Eddie Valiant"
+      },
+      {
+        "id": "option-3",
+        "text": "Dr. Ludwig von Drake"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2791,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:6155030e9cd1902b",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the creatures that the protagonists of the webshow RWBY fight against?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grimm"
+      },
+      {
+        "id": "option-1",
+        "text": "Reavers"
+      },
+      {
+        "id": "option-2",
+        "text": "Heartless"
+      },
+      {
+        "id": "option-3",
+        "text": "Dark Ones"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2802,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:901af24f70592a18",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Wendy O. Koopa appeared in the Super Mario DIC Cartoons, but what was she known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kootie Pie"
+      },
+      {
+        "id": "option-1",
+        "text": "Sweetie Pie"
+      },
+      {
+        "id": "option-2",
+        "text": "Wendy Pie"
+      },
+      {
+        "id": "option-3",
+        "text": "Honey Pie"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3030,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:4347290ce601e0ec",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Scooby Doo's full name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scoobert Doo"
+      },
+      {
+        "id": "option-1",
+        "text": "Scooter Doo"
+      },
+      {
+        "id": "option-2",
+        "text": "Scooby Dooby Doo"
+      },
+      {
+        "id": "option-3",
+        "text": "Scoobity Doo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3115,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:9550003ef33e580b",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Sid's dog in \"Toy Story\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scud"
+      },
+      {
+        "id": "option-1",
+        "text": "Buster"
+      },
+      {
+        "id": "option-2",
+        "text": "Whiskers"
+      },
+      {
+        "id": "option-3",
+        "text": "Mr. Jones"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3135,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:447f77eef1494f39",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these cartoon characters is NOT voiced by Rob Paulsen?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Max Tennyson (Ben 10)"
+      },
+      {
+        "id": "option-1",
+        "text": "Carl Wheezer (Jimmy Neutron)"
+      },
+      {
+        "id": "option-2",
+        "text": "Yakko Warner (Animaniacs)"
+      },
+      {
+        "id": "option-3",
+        "text": "The Mask (The Mask, TV Series)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3181,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:7be8e85f183b76f4",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Avatar: The Last Airbender\", which element does Aang begin to learn after being defrosted?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Water"
+      },
+      {
+        "id": "option-1",
+        "text": "Air"
+      },
+      {
+        "id": "option-2",
+        "text": "Earth"
+      },
+      {
+        "id": "option-3",
+        "text": "Fire"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3227,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:90255af296fd9f74",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"My Little Pony: Friendship is Magic\", which of these ponies represents the quality of honesty?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Applejack"
+      },
+      {
+        "id": "option-1",
+        "text": "Twilight Sparkle"
+      },
+      {
+        "id": "option-2",
+        "text": "Pinkie Pie"
+      },
+      {
+        "id": "option-3",
+        "text": "Rarity"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3312,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f0531cc14b6e61a7",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Hanna-Barbera cartoon character travelled with a canine companion named Beegle Beagle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grape Ape"
+      },
+      {
+        "id": "option-1",
+        "text": "Boss Gator"
+      },
+      {
+        "id": "option-2",
+        "text": "Wally Gator"
+      },
+      {
+        "id": "option-3",
+        "text": "Yogi Bear"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3542,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f3bed994088c9725",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "South Park"
+      },
+      {
+        "id": "option-1",
+        "text": "The Simpsons"
+      },
+      {
+        "id": "option-2",
+        "text": "Family Guy"
+      },
+      {
+        "id": "option-3",
+        "text": "Bob's Burgers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3596,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:3c0788d898f12346",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The first ever episode of Family Guy, \"Death Has A Shadow,\" aired on January 1st, 2002.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3671,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:4bef42469d126211",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did the anime adaptation of \"March Comes In Like A Lion\" air?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2016"
+      },
+      {
+        "id": "option-1",
+        "text": "2017"
+      },
+      {
+        "id": "option-2",
+        "text": "2018"
+      },
+      {
+        "id": "option-3",
+        "text": "2015"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3766,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:06c53d603fde49c3",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Before becoming the Autobot leader, Optimus Prime was known by what name on Cybertron?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Orion Pax"
+      },
+      {
+        "id": "option-1",
+        "text": "Long Haul"
+      },
+      {
+        "id": "option-2",
+        "text": "P-138"
+      },
+      {
+        "id": "option-3",
+        "text": "Teletran-1"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3801,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:2f39f79a4f6a705c",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Bill Cipher in the show \"Gravity Falls\" is the good guy.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3887,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:8f6fb4a1611e991f",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 1969 Cartoon show \"Dastardly and Muttley in Their Flying Machines\", which were NOT one of the lyrics in the opening theme?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stab him"
+      },
+      {
+        "id": "option-1",
+        "text": "Nab him"
+      },
+      {
+        "id": "option-2",
+        "text": "Jab him"
+      },
+      {
+        "id": "option-3",
+        "text": "Tab him"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4044,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:1c227fa43459a18a",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which 'Family Guy' character got his own spin-off show in 2009?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cleveland Brown"
+      },
+      {
+        "id": "option-1",
+        "text": "Glenn Quagmire"
+      },
+      {
+        "id": "option-2",
+        "text": "Joe Swanson"
+      },
+      {
+        "id": "option-3",
+        "text": "The Greased-up Deaf Guy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4092,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:d0a3cfcd56bee9ec",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Dreamworks animated movie \"Madagascar,\" who voices Maurice the lemur?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cedric the Entertainer"
+      },
+      {
+        "id": "option-1",
+        "text": "Jack Black"
+      },
+      {
+        "id": "option-2",
+        "text": "Sacha Baron Cohen"
+      },
+      {
+        "id": "option-3",
+        "text": "Chris Rock"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4093,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:77e0e713070f55d3",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Maggie Simpson's first canonical word, not including the Tracey Ullman shorts?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daddy."
+      },
+      {
+        "id": "option-1",
+        "text": "Sequel?"
+      },
+      {
+        "id": "option-2",
+        "text": "Ja!"
+      },
+      {
+        "id": "option-3",
+        "text": "Rusty!"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4103,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:b581072923cb8ee5",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Adam West was the mayor of which cartoon town?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quahog"
+      },
+      {
+        "id": "option-1",
+        "text": "Springfield"
+      },
+      {
+        "id": "option-2",
+        "text": "South Park"
+      },
+      {
+        "id": "option-3",
+        "text": "Langley Falls"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4156,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:8bdbe7abc2b03c0e",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these characters live in a pineapple under the sea in the cartoon \"SpongeBob SquarePants\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "SpongeBob SquarePants "
+      },
+      {
+        "id": "option-1",
+        "text": "Patrick Star"
+      },
+      {
+        "id": "option-2",
+        "text": "Squidward Tentacles"
+      },
+      {
+        "id": "option-3",
+        "text": "Mr. Krabs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4166,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:6cdf2dd32c97aa50",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What animated internet character is known to answer emails with his boxing gloves?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Strong Bad"
+      },
+      {
+        "id": "option-1",
+        "text": "Strong Sad"
+      },
+      {
+        "id": "option-2",
+        "text": "Strong Mad"
+      },
+      {
+        "id": "option-3",
+        "text": "Strong Glad"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4225,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:682a3cccca3733f2",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What type of animal is Disney's Bambi?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Deer"
+      },
+      {
+        "id": "option-1",
+        "text": "Elephant"
+      },
+      {
+        "id": "option-2",
+        "text": "Wolf"
+      },
+      {
+        "id": "option-3",
+        "text": "Mouse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4240,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:172ce8b2657de490",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT a catchphrase used by Rick Sanchez in the TV show \"Rick and Morty\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Slam dunk, nothing but net!"
+      },
+      {
+        "id": "option-1",
+        "text": "Hit the sack, Jack!"
+      },
+      {
+        "id": "option-2",
+        "text": "Rikki-Tikki-Tavi, biatch!"
+      },
+      {
+        "id": "option-3",
+        "text": "Wubba-lubba-dub-dub!"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4259,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:7b906b04f5ad0333",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT a Disney cartoon character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daffy Duck"
+      },
+      {
+        "id": "option-1",
+        "text": "Donald Duck"
+      },
+      {
+        "id": "option-2",
+        "text": "Daisy Duck"
+      },
+      {
+        "id": "option-3",
+        "text": "Scrooge McDuck"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4312,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:3a05c804e7a277d1",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these cartoon girlfriends of popular characters first appeared before their boyfriends?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Olive Oyl"
+      },
+      {
+        "id": "option-1",
+        "text": "Minnie Mouse"
+      },
+      {
+        "id": "option-2",
+        "text": "Lola Bunny"
+      },
+      {
+        "id": "option-3",
+        "text": "Daisy Duck"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4407,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:998c82d96028ae42",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rose Marene"
+      },
+      {
+        "id": "option-1",
+        "text": "Pinkie Pie"
+      },
+      {
+        "id": "option-2",
+        "text": "Maud Pie"
+      },
+      {
+        "id": "option-3",
+        "text": "Rainbow Dash"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4430,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f381c58ce6b79b0c",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following films was Don Bluth both the writer, director, and producer for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "All Dogs Go To Heaven"
+      },
+      {
+        "id": "option-1",
+        "text": "Titan A.E."
+      },
+      {
+        "id": "option-2",
+        "text": "Anastasia"
+      },
+      {
+        "id": "option-3",
+        "text": "The Land Before Time"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4462,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:9ce6c86792d15cf9",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"SpongeBob SquarePants\", what is the name of Sandy Cheek's place of residence?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sandy's Treedome"
+      },
+      {
+        "id": "option-1",
+        "text": "\"The Dome\""
+      },
+      {
+        "id": "option-2",
+        "text": "Sandy's Bubble"
+      },
+      {
+        "id": "option-3",
+        "text": "Auquatic Reseach Centre"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4556,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f2a700759489308e",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these cartoons had a character named Heinz Doofenshmirtz?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Phineas & Ferb"
+      },
+      {
+        "id": "option-1",
+        "text": "Ren & Stimpy"
+      },
+      {
+        "id": "option-2",
+        "text": "Ben 10"
+      },
+      {
+        "id": "option-3",
+        "text": "Batman: The Animated Series"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4803,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:df076a64e981667b",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Nickelodeon rejected the pilot to Adventure Time.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4903,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:1887d873fc5ef4c8",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the release date of the first episode of \"The Powerpuff Girls\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "November 18, 1998"
+      },
+      {
+        "id": "option-1",
+        "text": "June 25, 1999"
+      },
+      {
+        "id": "option-2",
+        "text": "July 28, 2000"
+      },
+      {
+        "id": "option-3",
+        "text": "April 14, 2001"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4927,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:2f0dddfc529a2342",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of Jonny's pet dog in The Adventures of Jonny Quest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bandit"
+      },
+      {
+        "id": "option-1",
+        "text": "Lucky"
+      },
+      {
+        "id": "option-2",
+        "text": "Rocky"
+      },
+      {
+        "id": "option-3",
+        "text": "Max"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4986,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:817c4285d4b27803",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Sanrio character was introduced in 1996?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pompompurin"
+      },
+      {
+        "id": "option-1",
+        "text": "My Melody"
+      },
+      {
+        "id": "option-2",
+        "text": "Badtz-Maru"
+      },
+      {
+        "id": "option-3",
+        "text": "Kerropi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4987,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:270dd0ba6dcb9d50",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the relationship between Rick and Morty in the show \"Rick and Morty\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grandfather and Grandson"
+      },
+      {
+        "id": "option-1",
+        "text": "Father and Son"
+      },
+      {
+        "id": "option-2",
+        "text": "Best Friends"
+      },
+      {
+        "id": "option-3",
+        "text": "Crimefighting Partners"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5124,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:d3e832c5853eb865",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which \"Toy Story\" character was voiced by Don Rickles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mr. Potato Head"
+      },
+      {
+        "id": "option-1",
+        "text": "Slinky Dog"
+      },
+      {
+        "id": "option-2",
+        "text": "Hamm"
+      },
+      {
+        "id": "option-3",
+        "text": "Rex"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5213,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:b5efb1a7566cda8e",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The character White Diamond from Steven Universe, is voiced by who?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Christine Ebersole"
+      },
+      {
+        "id": "option-1",
+        "text": "Ellen McLain"
+      },
+      {
+        "id": "option-2",
+        "text": "Aly Michalka"
+      },
+      {
+        "id": "option-3",
+        "text": "Rihanna"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5229,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:ae18632f685d7a76",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In \"Avatar: The Last Airbender\" and \"The Legend of Korra\", Lavabending is a specialized bending technique of Firebending.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5240,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:abc8214c4b85c5dc",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Everest's favorite food in the Nickelodeon/Nick Jr. series \"PAW Patrol\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Liver"
+      },
+      {
+        "id": "option-1",
+        "text": "Chicken"
+      },
+      {
+        "id": "option-2",
+        "text": "Steak"
+      },
+      {
+        "id": "option-3",
+        "text": "Caribou"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5259,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:e45c6fbc602208e3",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What town was \"Springfield\" from \"The Simpsons\" originally named after?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Springfield, Oregon"
+      },
+      {
+        "id": "option-1",
+        "text": "Springfield, Missouri"
+      },
+      {
+        "id": "option-2",
+        "text": "Springfield, Illinois"
+      },
+      {
+        "id": "option-3",
+        "text": "Springfield, Massachusetts"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5276,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:2f1e811296f3b8bc",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the standard frame rate for animation?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "24 FPS"
+      },
+      {
+        "id": "option-1",
+        "text": "12 FPS"
+      },
+      {
+        "id": "option-2",
+        "text": "30 FPS"
+      },
+      {
+        "id": "option-3",
+        "text": "60 FPS"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5393,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:0f1de49a54cd6c83",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not a Flintstones character?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lord Rockingham IX"
+      },
+      {
+        "id": "option-1",
+        "text": "Rockhead Slate"
+      },
+      {
+        "id": "option-2",
+        "text": "The Great Gazoo"
+      },
+      {
+        "id": "option-3",
+        "text": "Barney Rubble"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5447,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:b19d959ab3892198",
+    "category": "animation",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Snagglepuss was part of the Yogi Yahooies in the 1977 show Scooby's All-Star Laff-a-Lympics.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5457,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:9d6212a8689b0c84",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the TV show \"Rick and Morty\", Rick uses the catchphrase \"Wubba Lubba Dub Dub\", which means what in Birdperson?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "I am in great pain, please help me."
+      },
+      {
+        "id": "option-1",
+        "text": "I pray that my life ends soon."
+      },
+      {
+        "id": "option-2",
+        "text": "Lets get this party started!"
+      },
+      {
+        "id": "option-3",
+        "text": "I am suffering, please help me."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5712,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:ab81307a4fe35429",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"The Simpsons\", where did Homer and Marge first meet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "At Summer Camp"
+      },
+      {
+        "id": "option-1",
+        "text": "At High School"
+      },
+      {
+        "id": "option-2",
+        "text": "At Church"
+      },
+      {
+        "id": "option-3",
+        "text": "At 742 Evergreen Terrace"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5795,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:40627d1d4926f057",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Scooby-Doo's real name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scoobert"
+      },
+      {
+        "id": "option-1",
+        "text": "Scooter"
+      },
+      {
+        "id": "option-2",
+        "text": "Scrappy"
+      },
+      {
+        "id": "option-3",
+        "text": "Shooby"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5815,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:6b8f49f00a985c29",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the cartoon character, Andy Capp, known as in Germany?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Willi Wakker"
+      },
+      {
+        "id": "option-1",
+        "text": "Dick Tingeler"
+      },
+      {
+        "id": "option-2",
+        "text": "Helmut Schmacker"
+      },
+      {
+        "id": "option-3",
+        "text": "Rod Tapper"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5902,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:c508c5b2be4924cd",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the show \"Steven Universe\", who are the main two employees of The Big Donut?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sadie and Lars"
+      },
+      {
+        "id": "option-1",
+        "text": "Steven and James"
+      },
+      {
+        "id": "option-2",
+        "text": "Erik and Julie"
+      },
+      {
+        "id": "option-3",
+        "text": "Bob and May"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5915,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:67b09774ca43dae0",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Gravity Falls\", what does Quentin Trembley do when he is driven out from the White House?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eat a salamander and jump out the window."
+      },
+      {
+        "id": "option-1",
+        "text": "Leave in peace."
+      },
+      {
+        "id": "option-2",
+        "text": "Jump out the window."
+      },
+      {
+        "id": "option-3",
+        "text": "Release 1,000 captive salamanders into the white house."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6040,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:animation:f19b0870a13f58b0",
+    "category": "animation",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the \"dumb blonde\" character in Nickelodeon's \"The Loud House\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leni"
+      },
+      {
+        "id": "option-1",
+        "text": "Luan"
+      },
+      {
+        "id": "option-2",
+        "text": "Luna"
+      },
+      {
+        "id": "option-3",
+        "text": "Lincoln"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6244,
+      "category": "Entertainment: Cartoon & Animations",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

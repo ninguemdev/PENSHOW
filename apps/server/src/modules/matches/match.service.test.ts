@@ -365,7 +365,7 @@ describe('pódio, histórico e revanche', () => {
         matchId: oldState.roster.matchId,
         roundId: oldState.final!.round.roundId,
         questionId: oldRecord.questionId,
-        optionId: oldRecord.accepted.optionId,
+        optionId: oldRecord.accepted!.optionId,
       }),
     ).rejects.toMatchObject({ code: 'STALE_CONTEXT' });
     await expect(
@@ -565,7 +565,7 @@ describe('serviço de partida na fila da sala', () => {
     expect(s.game().state.scoreboard.map((score) => score.points)).toEqual([100, 0]);
     expect(s.game().state.history).toHaveLength(1);
   });
-  it('final: instruções vazias aguardam retorno e ausência de alvo conserva D03 sem restaurar ataque', async () => {
+  it('final: sala vazia aguarda retorno e D03 aplica alvo automático sem restaurar ataque', async () => {
     const s = await qualified();
     await s.matches.startFinal(s.room, s.actors[0]!, s.game().state.roster.matchId);
     for (const actor of s.actors) await s.rooms.disconnect(actor);
@@ -585,13 +585,13 @@ describe('serviço de partida na fila da sala', () => {
     });
     await s.rooms.disconnect(s.actors[0]!);
     await s.advance();
-    expect(s.game().state.final!.stage.phase).toBe('final-no-target-pending');
+    expect(s.game().state.final!.stage.phase).toBe('final-resolution');
     await s.rooms.reconnect(s.actors[0]!);
-    expect(s.game().state.final!.finalists.map((player) => player.lives)).toEqual([5, 4]);
-    expect(s.game().state.final!.stage.phase).toBe('final-no-target-pending');
-    expect(s.game().state.final!.history).toEqual([]);
+    expect(s.game().state.final!.finalists.map((player) => player.lives)).toEqual([4, 4]);
+    expect(s.game().state.final!.stage.phase).toBe('final-resolution');
+    expect(s.game().state.final!.history).toHaveLength(1);
   });
-  it('na final vazia, resolução conserva dano e aguarda próxima pergunta; D02/D03 não viram fallback', async () => {
+  it('na final vazia, dano confirmado é preservado e D02 aplica perda coletiva no prazo', async () => {
     const s = await qualified();
     await s.matches.startFinal(s.room, s.actors[0]!, s.game().state.roster.matchId);
     await s.ready();
@@ -618,8 +618,9 @@ describe('serviço de partida na fila da sala', () => {
     for (const actor of s.actors) await s.rooms.disconnect(actor);
     await s.advance();
     await s.advance();
-    expect(s.game().state.final!.stage.phase).toBe('final-no-answer-pending');
-    expect(s.game().state.final!.history).toHaveLength(1);
+    expect(s.game().state.final!.stage.phase).toBe('final-resolution');
+    expect(s.game().state.final!.history).toHaveLength(2);
+    expect(s.game().state.final!.finalists.map((p) => p.lives)).toEqual([3, 3]);
   });
   it('final: valida início, preserva conversão e não reinicia vidas com outro ID de ação', async () => {
     const s = await qualified();
@@ -673,22 +674,26 @@ describe('serviço de partida na fila da sala', () => {
     expect(s.errors).not.toHaveBeenCalled();
   });
   it.each(['D02', 'D03'] as const)(
-    'final: %s pendente suspende sem dano ou campeão e permite encerrar teste',
+    'final: %s confirma dano único e continua com prazo próprio',
     async (decision) => {
       const s = await qualified();
       await finalOpen(s);
       if (decision === 'D03') await finalAnswer(s);
+      const old = s.scheduled.at(-1)!;
       await s.advance();
-      expect(s.game().state.final?.stage.phase).toBe(
-        decision === 'D02' ? 'final-no-answer-pending' : 'final-no-target-pending',
+      expect(s.game().state.final?.stage.phase).toBe('final-resolution');
+      expect(matchTimer(s.game().state)).not.toBeNull();
+      expect(s.game().state.final?.history).toHaveLength(1);
+      expect(s.game().state.final?.finalists.map((p) => p.lives)).toEqual(
+        decision === 'D02' ? [4, 3] : [4, 4],
       );
-      expect(matchTimer(s.game().state)).toBeNull();
-      expect(s.game().state.final?.history).toHaveLength(0);
-      expect(s.game().state.final?.finalists.map((player) => player.lives)).toEqual([5, 4]);
-      await s.rooms.returnToLobby(s.actors[0]!, s.room.id, s.game().state.roster.matchId, {
-        requireFinished: true,
-      });
-      expect(s.room.snapshot().phase.status).toBe('lobby');
+      await old.task();
+      expect(s.game().state.final?.history).toHaveLength(1);
+      await expect(
+        s.rooms.returnToLobby(s.actors[0]!, s.room.id, s.game().state.roster.matchId, {
+          requireFinished: true,
+        }),
+      ).rejects.toMatchObject({ code: 'INVALID_PHASE' });
       expect(s.errors).not.toHaveBeenCalled();
     },
   );
@@ -889,10 +894,10 @@ describe('serviço de partida na fila da sala', () => {
     await expect(s.target(0, 1)).rejects.toThrow('Falha injetada');
     expect(s.game()).toEqual(before);
     await s.target(0, 1);
-    expect(s.game().state.scoreboard.map((entry) => entry.points)).toEqual([150, 50]);
+    expect(s.game().state.scoreboard.map((entry) => entry.points)).toEqual([200, 0]);
     expect(s.game().state.history).toHaveLength(1);
     await s.scheduled.find((entry) => entry.deadline === oldTimer.deadlineAt)!.task();
-    expect(s.game().state.scoreboard.map((entry) => entry.points)).toEqual([150, 50]);
+    expect(s.game().state.scoreboard.map((entry) => entry.points)).toEqual([200, 0]);
   });
   it('aposta: reconexão recupera escolha, repetição é no-op e prazo não muda', async () => {
     const s = await setup({ mode: 'wager' });
@@ -1181,7 +1186,7 @@ describe('serviço de partida na fila da sala', () => {
       }),
     ).rejects.toThrow('vidas de entrada são imutáveis');
   });
-  it('encerramento empatado publica pendência D06 sem inventar vidas ou usar anfitrião', async () => {
+  it('encerramento empatado atribui vidas iguais sem usar anfitrião e preserva entrada na reconexão', async () => {
     const s = await setup();
     await s.open();
     for (let i = 0; i < 6; i++) {
@@ -1193,16 +1198,13 @@ describe('serviço de partida na fila da sala', () => {
     await s.advance();
     const entry = s.game().state.finalEntry;
     expect(entry).toMatchObject({
-      status: 'pending-tiebreak',
-      policy: { status: 'pending', decisionId: 'D06' },
-      next: { kind: 'decision-required' },
-      groups: [[s.actors[0]!.playerId, s.actors[1]!.playerId]],
+      status: 'ready',
+      policy: { status: 'confirmed' },
+      allocations: [
+        { rank: 1, initialLives: 5 },
+        { rank: 1, initialLives: 5 },
+      ],
     });
-    expect(entry && 'allocations' in entry).toBe(false);
-    await expect(
-      s.matches.startFinal(s.room, s.actors[0]!, s.game().state.roster.matchId),
-    ).rejects.toMatchObject({ code: 'INVALID_PHASE' });
-    expect(s.views.at(-1)?.state).toMatchObject({ status: 'match', match: { finalEntry: entry } });
     await s.rooms.disconnect(s.actors[1]!);
     await s.rooms.reconnect(s.actors[1]!);
     expect(s.game().state.finalEntry).toEqual(entry);

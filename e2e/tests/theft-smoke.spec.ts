@@ -46,11 +46,11 @@ test('roubo: seis perguntas, primeiro acerto, alvo, timeout e transferência ofi
     .first()
     .click();
   const plans = [
-    { order: [0, 1], answers: [true, true], attacker: 0, points: [150, 50] },
+    { order: [0, 1], answers: [true, true], attacker: 0, points: [200, 0] },
     { order: [0, 1], answers: [false, true], attacker: 1, points: [100, 200] },
     { order: [0, 1], answers: [false, false], attacker: null, points: [100, 200] },
     { order: [0, 1], answers: [true, true], attacker: null, points: [200, 300] },
-    { order: [1, 0], answers: [true, true], attacker: 1, points: [250, 450] },
+    { order: [1, 0], answers: [true, true], attacker: 1, points: [200, 500] },
     { order: [0, 1], answers: [true, false], attacker: 0, points: [400, 400] },
   ];
   const seen = new Set<string>();
@@ -115,8 +115,8 @@ test('roubo: seis perguntas, primeiro acerto, alvo, timeout e transferência ofi
         await expect(
           panel(player.page).getByText(
             plan.attacker === 0
-              ? 'Ana roubou 50 pontos de Bruno.'
-              : 'Bruno roubou 50 pontos de Ana.',
+              ? 'Ana roubou 100 pontos de Bruno.'
+              : 'Bruno roubou 100 pontos de Ana.',
             { exact: true },
           ),
         ).toBeVisible();

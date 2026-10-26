@@ -4,6 +4,8 @@ import type { MatchState } from './match.domain.js';
 export function waitsForPlayers(state: MatchState): boolean {
   const final = state.final;
   if (final) {
+    if (final.stage.phase === 'final-tiebreak')
+      return !['questions'].includes(final.stage.tiebreak.phase);
     return (
       final.stage.phase === 'final-instructions' ||
       (final.stage.phase === 'final-resolution' &&

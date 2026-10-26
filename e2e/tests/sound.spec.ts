@@ -4,6 +4,55 @@ import { audioState, observeAudio } from '../sound-audit.ts';
 import { currentPressureTurn } from '../../apps/server/src/modules/matches/match.domain.ts';
 import { auditAccessibility, expectReflow } from '../accessibility.ts';
 
+test('som: cliques reais de mouse/toque e teclado, navegação, controle desabilitado e silêncio', async ({
+  players,
+}, info) => {
+  const host = players[0];
+  await observeAudio(host.context);
+  await host.page.goto('/');
+  await host.page.getByRole('button', { name: 'Ativar som', exact: true }).click();
+  await expect(host.page.getByRole('button', { name: 'Silenciar som', exact: true })).toBeVisible();
+  expect((await audioState(host.page)).starts).toHaveLength(0);
+  const create = host.page.getByRole('link', { name: 'Criar sala', exact: true });
+  if (info.project.use.hasTouch) await create.tap();
+  else await create.click();
+  await expect(
+    host.page.getByRole('heading', { name: 'Monte sua sala', exact: true }),
+  ).toBeVisible();
+  await expect.poll(async () => (await audioState(host.page)).starts.length).toBe(2);
+  expect((await audioState(host.page)).starts[0]!.frequency).toBe(480);
+  const disabled = host.page.getByRole('button', { name: 'Criar sala', exact: true });
+  await expect(disabled).toBeDisabled();
+  await disabled.scrollIntoViewIfNeeded();
+  const box = await disabled.boundingBox();
+  if (!box) throw new Error('Controle visível esperado.');
+  if (info.project.use.hasTouch)
+    await host.page.touchscreen.tap(box.x + box.width / 2, box.y + box.height / 2);
+  else await host.page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+  expect((await audioState(host.page)).starts).toHaveLength(2);
+  await host.page.getByRole('link', { name: 'Meu perfil', exact: true }).click();
+  await expect(host.page.getByRole('heading', { name: 'Seu perfil', exact: true })).toBeVisible();
+  await expect
+    .poll(() =>
+      host.page.evaluate(() => {
+        const audit = window.penshowAudioAudit;
+        return audit.contexts[0]!.currentTime - (audit.starts.at(-1)?.at ?? 0);
+      }),
+    )
+    .toBeGreaterThan(0.08);
+  const before = (await audioState(host.page)).starts.length;
+  const random = host.page.getByRole('button', { name: 'Sortear personagem', exact: true });
+  await random.press('Enter');
+  await expect.poll(async () => (await audioState(host.page)).starts.length).toBe(before + 1);
+  await random.evaluate((button) => {
+    if (button instanceof HTMLButtonElement) button.click();
+  });
+  expect((await audioState(host.page)).starts).toHaveLength(before + 1);
+  await host.page.getByRole('button', { name: 'Silenciar som', exact: true }).click();
+  await random.press('Enter');
+  expect((await audioState(host.page)).starts).toHaveLength(before + 1);
+});
+
 test('som: partida real, seis avisos e reconexão sem repetir explosão ou vitória', async ({
   site,
   players,
@@ -96,7 +145,9 @@ test('som: partida real, seis avisos e reconexão sem repetir explosão ou vitó
             exact: true,
           }),
         ).toBeVisible();
-        const before = (await audioState(host.page)).starts.length;
+        const explosions = (await audioState(host.page)).starts.filter(
+          (tone) => tone.frequency === 110,
+        ).length;
         const member = g.room
           .snapshot()
           .members.find((member) => member.playerId === g.playerId(host))!;
@@ -112,7 +163,10 @@ test('som: partida real, seis avisos e reconexão sem repetir explosão ou vitó
           })
           .toBe(true);
         await g.synchronized();
-        expect((await audioState(host.page)).starts).toHaveLength(before);
+        // The next question may legitimately begin during reconnection.
+        expect(
+          (await audioState(host.page)).starts.filter((tone) => tone.frequency === 110),
+        ).toHaveLength(explosions);
         reconnected = true;
       }
       await advance(current.revision);

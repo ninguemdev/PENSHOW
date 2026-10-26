@@ -4,6 +4,12 @@ import { matchIdSchema, playerIdSchema, playerIdsSchema } from './identifiers.js
 import { rankingSchema } from './score.js';
 
 export const qualificationPolicySchema = z.discriminatedUnion('status', [
+  z.strictObject({
+    status: z.literal('confirmed'),
+    decisionId: z.literal('D06'),
+    secondary: z.literal('correct-answers'),
+    residual: z.literal('equal-lives'),
+  }),
   z.strictObject({ status: z.literal('pending'), decisionId: z.literal('D06') }),
   z.strictObject({
     status: z.literal('prototype'),
@@ -75,7 +81,7 @@ export const finalEntrySchema = z
         invalid('O desempate deve conservar exatamente um grupo de participantes empatados.');
         continue;
       }
-      if (entry.policy.status !== 'prototype')
+      if (entry.policy.status === 'pending')
         invalid('Desempate experimental exige política explícita.');
       if (record.criterion === 'correct-answers') {
         const values = record.after.map((ids) => byId.get(ids[0]!)!.correctAnswers);
@@ -107,7 +113,7 @@ export const finalEntrySchema = z
       previousPoints = score.points;
     }
     const expectedSecondary =
-      entry.policy.status === 'prototype'
+      entry.policy.status !== 'pending'
         ? replay.filter((ids) => ids.length > 1).map((ids) => [...ids])
         : [];
     const secondarySeen: string[] = [];
@@ -165,7 +171,7 @@ export const finalEntrySchema = z
         invalid('Os grupos devem corresponder aos critérios e desempates registrados.');
     } else {
       if (
-        replay.some((ids) => ids.length > 1) ||
+        (entry.policy.status !== 'confirmed' && replay.some((ids) => ids.length > 1)) ||
         replay.flat().some((id, index) => entry.ranking.entries[index]?.playerId !== id)
       )
         invalid('A classificação resolvida precisa ter evidência para todos os empates.');
@@ -177,13 +183,24 @@ export const finalEntrySchema = z
       for (const allocation of entry.allocations) {
         const expected = CONFIRMED_FINAL_RULES.initialLivesByRank[Math.min(allocation.rank, 4) - 1];
         if (
-          entry.ranking.entries[allocation.rank - 1]?.playerId !== allocation.playerId ||
+          !entry.ranking.entries.some(
+            (row) => row.rank === allocation.rank && row.playerId === allocation.playerId,
+          ) ||
           allocation.initialLives !== expected ||
           allocation.survivableLosses !== allocation.initialLives - 1 ||
           allocation.eliminatingLoss !== allocation.initialLives
         )
           invalid('Vidas e perdas suportadas precisam corresponder à colocação congelada.');
       }
+      if (
+        entry.policy.status === 'confirmed' &&
+        replay.some((group, index) =>
+          group.some(
+            (id) => entry.ranking.entries.find((row) => row.playerId === id)?.rank !== index + 1,
+          ),
+        )
+      )
+        invalid('Empatados compartilham posição e a posição seguinte não pula uma faixa.');
     }
   });
 export type QualificationPolicy = z.infer<typeof qualificationPolicySchema>;
