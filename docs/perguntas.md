@@ -134,3 +134,11 @@ O [relatório editorial da T27](revisao-editorial-t27.md) registra a revisão, a
 `pnpm questions:simulate` gera [t27-stock.json](../data/publication-reports/t27-stock.json), usando o mesmo seletor e os parâmetros experimentais do servidor. São 66 percursos com 2–12 participantes, duas sementes e três formas de escolha; a verificação percorre cinco fases, conserva as 50 da final, continua até esgotar as fáceis e confirma ausência de repetição. Também registra a admissão de todos os 693 subconjuntos de temas/tamanhos de grupo. `--check` compara os bytes sem escrever; a CI executa essa verificação.
 
 O orçamento completo exige ao menos três temas deste catálogo: com apenas dois, há 30 fáceis e são necessárias 34, incluindo as 25 reservadas. A dinamite proposta usa um ciclo médio e um difícil; duplicar ambos para doze pessoas exigiria 24 médias e 24 difíceis em um único tema, acima do estoque. Dificuldades não são convertidas para esconder falta de conteúdo. A T27 habilita o conteúdo para esse orçamento; a sequência jogável completa e D02–D06 continuam nas respectivas tarefas. Após publicar, reinicie o servidor para carregar o novo catálogo.
+
+### Expansão em andamento — T33
+
+Em 23/10/2026, a publicação tem **348 aprovadas**, 58 por tema, após os lotes `t33-001` e `t33-002`. As 300 anteriores foram preservadas; 48 aprovações e 14 rejeições estão registradas nos lotes com versões anterior/revisada, referências, justificativas e comparação semântica. A revisão foi assistida por IA, sem auditoria humana independente. Faltam 4.652 aprovações para a meta de 5.000.
+
+A coleta contém 5.761 candidatas, sendo 5.230 do Open Trivia DB e 531 do Questionados. Dessas, 5.399 continuam sem decisão e ficam fora da publicação. Os primeiros mil registros do Open Trivia DB e o manifesto histórico são conferidos contra os hashes originais da T27; novas coletas podem acrescentar registros sem alterar essa evidência. Consulte a [distribuição atual, os lotes e seus limites](expansao-editorial-t33.md).
+
+`pnpm questions:audit --check` reproduz a auditoria de histórico/publicação; `--batch=t33-002` verifica o comprovante daquele lote dentro do histórico global. `pnpm questions:capacity --check` reproduz a capacidade do catálogo atual. Os arquivos privados de toda a pasta `data`, incluindo lotes e snapshots com gabaritos, são bloqueados pelo Vite em `/@fs`.

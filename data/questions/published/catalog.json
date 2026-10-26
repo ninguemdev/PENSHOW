@@ -2,44 +2,44 @@
   "manifest": {
     "availability": {
       "arts-literature": {
-        "easy": 17,
+        "easy": 18,
         "hard": 17,
-        "medium": 22,
-        "total": 56
+        "medium": 23,
+        "total": 58
       },
       "geography": {
-        "easy": 17,
+        "easy": 18,
         "hard": 17,
-        "medium": 22,
-        "total": 56
+        "medium": 23,
+        "total": 58
       },
       "history": {
-        "easy": 17,
+        "easy": 18,
         "hard": 17,
-        "medium": 22,
-        "total": 56
+        "medium": 23,
+        "total": 58
       },
       "pop-culture": {
-        "easy": 17,
+        "easy": 18,
         "hard": 17,
-        "medium": 22,
-        "total": 56
+        "medium": 23,
+        "total": 58
       },
       "science-nature": {
         "easy": 17,
         "hard": 17,
-        "medium": 22,
-        "total": 56
+        "medium": 24,
+        "total": 58
       },
       "sports": {
-        "easy": 17,
-        "hard": 17,
+        "easy": 18,
+        "hard": 18,
         "medium": 22,
-        "total": 56
+        "total": 58
       }
     },
-    "contentSha256": "37285afd46a72e9b960b378bca0b53c7e9d0108abc7addedc52aaf9282441453",
-    "questionCount": 336
+    "contentSha256": "246b223566b0f800cbb5ad1b63bf605a7844193a0de73a6bf2061c70c8ec088f",
+    "questionCount": 348
   },
   "questions": [
     {
@@ -89,6 +89,50 @@
     {
       "category": "arts-literature",
       "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:arts-literature:15d2cec56f56b773",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Cubismo"
+        },
+        {
+          "id": "option-1",
+          "text": "Futurismo"
+        },
+        {
+          "id": "option-2",
+          "text": "Expressionismo"
+        },
+        {
+          "id": "option-3",
+          "text": "Impressionismo"
+        }
+      ],
+      "prompt": "Qual movimento artístico Pablo Picasso ajudou a criar com Georges Braque?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://shop.tate.org.uk/cubist-earrings/23072.html",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Art",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 386,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
       "difficulty": "easy",
       "id": "opentdb:arts-literature:2acc74c5d074bd3e",
       "locale": "pt-BR",
@@ -125,6 +169,50 @@
         "id": "opentdb",
         "license": "CC-BY-SA-4.0",
         "recordIndex": 273,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "arts-literature",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:arts-literature:345dde775103b61d",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Michelangelo"
+        },
+        {
+          "id": "option-1",
+          "text": "Leonardo da Vinci"
+        },
+        {
+          "id": "option-2",
+          "text": "Caravaggio"
+        },
+        {
+          "id": "option-3",
+          "text": "Rembrandt"
+        }
+      ],
+      "prompt": "Quem pintou o afresco “A Criação de Adão”, no teto da Capela Sistina?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/volta.html",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Art",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 190,
         "url": "https://opentdb.com/"
       },
       "status": "approved",
@@ -571,6 +659,42 @@
       "type": "multiple"
     },
     {
+      "category": "pop-culture",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:film:f2283de735e7d916",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Falso"
+        },
+        {
+          "id": "option-1",
+          "text": "Verdadeiro"
+        }
+      ],
+      "prompt": "Leonardo DiCaprio ganhou o Oscar de melhor ator por “O Aviador”, filme lançado em 2004.",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.oscars.org/oscars/ceremonies/embed/2005",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Entertainment: Film",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 261,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "boolean"
+    },
+    {
       "category": "geography",
       "correctOptionId": "option-0",
       "difficulty": "medium",
@@ -750,6 +874,50 @@
       "category": "geography",
       "correctOptionId": "option-0",
       "difficulty": "medium",
+      "id": "opentdb:geography:80f4720daccd6e45",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Reino Unido"
+        },
+        {
+          "id": "option-1",
+          "text": "Estados Unidos"
+        },
+        {
+          "id": "option-2",
+          "text": "Países Baixos"
+        },
+        {
+          "id": "option-3",
+          "text": "Suécia"
+        }
+      ],
+      "prompt": "As Falésias Brancas de Dover, na Inglaterra, ficam em qual Estado soberano?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.dover.gov.uk/welcome/cliffs.aspx",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Geography",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 166,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
       "id": "opentdb:geography:c23b4577aeba3d66",
       "locale": "pt-BR",
       "options": [
@@ -881,6 +1049,42 @@
     {
       "category": "history",
       "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:history:2e663962c8e85049",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Verdadeiro"
+        },
+        {
+          "id": "option-1",
+          "text": "Falso"
+        }
+      ],
+      "prompt": "Vestígios arqueológicos confirmam a presença de vikings na América do Norte no século XI, antes da viagem de Colombo de 1492.",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://whc.unesco.org/en/list/4/",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 110,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "boolean"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
       "difficulty": "easy",
       "id": "opentdb:history:417b856ea06f4adf",
       "locale": "pt-BR",
@@ -1005,6 +1209,50 @@
         "id": "opentdb",
         "license": "CC-BY-SA-4.0",
         "recordIndex": 211,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "history",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:history:936dc01e593f5bdc",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Yuri Gagarin"
+        },
+        {
+          "id": "option-1",
+          "text": "Gus Grissom"
+        },
+        {
+          "id": "option-2",
+          "text": "Neil Armstrong"
+        },
+        {
+          "id": "option-3",
+          "text": "Buzz Aldrin"
+        }
+      ],
+      "prompt": "Quem se tornou o primeiro ser humano a viajar ao espaço, em 1961?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "History",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 0,
         "url": "https://opentdb.com/"
       },
       "status": "approved",
@@ -1321,6 +1569,50 @@
     {
       "category": "science-nature",
       "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:science-nature:d26c567876cb90e3",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Pêndulo de Foucault"
+        },
+        {
+          "id": "option-1",
+          "text": "Estrela Polar"
+        },
+        {
+          "id": "option-2",
+          "text": "Relógio de sol"
+        },
+        {
+          "id": "option-3",
+          "text": "Placas tectônicas"
+        }
+      ],
+      "prompt": "Qual destes dispositivos demonstra a rotação da Terra em torno de seu eixo?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.si.edu/spotlight/foucault-pendulum",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 74,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
       "difficulty": "hard",
       "id": "opentdb:science-nature:dd8aea219918db6b",
       "locale": "pt-BR",
@@ -1357,6 +1649,50 @@
         "id": "opentdb",
         "license": "CC-BY-SA-4.0",
         "recordIndex": 106,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "science-nature",
+      "correctOptionId": "option-0",
+      "difficulty": "medium",
+      "id": "opentdb:science-nature:dfe90ba5534028f6",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "3"
+        },
+        {
+          "id": "option-1",
+          "text": "4"
+        },
+        {
+          "id": "option-2",
+          "text": "2"
+        },
+        {
+          "id": "option-3",
+          "text": "1"
+        }
+      ],
+      "prompt": "Em quantos lobos se divide normalmente o pulmão direito humano?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Science & Nature",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 65,
         "url": "https://opentdb.com/"
       },
       "status": "approved",
@@ -1533,6 +1869,94 @@
         "id": "opentdb",
         "license": "CC-BY-SA-4.0",
         "recordIndex": 749,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "opentdb:sports:b73e9ee0d3f3b9e0",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "22"
+        },
+        {
+          "id": "option-1",
+          "text": "20"
+        },
+        {
+          "id": "option-2",
+          "text": "24"
+        },
+        {
+          "id": "option-3",
+          "text": "26"
+        }
+      ],
+      "prompt": "No futebol de campo, qual é o total máximo de jogadores das duas equipes em campo ao mesmo tempo?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.theifab.com/laws/2025-26/the-players/",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 2,
+        "url": "https://opentdb.com/"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "sports",
+      "correctOptionId": "option-0",
+      "difficulty": "hard",
+      "id": "opentdb:sports:b7cbb2cdfd538f39",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "13"
+        },
+        {
+          "id": "option-1",
+          "text": "11"
+        },
+        {
+          "id": "option-2",
+          "text": "20"
+        },
+        {
+          "id": "option-3",
+          "text": "22"
+        }
+      ],
+      "prompt": "Quantos títulos da Premier League Alex Ferguson conquistou como técnico do Manchester United até se aposentar em 2013?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.manutd.com/en/news/inside-story-of-sir-alex-ferguson-farewell-as-man-utd-manager-v-west-brom",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "category": "Sports",
+        "id": "opentdb",
+        "license": "CC-BY-SA-4.0",
+        "recordIndex": 39,
         "url": "https://opentdb.com/"
       },
       "status": "approved",
@@ -5147,6 +5571,49 @@
         "id": "questionados",
         "license": "MIT",
         "recordIndex": 9,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "geography",
+      "correctOptionId": "option-0",
+      "difficulty": "easy",
+      "id": "questionados:geography:8ed1b3a6149301e3",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "África"
+        },
+        {
+          "id": "option-1",
+          "text": "Ásia"
+        },
+        {
+          "id": "option-2",
+          "text": "Europa"
+        },
+        {
+          "id": "option-3",
+          "text": "América do Sul"
+        }
+      ],
+      "prompt": "Em qual continente fica o Monte Kilimanjaro?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://whc.unesco.org/en/list/403/",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 12,
         "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/geography.js"
       },
       "status": "approved",
@@ -9146,6 +9613,49 @@
         "id": "questionados",
         "license": "MIT",
         "recordIndex": 3,
+        "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
+      },
+      "status": "approved",
+      "type": "multiple"
+    },
+    {
+      "category": "pop-culture",
+      "correctOptionId": "option-1",
+      "difficulty": "easy",
+      "id": "questionados:pop-culture:8805ec28a232074c",
+      "locale": "pt-BR",
+      "options": [
+        {
+          "id": "option-0",
+          "text": "Enterprise"
+        },
+        {
+          "id": "option-1",
+          "text": "Millennium Falcon"
+        },
+        {
+          "id": "option-2",
+          "text": "TIE Fighter"
+        },
+        {
+          "id": "option-3",
+          "text": "X-Wing"
+        }
+      ],
+      "prompt": "Qual nave Han Solo comanda com Chewbacca em “Star Wars”?",
+      "review": {
+        "checks": {
+          "factual": true,
+          "language": true,
+          "uniqueAnswer": true
+        },
+        "referenceUrl": "https://www.starwars.com/databank/han-solo",
+        "reviewedAt": "2026-10-23"
+      },
+      "source": {
+        "id": "questionados",
+        "license": "MIT",
+        "recordIndex": 10,
         "url": "https://raw.githubusercontent.com/AdaiasMagdiel/questionados/dc99d66a70f7e9f8039c0833b9aa9211907ee719/assets/data/pop.js"
       },
       "status": "approved",

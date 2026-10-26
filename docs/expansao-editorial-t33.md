@@ -1,8 +1,32 @@
 # Expansão editorial — T33
 
-Em **22/10/2026**, o lote `t33-001` acrescenta **36 traduções revisadas**, de inglês para pt-BR, às 300 perguntas da T11/T27. Duas duplicatas por sentido foram rejeitadas. O catálogo publicado contém **336 perguntas**; faltam **4.664** para a meta. O status da tarefa fica no [índice](tasks/README.md).
+Em **23/10/2026**, o catálogo publicado contém **348 perguntas aprovadas**, com **58 por tema**. Os dois lotes da T33 somam 48 aprovações (46 traduções) e 14 rejeições, preservando as 300 perguntas da T11/T27. Faltam **4.652 aprovações**. O status da tarefa fica no [índice](tasks/README.md).
 
-## Conteúdo e atribuição
+## Segundo lote e disponibilidade atual
+
+O [lote `t33-002`](../data/editorial-batches/t33-002.json) registra 12 aprovações individuais e 12 rejeições. Foram traduzidas dez perguntas do Open Trivia DB e revisadas duas do Questionados, com duas aprovações em cada tema. A atribuição publicada conserva **302 Questionados/MIT** e **46 Open Trivia DB/CC BY-SA 4.0**. A revisão foi assistida por IA, com conferência de referências institucionais acessíveis ou indexadas; não houve auditoria humana independente.
+
+| Tema | Fáceis | Médias | Difíceis | Total atual |
+|---|---:|---:|---:|---:|
+| Artes e literatura | 18 | 23 | 17 | 58 |
+| Geografia | 18 | 23 | 17 | 58 |
+| História | 18 | 23 | 17 | 58 |
+| Cultura pop | 18 | 23 | 17 | 58 |
+| Ciência e natureza | 17 | 24 | 17 | 58 |
+| Esportes | 18 | 22 | 18 | 58 |
+| **Total** | **107** | **138** | **103** | **348** |
+
+Foram especificados teto da Capela Sistina na autoria de Michelangelo, máximo de jogadores no futebol, período dos títulos de Ferguson e personagem no comando da Millennium Falcon. A chegada viking à América usa vestígios arqueológicos do século XI; a pergunta sobre o Oscar distingue indicação de vitória. Foram rejeitadas ambiguidades sobre liderança da Revolução Industrial, dragões em Game of Thrones, esporte principal dos Jogos de Inverno, Grand Slam e protagonismo de Friends, além de duplicatas, tautologia e recorde populacional sem data/critério. Referências, limites de acesso e justificativas constam por registro no lote.
+
+A coleta chegou a **5.230 candidatas únicas do Open Trivia DB**, além das **531 do Questionados**: **5.761 no total**. Os registros antigos e sua procedência foram preservados; as novas importações continuam em inglês e com `needs-translation`. O [relatório atual](../data/publication-reports/t33-expansion.json) registra **5.399 sem decisão**, sendo 5.182 em inglês e 217 em pt-BR. A falta mínima numérica de candidatas é zero, mas rejeições, duplicatas e concentração temática podem exigir outras fontes licenciadas. Nenhuma importação entra na contagem de aprovadas.
+
+A [capacidade atual](../data/publication-reports/t33-consecutive-stock.json) foi regenerada: 280 percursos. Com seis temas, todos os tamanhos simulados permitem três partidas consecutivas: 216–222 perguntas consumidas com duas pessoas, 222–228 com quatro, 222–252 com oito e 222–276 com doze. Um tema isolado continua recusado. Permanecem os limites metodológicos descritos abaixo, incluindo exatamente 50 perguntas na final simulada e ausência de medição humana.
+
+O [manifesto de fontes da T27](../data/editorial-baselines/t27-sources.json) preserva a coleta original. O teste reconstrói os arquivos dos primeiros mil registros e compara seus bytes com os hashes já registrados, permitindo acrescentar candidatas sem mudar os originais nem o relatório histórico. Todos os arquivos privados de `data`, inclusive lotes e baselines com gabaritos, são bloqueados no Vite por `/@fs`.
+
+As seções seguintes documentam o **primeiro lote de 22/10/2026**. Seus números de 336 aprovadas e do backlog daquela data são históricos; os relatórios JSON acima representam a publicação atual.
+
+## Conteúdo e atribuição do primeiro lote
 
 | Tema | Novas fáceis | Novas médias | Novas difíceis | Total publicado |
 |---|---:|---:|---:|---:|
@@ -53,7 +77,7 @@ Para o próximo lote, usar ID novo, sequência seguinte, data, método e registr
 
 `--batch` imprime o comprovante do lote, sem escrever relatório nem modificar/publicar perguntas; também verifica o histórico compartilhado e colisões entre lotes. `--check` compara o relatório global em memória com os bytes versionados, sem escrever. A CI executa esse check. A ferramenta verifica rastreabilidade e declarações, sem acessar referências nem certificar verdade, idioma, tradução, dificuldade ou independência humana.
 
-[t33-expansion.json](../data/publication-reports/t33-expansion.json) registra 336 publicáveis, duas rejeitadas e **1.193 candidatos ainda sem decisão**: 231 do Questionados e 962 do Open Trivia DB. Mesmo se todos fossem aprováveis, seriam necessários ao menos **3.471 candidatos adicionais**. Esse é um limite inferior; duplicatas e rejeições aumentam a necessidade real. Disponibilidade anunciada pela API não entra na contagem publicada.
+Na primeira execução, a auditoria registrou 336 publicáveis, duas rejeitadas e **1.193 candidatos ainda sem decisão**: 231 do Questionados e 962 do Open Trivia DB. Naquela coleta, seriam necessários ao menos **3.471 candidatos adicionais**, mesmo se todos fossem aprováveis. O relatório JSON é atualizado a cada lote e hoje contém os números da seção inicial. Disponibilidade anunciada pela API não entra na contagem publicada.
 
 ## Capacidade para partidas consecutivas
 
@@ -79,6 +103,6 @@ As simulações T27, T36 e T32 agora leem explicitamente o snapshot de 300 pergu
 
 ## Continuidade
 
-Faltam 4.664 aprovações com qualidade editorial. Os próximos lotes devem ampliar literatura, modalidades esportivas e cobertura cultural/geográfica, evitando concentrar a coleta em jogos eletrônicos ou preencher a meta com paráfrases. Novas fontes entram com licença, manifesto e candidatos antes da revisão. Novos temas exigem estoque por dificuldade e verificação da seleção; uma contagem total alta não basta.
+Faltam 4.652 aprovações com qualidade editorial. Os próximos lotes devem ampliar literatura, modalidades esportivas e cobertura cultural/geográfica, evitando concentrar a coleta em jogos eletrônicos ou preencher a meta com paráfrases. Novas fontes entram com licença, manifesto e candidatos antes da revisão. Novos temas exigem estoque por dificuldade e verificação da seleção; uma contagem total alta não basta.
 
 Depois de cada lote, publicar, auditar e reproduzir a capacidade atual. Amostras cruzadas por tema/dificuldade devem complementar a revisão individual. Calibração com jogadores e revisão humana independente continuam ausentes. A T33 só termina quando pelo menos 5.000 registros publicáveis e os critérios de diversidade e qualidade forem atendidos.

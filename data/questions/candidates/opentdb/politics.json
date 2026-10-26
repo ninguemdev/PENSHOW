@@ -507,5 +507,1999 @@
       "category": "Politics",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:politics:d26ec973df343a32",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Vatican city is a full member of United Nations.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1060,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:d117fa18f6e846e7",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which president erased the national debt of the United States?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Andrew Jackson"
+      },
+      {
+        "id": "option-1",
+        "text": "Ronald Reagan"
+      },
+      {
+        "id": "option-2",
+        "text": "John F. Kennedy"
+      },
+      {
+        "id": "option-3",
+        "text": "Franklin Roosevelt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1215,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:7af45e9405b6fd2f",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did Gerald Ford Become President?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1974"
+      },
+      {
+        "id": "option-1",
+        "text": "1977"
+      },
+      {
+        "id": "option-2",
+        "text": "1973"
+      },
+      {
+        "id": "option-3",
+        "text": "1969"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1272,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:cfd37c45229107d7",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the 45th President of the United States?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Donald Trump"
+      },
+      {
+        "id": "option-1",
+        "text": "Barack Obama"
+      },
+      {
+        "id": "option-2",
+        "text": "Bill Clinton"
+      },
+      {
+        "id": "option-3",
+        "text": "George Bush"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1344,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:cdd5494b94a58241",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which nation joined NATO as its 29th member in 2017?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Montenegro"
+      },
+      {
+        "id": "option-1",
+        "text": "Estonia"
+      },
+      {
+        "id": "option-2",
+        "text": "Andorra"
+      },
+      {
+        "id": "option-3",
+        "text": "Iceland"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1575,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b544305c98802d33",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The 2016 United States Presidential Election is the first time Hillary Clinton has run for President.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1691,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f729aa0a86a84f6c",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which city is the seat of government of the Netherlands?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Hague"
+      },
+      {
+        "id": "option-1",
+        "text": "Amsterdam"
+      },
+      {
+        "id": "option-2",
+        "text": "Utrecht"
+      },
+      {
+        "id": "option-3",
+        "text": "Rotterdam"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1970,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:4d00d18ab465219f",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Before 2016, in which other year did Donald Trump run for President?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2000"
+      },
+      {
+        "id": "option-1",
+        "text": "2012"
+      },
+      {
+        "id": "option-2",
+        "text": "1988"
+      },
+      {
+        "id": "option-3",
+        "text": "2008"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2045,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:bf5c87d1f75172e2",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Former United States President Bill Clinton famously played which instrument?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Saxophone"
+      },
+      {
+        "id": "option-1",
+        "text": "Baritone horn"
+      },
+      {
+        "id": "option-2",
+        "text": "Piano"
+      },
+      {
+        "id": "option-3",
+        "text": "Violin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2092,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b63434342a83c515",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Niccolò Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Prince"
+      },
+      {
+        "id": "option-1",
+        "text": "The Rape of Lucrece"
+      },
+      {
+        "id": "option-2",
+        "text": "Will to Power"
+      },
+      {
+        "id": "option-3",
+        "text": "Love's Labours Lost"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2238,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:5903c5bbee929ac6",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Helen Clark was the 37th Prime Minister of Australia.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2259,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:db42f6a393379bb5",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Starting from 2000, China banned manufacturing and sales of all video game consoles. On which year was this ban lifted?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2015"
+      },
+      {
+        "id": "option-1",
+        "text": "2012"
+      },
+      {
+        "id": "option-2",
+        "text": "2008"
+      },
+      {
+        "id": "option-3",
+        "text": "2017"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2274,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:55f67763422bbe9e",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The State of Queensland, Australia voted NO to a referendum for daylight savings in 1992.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2371,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:02ae9785165369f2",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Despite being seperated into multiple countries, The Scandinavian countries are unified by all having the same monarch.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2453,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:518333d98f246d9b",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Before 2011, \"True Capitalist Radio\" was known by a different name. What was that name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True Conservative Radio"
+      },
+      {
+        "id": "option-1",
+        "text": "True Republican Radio"
+      },
+      {
+        "id": "option-2",
+        "text": "Texan Capitalist Radio"
+      },
+      {
+        "id": "option-3",
+        "text": "United Capitalists"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2808,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b1e5b7665ea8a45b",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Argentinian presidents was elected in 2015?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mauricio Macri"
+      },
+      {
+        "id": "option-1",
+        "text": "Cristina Fernandez de Kirchner"
+      },
+      {
+        "id": "option-2",
+        "text": "Nestor Kirchner"
+      },
+      {
+        "id": "option-3",
+        "text": "Juan Domingo Peron"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2831,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:1f2a54ccb90ed0df",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these was an official candidate in the 2017 British General Election?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lord Buckethead"
+      },
+      {
+        "id": "option-1",
+        "text": "James Francis"
+      },
+      {
+        "id": "option-2",
+        "text": "Robert Wimbledon"
+      },
+      {
+        "id": "option-3",
+        "text": "Sir Crumpetsby"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2876,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:815355bffac04a39",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the longest-serving senator in US history, serving from 1959 to 2010?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Robert Byrd"
+      },
+      {
+        "id": "option-1",
+        "text": "Daniel Inouye"
+      },
+      {
+        "id": "option-2",
+        "text": "Strom Thurmond"
+      },
+      {
+        "id": "option-3",
+        "text": "Joe Biden"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2988,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:57b68765ad52a012",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "George Clinton, Vice President of the United States (1805-1812), is an ancestor of President Bill Clinton.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3038,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b89aefb0bba11186",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Theresa May was the first female Prime Minister of the United Kingdom.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3062,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:061acb22c0eacf15",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which major bank's collapse was notable as one of the causes of the Financal Crisis of 2008?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lehman Brothers"
+      },
+      {
+        "id": "option-1",
+        "text": "HSBC"
+      },
+      {
+        "id": "option-2",
+        "text": "Barclays"
+      },
+      {
+        "id": "option-3",
+        "text": "Lloyds"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3318,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:386f9f1092ed885b",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is former United States President Bill Clinton's full name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "William Jefferson Clinton"
+      },
+      {
+        "id": "option-1",
+        "text": "William Roosevelt Clinton"
+      },
+      {
+        "id": "option-2",
+        "text": "William Truman Clinton"
+      },
+      {
+        "id": "option-3",
+        "text": "William Lincoln Clinton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3399,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:663fe2141f00f994",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the only US president to serve two non-consecutive terms in office?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grover Cleveland"
+      },
+      {
+        "id": "option-1",
+        "text": "James K. Polk"
+      },
+      {
+        "id": "option-2",
+        "text": "Franklin D. Roosevelt"
+      },
+      {
+        "id": "option-3",
+        "text": "Thomas Jefferson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3549,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:b9a5741db8305ba4",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "One of Donald Trump's 2016 Presidential Campaign promises was to build a border wall between the United States and Mexico.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3569,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:4e322299494320a4",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which former US president was nicknamed \"Teddy\" after he refused to shoot a defenseless black bear?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Theodore Roosevelt"
+      },
+      {
+        "id": "option-1",
+        "text": "Woodrow Wilson"
+      },
+      {
+        "id": "option-2",
+        "text": "James F. Fielder"
+      },
+      {
+        "id": "option-3",
+        "text": "Andrew Jackson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3601,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:c0ce74e6244399a8",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "One of Barack Obama's United States presidential campaign slogan's was \"Yes We Can\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3660,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:0bfff4237b6f6ddd",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Jeb Bush was elected as Governor of Florida in 2002, starting his political career.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3744,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:68391b819aa50e36",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Taiwan officially calls itself \"the Republic of China\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3771,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:e2a8bcf740a18757",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In France, a hunting license or a sport-shooting license is needed to purchase any firearm.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3848,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:36a09f1e3dc6fabb",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "\"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "George W. Bush"
+      },
+      {
+        "id": "option-1",
+        "text": "John Kerry"
+      },
+      {
+        "id": "option-2",
+        "text": "Barack Obama"
+      },
+      {
+        "id": "option-3",
+        "text": "Al Gore"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3940,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:ea17d80ffc899374",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the first names of the first father and son pair that were both Prime Ministers of Canada?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Justin and Pierre"
+      },
+      {
+        "id": "option-1",
+        "text": "John and Louis"
+      },
+      {
+        "id": "option-2",
+        "text": "Brian and Justin"
+      },
+      {
+        "id": "option-3",
+        "text": "Brian and Pierre"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4001,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:a54a91bab17be180",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "2"
+      },
+      {
+        "id": "option-3",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4003,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:93398c5026cbeab2",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "During the 2016 United States presidential election, the State of California possessed the most electoral votes, having 55.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4011,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:42703229b2650126",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following United States senators is known for performing a 24-hour long filibuster?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Strom Thurmond"
+      },
+      {
+        "id": "option-1",
+        "text": "Roy Blunt"
+      },
+      {
+        "id": "option-2",
+        "text": "John Barrasso"
+      },
+      {
+        "id": "option-3",
+        "text": "Chuck Schumer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4064,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:9b630075cc58ff58",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Denmark has a monarch.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4303,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:d0955413a0109050",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The 2014 movie \"The Raid 2: Berandal\" was mainly filmed in which Asian country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Indonesia"
+      },
+      {
+        "id": "option-1",
+        "text": "Thailand"
+      },
+      {
+        "id": "option-2",
+        "text": "Brunei"
+      },
+      {
+        "id": "option-3",
+        "text": "Malaysia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4414,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:caa5fd3032c0d562",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Whose 2016 presidential campaign slogan was \"Make America Great Again\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Donald Trump"
+      },
+      {
+        "id": "option-1",
+        "text": "Ted Cruz"
+      },
+      {
+        "id": "option-2",
+        "text": "Marco Rubio"
+      },
+      {
+        "id": "option-3",
+        "text": "Bernie Sanders"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4435,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f2cd8c631527251e",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these is NOT one of Donald Trump's children?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Julius"
+      },
+      {
+        "id": "option-1",
+        "text": "Donald Jr."
+      },
+      {
+        "id": "option-2",
+        "text": "Ivanka"
+      },
+      {
+        "id": "option-3",
+        "text": "Eric"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4471,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:9a6f098a557720ed",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which U.S. president is said to have had the longest beard?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Rutherford B. Hayes"
+      },
+      {
+        "id": "option-1",
+        "text": "Zachary Taylor"
+      },
+      {
+        "id": "option-2",
+        "text": "John Quincy Adams"
+      },
+      {
+        "id": "option-3",
+        "text": "James A. Garfield"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4506,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:20b9741dc8cfd590",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Donald Trump won the popular vote in the 2016 United States presidential election.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4541,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:472ee795f62cf0ae",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In 2016, the United Kingdom voted to stay in the EU.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4574,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:8dc45003e74c4040",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which United Nations principal organ has been suspended since 1994?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Trusteeship Council"
+      },
+      {
+        "id": "option-1",
+        "text": "Secretariat"
+      },
+      {
+        "id": "option-2",
+        "text": "General Assembly"
+      },
+      {
+        "id": "option-3",
+        "text": "Economic and Social Council"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4622,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:38bab4152d6d3213",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is one of the co-princes of Andorra?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The president of France"
+      },
+      {
+        "id": "option-1",
+        "text": "The monarch of the UK"
+      },
+      {
+        "id": "option-2",
+        "text": "The Pope"
+      },
+      {
+        "id": "option-3",
+        "text": "No-one (the position is vacant)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4868,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:9e232e159e77dfd7",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Joko Widodo has appeared in the cover of a TIME magazine.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4922,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:16d559797fbb00a0",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was South Africa's first Black President?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nelson Mandela"
+      },
+      {
+        "id": "option-1",
+        "text": "Mangosuthu Buthelezi"
+      },
+      {
+        "id": "option-2",
+        "text": "Steve Biko "
+      },
+      {
+        "id": "option-3",
+        "text": "Bishop Tutu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5036,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:14887f3eb42d9fc8",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is centralism?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": " Concentration of power and authority in a central organization."
+      },
+      {
+        "id": "option-1",
+        "text": "Conforming to one single common political agenda."
+      },
+      {
+        "id": "option-2",
+        "text": "Remaining politically neutral."
+      },
+      {
+        "id": "option-3",
+        "text": "The grey area in the spectrum of political left and right."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5091,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:1c99415da275b65b",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which former US president used \"Let's Make America Great Again\" as his campaign slogan before Donald Trump's campaign?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ronald Reagan"
+      },
+      {
+        "id": "option-1",
+        "text": "Jimmy Carter"
+      },
+      {
+        "id": "option-2",
+        "text": "Gerald Ford"
+      },
+      {
+        "id": "option-3",
+        "text": "Richard Nixon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5211,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:ed04cef768ba4aa8",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The S in Harry S. Truman stands for \"Samuel\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5217,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f275747fd1cd061b",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nikita Khrushchev"
+      },
+      {
+        "id": "option-1",
+        "text": "Leonid Brezhnev"
+      },
+      {
+        "id": "option-2",
+        "text": "Mikhail Gorbachev"
+      },
+      {
+        "id": "option-3",
+        "text": "Boris Yeltsin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5291,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:3e0d85c9f3e01d8e",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did the effort to deploy the Common Core State Standards (CCSS) in the US begin?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2009"
+      },
+      {
+        "id": "option-1",
+        "text": "2012"
+      },
+      {
+        "id": "option-2",
+        "text": "2006"
+      },
+      {
+        "id": "option-3",
+        "text": "1997"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5303,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:7e46ae38762290bf",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The largest consumer market in 2015 was...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The United States of America"
+      },
+      {
+        "id": "option-1",
+        "text": "Germany"
+      },
+      {
+        "id": "option-2",
+        "text": "Japan"
+      },
+      {
+        "id": "option-3",
+        "text": "United Kingdom"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5313,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f1a995aadee35baa",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Former president Theodore Roosevelt (1900-1908)  ran for another term under the Progressive Party in 1912.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5403,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:6f3d09b64868e720",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "There was a satirical candidate named \"Deez Nuts\" running in the 2016 US presidential elections.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5412,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:17e8a288cec06992",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Watergate Scandal occured in what year?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1972"
+      },
+      {
+        "id": "option-1",
+        "text": "1973"
+      },
+      {
+        "id": "option-2",
+        "text": "1974"
+      },
+      {
+        "id": "option-3",
+        "text": "1971"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5432,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f0e76c2db7674654",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "George W. Bush lost the popular vote in the 2004 United States presidential election.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5499,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:6514b16560d983e6",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which US state was the first to allow women to vote in 1869?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wyoming"
+      },
+      {
+        "id": "option-1",
+        "text": "California"
+      },
+      {
+        "id": "option-2",
+        "text": "Delaware"
+      },
+      {
+        "id": "option-3",
+        "text": "Virginia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5713,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f4d739ce0c016674",
+    "category": "politics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Berlin was the capital of two countries for about 40 years.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5771,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:8e6e4cce0566a699",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the 40th President of the USA?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ronald Reagan"
+      },
+      {
+        "id": "option-1",
+        "text": "Jimmy Carter"
+      },
+      {
+        "id": "option-2",
+        "text": "Bill Clinton"
+      },
+      {
+        "id": "option-3",
+        "text": "Richard Nixon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5810,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:624938574bfdf975",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "India"
+      },
+      {
+        "id": "option-1",
+        "text": "United States of America"
+      },
+      {
+        "id": "option-2",
+        "text": "Soviet Union"
+      },
+      {
+        "id": "option-3",
+        "text": "Poland"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5923,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:670fd0eb2a657b33",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Kingfish"
+      },
+      {
+        "id": "option-1",
+        "text": "The Champ"
+      },
+      {
+        "id": "option-2",
+        "text": "The Hoot Owl"
+      },
+      {
+        "id": "option-3",
+        "text": "The Oracle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6035,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:f8728023cd988562",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which letter do you need to have on a European driver license in order to ride any motorbikes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A"
+      },
+      {
+        "id": "option-1",
+        "text": "X"
+      },
+      {
+        "id": "option-2",
+        "text": "D"
+      },
+      {
+        "id": "option-3",
+        "text": "B"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6145,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:politics:dd8d6a333fd59d46",
+    "category": "politics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following United States Presidents served the shortest term in office?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "William Henry Harrison"
+      },
+      {
+        "id": "option-1",
+        "text": "Zachary Taylor"
+      },
+      {
+        "id": "option-2",
+        "text": "James A. Garfield"
+      },
+      {
+        "id": "option-3",
+        "text": "Warren G. Harding"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6220,
+      "category": "Politics",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

@@ -1129,5 +1129,4906 @@
       "category": "Sports",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:sports:82694e76e95ea9b0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which darts player has won the most World Championship titles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Phil Taylor"
+      },
+      {
+        "id": "option-1",
+        "text": "Michael van Gerwen"
+      },
+      {
+        "id": "option-2",
+        "text": "Raymond van Barneveld"
+      },
+      {
+        "id": "option-3",
+        "text": "Eric Bristow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1020,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ccbc22e6c279976e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which team was the 2015-2016 NBA Champions?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cleveland Cavaliers"
+      },
+      {
+        "id": "option-1",
+        "text": "Golden State Warriors"
+      },
+      {
+        "id": "option-2",
+        "text": "Toronto Raptors"
+      },
+      {
+        "id": "option-3",
+        "text": "Oklahoma City Thunders"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1071,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:0140d46774a13bb3",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2009"
+      },
+      {
+        "id": "option-1",
+        "text": "2010"
+      },
+      {
+        "id": "option-2",
+        "text": "2007"
+      },
+      {
+        "id": "option-3",
+        "text": "2006"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1155,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:f0587740848b43d5",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which football manager won more trophies than any other during his tenure at English football club Manchester United?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sir Alex Ferguson"
+      },
+      {
+        "id": "option-1",
+        "text": "David Moyes"
+      },
+      {
+        "id": "option-2",
+        "text": "Louis van Gaal"
+      },
+      {
+        "id": "option-3",
+        "text": "José Mourinho"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1158,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:83ca5a65c954d416",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which soccer team won the Copa América Centenario 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chile"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Brazil"
+      },
+      {
+        "id": "option-3",
+        "text": "Colombia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1233,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:cfdd8d63b61258c7",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Vladivostok"
+      },
+      {
+        "id": "option-1",
+        "text": "Rostov-on-Don"
+      },
+      {
+        "id": "option-2",
+        "text": "Yekaterinburg"
+      },
+      {
+        "id": "option-3",
+        "text": "Kaliningrad"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1242,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:823b29f3cb34a693",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quebec City"
+      },
+      {
+        "id": "option-1",
+        "text": "Houston"
+      },
+      {
+        "id": "option-2",
+        "text": "Montreal"
+      },
+      {
+        "id": "option-3",
+        "text": "New York"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1252,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b69e745353b44bde",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "2"
+      },
+      {
+        "id": "option-3",
+        "text": "3"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1259,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3f8345cd8353291f",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mercedes-AMG Petronas"
+      },
+      {
+        "id": "option-1",
+        "text": "Scuderia Ferrari"
+      },
+      {
+        "id": "option-2",
+        "text": "McLaren Honda"
+      },
+      {
+        "id": "option-3",
+        "text": "Red Bull Racing Renault"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1285,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:c627685bec43d934",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Madeira"
+      },
+      {
+        "id": "option-1",
+        "text": "Terceira"
+      },
+      {
+        "id": "option-2",
+        "text": "Santa Maria"
+      },
+      {
+        "id": "option-3",
+        "text": "Porto Santo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1295,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d3d0174afdd9e3a5",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the \"tool\" used to hit the white ball in snooker or billiards?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cue"
+      },
+      {
+        "id": "option-1",
+        "text": "Racquet"
+      },
+      {
+        "id": "option-2",
+        "text": "Bat"
+      },
+      {
+        "id": "option-3",
+        "text": "Mallet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1422,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4d0f478e7298ee2a",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The AHL affiliate team of the Boston Bruins is named what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Providence Bruins"
+      },
+      {
+        "id": "option-1",
+        "text": "New Haven Bruins"
+      },
+      {
+        "id": "option-2",
+        "text": "Cambridge Bruins"
+      },
+      {
+        "id": "option-3",
+        "text": "Hartford Bruins"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1427,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6a996f516de307b7",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What national team won the first UEFA Nations League?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-1",
+        "text": "Netherlands"
+      },
+      {
+        "id": "option-2",
+        "text": "England"
+      },
+      {
+        "id": "option-3",
+        "text": "Switzerland"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1433,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4fe7d3ad5fd292c1",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which player \"kung-fu kicked\" a Crystal Palace fan in January 1995?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Eric Cantona"
+      },
+      {
+        "id": "option-1",
+        "text": "David Seamen"
+      },
+      {
+        "id": "option-2",
+        "text": "Ashley Cole"
+      },
+      {
+        "id": "option-3",
+        "text": "Mark Hughes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1532,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:34d24bfbd146b388",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which team won the 2015-16 English Premier League?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leicester City"
+      },
+      {
+        "id": "option-1",
+        "text": "Liverpool"
+      },
+      {
+        "id": "option-2",
+        "text": "Cheslea"
+      },
+      {
+        "id": "option-3",
+        "text": "Manchester United"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1545,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:66cdf0624a9c6004",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Formula One driver was nicknamed 'The Professor'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alain Prost"
+      },
+      {
+        "id": "option-1",
+        "text": "Ayrton Senna"
+      },
+      {
+        "id": "option-2",
+        "text": "Niki Lauda"
+      },
+      {
+        "id": "option-3",
+        "text": "Emerson Fittipaldi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1551,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:dd41a05033491242",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "At which race was the 2018 F1 Drivers Championship won?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mexico"
+      },
+      {
+        "id": "option-1",
+        "text": "United States"
+      },
+      {
+        "id": "option-2",
+        "text": "Belgium"
+      },
+      {
+        "id": "option-3",
+        "text": "Abu Dhabi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1556,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6401dc54ea0e3f81",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who did Steven Gerrard win the Champions League with?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Liverpool"
+      },
+      {
+        "id": "option-1",
+        "text": "Real Madrid"
+      },
+      {
+        "id": "option-2",
+        "text": "Chelsea"
+      },
+      {
+        "id": "option-3",
+        "text": "Man City"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1650,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:cad96de965760149",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What national team won the 2016 edition of UEFA European Championship?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-1",
+        "text": "France"
+      },
+      {
+        "id": "option-2",
+        "text": "Germany"
+      },
+      {
+        "id": "option-3",
+        "text": "England"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1663,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ebf07e2b9f0c2754",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following sports is not part of the triathlon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Horse-Riding"
+      },
+      {
+        "id": "option-1",
+        "text": "Cycling"
+      },
+      {
+        "id": "option-2",
+        "text": "Swimming"
+      },
+      {
+        "id": "option-3",
+        "text": "Running"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1683,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b9fdc71fea96f0ea",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Peyton Manning retired after winning Super Bowl XLIX.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1752,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b08cfb0d30ec1bae",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cristiano Ronaldo dos Santos Aveiro"
+      },
+      {
+        "id": "option-1",
+        "text": "Cristiano Ronaldo los Santos Diego"
+      },
+      {
+        "id": "option-2",
+        "text": "Cristiano Armando Diego Ronaldo"
+      },
+      {
+        "id": "option-3",
+        "text": "Cristiano Luis Armando Ronaldo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1849,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8dd3d7318b8c54c0",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Shaquille O’Neal has only made one three pointer in his career.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1850,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:e24c3c07de807e5d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country is hosting the 2022 FIFA World Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Qatar"
+      },
+      {
+        "id": "option-1",
+        "text": "Uganda"
+      },
+      {
+        "id": "option-2",
+        "text": "Vietnam"
+      },
+      {
+        "id": "option-3",
+        "text": "Bolivia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1908,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:20b64674dc72f106",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these teams has Jaromir Jagr not played for?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "New York Islanders"
+      },
+      {
+        "id": "option-1",
+        "text": "Calgary Flames"
+      },
+      {
+        "id": "option-2",
+        "text": "New Jersey Devils"
+      },
+      {
+        "id": "option-3",
+        "text": "Dallas Stars"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1933,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:1f615e1674ec8661",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these jersey numbers has Shaquille O'Neal never worn?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "35"
+      },
+      {
+        "id": "option-1",
+        "text": "36"
+      },
+      {
+        "id": "option-2",
+        "text": "33"
+      },
+      {
+        "id": "option-3",
+        "text": "32"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1977,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:2757be4058cdfb35",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1986"
+      },
+      {
+        "id": "option-1",
+        "text": "1990"
+      },
+      {
+        "id": "option-2",
+        "text": "1982"
+      },
+      {
+        "id": "option-3",
+        "text": "1989"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1989,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:40904a7435308b21",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was Sir Donald Bradman's batting average in test matches?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "99.94"
+      },
+      {
+        "id": "option-1",
+        "text": "100"
+      },
+      {
+        "id": "option-2",
+        "text": "69.51"
+      },
+      {
+        "id": "option-3",
+        "text": "44.78"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2007,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8094164dcc02b246",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pelle"
+      },
+      {
+        "id": "option-1",
+        "text": "Insigne"
+      },
+      {
+        "id": "option-2",
+        "text": "Barzagli"
+      },
+      {
+        "id": "option-3",
+        "text": "Giaccherini"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2054,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:eca4f2884236e90a",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In baseball, how many fouls are an out?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "0"
+      },
+      {
+        "id": "option-1",
+        "text": "5"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2142,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4bcf7fb94851b68d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ole Gunnar Solskjær"
+      },
+      {
+        "id": "option-1",
+        "text": "Dwight Yorke"
+      },
+      {
+        "id": "option-2",
+        "text": "Andy Cole"
+      },
+      {
+        "id": "option-3",
+        "text": "David Beckham"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2155,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:a625d08e42989ef2",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The F1 season of 1994 is remembered for what tragic event?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Death of Ayrton Senna (San Marino)"
+      },
+      {
+        "id": "option-1",
+        "text": "The Showdown (Australia)"
+      },
+      {
+        "id": "option-2",
+        "text": "Verstappen on Fire (Germany)"
+      },
+      {
+        "id": "option-3",
+        "text": "Schumacher's Ban (Britain)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2214,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5ced7764a82d9149",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the UEFA Champions League in 2016?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Real Madrid C.F."
+      },
+      {
+        "id": "option-1",
+        "text": "FC Bayern Munich"
+      },
+      {
+        "id": "option-2",
+        "text": "Atletico Madrid"
+      },
+      {
+        "id": "option-3",
+        "text": "Manchester City F.C."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2217,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:72314776146d2ad2",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leicester City"
+      },
+      {
+        "id": "option-1",
+        "text": "Tottenham Hotspur"
+      },
+      {
+        "id": "option-2",
+        "text": "Watford"
+      },
+      {
+        "id": "option-3",
+        "text": "Stoke City"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2250,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b7e11de523e4517b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the year of estabilishment of the Bari Italian Football Club?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1908"
+      },
+      {
+        "id": "option-1",
+        "text": "1945"
+      },
+      {
+        "id": "option-2",
+        "text": "2014"
+      },
+      {
+        "id": "option-3",
+        "text": "1895"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2372,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:54ee28d5ae60d40f",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Tennis was once known as Racquetball.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2374,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:98079d15b04da148",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Europe"
+      },
+      {
+        "id": "option-1",
+        "text": "South America"
+      },
+      {
+        "id": "option-2",
+        "text": "Africa"
+      },
+      {
+        "id": "option-3",
+        "text": "Asia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2382,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:9c39b147ccab2917",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Josh Mansour is part of what NRL team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Penrith Panthers"
+      },
+      {
+        "id": "option-1",
+        "text": "Melbourne Storm"
+      },
+      {
+        "id": "option-2",
+        "text": "Sydney Roosters"
+      },
+      {
+        "id": "option-3",
+        "text": "North Queensland Cowboys"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2398,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d4545575bb8111ad",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Tiger Woods' all-time best career golf-score?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "61"
+      },
+      {
+        "id": "option-1",
+        "text": "65"
+      },
+      {
+        "id": "option-2",
+        "text": "63"
+      },
+      {
+        "id": "option-3",
+        "text": "67"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2423,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:463c79967a488f53",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which player holds the NHL record of 2,857 points?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wayne Gretzky"
+      },
+      {
+        "id": "option-1",
+        "text": "Mario Lemieux "
+      },
+      {
+        "id": "option-2",
+        "text": "Sidney Crosby"
+      },
+      {
+        "id": "option-3",
+        "text": "Gordie Howe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2473,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6e83e4fe80b4aa51",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the \"Champions League\" in 1999?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Manchester United"
+      },
+      {
+        "id": "option-1",
+        "text": "Barcelona"
+      },
+      {
+        "id": "option-2",
+        "text": "Bayern Munich"
+      },
+      {
+        "id": "option-3",
+        "text": "Liverpool"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2480,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:81b6f53baa1a422c",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "38"
+      },
+      {
+        "id": "option-1",
+        "text": "51"
+      },
+      {
+        "id": "option-2",
+        "text": "49"
+      },
+      {
+        "id": "option-3",
+        "text": "22"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2514,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:280401a0ba91d66d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the first official international game played?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1872"
+      },
+      {
+        "id": "option-1",
+        "text": "1880"
+      },
+      {
+        "id": "option-2",
+        "text": "1863"
+      },
+      {
+        "id": "option-3",
+        "text": "1865"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2600,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:0458345c2278cd91",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Soccer player Cristiano Ronaldo opened a museum dedicated to himself.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2673,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d76d160fe57374bb",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "August 21"
+      },
+      {
+        "id": "option-1",
+        "text": "August 23"
+      },
+      {
+        "id": "option-2",
+        "text": "August 19"
+      },
+      {
+        "id": "option-3",
+        "text": "August 17"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2697,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:1f0527cb853cf05d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which NBA player won Most Valuable Player for the 1999-2000 season?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Shaquille O'Neal"
+      },
+      {
+        "id": "option-1",
+        "text": "Allen Iverson"
+      },
+      {
+        "id": "option-2",
+        "text": "Kobe Bryant"
+      },
+      {
+        "id": "option-3",
+        "text": "Paul Pierce"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2736,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:e3eafd7fab6ed31d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "\"Stadium of Light\" is the home stadium for which soccer team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sunderland FC"
+      },
+      {
+        "id": "option-1",
+        "text": "Barcelona FC"
+      },
+      {
+        "id": "option-2",
+        "text": "Paris Saints-Germain"
+      },
+      {
+        "id": "option-3",
+        "text": "Manchester United"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2743,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:2b2c205bf3088b60",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 2015 Formula 1 World Championship?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lewis Hamilton"
+      },
+      {
+        "id": "option-1",
+        "text": "Nico Rosberg"
+      },
+      {
+        "id": "option-2",
+        "text": "Sebastian Vettel"
+      },
+      {
+        "id": "option-3",
+        "text": "Jenson Button"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2821,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6e63857f55c2786b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many French Open's did Björn Borg win?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "6"
+      },
+      {
+        "id": "option-1",
+        "text": "4"
+      },
+      {
+        "id": "option-2",
+        "text": "9"
+      },
+      {
+        "id": "option-3",
+        "text": "2"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2828,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:034b0b7e48dc7cdf",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is regarded as the best Romanian footballer of all time?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gheorghe Hagi"
+      },
+      {
+        "id": "option-1",
+        "text": "Cristian Chivu"
+      },
+      {
+        "id": "option-2",
+        "text": "Nicolae Dobrin"
+      },
+      {
+        "id": "option-3",
+        "text": "Gheorghe Popescu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2879,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:a12e7a0035c0eb17",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first footballer to score 200 goals in the English Premier League?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alan Shearer"
+      },
+      {
+        "id": "option-1",
+        "text": "Wayne Rooney"
+      },
+      {
+        "id": "option-2",
+        "text": "Robbie Fowler"
+      },
+      {
+        "id": "option-3",
+        "text": "Thierry Henry"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2880,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:c3d6c913df5a9ec8",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which city features all of their professional sports teams' jersey's with the same color scheme?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pittsburgh"
+      },
+      {
+        "id": "option-1",
+        "text": "New York"
+      },
+      {
+        "id": "option-2",
+        "text": "Seattle"
+      },
+      {
+        "id": "option-3",
+        "text": "Tampa Bay"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2955,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:7bd2d597fc644d94",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what sport does Fanny Chmelar compete for Germany?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Skiing"
+      },
+      {
+        "id": "option-1",
+        "text": "Swimming"
+      },
+      {
+        "id": "option-2",
+        "text": "Showjumping"
+      },
+      {
+        "id": "option-3",
+        "text": "Gymnastics"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3025,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:f4236555a0a465f4",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nine"
+      },
+      {
+        "id": "option-1",
+        "text": "Ten"
+      },
+      {
+        "id": "option-2",
+        "text": "Seven"
+      },
+      {
+        "id": "option-3",
+        "text": "Eight"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3041,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8dc196d06c138fce",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jordan"
+      },
+      {
+        "id": "option-1",
+        "text": "Benetton"
+      },
+      {
+        "id": "option-2",
+        "text": "Ferrari"
+      },
+      {
+        "id": "option-3",
+        "text": "Mercedes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3082,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3a7ba3164c29a562",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Skateboarding was included in the 2020 Summer Olympics in Tokyo.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3122,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:387fb8942f5b74e1",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 1994 San Marino Grand Prix, the race in which Ayrton Senna was killed?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Schumacher"
+      },
+      {
+        "id": "option-1",
+        "text": "Nicola Larini"
+      },
+      {
+        "id": "option-2",
+        "text": "Gerhard Berger"
+      },
+      {
+        "id": "option-3",
+        "text": "Mika Häkkinen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3178,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:bd406964c0833311",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "With which doubles partner did John McEnroe have most success?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peter Fleming"
+      },
+      {
+        "id": "option-1",
+        "text": "Mark Woodforde"
+      },
+      {
+        "id": "option-2",
+        "text": "Michael Stich"
+      },
+      {
+        "id": "option-3",
+        "text": "Mary Carillo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3207,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b537b209ea8079ed",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the oldest team in Major League Baseball?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atlanta Braves"
+      },
+      {
+        "id": "option-1",
+        "text": "Chicago Cubs"
+      },
+      {
+        "id": "option-2",
+        "text": "Cincinnati Reds"
+      },
+      {
+        "id": "option-3",
+        "text": "St. Louis Cardinals"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3216,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4dedcff01aa316b0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these track-and-field events is NOT included in the Olympic men's decathlon?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hammer throw"
+      },
+      {
+        "id": "option-1",
+        "text": "Pole vault"
+      },
+      {
+        "id": "option-2",
+        "text": "Long jump"
+      },
+      {
+        "id": "option-3",
+        "text": "Shot put"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3315,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:13cc0d3917aba7a2",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the highest belt you can get in Taekwondo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Black"
+      },
+      {
+        "id": "option-1",
+        "text": "White"
+      },
+      {
+        "id": "option-2",
+        "text": "Red"
+      },
+      {
+        "id": "option-3",
+        "text": "Green"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3328,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:aaf899ad8eeae3e5",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mazda"
+      },
+      {
+        "id": "option-1",
+        "text": "Toyota"
+      },
+      {
+        "id": "option-2",
+        "text": "Subaru"
+      },
+      {
+        "id": "option-3",
+        "text": "Nissan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3362,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:9d2a5f98f0b1509e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which English football club has the nickname 'The Foxes'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leicester City"
+      },
+      {
+        "id": "option-1",
+        "text": "Northampton Town"
+      },
+      {
+        "id": "option-2",
+        "text": "Bradford City"
+      },
+      {
+        "id": "option-3",
+        "text": "West Bromwich Albion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3375,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3c13b9ab2d479cdb",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which English football team is nicknamed 'The Tigers'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hull City"
+      },
+      {
+        "id": "option-1",
+        "text": "Cardiff City"
+      },
+      {
+        "id": "option-2",
+        "text": "Bristol City"
+      },
+      {
+        "id": "option-3",
+        "text": "Manchester City"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3379,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:e35d348b51dc1f29",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Etihad Stadium is the home stadium for which team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Manchester City"
+      },
+      {
+        "id": "option-1",
+        "text": "Manchester United"
+      },
+      {
+        "id": "option-2",
+        "text": "Arsenal"
+      },
+      {
+        "id": "option-3",
+        "text": "Blackpool"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3389,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:141324e584b4d06e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Nico Rosberg"
+      },
+      {
+        "id": "option-1",
+        "text": "Lewis Hamilton"
+      },
+      {
+        "id": "option-2",
+        "text": "Max Verstappen"
+      },
+      {
+        "id": "option-3",
+        "text": "Kimi Raikkonen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3418,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:1d49f4008689426d",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the topscorer for England national football team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wayne Rooney"
+      },
+      {
+        "id": "option-1",
+        "text": "David Beckham"
+      },
+      {
+        "id": "option-2",
+        "text": "Steven Gerrard"
+      },
+      {
+        "id": "option-3",
+        "text": "Michael Owen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3423,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5939bfd2afe7347f",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is “The Sport of Kings”?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Horse Racing"
+      },
+      {
+        "id": "option-1",
+        "text": "Chess"
+      },
+      {
+        "id": "option-2",
+        "text": "Jousting"
+      },
+      {
+        "id": "option-3",
+        "text": "Fencing"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3430,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:33bef8026e43eb6e",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "During Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3434,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:f402addaef27333f",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country hosted the 2018 FIFA World Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Russia"
+      },
+      {
+        "id": "option-1",
+        "text": "Germany"
+      },
+      {
+        "id": "option-2",
+        "text": "United States"
+      },
+      {
+        "id": "option-3",
+        "text": "Saudi Arabia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3473,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:fde149249d530139",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Don Cherry"
+      },
+      {
+        "id": "option-1",
+        "text": "Don McKellar"
+      },
+      {
+        "id": "option-2",
+        "text": "Don Taylor "
+      },
+      {
+        "id": "option-3",
+        "text": "Donald Sutherland"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3481,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5f4c89101e5cb40a",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which wrestler won the 2019 Men’s Royal Rumble?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seth Rollins"
+      },
+      {
+        "id": "option-1",
+        "text": "Braun Strowman"
+      },
+      {
+        "id": "option-2",
+        "text": "AJ Styles"
+      },
+      {
+        "id": "option-3",
+        "text": "Andrade"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3583,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:62e8403d6fb22450",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In a game of snooker, what colour ball is worth 3 points?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Green"
+      },
+      {
+        "id": "option-1",
+        "text": "Yellow"
+      },
+      {
+        "id": "option-2",
+        "text": "Brown"
+      },
+      {
+        "id": "option-3",
+        "text": "Blue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3634,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:7cf1c92a9819c921",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country hosted the 2022 FIFA World Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Qatar"
+      },
+      {
+        "id": "option-1",
+        "text": "USA"
+      },
+      {
+        "id": "option-2",
+        "text": "Japan"
+      },
+      {
+        "id": "option-3",
+        "text": "Switzerland"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3678,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:844dec9b2a2cea5c",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where was the Games of the XXII Olympiad held?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moscow"
+      },
+      {
+        "id": "option-1",
+        "text": "Barcelona"
+      },
+      {
+        "id": "option-2",
+        "text": "Tokyo"
+      },
+      {
+        "id": "option-3",
+        "text": "Los Angeles"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3750,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:aff2db0ddaec96e9",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did the New Orleans Saints win the Super Bowl?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2010"
+      },
+      {
+        "id": "option-1",
+        "text": "2008"
+      },
+      {
+        "id": "option-2",
+        "text": "2009"
+      },
+      {
+        "id": "option-3",
+        "text": "2011"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3784,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:9757622a7925afa5",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In bowling, what is the term used for getting three consecutive strikes?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Turkey"
+      },
+      {
+        "id": "option-1",
+        "text": "Flamingo"
+      },
+      {
+        "id": "option-2",
+        "text": "Birdie"
+      },
+      {
+        "id": "option-3",
+        "text": "Eagle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3807,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d987482463c6fa5f",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The first episode of WWF Monday Night RAW aired on January 11, 1990.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3896,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8bc087198269e6bc",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these NHL teams originally played in Atlanta?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Calgary Flames"
+      },
+      {
+        "id": "option-1",
+        "text": "St. Louis Blues"
+      },
+      {
+        "id": "option-2",
+        "text": "Minnesota Wild"
+      },
+      {
+        "id": "option-3",
+        "text": "Vancouver Canucks"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3905,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d76f934edacfa01b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Duck"
+      },
+      {
+        "id": "option-1",
+        "text": "Bye"
+      },
+      {
+        "id": "option-2",
+        "text": "Beamer"
+      },
+      {
+        "id": "option-3",
+        "text": "Carry"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3912,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:05e390f089f0edf6",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was hockey legend Wayne Gretzky born?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1961"
+      },
+      {
+        "id": "option-1",
+        "text": "1965"
+      },
+      {
+        "id": "option-2",
+        "text": "1959"
+      },
+      {
+        "id": "option-3",
+        "text": "1963"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3951,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:15c291157bfb21b4",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What team won the 2016 MLS Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Seattle Sounders"
+      },
+      {
+        "id": "option-1",
+        "text": "Colorado Rapids"
+      },
+      {
+        "id": "option-2",
+        "text": "Toronto FC"
+      },
+      {
+        "id": "option-3",
+        "text": "Montreal Impact"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3963,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4b9de07913944581",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who has played the most tournaments on the Brazilian national soccer team?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Cafu"
+      },
+      {
+        "id": "option-1",
+        "text": "Ronaldo"
+      },
+      {
+        "id": "option-2",
+        "text": "Kaká"
+      },
+      {
+        "id": "option-3",
+        "text": "Roberto Carlos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3984,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:a8318558e8fd88ba",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which African American is in part responsible for integrating  Major League baseball?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jackie Robinson"
+      },
+      {
+        "id": "option-1",
+        "text": "Curt Flood"
+      },
+      {
+        "id": "option-2",
+        "text": "Roy Campanella"
+      },
+      {
+        "id": "option-3",
+        "text": "Satchell Paige"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4054,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:89d3cff06fc15a9b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Why was The Green Monster at Fenway Park was originally built?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "To prevent viewing games from outside the park."
+      },
+      {
+        "id": "option-1",
+        "text": "To make getting home runs harder."
+      },
+      {
+        "id": "option-2",
+        "text": "To display advertisements."
+      },
+      {
+        "id": "option-3",
+        "text": "To provide extra seating."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4068,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:98ba32af61ea5de1",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tunisia"
+      },
+      {
+        "id": "option-1",
+        "text": "United States of America"
+      },
+      {
+        "id": "option-2",
+        "text": "Italy"
+      },
+      {
+        "id": "option-3",
+        "text": "Netherlands"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4139,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:8d75cbac1857e06b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "At which bridge does the annual Oxford and Cambridge boat race start?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Putney"
+      },
+      {
+        "id": "option-1",
+        "text": "Hammersmith"
+      },
+      {
+        "id": "option-2",
+        "text": "Vauxhall "
+      },
+      {
+        "id": "option-3",
+        "text": "Battersea"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4149,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:a2fe3d1e360df7dc",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Manchester United's home stadium?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Old Trafford"
+      },
+      {
+        "id": "option-1",
+        "text": "Anfield"
+      },
+      {
+        "id": "option-2",
+        "text": "City of Manchester Stadium"
+      },
+      {
+        "id": "option-3",
+        "text": "St James Park"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4158,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5bb34e21b26628c6",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Grand Slam tennis tournaments occurs LAST?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "US Open"
+      },
+      {
+        "id": "option-1",
+        "text": "French Open"
+      },
+      {
+        "id": "option-2",
+        "text": "Wimbledon"
+      },
+      {
+        "id": "option-3",
+        "text": "Australian Open"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4220,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:028efac5c1c59da3",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Hockey player Wayne Gretzky was born in what Canadian province?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ontario"
+      },
+      {
+        "id": "option-1",
+        "text": "British Columbia"
+      },
+      {
+        "id": "option-2",
+        "text": "Quebec"
+      },
+      {
+        "id": "option-3",
+        "text": "Alberta"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4251,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:f55cd1517d24f76a",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In Rugby League, performing a \"40-20\" is punished by a free kick for the opposing team.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4340,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b6b0dc462faf9dfb",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carlos Sainz Jr."
+      },
+      {
+        "id": "option-1",
+        "text": "Daniil Kvyat"
+      },
+      {
+        "id": "option-2",
+        "text": "Jolyon Palmer"
+      },
+      {
+        "id": "option-3",
+        "text": "Rio Haryanto"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4368,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:76d6efe1944989db",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following player scored a hat-trick during their Manchester United debut?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wayne Rooney"
+      },
+      {
+        "id": "option-1",
+        "text": "Cristiano Ronaldo"
+      },
+      {
+        "id": "option-2",
+        "text": "Robin Van Persie"
+      },
+      {
+        "id": "option-3",
+        "text": "David Beckham"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4438,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ab4485fecf244ef5",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which team has won the most Stanley Cups in the NHL?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Montreal Canadians"
+      },
+      {
+        "id": "option-1",
+        "text": "Chicago Blackhawks"
+      },
+      {
+        "id": "option-2",
+        "text": "Toronto Maple Leafs"
+      },
+      {
+        "id": "option-3",
+        "text": "Detroit Red Wings"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4484,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:af579b0cc0a919ad",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who did Drew Brees pass in all time NFL passing yards in 2018?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Peyton Manning"
+      },
+      {
+        "id": "option-1",
+        "text": "Tom Brady"
+      },
+      {
+        "id": "option-2",
+        "text": "Dan Marino"
+      },
+      {
+        "id": "option-3",
+        "text": "Joe Montana"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4546,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:33ade29d3ae0d01c",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 2017 Formula One World Drivers' Championship?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lewis Hamilton"
+      },
+      {
+        "id": "option-1",
+        "text": "Sebastian Vettel"
+      },
+      {
+        "id": "option-2",
+        "text": "Nico Rosberg"
+      },
+      {
+        "id": "option-3",
+        "text": "Max Verstappen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4561,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:605f023974ab061c",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1-7"
+      },
+      {
+        "id": "option-1",
+        "text": "1-5"
+      },
+      {
+        "id": "option-2",
+        "text": "1-6"
+      },
+      {
+        "id": "option-3",
+        "text": "2-6"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4624,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:7618d4f094f26674",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Porsche"
+      },
+      {
+        "id": "option-1",
+        "text": "Toyota"
+      },
+      {
+        "id": "option-2",
+        "text": "Audi"
+      },
+      {
+        "id": "option-3",
+        "text": "Ferrari"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4661,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4024b681204d4f6b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Toronto Marlies"
+      },
+      {
+        "id": "option-1",
+        "text": "Toronto Rock"
+      },
+      {
+        "id": "option-2",
+        "text": "Toronto Argonauts"
+      },
+      {
+        "id": "option-3",
+        "text": "Toronto Wolfpack"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4734,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:4c7f88e59f48da46",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these NHL players have never won a Hart Trophy for Regular Season MVP?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Steve Yzerman"
+      },
+      {
+        "id": "option-1",
+        "text": "Chris Pronger"
+      },
+      {
+        "id": "option-2",
+        "text": "Jose Theodore"
+      },
+      {
+        "id": "option-3",
+        "text": "Henrik Sedin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4745,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:37431c667073524e",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jose Fernandez"
+      },
+      {
+        "id": "option-1",
+        "text": "Jacob deGrom"
+      },
+      {
+        "id": "option-2",
+        "text": "Shelby Miller"
+      },
+      {
+        "id": "option-3",
+        "text": "Matt Harvey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4784,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ce925b8eb8e24d31",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "84.39m"
+      },
+      {
+        "id": "option-1",
+        "text": "100m"
+      },
+      {
+        "id": "option-2",
+        "text": "100yd"
+      },
+      {
+        "id": "option-3",
+        "text": "109.36yd"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4801,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:f089961c098319f1",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the British professional wrestler Shirley Crabtree better known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Big Daddy"
+      },
+      {
+        "id": "option-1",
+        "text": "Giant Haystacks"
+      },
+      {
+        "id": "option-2",
+        "text": "Kendo Nagasaki"
+      },
+      {
+        "id": "option-3",
+        "text": "Masambula"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4833,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ba7f599075667617",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which team was the 2014-2015 NBA Champions?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Golden State Warriors"
+      },
+      {
+        "id": "option-1",
+        "text": "Cleveland Cavaliers"
+      },
+      {
+        "id": "option-2",
+        "text": "Houston Rockets"
+      },
+      {
+        "id": "option-3",
+        "text": "Atlanta Hawks"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4860,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:28ff95e5d1d26c0b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which nation hosted the FIFA World Cup in 2006?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Germany"
+      },
+      {
+        "id": "option-1",
+        "text": "United Kingdom"
+      },
+      {
+        "id": "option-2",
+        "text": "Brazil"
+      },
+      {
+        "id": "option-3",
+        "text": "South Africa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4915,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ce3fc1d3fe4d5aab",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What city did the Lakers represent before relocating to Los Angeles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Minneapolis"
+      },
+      {
+        "id": "option-1",
+        "text": "Philadelphia"
+      },
+      {
+        "id": "option-2",
+        "text": "Chicago"
+      },
+      {
+        "id": "option-3",
+        "text": "San Francisco"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5069,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:c5de219884ee7f3a",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what sport is a \"shuttlecock\" used?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Badminton"
+      },
+      {
+        "id": "option-1",
+        "text": "Table Tennis"
+      },
+      {
+        "id": "option-2",
+        "text": "Rugby"
+      },
+      {
+        "id": "option-3",
+        "text": "Cricket"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5126,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:0e41be7f49c86178",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these English football clubs is based in Liverpool?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Everton"
+      },
+      {
+        "id": "option-1",
+        "text": "West Ham United"
+      },
+      {
+        "id": "option-2",
+        "text": "Crystal Palace"
+      },
+      {
+        "id": "option-3",
+        "text": "Arsenal"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5143,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:81322777ad49cc01",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mike Tyson"
+      },
+      {
+        "id": "option-1",
+        "text": "Roy Jones Jr."
+      },
+      {
+        "id": "option-2",
+        "text": "Evander Holyfield"
+      },
+      {
+        "id": "option-3",
+        "text": "Lennox Lewis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5176,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d1d4c7a9bd236c84",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country produced football players such as Cafu, Roberto Carlos and Pelé?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brazil"
+      },
+      {
+        "id": "option-1",
+        "text": "Argentina"
+      },
+      {
+        "id": "option-2",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-3",
+        "text": "Spain"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5181,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:7df308eda5e31a42",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the top scorer of the 2014 FIFA World Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James Rodríguez"
+      },
+      {
+        "id": "option-1",
+        "text": "Thomas Müller"
+      },
+      {
+        "id": "option-2",
+        "text": "Lionel Messi"
+      },
+      {
+        "id": "option-3",
+        "text": "Neymar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5325,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6a1be3669778af55",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car manufacturer won the 2017 24 Hours of Le Mans?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Porsche"
+      },
+      {
+        "id": "option-1",
+        "text": "Toyota"
+      },
+      {
+        "id": "option-2",
+        "text": "Audi"
+      },
+      {
+        "id": "option-3",
+        "text": "Chevrolet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5364,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5b1beae1121042ba",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Los Angeles Dodgers were originally from what U.S. city?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brooklyn"
+      },
+      {
+        "id": "option-1",
+        "text": "Las Vegas"
+      },
+      {
+        "id": "option-2",
+        "text": "Boston"
+      },
+      {
+        "id": "option-3",
+        "text": "Seattle"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5365,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:1b4fe757ac548b99",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Italian Grand Prix"
+      },
+      {
+        "id": "option-1",
+        "text": "Japanese Grand Prix"
+      },
+      {
+        "id": "option-2",
+        "text": "Monaco Grand Prix"
+      },
+      {
+        "id": "option-3",
+        "text": "Brazilian Grand Prix"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5381,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:bba0cf3b6e06f782",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the most common type of pitch thrown by pitchers in baseball?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Fastball"
+      },
+      {
+        "id": "option-1",
+        "text": "Slowball"
+      },
+      {
+        "id": "option-2",
+        "text": "Screwball"
+      },
+      {
+        "id": "option-3",
+        "text": "Palmball"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5418,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:440219b6e17077ee",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country hosted the 2020 Summer Olympics?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Japan"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Australia"
+      },
+      {
+        "id": "option-3",
+        "text": "Germany"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5428,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5dc99b90c2f29f28",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which NBA player has the most games played over the course of their career?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Robert Parish"
+      },
+      {
+        "id": "option-1",
+        "text": "Kareem Abdul-Jabbar"
+      },
+      {
+        "id": "option-2",
+        "text": "Kevin Garnett"
+      },
+      {
+        "id": "option-3",
+        "text": "Kobe Bryant"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5436,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:c65de96236cc7595",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "American Football"
+      },
+      {
+        "id": "option-1",
+        "text": "Wrestling"
+      },
+      {
+        "id": "option-2",
+        "text": "Archery"
+      },
+      {
+        "id": "option-3",
+        "text": "Horse-Racing"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5458,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:773347a17bd011bf",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many scoring zones are there on a conventional dart board?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "82"
+      },
+      {
+        "id": "option-1",
+        "text": "62"
+      },
+      {
+        "id": "option-2",
+        "text": "42"
+      },
+      {
+        "id": "option-3",
+        "text": "102"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5480,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3dba7916f42ea736",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the oldest team in the NFL?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Arizona Cardinals"
+      },
+      {
+        "id": "option-1",
+        "text": "Chicago Bears"
+      },
+      {
+        "id": "option-2",
+        "text": "Green Bay Packers"
+      },
+      {
+        "id": "option-3",
+        "text": "New York Giants"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5503,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:920c136f775c754a",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In association football, or soccer, a corner kick is when the game restarts after someone scores a goal.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5602,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:effafaef147e25d3",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "There are a total of 20 races in Formula One 2016 season.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5609,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:babae0ebc1eed1a2",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 2011 Stanley Cup?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Boston Bruins"
+      },
+      {
+        "id": "option-1",
+        "text": "Montreal Canadiens"
+      },
+      {
+        "id": "option-2",
+        "text": "New York Rangers"
+      },
+      {
+        "id": "option-3",
+        "text": "Toronto Maple Leafs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5657,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:53aae675b67082a4",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jules Bianchi"
+      },
+      {
+        "id": "option-1",
+        "text": "Ayrton Senna"
+      },
+      {
+        "id": "option-2",
+        "text": "Ronald Ratzenberger"
+      },
+      {
+        "id": "option-3",
+        "text": "Gilles Villeneuve"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5662,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:b1d12f246600af0a",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5730,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6c10c085aba1f4f0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these European cities was the first to host the modern Summer Olympic Games three times?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "London"
+      },
+      {
+        "id": "option-1",
+        "text": "Paris"
+      },
+      {
+        "id": "option-2",
+        "text": "Athens"
+      },
+      {
+        "id": "option-3",
+        "text": "Rome"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5746,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:964080d3b44118b3",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What team did England beat to win in the 1966 World Cup final?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "West Germany"
+      },
+      {
+        "id": "option-1",
+        "text": "Soviet Union"
+      },
+      {
+        "id": "option-2",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-3",
+        "text": "Brazil"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5768,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:cf62f764f57b83fa",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who won the 2018 Monaco Grand Prix?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daniel Ricciardo"
+      },
+      {
+        "id": "option-1",
+        "text": "Sebastian Vettel"
+      },
+      {
+        "id": "option-2",
+        "text": "Kimi Raikkonen"
+      },
+      {
+        "id": "option-3",
+        "text": "Lewis Hamilton"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5788,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:46a2740362fca942",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many points did LeBron James score in his first NBA game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "25"
+      },
+      {
+        "id": "option-1",
+        "text": "19"
+      },
+      {
+        "id": "option-2",
+        "text": "69"
+      },
+      {
+        "id": "option-3",
+        "text": "41"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5796,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:5fc91052ffdbf882",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Formula E is an auto racing series that uses hybrid electric race cars.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5817,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:7ab4c82c572c1ee1",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The song \"Three Lions\" by the Lightning Seeds was made for which major football event in 1996?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "European Championships"
+      },
+      {
+        "id": "option-1",
+        "text": "World Cup"
+      },
+      {
+        "id": "option-2",
+        "text": "Champions League"
+      },
+      {
+        "id": "option-3",
+        "text": "Confederations Cup"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5823,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:6c4030cc7b0cf4ba",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these NHL teams have never moved since their inception?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "St. Louis Blues"
+      },
+      {
+        "id": "option-1",
+        "text": "New Jersey Devils"
+      },
+      {
+        "id": "option-2",
+        "text": "Carolina Hurricanes"
+      },
+      {
+        "id": "option-3",
+        "text": "Dallas Stars"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5830,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:1af2fa22296f25b0",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A stimpmeter measures the speed of a ball over what surface?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Golf Putting Green"
+      },
+      {
+        "id": "option-1",
+        "text": " Football Pitch"
+      },
+      {
+        "id": "option-2",
+        "text": "Cricket Outfield"
+      },
+      {
+        "id": "option-3",
+        "text": "Pinball Table"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5847,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:0344694315d9a67b",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which driver has been the Formula 1 world champion for a record 7 times?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Michael Schumacher"
+      },
+      {
+        "id": "option-1",
+        "text": "Ayrton Senna"
+      },
+      {
+        "id": "option-2",
+        "text": "Fernando Alonso"
+      },
+      {
+        "id": "option-3",
+        "text": "Jim Clark"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5866,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:d3e4991bc4487e61",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Roger Federer"
+      },
+      {
+        "id": "option-1",
+        "text": "Bill Tilden"
+      },
+      {
+        "id": "option-2",
+        "text": "Boris Becker"
+      },
+      {
+        "id": "option-3",
+        "text": "Pete Sampras"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5918,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:0fc1e19c61867620",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which German sportswear company's logo is the 'Formstripe'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Puma"
+      },
+      {
+        "id": "option-1",
+        "text": "Nike"
+      },
+      {
+        "id": "option-2",
+        "text": "Adidas"
+      },
+      {
+        "id": "option-3",
+        "text": "Reebok"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5931,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:a69670c926ef0033",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Portugal"
+      },
+      {
+        "id": "option-1",
+        "text": "West Germany"
+      },
+      {
+        "id": "option-2",
+        "text": "Soviet Union"
+      },
+      {
+        "id": "option-3",
+        "text": "Brazil"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5946,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:ad5b6764429562f8",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the FC Schalke 04 founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1904"
+      },
+      {
+        "id": "option-1",
+        "text": "1909"
+      },
+      {
+        "id": "option-2",
+        "text": "2008"
+      },
+      {
+        "id": "option-3",
+        "text": "1999"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6007,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:3665b952da0cd119",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Canadian football, scoring a rouge is worth how many points?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1"
+      },
+      {
+        "id": "option-1",
+        "text": "2"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6065,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:067895c3b2f2c845",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "India"
+      },
+      {
+        "id": "option-1",
+        "text": "Australia"
+      },
+      {
+        "id": "option-2",
+        "text": "Turkey"
+      },
+      {
+        "id": "option-3",
+        "text": "Cambodia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6105,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:843fd93902612cda",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1991"
+      },
+      {
+        "id": "option-1",
+        "text": "1990"
+      },
+      {
+        "id": "option-2",
+        "text": "2000"
+      },
+      {
+        "id": "option-3",
+        "text": "1987"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6136,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:fecf2cd3b8592267",
+    "category": "sports",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which two teams played in Super Bowl XLII?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The New York Giants & The New England Patriots"
+      },
+      {
+        "id": "option-1",
+        "text": "The Green Bay Packers & The Pittsburgh Steelers"
+      },
+      {
+        "id": "option-2",
+        "text": "The Philadelphia Eagles & The New England Patriots"
+      },
+      {
+        "id": "option-3",
+        "text": "The Seattle Seahawks & The Denver Broncos"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6211,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:sports:c119bc5aaa7da5bd",
+    "category": "sports",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Roger Federer is a famous soccer player.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6212,
+      "category": "Sports",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "opentdb",
+      "title": "Open Trivia DB",
+      "url": "https://opentdb.com/",
+      "documentationUrl": "https://opentdb.com/api_config.php",
+      "collectedAt": "2026-10-16T14:37:33.519Z",
+      "license": "CC-BY-SA-4.0",
+      "licenseFile": "data/licenses/opentdb.txt",
+      "locale": "en",
+      "status": "needs-translation",
+      "receivedCount": 1001,
+      "importedCount": 1000,
+      "invalidCount": 1,
+      "duplicateCount": 0,
+      "categories": {
+        "animals": 18,
+        "animation": 25,
+        "anime-manga": 41,
+        "arts-literature": 33,
+        "board-games": 14,
+        "comics": 15,
+        "film": 60,
+        "general-knowledge": 97,
+        "geography": 64,
+        "history": 75,
+        "mathematics": 17,
+        "music": 85,
+        "mythology": 8,
+        "politics": 15,
+        "pop-culture": 5,
+        "science-nature": 56,
+        "sports": 33,
+        "technology": 30,
+        "television": 35,
+        "theatre": 5,
+        "vehicles": 23,
+        "video-games": 246
+      }
+    },
+    {
+      "id": "questionados",
+      "title": "Questionados",
+      "url": "https://github.com/AdaiasMagdiel/questionados",
+      "revision": "dc99d66a70f7e9f8039c0833b9aa9211907ee719",
+      "license": "MIT",
+      "licenseFile": "data/licenses/questionados.txt",
+      "locale": "pt-BR",
+      "status": "needs-review",
+      "rawCount": 568,
+      "importedCount": 531,
+      "invalidCount": 2,
+      "duplicateCount": 35,
+      "categories": {
+        "arts-literature": 93,
+        "geography": 96,
+        "history": 80,
+        "pop-culture": 96,
+        "science-nature": 95,
+        "sports": 71
+      }
+    }
+  ]
+}

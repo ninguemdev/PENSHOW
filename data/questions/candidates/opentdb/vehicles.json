@@ -763,5 +763,2141 @@
       "category": "Vehicles",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:vehicles:691367ec64f54370",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Camshaft"
+      },
+      {
+        "id": "option-1",
+        "text": "Piston"
+      },
+      {
+        "id": "option-2",
+        "text": "Drive shaft"
+      },
+      {
+        "id": "option-3",
+        "text": "Crankshaft"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1036,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:60a045f3fe050b01",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "BMW M GmbH is a subsidiary of BMW AG that focuses on car performance.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1138,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:d292939e9d84842e",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In 1991, Mazda became the first Japanese car manufacturer to win Le Mans.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1277,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:1adef432386acffb",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What model was the sports car gifted to Yuri Gagarin by the French government in 1965?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Matra Djet"
+      },
+      {
+        "id": "option-1",
+        "text": "Porsche 911"
+      },
+      {
+        "id": "option-2",
+        "text": "Alpine A110"
+      },
+      {
+        "id": "option-3",
+        "text": "AC Cobra"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1486,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:2401d6ee0c730aa3",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car manufacturer created the \"Aventador\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lamborghini"
+      },
+      {
+        "id": "option-1",
+        "text": "Ferrari"
+      },
+      {
+        "id": "option-2",
+        "text": "Pagani"
+      },
+      {
+        "id": "option-3",
+        "text": "Bugatti"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1506,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:f0312505e18cdb78",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scorpion"
+      },
+      {
+        "id": "option-1",
+        "text": "Snake"
+      },
+      {
+        "id": "option-2",
+        "text": "Bull"
+      },
+      {
+        "id": "option-3",
+        "text": "Horse"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1580,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:33ee731fd186471e",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car brand does NOT belong to General Motors?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ford"
+      },
+      {
+        "id": "option-1",
+        "text": "Buick"
+      },
+      {
+        "id": "option-2",
+        "text": "Cadillac"
+      },
+      {
+        "id": "option-3",
+        "text": "Chevrolet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1597,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:a1b8088dade49071",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What manufacturer made the car used in Back to the Future?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "DeLorean"
+      },
+      {
+        "id": "option-1",
+        "text": "Ford"
+      },
+      {
+        "id": "option-2",
+        "text": "Toyota"
+      },
+      {
+        "id": "option-3",
+        "text": "Daihatsu"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1601,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:6dbd715e2af415eb",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following FIA Rally cars was approved for use in the Group B class first? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Porsche 911 Turbo"
+      },
+      {
+        "id": "option-1",
+        "text": "Audi Quattro A2"
+      },
+      {
+        "id": "option-2",
+        "text": "BMW M1"
+      },
+      {
+        "id": "option-3",
+        "text": "Lancia Rally 037"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1750,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:016b42478ef987d3",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which country has the international vehicle registration letter 'A'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austria"
+      },
+      {
+        "id": "option-1",
+        "text": "Afghanistan"
+      },
+      {
+        "id": "option-2",
+        "text": "Australia"
+      },
+      {
+        "id": "option-3",
+        "text": "Armenia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1959,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:a785e7de527976ee",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following Union Pacific 'Big Boy' locomotives was restored to working order in 2019?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4014"
+      },
+      {
+        "id": "option-1",
+        "text": "4012"
+      },
+      {
+        "id": "option-2",
+        "text": "4004"
+      },
+      {
+        "id": "option-3",
+        "text": "4000"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2025,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:daf888b4b79aba23",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The General Motors EV1 was the first street-legal production electric vehicle.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2070,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:90ae8d8012376d3f",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The first true automobile ever made was the 1886 Benz Patent-Motorwagen.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2094,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:0dc83995b5833190",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What engine is in the Lexus SC400?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1UZ-FE"
+      },
+      {
+        "id": "option-1",
+        "text": "2JZ-GTE"
+      },
+      {
+        "id": "option-2",
+        "text": "7M-GTE"
+      },
+      {
+        "id": "option-3",
+        "text": "5M-GE"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2097,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:350ef7fae8db60c4",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The LS7 engine is how many cubic inches?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "427"
+      },
+      {
+        "id": "option-1",
+        "text": "346"
+      },
+      {
+        "id": "option-2",
+        "text": "364"
+      },
+      {
+        "id": "option-3",
+        "text": "376"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2169,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:d61c80496264e744",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did the Chevrolet LUV mini truck make its debut?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1972"
+      },
+      {
+        "id": "option-1",
+        "text": "1982"
+      },
+      {
+        "id": "option-2",
+        "text": "1975"
+      },
+      {
+        "id": "option-3",
+        "text": "1973"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2243,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:84d8c2e68e5e0fbf",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the cylinder-like parts that pump up and down within the engine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pistons"
+      },
+      {
+        "id": "option-1",
+        "text": "Leaf Springs"
+      },
+      {
+        "id": "option-2",
+        "text": "Radiators"
+      },
+      {
+        "id": "option-3",
+        "text": "ABS"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2266,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:70a952372d26d2e5",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following car manufacturers had a war named after it?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Toyota"
+      },
+      {
+        "id": "option-1",
+        "text": "Honda"
+      },
+      {
+        "id": "option-2",
+        "text": "Ford"
+      },
+      {
+        "id": "option-3",
+        "text": "Volkswagen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2289,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:74c8af1447c67bd3",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Japanese Shinkansen beat the French TGV's speed record for fastest electric rail train.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2330,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:8593fdc52e517198",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "There is a Rolls-Royce model called the 'Spectre'",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2391,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:dcbfd2dc9d73b459",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What UK Train does NOT go over 125MPH?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sprinter"
+      },
+      {
+        "id": "option-1",
+        "text": "Class 43"
+      },
+      {
+        "id": "option-2",
+        "text": "Javelin"
+      },
+      {
+        "id": "option-3",
+        "text": "Pendolino"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2513,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:ab546dc4f56faf3b",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What car manufacturer gave away their patent for the seat-belt in the interest of saving lives?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Volvo"
+      },
+      {
+        "id": "option-1",
+        "text": "Ferrari"
+      },
+      {
+        "id": "option-2",
+        "text": "Ford"
+      },
+      {
+        "id": "option-3",
+        "text": "Renault"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2654,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:33f4d55e07d4353c",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car tire manufacturer is famous for its \"P Zero\" line?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Pirelli"
+      },
+      {
+        "id": "option-1",
+        "text": "Goodyear"
+      },
+      {
+        "id": "option-2",
+        "text": "Bridgestone"
+      },
+      {
+        "id": "option-3",
+        "text": "Michelin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2878,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:db77817416374b62",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Ferrari has never made a V10 engine for any of its cars.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2901,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:4228ccb372335c1e",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "When BMW was established in 1916, it was producing automobiles.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2971,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:a6ca718d3adc03cc",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Nissan's most popular electric car?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leaf"
+      },
+      {
+        "id": "option-1",
+        "text": "Tree"
+      },
+      {
+        "id": "option-2",
+        "text": "Deer"
+      },
+      {
+        "id": "option-3",
+        "text": "Roots"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3104,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:9149ddee4ab1cbfc",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these companies does NOT manufacture motorcycles?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Toyota"
+      },
+      {
+        "id": "option-1",
+        "text": "Honda"
+      },
+      {
+        "id": "option-2",
+        "text": "Kawasaki"
+      },
+      {
+        "id": "option-3",
+        "text": "Yamaha"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3176,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:11188673efb05747",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Arriva is owned by the Deutsche Bahn.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3221,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e8f62c43c617bd75",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What nickname was given to Air Canada Flight 143 after it ran out of fuel and glided to safety in 1983?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gimli Glider"
+      },
+      {
+        "id": "option-1",
+        "text": "Gimli Microlight"
+      },
+      {
+        "id": "option-2",
+        "text": "Gimli Chaser"
+      },
+      {
+        "id": "option-3",
+        "text": "Gimli Superb"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3448,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:ebb52b960effbf29",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Italian city is home of the car manufacturer 'Fiat'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Turin"
+      },
+      {
+        "id": "option-1",
+        "text": "Maranello"
+      },
+      {
+        "id": "option-2",
+        "text": "Modena"
+      },
+      {
+        "id": "option-3",
+        "text": "Rome"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3577,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:3ddc82561b95bbcb",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "During World War 2, with tank was the most fear by the allies?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "PanzerKampfwagen V Panther"
+      },
+      {
+        "id": "option-1",
+        "text": "Marder III"
+      },
+      {
+        "id": "option-2",
+        "text": "Mks Matilda II"
+      },
+      {
+        "id": "option-3",
+        "text": "PanzerKampfwagen VI Tiger "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3763,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e7375cdf9e6e7894",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many wheels does a unicycle have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1"
+      },
+      {
+        "id": "option-1",
+        "text": "4"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "6"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3856,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:bade20765a299e45",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following car models has been badge-engineered (rebadged) the most?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Isuzu Trooper"
+      },
+      {
+        "id": "option-1",
+        "text": "Holden Monaro"
+      },
+      {
+        "id": "option-2",
+        "text": "Suzuki Swift"
+      },
+      {
+        "id": "option-3",
+        "text": "Chevy Camaro"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3897,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:18cf4616b282f2ce",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Automobiles produced by Tesla Motors operate on which form of energy?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Electricity"
+      },
+      {
+        "id": "option-1",
+        "text": "Gasoline"
+      },
+      {
+        "id": "option-2",
+        "text": "Diesel"
+      },
+      {
+        "id": "option-3",
+        "text": "Nuclear"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4105,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e810ae49ea98e9c8",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The LS2 engine is how many cubic inches?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "364"
+      },
+      {
+        "id": "option-1",
+        "text": "346"
+      },
+      {
+        "id": "option-2",
+        "text": "376"
+      },
+      {
+        "id": "option-3",
+        "text": "402"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4215,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:7642a81a76130218",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What country is the Hussarya supercar, made by the car manufacturer \"Arrinera\", assembled in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Poland"
+      },
+      {
+        "id": "option-1",
+        "text": "China"
+      },
+      {
+        "id": "option-2",
+        "text": "Sweden"
+      },
+      {
+        "id": "option-3",
+        "text": "Italy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4231,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:c4184bf8d1ed3e12",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following vehicles featured a full glass roof at base model?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Renault Avantime"
+      },
+      {
+        "id": "option-1",
+        "text": "Chevy Volt"
+      },
+      {
+        "id": "option-2",
+        "text": "Mercedes-Benz A-Class"
+      },
+      {
+        "id": "option-3",
+        "text": "Honda Odyssey"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4326,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:0871caa0f09e9dff",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of the following is not made by Ford?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Camry"
+      },
+      {
+        "id": "option-1",
+        "text": "Fusion"
+      },
+      {
+        "id": "option-2",
+        "text": "Model A"
+      },
+      {
+        "id": "option-3",
+        "text": "F-150"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4403,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:0c116d6e502c44b2",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The full English name of the car manufacturer BMW is Bavarian Motor Works",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4486,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:af5d61cd2221d730",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The British Rail Class 700, Class 707 and the Class 717 are part of what train family?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Desiro City"
+      },
+      {
+        "id": "option-1",
+        "text": "Networker"
+      },
+      {
+        "id": "option-2",
+        "text": "Aventra"
+      },
+      {
+        "id": "option-3",
+        "text": "Electrostar"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4722,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:8a6318493b162b1a",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The snowmobile was invented by Canadian Joseph-Armand Bombardier in 1937.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4757,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:12a8937a426bc96b",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Chevrolet Corvette has always been made exclusively with V8 engines only.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4769,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:3aad5a17aeb246a2",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Volkswagen's legendary VR6 engine has cylinders positioned at what degree angle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "15 Degree"
+      },
+      {
+        "id": "option-1",
+        "text": "30 Degree"
+      },
+      {
+        "id": "option-2",
+        "text": "45 Degree"
+      },
+      {
+        "id": "option-3",
+        "text": "90 Degree"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4771,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:d46eaefe1f513557",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alfa Romeo"
+      },
+      {
+        "id": "option-1",
+        "text": "Auto Union"
+      },
+      {
+        "id": "option-2",
+        "text": "Mercedes Benz"
+      },
+      {
+        "id": "option-3",
+        "text": "Bentley"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4822,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:34f34084e4a3d153",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following vehicles from Ford is named after a WW2 Fighter Plane?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mustang"
+      },
+      {
+        "id": "option-1",
+        "text": "Explorer"
+      },
+      {
+        "id": "option-2",
+        "text": "Ranger"
+      },
+      {
+        "id": "option-3",
+        "text": "Galaxy"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4958,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:9c67c1a633921a02",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in \"The Railway Series\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "LB&SCR A1X"
+      },
+      {
+        "id": "option-1",
+        "text": "LB&SCR E2"
+      },
+      {
+        "id": "option-2",
+        "text": "LB&SCR J1"
+      },
+      {
+        "id": "option-3",
+        "text": "LB&SCR D1"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5018,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:dda7adac9911f350",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the fastest road legal car in the world?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Koenigsegg Agera RS"
+      },
+      {
+        "id": "option-1",
+        "text": "Hennessy Venom GT"
+      },
+      {
+        "id": "option-2",
+        "text": "Bugatti Veyron Super Sport"
+      },
+      {
+        "id": "option-3",
+        "text": "Pagani Huayra BC"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5023,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:307050d36128a1ff",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Jaguar Cars was previously owned by which car manfacturer?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ford"
+      },
+      {
+        "id": "option-1",
+        "text": "Chrysler"
+      },
+      {
+        "id": "option-2",
+        "text": "General Motors"
+      },
+      {
+        "id": "option-3",
+        "text": "Fiat"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5039,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:0872c4c3524f3c0b",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these chassis codes are used by BMW 3-series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "E46"
+      },
+      {
+        "id": "option-1",
+        "text": "E39"
+      },
+      {
+        "id": "option-2",
+        "text": "E85"
+      },
+      {
+        "id": "option-3",
+        "text": "F10"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5161,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:d431df92f7d9170f",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which car is the first mass-produced hybrid vehicle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Toyota Prius"
+      },
+      {
+        "id": "option-1",
+        "text": "Chevrolet Volt"
+      },
+      {
+        "id": "option-2",
+        "text": "Honda Fit"
+      },
+      {
+        "id": "option-3",
+        "text": "Peugeot 308 R HYbrid"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5271,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e64c894fd3c0e62d",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The majority of Subaru vehicles are made in China.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5494,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:b9ed7ac96f5754d3",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What animal is pictured on the logo of the automobile manufacturer Porsche?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Horse"
+      },
+      {
+        "id": "option-1",
+        "text": "Bull"
+      },
+      {
+        "id": "option-2",
+        "text": "Lion"
+      },
+      {
+        "id": "option-3",
+        "text": "Cheetah"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5565,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:4d8b7af4df6a7357",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these automotive brands originated in Sweden?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Volvo"
+      },
+      {
+        "id": "option-1",
+        "text": "Mercedes"
+      },
+      {
+        "id": "option-2",
+        "text": "Acura"
+      },
+      {
+        "id": "option-3",
+        "text": "Lincoln"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5608,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:1a1fea7db5ca362f",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of the following is NOT a sub-company of the Volkswagen Group?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Opel"
+      },
+      {
+        "id": "option-1",
+        "text": "Porsche"
+      },
+      {
+        "id": "option-2",
+        "text": "Bugatti"
+      },
+      {
+        "id": "option-3",
+        "text": "Bentley"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5633,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:80435fb7b5d4fe57",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was Tesla founded?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2003"
+      },
+      {
+        "id": "option-1",
+        "text": "2008"
+      },
+      {
+        "id": "option-2",
+        "text": "2005"
+      },
+      {
+        "id": "option-3",
+        "text": "2007"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5659,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:769908584a73b789",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What do the 4 Rings in Audi's Logo represent?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Previously independent automobile manufacturers"
+      },
+      {
+        "id": "option-1",
+        "text": "States in which Audi makes the most sales"
+      },
+      {
+        "id": "option-2",
+        "text": "Main cities vital to Audi"
+      },
+      {
+        "id": "option-3",
+        "text": "Countries in which Audi makes the most sales"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5776,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:e2b2efb20a362e40",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Testarossa"
+      },
+      {
+        "id": "option-1",
+        "text": "Enzo Ferrari"
+      },
+      {
+        "id": "option-2",
+        "text": "F40"
+      },
+      {
+        "id": "option-3",
+        "text": "288 GTO"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5784,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:6de4992dfbd00bc0",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What country was the Trabant 601 manufactured in?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "East Germany"
+      },
+      {
+        "id": "option-1",
+        "text": "Soviet Union"
+      },
+      {
+        "id": "option-2",
+        "text": "Hungary"
+      },
+      {
+        "id": "option-3",
+        "text": "France"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5791,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:6e6c6d007e678787",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where are the cars of the brand \"Ferrari\" manufactured?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Italy"
+      },
+      {
+        "id": "option-1",
+        "text": "Romania"
+      },
+      {
+        "id": "option-2",
+        "text": "Germany"
+      },
+      {
+        "id": "option-3",
+        "text": "Russia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5983,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:b9699cd9530586a0",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Italian automaker Lamborghini uses what animal as its logo?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bull"
+      },
+      {
+        "id": "option-1",
+        "text": "Bat"
+      },
+      {
+        "id": "option-2",
+        "text": "Horse"
+      },
+      {
+        "id": "option-3",
+        "text": "Snake"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5992,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:281e3dfd26238a11",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following countries has officially banned the civilian use of dash cams in cars?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Austria"
+      },
+      {
+        "id": "option-1",
+        "text": "United States"
+      },
+      {
+        "id": "option-2",
+        "text": "Czechia"
+      },
+      {
+        "id": "option-3",
+        "text": "South Korea"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6076,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:31061389b525088a",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following passenger jets is the longest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Boeing 747-8"
+      },
+      {
+        "id": "option-1",
+        "text": "Airbus A350-1000"
+      },
+      {
+        "id": "option-2",
+        "text": "Airbus A330-200"
+      },
+      {
+        "id": "option-3",
+        "text": "Boeing 787-10"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6085,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:54e8e2eaa12a3bc4",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The difference between the lengths of a Boeing 777-300ER and an Airbus A350-1000 is closest to:",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "0.1m"
+      },
+      {
+        "id": "option-1",
+        "text": "1m"
+      },
+      {
+        "id": "option-2",
+        "text": "10m "
+      },
+      {
+        "id": "option-3",
+        "text": "100m"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6149,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:vehicles:caf0b0f8a5d0a356",
+    "category": "vehicles",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the first vehicle that came with air conditioning as a factory standard?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Packard"
+      },
+      {
+        "id": "option-1",
+        "text": "Tucker"
+      },
+      {
+        "id": "option-2",
+        "text": "Ford"
+      },
+      {
+        "id": "option-3",
+        "text": "Hudson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6186,
+      "category": "Vehicles",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

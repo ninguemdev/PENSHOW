@@ -553,5 +553,1958 @@
       "category": "Science: Mathematics",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:mathematics:a735f28f91b1d584",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the first Mersenne prime exponent over 1000?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1279"
+      },
+      {
+        "id": "option-1",
+        "text": "2203"
+      },
+      {
+        "id": "option-2",
+        "text": "1009"
+      },
+      {
+        "id": "option-3",
+        "text": "1069"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1043,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:b1d9fa601384ecfa",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many degrees make a full circle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "360"
+      },
+      {
+        "id": "option-1",
+        "text": "180"
+      },
+      {
+        "id": "option-2",
+        "text": "90"
+      },
+      {
+        "id": "option-3",
+        "text": "720"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1154,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:a73ac237432e4d36",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The proof for the Chinese Remainder Theorem used in Number Theory was NOT developed by its first publisher, Sun Tzu.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1168,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:26d9a14adbede780",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many zeros are there in a googol?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "100"
+      },
+      {
+        "id": "option-1",
+        "text": "10"
+      },
+      {
+        "id": "option-2",
+        "text": "1,000"
+      },
+      {
+        "id": "option-3",
+        "text": "1,000,000"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1348,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:f6d05f34b2d70705",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What are the first 6 digits of the number \"Pi\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3.14159"
+      },
+      {
+        "id": "option-1",
+        "text": "3.14169"
+      },
+      {
+        "id": "option-2",
+        "text": "3.12423"
+      },
+      {
+        "id": "option-3",
+        "text": "3.25812"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1417,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:ba0a4a551eb94047",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1470,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:d94fcf4cc09363aa",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The metric prefix \"atto-\" makes a measurement how much smaller than the base unit?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "One Quintillionth"
+      },
+      {
+        "id": "option-1",
+        "text": "One Billionth"
+      },
+      {
+        "id": "option-2",
+        "text": "One Quadrillionth"
+      },
+      {
+        "id": "option-3",
+        "text": "One Septillionth"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1527,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:13e5c2f13e788c3c",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many books are in Euclid's Elements of Geometry?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "13"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "10"
+      },
+      {
+        "id": "option-3",
+        "text": "17"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1678,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:6b1b8f89a550ebff",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the correct order of operations for solving equations?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction"
+      },
+      {
+        "id": "option-1",
+        "text": "Addition, Multiplication, Division, Subtraction, Addition, Parentheses"
+      },
+      {
+        "id": "option-2",
+        "text": "Parentheses, Exponents, Addition, Substraction, Multiplication, Division"
+      },
+      {
+        "id": "option-3",
+        "text": "The order in which the operations are written."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1692,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:962473467e296a0b",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "An equilateral triangle always has every angle measuring 60°.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1795,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:ea6fb0a67c44e585",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What numbers are in the 5th row of Pascal's Triangle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1 4 6 4 1"
+      },
+      {
+        "id": "option-1",
+        "text": "1 3 3 1"
+      },
+      {
+        "id": "option-2",
+        "text": "1 5 10 10 5 1"
+      },
+      {
+        "id": "option-3",
+        "text": "1 6 15 20 15 6 1"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1911,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:122ddc7a206bb8f8",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the approximate value of mathematical constant e?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2.72"
+      },
+      {
+        "id": "option-1",
+        "text": "3.14"
+      },
+      {
+        "id": "option-2",
+        "text": "1.62"
+      },
+      {
+        "id": "option-3",
+        "text": "1.41"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1953,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:20114f8908366694",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the alphanumeric representation of the imaginary number?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "i"
+      },
+      {
+        "id": "option-1",
+        "text": "e"
+      },
+      {
+        "id": "option-2",
+        "text": "n"
+      },
+      {
+        "id": "option-3",
+        "text": "x"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1993,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:00fe3de1711185c9",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1.58 x 10^20"
+      },
+      {
+        "id": "option-1",
+        "text": "1.58 x 10^22"
+      },
+      {
+        "id": "option-2",
+        "text": "1.58 x  10^18"
+      },
+      {
+        "id": "option-3",
+        "text": "1.58 x 10^24"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2328,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:b053cc1cd26d86f8",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the only Millennium Prize Problem that has been solved so far?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Poincaré conjecture"
+      },
+      {
+        "id": "option-1",
+        "text": "P vs. NP problem"
+      },
+      {
+        "id": "option-2",
+        "text": "Riemann Hypothesis"
+      },
+      {
+        "id": "option-3",
+        "text": "Fermat's conjecture"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2387,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:2d1d9ce12d769156",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which two men are credited with independently discovering differential calculus? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Newton and Leibnitz"
+      },
+      {
+        "id": "option-1",
+        "text": "Plato and Aristotle"
+      },
+      {
+        "id": "option-2",
+        "text": "Asiimov and Rutherford"
+      },
+      {
+        "id": "option-3",
+        "text": "Dvorak and Smith"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2413,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:0d2d41d086cf9c46",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which mathematician refused the Fields Medal?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Grigori Perelman"
+      },
+      {
+        "id": "option-1",
+        "text": "Andrew Wiles"
+      },
+      {
+        "id": "option-2",
+        "text": "Terence Tao"
+      },
+      {
+        "id": "option-3",
+        "text": "Edward Witten"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2435,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:d5fa0e2ebce690ca",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Integration is the reverse of what mathematical operation?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Derivation"
+      },
+      {
+        "id": "option-1",
+        "text": "Division"
+      },
+      {
+        "id": "option-2",
+        "text": "Standard Deviation"
+      },
+      {
+        "id": "option-3",
+        "text": "Multiplication"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2542,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:3f00b402a4b452d7",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following mathematicians made major contributions to game theory?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John Von Neumann"
+      },
+      {
+        "id": "option-1",
+        "text": "Carl Friedrich Gauss"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonhard Euler"
+      },
+      {
+        "id": "option-3",
+        "text": "Stefan Banach"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2565,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:9dcb52eefc5c797c",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the equation for the area of a sphere?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "(4/3)πr^3"
+      },
+      {
+        "id": "option-1",
+        "text": "4πr^2"
+      },
+      {
+        "id": "option-2",
+        "text": "(1/3)πhr^2"
+      },
+      {
+        "id": "option-3",
+        "text": "πr^4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2737,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:aa679519cbd6f07a",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What type of angle is greater than 90°?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Obtuse"
+      },
+      {
+        "id": "option-1",
+        "text": "Acute"
+      },
+      {
+        "id": "option-2",
+        "text": "Right"
+      },
+      {
+        "id": "option-3",
+        "text": "Straight"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2845,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:941f6a81bc99a36b",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2854,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:16c4f72f0b243870",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A universal set, or a set that contains all sets, exists.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2886,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:4c144409c37df950",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In a normal distribution, 95% of the data lies within how many standard deviations of the mean?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "2"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2965,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:8e04643b53ade605",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the complex plane, multiplying a given function by i rotates it anti-clockwise by how many degrees?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "90"
+      },
+      {
+        "id": "option-1",
+        "text": "180"
+      },
+      {
+        "id": "option-2",
+        "text": "270"
+      },
+      {
+        "id": "option-3",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3072,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:61272cd0648bb219",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What comes after a Million, a Billion, and a Trillion?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quadrillion"
+      },
+      {
+        "id": "option-1",
+        "text": "Sextillion"
+      },
+      {
+        "id": "option-2",
+        "text": "Quintillion"
+      },
+      {
+        "id": "option-3",
+        "text": "Septillion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3195,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:b4662c44c6ff46e3",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Zero factorial is equal to zero. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3264,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:27d4133fd5124cc5",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What's the square root of 49?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7"
+      },
+      {
+        "id": "option-1",
+        "text": "4"
+      },
+      {
+        "id": "option-2",
+        "text": "12"
+      },
+      {
+        "id": "option-3",
+        "text": "9"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3281,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:121bc38387ba2962",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many sides does a Möbius strip have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1"
+      },
+      {
+        "id": "option-1",
+        "text": "2"
+      },
+      {
+        "id": "option-2",
+        "text": "3"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3346,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:d54ea009b4dd743f",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the mathematician Euler's first name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Leonhard"
+      },
+      {
+        "id": "option-1",
+        "text": "Lionel"
+      },
+      {
+        "id": "option-2",
+        "text": "Andrin"
+      },
+      {
+        "id": "option-3",
+        "text": "Ajan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3663,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:0ee7b318d13d9f19",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The notion of a \"set that contains all sets which do not contain themselves\" is a paradoxical idea attributed to which English philosopher?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bertrand Russel"
+      },
+      {
+        "id": "option-1",
+        "text": "Francis Bacon"
+      },
+      {
+        "id": "option-2",
+        "text": "John Locke"
+      },
+      {
+        "id": "option-3",
+        "text": "Alfred North Whitehead"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3723,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:5adce25cc2f269b9",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What type of function is x²+2x+1?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Quadratic"
+      },
+      {
+        "id": "option-1",
+        "text": "Rational"
+      },
+      {
+        "id": "option-2",
+        "text": "Linear"
+      },
+      {
+        "id": "option-3",
+        "text": "Exponential"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3860,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:164e8934e92fafea",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The set of all algebraic numbers is countable.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3886,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:2fc689bfd810640f",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "111,111,111 x 111,111,111 = 12,345,678,987,654,321",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3939,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:24b859fa1cf8cb2e",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The 'Squaring the Circle' problem is solvable.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3950,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:379668229b637a77",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these did mathematician Leonhard Euler NOT develop?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "An improvement to the Fast Fourier Transform"
+      },
+      {
+        "id": "option-1",
+        "text": "A method of solving first-order differential equations"
+      },
+      {
+        "id": "option-2",
+        "text": "An identity linking the numbers e, pi and i"
+      },
+      {
+        "id": "option-3",
+        "text": "A formula linking vertices, edges and faces on a graph"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4041,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:c474d22e1ae156de",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "A mathematical constant, known as \"The Golden Ratio\", is most commonly represented by which greek letter?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Φ (phi)"
+      },
+      {
+        "id": "option-1",
+        "text": "π (pi)"
+      },
+      {
+        "id": "option-2",
+        "text": "Ψ (psi)"
+      },
+      {
+        "id": "option-3",
+        "text": "Τ (tau)"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4095,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:cfc68acb5f17d168",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following famous mathematicians died in a duel at the age of 20?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Galois"
+      },
+      {
+        "id": "option-1",
+        "text": "Abel"
+      },
+      {
+        "id": "option-2",
+        "text": "Euler"
+      },
+      {
+        "id": "option-3",
+        "text": "Gauss"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4170,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:13e5f832df08e46e",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Aleph-nought is the cardinality of the set of all natural numbers.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4198,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:0c5a705e1c75a3b7",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the area of a circle with a diameter of 20 inches if π= 3.1415?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "314.15 Inches"
+      },
+      {
+        "id": "option-1",
+        "text": "380.1215 Inches"
+      },
+      {
+        "id": "option-2",
+        "text": "3141.5 Inches"
+      },
+      {
+        "id": "option-3",
+        "text": "1256.6 Inches"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4212,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:5e50a02c50e2ae56",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The sum of any two odd integers is odd.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4335,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:9df0f52c44b8d9ce",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many zeptometres are inside one femtometre?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1,000,000"
+      },
+      {
+        "id": "option-1",
+        "text": "10"
+      },
+      {
+        "id": "option-2",
+        "text": "1,000,000,000"
+      },
+      {
+        "id": "option-3",
+        "text": "1000"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4350,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:6cd91ff0367bd811",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the Roman numeral for 500?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "D"
+      },
+      {
+        "id": "option-1",
+        "text": "L"
+      },
+      {
+        "id": "option-2",
+        "text": "C"
+      },
+      {
+        "id": "option-3",
+        "text": "X"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4390,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:1b90e18f81404729",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What shape does sin(x) or cos(x) make on a graph?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Waves"
+      },
+      {
+        "id": "option-1",
+        "text": "A Parabola"
+      },
+      {
+        "id": "option-2",
+        "text": "A Straight Line"
+      },
+      {
+        "id": "option-3",
+        "text": "Zig-Zags"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4499,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:276f25b8b42e3ce6",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What prime number comes next after 19?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "23"
+      },
+      {
+        "id": "option-1",
+        "text": "25"
+      },
+      {
+        "id": "option-2",
+        "text": "21"
+      },
+      {
+        "id": "option-3",
+        "text": "27"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4613,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:62a291bcf597cd18",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "To the nearest whole number, how many radians are in a whole circle?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "6"
+      },
+      {
+        "id": "option-1",
+        "text": "3"
+      },
+      {
+        "id": "option-2",
+        "text": "4"
+      },
+      {
+        "id": "option-3",
+        "text": "5"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4628,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:75e43abe13064c25",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which greek mathematician ran through the streets of Syracuse naked while shouting \"Eureka\" after discovering the principle of displacement?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Archimedes"
+      },
+      {
+        "id": "option-1",
+        "text": "Euclid"
+      },
+      {
+        "id": "option-2",
+        "text": "Homer"
+      },
+      {
+        "id": "option-3",
+        "text": "Eratosthenes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4670,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:de2751b84fbb2dcf",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the hexadecimal system, what number comes after 9?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Letter A"
+      },
+      {
+        "id": "option-1",
+        "text": "10"
+      },
+      {
+        "id": "option-2",
+        "text": "The Number 0"
+      },
+      {
+        "id": "option-3",
+        "text": "16"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4808,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:4fb65fd425216899",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "A scalene triangle has two sides of equal length.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4895,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:e7806944f498faa6",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the least number of sides a polygon can have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "3"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "2"
+      },
+      {
+        "id": "option-3",
+        "text": "7"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4896,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:a344b66d1462df91",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many sides does a trapezium have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4"
+      },
+      {
+        "id": "option-1",
+        "text": "3"
+      },
+      {
+        "id": "option-2",
+        "text": "5"
+      },
+      {
+        "id": "option-3",
+        "text": "6"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4931,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:92b7afebe45b47b5",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not one of the seven Millennium Prize Problems?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Naviér conjecture"
+      },
+      {
+        "id": "option-1",
+        "text": "Birch and Swinnerton-Dyer Conjecture"
+      },
+      {
+        "id": "option-2",
+        "text": "Riemann hypothesis"
+      },
+      {
+        "id": "option-3",
+        "text": "Poincaré conjecture"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5105,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:343df617340c78c7",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The French mathematician Évariste Galois is primarily known for his work in which?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Galois Theory"
+      },
+      {
+        "id": "option-1",
+        "text": "Galois' Continued Fractions"
+      },
+      {
+        "id": "option-2",
+        "text": "Galois' Method for PDE's "
+      },
+      {
+        "id": "option-3",
+        "text": "Abelian Integration"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5110,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:7e9ad0013a703227",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these probability distributions is NOT discrete?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Normal"
+      },
+      {
+        "id": "option-1",
+        "text": "Binomial"
+      },
+      {
+        "id": "option-2",
+        "text": "Poisson"
+      },
+      {
+        "id": "option-3",
+        "text": "Hyper-geometric"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5204,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:b3e7dcd349c97c0d",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The binary number \"101001101\" is equivalent to the Decimal number \"334\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5380,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:01af2d54db0d3fbc",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many sides does a pentagon have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "5"
+      },
+      {
+        "id": "option-1",
+        "text": "9"
+      },
+      {
+        "id": "option-2",
+        "text": "6"
+      },
+      {
+        "id": "option-3",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5478,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:6a27b1a8a28aa5f7",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The decimal number 31 in hexadecimal would be what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1F"
+      },
+      {
+        "id": "option-1",
+        "text": "3D"
+      },
+      {
+        "id": "option-2",
+        "text": "2E"
+      },
+      {
+        "id": "option-3",
+        "text": "1B"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5616,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:4d3769c0664ac02c",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many square faces does a cube have?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "6"
+      },
+      {
+        "id": "option-1",
+        "text": "4"
+      },
+      {
+        "id": "option-2",
+        "text": "8"
+      },
+      {
+        "id": "option-3",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5682,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:mathematics:850f51013c361146",
+    "category": "mathematics",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "You can square root a negative number with an imaginary number \"i\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5684,
+      "category": "Science: Mathematics",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

@@ -53,14 +53,36 @@ test('T27 mantém evidência individual consistente com as 228 novas aprovaçõe
       correctOptionId: original.correctOptionId,
     });
   }
+  const historicalSources = await read('data/editorial-baselines/t27-sources.json');
+  const currentSources = await read('data/sources.json');
+  for (const source of historicalSources.sources) {
+    const current = currentSources.sources.find((s) => s.id === source.id);
+    assert.ok(current, `Fonte histórica ausente: ${source.id}`);
+    // Later imports may update collection statistics, never historical attribution.
+    for (const field of [
+      'id',
+      'title',
+      'url',
+      'documentationUrl',
+      'revision',
+      'license',
+      'licenseFile',
+      'locale',
+    ])
+      assert.equal(current[field], source[field], `${source.id}.${field}`);
+  }
   for (const [file, expected] of Object.entries(report.unchangedInputsSha256)) {
-    assert.equal(
-      createHash('sha256')
-        .update(await readFile(new URL(file, root)))
-        .digest('hex'),
-      expected,
-      file,
-    );
+    let bytes = await readFile(new URL(file, root));
+    if (file.startsWith('data/questions/candidates/opentdb/')) {
+      // T27 froze the first collection, not the size of every subsequent import.
+      // Reconstruct its exact bytes and keep the original recorded hash as oracle.
+      const source = historicalSources.sources.find((s) => s.id === 'opentdb');
+      const original = JSON.parse(bytes).filter((q) => q.source.recordIndex < source.receivedCount);
+      bytes = Buffer.from(`${JSON.stringify(original, null, 2)}\n`);
+    } else if (file === 'data/sources.json') {
+      bytes = await readFile(new URL('data/editorial-baselines/t27-sources.json', root));
+    }
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), expected, file);
   }
   for (const old of t11.records) {
     const q = baseline.questions.find((q) => q.id === old.id);

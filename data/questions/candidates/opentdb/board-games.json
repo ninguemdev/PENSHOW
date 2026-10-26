@@ -488,5 +488,2149 @@
       "category": "Entertainment: Board Games",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:board-games:38bde558ca4f8508",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the development code name for the \"Urza's Destiny\" expansion for \"Magic: The Gathering\", released in 1999?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chimichanga"
+      },
+      {
+        "id": "option-1",
+        "text": "Burrito"
+      },
+      {
+        "id": "option-2",
+        "text": "Taquito"
+      },
+      {
+        "id": "option-3",
+        "text": "Enchilada"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1068,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:05151c47ef31d069",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many dice are used in the game of Yahtzee?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Five"
+      },
+      {
+        "id": "option-1",
+        "text": "Four"
+      },
+      {
+        "id": "option-2",
+        "text": "Six"
+      },
+      {
+        "id": "option-3",
+        "text": "Eight"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1133,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:7f4ef7fe4ca52178",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which character class in Dungeons and Dragons 5th edition gains it's powers from making a pact with a being of higher power?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Warlock"
+      },
+      {
+        "id": "option-1",
+        "text": "Wizard"
+      },
+      {
+        "id": "option-2",
+        "text": "Sorceror"
+      },
+      {
+        "id": "option-3",
+        "text": "Cleric"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1159,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e1bc65368492ba5e",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "There is a Donald Trump Board Game, which was made in 1989.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1304,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:519a10b70d129d81",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What do you declare in Rīchi Mahjong when you've drawn your winning tile?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tsumo"
+      },
+      {
+        "id": "option-1",
+        "text": "Ron"
+      },
+      {
+        "id": "option-2",
+        "text": "Rīchi"
+      },
+      {
+        "id": "option-3",
+        "text": "Kan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1435,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:3a56b77fc36a08e0",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Magic: The Gathering, what was a tribute card to Jamie Wakefield's late wife Marilyn, who loved horses?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Timbermare"
+      },
+      {
+        "id": "option-1",
+        "text": "Loyal Pegasus"
+      },
+      {
+        "id": "option-2",
+        "text": "Vryn Wingmare"
+      },
+      {
+        "id": "option-3",
+        "text": "Sungrace Pegasus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1553,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:193dcbb1350d2e91",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many spaces are there on a standard Monopoly board?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "40"
+      },
+      {
+        "id": "option-1",
+        "text": "28"
+      },
+      {
+        "id": "option-2",
+        "text": "55"
+      },
+      {
+        "id": "option-3",
+        "text": "36"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1571,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:fcd7348eba4fd4e7",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Snakes and Ladders was originally created in India?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1584,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:6bb01e8c814267b7",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Magic: The Gathering\", what instant card has the highest converted mana cost?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Blinkmoth Infusion"
+      },
+      {
+        "id": "option-1",
+        "text": "Vitalizing Wind"
+      },
+      {
+        "id": "option-2",
+        "text": " Chant of Vitu-Ghazi"
+      },
+      {
+        "id": "option-3",
+        "text": "Assert Authority"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1623,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:feb1b26c53e7cd49",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What happens when you roll 3 doubles in a row in Monopoly?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Go to jail"
+      },
+      {
+        "id": "option-1",
+        "text": "Get paid $200"
+      },
+      {
+        "id": "option-2",
+        "text": "Pay $200"
+      },
+      {
+        "id": "option-3",
+        "text": "Move to Free Parking"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1652,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e2194906d3fd1c82",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What letter is used to refer to blue mana in the card game Magic The Gathering?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "U"
+      },
+      {
+        "id": "option-1",
+        "text": "B"
+      },
+      {
+        "id": "option-2",
+        "text": "L"
+      },
+      {
+        "id": "option-3",
+        "text": "E"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1920,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e504e3e31ddb0269",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Magic: The Gathering, what term for blocking was established in the Portal set?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Intercepting"
+      },
+      {
+        "id": "option-1",
+        "text": "Blocking"
+      },
+      {
+        "id": "option-2",
+        "text": "Resisting"
+      },
+      {
+        "id": "option-3",
+        "text": "Shielding"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1939,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:0a961810d22c48dc",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the sum of all the tiles in a standard box of Scrabble?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "187"
+      },
+      {
+        "id": "option-1",
+        "text": "207"
+      },
+      {
+        "id": "option-2",
+        "text": "197"
+      },
+      {
+        "id": "option-3",
+        "text": "177"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1949,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:2c10e67d609c22c0",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the main character in the VHS tape included in the board game Nightmare?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Gatekeeper"
+      },
+      {
+        "id": "option-1",
+        "text": "The Kryptkeeper"
+      },
+      {
+        "id": "option-2",
+        "text": "The Monster"
+      },
+      {
+        "id": "option-3",
+        "text": "The Nightmare"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2103,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:0e0a4f7c1677971d",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "7"
+      },
+      {
+        "id": "option-1",
+        "text": "3"
+      },
+      {
+        "id": "option-2",
+        "text": "10"
+      },
+      {
+        "id": "option-3",
+        "text": "1"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2179,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:ac5f715158d9f3a0",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is NOT a class in Dungeons and Dragons 5e?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Engineer "
+      },
+      {
+        "id": "option-1",
+        "text": "Fighter "
+      },
+      {
+        "id": "option-2",
+        "text": "Paladin "
+      },
+      {
+        "id": "option-3",
+        "text": "Bard"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2386,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:36578833c7fb9ff8",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"Rich Uncle Pennybags\" from the board game \"Monopoly\" wears a monocle.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2459,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:28baf0a0480ba346",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The board game Go has more possible legal positions than the number of atoms in the visible universe.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2460,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:de71a6689f685203",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which ability from the \"Magic: The Gathering\" Scars of Mirrodin expansion involves having at least three artifacts in play?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Metalcraft"
+      },
+      {
+        "id": "option-1",
+        "text": "Affinity"
+      },
+      {
+        "id": "option-2",
+        "text": "Imprint"
+      },
+      {
+        "id": "option-3",
+        "text": "Living Weapon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2539,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:25f58befca9aa622",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was world chess champion between 1894 and 1921",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Emanuel Lasker"
+      },
+      {
+        "id": "option-1",
+        "text": "José Raúl Capablanca"
+      },
+      {
+        "id": "option-2",
+        "text": "Wilhelm Steinitz"
+      },
+      {
+        "id": "option-3",
+        "text": "Bobby Fischer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2550,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e92a04c4995db4eb",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The Angry Video Game Nerd's alter ego is \"Board James\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2648,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:80d47afec7e376f2",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the development code name for the \"Weatherlight\" expansion for \"Magic: The Gathering\", released in 1997?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mocha Latte"
+      },
+      {
+        "id": "option-1",
+        "text": "Decaf"
+      },
+      {
+        "id": "option-2",
+        "text": "Frappuccino"
+      },
+      {
+        "id": "option-3",
+        "text": "Macchiato"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2796,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:c299586dd0b852c6",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The board game Monopoly takes its street names from which real American city?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atlantic City, New Jersey"
+      },
+      {
+        "id": "option-1",
+        "text": "Las Vegas, Nevada"
+      },
+      {
+        "id": "option-2",
+        "text": "Duluth, Minnesota"
+      },
+      {
+        "id": "option-3",
+        "text": "Charleston, South Carolina"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2842,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:dde36066448e8e5d",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Dungeons and Dragons (5th edition), what stat do you normally add onto your initiative die roll?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Dexterity"
+      },
+      {
+        "id": "option-1",
+        "text": "Speed"
+      },
+      {
+        "id": "option-2",
+        "text": "Strength"
+      },
+      {
+        "id": "option-3",
+        "text": "Wisdom"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2861,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:0d00788be2999bc9",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was the first official world chess champion?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wilhelm Steinitz"
+      },
+      {
+        "id": "option-1",
+        "text": "José Raúl Capablanca"
+      },
+      {
+        "id": "option-2",
+        "text": "Emanuel Lasker"
+      },
+      {
+        "id": "option-3",
+        "text": "Bobby Fischer"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2985,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:772f74185adb706f",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "At the start of a standard game of the Monopoly, if you throw a double six, which square would you land on?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Electric Company"
+      },
+      {
+        "id": "option-1",
+        "text": "Water Works"
+      },
+      {
+        "id": "option-2",
+        "text": "Chance"
+      },
+      {
+        "id": "option-3",
+        "text": "Community Chest"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3020,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e167d53d2dfabae5",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In \"Magic: The Gathering\", during the design for Planar Chaos, what color did the developers think of adding in as the sixth color?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Purple"
+      },
+      {
+        "id": "option-1",
+        "text": "Brown"
+      },
+      {
+        "id": "option-2",
+        "text": "Pink"
+      },
+      {
+        "id": "option-3",
+        "text": "Orange"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3209,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:0dffb0e9f9094d55",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The board game \"Ra\" was designed by which designer? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Reiner Knizia"
+      },
+      {
+        "id": "option-1",
+        "text": "Bruno Cathala"
+      },
+      {
+        "id": "option-2",
+        "text": "Uwe Rosenburg"
+      },
+      {
+        "id": "option-3",
+        "text": "Allison Kline"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3237,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:d10fcd53fc48ff81",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"PAYDAY: The Heist\" is a sequel to the board game \"Payday\".",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3253,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:7541097084d58f0e",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "On a standard Monopoly board, which square is diagonally opposite 'Go'? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Free Parking"
+      },
+      {
+        "id": "option-1",
+        "text": "Go to Jail"
+      },
+      {
+        "id": "option-2",
+        "text": "Jail"
+      },
+      {
+        "id": "option-3",
+        "text": "The Electric Company"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3400,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:1537314cc1cdaf63",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following characters is not in the board game Clue?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mister Indigo"
+      },
+      {
+        "id": "option-1",
+        "text": "Colonel Mustard"
+      },
+      {
+        "id": "option-2",
+        "text": "Reverend Green"
+      },
+      {
+        "id": "option-3",
+        "text": "Miss Scarlet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3452,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:d1e4ef3f47fd53d6",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The board game \"Monopoly\" is a variation of what board game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Landlord's Game"
+      },
+      {
+        "id": "option-1",
+        "text": "Territorial Dispute"
+      },
+      {
+        "id": "option-2",
+        "text": "Property Feud"
+      },
+      {
+        "id": "option-3",
+        "text": "The Monopolist's Game"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3610,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:aaac1cf3b2aec8e2",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which board game was first released on February 6th, 1935?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Monopoly"
+      },
+      {
+        "id": "option-1",
+        "text": "Risk"
+      },
+      {
+        "id": "option-2",
+        "text": "Clue"
+      },
+      {
+        "id": "option-3",
+        "text": "Candy Land"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3748,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:539b19b73d699148",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the most challenging monster in the Dungeons & Dragons 5th Edition Monster Manual?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tarrasque"
+      },
+      {
+        "id": "option-1",
+        "text": "Beholder"
+      },
+      {
+        "id": "option-2",
+        "text": "Displacer Beast"
+      },
+      {
+        "id": "option-3",
+        "text": "Lich"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3793,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:51b5f4d9a862ffd9",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which year was the pen and paper RPG \"Deadlands\" released?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1996"
+      },
+      {
+        "id": "option-1",
+        "text": "2003"
+      },
+      {
+        "id": "option-2",
+        "text": "1999"
+      },
+      {
+        "id": "option-3",
+        "text": "1993"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3900,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:34f67918572d783e",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Wooden molding scraps were used to make the original Monopoly houses and hotels.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4050,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:3fcd492438419231",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "About how many Slinkys were sold in their first 60 years (from 1945 to 2005)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "300 Million"
+      },
+      {
+        "id": "option-1",
+        "text": "100 Million"
+      },
+      {
+        "id": "option-2",
+        "text": "450 Million"
+      },
+      {
+        "id": "option-3",
+        "text": "1 Billion"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4162,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:13c7d2f092cca2a3",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the Dungeons and Dragons universe, Beshaba is the deity of bad luck. ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4195,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:dd53dda3c2253368",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not a color of mana in Magic: The Gathering?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Yellow"
+      },
+      {
+        "id": "option-1",
+        "text": "White"
+      },
+      {
+        "id": "option-2",
+        "text": "Green"
+      },
+      {
+        "id": "option-3",
+        "text": "Blue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4342,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:4794b2dd1e27e8cc",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Dice Tower network of board game podcasts and videos is run by which individual?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tom Vasel"
+      },
+      {
+        "id": "option-1",
+        "text": "Jason LeVine"
+      },
+      {
+        "id": "option-2",
+        "text": "Borth Sampson"
+      },
+      {
+        "id": "option-3",
+        "text": "Uncle Pennybags"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4440,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:0194b3da76565e53",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Europa Universalis is a strategy video game based on which French board game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Europa Universalis"
+      },
+      {
+        "id": "option-1",
+        "text": "Europe and the Universe"
+      },
+      {
+        "id": "option-2",
+        "text": "Europa!"
+      },
+      {
+        "id": "option-3",
+        "text": "Power in Europe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4475,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:c4f2a03c20c480de",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In board games, an additional or ammended rule that applies to a certain group or place is informally known as a \"what\" rule?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "House"
+      },
+      {
+        "id": "option-1",
+        "text": "Custom"
+      },
+      {
+        "id": "option-2",
+        "text": "Extra"
+      },
+      {
+        "id": "option-3",
+        "text": "Change"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4508,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:8c65ce9104968657",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the world's oldest board game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Senet"
+      },
+      {
+        "id": "option-1",
+        "text": "Chess"
+      },
+      {
+        "id": "option-2",
+        "text": "Checkers"
+      },
+      {
+        "id": "option-3",
+        "text": "Go"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4606,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:98f6e7af43914189",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Some of the \"Fallen Empires\" cards from \"Magic: The Gathering\" were misprinted on the backs of which other card game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Wyvern"
+      },
+      {
+        "id": "option-1",
+        "text": "Pokemon"
+      },
+      {
+        "id": "option-2",
+        "text": "Dominion"
+      },
+      {
+        "id": "option-3",
+        "text": "Yu-Gi-Oh"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4634,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:6e7dd37d6e469e13",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Pokemon is #39 in the National Pokedex?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jigglypuff"
+      },
+      {
+        "id": "option-1",
+        "text": "Pikachu"
+      },
+      {
+        "id": "option-2",
+        "text": "Psyduck"
+      },
+      {
+        "id": "option-3",
+        "text": "Fearow"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4660,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:a78825054056d3a6",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Chess, the Queen has the combined movement of which two pieces?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bishop and Rook"
+      },
+      {
+        "id": "option-1",
+        "text": "Rook and King"
+      },
+      {
+        "id": "option-2",
+        "text": "Knight and Bishop"
+      },
+      {
+        "id": "option-3",
+        "text": "King and Knight"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4838,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:56a1bd7f51b784bd",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many points is the Z tile worth in Scrabble?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "10"
+      },
+      {
+        "id": "option-1",
+        "text": "8"
+      },
+      {
+        "id": "option-2",
+        "text": "5"
+      },
+      {
+        "id": "option-3",
+        "text": "6"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4885,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:6aceeed1537a61d9",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which one of these is not a real game in the Dungeons & Dragons series?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Extreme Dungeons & Dragons"
+      },
+      {
+        "id": "option-1",
+        "text": "Advanced Dungeons & Dragons"
+      },
+      {
+        "id": "option-2",
+        "text": "Dungeons & Dragons 3.5th edition"
+      },
+      {
+        "id": "option-3",
+        "text": "Advanced Dungeons & Dragons 2nd edition"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4908,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:6e67982e33bd7b03",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The card game \"Munchkin\" won the 2001 Origins Award for Best Traditional Card Game.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4919,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:6ed09eb7622e7246",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many rooms are there, not including the hallways and the set of stairs, in the board game \"Clue\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "9"
+      },
+      {
+        "id": "option-1",
+        "text": "1"
+      },
+      {
+        "id": "option-2",
+        "text": "6"
+      },
+      {
+        "id": "option-3",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5037,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:43558966d5601b0b",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The top human players can easily beat the top computers at chess",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5109,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:e167cc1d6990fcf8",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the maximum level you can have in a single class in Dungeons and Dragons (5e)?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "20"
+      },
+      {
+        "id": "option-1",
+        "text": "30"
+      },
+      {
+        "id": "option-2",
+        "text": "15"
+      },
+      {
+        "id": "option-3",
+        "text": "25"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5311,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:26e724bbeb9e4979",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In chess, which is a characteristic of the King's Gambit?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sacrificing a pawn"
+      },
+      {
+        "id": "option-1",
+        "text": "Sacrificing the king for a queen"
+      },
+      {
+        "id": "option-2",
+        "text": "Castling kingside"
+      },
+      {
+        "id": "option-3",
+        "text": "Moving the king on the 2nd move"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5327,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:c203fee5f7b3c1b8",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following tabletop games is the oldest?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Go"
+      },
+      {
+        "id": "option-1",
+        "text": "Chess"
+      },
+      {
+        "id": "option-2",
+        "text": "Mahjong"
+      },
+      {
+        "id": "option-3",
+        "text": "Shogi"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5356,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:70ba177fe55eb6f1",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many dots are on a single die?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "21"
+      },
+      {
+        "id": "option-1",
+        "text": "24"
+      },
+      {
+        "id": "option-2",
+        "text": "15"
+      },
+      {
+        "id": "option-3",
+        "text": "18"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5583,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:67a85229a759433f",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In poker, \"EV\" means what?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Expected Value"
+      },
+      {
+        "id": "option-1",
+        "text": "Equity Value"
+      },
+      {
+        "id": "option-2",
+        "text": "Equivalent Variation"
+      },
+      {
+        "id": "option-3",
+        "text": "Equity Variation"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5721,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:70a1a75d5326a11e",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What type is \"Magic Drain\" in Yugioh! Trading Card Game?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Counter Trap"
+      },
+      {
+        "id": "option-1",
+        "text": "Normal Trap"
+      },
+      {
+        "id": "option-2",
+        "text": "Quick-Play Spell"
+      },
+      {
+        "id": "option-3",
+        "text": "Field Spell"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5761,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:2bf7dcbf9b26681e",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In a standard game of Monopoly, what colour are the two cheapest properties?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brown"
+      },
+      {
+        "id": "option-1",
+        "text": "Green"
+      },
+      {
+        "id": "option-2",
+        "text": "Yellow"
+      },
+      {
+        "id": "option-3",
+        "text": "Blue"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5827,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:ecdb16651a6e9098",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When Magic: The Gathering was first solicited, which of the following was it originally titled?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Mana Clash"
+      },
+      {
+        "id": "option-1",
+        "text": "Magic"
+      },
+      {
+        "id": "option-2",
+        "text": "Magic Clash"
+      },
+      {
+        "id": "option-3",
+        "text": "Mana Duels"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6004,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:083ec413d56d19c6",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the board game Twister, released to the public?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "April 1966"
+      },
+      {
+        "id": "option-1",
+        "text": "September 1965"
+      },
+      {
+        "id": "option-2",
+        "text": "January 1969"
+      },
+      {
+        "id": "option-3",
+        "text": "February 1966"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6031,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:f10b4217df0e0b7d",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year was the card game Magic: the Gathering first introduced?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1993"
+      },
+      {
+        "id": "option-1",
+        "text": "1987"
+      },
+      {
+        "id": "option-2",
+        "text": "1998"
+      },
+      {
+        "id": "option-3",
+        "text": "2003"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6083,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:056cd1e7084504f2",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "When setting up a chess board, the king is placed on a square of his own color.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6088,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:cb63d2277c904e2b",
+    "category": "board-games",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these cards from \"Magic: The Gathering\" has a flavor text that begins with \"Oi oi oi\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Uthden Troll"
+      },
+      {
+        "id": "option-1",
+        "text": "Lotleth Troll"
+      },
+      {
+        "id": "option-2",
+        "text": "Albino Troll"
+      },
+      {
+        "id": "option-3",
+        "text": "Harvester Troll"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6144,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:board-games:ce78262b8965354f",
+    "category": "board-games",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "In the game \"Racko\" you may pick up ANY card from the discard pile.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6184,
+      "category": "Entertainment: Board Games",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

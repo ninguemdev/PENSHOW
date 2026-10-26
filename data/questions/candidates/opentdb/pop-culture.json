@@ -173,5 +173,1645 @@
       "category": "Celebrities",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:pop-culture:44edc09d40c01139",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In 2014, this new top 100 rapper who featured in \"Computers\" and \"Body Dance\" was arrested in a NYPD sting for murder.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bobby Shmurda"
+      },
+      {
+        "id": "option-1",
+        "text": "DJ Snake"
+      },
+      {
+        "id": "option-2",
+        "text": "Swae Lee"
+      },
+      {
+        "id": "option-3",
+        "text": "Young Thug"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1042,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:5ade3074db2b3920",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was James Coburn's last film role before his death?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "American Gun"
+      },
+      {
+        "id": "option-1",
+        "text": "Monsters Inc"
+      },
+      {
+        "id": "option-2",
+        "text": "Texas Rangers"
+      },
+      {
+        "id": "option-3",
+        "text": "Snow Dogs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1051,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:dbfeee5041e9f5b2",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which celebrity announced his presidency in 2015?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Kanye West"
+      },
+      {
+        "id": "option-1",
+        "text": "Donald Trump"
+      },
+      {
+        "id": "option-2",
+        "text": "Leonardo DiCaprio"
+      },
+      {
+        "id": "option-3",
+        "text": "Miley Cyrus"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1086,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:f3d329381718e9a4",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In what year did \"Bob Ross\" die?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1995"
+      },
+      {
+        "id": "option-1",
+        "text": "1986"
+      },
+      {
+        "id": "option-2",
+        "text": "1989"
+      },
+      {
+        "id": "option-3",
+        "text": "1997"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1174,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:25ee64a679cf948c",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1619,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:3ffa27fbfe601de2",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year was O.J. Simpson aquitted of his murder charges?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1995"
+      },
+      {
+        "id": "option-1",
+        "text": "1992"
+      },
+      {
+        "id": "option-2",
+        "text": "1996"
+      },
+      {
+        "id": "option-3",
+        "text": "1991"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1704,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:134c091a41bd5368",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the religion of famous singer \"Freddie Mercury\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Zoroastrianism"
+      },
+      {
+        "id": "option-1",
+        "text": "Paganism"
+      },
+      {
+        "id": "option-2",
+        "text": "Ashurism"
+      },
+      {
+        "id": "option-3",
+        "text": "Judaism"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2354,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:14d8326873d25541",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was the name of Marilyn Monroe's first husband?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James Dougherty"
+      },
+      {
+        "id": "option-1",
+        "text": "Joe Dimaggio"
+      },
+      {
+        "id": "option-2",
+        "text": "Kirk Douglas"
+      },
+      {
+        "id": "option-3",
+        "text": "Arthur Miller"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2407,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:c95d181eb77ce9c1",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bing Crosby"
+      },
+      {
+        "id": "option-1",
+        "text": "Elvis Presley"
+      },
+      {
+        "id": "option-2",
+        "text": "Charlie Chaplin"
+      },
+      {
+        "id": "option-3",
+        "text": "Groucho Marx"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2684,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:de96ba3b664a9db2",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Marilyn Monroe was born on July 1, 1926.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2931,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:5299f012b60a9b9b",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these celebrities was not a member of the Jackson 5?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bo Jackson"
+      },
+      {
+        "id": "option-1",
+        "text": "Tito Jackson"
+      },
+      {
+        "id": "option-2",
+        "text": "Jermaine Jackson"
+      },
+      {
+        "id": "option-3",
+        "text": "Marlon Jackson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3132,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:233caa35b8784ff2",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Nikki Diamond portrayed which Gladiator in the 1992 TV show \"Gladiators\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Scorpio"
+      },
+      {
+        "id": "option-1",
+        "text": "Jet"
+      },
+      {
+        "id": "option-2",
+        "text": "Nightshade"
+      },
+      {
+        "id": "option-3",
+        "text": "Falcon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3340,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:1bf2d983fb033daf",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "By which name is Ramon Estevez better known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Martin Sheen"
+      },
+      {
+        "id": "option-1",
+        "text": "Charlie Sheen"
+      },
+      {
+        "id": "option-2",
+        "text": "Ramon Sheen"
+      },
+      {
+        "id": "option-3",
+        "text": "Emilio Estevez"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3397,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:49d5d1bee444483d",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who was Donald Trump's first wife?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Ivana Zelníčková"
+      },
+      {
+        "id": "option-1",
+        "text": "Melania Knauss"
+      },
+      {
+        "id": "option-2",
+        "text": "Marla Maples"
+      },
+      {
+        "id": "option-3",
+        "text": "Nancy Davis"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3530,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:a5833cc0b44d45a4",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Tupac Shakur died due to complications from being stabbed in 1996.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3568,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:b1c02c168e45687b",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Auction Hunters"
+      },
+      {
+        "id": "option-1",
+        "text": "Ramsay's Kitchen Nightmares"
+      },
+      {
+        "id": "option-2",
+        "text": "Hotel Hell"
+      },
+      {
+        "id": "option-3",
+        "text": "Hell's Kitchen"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3777,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:36a0d3a088e6162f",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How much weight did Chris Pratt lose for his role as Star-Lord in \"Guardians of the Galaxy\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "60 lbs"
+      },
+      {
+        "id": "option-1",
+        "text": "30 lbs"
+      },
+      {
+        "id": "option-2",
+        "text": "50 lbs"
+      },
+      {
+        "id": "option-3",
+        "text": "70 lbs"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3869,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:00a34dcbbd15c66c",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Michael Jackson had a pet python named ‘Crusher’.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3937,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:9937ea0713bd7331",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How old was Muhammad Ali when he died?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "74"
+      },
+      {
+        "id": "option-1",
+        "text": "61"
+      },
+      {
+        "id": "option-2",
+        "text": "He's still alive"
+      },
+      {
+        "id": "option-3",
+        "text": "56"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3959,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:28f6c710e78156cf",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Before voicing Pearl in Steven Universe, Deedee Magno Hall was part of which American band?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Party"
+      },
+      {
+        "id": "option-1",
+        "text": "The Weather Girls"
+      },
+      {
+        "id": "option-2",
+        "text": "The Pussycat Dolls"
+      },
+      {
+        "id": "option-3",
+        "text": "The Cheetah Girls"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4026,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:33df5f9d965cfa2a",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which TV chef wrote an autobiography titled \"Humble Pie\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gordon Ramsay"
+      },
+      {
+        "id": "option-1",
+        "text": "Jamie Oliver"
+      },
+      {
+        "id": "option-2",
+        "text": "Ainsley Harriott"
+      },
+      {
+        "id": "option-3",
+        "text": "Antony Worrall Thompson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4203,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:2469b6cdb3cbcec7",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which television show has Dan Gheesling been on?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Big Brother"
+      },
+      {
+        "id": "option-1",
+        "text": "Jeopardy"
+      },
+      {
+        "id": "option-2",
+        "text": "Survivor"
+      },
+      {
+        "id": "option-3",
+        "text": "The Bachelor"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4268,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:fa2ef202528cc9f6",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "Terry Gilliam is the only American member of the comedy troupe \"Monty Python.\"",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4273,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:d2b1ecb43c02f988",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Aubrey Graham is better known as",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Drake"
+      },
+      {
+        "id": "option-1",
+        "text": "Travis Scott"
+      },
+      {
+        "id": "option-2",
+        "text": "Lil Wayne"
+      },
+      {
+        "id": "option-3",
+        "text": "2 Chainz"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4304,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:43de6d5cb4f9306e",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How tall is Tom Cruise?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "5′ 7″"
+      },
+      {
+        "id": "option-1",
+        "text": "5′ 9″"
+      },
+      {
+        "id": "option-2",
+        "text": "5′ 4″"
+      },
+      {
+        "id": "option-3",
+        "text": "5′ 5″"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4353,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:0cbc2f8e44b5c3eb",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Donald J. Trump's Middle Name is...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "John"
+      },
+      {
+        "id": "option-1",
+        "text": "Jeff"
+      },
+      {
+        "id": "option-2",
+        "text": "Jerald"
+      },
+      {
+        "id": "option-3",
+        "text": "Jason"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4357,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:68c783631836f664",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was Elvis Presley born?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "January 8, 1935"
+      },
+      {
+        "id": "option-1",
+        "text": "December 13, 1931"
+      },
+      {
+        "id": "option-2",
+        "text": "July 18, 1940"
+      },
+      {
+        "id": "option-3",
+        "text": "April 17, 1938"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4460,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:5047a37f97fbd22c",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What does film maker Dan Bell typically focus his films on?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Abandoned Buildings and Dead Malls"
+      },
+      {
+        "id": "option-1",
+        "text": "Historic Landmarks"
+      },
+      {
+        "id": "option-2",
+        "text": "Action Films"
+      },
+      {
+        "id": "option-3",
+        "text": "Documentaries "
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4554,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:46361d1868975b6f",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Doug Walker's YouTube name?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Nostalgia Critic"
+      },
+      {
+        "id": "option-1",
+        "text": "The Angry Video Game Nerd"
+      },
+      {
+        "id": "option-2",
+        "text": "AngryJoeShow"
+      },
+      {
+        "id": "option-3",
+        "text": "The Cinema Snob"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4597,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:7df6d0218157ac92",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which school in Surrey, England did Steve Backshall attend?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Collingwood College"
+      },
+      {
+        "id": "option-1",
+        "text": "Tomlinscote School"
+      },
+      {
+        "id": "option-2",
+        "text": "Kings International College"
+      },
+      {
+        "id": "option-3",
+        "text": "Lyndhurst School"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4644,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:a3a6fe426dcd69b9",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these people is NOT a part of the Internet comedy group Mega64?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jon Jafari"
+      },
+      {
+        "id": "option-1",
+        "text": "Rocco Botte"
+      },
+      {
+        "id": "option-2",
+        "text": "Derrick Acosta"
+      },
+      {
+        "id": "option-3",
+        "text": "Shawn Chatfield"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4687,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:86843787ab9d562c",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Paul McCartney has always used his middle name. What is his real first name? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "James"
+      },
+      {
+        "id": "option-1",
+        "text": "John"
+      },
+      {
+        "id": "option-2",
+        "text": "Jack"
+      },
+      {
+        "id": "option-3",
+        "text": "Justin"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4944,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:6b5ccdb36d4cee6c",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Where was Kanye West born?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Atlanta, Georgia"
+      },
+      {
+        "id": "option-1",
+        "text": "Chicago, Illinois"
+      },
+      {
+        "id": "option-2",
+        "text": "Los Angeles, California"
+      },
+      {
+        "id": "option-3",
+        "text": "Detroit, Michigan"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4960,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:6e34a838aaa51fb0",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actress married Michael Douglas in 2000?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Catherine Zeta-Jones"
+      },
+      {
+        "id": "option-1",
+        "text": "Ruth Jones"
+      },
+      {
+        "id": "option-2",
+        "text": "Pam Ferris"
+      },
+      {
+        "id": "option-3",
+        "text": "Sara Sugarman"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5009,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:54527ecaa771579a",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is \"James Rolfe\" better known as?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Angry Video Game Nerd"
+      },
+      {
+        "id": "option-1",
+        "text": "TotalBiscuit"
+      },
+      {
+        "id": "option-2",
+        "text": "PeanutButterGamer"
+      },
+      {
+        "id": "option-3",
+        "text": "PewDiePie"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5168,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:f0f39ebedf7b4910",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Billy Herrington is from which US state?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "New York"
+      },
+      {
+        "id": "option-1",
+        "text": "Arizona"
+      },
+      {
+        "id": "option-2",
+        "text": "California"
+      },
+      {
+        "id": "option-3",
+        "text": "Georgia"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5280,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:44d53f0b28bcd86e",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the real name of \"moot\", founder of the imageboard 4chan?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Christopher Poole"
+      },
+      {
+        "id": "option-1",
+        "text": "Mark Zuckerberg"
+      },
+      {
+        "id": "option-2",
+        "text": "Allison Harvard"
+      },
+      {
+        "id": "option-3",
+        "text": "Catie Wayne"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5333,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:7a03f25b47685a7c",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "By what name is Carlos Estevez better known? ",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Charlie Sheen"
+      },
+      {
+        "id": "option-1",
+        "text": "Ricky Martin"
+      },
+      {
+        "id": "option-2",
+        "text": "Bruno Mars"
+      },
+      {
+        "id": "option-3",
+        "text": "Joaquin Phoenix"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5389,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:aaa2cf006e40f7a7",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is generally considered to be William Shakespeare's birth date?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "April 23rd, 1564"
+      },
+      {
+        "id": "option-1",
+        "text": "July 4th, 1409"
+      },
+      {
+        "id": "option-2",
+        "text": "September 29th, 1699"
+      },
+      {
+        "id": "option-3",
+        "text": "December 1st, 1750"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5462,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:8f6d0864e66682b4",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The eccentric natural philosopher Tycho Brahe kept what as a pet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Moose"
+      },
+      {
+        "id": "option-1",
+        "text": "Dog"
+      },
+      {
+        "id": "option-2",
+        "text": "Bear"
+      },
+      {
+        "id": "option-3",
+        "text": "Goat"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5504,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:6251d1f644655187",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which situation was musician John Lennon assassinated?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Attempting to enter the Dakota Apartments building"
+      },
+      {
+        "id": "option-1",
+        "text": "During an impromptu walk through Central Park"
+      },
+      {
+        "id": "option-2",
+        "text": "Signing an autograph outside the Record Plant studio"
+      },
+      {
+        "id": "option-3",
+        "text": "Waiting outside a music venue in Manhattan following a gig"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5555,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:a190137ebbc2630f",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which radio personality calls himself \"The King of All Media\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Howard Stern"
+      },
+      {
+        "id": "option-1",
+        "text": "Rush Limbaugh"
+      },
+      {
+        "id": "option-2",
+        "text": "Pete Tong"
+      },
+      {
+        "id": "option-3",
+        "text": "Ryan Seacrest"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5763,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:3b0cf0c5a6f2d6bd",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Joe DiMaggio"
+      },
+      {
+        "id": "option-1",
+        "text": "Tino Martinez"
+      },
+      {
+        "id": "option-2",
+        "text": "Babe Ruth"
+      },
+      {
+        "id": "option-3",
+        "text": "Mason Williams"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5794,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:d4b865a0247fa79d",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What year did radio icon Howard Stern start a job at radio station WNBC?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1982"
+      },
+      {
+        "id": "option-1",
+        "text": "1985"
+      },
+      {
+        "id": "option-2",
+        "text": "1984"
+      },
+      {
+        "id": "option-3",
+        "text": "1995"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5803,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:99deec343b1bba54",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actress's real name was Frances Ethel Gumm?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Judy Garland"
+      },
+      {
+        "id": "option-1",
+        "text": "Doris Day"
+      },
+      {
+        "id": "option-2",
+        "text": "Julie Andrews"
+      },
+      {
+        "id": "option-3",
+        "text": "Marilyn Monroe"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5883,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:7820b49b98fbb067",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Named after a character he played in a 1969 film, what is the name of the ski resort in Utah that Robert Redford bought in 1968?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Sundance"
+      },
+      {
+        "id": "option-1",
+        "text": "Woodward"
+      },
+      {
+        "id": "option-2",
+        "text": "Turner"
+      },
+      {
+        "id": "option-3",
+        "text": "Booker"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5945,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:c4097fcdd11e3ebe",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Neil Hamburger is played by which comedian?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Gregg Turkington"
+      },
+      {
+        "id": "option-1",
+        "text": "Nathan Fielder"
+      },
+      {
+        "id": "option-2",
+        "text": "Tim Heidecker"
+      },
+      {
+        "id": "option-3",
+        "text": "Todd Glass"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5982,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:pop-culture:ac4099000b967c3a",
+    "category": "pop-culture",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What caused Jake Lloyd who played Anakin Skywalker in The Phantom Menace to quit acting?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Bullying"
+      },
+      {
+        "id": "option-1",
+        "text": "Criminal Record"
+      },
+      {
+        "id": "option-2",
+        "text": "Nomination for Worst Actor"
+      },
+      {
+        "id": "option-3",
+        "text": "Racism"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6192,
+      "category": "Celebrities",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]

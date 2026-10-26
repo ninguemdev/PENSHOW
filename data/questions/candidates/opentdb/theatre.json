@@ -157,5 +157,1039 @@
       "category": "Entertainment: Musicals & Theatres",
       "license": "CC-BY-SA-4.0"
     }
+  },
+  {
+    "id": "opentdb:theatre:59bffb6bbe522080",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Chorus"
+      },
+      {
+        "id": "option-1",
+        "text": "Montague"
+      },
+      {
+        "id": "option-2",
+        "text": "Refrain"
+      },
+      {
+        "id": "option-3",
+        "text": "Capulet"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1017,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:9803f1b2dd3a7c0a",
+    "category": "theatre",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "\"The Crucible\" was written by William Shakespeare.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "False"
+      },
+      {
+        "id": "option-1",
+        "text": "True"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1341,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:cc199e56ee06bb6c",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the musical \"Hamilton\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lin-Manuel Miranda"
+      },
+      {
+        "id": "option-1",
+        "text": "Andrew Lloyd Webber"
+      },
+      {
+        "id": "option-2",
+        "text": "Nell Benjamin"
+      },
+      {
+        "id": "option-3",
+        "text": "Tom Kitt"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1539,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:94c63f5712dd0874",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which musical has won the most Tony awards?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Producers"
+      },
+      {
+        "id": "option-1",
+        "text": "Hamilton"
+      },
+      {
+        "id": "option-2",
+        "text": "Chicago"
+      },
+      {
+        "id": "option-3",
+        "text": "Phantom of the Opera"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1626,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:eec5112064ece008",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Stephen Sondheim"
+      },
+      {
+        "id": "option-1",
+        "text": "Himself"
+      },
+      {
+        "id": "option-2",
+        "text": "Oscar Hammerstein"
+      },
+      {
+        "id": "option-3",
+        "text": "Richard Rodgers"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 1627,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:3f44923c11d963b6",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is the name of Broadway's first \"long-run\" musical?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Elves"
+      },
+      {
+        "id": "option-1",
+        "text": "Wicked"
+      },
+      {
+        "id": "option-2",
+        "text": "Hamilton"
+      },
+      {
+        "id": "option-3",
+        "text": "The Book of Mormon"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2494,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:83b61da4a42e91b1",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "When was the play \"Macbeth\" written?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "1606"
+      },
+      {
+        "id": "option-1",
+        "text": "1605"
+      },
+      {
+        "id": "option-2",
+        "text": "1723"
+      },
+      {
+        "id": "option-3",
+        "text": "1628"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2607,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:bf3d6e51ae6041e3",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who is the musical director for the award winning musical \"Hamilton\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Alex Lacamoire"
+      },
+      {
+        "id": "option-1",
+        "text": "Lin-Manuel Miranda"
+      },
+      {
+        "id": "option-2",
+        "text": "Renee Elise-Goldberry"
+      },
+      {
+        "id": "option-3",
+        "text": "Leslie Odom Jr."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2674,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:ec2567bec0fea34c",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Titus Andronicus"
+      },
+      {
+        "id": "option-1",
+        "text": "Othello"
+      },
+      {
+        "id": "option-2",
+        "text": "Macbeth"
+      },
+      {
+        "id": "option-3",
+        "text": "King Lear"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 2980,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:207fa9225312bcb8",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the play 'Angels in America'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Tony Kusher"
+      },
+      {
+        "id": "option-1",
+        "text": "Tom Stoppard"
+      },
+      {
+        "id": "option-2",
+        "text": "Matthew Lopez"
+      },
+      {
+        "id": "option-3",
+        "text": "Anthony Neilson"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3029,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:c5bf8fb9b9286c07",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "How many plays is Shakespeare generally considered to have written?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "37"
+      },
+      {
+        "id": "option-1",
+        "text": "18"
+      },
+      {
+        "id": "option-2",
+        "text": "54"
+      },
+      {
+        "id": "option-3",
+        "text": "25"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3270,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:4cd6eddb09d361ee",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The Andrew Lloyd Webber musical \"Cats\" is based off a book of poems written by which author?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "T.S. Elliot"
+      },
+      {
+        "id": "option-1",
+        "text": "Andrew Lloyd Webber"
+      },
+      {
+        "id": "option-2",
+        "text": "Emily Dickenson"
+      },
+      {
+        "id": "option-3",
+        "text": "Robert Frost"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3528,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:eeaed66a5cdc1642",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In which Shakespeare play does the character Marcellus say, \"Something is rotten in the state of Denmark\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-1",
+        "text": "Macbeth"
+      },
+      {
+        "id": "option-2",
+        "text": "King Lear"
+      },
+      {
+        "id": "option-3",
+        "text": "Twelfth Night"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3699,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:f1dc673596687f1b",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of the following is not a piece from the 1950's musical West Side Story?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "The Back Alley"
+      },
+      {
+        "id": "option-1",
+        "text": "Maria"
+      },
+      {
+        "id": "option-2",
+        "text": "Tonight"
+      },
+      {
+        "id": "option-3",
+        "text": "Mambo"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3739,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:a8b6034cfe4e897f",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What is Jean ValJean's first prisoner number?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "24601"
+      },
+      {
+        "id": "option-1",
+        "text": "9430"
+      },
+      {
+        "id": "option-2",
+        "text": "1729"
+      },
+      {
+        "id": "option-3",
+        "text": "32769"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3740,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:8291d739b3fe948a",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What play is the quote \"Hell is other people\" from?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "No Exit"
+      },
+      {
+        "id": "option-1",
+        "text": "The Devil and the Good Lord"
+      },
+      {
+        "id": "option-2",
+        "text": "The Condemned of Altona"
+      },
+      {
+        "id": "option-3",
+        "text": "The Flies"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3814,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:af95ca963e7ed239",
+    "category": "theatre",
+    "locale": "en",
+    "type": "boolean",
+    "prompt": "The protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "True"
+      },
+      {
+        "id": "option-1",
+        "text": "False"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 3890,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:af41c442b8c9e200",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which Shakespeare play inspired the musical 'West Side Story'?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Romeo & Juliet"
+      },
+      {
+        "id": "option-1",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-2",
+        "text": "Macbeth"
+      },
+      {
+        "id": "option-3",
+        "text": "Othello"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4222,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:03a73f93382a34c3",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who wrote the award winning musical \"In The Heights\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Lin-Manuel Miranda"
+      },
+      {
+        "id": "option-1",
+        "text": "Steven Sondheim"
+      },
+      {
+        "id": "option-2",
+        "text": "Francis Scott Key"
+      },
+      {
+        "id": "option-3",
+        "text": "John Phillips Sousa"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4474,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:1e864292a3af5200",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "\"Doctor Who\" star David Tennant performed in a rendition of which Shakespearean play?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Hamlet"
+      },
+      {
+        "id": "option-1",
+        "text": "The Tempest"
+      },
+      {
+        "id": "option-2",
+        "text": "Othello"
+      },
+      {
+        "id": "option-3",
+        "text": "The Taming of the Shrew"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 4653,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:7e023547810d75d0",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which of these plays was famously first performed posthumously after the playwright committed suicide?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "4.48 Psychosis"
+      },
+      {
+        "id": "option-1",
+        "text": "Hamilton"
+      },
+      {
+        "id": "option-2",
+        "text": "Much Ado About Nothing"
+      },
+      {
+        "id": "option-3",
+        "text": "The Birthday Party"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5006,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:29aaae0f71ad1017",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Les Misérables, who is Prison Code 24601?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Jean Valjean"
+      },
+      {
+        "id": "option-1",
+        "text": "Marius Pontmercy"
+      },
+      {
+        "id": "option-2",
+        "text": "Javert"
+      },
+      {
+        "id": "option-3",
+        "text": "Jean Claude Van Damme"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5053,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:215a0e0b8589d55a",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Et tu, Brute? "
+      },
+      {
+        "id": "option-1",
+        "text": "Iacta alea est!"
+      },
+      {
+        "id": "option-2",
+        "text": "Vidi, vini, vici."
+      },
+      {
+        "id": "option-3",
+        "text": "Aegri somnia vana."
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "easy",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5145,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:f8d065101232e0c0",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "The musical \"Dirty Rotten Scoundrels\" is set in what country?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "France"
+      },
+      {
+        "id": "option-1",
+        "text": "USA"
+      },
+      {
+        "id": "option-2",
+        "text": "Germany"
+      },
+      {
+        "id": "option-3",
+        "text": "Sweden"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5215,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:7881b2c218176da5",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "After England, more Shakespeare plays are set in this present day country than in any other.",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Italy"
+      },
+      {
+        "id": "option-1",
+        "text": "United States"
+      },
+      {
+        "id": "option-2",
+        "text": "Greece"
+      },
+      {
+        "id": "option-3",
+        "text": "France"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5293,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:f7f854d6cb421419",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "A million to one"
+      },
+      {
+        "id": "option-1",
+        "text": "A billion to one"
+      },
+      {
+        "id": "option-2",
+        "text": "A trillion to one"
+      },
+      {
+        "id": "option-3",
+        "text": "A hundred to one"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 5624,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:6d9c06e7b5f58d28",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Daveed Diggs"
+      },
+      {
+        "id": "option-1",
+        "text": "Lin-Manuel Miranda"
+      },
+      {
+        "id": "option-2",
+        "text": "Javier Muñoz"
+      },
+      {
+        "id": "option-3",
+        "text": "Wayne Brady"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6045,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:3677e6fd5decafb7",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "What was George Bizet's last opera?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Carmen"
+      },
+      {
+        "id": "option-1",
+        "text": "Don Rodrigue"
+      },
+      {
+        "id": "option-2",
+        "text": "Grisélidis"
+      },
+      {
+        "id": "option-3",
+        "text": "Les pêcheurs de perles"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "medium",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6068,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:7477e610c043230d",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Brendon Urie"
+      },
+      {
+        "id": "option-1",
+        "text": "Ed Sheeren"
+      },
+      {
+        "id": "option-2",
+        "text": "Tom Cruise"
+      },
+      {
+        "id": "option-3",
+        "text": "Dallon Weekes"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6104,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  {
+    "id": "opentdb:theatre:a4344f269a285515",
+    "category": "theatre",
+    "locale": "en",
+    "type": "multiple",
+    "prompt": "Which actor has NOT portrayed Billy Flynn in the musical \"Chicago\"?",
+    "options": [
+      {
+        "id": "option-0",
+        "text": "Christopher Walken"
+      },
+      {
+        "id": "option-1",
+        "text": "David Hasselhoff"
+      },
+      {
+        "id": "option-2",
+        "text": "Jerry Springer"
+      },
+      {
+        "id": "option-3",
+        "text": "Patrick Swayze"
+      }
+    ],
+    "correctOptionId": "option-0",
+    "difficulty": "hard",
+    "status": "needs-translation",
+    "source": {
+      "id": "opentdb",
+      "url": "https://opentdb.com/",
+      "recordIndex": 6224,
+      "category": "Entertainment: Musicals & Theatres",
+      "license": "CC-BY-SA-4.0"
+    }
   }
 ]
